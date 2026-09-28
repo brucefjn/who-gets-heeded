@@ -63,26 +63,28 @@ def verify() -> None:
     print(f"numbers verified against {CSV}")
 
 
-def panel(path: str, title: str, subtitle: str, vals, labels) -> None:
+def panel(path: str, title: str, subtitle: str, vals, labels,
+          colors=(LIGHT, DARK)) -> None:
+    light, dark = colors
     plt.rcParams.update({"font.family": "DejaVu Sans"})
     fig = plt.figure(figsize=FIGSIZE, dpi=DPI)
     ax = fig.add_axes([0.135, 0.255, 0.835, 0.525])
     x = [0, 1]
     lo, hi = vals
-    ax.bar(x, vals, width=0.42, color=[LIGHT, DARK], zorder=2)
+    ax.bar(x, vals, width=0.42, color=[light, dark], zorder=2)
     for xi, v in zip(x, vals):
         ax.text(xi, v + 2, f"{v:.1f}%", ha="center", va="bottom",
-                fontsize=15, fontweight="bold", color=DARK)
+                fontsize=15, fontweight="bold", color=dark)
 
     # Gap annotation: dashed guides from each bar top, double arrow, and the
     # label just below the arrow (clear of the bar-top value labels).
-    ax.plot([0.21, 0.5], [lo, lo], ls="--", lw=1, color=DARK, zorder=3)
-    ax.plot([0.5, 0.79], [hi, hi], ls="--", lw=1, color=DARK, zorder=3)
+    ax.plot([0.21, 0.5], [lo, lo], ls="--", lw=1, color=dark, zorder=3)
+    ax.plot([0.5, 0.79], [hi, hi], ls="--", lw=1, color=dark, zorder=3)
     ax.annotate("", xy=(0.5, hi), xytext=(0.5, lo),
-                arrowprops=dict(arrowstyle="<->", color=DARK, lw=1.2,
+                arrowprops=dict(arrowstyle="<->", color=dark, lw=1.2,
                                 shrinkA=0, shrinkB=0, mutation_scale=9))
     ax.text(0.5, lo - 2.5, f"+{hi - lo:.1f} pp", ha="center", va="top",
-            fontsize=12, fontweight="bold", color=DARK)
+            fontsize=12, fontweight="bold", color=dark)
 
     ax.set_xlim(-0.55, 1.55)
     ax.set_xticks(x)
@@ -123,7 +125,8 @@ def main() -> None:
           "Difference within sampling noise",
           (F2["opp"], F2["sup"]),
           [f"Opposing\n(≥ 1 opposing\ncommenter)\nn = {F2['n_opp']:,}",
-           f"Supporting\n(≥ 1 supporting\ncommenter)\nn = {F2['n_sup']:,}"])
+           f"Supporting\n(≥ 1 supporting\ncommenter)\nn = {F2['n_sup']:,}"],
+          colors=("#b3ddd6", "#0f6b5f"))
 
 
 if __name__ == "__main__":

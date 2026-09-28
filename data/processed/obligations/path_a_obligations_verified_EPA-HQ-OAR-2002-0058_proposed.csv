@@ -1,0 +1,1517 @@
+candidate_idx,docket_id,rule_type,split_idx,verified,verified_reason,complexity,recital_disposition,cfr_part,cfr_section,subject,modal,modal_strength,action,object,passive_voice,is_conditional,condition_text,amendatory_action,obligation_text,cross_reference,found_via,llm_provider,llm_model,in_tokens,out_tokens
+1,EPA-HQ-OAR-2002-0058,proposed,0,True,"Text is regulatory requirement language within a CFR-style section, prescribing actions with 'shall' and cross-referencing specific CFR provisions.",compound,none,,,The owner or operator of an affected source using a PM CPMS to meet requirements of this subpart,shall,strong,install,the PM CPMS in accordance with your site-specific monitoring plan as required in § 63.7505(d),False,False,,none,"(9) The owner or operator of an affected source using a PM CPMS to 
+meet requirements of this subpart shall install, certify, operate, and 
+maintain the PM CPMS in accordance with your site-specific monitoring 
+plan as required in Sec.  63.7505(d).",§ 63.7505(d),primary,openai,gpt-5,1858,617
+1,EPA-HQ-OAR-2002-0058,proposed,1,True,"Text is regulatory requirement language within a CFR-style section, prescribing actions with 'shall' and cross-referencing specific CFR provisions.",compound,none,,,The owner or operator of an affected source using a PM CPMS to meet requirements of this subpart,shall,strong,certify,the PM CPMS in accordance with your site-specific monitoring plan as required in § 63.7505(d),False,False,,none,"(9) The owner or operator of an affected source using a PM CPMS to 
+meet requirements of this subpart shall install, certify, operate, and 
+maintain the PM CPMS in accordance with your site-specific monitoring 
+plan as required in Sec.  63.7505(d).",§ 63.7505(d),primary,openai,gpt-5,0,0
+1,EPA-HQ-OAR-2002-0058,proposed,2,True,"Text is regulatory requirement language within a CFR-style section, prescribing actions with 'shall' and cross-referencing specific CFR provisions.",compound,none,,,The owner or operator of an affected source using a PM CPMS to meet requirements of this subpart,shall,strong,operate,the PM CPMS in accordance with your site-specific monitoring plan as required in § 63.7505(d),False,False,,none,"(9) The owner or operator of an affected source using a PM CPMS to 
+meet requirements of this subpart shall install, certify, operate, and 
+maintain the PM CPMS in accordance with your site-specific monitoring 
+plan as required in Sec.  63.7505(d).",§ 63.7505(d),primary,openai,gpt-5,0,0
+1,EPA-HQ-OAR-2002-0058,proposed,3,True,"Text is regulatory requirement language within a CFR-style section, prescribing actions with 'shall' and cross-referencing specific CFR provisions.",compound,none,,,The owner or operator of an affected source using a PM CPMS to meet requirements of this subpart,shall,strong,maintain,the PM CPMS in accordance with your site-specific monitoring plan as required in § 63.7505(d),False,False,,none,"(9) The owner or operator of an affected source using a PM CPMS to 
+meet requirements of this subpart shall install, certify, operate, and 
+maintain the PM CPMS in accordance with your site-specific monitoring 
+plan as required in Sec.  63.7505(d).",§ 63.7505(d),primary,openai,gpt-5,0,0
+2,EPA-HQ-OAR-2002-0058,proposed,0,True,"The text is binding regulatory requirement language within a CFR section prescribing compliance duties, not a preamble or mere definition.",simple,none,,,you,must,strong,conduct,a tune-up of the boiler or process heater annually to demonstrate continuous compliance as specified in paragraphs (a)(10)(i) through (vi) of this section,False,True,"If your boiler or process heater is in either the natural gas, refinery gas, other gas 1, or Metal Process Furnace subcategories and has a heat input capacity of 10 million Btu per hour or greater",none,"(10) If your boiler or process heater is in either the natural gas, 
+refinery gas, other gas 1, or Metal Process Furnace subcategories and 
+has a heat input capacity of 10 million Btu per hour or greater, you 
+must conduct a tune-up of the boiler or process heater annually to 
+demonstrate continuous compliance as specified in paragraphs (a)(10)(i) 
+through (vi) of this section.",,primary,openai,gpt-5,1905,235
+3,EPA-HQ-OAR-2002-0058,proposed,0,True,"The text is prescriptive compliance rule language within a CFR operational requirement block, specifying actions for annual tune-ups; it is binding regulatory text.",compound,none,,,you,must,strong,inspect,the burner,False,True,"As applicable, during the annual tune-up required for certain boilers or process heaters",none,"As applicable, inspect the burner, and clean or replace any 
+components of the burner as necessary (you may delay the burner 
+inspection until the next scheduled or unscheduled unit shutdown);
+    (ii) Inspect the flame pattern, as applicable, and adjust the 
+burner as necessary to optimize the flame pattern.",,primary,openai,gpt-5,1816,610
+3,EPA-HQ-OAR-2002-0058,proposed,1,True,"The text is prescriptive compliance rule language within a CFR operational requirement block, specifying actions for annual tune-ups; it is binding regulatory text.",compound,none,,,you,must,strong,clean or replace,any components of the burner as necessary,False,True,"As applicable, during the annual tune-up required for certain boilers or process heaters",none,"As applicable, inspect the burner, and clean or replace any 
+components of the burner as necessary (you may delay the burner 
+inspection until the next scheduled or unscheduled unit shutdown);
+    (ii) Inspect the flame pattern, as applicable, and adjust the 
+burner as necessary to optimize the flame pattern.",,primary,openai,gpt-5,0,0
+3,EPA-HQ-OAR-2002-0058,proposed,2,True,"The text is prescriptive compliance rule language within a CFR operational requirement block, specifying actions for annual tune-ups; it is binding regulatory text.",compound,none,,,you,may,permissive,delay,the burner inspection,False,True,until the next scheduled or unscheduled unit shutdown,none,"As applicable, inspect the burner, and clean or replace any 
+components of the burner as necessary (you may delay the burner 
+inspection until the next scheduled or unscheduled unit shutdown);
+    (ii) Inspect the flame pattern, as applicable, and adjust the 
+burner as necessary to optimize the flame pattern.",,primary,openai,gpt-5,0,0
+3,EPA-HQ-OAR-2002-0058,proposed,3,True,"The text is prescriptive compliance rule language within a CFR operational requirement block, specifying actions for annual tune-ups; it is binding regulatory text.",compound,none,,,you,must,strong,inspect,the flame pattern,False,True,"As applicable, during the annual tune-up required for certain boilers or process heaters",none,"As applicable, inspect the burner, and clean or replace any 
+components of the burner as necessary (you may delay the burner 
+inspection until the next scheduled or unscheduled unit shutdown);
+    (ii) Inspect the flame pattern, as applicable, and adjust the 
+burner as necessary to optimize the flame pattern.",,primary,openai,gpt-5,0,0
+3,EPA-HQ-OAR-2002-0058,proposed,4,True,"The text is prescriptive compliance rule language within a CFR operational requirement block, specifying actions for annual tune-ups; it is binding regulatory text.",compound,none,,,you,must,strong,adjust,the burner as necessary to optimize the flame pattern,False,True,"As applicable, during the annual tune-up required for certain boilers or process heaters",none,"As applicable, inspect the burner, and clean or replace any 
+components of the burner as necessary (you may delay the burner 
+inspection until the next scheduled or unscheduled unit shutdown);
+    (ii) Inspect the flame pattern, as applicable, and adjust the 
+burner as necessary to optimize the flame pattern.",,primary,openai,gpt-5,0,0
+4,EPA-HQ-OAR-2002-0058,proposed,0,True,The text is operative regulatory requirements within a CFR-style section prescribing tune-up procedures and reporting; it is binding non-preamble regulatory text.,compound,none,,,you,must,strong,ensure optimization is consistent with the manufacturer's specifications,optimization of total emissions of carbon monoxide,False,False,,none,"This optimization 
+should be consistent with the manufacturer's specifications, if 
+available;
+    (v) Measure the concentrations in the effluent stream of carbon 
+monoxide in parts per million, by volume, and oxygen in volume percent, 
+before and after the adjustments are made (measurements may be either 
+on a dry or wet basis, as long as it is the same basis before and after 
+the adjustments are made); and
+    (vi) Maintain on-site and submit, if requested by the 
+Administrator, an annual report containing the information in 
+paragraphs (a)(10)(vi)(A) through (C) of this section,
+    (A) The concentrations of carbon monoxide in the effluent stream in 
+parts per million by volume, and oxygen in volume percent, measured 
+before and after the adjustments of the boiler;
+    (B) A description of any corrective actions taken as a part of the 
+combustion adjustment; and
+    (C) The type and amount of fuel used over the 12 months prior to 
+the annual adjustment, but only if the unit was physically and legally 
+capable of using more than one type of fuel during that period.",,primary,openai,gpt-5,2172,913
+4,EPA-HQ-OAR-2002-0058,proposed,1,True,The text is operative regulatory requirements within a CFR-style section prescribing tune-up procedures and reporting; it is binding non-preamble regulatory text.,compound,none,,,you,must,strong,measure concentrations in the effluent stream,"carbon monoxide (ppm by volume) and oxygen (volume percent) before and after adjustments, on a consistent dry or wet basis",False,False,,none,"This optimization 
+should be consistent with the manufacturer's specifications, if 
+available;
+    (v) Measure the concentrations in the effluent stream of carbon 
+monoxide in parts per million, by volume, and oxygen in volume percent, 
+before and after the adjustments are made (measurements may be either 
+on a dry or wet basis, as long as it is the same basis before and after 
+the adjustments are made); and
+    (vi) Maintain on-site and submit, if requested by the 
+Administrator, an annual report containing the information in 
+paragraphs (a)(10)(vi)(A) through (C) of this section,
+    (A) The concentrations of carbon monoxide in the effluent stream in 
+parts per million by volume, and oxygen in volume percent, measured 
+before and after the adjustments of the boiler;
+    (B) A description of any corrective actions taken as a part of the 
+combustion adjustment; and
+    (C) The type and amount of fuel used over the 12 months prior to 
+the annual adjustment, but only if the unit was physically and legally 
+capable of using more than one type of fuel during that period.",,primary,openai,gpt-5,0,0
+4,EPA-HQ-OAR-2002-0058,proposed,2,True,The text is operative regulatory requirements within a CFR-style section prescribing tune-up procedures and reporting; it is binding non-preamble regulatory text.,compound,none,,,you,must,strong,maintain on-site an annual report,information in paragraphs (a)(10)(vi)(A) through (C) of this section,False,False,,none,"This optimization 
+should be consistent with the manufacturer's specifications, if 
+available;
+    (v) Measure the concentrations in the effluent stream of carbon 
+monoxide in parts per million, by volume, and oxygen in volume percent, 
+before and after the adjustments are made (measurements may be either 
+on a dry or wet basis, as long as it is the same basis before and after 
+the adjustments are made); and
+    (vi) Maintain on-site and submit, if requested by the 
+Administrator, an annual report containing the information in 
+paragraphs (a)(10)(vi)(A) through (C) of this section,
+    (A) The concentrations of carbon monoxide in the effluent stream in 
+parts per million by volume, and oxygen in volume percent, measured 
+before and after the adjustments of the boiler;
+    (B) A description of any corrective actions taken as a part of the 
+combustion adjustment; and
+    (C) The type and amount of fuel used over the 12 months prior to 
+the annual adjustment, but only if the unit was physically and legally 
+capable of using more than one type of fuel during that period.",§ (a)(10)(vi)(A)–(C),primary,openai,gpt-5,0,0
+4,EPA-HQ-OAR-2002-0058,proposed,3,True,The text is operative regulatory requirements within a CFR-style section prescribing tune-up procedures and reporting; it is binding non-preamble regulatory text.,compound,none,,,you,must,strong,submit an annual report to the Administrator,information in paragraphs (a)(10)(vi)(A) through (C) of this section,False,True,if requested by the Administrator,none,"This optimization 
+should be consistent with the manufacturer's specifications, if 
+available;
+    (v) Measure the concentrations in the effluent stream of carbon 
+monoxide in parts per million, by volume, and oxygen in volume percent, 
+before and after the adjustments are made (measurements may be either 
+on a dry or wet basis, as long as it is the same basis before and after 
+the adjustments are made); and
+    (vi) Maintain on-site and submit, if requested by the 
+Administrator, an annual report containing the information in 
+paragraphs (a)(10)(vi)(A) through (C) of this section,
+    (A) The concentrations of carbon monoxide in the effluent stream in 
+parts per million by volume, and oxygen in volume percent, measured 
+before and after the adjustments of the boiler;
+    (B) A description of any corrective actions taken as a part of the 
+combustion adjustment; and
+    (C) The type and amount of fuel used over the 12 months prior to 
+the annual adjustment, but only if the unit was physically and legally 
+capable of using more than one type of fuel during that period.",§ (a)(10)(vi)(A)–(C),primary,openai,gpt-5,0,0
+4,EPA-HQ-OAR-2002-0058,proposed,4,True,The text is operative regulatory requirements within a CFR-style section prescribing tune-up procedures and reporting; it is binding non-preamble regulatory text.,compound,none,,,you,must,strong,include in the annual report the concentrations measured,carbon monoxide (ppm by volume) and oxygen (volume percent) before and after the adjustments of the boiler,False,False,,none,"This optimization 
+should be consistent with the manufacturer's specifications, if 
+available;
+    (v) Measure the concentrations in the effluent stream of carbon 
+monoxide in parts per million, by volume, and oxygen in volume percent, 
+before and after the adjustments are made (measurements may be either 
+on a dry or wet basis, as long as it is the same basis before and after 
+the adjustments are made); and
+    (vi) Maintain on-site and submit, if requested by the 
+Administrator, an annual report containing the information in 
+paragraphs (a)(10)(vi)(A) through (C) of this section,
+    (A) The concentrations of carbon monoxide in the effluent stream in 
+parts per million by volume, and oxygen in volume percent, measured 
+before and after the adjustments of the boiler;
+    (B) A description of any corrective actions taken as a part of the 
+combustion adjustment; and
+    (C) The type and amount of fuel used over the 12 months prior to 
+the annual adjustment, but only if the unit was physically and legally 
+capable of using more than one type of fuel during that period.",,primary,openai,gpt-5,0,0
+4,EPA-HQ-OAR-2002-0058,proposed,5,True,The text is operative regulatory requirements within a CFR-style section prescribing tune-up procedures and reporting; it is binding non-preamble regulatory text.,compound,none,,,you,must,strong,include in the annual report a description of corrective actions,any corrective actions taken as part of the combustion adjustment,False,False,,none,"This optimization 
+should be consistent with the manufacturer's specifications, if 
+available;
+    (v) Measure the concentrations in the effluent stream of carbon 
+monoxide in parts per million, by volume, and oxygen in volume percent, 
+before and after the adjustments are made (measurements may be either 
+on a dry or wet basis, as long as it is the same basis before and after 
+the adjustments are made); and
+    (vi) Maintain on-site and submit, if requested by the 
+Administrator, an annual report containing the information in 
+paragraphs (a)(10)(vi)(A) through (C) of this section,
+    (A) The concentrations of carbon monoxide in the effluent stream in 
+parts per million by volume, and oxygen in volume percent, measured 
+before and after the adjustments of the boiler;
+    (B) A description of any corrective actions taken as a part of the 
+combustion adjustment; and
+    (C) The type and amount of fuel used over the 12 months prior to 
+the annual adjustment, but only if the unit was physically and legally 
+capable of using more than one type of fuel during that period.",,primary,openai,gpt-5,0,0
+4,EPA-HQ-OAR-2002-0058,proposed,6,True,The text is operative regulatory requirements within a CFR-style section prescribing tune-up procedures and reporting; it is binding non-preamble regulatory text.,compound,none,,,you,must,strong,include in the annual report the type and amount of fuel used over the prior 12 months,for units physically and legally capable of using more than one type of fuel during that period,False,True,only if the unit was physically and legally capable of using more than one type of fuel during that period,none,"This optimization 
+should be consistent with the manufacturer's specifications, if 
+available;
+    (v) Measure the concentrations in the effluent stream of carbon 
+monoxide in parts per million, by volume, and oxygen in volume percent, 
+before and after the adjustments are made (measurements may be either 
+on a dry or wet basis, as long as it is the same basis before and after 
+the adjustments are made); and
+    (vi) Maintain on-site and submit, if requested by the 
+Administrator, an annual report containing the information in 
+paragraphs (a)(10)(vi)(A) through (C) of this section,
+    (A) The concentrations of carbon monoxide in the effluent stream in 
+parts per million by volume, and oxygen in volume percent, measured 
+before and after the adjustments of the boiler;
+    (B) A description of any corrective actions taken as a part of the 
+combustion adjustment; and
+    (C) The type and amount of fuel used over the 12 months prior to 
+the annual adjustment, but only if the unit was physically and legally 
+capable of using more than one type of fuel during that period.",,primary,openai,gpt-5,0,0
+5,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence appears within binding regulatory text specifying reporting/tune-up requirements, functioning as permissive binding text within an amendatory/regulatory section.",simple,none,,,Units sharing a fuel meter,may,permissive,estimate,the fuel used by each unit,False,False,,none,"Units 
+sharing a fuel meter may estimate the fuel used by each unit.",,primary,openai,gpt-5,1740,177
+6,EPA-HQ-OAR-2002-0058,proposed,0,True,The sentence is binding regulatory text within a CFR-style section prescribing compliance duties (uses must) and is not preamble or a mere definition.,simple,none,,,you,must,strong,conduct,a biennial tune-up of the boiler or process heater as specified in paragraphs (a)(10)(i) through (a)(10)(vi) of this section to demonstrate continuous compliance,False,True,"If your boiler or process heater has a heat input capacity of less than 10 million Btu per hour (except as specified in paragraph (a)(12) of this section), or meets the definition of limited-use boiler or process heater in § 63.7575",none,"(11) If your boiler or process heater has a heat input capacity of 
+less than 10 million Btu per hour (except as specified in paragraph 
+(a)(12) of this section), or meets the definition of limited-use boiler 
+or process heater in Sec.  63.7575, you must conduct a biennial tune-up 
+of the boiler or process heater as specified in paragraphs (a)(10)(i) 
+through (a)(10)(vi) of this section to demonstrate continuous 
+compliance.",§ 63.7575,primary,openai,gpt-5,1926,263
+7,EPA-HQ-OAR-2002-0058,proposed,0,True,The sentence is prescriptive regulatory text within a CFR-style section and imposes an obligation using must.,simple,none,,,you,must,strong,conduct,a tune-up of the boiler or process heater every 5 years as specified in paragraphs (a)(10)(i) through (vi) of this section to demonstrate continuous compliance,False,True,"If your boiler or process heater has a heat input capacity of less than 5 million Btu per hour and the unit is in the units designed to burn natural gas, refinery gas or other gas 1 fuels, units designed to burn gas 2 (other), or units designed to burn light liquid subcategories",none,"(12) If your boiler or process heater has a heat input capacity of 
+less than 5 million Btu per hour, and the unit is in the units designed 
+to burn natural gas, refinery gas or other gas 1 fuels, units designed 
+to burn gas 2 (other), or units designed to burn light liquid 
+subcategories, you must conduct a tune-up of the boiler or process 
+heater every 5 years as specified in paragraphs (a)(10)(i) through (vi) 
+of this section to demonstrate continuous compliance.",,primary,openai,gpt-5,1937,254
+8,EPA-HQ-OAR-2002-0058,proposed,0,True,"The text is regulatory operative language within a CFR-style section prescribing compliance actions and conditions, not preamble or definition scope; thus it is binding.",compound,none,,,you,may,permissive,delay the burner inspection specified in paragraph (a)(10)(i) of this section,burner inspection,False,True,until the next scheduled or unscheduled unit shutdown,none,"You may delay the 
+burner inspection specified in paragraph (a)(10)(i) of this section 
+until the next scheduled or unscheduled unit shutdown, but you must 
+inspect each burner at least once every 72 months.
+    (13) If the unit is not operating on the required date for a tune-
+up, the tune-up must be conducted within one week of startup.
+    (14) If you are using a CEMS measuring mercury emissions to meet 
+requirements of this subpart you must install, certify, operate, and 
+maintain the mercury CEMS as specified in paragraphs (a)(14)(i) and 
+(ii) of this section.",paragraph (a)(10)(i) of this section,primary,openai,gpt-5,1978,558
+8,EPA-HQ-OAR-2002-0058,proposed,1,True,"The text is regulatory operative language within a CFR-style section prescribing compliance actions and conditions, not preamble or definition scope; thus it is binding.",compound,none,,,you,must,strong,inspect,each burner at least once every 72 months,False,False,,none,"You may delay the 
+burner inspection specified in paragraph (a)(10)(i) of this section 
+until the next scheduled or unscheduled unit shutdown, but you must 
+inspect each burner at least once every 72 months.
+    (13) If the unit is not operating on the required date for a tune-
+up, the tune-up must be conducted within one week of startup.
+    (14) If you are using a CEMS measuring mercury emissions to meet 
+requirements of this subpart you must install, certify, operate, and 
+maintain the mercury CEMS as specified in paragraphs (a)(14)(i) and 
+(ii) of this section.",,primary,openai,gpt-5,0,0
+8,EPA-HQ-OAR-2002-0058,proposed,2,True,"The text is regulatory operative language within a CFR-style section prescribing compliance actions and conditions, not preamble or definition scope; thus it is binding.",compound,none,,,you,must,strong,conduct a tune-up,the unit,False,True,If the unit is not operating on the required date for a tune-up,none,"You may delay the 
+burner inspection specified in paragraph (a)(10)(i) of this section 
+until the next scheduled or unscheduled unit shutdown, but you must 
+inspect each burner at least once every 72 months.
+    (13) If the unit is not operating on the required date for a tune-
+up, the tune-up must be conducted within one week of startup.
+    (14) If you are using a CEMS measuring mercury emissions to meet 
+requirements of this subpart you must install, certify, operate, and 
+maintain the mercury CEMS as specified in paragraphs (a)(14)(i) and 
+(ii) of this section.",,primary,openai,gpt-5,0,0
+8,EPA-HQ-OAR-2002-0058,proposed,3,True,"The text is regulatory operative language within a CFR-style section prescribing compliance actions and conditions, not preamble or definition scope; thus it is binding.",compound,none,,,you,must,strong,"install, certify, operate, and maintain",the mercury CEMS as specified in paragraphs (a)(14)(i) and (ii) of this section,False,True,If you are using a CEMS measuring mercury emissions to meet requirements of this subpart,none,"You may delay the 
+burner inspection specified in paragraph (a)(10)(i) of this section 
+until the next scheduled or unscheduled unit shutdown, but you must 
+inspect each burner at least once every 72 months.
+    (13) If the unit is not operating on the required date for a tune-
+up, the tune-up must be conducted within one week of startup.
+    (14) If you are using a CEMS measuring mercury emissions to meet 
+requirements of this subpart you must install, certify, operate, and 
+maintain the mercury CEMS as specified in paragraphs (a)(14)(i) and 
+(ii) of this section.",paragraphs (a)(14)(i) and (ii) of this section,primary,openai,gpt-5,0,0
+9,EPA-HQ-OAR-2002-0058,proposed,0,True,The sentence appears within regulatory requirements text with mandatory modal language and is part of an amendatory block adding/setting CEMS requirements.,simple,none,,,performance test,must,strong,have a duration of,a calendar month,False,False,,add,"The duration of the 
+performance test must be a calendar month.",,primary,openai,gpt-5,1733,170
+10,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence is within regulatory requirements language specifying CEMS operations and imposes a clear duty, indicating binding text.",compound,none,,,you,must,strong,obtain,hourly mercury concentration data,False,True,For each calendar month in which the unit operates,none,"For each calendar month in 
+which the unit operates, you must obtain hourly mercury concentration 
+data, and stack gas volumetric flow rate data.",,primary,openai,gpt-5,1771,278
+10,EPA-HQ-OAR-2002-0058,proposed,1,True,"The sentence is within regulatory requirements language specifying CEMS operations and imposes a clear duty, indicating binding text.",compound,none,,,you,must,strong,obtain,stack gas volumetric flow rate data,False,True,For each calendar month in which the unit operates,none,"For each calendar month in 
+which the unit operates, you must obtain hourly mercury concentration 
+data, and stack gas volumetric flow rate data.",,primary,openai,gpt-5,0,0
+11,EPA-HQ-OAR-2002-0058,proposed,0,True,"The text is regulatory binding language with mandatory modals within CFR rule text, not preamble; it imposes requirements on operators using CEMS.",compound,none,,,you,must,strong,"install, operate, calibrate, and maintain an instrument for continuously measuring and recording the mercury mass emissions rate to the atmosphere","an instrument meeting performance specifications 6 and 12A of 40 CFR part 60, appendix B, and quality assurance procedure 6 of 40 CFR part 60, appendix F",False,True,If you are using a mercury CEMS,none,"(ii) If you are using a mercury CEMS, you must install, operate, 
+calibrate, and maintain an instrument for continuously measuring and 
+recording the mercury mass emissions rate to the atmosphere according 
+to the requirements of performance specifications 6 and 12A of 40 CFR 
+part 60, appendix B, and quality assurance procedure 6 of 40 CFR part 
+60, appendix F.
+    (15) If you are using a CEMS to measure hydrogen chloride emissions 
+to meet requirements of this subpart, you must install, certify, 
+operate, and maintain the hydrogen chloride CEMS as specified in 
+paragraphs (a)(15)(i) and (ii) of this section.",40 CFR part 60,primary,openai,gpt-5,1976,376
+11,EPA-HQ-OAR-2002-0058,proposed,1,True,"The text is regulatory binding language with mandatory modals within CFR rule text, not preamble; it imposes requirements on operators using CEMS.",compound,none,,,you,must,strong,"install, certify, operate, and maintain the hydrogen chloride CEMS",as specified in paragraphs (a)(15)(i) and (ii) of this section,False,True,If you are using a CEMS to measure hydrogen chloride emissions to meet requirements of this subpart,none,"(ii) If you are using a mercury CEMS, you must install, operate, 
+calibrate, and maintain an instrument for continuously measuring and 
+recording the mercury mass emissions rate to the atmosphere according 
+to the requirements of performance specifications 6 and 12A of 40 CFR 
+part 60, appendix B, and quality assurance procedure 6 of 40 CFR part 
+60, appendix F.
+    (15) If you are using a CEMS to measure hydrogen chloride emissions 
+to meet requirements of this subpart, you must install, certify, 
+operate, and maintain the hydrogen chloride CEMS as specified in 
+paragraphs (a)(15)(i) and (ii) of this section.",,primary,openai,gpt-5,0,0
+12,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence appears within operative regulatory requirements text for CEMS operation and uses mandatory language (must), indicating binding regulatory text.",simple,none,,,the performance test,must,strong,have a duration of,a calendar month,False,False,,none,"The duration of the performance test must be a calendar 
+month.","40 CFR part 60, appendix B",primary,openai,gpt-5,1701,177
+13,EPA-HQ-OAR-2002-0058,proposed,0,True,The sentence appears within regulatory operational requirements text (not preamble) and states a clear mandatory duty.,compound,none,,,you,must,strong,obtain,hourly hydrogen chloride concentration data,False,True,For each calendar month in which the unit operates,none,"For each calendar month in which the unit operates, you must 
+obtain hourly hydrogen chloride concentration data, and stack gas 
+volumetric flow rate data.",,primary,openai,gpt-5,1739,277
+13,EPA-HQ-OAR-2002-0058,proposed,1,True,The sentence appears within regulatory operational requirements text (not preamble) and states a clear mandatory duty.,compound,none,,,you,must,strong,obtain,stack gas volumetric flow rate data,False,True,For each calendar month in which the unit operates,none,"For each calendar month in which the unit operates, you must 
+obtain hourly hydrogen chloride concentration data, and stack gas 
+volumetric flow rate data.",,primary,openai,gpt-5,0,0
+14,EPA-HQ-OAR-2002-0058,proposed,0,True,The sentence is binding regulatory text with a clear actor and mandatory modal within rule text; it is not preamble or a mere definition.,compound,none,,,you,must,strong,install,an instrument for continuously measuring and recording the hydrogen chloride mass emissions rate to the atmosphere,False,True,If you are using a hydrogen chloride continuous emissions monitoring system,none,"(ii) If you are using a hydrogen chloride continuous emissions 
+monitoring system, you must install, operate, calibrate, and maintain 
+an instrument for continuously measuring and recording the hydrogen 
+chloride mass emissions rate to the atmosphere according to the 
+requirements of the applicable performance specification of 40 CFR part 
+60, appendix B, and the quality assurance procedures of 40 CFR part 60, 
+appendix F.
+    (16)",,primary,openai,gpt-5,1849,559
+14,EPA-HQ-OAR-2002-0058,proposed,1,True,The sentence is binding regulatory text with a clear actor and mandatory modal within rule text; it is not preamble or a mere definition.,compound,none,,,you,must,strong,operate,the instrument for continuously measuring and recording the hydrogen chloride mass emissions rate to the atmosphere,False,True,If you are using a hydrogen chloride continuous emissions monitoring system,none,"(ii) If you are using a hydrogen chloride continuous emissions 
+monitoring system, you must install, operate, calibrate, and maintain 
+an instrument for continuously measuring and recording the hydrogen 
+chloride mass emissions rate to the atmosphere according to the 
+requirements of the applicable performance specification of 40 CFR part 
+60, appendix B, and the quality assurance procedures of 40 CFR part 60, 
+appendix F.
+    (16)","40 CFR part 60, appendix B",primary,openai,gpt-5,0,0
+14,EPA-HQ-OAR-2002-0058,proposed,2,True,The sentence is binding regulatory text with a clear actor and mandatory modal within rule text; it is not preamble or a mere definition.,compound,none,,,you,must,strong,calibrate,the instrument for continuously measuring and recording the hydrogen chloride mass emissions rate to the atmosphere,False,True,If you are using a hydrogen chloride continuous emissions monitoring system,none,"(ii) If you are using a hydrogen chloride continuous emissions 
+monitoring system, you must install, operate, calibrate, and maintain 
+an instrument for continuously measuring and recording the hydrogen 
+chloride mass emissions rate to the atmosphere according to the 
+requirements of the applicable performance specification of 40 CFR part 
+60, appendix B, and the quality assurance procedures of 40 CFR part 60, 
+appendix F.
+    (16)","40 CFR part 60, appendix B",primary,openai,gpt-5,0,0
+14,EPA-HQ-OAR-2002-0058,proposed,3,True,The sentence is binding regulatory text with a clear actor and mandatory modal within rule text; it is not preamble or a mere definition.,compound,none,,,you,must,strong,maintain,the instrument for continuously measuring and recording the hydrogen chloride mass emissions rate to the atmosphere,False,True,If you are using a hydrogen chloride continuous emissions monitoring system,none,"(ii) If you are using a hydrogen chloride continuous emissions 
+monitoring system, you must install, operate, calibrate, and maintain 
+an instrument for continuously measuring and recording the hydrogen 
+chloride mass emissions rate to the atmosphere according to the 
+requirements of the applicable performance specification of 40 CFR part 
+60, appendix B, and the quality assurance procedures of 40 CFR part 60, 
+appendix F.
+    (16)","40 CFR part 60, appendix F",primary,openai,gpt-5,0,0
+15,EPA-HQ-OAR-2002-0058,proposed,0,True,The sentence is regulatory requirement language within CFR rule text (not preamble) imposing a duty on the regulated party.,simple,none,,,you,must,strong,recalculate,the maximum total selected metals input using Equation 9 of § 63.7530,False,True,"If you demonstrate compliance with an applicable total selected metals emission limit through performance testing, and you plan to burn a new type of fuel or a new mixture of fuels",none,"If you demonstrate compliance with an applicable total 
+selected metals emission limit through performance testing, and you 
+plan to burn a new type of fuel or a new mixture of fuels, you must 
+recalculate the maximum total selected metals input using Equation 9 of 
+Sec.  63.7530.",§ 63.7530,primary,openai,gpt-5,1820,216
+16,EPA-HQ-OAR-2002-0058,proposed,0,True,"This is binding regulatory text with mandatory language (must) in operative CFR rule text, not preamble.",simple,none,,,you,must,strong,conduct,a new performance test within 60 days of burning the new fuel type or fuel mixture according to the procedures in § 63.7520,False,True,If the results of recalculating the maximum total selected metals input using Equation 9 of § 63.7530 are higher than the maximum total selected input level established during the previous performance test,none,"If the results of recalculating the maximum total 
+selected metals input using Equation 9 of Sec.  63.7530 are higher than 
+the maximum total selected input level established during the previous 
+performance test, then you must conduct a new performance test within 
+60 days of burning the new fuel type or fuel mixture according to the 
+procedures in Sec.  63.7520 to demonstrate that the total selected 
+metals emissions do not exceed the emission limit.",§ 63.7520,primary,openai,gpt-5,1891,231
+17,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence is binding regulatory text within a CFR section context and states a clear obligation with 'must', not a definition or preamble.",simple,none,,63.7520,You,must,strong,establish,new operating limits based on this performance test according to the procedures in § 63.7530(b),False,False,,none,"You must also 
+establish new operating limits based on this performance test according 
+to the procedures in Sec.  63.7530(b).",§ 63.7530(b),primary,openai,gpt-5,1769,196
+18,EPA-HQ-OAR-2002-0058,proposed,0,True,"The text is regulatory binding text within a CFR section, containing explicit must/may directives rather than preamble or definition scope; thus it is binding.",compound,none,,63.7530,you,may,permissive,exclude,the fuels described in § 63.7510(a)(2)(i) through (iii) when recalculating the total selected metals emission rate,False,False,,none,"You may exclude the fuels described in Sec.  63.7510(a)(2)(i) 
+through (iii) when recalculating the total selected metals emission 
+rate.
+    (17) If you demonstrate compliance with an applicable total 
+selected metals emission limit through fuel analysis for solid fuels, 
+and you plan to burn a new type of fuel, you must recalculate the total 
+selected metals emission rate using Equation 13 of Sec.  63.7530 
+according to the procedures specified in paragraphs (a)(5)(i) through 
+(iii) of this section.",§ 63.7510(a)(2)(i)–(iii),primary,openai,gpt-5,1962,362
+18,EPA-HQ-OAR-2002-0058,proposed,1,True,"The text is regulatory binding text within a CFR section, containing explicit must/may directives rather than preamble or definition scope; thus it is binding.",compound,none,,63.7530,you,must,strong,recalculate,the total selected metals emission rate using Equation 13 of § 63.7530,False,True,"If you demonstrate compliance with an applicable total selected metals emission limit through fuel analysis for solid fuels, and you plan to burn a new type of fuel",none,"You may exclude the fuels described in Sec.  63.7510(a)(2)(i) 
+through (iii) when recalculating the total selected metals emission 
+rate.
+    (17) If you demonstrate compliance with an applicable total 
+selected metals emission limit through fuel analysis for solid fuels, 
+and you plan to burn a new type of fuel, you must recalculate the total 
+selected metals emission rate using Equation 13 of Sec.  63.7530 
+according to the procedures specified in paragraphs (a)(5)(i) through 
+(iii) of this section.",§ 63.7530,primary,openai,gpt-5,0,0
+19,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence appears within binding regulatory text providing procedures and permissions; even without an explicit amendatory header in the snippet, it functions as operative CFR text rather than preamble or a pure definition.",simple,none,,63.7510(a)(2)(i),You,may,permissive,exclude,the fuels described in § 63.7510(a)(2)(i) through (iii) when recalculating the total selected metals emission rate,False,False,,none,"You 
+may exclude the fuels described in Sec.  63.7510(a)(2)(i) through (iii) 
+when recalculating the total selected metals emission rate.",§ 63.7510(a)(2)(i)–(iii),primary,openai,gpt-5,1787,231
+20,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence is binding regulatory text within a CFR section prescribing compliance procedures, not a preamble or pure definition.",simple,none,,63.7510(a)(2)(i),You,must,strong,determine,"the total selected metals concentration for any new fuel type in units of pounds per million Btu, based on supplier data or your own fuel analysis, according to the provisions in your site-specific fuel analysis plan",False,True,if you demonstrate compliance through fuel analysis for solid fuels and plan to burn a new type of fuel,none,"(i) You must determine the total selected metals concentration for 
+any new fuel type in units of pounds per million Btu, based on supplier 
+data or your own fuel analysis, according to the provisions in your 
+site-specific fuel analysis plan developed according to Sec.  
+63.7521(b).",§ 63.7521(b),primary,openai,gpt-5,1836,235
+21,EPA-HQ-OAR-2002-0058,proposed,0,True,The sentence is operative regulatory text within a CFR section prescribing a required action and is not preamble or a mere definition.,simple,none,,63.7510(a)(5)(ii),You,must,strong,determine,the new mixture of fuels that will have the highest content of total selected metals,False,False,,none,"(ii) You must determine the new mixture of fuels that will have the 
+highest content of total selected metals.",,primary,openai,gpt-5,1757,186
+22,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence appears within regulatory text prescribing compliance steps and uses the binding modal 'must', indicating a new or existing binding requirement.",simple,none,,63.7510(a)(2)(i),The recalculated total selected metals emission rate,must,strong,be less than,the applicable emission limit,False,False,,none,"The recalculated total selected metals emission rate 
+must be less than the applicable emission limit.",,primary,openai,gpt-5,1740,184
+23,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence is binding regulatory text within a CFR section, using the strong modal 'must' and not being preamble or pure definition.",simple,none,,63.7510(a)(2)(i),You,must,strong,report,each instance in which you did not meet each emission limit and operating limit in Tables 1 through 4 to this subpart that apply to you,False,False,,none,"(b) You must report each instance in which you did not meet each 
+emission limit and operating limit in Tables 1 through 4 to this 
+subpart that apply to you.",,primary,openai,gpt-5,1777,202
+24,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence is binding regulatory text within a CFR section prescribing compliance and reporting requirements, not preamble or a mere definition.",simple,none,,63.7510(a)(2)(i),These deviations,must,strong,be reported,according to the requirements in § 63.7550,True,False,,none,"These deviations must be reported according to the requirements in 
+Sec.  63.7550.",§ 63.7550,primary,openai,gpt-5,1741,189
+25,EPA-HQ-OAR-2002-0058,proposed,0,True,The sentence is binding regulatory text within a CFR section imposing a duty (must) and is not preamble or a mere definition.,simple,none,,63.7510(a)(2)(i),you,must,strong,conduct,monthly fuel specification testing of the gaseous fuels according to the procedures in § 63.7521(f) through (i),False,True,If you elected to demonstrate that the unit meets the specification for mercury for the other gas 1 subcategory and you cannot submit a signed certification under § 63.7545(g) because the constituents could exceed the specification,none,"(c) If you elected to demonstrate that the unit meets the 
+specification for mercury for the other gas 1 subcategory and you 
+cannot submit a signed certification under Sec.  63.7545(g) because the 
+constituents could exceed the specification, you must conduct monthly 
+fuel specification testing of the gaseous fuels, according to the 
+procedures in Sec.  63.7521(f) through (i).",§ 63.7521,primary,openai,gpt-5,1881,247
+26,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence is binding regulatory text within a CFR section context, not preamble or mere definition, and states a requirement.",simple,none,,63.7521(f),you,must,strong,meet,the work practice standards according to Table 3 of this subpart,False,True,For periods of startup and shutdown,none,"For periods of startup and shutdown, you must meet the work 
+practice standards according to Table 3 of this subpart.",,primary,openai,gpt-5,1752,185
+27,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence appears within regulatory text of a CFR section setting compliance duties, functioning as binding operative text.",compound,none,,63.7541(a),the owner or operator,must,strong,demonstrate compliance with this subpart on a continuous basis,None,False,True,Following the compliance date,none,"Sec.  63.7541  How do I demonstrate continuous compliance under the 
+emissions averaging provision?
+
+    (a) Following the compliance date, the owner or operator must 
+demonstrate compliance with this subpart on a continuous basis by 
+meeting the requirements of paragraphs (a)(1) through (5) of this 
+section.",,primary,openai,gpt-5,1842,300
+27,EPA-HQ-OAR-2002-0058,proposed,1,True,"The sentence appears within regulatory text of a CFR section setting compliance duties, functioning as binding operative text.",compound,none,,63.7541(a),the owner or operator,must,strong,meet the requirements,paragraphs (a)(1) through (5) of this section,False,True,to demonstrate continuous compliance under the emissions averaging provision,none,"Sec.  63.7541  How do I demonstrate continuous compliance under the 
+emissions averaging provision?
+
+    (a) Following the compliance date, the owner or operator must 
+demonstrate compliance with this subpart on a continuous basis by 
+meeting the requirements of paragraphs (a)(1) through (5) of this 
+section.",,primary,openai,gpt-5,0,0
+28,EPA-HQ-OAR-2002-0058,proposed,0,True,"It is binding regulatory text within a CFR section prescribing compliance requirements, not preamble or mere definition.",simple,none,,63.7541(a)(2),You,must,strong,maintain,the applicable opacity limit according to paragraphs (a)(2)(i) and (ii) of this section,False,False,,none,"(2) You must maintain the applicable opacity limit according to 
+paragraphs (a)(2)(i) and (ii) of this section.",§ 63.7522(f),primary,openai,gpt-5,1744,193
+29,EPA-HQ-OAR-2002-0058,proposed,0,True,The text appears within regulatory text of a CFR subpart section and contains mandatory language establishing new binding requirements in an amendatory context.,compound,none,,63.7545(a),You (the owner or operator of the affected source),must,strong,submit,"all notifications in § 63.7(b) and (c), § 63.8(e), (f)(4) and (6), and § 63.9(b) through (h) that apply to you by the dates specified",False,False,,none,"[[Page 80646]]
+
+Notification, Reports, and Records
+
+
+Sec.  63.7545  What notifications must I submit and when?
+
+    (a)",§ 63.7; § 63.8; § 63.9,primary,openai,gpt-5,1789,382
+29,EPA-HQ-OAR-2002-0058,proposed,1,True,The text appears within regulatory text of a CFR subpart section and contains mandatory language establishing new binding requirements in an amendatory context.,compound,none,,63.7545(b),You (the owner or operator of the affected source),must,strong,submit,an Initial Notification,False,True,if you startup your affected source before [DATE 60 DAYS AFTER THE DATE OF PUBLICATION OF THE FINAL RULE IN THE Federal Register],none,"[[Page 80646]]
+
+Notification, Reports, and Records
+
+
+Sec.  63.7545  What notifications must I submit and when?
+
+    (a)",§ 63.9(b)(2),primary,openai,gpt-5,0,0
+30,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence appears in CFR regulatory text setting requirements for notifications and uses mandatory language (“You must”), indicating binding operative text.",simple,none,,63.7545,You,must,strong,submit,"all notifications in § 63.7(b) and (c), § 63.8(e), (f)(4) and (6), and § 63.9(b) through (h) that apply to you",False,False,,none,"You must submit to the delegated authority all of the 
+notifications in Sec.  63.7(b) and (c), Sec.  63.8(e), (f)(4) and (6), 
+and Sec.  63.9(b) through (h) that apply to you by the dates specified.",§ 63.7; § 63.8; § 63.9,primary,openai,gpt-5,1855,228
+31,EPA-HQ-OAR-2002-0058,proposed,0,True,The sentence appears within regulatory text prescribing notifications and uses mandatory language; it is part of binding CFR text irrespective of explicit amendatory wrapper.,simple,none,,63.7545(b),you,must,strong,submit,an Initial Notification,False,True,"As specified in § 63.9(b)(2), if you startup your affected source before [DATE 60 DAYS AFTER THE DATE OF PUBLICATION OF THE FINAL RULE IN THE Federal Register]",none,"(b) As specified in Sec.  63.9(b)(2), if you startup your affected 
+source before [DATE 60 DAYS AFTER THE DATE OF PUBLICATION OF THE FINAL 
+RULE IN THE Federal Register], you must submit an Initial Notification 
+not later than 120 days after [DATE 60 DAYS AFTER THE DATE OF 
+PUBLICATION OF THE FINAL RULE IN THE Federal Register].",§ 63.9(b)(2),primary,openai,gpt-5,1893,218
+32,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence is operative regulatory text within a CFR section prescribing a deadline for submitting an Initial Notification, making it binding.",simple,none,,63.7545(c),you,must,strong,submit,an Initial Notification,False,True,if you startup your new or reconstructed affected source on or after [DATE 60 DAYS AFTER PUBLICATION OF THE FINAL RULE IN THE FEDERAL REGISTER],none,"(c) As specified in Sec.  63.9(b)(4) and (b)(5), if you startup 
+your new or reconstructed affected source on or after [DATE 60 DAYS 
+AFTER PUBLICATION OF THE FINAL RULE IN THE FEDERAL REGISTER], you must 
+submit an Initial Notification not later than 15 days after the actual 
+date of startup of the affected source.",§ 63.9(b)(4) and (b)(5),primary,openai,gpt-5,1885,211
+33,EPA-HQ-OAR-2002-0058,proposed,0,True,"It is operative regulatory text within a CFR-style section prescribing compliance notifications, not preamble or mere definition.",simple,none,,63.9(b)(4),you,must,strong,submit,a Notification of Intent to conduct a performance test,False,True,If you are required to conduct a performance test,none,"(d) If you are required to conduct a performance test you must 
+submit a Notification of Intent to conduct a performance test at least 
+60 days before the performance test is scheduled to begin.",,primary,openai,gpt-5,1779,182
+34,EPA-HQ-OAR-2002-0058,proposed,0,True,The sentence is within regulatory text setting compliance duties and functions as binding operative language.,simple,none,,63.9(b)(4),you,must,strong,submit,a Notification of Compliance Status,False,True,If you are required to conduct an initial compliance demonstration as specified in § 63.7530(a),none,"If you are required to conduct an initial compliance 
+demonstration as specified in Sec.  63.7530(a), you must submit a 
+Notification of Compliance Status according to Sec.  63.9(h)(2)(ii).",§ 63.9(h)(2)(ii),primary,openai,gpt-5,1788,188
+35,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence is prescriptive regulatory text within a CFR section context, imposing a deadline and submission requirement; it functions as binding text even without an explicit amendatory wrapper.",compound,none,,63.9(b)(4),you,must,strong,submit,"the Notification of Compliance Status, including all performance test results and fuel analyses",False,True,For the initial compliance demonstration for each affected source,none,"For the initial compliance demonstration for each affected source, you 
+must submit the Notification of Compliance Status, including all 
+performance test results and fuel analyses, before the close of 
+business on the 60th day following the completion of all performance 
+test and/or other initial compliance demonstrations for the affected 
+source according to Sec.  63.10(d)(2).",§ 63.10(d)(2),primary,openai,gpt-5,1851,350
+35,EPA-HQ-OAR-2002-0058,proposed,1,True,"The sentence is prescriptive regulatory text within a CFR section context, imposing a deadline and submission requirement; it functions as binding text even without an explicit amendatory wrapper.",compound,none,,63.9(b)(4),you,must,strong,submit,the Notification of Compliance Status before the close of business on the 60th day following the completion of all performance tests and/or other initial compliance demonstrations for the affected source,False,True,For the initial compliance demonstration for each affected source,none,"For the initial compliance demonstration for each affected source, you 
+must submit the Notification of Compliance Status, including all 
+performance test results and fuel analyses, before the close of 
+business on the 60th day following the completion of all performance 
+test and/or other initial compliance demonstrations for the affected 
+source according to Sec.  63.10(d)(2).",§ 63.10(d)(2),primary,openai,gpt-5,0,0
+36,EPA-HQ-OAR-2002-0058,proposed,0,True,"The text imposes a mandatory content requirement for a regulatory submission within CFR operational text, using “must,” and is not preamble or mere definition.",simple,none,,63.9(b)(4),The Notification of Compliance Status report,must,strong,contain,"all the information specified in paragraphs (e)(1) through (8), as applicable",False,False,,none,"The Notification of Compliance 
+Status report must contain all the information specified in paragraphs 
+(e)(1) through (8), as applicable.
+    (1) A description of the affected unit(s) including identification 
+of which subcategory the unit is in, the design heat input capacity of 
+the unit, a description of the add-on controls used on the unit, 
+description of the fuel(s) burned, including whether the fuel(s) were 
+determined by you or EPA through a petition process to be a non-waste 
+under Sec.  241.3, whether the fuel(s) were processed from discarded 
+non-hazardous secondary materials within the meaning of Sec.  241.3, 
+and justification for the selection of fuel(s) burned during the 
+compliance demonstration.",,primary,openai,gpt-5,2011,189
+37,EPA-HQ-OAR-2002-0058,proposed,0,True,The sentence appears within regulatory compliance reporting instructions and functions as binding text requiring submission content.,compound,none,,63.9(b)(4),you,must,strong,submit,a description of the deviation,False,True,"If you had a deviation from any emission limit, work practice standard, or operating limit",none,"(7) If you had a deviation from any emission limit, work practice 
+standard, or operating limit, you must also submit a description of the 
+deviation, the duration of the deviation, and the corrective action 
+taken in the Notification of Compliance Status report.",,primary,openai,gpt-5,1820,411
+37,EPA-HQ-OAR-2002-0058,proposed,1,True,The sentence appears within regulatory compliance reporting instructions and functions as binding text requiring submission content.,compound,none,,63.9(b)(4),you,must,strong,submit,the duration of the deviation,False,True,"If you had a deviation from any emission limit, work practice standard, or operating limit",none,"(7) If you had a deviation from any emission limit, work practice 
+standard, or operating limit, you must also submit a description of the 
+deviation, the duration of the deviation, and the corrective action 
+taken in the Notification of Compliance Status report.",,primary,openai,gpt-5,0,0
+37,EPA-HQ-OAR-2002-0058,proposed,2,True,The sentence appears within regulatory compliance reporting instructions and functions as binding text requiring submission content.,compound,none,,63.9(b)(4),you,must,strong,submit,the corrective action taken,False,True,"If you had a deviation from any emission limit, work practice standard, or operating limit",none,"(7) If you had a deviation from any emission limit, work practice 
+standard, or operating limit, you must also submit a description of the 
+deviation, the duration of the deviation, and the corrective action 
+taken in the Notification of Compliance Status report.",,primary,openai,gpt-5,0,0
+38,EPA-HQ-OAR-2002-0058,proposed,0,True,"The text is regulatory binding language within a CFR section imposing requirements (no preamble indicators), including explicit must/shall directives.",compound,none,,63.9(b)(4),you,must,strong,include,"specified certifications of compliance in the notification of compliance status, as applicable, signed by a responsible official",False,False,,none,"(8) In addition to the information required in Sec.  63.9(h)(2), 
+your notification of compliance status must include the following 
+certification(s) of compliance, as applicable, and signed by a 
+responsible official:
+    (i) ``This facility complies with the requirements in Sec.  
+63.7540(a)(10), (11), or (12) to conduct an annual, biennial, or 5-year 
+tune-up, as applicable, of each unit.''
+    (ii) ``This facility has had an energy assessment performed 
+according to Sec.  63.7530(e).''
+    (iii) Except for units that qualify for a statutory exemption as 
+provided in section 129(g)(1) of the Clean Air Act, include the 
+following: ``No secondary materials that are solid waste were combusted 
+in any affected unit.''
+    (f) If you operate a unit designed to burn natural gas, refinery 
+gas, or other gas 1 fuels that is subject to this subpart, and you 
+intend to use a fuel other than natural gas, refinery gas, gaseous fuel 
+subject to another subpart of this part, or other gas 1 fuel to fire 
+the affected unit during a period of natural gas curtailment or supply 
+interruption, as defined in Sec.  63.7575, you must submit a 
+notification of alternative fuel use within 48 hours of the declaration 
+of each period of natural gas curtailment or supply interruption, as 
+defined in Sec.  63.7575.",§ 63.9(h)(2),primary,openai,gpt-5,2357,672
+38,EPA-HQ-OAR-2002-0058,proposed,1,True,"The text is regulatory binding language within a CFR section imposing requirements (no preamble indicators), including explicit must/shall directives.",compound,none,,63.9(b)(4),you,must,strong,submit a notification of alternative fuel use,"for use of fuel other than natural gas, refinery gas, gaseous fuel subject to another subpart, or other gas 1 fuel during a period of natural gas curtailment or supply interruption",False,True,"If you operate a unit designed to burn natural gas, refinery gas, or other gas 1 fuels subject to this subpart and intend to use another fuel during a period of natural gas curtailment or supply interruption, as defined in § 63.7575",none,"(8) In addition to the information required in Sec.  63.9(h)(2), 
+your notification of compliance status must include the following 
+certification(s) of compliance, as applicable, and signed by a 
+responsible official:
+    (i) ``This facility complies with the requirements in Sec.  
+63.7540(a)(10), (11), or (12) to conduct an annual, biennial, or 5-year 
+tune-up, as applicable, of each unit.''
+    (ii) ``This facility has had an energy assessment performed 
+according to Sec.  63.7530(e).''
+    (iii) Except for units that qualify for a statutory exemption as 
+provided in section 129(g)(1) of the Clean Air Act, include the 
+following: ``No secondary materials that are solid waste were combusted 
+in any affected unit.''
+    (f) If you operate a unit designed to burn natural gas, refinery 
+gas, or other gas 1 fuels that is subject to this subpart, and you 
+intend to use a fuel other than natural gas, refinery gas, gaseous fuel 
+subject to another subpart of this part, or other gas 1 fuel to fire 
+the affected unit during a period of natural gas curtailment or supply 
+interruption, as defined in Sec.  63.7575, you must submit a 
+notification of alternative fuel use within 48 hours of the declaration 
+of each period of natural gas curtailment or supply interruption, as 
+defined in Sec.  63.7575.",§ 63.7575,primary,openai,gpt-5,0,0
+38,EPA-HQ-OAR-2002-0058,proposed,2,True,"The text is regulatory binding language within a CFR section imposing requirements (no preamble indicators), including explicit must/shall directives.",compound,none,,63.9(b)(4),you,must,strong,submit,the notification of alternative fuel use within 48 hours of the declaration of each period of natural gas curtailment or supply interruption,False,True,"If you submit a notification of alternative fuel use for a period of natural gas curtailment or supply interruption, as defined in § 63.7575",none,"(8) In addition to the information required in Sec.  63.9(h)(2), 
+your notification of compliance status must include the following 
+certification(s) of compliance, as applicable, and signed by a 
+responsible official:
+    (i) ``This facility complies with the requirements in Sec.  
+63.7540(a)(10), (11), or (12) to conduct an annual, biennial, or 5-year 
+tune-up, as applicable, of each unit.''
+    (ii) ``This facility has had an energy assessment performed 
+according to Sec.  63.7530(e).''
+    (iii) Except for units that qualify for a statutory exemption as 
+provided in section 129(g)(1) of the Clean Air Act, include the 
+following: ``No secondary materials that are solid waste were combusted 
+in any affected unit.''
+    (f) If you operate a unit designed to burn natural gas, refinery 
+gas, or other gas 1 fuels that is subject to this subpart, and you 
+intend to use a fuel other than natural gas, refinery gas, gaseous fuel 
+subject to another subpart of this part, or other gas 1 fuel to fire 
+the affected unit during a period of natural gas curtailment or supply 
+interruption, as defined in Sec.  63.7575, you must submit a 
+notification of alternative fuel use within 48 hours of the declaration 
+of each period of natural gas curtailment or supply interruption, as 
+defined in Sec.  63.7575.",§ 63.7575,primary,openai,gpt-5,0,0
+38,EPA-HQ-OAR-2002-0058,proposed,3,True,"The text is regulatory binding language within a CFR section imposing requirements (no preamble indicators), including explicit must/shall directives.",compound,none,,63.9(b)(4),you,must,strong,include,the information specified in paragraphs (f)(1) through (5) of this section in the notification of alternative fuel use,False,True,For the required notification of alternative fuel use,none,"(8) In addition to the information required in Sec.  63.9(h)(2), 
+your notification of compliance status must include the following 
+certification(s) of compliance, as applicable, and signed by a 
+responsible official:
+    (i) ``This facility complies with the requirements in Sec.  
+63.7540(a)(10), (11), or (12) to conduct an annual, biennial, or 5-year 
+tune-up, as applicable, of each unit.''
+    (ii) ``This facility has had an energy assessment performed 
+according to Sec.  63.7530(e).''
+    (iii) Except for units that qualify for a statutory exemption as 
+provided in section 129(g)(1) of the Clean Air Act, include the 
+following: ``No secondary materials that are solid waste were combusted 
+in any affected unit.''
+    (f) If you operate a unit designed to burn natural gas, refinery 
+gas, or other gas 1 fuels that is subject to this subpart, and you 
+intend to use a fuel other than natural gas, refinery gas, gaseous fuel 
+subject to another subpart of this part, or other gas 1 fuel to fire 
+the affected unit during a period of natural gas curtailment or supply 
+interruption, as defined in Sec.  63.7575, you must submit a 
+notification of alternative fuel use within 48 hours of the declaration 
+of each period of natural gas curtailment or supply interruption, as 
+defined in Sec.  63.7575.",,primary,openai,gpt-5,0,0
+39,EPA-HQ-OAR-2002-0058,proposed,0,True,It is operative regulatory text within a binding requirements section specifying the content of a required notification.,simple,none,,63.9(b)(4),the notification,must,strong,include,the information specified in paragraphs (f)(1) through (5) of this section,False,True,If you operate an affected gas-fired unit and submit a notification of alternative fuel use during a natural gas curtailment or supply interruption,none,"The notification must include the information 
+specified in paragraphs (f)(1) through (5) of this section.",§ 63.7575,primary,openai,gpt-5,1757,211
+40,EPA-HQ-OAR-2002-0058,proposed,0,True,This is operative regulatory text in a CFR section setting a clear duty with 'must'; it is not preamble or a mere definition.,simple,none,,63.9(b)(4),you,must,strong,provide prior notice,30 days prior notice of the date upon which you will commence or recommence combustion of solid waste,False,True,If you intend to commence or recommence combustion of solid waste,none,"(g) If you intend to commence or recommence combustion of solid 
+waste, you must provide 30 days prior notice of the date upon which you 
+will commence or recommence combustion of solid waste.",,primary,openai,gpt-5,1787,203
+41,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence is regulatory text within a binding section specifying notice content requirements, not a preamble or mere definition.",compound,none,,63.9(b)(4),The notification,must,strong,identify,the name of the owner or operator of the affected source,False,True,If you intend to commence or recommence combustion of solid waste,none,"The notification 
+must identify:
+    (1) The name of the owner or operator of the affected source, the 
+location of the source, the boiler(s) or process heater(s) that will 
+commence burning solid waste, and the date of the notice.",,primary,openai,gpt-5,1814,532
+41,EPA-HQ-OAR-2002-0058,proposed,1,True,"The sentence is regulatory text within a binding section specifying notice content requirements, not a preamble or mere definition.",compound,none,,63.9(b)(4),The notification,must,strong,identify,the location of the source,False,True,If you intend to commence or recommence combustion of solid waste,none,"The notification 
+must identify:
+    (1) The name of the owner or operator of the affected source, the 
+location of the source, the boiler(s) or process heater(s) that will 
+commence burning solid waste, and the date of the notice.",,primary,openai,gpt-5,0,0
+41,EPA-HQ-OAR-2002-0058,proposed,2,True,"The sentence is regulatory text within a binding section specifying notice content requirements, not a preamble or mere definition.",compound,none,,63.9(b)(4),The notification,must,strong,identify,the boiler(s) or process heater(s) that will commence burning solid waste,False,True,If you intend to commence or recommence combustion of solid waste,none,"The notification 
+must identify:
+    (1) The name of the owner or operator of the affected source, the 
+location of the source, the boiler(s) or process heater(s) that will 
+commence burning solid waste, and the date of the notice.",,primary,openai,gpt-5,0,0
+41,EPA-HQ-OAR-2002-0058,proposed,3,True,"The sentence is regulatory text within a binding section specifying notice content requirements, not a preamble or mere definition.",compound,none,,63.9(b)(4),The notification,must,strong,identify,the date of the notice,False,True,If you intend to commence or recommence combustion of solid waste,none,"The notification 
+must identify:
+    (1) The name of the owner or operator of the affected source, the 
+location of the source, the boiler(s) or process heater(s) that will 
+commence burning solid waste, and the date of the notice.",,primary,openai,gpt-5,0,0
+42,EPA-HQ-OAR-2002-0058,proposed,0,True,"The text is regulatory binding language within a CFR section prescribing notice requirements and uses mandatory modal ""must""; it functions as binding text in a non-preamble context.",simple,none,,63.9(b)(4),you,must,strong,provide prior notice,30 days prior notice of the date upon which you will switch fuels,False,True,"If you intend to switch fuels, and this fuel switch may result in the applicability of a different subcategory",none,"(3) The date on which you became subject to the currently 
+applicable emission limits.
+    (4) The date upon which you will commence combusting solid waste.
+    (h) If you intend to switch fuels, and this fuel switch may result 
+in the applicability of a different subcategory, you must provide 30 
+days prior notice of the date upon which you will switch fuels.",,primary,openai,gpt-5,1873,212
+43,EPA-HQ-OAR-2002-0058,proposed,0,True,The sentence is binding regulatory text within a reporting/notification requirement (non-preamble) and sets specific required contents of a notice.,compound,none,,63.9(b)(4),The notification,must,strong,identify,the name of the owner or operator of the affected source,False,True,If you intend to switch fuels and this fuel switch may result in the applicability of a different subcategory,none,"The 
+notification must identify:
+    (1) The name of the owner or operator of the affected source, the 
+location of the source, the boiler(s) that will switch fuels, and the 
+date of the notice.",,primary,openai,gpt-5,1811,561
+43,EPA-HQ-OAR-2002-0058,proposed,1,True,The sentence is binding regulatory text within a reporting/notification requirement (non-preamble) and sets specific required contents of a notice.,compound,none,,63.9(b)(4),The notification,must,strong,identify,the location of the source,False,True,If you intend to switch fuels and this fuel switch may result in the applicability of a different subcategory,none,"The 
+notification must identify:
+    (1) The name of the owner or operator of the affected source, the 
+location of the source, the boiler(s) that will switch fuels, and the 
+date of the notice.",,primary,openai,gpt-5,0,0
+43,EPA-HQ-OAR-2002-0058,proposed,2,True,The sentence is binding regulatory text within a reporting/notification requirement (non-preamble) and sets specific required contents of a notice.,compound,none,,63.9(b)(4),The notification,must,strong,identify,the boiler(s) that will switch fuels,False,True,If you intend to switch fuels and this fuel switch may result in the applicability of a different subcategory,none,"The 
+notification must identify:
+    (1) The name of the owner or operator of the affected source, the 
+location of the source, the boiler(s) that will switch fuels, and the 
+date of the notice.",,primary,openai,gpt-5,0,0
+43,EPA-HQ-OAR-2002-0058,proposed,3,True,The sentence is binding regulatory text within a reporting/notification requirement (non-preamble) and sets specific required contents of a notice.,compound,none,,63.9(b)(4),The notification,must,strong,identify,the date of the notice,False,True,If you intend to switch fuels and this fuel switch may result in the applicability of a different subcategory,none,"The 
+notification must identify:
+    (1) The name of the owner or operator of the affected source, the 
+location of the source, the boiler(s) that will switch fuels, and the 
+date of the notice.",,primary,openai,gpt-5,0,0
+44,EPA-HQ-OAR-2002-0058,proposed,0,True,"The text is regulatory section text containing binding requirements in § 63.7550(a), not preamble or a mere definition.",simple,none,,63.7550(a),you,must,strong,submit,each report in Table 9 to this subpart that applies to you,False,False,,none,"What reports must I submit and when?
+
+    (a)",,primary,openai,gpt-5,1746,182
+45,EPA-HQ-OAR-2002-0058,proposed,0,True,"It appears within regulatory text of § 63.7550 stating reporting requirements, which functions as binding amendatory/non-preamble text.",simple,none,,63.7550,You,must,strong,submit,each report in Table 9 to this subpart that applies to you,False,False,,none,"You must submit each report in Table 9 to this subpart that 
+applies to you.",,primary,openai,gpt-5,1764,182
+46,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence is binding regulatory text within a CFR section prescribing reporting deadlines and conditions, not a preamble or mere definition.",compound,none,,63.7550(b),you,must,strong,submit,each report by the date in Table 9 to this subpart,False,True,Unless the EPA Administrator has approved a different schedule for submission of reports under § 63.10(a),none,"(b) Unless the EPA Administrator has approved a different schedule 
+for submission of reports under Sec.  63.10(a), you must submit each 
+report by the date in Table 9 to this subpart and according to the 
+requirements in paragraphs (b)(1) through (5) of this section.",§ 63.10(a),primary,openai,gpt-5,1855,337
+46,EPA-HQ-OAR-2002-0058,proposed,1,True,"The sentence is binding regulatory text within a CFR section prescribing reporting deadlines and conditions, not a preamble or mere definition.",compound,none,,63.7550(b),you,must,strong,submit,each report according to the requirements in paragraphs (b)(1) through (5) of this section,False,True,Unless the EPA Administrator has approved a different schedule for submission of reports under § 63.10(a),none,"(b) Unless the EPA Administrator has approved a different schedule 
+for submission of reports under Sec.  63.10(a), you must submit each 
+report by the date in Table 9 to this subpart and according to the 
+requirements in paragraphs (b)(1) through (5) of this section.",,primary,openai,gpt-5,0,0
+47,EPA-HQ-OAR-2002-0058,proposed,0,True,The sentence is within CFR regulatory text prescribing reporting options and functions as binding permissive text in a reporting requirements section.,simple,none,,63.7550,you,may,permissive,submit,"only an annual, biennial, or 5-year compliance report, as applicable, as specified in paragraphs (b)(1) through (5) of this section, instead of a semi-annual compliance report",False,True,"For units that are subject only to a requirement to conduct an annual, biennial, or 5-year tune-up according to § 63.7540(a)(10), (11), or (12), respectively, and not subject to emission limits or operating limits",none,"For 
+units that are subject only to a requirement to conduct an annual, 
+biennial, or 5-year
+
+[[Page 80647]]
+
+tune-up according to Sec.  63.7540(a)(10), (11), or (12), respectively, 
+and not subject to emission limits or operating limits, you may submit 
+only an annual, biennial, or 5-year compliance report, as applicable, 
+as specified in paragraphs (b)(1) through (5) of this section, instead 
+of a semi-annual compliance report.",§ 63.7540,primary,openai,gpt-5,1974,269
+48,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence is operative regulatory text within § 63.7550 prescribing compliance reporting parameters, not a preamble or definition; it functions as binding text in the regulation.",simple,none,,63.7550(b)(1),The first compliance report,must,strong,"cover the period beginning on the compliance date and ending on June 30 or December 31, whichever first occurs at least the specified interval after the compliance date","the reporting period defined by reference to the source’s compliance date in § 63.7495 and the earliest of June 30 or December 31 at least 180 days (or 1, 2, or 5 years, as applicable) after that date",False,True,"If submitting an annual, biennial, or 5-year compliance report, the interval is 1, 2, or 5 years, respectively; otherwise the interval is 180 days",none,"(1) The first compliance report must cover the period beginning on 
+the compliance date that is specified for your affected source in Sec.  
+63.7495 and ending on June 30 or December 31, whichever date is the 
+first date that occurs at least 180 days (or 1, 2, or 5 years, as 
+applicable, if submitting an annual, biennial, or 5-year compliance 
+report) after the compliance date that is specified for your source in 
+Sec.  63.7495.",§ 63.7495,primary,openai,gpt-5,1958,310
+49,EPA-HQ-OAR-2002-0058,proposed,0,True,"It is binding compliance-reporting text within regulatory section context, not preamble or mere definition.",simple,none,,63.7495,The first compliance report,must,strong,be postmarked or delivered,"no later than July 31 or January 31, whichever date is the first date following the end of the first calendar half after the compliance date specified for your source",True,False,,none,"(2) The first compliance report must be postmarked or delivered no 
+later than July 31 or January 31, whichever date is the first date 
+following the end of the first calendar half after the compliance date 
+that is specified for your source in Sec.  63.7495.",§ 63.7495,primary,openai,gpt-5,1851,206
+50,EPA-HQ-OAR-2002-0058,proposed,0,True,Text is prescriptive compliance-reporting requirements in regulatory text (non-preamble) and uses mandatory modal 'must'; treat as binding.,compound,none,,63.7495,"The first annual, biennial, or 5-year compliance report",must,strong,be postmarked,no later than January 31,True,False,,none,"The first annual, 
+biennial, or 5-year compliance report must be postmarked no later than 
+January 31.
+    (3) Each subsequent compliance report must cover the semiannual 
+reporting period from January 1 through June 30 or the semiannual 
+reporting period from July 1 through December 31.",,primary,openai,gpt-5,1869,310
+50,EPA-HQ-OAR-2002-0058,proposed,1,True,Text is prescriptive compliance-reporting requirements in regulatory text (non-preamble) and uses mandatory modal 'must'; treat as binding.,compound,none,,63.7495,Each subsequent compliance report,must,strong,cover,the semiannual reporting period from January 1 through June 30 or the semiannual reporting period from July 1 through December 31,False,False,,none,"The first annual, 
+biennial, or 5-year compliance report must be postmarked no later than 
+January 31.
+    (3) Each subsequent compliance report must cover the semiannual 
+reporting period from January 1 through June 30 or the semiannual 
+reporting period from July 1 through December 31.",,primary,openai,gpt-5,0,0
+51,EPA-HQ-OAR-2002-0058,proposed,0,True,"The text imposes reporting requirements within CFR regulatory text specifying time periods and deadlines, indicating binding obligations.",compound,none,,63.7495,"Annual, biennial, and 5-year compliance reports",must,strong,cover,"the applicable 1-, 2-, or 5-year periods from January 1 to December 31",False,False,,none,"Annual, biennial, and 
+5-year compliance reports must cover the applicable 1-, 2-, or 5-year 
+periods from January 1 to December 31.
+    (4) Each subsequent compliance report must be postmarked or 
+delivered no later than July 31 or January 31, whichever date is the 
+first date following the end of the semiannual reporting period.",,primary,openai,gpt-5,1914,317
+51,EPA-HQ-OAR-2002-0058,proposed,1,True,"The text imposes reporting requirements within CFR regulatory text specifying time periods and deadlines, indicating binding obligations.",compound,none,,63.7495,Each subsequent compliance report,must,strong,be postmarked or delivered,"no later than July 31 or January 31, whichever date is the first date following the end of the semiannual reporting period",True,False,,none,"Annual, biennial, and 
+5-year compliance reports must cover the applicable 1-, 2-, or 5-year 
+periods from January 1 to December 31.
+    (4) Each subsequent compliance report must be postmarked or 
+delivered no later than July 31 or January 31, whichever date is the 
+first date following the end of the semiannual reporting period.",,primary,openai,gpt-5,0,0
+52,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence is binding reporting text within regulatory section language, not preamble, prescribing a deadline for compliance reports.",simple,none,,63.7495,"Annual, biennial, and 5-year compliance reports",must,strong,be postmarked,no later than January 31,True,False,,none,"Annual, biennial, and 5-year compliance reports must be postmarked no 
+later than January 31.
+    (5)",,primary,openai,gpt-5,1780,182
+53,EPA-HQ-OAR-2002-0058,proposed,0,True,The sentence is binding regulatory text within a CFR section prescribing reporting timing and provides a permissive alternative tied to delegated authority dates.,simple,none,,63.7495,you,may,permissive,submit,the first and subsequent compliance reports according to the dates the delegated authority has established,False,True,"For each affected source subject to part 70 or part 71 permitting regulations, and if the delegated authority has established dates for submitting semiannual reports under § 70.6(a)(3)(iii)(A) or § 71.6(a)(3)(iii)(A)",none,"For each affected source that is subject to permitting 
+regulations pursuant to part 70 or part 71 of this chapter, and if the 
+delegated authority has established dates for submitting semiannual 
+reports pursuant to Sec.  70.6(a)(3)(iii)(A) or Sec.  
+71.6(a)(3)(iii)(A), you may submit the first and subsequent compliance 
+reports according to the dates the delegated authority has established 
+instead of according to the dates in paragraphs (b)(1) through (4) of 
+this section.",§ 70.6(a)(3)(iii)(A),primary,openai,gpt-5,1950,251
+54,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence appears within regulatory text specifying reporting requirements and functions as binding rule text, not preamble or definition.",simple,none,,70.6(a)(3)(iii)(A),The compliance report,must,strong,contain,the information required in paragraphs (c)(1) through (13) of this section,False,False,,none,"The compliance report must contain the information required in 
+paragraphs (c)(1) through (13) of this section.",,primary,openai,gpt-5,1771,178
+55,EPA-HQ-OAR-2002-0058,proposed,0,True,"Text appears within CFR regulatory requirements language (not preamble) and states mandatory actions with 'must', indicating binding compliance duties.",compound,none,,63.7515(b),you,must,strong,submit,the calculation of chlorine input using Equation 5 of § 63.7530 that demonstrates that your source is within its maximum chlorine input level established during the previous performance testing,False,True,if you burned a new type of fuel and are subject to a hydrogen chloride emission limit and you demonstrate compliance through performance testing,none,"Or, if you did 
+burn a new type of fuel and are subject to a hydrogen chloride emission 
+limit, you must submit the calculation of chlorine input, using 
+Equation 5 of Sec.  63.7530, that demonstrates that your source is 
+still within its maximum chlorine input level established during the 
+previous performance testing (for sources that demonstrate compliance 
+through performance testing) or you must submit the calculation of 
+hydrogen chloride emission rate using Equation 11 of Sec.  63.7530 that 
+demonstrates that your source is still meeting the emission limit for 
+hydrogen chloride emissions (for boilers or process heaters that 
+demonstrate compliance through fuel analysis).",§ 63.7530,primary,openai,gpt-5,1972,386
+55,EPA-HQ-OAR-2002-0058,proposed,1,True,"Text appears within CFR regulatory requirements language (not preamble) and states mandatory actions with 'must', indicating binding compliance duties.",compound,none,,63.7515(b),you,must,strong,submit,the calculation of hydrogen chloride emission rate using Equation 11 of § 63.7530 that demonstrates that your source is still meeting the emission limit for hydrogen chloride emissions,False,True,if you burned a new type of fuel and are subject to a hydrogen chloride emission limit and you demonstrate compliance through fuel analysis,none,"Or, if you did 
+burn a new type of fuel and are subject to a hydrogen chloride emission 
+limit, you must submit the calculation of chlorine input, using 
+Equation 5 of Sec.  63.7530, that demonstrates that your source is 
+still within its maximum chlorine input level established during the 
+previous performance testing (for sources that demonstrate compliance 
+through performance testing) or you must submit the calculation of 
+hydrogen chloride emission rate using Equation 11 of Sec.  63.7530 that 
+demonstrates that your source is still meeting the emission limit for 
+hydrogen chloride emissions (for boilers or process heaters that 
+demonstrate compliance through fuel analysis).",§ 63.7530,primary,openai,gpt-5,0,0
+56,EPA-HQ-OAR-2002-0058,proposed,0,True,"The text is prescriptive compliance language within CFR regulatory text, not preamble or pure definition, and contains mandatory duties triggered by a condition.",compound,none,,63.7530,you,must,strong,submit,the calculation of mercury input using Equation 8 of § 63.7530 that demonstrates that your source is still within its maximum mercury input level established during the previous performance testing,False,True,If you burned a new type of fuel and are subject to a mercury emission limit,none,"If you burned a new type 
+of fuel and are subject to a mercury emission limit, you must submit 
+the calculation of mercury input, using Equation 8 of Sec.  63.7530, 
+that demonstrates that your source is still within its maximum mercury 
+input level established during the previous performance testing (for 
+sources that demonstrate compliance through performance testing), or 
+you must submit the calculation of mercury emission rate using Equation 
+12 of Sec.  63.7530 that demonstrates that your source is still meeting 
+the emission limit for mercury emissions (for boilers or process 
+heaters that demonstrate compliance through fuel analysis).",§ 63.7530,primary,openai,gpt-5,1945,370
+56,EPA-HQ-OAR-2002-0058,proposed,1,True,"The text is prescriptive compliance language within CFR regulatory text, not preamble or pure definition, and contains mandatory duties triggered by a condition.",compound,none,,63.7530,you,must,strong,submit,the calculation of mercury emission rate using Equation 12 of § 63.7530 that demonstrates that your source is still meeting the emission limit for mercury emissions,False,True,If you burned a new type of fuel and are subject to a mercury emission limit,none,"If you burned a new type 
+of fuel and are subject to a mercury emission limit, you must submit 
+the calculation of mercury input, using Equation 8 of Sec.  63.7530, 
+that demonstrates that your source is still within its maximum mercury 
+input level established during the previous performance testing (for 
+sources that demonstrate compliance through performance testing), or 
+you must submit the calculation of mercury emission rate using Equation 
+12 of Sec.  63.7530 that demonstrates that your source is still meeting 
+the emission limit for mercury emissions (for boilers or process 
+heaters that demonstrate compliance through fuel analysis).",§ 63.7530,primary,openai,gpt-5,0,0
+57,EPA-HQ-OAR-2002-0058,proposed,0,True,The candidate appears in binding regulatory text with deontic 'must' requirements in a CFR section and is not preamble or a mere definition.,compound,none,,63.7530,you,must,strong,submit,the calculation of total selected metals input using Equation 9 of § 63.7530 that demonstrates your source is within its maximum total selected metals input level established during the previous performance testing,False,True,If you burned a new type of fuel and are subject to a total selected metals emission limit,none,"If you 
+burned a new type of fuel and are subject to a total selected metals 
+emission limit, you must submit the calculation of total selected 
+metals input, using Equation 9 of Sec.  63.7530, that demonstrates that 
+your source is still within its maximum total selected metals input 
+level established during the previous performance testing (for sources 
+that demonstrate compliance through performance testing), or you must 
+submit the calculation of total selected metals emission rate, using 
+Equation 13 of Sec.  63.7530, that demonstrates that your source is 
+still meeting the emission limit for total selected metals emissions 
+(for boilers or process heaters that demonstrate compliance through 
+fuel analysis).",§ 63.7530,primary,openai,gpt-5,1995,380
+57,EPA-HQ-OAR-2002-0058,proposed,1,True,The candidate appears in binding regulatory text with deontic 'must' requirements in a CFR section and is not preamble or a mere definition.,compound,none,,63.7530,you,must,strong,submit,the calculation of total selected metals emission rate using Equation 13 of § 63.7530 that demonstrates your source is still meeting the emission limit for total selected metals emissions,False,True,If you burned a new type of fuel and are subject to a total selected metals emission limit,none,"If you 
+burned a new type of fuel and are subject to a total selected metals 
+emission limit, you must submit the calculation of total selected 
+metals input, using Equation 9 of Sec.  63.7530, that demonstrates that 
+your source is still within its maximum total selected metals input 
+level established during the previous performance testing (for sources 
+that demonstrate compliance through performance testing), or you must 
+submit the calculation of total selected metals emission rate, using 
+Equation 13 of Sec.  63.7530, that demonstrates that your source is 
+still meeting the emission limit for total selected metals emissions 
+(for boilers or process heaters that demonstrate compliance through 
+fuel analysis).",§ 63.7530,primary,openai,gpt-5,0,0
+58,EPA-HQ-OAR-2002-0058,proposed,0,True,Text is regulatory operative language within a CFR reporting requirement section and states a clear duty; it appears in binding text rather than preamble.,compound,none,,63.7530,you,must,strong,include,in the compliance report a statement indicating the intent to conduct a new performance test within 60 days of starting to burn the new fuel,False,True,"If you wish to burn a new type of fuel in an affected source subject to an emission limit and you cannot demonstrate compliance with the maximum chlorine input operating limit using Equation 7 of § 63.7530, or the maximum mercury input operating limit using Equation 8 of § 63.7530, or the maximum total selected metals input operating limit using Equation 9 of § 63.7530",none,"(7) If you wish to burn a new type of fuel in an affected source 
+subject to an emission limit and you cannot demonstrate compliance with 
+the maximum chlorine input operating limit using Equation 7 of Sec.  
+63.7530 or the maximum mercury input operating limit using Equation 8 
+of Sec.  63.7530, or the maximum total selected metals input operating 
+limit using Equation 9 of Sec.  63.7530 you must include in the 
+compliance report a statement indicating the intent to conduct a new 
+performance test within 60 days of starting to burn the new fuel.",§ 63.7530,primary,openai,gpt-5,1932,282
+59,EPA-HQ-OAR-2002-0058,proposed,0,True,"The text is regulatory reporting requirements within § 63.7530, using mandatory language (“must include”) and is part of binding CFR text.",compound,none,,63.7530,you,no_modal_implicit,strong,include,"a summary of any monthly fuel analyses conducted to demonstrate compliance according to §§ 63.7521 and 63.7530 for affected sources subject to emission limits, and any fuel specification analyses conducted according to § 63.7521(f) and § 63.7530(g) in the compliance report",False,False,,none,"Sec.  63.7521 and 63.7530 for affected 
+sources subject to emission limits, and any fuel specification analyses 
+conducted according to Sec.  63.7521(f) and Sec.  63.7530(g).
+    (9) If there are no deviations from any emission limits or 
+operating limits in this subpart that apply to you, a statement that 
+there were no deviations from the emission limits or operating limits 
+during the reporting period.
+    (10) If there were no deviations from the monitoring requirements 
+including no periods during which the CMSs, including CEMS, COMS, and 
+continuous parameter monitoring systems, were out of control as 
+specified in Sec.  63.8(c)(7), a statement that there were no 
+deviations and no periods during which the CMS were out of control 
+during the reporting period.
+    (11) If a malfunction occurred during the reporting period, the 
+report must include the number, duration, and a brief description for 
+each type of malfunction which occurred during the reporting period and 
+which caused or may have caused any applicable emission limitation to 
+be exceeded.","§§ 63.7521, 63.7530, 63.7521(f), 63.7530(g)",primary,openai,gpt-5,2208,856
+59,EPA-HQ-OAR-2002-0058,proposed,1,True,"The text is regulatory reporting requirements within § 63.7530, using mandatory language (“must include”) and is part of binding CFR text.",compound,none,,63.7530,you,no_modal_implicit,strong,include,a statement that there were no deviations from the emission limits or operating limits during the reporting period,False,True,If there are no deviations from any emission limits or operating limits in this subpart that apply to you,none,"Sec.  63.7521 and 63.7530 for affected 
+sources subject to emission limits, and any fuel specification analyses 
+conducted according to Sec.  63.7521(f) and Sec.  63.7530(g).
+    (9) If there are no deviations from any emission limits or 
+operating limits in this subpart that apply to you, a statement that 
+there were no deviations from the emission limits or operating limits 
+during the reporting period.
+    (10) If there were no deviations from the monitoring requirements 
+including no periods during which the CMSs, including CEMS, COMS, and 
+continuous parameter monitoring systems, were out of control as 
+specified in Sec.  63.8(c)(7), a statement that there were no 
+deviations and no periods during which the CMS were out of control 
+during the reporting period.
+    (11) If a malfunction occurred during the reporting period, the 
+report must include the number, duration, and a brief description for 
+each type of malfunction which occurred during the reporting period and 
+which caused or may have caused any applicable emission limitation to 
+be exceeded.",,primary,openai,gpt-5,0,0
+59,EPA-HQ-OAR-2002-0058,proposed,2,True,"The text is regulatory reporting requirements within § 63.7530, using mandatory language (“must include”) and is part of binding CFR text.",compound,none,,63.7530,you,no_modal_implicit,strong,include,a statement that there were no deviations and no periods during which the CMS were out of control during the reporting period,False,True,"If there were no deviations from the monitoring requirements, including no periods during which the CMSs (including CEMS, COMS, and continuous parameter monitoring systems) were out of control as specified in § 63.8(c)(7)",none,"Sec.  63.7521 and 63.7530 for affected 
+sources subject to emission limits, and any fuel specification analyses 
+conducted according to Sec.  63.7521(f) and Sec.  63.7530(g).
+    (9) If there are no deviations from any emission limits or 
+operating limits in this subpart that apply to you, a statement that 
+there were no deviations from the emission limits or operating limits 
+during the reporting period.
+    (10) If there were no deviations from the monitoring requirements 
+including no periods during which the CMSs, including CEMS, COMS, and 
+continuous parameter monitoring systems, were out of control as 
+specified in Sec.  63.8(c)(7), a statement that there were no 
+deviations and no periods during which the CMS were out of control 
+during the reporting period.
+    (11) If a malfunction occurred during the reporting period, the 
+report must include the number, duration, and a brief description for 
+each type of malfunction which occurred during the reporting period and 
+which caused or may have caused any applicable emission limitation to 
+be exceeded.",§ 63.8(c)(7),primary,openai,gpt-5,0,0
+59,EPA-HQ-OAR-2002-0058,proposed,3,True,"The text is regulatory reporting requirements within § 63.7530, using mandatory language (“must include”) and is part of binding CFR text.",compound,none,,63.7530,the report,must,strong,include,"the number, duration, and a brief description for each type of malfunction which occurred during the reporting period and which caused or may have caused any applicable emission limitation to be exceeded",False,True,If a malfunction occurred during the reporting period,none,"Sec.  63.7521 and 63.7530 for affected 
+sources subject to emission limits, and any fuel specification analyses 
+conducted according to Sec.  63.7521(f) and Sec.  63.7530(g).
+    (9) If there are no deviations from any emission limits or 
+operating limits in this subpart that apply to you, a statement that 
+there were no deviations from the emission limits or operating limits 
+during the reporting period.
+    (10) If there were no deviations from the monitoring requirements 
+including no periods during which the CMSs, including CEMS, COMS, and 
+continuous parameter monitoring systems, were out of control as 
+specified in Sec.  63.8(c)(7), a statement that there were no 
+deviations and no periods during which the CMS were out of control 
+during the reporting period.
+    (11) If a malfunction occurred during the reporting period, the 
+report must include the number, duration, and a brief description for 
+each type of malfunction which occurred during the reporting period and 
+which caused or may have caused any applicable emission limitation to 
+be exceeded.",,primary,openai,gpt-5,0,0
+59,EPA-HQ-OAR-2002-0058,proposed,4,True,"The text is regulatory reporting requirements within § 63.7530, using mandatory language (“must include”) and is part of binding CFR text.",compound,none,,63.7530,the report,must,strong,include,"a description of actions taken by you during a malfunction of a boiler, process heater, or associated air pollution control device or CMS to minimize emissions in accordance with § 63.7500(a)(3), including actions taken to correct the malfunction",False,True,If a malfunction occurred during the reporting period,none,"Sec.  63.7521 and 63.7530 for affected 
+sources subject to emission limits, and any fuel specification analyses 
+conducted according to Sec.  63.7521(f) and Sec.  63.7530(g).
+    (9) If there are no deviations from any emission limits or 
+operating limits in this subpart that apply to you, a statement that 
+there were no deviations from the emission limits or operating limits 
+during the reporting period.
+    (10) If there were no deviations from the monitoring requirements 
+including no periods during which the CMSs, including CEMS, COMS, and 
+continuous parameter monitoring systems, were out of control as 
+specified in Sec.  63.8(c)(7), a statement that there were no 
+deviations and no periods during which the CMS were out of control 
+during the reporting period.
+    (11) If a malfunction occurred during the reporting period, the 
+report must include the number, duration, and a brief description for 
+each type of malfunction which occurred during the reporting period and 
+which caused or may have caused any applicable emission limitation to 
+be exceeded.",§ 63.7500(a)(3),primary,openai,gpt-5,0,0
+60,EPA-HQ-OAR-2002-0058,proposed,0,True,The text is prescriptive reporting requirements within a CFR section (not preamble) and thus constitutes binding regulatory text.,compound,none,,63.7521(f),The report,must,strong,include,"the number, duration, and a brief description for each type of malfunction during the reporting period that caused or may have caused any applicable emission limitation to be exceeded",False,True,If a malfunction occurred during the reporting period,none,"The report must also include a description of
+
+[[Page 80648]]
+
+actions taken by you during a malfunction of a boiler, process heater, 
+or associated air pollution control device or CMS to minimize emissions 
+in accordance with Sec.  63.7500(a)(3), including actions taken to 
+correct the malfunction.
+    (12) Include the date of the most recent tune-up for each unit 
+subject to only the requirement to conduct an annual, biennial, or 5-
+year tune-up according to Sec.  63.7540(a)(10), (11), or (12) 
+respectively.",,primary,openai,gpt-5,1947,642
+60,EPA-HQ-OAR-2002-0058,proposed,1,True,The text is prescriptive reporting requirements within a CFR section (not preamble) and thus constitutes binding regulatory text.,compound,none,,63.7521(f),The report,must,strong,include,"a description of actions taken during a malfunction of a boiler, process heater, or associated air pollution control device or CMS to minimize emissions, including actions taken to correct the malfunction",False,True,If a malfunction occurred during the reporting period,none,"The report must also include a description of
+
+[[Page 80648]]
+
+actions taken by you during a malfunction of a boiler, process heater, 
+or associated air pollution control device or CMS to minimize emissions 
+in accordance with Sec.  63.7500(a)(3), including actions taken to 
+correct the malfunction.
+    (12) Include the date of the most recent tune-up for each unit 
+subject to only the requirement to conduct an annual, biennial, or 5-
+year tune-up according to Sec.  63.7540(a)(10), (11), or (12) 
+respectively.",§ 63.7500(a)(3),primary,openai,gpt-5,0,0
+60,EPA-HQ-OAR-2002-0058,proposed,2,True,The text is prescriptive reporting requirements within a CFR section (not preamble) and thus constitutes binding regulatory text.,compound,none,,63.7521(f),You,must,strong,include,"the date of the most recent tune-up for each unit subject only to an annual, biennial, or 5-year tune-up",False,False,,none,"The report must also include a description of
+
+[[Page 80648]]
+
+actions taken by you during a malfunction of a boiler, process heater, 
+or associated air pollution control device or CMS to minimize emissions 
+in accordance with Sec.  63.7500(a)(3), including actions taken to 
+correct the malfunction.
+    (12) Include the date of the most recent tune-up for each unit 
+subject to only the requirement to conduct an annual, biennial, or 5-
+year tune-up according to Sec.  63.7540(a)(10), (11), or (12) 
+respectively.",§ 63.7540(a)(10)-(12),primary,openai,gpt-5,0,0
+60,EPA-HQ-OAR-2002-0058,proposed,3,True,The text is prescriptive reporting requirements within a CFR section (not preamble) and thus constitutes binding regulatory text.,compound,none,,63.7521(f),You,must,strong,include,"the date of the most recent burner inspection if it was delayed until the next scheduled or unscheduled unit shutdown because it was not done annually, biennially, or on a 5-year period",False,True,"If the burner inspection was not done annually, biennially, or on a 5-year period and was delayed until the next scheduled or unscheduled unit shutdown",none,"The report must also include a description of
+
+[[Page 80648]]
+
+actions taken by you during a malfunction of a boiler, process heater, 
+or associated air pollution control device or CMS to minimize emissions 
+in accordance with Sec.  63.7500(a)(3), including actions taken to 
+correct the malfunction.
+    (12) Include the date of the most recent tune-up for each unit 
+subject to only the requirement to conduct an annual, biennial, or 5-
+year tune-up according to Sec.  63.7540(a)(10), (11), or (12) 
+respectively.",,primary,openai,gpt-5,0,0
+61,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence is regulatory binding text within a CFR section prescribing report contents, not preamble or mere definition; it imposes a duty using “must.”",simple,none,,63.7521(f),the compliance report,must,strong,contain,the information required in paragraphs (d)(1) through (4) of this section,False,True,For each deviation from an emission limit or operating limit in this subpart that occurs at an affected source where you are not using a CMS to comply with that emission limit or operating limit,none,"For each deviation from an emission limit or operating limit in 
+this subpart that occurs at an affected source where you are not using 
+a CMS to comply with that emission limit or operating limit, the 
+compliance report must additionally contain the information required in 
+paragraphs (d)(1) through (4) of this section.",paragraphs (d)(1) through (4) of this section,primary,openai,gpt-5,1821,242
+62,EPA-HQ-OAR-2002-0058,proposed,0,True,The text is regulatory binding text within a CFR section prescribing reporting contents and includes a clear must obligation.,simple,none,,63.7521(f),you,must,strong,include,the information required in paragraphs (e)(1) through (12) of this section,False,True,"For each deviation from an emission limit, operating limit, and monitoring requirement in this subpart occurring at an affected source where you are using a CMS to comply with that emission limit or operating limit",none,"(1) The total operating time of each affected source during the 
+reporting period.
+    (2) A description of the deviation and which emission limit or 
+operating limit from which you deviated.
+    (3) Information on the number, duration, and cause of deviations 
+(including unknown cause), as applicable, and the corrective action 
+taken.
+    (4) A copy of the test report if the annual performance test showed 
+a deviation from the emission limits.
+    (e) For each deviation from an emission limit, operating limit, and 
+monitoring requirement in this subpart occurring at an affected source 
+where you are using a CMS to comply with that emission limit or 
+operating limit, you must include the information required in 
+paragraphs (e)(1) through (12) of this section.",§ 63.8(c)(8),primary,openai,gpt-5,2038,225
+63,EPA-HQ-OAR-2002-0058,proposed,0,True,The sentence is binding regulatory text within § 63.7521(f) requiring reporting and is not preamble or a mere definition.,simple,none,,63.7521(f),Each affected source that has obtained a Title V operating permit pursuant to part 70 or part 71 of this chapter,must,strong,report,all deviations as defined in this subpart in the semiannual monitoring report required by § 70.6(a)(3)(iii)(A) or § 71.6(a)(3)(iii)(A),False,False,,none,"(12) A description of any changes in CMSs, processes, or controls 
+since the last reporting period for the source for which there was a 
+deviation.
+    (f) Each affected source that has obtained a Title V operating 
+permit pursuant to part 70 or part 71 of this chapter must report all 
+deviations as defined in this subpart in the semiannual monitoring 
+report required by Sec.  70.6(a)(3)(iii)(A) or Sec.  
+71.6(a)(3)(iii)(A).",§ 70.6(a)(3)(iii)(A),primary,openai,gpt-5,1937,245
+64,EPA-HQ-OAR-2002-0058,proposed,0,True,"It appears within binding regulatory text of a CFR subpart, not in preamble, and prescribes reporting obligations.",simple,none,,70.6(a)(3)(iii)(A),the affected source,must,strong,report,deviations from permit requirements to the delegated authority,False,True,submission of a compliance report does not otherwise affect any obligation,none,"However, 
+submission of a compliance report does not otherwise affect any 
+obligation the affected source may have to report deviations from 
+permit requirements to the delegated authority.",,primary,openai,gpt-5,1808,183
+65,EPA-HQ-OAR-2002-0058,proposed,0,True,"The text is prescriptive regulatory language within a CFR section, not preamble or mere definition, and imposes a clear duty on the regulated party.",simple,none,,70.6(a)(3)(iii)(A),you,must,strong,transmit,the results of each performance test required by this subpart to EPA's WebFIRE database using the Compliance and Emissions Data Reporting Interface (CEDRI) accessed through EPA's Central Data Exchange (CDX),False,True,Within 60 days after the date of completing each performance test,none,"(g) (Reserved)
+    (h) Within 60 days after the date of completing each performance 
+test, you must transmit the results of the performance tests required 
+by this subpart to EPA's WebFIRE database by using the Compliance and 
+Emissions Data Reporting Interface (CEDRI) that is accessed through 
+EPA's Central Data Exchange (CDX) (<a href=""http://www.epa.gov/cdx"">http://www.epa.gov/cdx</a>).",,primary,openai,gpt-5,1960,221
+66,EPA-HQ-OAR-2002-0058,proposed,0,True,"This is binding regulatory text within a CFR operational requirement section, not preamble or a mere definition.",simple,none,,70.6(a)(3)(iii)(A),you,must,strong,submit,performance test data in the file format generated through use of EPA's Electronic Reporting Tool (ERT),False,False,,none,"Performance 
+test data must be submitted in the file format generated through use of 
+EPA's Electronic Reporting Tool (ERT) (see <a href=""http://www.epa.gov/ttn/chief/ert/index.html"">http://www.epa.gov/ttn/chief/ert/index.html</a>).",,primary,openai,gpt-5,1825,185
+67,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence is binding regulatory text within a CFR-style requirement paragraph, prescribing actions with 'must' for regulated parties.",simple,none,,70.6(a)(3)(iii)(A),Owners or operators who claim that some of the information being submitted for performance tests is confidential business information (CBI),must,strong,submit,a complete ERT file including information claimed to be CBI on a compact disk or other commonly used electronic storage media to the EPA,False,True,if they claim that some of the information being submitted for performance tests is confidential business information (CBI),none,"Owners or operators who claim that some of 
+the information being submitted for performance tests is confidential 
+business information (CBI) must submit a complete ERT file including 
+information claimed to be CBI on a compact disk or other commonly used 
+electronic storage media (including, but not limited to, flash drives) 
+to the EPA.",,primary,openai,gpt-5,1869,237
+68,EPA-HQ-OAR-2002-0058,proposed,0,True,The sentence is part of operative CFR regulatory text imposing duties on submitters and is not preamble or a mere definition; it prescribes how CBI electronic media must be labeled and where it must be mailed.,compound,none,,70.6(a)(3)(iii)(A),submitters of CBI electronic media,must,strong,clearly mark,the electronic storage media as confidential business information (CBI),False,True,if owners or operators claim some information submitted for performance tests is confidential business information (CBI),none,"The electronic media must be clearly marked as CBI and 
+mailed to U.S. EPA/OAPQS/CORE CBI Office, Attention: WebFIRE 
+Administrator, MD C404-02, 4930 Old Page Rd., Durham, NC 27703.",,primary,openai,gpt-5,1811,394
+68,EPA-HQ-OAR-2002-0058,proposed,1,True,The sentence is part of operative CFR regulatory text imposing duties on submitters and is not preamble or a mere definition; it prescribes how CBI electronic media must be labeled and where it must be mailed.,compound,none,,70.6(a)(3)(iii)(A),submitters of CBI electronic media,must,strong,mail,"the CBI-marked electronic media to U.S. EPA/OAPQS/CORE CBI Office, Attention: WebFIRE Administrator, MD C404-02, 4930 Old Page Rd., Durham, NC 27703",False,True,if owners or operators claim some information submitted for performance tests is confidential business information (CBI),none,"The electronic media must be clearly marked as CBI and 
+mailed to U.S. EPA/OAPQS/CORE CBI Office, Attention: WebFIRE 
+Administrator, MD C404-02, 4930 Old Page Rd., Durham, NC 27703.",,primary,openai,gpt-5,0,0
+69,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence appears within binding regulatory text specifying reporting procedures, not preamble narrative, and functions as a mandatory requirement.",simple,none,,70.6(a)(3)(iii)(A),Owners or operators who claim CBI,must,strong,submit,the same ERT file with the CBI omitted,False,True,If owners or operators claim that some of the information being submitted is confidential business information (CBI),none,"The 
+same ERT file with the CBI omitted must be submitted to EPA via CDX as 
+described earlier in this paragraph.",,primary,openai,gpt-5,1755,195
+70,EPA-HQ-OAR-2002-0058,proposed,0,True,"This is operative regulatory text imposing a reporting duty; even without an explicit amendatory wrapper in the snippet, it appears within binding CFR requirements rather than preamble or pure definition.",compound,none,,70.6(a)(3)(iii)(A),you,must,strong,submit,"these reports, including the confidential business information, to the delegated authority",False,True,At the discretion of the delegated authority,none,"At the discretion of the delegated 
+authority, you must also submit these reports, including the 
+confidential business information, to the delegated authority in the 
+format specified by the delegated authority.",,primary,openai,gpt-5,1794,319
+70,EPA-HQ-OAR-2002-0058,proposed,1,True,"This is operative regulatory text imposing a reporting duty; even without an explicit amendatory wrapper in the snippet, it appears within binding CFR requirements rather than preamble or pure definition.",compound,none,,70.6(a)(3)(iii)(A),you,must,strong,use the format specified by the delegated authority,these submissions to the delegated authority,False,True,At the discretion of the delegated authority,none,"At the discretion of the delegated 
+authority, you must also submit these reports, including the 
+confidential business information, to the delegated authority in the 
+format specified by the delegated authority.",,primary,openai,gpt-5,0,0
+71,EPA-HQ-OAR-2002-0058,proposed,0,True,The sentence is binding regulatory text with a clear duty and modal; it appears within a CFR regulatory section context and is not preamble or a mere definition.,simple,none,,70.6(a)(3)(iii)(A),you,must,strong,submit,the relative accuracy test audit data electronically into EPA's Central Data Exchange by using the Electronic Reporting Tool,False,True,"Within 60 days after the date of completing each CEMS (CO and Hg) performance evaluation test, as defined in § 63.2 and required by this subpart",none,"Within 60 days after the date of completing each CEMS (CO and 
+Hg) performance evaluation test, as defined in Sec.  63.2 and required 
+by this subpart, you must submit the relative accuracy test audit data 
+electronically into EPA's Central Data Exchange by using the Electronic 
+Reporting Tool as described in paragraph (h) of this section.",§ 63.2,primary,openai,gpt-5,1880,237
+72,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence is binding regulatory text within a CFR section prescribing reporting requirements, not preamble or mere definition.",simple,none,,63.7555,you,must,strong,transmit,quarterly reports to EPA's WebFIRE database using the Compliance and Emissions Data Reporting Interface (CEDRI) accessed through EPA's Central Data Exchange (CDX),False,True,"Within 60 days after the reporting periods ending on March 31, June 30, September 30, and December 31",none,"Within 60 days after the reporting periods ending on March 31, 
+June 30, September 30, and December 31, you must transmit quarterly 
+reports to EPA's WebFIRE database by using the Compliance and Emissions 
+Data Reporting Interface (CEDRI) that is accessed through EPA's Central 
+Data Exchange (CDX) (<a href=""http://www.epa.gov/cdx"">www.epa.gov/cdx</a>).",§ 63.2,primary,openai,gpt-5,1894,227
+73,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence is operative regulatory text within a CFR section prescribing reporting content and functions as binding deontic language, regardless of explicit amendatory header in the snippet.",simple,none,,63.7555,you,must,strong,include,"all calculated 30-day rolling average values based on the daily CEMS (CO and Hg) and CPMS (PM CPMS output, scrubber pH, scrubber liquid flow rate, scrubber pressure drop) data in the quarterly reports for each reporting period",False,False,,none,"For each reporting period, the 
+quarterly reports must include all of the
+
+[[Page 80649]]
+
+calculated 30 day rolling average values based on the daily CEMS (CO 
+and Hg) and CPMS (PM CPMS output, scrubber pH, scrubber liquid flow 
+rate, scrubber pressure drop) data.",,primary,openai,gpt-5,1863,226
+74,EPA-HQ-OAR-2002-0058,proposed,0,True,The sentence appears within CFR regulatory text setting out requirements and uses mandatory modal language in a substantive section.,simple,none,,63.7555(a),You,must,strong,keep records,according to paragraphs (a)(1) and (2) of this section,False,False,,none,"Sec.  63.7555  What records must I keep?
+
+    (a)",,primary,openai,gpt-5,1766,178
+75,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence appears within regulatory text of § 63.7555 specifying recordkeeping requirements, which is binding operative text.",simple,none,,63.7555(a),You,must,strong,keep,records according to paragraphs (a)(1) and (2) of this section,False,False,,none,"You must keep records according to paragraphs (a)(1) and (2) of 
+this section.",,primary,openai,gpt-5,1766,182
+76,EPA-HQ-OAR-2002-0058,proposed,0,True,"The text is within CFR regulatory section § 63.7555 prescribing recordkeeping requirements, which is binding regulatory text.",compound,none,,63.7555(a)(2),you,must,strong,keep,"records of performance tests, fuel analyses, or other compliance demonstrations and performance evaluations",False,False,,none,"(2) Records of performance tests, fuel analyses, or other 
+compliance demonstrations and performance evaluations as required in 
+Sec.  63.10(b)(2)(viii).
+    (b) For each CEMS, COMS, and continuous monitoring system you must 
+keep records according to paragraphs (b)(1) through (5) of this 
+section.",§ 63.10(b)(2)(viii),primary,openai,gpt-5,1909,314
+76,EPA-HQ-OAR-2002-0058,proposed,1,True,"The text is within CFR regulatory section § 63.7555 prescribing recordkeeping requirements, which is binding regulatory text.",compound,none,,63.7555(b),you,must,strong,keep,"records according to paragraphs (b)(1) through (5) of this section for each CEMS, COMS, and continuous monitoring system",False,False,,none,"(2) Records of performance tests, fuel analyses, or other 
+compliance demonstrations and performance evaluations as required in 
+Sec.  63.10(b)(2)(viii).
+    (b) For each CEMS, COMS, and continuous monitoring system you must 
+keep records according to paragraphs (b)(1) through (5) of this 
+section.",,primary,openai,gpt-5,0,0
+77,EPA-HQ-OAR-2002-0058,proposed,0,True,"The text is regulatory requirement language within a CFR section prescribing recordkeeping duties, not preamble or mere definition.",compound,none,,63.6(h)(7)(i),You,must,strong,keep records of,"previous (i.e., superseded) versions of the performance evaluation plan as required in § 63.8(d)(3)",False,False,,none,"(3) Previous (i.e., superseded) versions of the performance 
+evaluation plan as required in Sec.  63.8(d)(3).
+    (4) Request for alternatives to relative accuracy test for CEMS as 
+required in Sec.  63.8(f)(6)(i).
+    (5) Records of the date and time that each deviation started and 
+stopped.
+    (c) You must keep the records required in Table 8 to this subpart 
+including records of all monitoring data and calculated averages for 
+applicable operating limits, such as opacity, pressure drop, pH, and 
+operating load, to show continuous compliance with each emission limit 
+and operating limit that applies to you.
+    (d)",§ 63.8(d)(3),primary,openai,gpt-5,2046,557
+77,EPA-HQ-OAR-2002-0058,proposed,1,True,"The text is regulatory requirement language within a CFR section prescribing recordkeeping duties, not preamble or mere definition.",compound,none,,63.6(h)(7)(i),You,must,strong,keep records of,requests for alternatives to relative accuracy test for CEMS as required in § 63.8(f)(6)(i),False,False,,none,"(3) Previous (i.e., superseded) versions of the performance 
+evaluation plan as required in Sec.  63.8(d)(3).
+    (4) Request for alternatives to relative accuracy test for CEMS as 
+required in Sec.  63.8(f)(6)(i).
+    (5) Records of the date and time that each deviation started and 
+stopped.
+    (c) You must keep the records required in Table 8 to this subpart 
+including records of all monitoring data and calculated averages for 
+applicable operating limits, such as opacity, pressure drop, pH, and 
+operating load, to show continuous compliance with each emission limit 
+and operating limit that applies to you.
+    (d)",§ 63.8(f)(6)(i),primary,openai,gpt-5,0,0
+77,EPA-HQ-OAR-2002-0058,proposed,2,True,"The text is regulatory requirement language within a CFR section prescribing recordkeeping duties, not preamble or mere definition.",compound,none,,63.6(h)(7)(i),You,must,strong,keep records of,the date and time that each deviation started and stopped,False,False,,none,"(3) Previous (i.e., superseded) versions of the performance 
+evaluation plan as required in Sec.  63.8(d)(3).
+    (4) Request for alternatives to relative accuracy test for CEMS as 
+required in Sec.  63.8(f)(6)(i).
+    (5) Records of the date and time that each deviation started and 
+stopped.
+    (c) You must keep the records required in Table 8 to this subpart 
+including records of all monitoring data and calculated averages for 
+applicable operating limits, such as opacity, pressure drop, pH, and 
+operating load, to show continuous compliance with each emission limit 
+and operating limit that applies to you.
+    (d)",,primary,openai,gpt-5,0,0
+77,EPA-HQ-OAR-2002-0058,proposed,3,True,"The text is regulatory requirement language within a CFR section prescribing recordkeeping duties, not preamble or mere definition.",compound,none,,63.6(h)(7)(i),You,must,strong,keep,"the records required in Table 8 to this subpart, including records of all monitoring data and calculated averages for applicable operating limits, such as opacity, pressure drop, pH, and operating load, to show continuous compliance with each emission limit and operating limit that applies to you",False,False,,none,"(3) Previous (i.e., superseded) versions of the performance 
+evaluation plan as required in Sec.  63.8(d)(3).
+    (4) Request for alternatives to relative accuracy test for CEMS as 
+required in Sec.  63.8(f)(6)(i).
+    (5) Records of the date and time that each deviation started and 
+stopped.
+    (c) You must keep the records required in Table 8 to this subpart 
+including records of all monitoring data and calculated averages for 
+applicable operating limits, such as opacity, pressure drop, pH, and 
+operating load, to show continuous compliance with each emission limit 
+and operating limit that applies to you.
+    (d)",,primary,openai,gpt-5,0,0
+78,EPA-HQ-OAR-2002-0058,proposed,0,True,It is prescriptive regulatory text within a CFR section directing recordkeeping and is not a preamble or mere definition.,simple,none,,63.6(h)(7)(i),you,must,strong,keep,the applicable records in paragraphs (d)(1) through (9) of this section,False,True,For each boiler or process heater subject to an emission limit in Table 1 or 2 to this subpart,none,"For each boiler or process heater subject to an emission limit 
+in Table 1 or 2 to this subpart, you must also keep the applicable 
+records in paragraphs (d)(1) through (9) of this section.",,primary,openai,gpt-5,1813,207
+79,EPA-HQ-OAR-2002-0058,proposed,0,True,"It is mandatory regulatory text within a CFR-style requirement section, not a preamble or pure definition.",simple,none,,63.6(h)(7)(i),You,must,strong,keep,"records of monthly fuel use by each boiler or process heater, including the types of fuel and amounts used",False,False,,none,"(1) You must keep records of monthly fuel use by each boiler or 
+process heater, including the type(s) of fuel and amount(s) used.",,primary,openai,gpt-5,1773,185
+80,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence is binding compliance text within a CFR regulatory provision listing recordkeeping requirements, and it is not preamble or a mere definition.",simple,none,,63.6(h)(7)(i),you,must,strong,keep,a record that documents how the secondary material meets each of the legitimacy criteria,False,True,If you combust non-hazardous secondary materials that have been determined not to be solid waste pursuant to § 241.3(b)(1) and (2),none,"(2) If you combust non-hazardous secondary materials that have been 
+determined not to be solid waste pursuant to Sec.  241.3(b)(1) and (2), 
+you must keep a record that documents how the secondary material meets 
+each of the legitimacy criteria.",§ 241.3(b)(1),primary,openai,gpt-5,1820,226
+81,EPA-HQ-OAR-2002-0058,proposed,0,True,The sentence imposes a clear recordkeeping duty within regulatory text that functions as binding requirements for regulated units.,simple,none,,241.3(b)(1),you,must,strong,keep records,how the operations that produced the fuel satisfy the definition of processing,False,True,If you combust a fuel that has been processed from a discarded non-hazardous secondary material pursuant to § 241.3(b)(4),none,"If you combust a fuel that has been 
+processed from a discarded non-hazardous secondary material pursuant to 
+Sec.  241.3(b)(4), you must keep records as to how the operations that 
+produced the fuel satisfy the definition of processing in Sec.  241.2.",§ 241.2,primary,openai,gpt-5,1828,204
+82,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence is prescriptive regulatory text within an operational recordkeeping subsection and imposes a clear duty using “must,” making it binding.",simple,none,,241.3(b)(1),you,must,strong,keep,a record that documents how the fuel satisfies the requirements of the petition process,False,True,If the fuel received a non-waste determination pursuant to the petition process submitted under § 241.3(c),none,"If the fuel received a non-waste determination pursuant to the petition 
+process submitted under Sec.  241.3(c), you must keep a record that 
+documents how the fuel satisfies the requirements of the petition 
+process.",§ 241.3(c),primary,openai,gpt-5,1794,206
+83,EPA-HQ-OAR-2002-0058,proposed,0,True,The sentence is binding regulatory text within a CFR-style requirement section and contains a clear mandatory modal (“must”); it is not a preamble or mere definition.,simple,none,,241.3(b)(1),You,must,strong,keep,records of monthly hours of operation by each boiler or process heater that meets the definition of limited-use boiler or process heater,False,False,,none,"(3) You must keep records of monthly hours of operation by each 
+boiler or process heater that meets the definition of limited-use 
+boiler or process heater.",,primary,openai,gpt-5,1749,198
+84,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence appears within binding regulatory text prescribing compliance documentation and uses the mandatory modal 'must', making it a binding obligation.",compound,none,,241.3(b)(1),you,must,strong,calculate,chlorine fuel input,False,False,,none,"However, you must calculate chlorine fuel input, or hydrogen chloride 
+emission rate, for each boiler and process heater.",,primary,openai,gpt-5,1705,269
+84,EPA-HQ-OAR-2002-0058,proposed,1,True,"The sentence appears within binding regulatory text prescribing compliance documentation and uses the mandatory modal 'must', making it a binding obligation.",compound,none,,241.3(b)(1),you,must,strong,calculate,hydrogen chloride emission rate,False,False,,none,"However, you must calculate chlorine fuel input, or hydrogen chloride 
+emission rate, for each boiler and process heater.",,primary,openai,gpt-5,0,0
+85,EPA-HQ-OAR-2002-0058,proposed,0,True,"It is prescriptive compliance text within regulatory requirements (not preamble) and uses mandatory modal ""must,"" making it binding even without an explicit amendatory header.",compound,none,,241.3(b)(1),you,must,strong,calculate,mercury fuel input for each boiler and process heater,False,False,,none,"However, you must calculate mercury fuel input, or 
+mercury emission rates, for each boiler and process heater.",,primary,openai,gpt-5,1718,278
+85,EPA-HQ-OAR-2002-0058,proposed,1,True,"It is prescriptive compliance text within regulatory requirements (not preamble) and uses mandatory modal ""must,"" making it binding even without an explicit amendatory header.",compound,none,,241.3(b)(1),you,must,strong,calculate,mercury emission rates for each boiler and process heater,False,False,,none,"However, you must calculate mercury fuel input, or 
+mercury emission rates, for each boiler and process heater.",,primary,openai,gpt-5,0,0
+86,EPA-HQ-OAR-2002-0058,proposed,0,True,"The text is regulatory requirement language with mandatory ""must"" within a CFR operational section, not a preamble or pure definition.",compound,none,,241.3(b)(1),you,must,strong,keep,"annual records that document that your emissions in the previous stack test(s) were less than 75 percent of the applicable emission limit (or, in specific instances noted in Tables 1 and 2 to this subpart, less than the applicable emission limit)",False,True,"If, consistent with § 63.7515(b) and (c), you choose to stack test less frequently than annually",none,"(6) If, consistent with Sec.  63.7515(b) and (c), you choose to 
+stack test less frequently than annually, you must keep annual records 
+that document that your emissions in the previous stack test(s) were 
+less than 75 percent of the applicable emission limit (or, in specific 
+instances noted in Tables 1 and 2 to this subpart, less than the 
+applicable emission limit), and document that there was no change in 
+source operations including fuel composition and operation of air 
+pollution control equipment that would cause emissions of the relevant 
+pollutant to increase within the past year.",§ 63.7515(b),primary,openai,gpt-5,1931,398
+86,EPA-HQ-OAR-2002-0058,proposed,1,True,"The text is regulatory requirement language with mandatory ""must"" within a CFR operational section, not a preamble or pure definition.",compound,none,,241.3(b)(1),you,must,strong,document,"that there was no change in source operations, including fuel composition and operation of air pollution control equipment, that would cause emissions of the relevant pollutant to increase within the past year",False,True,"If, consistent with § 63.7515(b) and (c), you choose to stack test less frequently than annually",none,"(6) If, consistent with Sec.  63.7515(b) and (c), you choose to 
+stack test less frequently than annually, you must keep annual records 
+that document that your emissions in the previous stack test(s) were 
+less than 75 percent of the applicable emission limit (or, in specific 
+instances noted in Tables 1 and 2 to this subpart, less than the 
+applicable emission limit), and document that there was no change in 
+source operations including fuel composition and operation of air 
+pollution control equipment that would cause emissions of the relevant 
+pollutant to increase within the past year.",§ 63.7515(c),primary,openai,gpt-5,0,0
+87,EPA-HQ-OAR-2002-0058,proposed,0,True,The sentence appears in CFR regulatory text imposing recordkeeping/calculation requirements and uses the binding modal 'must'; it is part of operative compliance text rather than preamble or pure definition.,compound,none,,63.7515(b),you,must,strong,calculate,total selected metals fuel input for each boiler and process heater,False,False,,none,"However, you must calculate total selected metals fuel 
+input, or total selected metals emission rates, for each boiler and 
+process heater.",,primary,openai,gpt-5,1748,292
+87,EPA-HQ-OAR-2002-0058,proposed,1,True,The sentence appears in CFR regulatory text imposing recordkeeping/calculation requirements and uses the binding modal 'must'; it is part of operative compliance text rather than preamble or pure definition.,compound,none,,63.7515(b),you,must,strong,calculate,total selected metals emission rates for each boiler and process heater,False,False,,none,"However, you must calculate total selected metals fuel 
+input, or total selected metals emission rates, for each boiler and 
+process heater.",,primary,openai,gpt-5,0,0
+88,EPA-HQ-OAR-2002-0058,proposed,0,True,The sentence is regulatory text in a CFR section imposing recordkeeping duties and is not preamble or a pure definition.,compound,none,,63.7515(b),you,must,strong,keep,a copy of the emission averaging implementation plan required in § 63.7522(g),False,True,If you elect to average emissions consistent with § 63.7522,none,"(e) If you elect to average emissions consistent with Sec.  
+63.7522, you must additionally keep a copy of the emission averaging 
+implementation plan required in Sec.  63.7522(g), all calculations 
+required under Sec.  63.7522, including monthly
+
+[[Page 80650]]
+
+records of heat input or steam generation, as applicable, and 
+monitoring records consistent with Sec.  63.7541.",§ 63.7522(g),primary,openai,gpt-5,1898,565
+88,EPA-HQ-OAR-2002-0058,proposed,1,True,The sentence is regulatory text in a CFR section imposing recordkeeping duties and is not preamble or a pure definition.,compound,none,,63.7515(b),you,must,strong,keep,all calculations required under § 63.7522,False,True,If you elect to average emissions consistent with § 63.7522,none,"(e) If you elect to average emissions consistent with Sec.  
+63.7522, you must additionally keep a copy of the emission averaging 
+implementation plan required in Sec.  63.7522(g), all calculations 
+required under Sec.  63.7522, including monthly
+
+[[Page 80650]]
+
+records of heat input or steam generation, as applicable, and 
+monitoring records consistent with Sec.  63.7541.",§ 63.7522,primary,openai,gpt-5,0,0
+88,EPA-HQ-OAR-2002-0058,proposed,2,True,The sentence is regulatory text in a CFR section imposing recordkeeping duties and is not preamble or a pure definition.,compound,none,,63.7515(b),you,must,strong,keep,"monthly records of heat input or steam generation, as applicable",False,True,If you elect to average emissions consistent with § 63.7522,none,"(e) If you elect to average emissions consistent with Sec.  
+63.7522, you must additionally keep a copy of the emission averaging 
+implementation plan required in Sec.  63.7522(g), all calculations 
+required under Sec.  63.7522, including monthly
+
+[[Page 80650]]
+
+records of heat input or steam generation, as applicable, and 
+monitoring records consistent with Sec.  63.7541.",,primary,openai,gpt-5,0,0
+88,EPA-HQ-OAR-2002-0058,proposed,3,True,The sentence is regulatory text in a CFR section imposing recordkeeping duties and is not preamble or a pure definition.,compound,none,,63.7515(b),you,must,strong,keep,monitoring records consistent with § 63.7541,False,True,If you elect to average emissions consistent with § 63.7522,none,"(e) If you elect to average emissions consistent with Sec.  
+63.7522, you must additionally keep a copy of the emission averaging 
+implementation plan required in Sec.  63.7522(g), all calculations 
+required under Sec.  63.7522, including monthly
+
+[[Page 80650]]
+
+records of heat input or steam generation, as applicable, and 
+monitoring records consistent with Sec.  63.7541.",§ 63.7541,primary,openai,gpt-5,0,0
+89,EPA-HQ-OAR-2002-0058,proposed,0,True,The sentence is regulatory text with mandatory 'must' requirements in a CFR section context and is not preamble or a mere definition.,compound,none,,63.7515(b),you,must,strong,keep,a copy of the Implementation Plan required in § 63.7533(d),False,True,If you elect to use emission credits from energy conservation measures to demonstrate compliance according to § 63.7533,none,"(f) If you elect to use emission credits from energy conservation 
+measures to demonstrate compliance according to Sec.  63.7533, you must 
+keep a copy of the Implementation Plan required in Sec.  63.7533(d) and 
+copies of all data and calculations used to establish credits according 
+to Sec.  63.7533(b), (c), and (f).",§ 63.7533(d),primary,openai,gpt-5,1885,358
+89,EPA-HQ-OAR-2002-0058,proposed,1,True,The sentence is regulatory text with mandatory 'must' requirements in a CFR section context and is not preamble or a mere definition.,compound,none,,63.7515(b),you,must,strong,keep,"copies of all data and calculations used to establish credits according to § 63.7533(b), (c), and (f)",False,True,If you elect to use emission credits from energy conservation measures to demonstrate compliance according to § 63.7533,none,"(f) If you elect to use emission credits from energy conservation 
+measures to demonstrate compliance according to Sec.  63.7533, you must 
+keep a copy of the Implementation Plan required in Sec.  63.7533(d) and 
+copies of all data and calculations used to establish credits according 
+to Sec.  63.7533(b), (c), and (f).",§ 63.7533,primary,openai,gpt-5,0,0
+90,EPA-HQ-OAR-2002-0058,proposed,0,True,The sentence is operational regulatory text within CFR section-style provisions (recordkeeping requirements) and states a clear conditional duty; such provisions are binding even without an explicit amendatory header.,simple,none,,63.7560,you,must,strong,maintain,monthly records of the calculations and results of the fuel specification for mercury in Table 6,False,True,If you elected to demonstrate that the unit meets the specification for mercury for the other gas 1 subcategory and you cannot submit a signed certification under § 63.7545(g) because the constituents could exceed the specification,none,"(g) If you elected to demonstrate that the unit meets the 
+specification for mercury for the other gas 1 subcategory and you 
+cannot submit a signed certification under Sec.  63.7545(g) because the 
+constituents could exceed the specification, you must maintain monthly 
+records of the calculations and results of the fuel specification for 
+mercury in Table 6.",§ 63.7545(g),primary,openai,gpt-5,1902,245
+91,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence is binding regulatory text within a CFR section prescribing recordkeeping requirements, not preamble or mere definition.",simple,none,,63.7560,you,must,strong,keep records,the total hours per calendar year that alternative fuel is burned,False,True,"If you operate a unit designed to burn natural gas, refinery gas, or other gas 1 fuel that is subject to this subpart, and you use an alternative fuel other than natural gas, refinery gas, gaseous fuel subject to another subpart under this part, or other gas 1 fuel",none,"(h) If you operate a unit designed to burn natural gas, refinery 
+gas, or other gas 1 fuel that is subject to this subpart, and you use 
+an alternative fuel other than natural gas, refinery gas, gaseous fuel 
+subject to another subpart under this part, or other gas 1 fuel, you 
+must keep records of the total hours per calendar year that alternative 
+fuel is burned.",,primary,openai,gpt-5,1904,235
+92,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence is binding regulatory text within a CFR section prescribing recordkeeping requirements, not preamble or definition scope-clarification.",compound,none,,63.7560,you,must,strong,maintain,records for each startup or shutdown event,False,False,,none,"For each startup or shutdown event, you must maintain records 
+that boiler operators have completed training for startup and shutdown 
+procedures.",,primary,openai,gpt-5,1770,273
+92,EPA-HQ-OAR-2002-0058,proposed,1,True,"The sentence is binding regulatory text within a CFR section prescribing recordkeeping requirements, not preamble or definition scope-clarification.",compound,none,,63.7560,boiler operators,must,strong,complete,training for startup and shutdown procedures,False,False,,none,"For each startup or shutdown event, you must maintain records 
+that boiler operators have completed training for startup and shutdown 
+procedures.",,primary,openai,gpt-5,0,0
+93,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence appears within CFR regulatory text of § 63.7560 and imposes a mandatory requirement using “must,” making it binding regulatory text.",simple,none,,63.7560(a),You,must,strong,maintain,your records in a form suitable and readily available for expeditious review,False,False,,none,"In what form and how long must I keep my records?
+
+    (a) Your records must be in a form suitable and readily available 
+for expeditious review, according to Sec.  63.10(b)(1).",§ 63.10(b)(1),primary,openai,gpt-5,1812,195
+94,EPA-HQ-OAR-2002-0058,proposed,0,True,"Text appears in a CFR regulatory section prescribing recordkeeping requirements, which is binding regulatory text.",simple,none,,63.7560(b),you,must,strong,keep,"each record for 5 years following the date of each occurrence, measurement, maintenance, corrective action, report, or record",False,False,,none,"(b) As specified in Sec.  63.10(b)(1), you must keep each record 
+for 5 years following the date of each occurrence, measurement, 
+maintenance, corrective action, report, or record.",§ 63.10(b)(1),primary,openai,gpt-5,1818,192
+95,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence is prescriptive regulatory text within a CFR section specifying recordkeeping requirements, not a preamble or pure definition.",compound,none,,63.7560,You,must,strong,keep,each record on site,False,False,,none,"(c) You must keep each record on site, or they must be accessible 
+from on site (for example, through a computer network), for at least 2 
+years after the date of each occurrence, measurement, maintenance, 
+corrective action, report, or record, according to Sec.  63.10(b)(1).",§ 63.10(b)(1),primary,openai,gpt-5,1865,417
+95,EPA-HQ-OAR-2002-0058,proposed,1,True,"The sentence is prescriptive regulatory text within a CFR section specifying recordkeeping requirements, not a preamble or pure definition.",compound,none,,63.7560,You,must,strong,ensure records are accessible from on site,"each record (for example, through a computer network)",False,False,,none,"(c) You must keep each record on site, or they must be accessible 
+from on site (for example, through a computer network), for at least 2 
+years after the date of each occurrence, measurement, maintenance, 
+corrective action, report, or record, according to Sec.  63.10(b)(1).",§ 63.10(b)(1),primary,openai,gpt-5,0,0
+95,EPA-HQ-OAR-2002-0058,proposed,2,True,"The sentence is prescriptive regulatory text within a CFR section specifying recordkeeping requirements, not a preamble or pure definition.",compound,none,,63.7560,You,must,strong,retain,"each record for at least 2 years after the date of each occurrence, measurement, maintenance, corrective action, report, or record",False,False,,none,"(c) You must keep each record on site, or they must be accessible 
+from on site (for example, through a computer network), for at least 2 
+years after the date of each occurrence, measurement, maintenance, 
+corrective action, report, or record, according to Sec.  63.10(b)(1).",§ 63.10(b)(1),primary,openai,gpt-5,0,0
+99,EPA-HQ-OAR-2002-0058,proposed,0,True,"This is binding regulatory text within a definitions section that embeds quantitative/eligibility criteria used in Table 3, creating definition-embedded obligations.",compound,definition_embedded,,63.2,facilities with affected boilers and process heaters using less than 0.3 trillion Btu per year heat input,must,strong,limit the energy assessment length,to a maximum of 8 technical labor hours,False,True,for purposes of Table 3 to this subpart,none,"Energy assessment means the following only as this term is used in 
+Table 3 to this subpart.
+    (1) Energy assessment for facilities with affected boilers and 
+process heaters using less than 0.3 trillion Btu per year heat input 
+will be 8 technical labor hours in length maximum, but may be longer at 
+the discretion of the owner or operator of the affected source.",Table 3 to this subpart,primary,openai,gpt-5,1825,357
+99,EPA-HQ-OAR-2002-0058,proposed,1,True,"This is binding regulatory text within a definitions section that embeds quantitative/eligibility criteria used in Table 3, creating definition-embedded obligations.",compound,definition_embedded,,63.2,owner or operator of the affected source,may,permissive,conduct a longer energy assessment,exceeding 8 technical labor hours,False,True,at their discretion for facilities using less than 0.3 trillion Btu per year heat input,none,"Energy assessment means the following only as this term is used in 
+Table 3 to this subpart.
+    (1) Energy assessment for facilities with affected boilers and 
+process heaters using less than 0.3 trillion Btu per year heat input 
+will be 8 technical labor hours in length maximum, but may be longer at 
+the discretion of the owner or operator of the affected source.",Table 3 to this subpart,primary,openai,gpt-5,0,0
+100,EPA-HQ-OAR-2002-0058,proposed,0,True,"This is within a definition that embeds quantitative/temporal criteria for compliance, which counts as a binding requirement.",compound,definition_embedded,,63.2,Energy assessment for facilities with affected boilers and process heaters using 0.3 to 1.0 trillion Btu per year,no_modal_implicit,strong,be,24 technical labor hours in length maximum,False,False,,none,"(2) The Energy assessment for facilities with affected boilers and 
+process heaters using 0.3 to 1.0 trillion Btu per year will be 24 
+technical labor hours in length maximum, but may be longer at the 
+discretion of the owner or operator.",,primary,openai,gpt-5,1786,303
+100,EPA-HQ-OAR-2002-0058,proposed,1,True,"This is within a definition that embeds quantitative/temporal criteria for compliance, which counts as a binding requirement.",compound,definition_embedded,,63.2,owner or operator,may,permissive,extend the Energy assessment length,beyond 24 technical labor hours,False,False,,none,"(2) The Energy assessment for facilities with affected boilers and 
+process heaters using 0.3 to 1.0 trillion Btu per year will be 24 
+technical labor hours in length maximum, but may be longer at the 
+discretion of the owner or operator.",,primary,openai,gpt-5,0,0
+101,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence appears within regulatory text establishing equivalent procedures and imposes a conditional requirement with “must,” making it binding regulatory text.",simple,none,,63.2,the drying temperature,must,strong,be modified,"to prevent vaporizing mercury, selenium, or arsenic",True,True,If the sample analysis plan calls for determining metals using an aliquot of the dried sample,none,"If the 
+sample analysis plan calls for determining metals (especially the 
+mercury, selenium, or arsenic) using an aliquot of the dried sample, 
+then the drying temperature must be modified to prevent vaporizing 
+these metals.",,primary,openai,gpt-5,1794,196
+102,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence appears within a CFR definition that embeds quantitative eligibility criteria, creating a binding requirement for what qualifies as natural gas.",compound,definition_embedded,,63.2,natural gas,must,strong,be composed,of at least 70 percent methane by volume,True,False,,none,"Additionally, natural gas must either be composed of at 
+least 70 percent methane by volume or have a gross calorific value 
+between 34 and 43 mega joules (MJ) per dry standard cubic meter (910 
+and 1,150 Btu per dry standard cubic foot); or
+    (4) Propane or propane derived synthetic natural gas.",,primary,openai,gpt-5,1843,299
+102,EPA-HQ-OAR-2002-0058,proposed,1,True,"The sentence appears within a CFR definition that embeds quantitative eligibility criteria, creating a binding requirement for what qualifies as natural gas.",compound,definition_embedded,,63.2,natural gas,must,strong,have,"a gross calorific value between 34 and 43 MJ per dry standard cubic meter (910 to 1,150 Btu per dry standard cubic foot)",False,False,,none,"Additionally, natural gas must either be composed of at 
+least 70 percent methane by volume or have a gross calorific value 
+between 34 and 43 mega joules (MJ) per dry standard cubic meter (910 
+and 1,150 Btu per dry standard cubic foot); or
+    (4) Propane or propane derived synthetic natural gas.",,primary,openai,gpt-5,0,0
+103,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence appears within regulatory text (definitions section) and prescribes required actions for a specified actor, making it a binding definition-embedded obligation.",compound,definition_embedded,,63.2,The source owner or operator,must,strong,install,the oxygen analyzer system,False,False,,none,"The source owner or operator must install, calibrate, 
+maintain, and operate the oxygen analyzer system in accordance with the 
+manufacturer's recommendations.",,primary,openai,gpt-5,1739,481
+103,EPA-HQ-OAR-2002-0058,proposed,1,True,"The sentence appears within regulatory text (definitions section) and prescribes required actions for a specified actor, making it a binding definition-embedded obligation.",compound,definition_embedded,,63.2,The source owner or operator,must,strong,calibrate,the oxygen analyzer system,False,False,,none,"The source owner or operator must install, calibrate, 
+maintain, and operate the oxygen analyzer system in accordance with the 
+manufacturer's recommendations.",,primary,openai,gpt-5,0,0
+103,EPA-HQ-OAR-2002-0058,proposed,2,True,"The sentence appears within regulatory text (definitions section) and prescribes required actions for a specified actor, making it a binding definition-embedded obligation.",compound,definition_embedded,,63.2,The source owner or operator,must,strong,maintain,the oxygen analyzer system,False,False,,none,"The source owner or operator must install, calibrate, 
+maintain, and operate the oxygen analyzer system in accordance with the 
+manufacturer's recommendations.",,primary,openai,gpt-5,0,0
+103,EPA-HQ-OAR-2002-0058,proposed,3,True,"The sentence appears within regulatory text (definitions section) and prescribes required actions for a specified actor, making it a binding definition-embedded obligation.",compound,definition_embedded,,63.2,The source owner or operator,must,strong,operate,the oxygen analyzer system,False,False,in accordance with the manufacturer's recommendations,none,"The source owner or operator must install, calibrate, 
+maintain, and operate the oxygen analyzer system in accordance with the 
+manufacturer's recommendations.",,primary,openai,gpt-5,0,0
+104,EPA-HQ-OAR-2002-0058,proposed,0,True,The sentence appears within CFR regulatory text (tables to Subpart DDDDD of Part 63) functioning as binding compliance language and is not preamble or mere definition; it directs regulated parties to comply with specified emission limits.,simple,none,,63.2,you,must,strong,comply,the applicable emission limits in Table 1 to Subpart DDDDD of Part 63,False,False,,none,"As stated in Sec.  63.7500, you must comply with the following 
+applicable emission limits:
+
+    Table 1 to Subpart DDDDD of Part 63--Emission Limits for New or Reconstructed Boilers and Process Heaters
+                     [Units with heat input capacity of 10 million Btu per hour or greater]
+----------------------------------------------------------------------------------------------------------------
+                                                      The emissions must
+                                                        not exceed the     Or the emissions
+If your boiler or process heater                      following emission    must not exceed       Using this
+  is in this subcategory . . .",§ 63.7500,primary,openai,gpt-5,1870,210
+105,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence appears within regulatory table notes and prescriptive text of a CFR subpart, functioning as binding compliance criteria for skip testing eligibility.",compound,none,,63.7515,you,must,strong,show,that your emissions for this pollutant are at or below 75 percent of the applicable limit,False,True,"For all other pollutants that do not contain footnote “a”, in order to qualify for skip testing",none,"For all other pollutants
+  that do not contain a footnote ``a'', your performance tests for this pollutant for at least 2 consecutive
+  years must show that your emissions are at or 75 percent of this limit in order to qualify for skip testing.",§ 63.7515,primary,openai,gpt-5,1716,342
+105,EPA-HQ-OAR-2002-0058,proposed,1,True,"The sentence appears within regulatory table notes and prescriptive text of a CFR subpart, functioning as binding compliance criteria for skip testing eligibility.",compound,none,,63.7515,you,must,strong,conduct performance tests for at least 2 consecutive years,for this pollutant,False,True,"For all other pollutants that do not contain footnote “a”, in order to qualify for skip testing",none,"For all other pollutants
+  that do not contain a footnote ``a'', your performance tests for this pollutant for at least 2 consecutive
+  years must show that your emissions are at or 75 percent of this limit in order to qualify for skip testing.",§ 63.7515,primary,openai,gpt-5,0,0
+106,EPA-HQ-OAR-2002-0058,proposed,0,True,The sentence appears within regulatory text presenting a table of emission limits in a CFR subpart and functions as binding operative text directing compliance with specified limits.,simple,none,,63.7500,you,must,strong,comply,the applicable emission limits in Table 2 to Subpart DDDDD of Part 63,False,False,,none,"As stated in Sec.  63.7500, you must comply with the following 
+applicable emission limits:
+
+         Table 2--to Subpart DDDDD of Part 63--Emission Limits for Existing Boilers and Process Heaters
+                     [Units with heat input capacity of 10 million Btu per hour or greater]
+----------------------------------------------------------------------------------------------------------------",§ 63.7500,primary,openai,gpt-5,1791,195
+107,EPA-HQ-OAR-2002-0058,proposed,0,True,"The text appears within regulatory table language stating emission limits in a CFR subpart, which is binding amendatory/non-amendatory regulatory text rather than preamble or definition.",simple,none,,63.7515,emissions,must not,strong,exceed,the specified emission limits for the applicable pollutants,False,True,"for boilers or process heaters in the specified subcategory, except during periods of startup and shutdown",none,"The emissions must
+                                                        not exceed the    The emissions must
+If your boiler or process heater                      following emission    not exceed the        Using this
+  is in this subcategory . . .",§ 63.7500,primary,openai,gpt-5,1711,210
+108,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence appears in binding regulatory text within a CFR subpart table context establishing conditions for skip testing, making it new or restated enforceable requirements.",simple,none,,63.7515,you,must,strong,demonstrate through performance tests for at least 2 consecutive years,that your emissions for pollutants without footnote a are at or below 75 percent of the applicable limit to qualify for skip testing,False,True,to qualify for skip testing for pollutants that do not contain footnote a,none,"For all other pollutants
+  that do not contain a footnote a, your performance tests for this pollutant for at least 2 consecutive years
+  must show that your emissions are at or 75 percent of this limit in order to qualify for skip testing.",§ 63.7515,primary,openai,gpt-5,1724,228
+109,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence appears within regulatory text introducing a binding table of work practice standards in CFR subpart DDDDD, functioning as binding operative text.",simple,none,,63.7515,you,must,strong,comply,the following applicable work practice standards in Table 3 to Subpart DDDDD of Part 63,False,False,,none,"As stated in Sec.  63.7500, you must comply with the following 
+applicable work practice standards:
+
+      Table 3--to Subpart DDDDD of Part 63--Work Practice Standards
+------------------------------------------------------------------------
+                                         You must meet the following . .",§ 63.7500,primary,openai,gpt-5,1798,196
+110,EPA-HQ-OAR-2002-0058,proposed,0,True,The text is regulatory requirement language within a CFR section (not preamble or pure definition) prescribing a duty for existing boilers or process heaters at major source facilities.,simple,none,,63.7515,An existing boiler or process heater located at a major source facility,must,strong,have performed,a one-time energy assessment on the major source facility by a qualified energy assessor,False,False,,none,"An existing boiler or process heater  Must have a one-time energy
+ located at a major source facility.      assessment performed on the
+                                          major source facility by
+                                          qualified energy assessor.",,primary,openai,gpt-5,1624,200
+111,EPA-HQ-OAR-2002-0058,proposed,0,True,"This appears as binding regulatory text within a CFR section table/list of requirements, not preamble, prescribing what an energy assessment must include.",simple,none,,63.7515,the energy assessment,must,strong,include,a visual inspection of the boiler or process heater system,False,False,,none,"The
+                                          energy assessment must
+                                          include:
+                                         a. A visual inspection of the
+                                          boiler or process heater
+                                          system.",,primary,openai,gpt-5,1606,180
+112,EPA-HQ-OAR-2002-0058,proposed,0,True,"The text is binding regulatory language within CFR section § 63.7515, not preamble or mere definition, and prescribes actions with 'You must'.",compound,none,,63.7515,You,must,strong,employ,good combustion practices,False,True,An existing or new unit is subject to emission limits in Tables 1 or 2 to this subpart,none,"An existing or new unit subject to    You must employ good combustion
+ emission limits in Tables 1 or 2 to      practices and demonstrate that
+ this subpart.",,primary,openai,gpt-5,1615,456
+112,EPA-HQ-OAR-2002-0058,proposed,1,True,"The text is binding regulatory language within CFR section § 63.7515, not preamble or mere definition, and prescribes actions with 'You must'.",compound,none,,63.7515,You,must,strong,demonstrate,that good combustion practices are maintained by monitoring O2 concentrations and optimizing those concentrations as specified by the boiler manufacturer,False,True,An existing or new unit is subject to emission limits in Tables 1 or 2 to this subpart,none,"An existing or new unit subject to    You must employ good combustion
+ emission limits in Tables 1 or 2 to      practices and demonstrate that
+ this subpart.",,primary,openai,gpt-5,0,0
+112,EPA-HQ-OAR-2002-0058,proposed,2,True,"The text is binding regulatory language within CFR section § 63.7515, not preamble or mere definition, and prescribes actions with 'You must'.",compound,none,,63.7515,You,must,strong,ensure,that boiler operators are trained in startup and shutdown procedures,False,True,An existing or new unit is subject to emission limits in Tables 1 or 2 to this subpart,none,"An existing or new unit subject to    You must employ good combustion
+ emission limits in Tables 1 or 2 to      practices and demonstrate that
+ this subpart.",,primary,openai,gpt-5,0,0
+113,EPA-HQ-OAR-2002-0058,proposed,0,True,Text is within regulatory operating requirements language for § 63.7515 and prescribes duties with must; it is binding regulatory text.,compound,none,,63.7515,you,must,strong,employ,good combustion practices,False,True,An existing or new unit subject to emission limits in Tables 1 or 2 to this subpart,none,"good combustion practices are
+                                          maintained by monitoring O2
+                                          concentrations and optimizing
+                                          those concentrations as
+                                          specified by the boiler
+                                          manufacturer; you must ensure
+                                          that boiler operators are
+                                          trained in startup and
+                                          shutdown procedures, including
+                                          maintenance and cleaning,
+                                          safety, control device
+                                          startup, and procedures to
+                                          minimize emissions; and you
+                                          must maintain records during
+                                          periods of startup and
+                                          shutdown and include in your
+                                          compliance reports the O2
+                                          conditions/data for each
+                                          event, length of startup/
+                                          shutdown and reason for the
+                                          startup/shutdown (i.e., normal/
+                                          routine, problem/malfunction,
+                    ",,primary,openai,gpt-5,1877,611
+113,EPA-HQ-OAR-2002-0058,proposed,1,True,Text is within regulatory operating requirements language for § 63.7515 and prescribes duties with must; it is binding regulatory text.,compound,none,,63.7515,you,must,strong,demonstrate,that good combustion practices are maintained by monitoring O2 concentrations and optimizing those concentrations as specified by the boiler manufacturer,False,True,An existing or new unit subject to emission limits in Tables 1 or 2 to this subpart,none,"good combustion practices are
+                                          maintained by monitoring O2
+                                          concentrations and optimizing
+                                          those concentrations as
+                                          specified by the boiler
+                                          manufacturer; you must ensure
+                                          that boiler operators are
+                                          trained in startup and
+                                          shutdown procedures, including
+                                          maintenance and cleaning,
+                                          safety, control device
+                                          startup, and procedures to
+                                          minimize emissions; and you
+                                          must maintain records during
+                                          periods of startup and
+                                          shutdown and include in your
+                                          compliance reports the O2
+                                          conditions/data for each
+                                          event, length of startup/
+                                          shutdown and reason for the
+                                          startup/shutdown (i.e., normal/
+                                          routine, problem/malfunction,
+                    ",,primary,openai,gpt-5,0,0
+113,EPA-HQ-OAR-2002-0058,proposed,2,True,Text is within regulatory operating requirements language for § 63.7515 and prescribes duties with must; it is binding regulatory text.,compound,none,,63.7515,you,must,strong,ensure,"that boiler operators are trained in startup and shutdown procedures, including maintenance and cleaning, safety, control device startup, and procedures to minimize emissions",False,True,An existing or new unit subject to emission limits in Tables 1 or 2 to this subpart,none,"good combustion practices are
+                                          maintained by monitoring O2
+                                          concentrations and optimizing
+                                          those concentrations as
+                                          specified by the boiler
+                                          manufacturer; you must ensure
+                                          that boiler operators are
+                                          trained in startup and
+                                          shutdown procedures, including
+                                          maintenance and cleaning,
+                                          safety, control device
+                                          startup, and procedures to
+                                          minimize emissions; and you
+                                          must maintain records during
+                                          periods of startup and
+                                          shutdown and include in your
+                                          compliance reports the O2
+                                          conditions/data for each
+                                          event, length of startup/
+                                          shutdown and reason for the
+                                          startup/shutdown (i.e., normal/
+                                          routine, problem/malfunction,
+                    ",,primary,openai,gpt-5,0,0
+113,EPA-HQ-OAR-2002-0058,proposed,3,True,Text is within regulatory operating requirements language for § 63.7515 and prescribes duties with must; it is binding regulatory text.,compound,none,,63.7515,you,must,strong,maintain,"records during periods of startup and shutdown and include in your compliance reports the O2 conditions/data for each event, length of startup/shutdown, and reason for the startup/shutdown",False,True,An existing or new unit subject to emission limits in Tables 1 or 2 to this subpart,none,"good combustion practices are
+                                          maintained by monitoring O2
+                                          concentrations and optimizing
+                                          those concentrations as
+                                          specified by the boiler
+                                          manufacturer; you must ensure
+                                          that boiler operators are
+                                          trained in startup and
+                                          shutdown procedures, including
+                                          maintenance and cleaning,
+                                          safety, control device
+                                          startup, and procedures to
+                                          minimize emissions; and you
+                                          must maintain records during
+                                          periods of startup and
+                                          shutdown and include in your
+                                          compliance reports the O2
+                                          conditions/data for each
+                                          event, length of startup/
+                                          shutdown and reason for the
+                                          startup/shutdown (i.e., normal/
+                                          routine, problem/malfunction,
+                    ",,primary,openai,gpt-5,0,0
+114,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence appears within regulatory text presenting Table 4 of Subpart DDDDD with enforceable operating limits, functioning as binding text within an amendatory-style block.",simple,none,,63.7515,you,must,strong,comply with,the applicable operating limits,False,False,,none,"------------------------------------------------------------------------
+
+    As stated in Sec.  63.7500, you must comply with the applicable 
+operating limits:
+
+ Table 4--to Subpart DDDDD of Part 63--Operating Limits for Boilers and
+                             Process Heaters
+------------------------------------------------------------------------
+If you demonstrate compliance   You must meet these operating limits .",§ 63.7500,primary,openai,gpt-5,1701,186
+115,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence is binding compliance text within regulatory operational requirements, prescribing a quantitative limit for boilers and process heaters.",simple,none,,63.7525,Existing and new boilers and process heaters,must,strong,maintain,opacity less than or equal to 10 percent (daily block average),False,False,,none,"Existing and new boilers and process
+                                heaters must maintain opacity to less
+                                than or equal to 10 percent opacity
+                                (daily block average); or
+                               b.",,primary,openai,gpt-5,1674,182
+116,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence imposes a clear performance requirement within regulatory text for boilers and process heaters; even without explicit amendatory header, it is binding operating criteria.",simple,none,,63.7530(b),Existing and new boilers and process heaters,must,strong,maintain,opacity less than or equal to 10 percent (daily block average),False,False,,none,"Existing and new boilers and
+                                process heaters must maintain opacity to
+                                less than or equal to 10 percent opacity
+                                (daily block average).",,primary,openai,gpt-5,1722,192
+117,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence is operative regulatory text within a CFR subpart table introducing mandatory performance testing requirements, not preamble or pure definition.",simple,none,,63.7530(b),you,must,strong,comply,"the following requirements for performance testing for existing, new, or reconstructed affected sources",False,False,,none,"------------------------------------------------------------------------
+
+    As stated in Sec.  63.7520, you must comply with the following 
+requirements for performance testing for existing, new or reconstructed 
+affected sources:
+
+ Table 5--to Subpart DDDDD of Part 63--Performance Testing Requirements
+------------------------------------------------------------------------
+ To conduct a performance test
+ for the following pollutant .",§ 63.7520,primary,openai,gpt-5,1737,189
+118,EPA-HQ-OAR-2002-0058,proposed,0,True,"The text appears within a binding regulatory table of performance testing requirements in 40 CFR part 63 subpart DDDDD, which functions as binding regulatory text even without an explicit amendatory wrapper.",simple,none,,63.7530(b),You,must,strong,"comply with the following requirements for performance testing for existing, new, or reconstructed affected sources",requirements listed in Table 5 to Subpart DDDDD of Part 63,False,False,,none,You must . . .,§ 63.7520,primary,openai,gpt-5,1615,220
+119,EPA-HQ-OAR-2002-0058,proposed,0,True,"This is binding test method text within regulatory requirements, specifying how to measure particulate matter concentration and thus functions as enforceable obligation language.",compound,none,,63.7530(b),the tester,must,strong,measure,particulate matter emission concentration,False,False,,none,"e. Measure the     Method 5 or 17
+                                 particulate        (positive pressure
+                                 matter emission    fabric filters must
+                                 concentration.",,primary,openai,gpt-5,1671,293
+119,EPA-HQ-OAR-2002-0058,proposed,1,True,"This is binding test method text within regulatory requirements, specifying how to measure particulate matter concentration and thus functions as enforceable obligation language.",compound,none,,63.7530(b),positive pressure fabric filters,must,strong,use,Method 5D,False,True,when measuring particulate matter emission concentration,none,"e. Measure the     Method 5 or 17
+                                 particulate        (positive pressure
+                                 matter emission    fabric filters must
+                                 concentration.",40 CFR part 60 appendix A-3 or A-6,primary,openai,gpt-5,0,0
+120,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence appears within regulatory text introducing a requirements table and imposes a mandatory duty using “must,” making it binding regulatory text.",simple,none,,63.7530(b),you,must,strong,comply,"the following requirements for fuel analysis testing for existing, new, or reconstructed affected sources",False,False,,none,"As stated in Sec.  63.7521, you must comply with the following 
+requirements for fuel analysis testing for existing, new or 
+reconstructed affected sources.",§ 63.7521,primary,openai,gpt-5,1661,191
+121,EPA-HQ-OAR-2002-0058,proposed,0,True,"It appears within binding regulatory text of a CFR subpart prescribing fuel analysis requirements, not preamble, thus constitutes binding text.",simple,none,,63.7530(b),the source owner or operator,may,permissive,use,equivalent methods (as defined in § 63.7575) in lieu of the prescribed methods,False,False,,none,"However, equivalent methods (as defined 
+in Sec.  63.7575) may be used in lieu of the prescribed methods at the 
+discretion of the source owner or operator:
+
+    Table 6--to Subpart DDDDD of Part 63--Fuel Analysis Requirements
+------------------------------------------------------------------------
+ To conduct a fuel analysis
+ for the following pollutant     You must . . .",§ 63.7575,primary,openai,gpt-5,1742,199
+122,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence appears within regulatory text introducing a requirements table and imposes a clear duty to comply, indicating binding operative text.",simple,none,,63.7530(b),you,must,strong,comply,the following requirements for establishing operating limits,False,False,,none,"As stated in Sec.  63.7520, you must comply with the following 
+requirements for establishing operating limits:
+
+                       Table 7--to Subpart DDDDD of Part 63--Establishing Operating Limits
+----------------------------------------------------------------------------------------------------------------
+                                  And your operating",§ 63.7520,primary,openai,gpt-5,1712,180
+123,EPA-HQ-OAR-2002-0058,proposed,0,True,"The candidate appears within binding regulatory text of a CFR subpart table prescribing requirements for establishing operating limits, which functions as operative rule text.",simple,none,,63.7530(b),you,must,strong,comply with the following requirements for establishing operating limits,None,False,False,,none,"According to the
+    If you have an applicable      limits are based     You must . . .",§ 63.7520,primary,openai,gpt-5,1640,184
+124,EPA-HQ-OAR-2002-0058,proposed,0,True,The candidate sentence appears in CFR regulatory text prescribing operating limits and contains binding language ('You must'); tables in § 63.7530(b) set enforceable requirements.,simple,none,,63.7530(b),You,must,strong,collect data,scrubber pressure drop and liquid flow rate data every 15 minutes,False,True,"If you have an applicable emission limit for particulate matter, total selected metals, or mercury and your operating limits are based on wet scrubber operating parameters",none,"Particulate matter, total      a. Wet scrubber     i. Establish a      (1) Data from the   (a) You must
+ selected metals, or mercury.",§ 63.75,primary,openai,gpt-5,1634,224
+125,EPA-HQ-OAR-2002-0058,proposed,0,True,"The text is within regulatory rule text specifying monitoring requirements and includes mandatory language ('You must'); it appears in an amendatory-style block detailing operating parameters and test procedures, making it binding.",compound,none,,63.7530(b),You,must,strong,collect,secondary voltage and secondary amperage for each ESP cell,False,False,,none,"Electrostatic    i. Establish a      (1) Data from the   (a) You must
+                                   precipitator        site-specific       voltage and         collect secondary
+                                   operating           minimum total       secondary           voltage and
+                                   parameters          secondary           amperage monitors   secondary
+                                   (option only for    electric power      during the          amperage for each
+                                   units that          input according     particulate         ESP cell and
+                                   operate wet         to Sec.",§ 63.7530(b),primary,openai,gpt-5,1701,309
+125,EPA-HQ-OAR-2002-0058,proposed,1,True,"The text is within regulatory rule text specifying monitoring requirements and includes mandatory language ('You must'); it appears in an amendatory-style block detailing operating parameters and test procedures, making it binding.",compound,none,,63.7530(b),You,must,strong,calculate,total secondary electric power input data every 15 minutes during the entire period,False,False,,none,"Electrostatic    i. Establish a      (1) Data from the   (a) You must
+                                   precipitator        site-specific       voltage and         collect secondary
+                                   operating           minimum total       secondary           voltage and
+                                   parameters          secondary           amperage monitors   secondary
+                                   (option only for    electric power      during the          amperage for each
+                                   units that          input according     particulate         ESP cell and
+                                   operate wet         to Sec.",§ 63.7530(b),primary,openai,gpt-5,0,0
+126,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence appears as binding regulatory text within a rule table establishing operating limits and explicitly uses mandatory language (You must), which functions as amendatory binding text.",compound,none,,63.7530(b),You,must,strong,collect,pH data every 15 minutes during the entire period of the performance test,False,True,For Hydrogen Chloride when using a wet scrubber and establishing site-specific minimum operating limits according to § 63.7530(b),none,"Hydrogen Chloride............  a. Wet scrubber     i. Establish site-  (1) Data from the   (a) You must
+                                   operating           specific minimum    pressure drop,      collect pH and
+                                   parameters.",§ 63.7530(b),primary,openai,gpt-5,1634,363
+126,EPA-HQ-OAR-2002-0058,proposed,1,True,"The sentence appears as binding regulatory text within a rule table establishing operating limits and explicitly uses mandatory language (You must), which functions as amendatory binding text.",compound,none,,63.7530(b),You,must,strong,collect,liquid flow-rate data every 15 minutes during the entire period of the performance test,False,True,For Hydrogen Chloride when using a wet scrubber and establishing site-specific minimum operating limits according to § 63.7530(b),none,"Hydrogen Chloride............  a. Wet scrubber     i. Establish site-  (1) Data from the   (a) You must
+                                   operating           specific minimum    pressure drop,      collect pH and
+                                   parameters.",§ 63.7530(b),primary,openai,gpt-5,0,0
+127,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence appears within regulatory text tied to § 63.7530(b) and prescribes required data collection during a performance test, indicating binding operational requirements.",simple,none,,63.7530(b),You,must,strong,collect,sorbent injection rate data every 15 minutes during the entire period of the performance test,False,True,Data from the site-specific minimum sorbent injection rate monitors and hydrogen chloride or mercury performance test,none,"b. Dry scrubber     i. Establish a      (1) Data from the   (a) You must
+                                   operating           site-specific       sorbent injection   collect sorbent
+                                   parameters.",§ 63.7530(b),primary,openai,gpt-5,1614,218
+128,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence uses binding regulatory language ('You must ...') within CFR rule text context, constituting new or operative binding requirements.",simple,none,,63.7530(b),You,must,strong,collect,activated carbon injection rate data every 15 minutes during the entire period,False,False,,none,"a. Activated        i. Establish a      (1) Data from the   (a) You must
+                                   carbon injection.",,primary,openai,gpt-5,1568,180
+129,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence is binding operational text within CFR regulatory provisions, directing the regulated party to take an action (collect oxygen data every 15 minutes) and is not preamble or a mere definition.",simple,none,,63.7530(b),You,must,strong,collect,oxygen data every 15 minutes during the entire period of the performance tests,False,False,,none,"i. Establish a      (1) Data from the   (a) You must
+                                                       unit-specific       oxygen analyzer     collect oxygen
+                                                       limit for minimum   system specified    data every 15
+                                                       oxygen level        in Sec.             minutes during
+                                                       according to Sec.   63.7525(a).",§ 63.7525(a),primary,openai,gpt-5,1638,201
+130,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence appears within regulatory table text setting operating requirements and uses mandatory language ('You must'), indicating binding text within the CFR section.",simple,none,,63.7530(b),You,must,strong,collect,operating load or steam generation data every 15 minutes during the entire period of the performance test,False,True,For any pollutant for which compliance is demonstrated by a unit-specific operating load performance test for a boiler or process heater,none,"You must
+ compliance is demonstrated by a   process heater      unit specific       operating load      collect operating
+ performance test.",§ 63.7520(c),primary,openai,gpt-5,1581,217
+131,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence appears in regulatory text introducing Table 8 within a CFR subpart and states a binding requirement using 'you must', which functions as new or restated binding text within the rule text.",simple,none,,63.7530(b),you,must,strong,show,continuous compliance with the emission limitations for affected sources according to Table 8 to Subpart DDDDD of Part 63,False,False,,none,"----------------------------------------------------------------------------------------------------------------
+
+    As stated in Sec.  63.7540, you must show continuous compliance 
+with the emission limitations for affected sources according to the 
+following:
+
+     Table 8--to Subpart DDDDD of Part 63--Demonstrating Continuous
+                               Compliance
+------------------------------------------------------------------------
+     If you must meet the
+following operating limits or       You must demonstrate continuous
+work practice standards . . .",§ 63.7540,primary,openai,gpt-5,1721,211
+132,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence appears within regulatory text introducing Table 9 reporting requirements of Subpart DDDDD and uses mandatory language (“you must”), making it new binding text within the rule text.",simple,none,,63.7530(b),you,must,strong,comply,the following requirements for reports stated in § 63.7550,False,False,,none,"------------------------------------------------------------------------
+
+    As stated in Sec.  63.7550, you must comply with the following 
+requirements for reports:
+
+      Table 9--to Subpart DDDDD of Part 63--Reporting Requirements
+------------------------------------------------------------------------
+                                    The report must      You must submit
+     You must submit a(n)            contain . . .",§ 63.7550,primary,openai,gpt-5,1722,198
+133,EPA-HQ-OAR-2002-0058,proposed,0,True,The sentence appears in CFR regulatory text (40 CFR § 63.7530(b)) prescribing reporting content with a mandatory modal and is part of binding requirements.,simple,none,,63.7530(b),the report,must,strong,contain,the information in § 63.7550(d),False,True,"If you have a deviation from any emission limitation (emission limit and operating limit) where you are not using a CMS to comply with that emission limit or operating limit, or a deviation from a work practice standard during the reporting period",none,"If you have a
+                                 deviation from any
+                                 emission limitation
+                                 (emission limit and
+                                 operating limit)
+                                 where you are not
+                                 using a CMS to comply
+                                 with that emission
+                                 limit or operating
+                                 limit, or a deviation
+                                 from a work practice
+                                 standard during the
+                                 reporting period, the
+                                 report must contain
+                                 the information in
+                                 Sec.   63.7550(d);
+                                 and
+                                d.",§ 63.7550(d),primary,openai,gpt-5,1821,238
+134,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence is regulatory binding text within CFR subpart language, not preamble, prescribing reporting content when CMSs are out-of-control or not operating.",simple,none,,63.7530(b),the report,must,strong,contain,the information in § 63.7550(e),False,True,"If there were periods during which the CMSs (including CEMS, COMS, and operating parameter monitoring systems) were out-of-control as specified in § 63.8(c)(7), or otherwise not operating",none,"If there were
+                                 periods during which
+                                 the CMSs, including
+                                 continuous emissions
+                                 monitoring system,
+                                 continuous opacity
+                                 monitoring system,
+                                 and operating
+                                 parameter monitoring
+                                 systems, were out-of-
+                                 control as specified
+                                 in Sec.   63.8(c)(7),
+                                 or otherwise not
+                                 operating, the report
+                                 must contain the
+                                 information in Sec.
+                                 63.7550(e).",§ 63.7550(e),primary,openai,gpt-5,1787,233
+135,EPA-HQ-OAR-2002-0058,proposed,0,True,"The sentence appears within CFR regulatory text as binding rule language directing compliance with General Provisions, not preamble or definition scope; it uses the modal 'must' and is part of operative subpart text.",simple,none,,63.7530(b),you,must,strong,comply with,the applicable General Provisions listed in Table 10 to Subpart DDDDD,False,False,,none,"------------------------------------------------------------------------
+
+    As stated in Sec.  63.7565, you must comply with the applicable 
+General Provisions according to the following:
+
+     Table 10--to Subpart DDDDD of Part 63--Applicability of General
+                       Provisions to Subpart DDDDD
+------------------------------------------------------------------------
+                                                      Applies to subpart
+            Citation                    Subject              DDDDD
+------------------------------------------------------------------------
+Sec.   63.1.....................  Applicability.....",§ 63.7565,primary,openai,gpt-5,1798,207
+136,EPA-HQ-OAR-2002-0058,proposed,0,True,The sentence appears within regulatory text incorporated under an amendatory context (table indicating applicability with “Yes.” entries) and prescribes a permissive condition; treat as binding text.,simple,none,,63.6(i),Facilities,may,permissive,request,extensions of compliance for the installation of combined heat and power or waste heat recovery as a means of complying with this subpart,False,False,,none,"may request
+                                                       extensions of
+                                                       compliance for
+                                                       the installation
+                                                       of combined heat
+                                                       and power or
+                                                       waste heat
+                                                       recovery as a
+                                                       means of
+                                                       complying with
+                                                       this subpart.",,primary,openai,gpt-5,1744,202

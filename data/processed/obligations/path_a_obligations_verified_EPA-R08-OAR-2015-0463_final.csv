@@ -1,0 +1,220 @@
+candidate_idx,docket_id,rule_type,split_idx,verified,verified_reason,complexity,recital_disposition,cfr_part,cfr_section,subject,modal,modal_strength,action,object,passive_voice,is_conditional,condition_text,amendatory_action,obligation_text,cross_reference,found_via,llm_provider,llm_model,in_tokens,out_tokens
+47,EPA-R08-OAR-2015-0463,final,0,True,The sentence appears within an amendatory block adding § 52.2336 and thus constitutes new binding regulatory text.,simple,none,52,52.2336(b),Terms not defined in paragraph (b),shall,strong,have,the meaning given in the Clean Air Act or EPA's regulations implementing the Clean Air Act,False,False,,add,"Terms not defined in this paragraph (b) shall have 
+the meaning given them in the Clean Air Act or EPA's regulations 
+implementing the Clean Air Act.",,primary,openai,gpt-5,1750,188
+48,EPA-R08-OAR-2015-0463,final,0,True,The text appears within an amendatory add block for § 52.2336 and prescribes new binding emission limits.,compound,none,52,52.2336,owners/operators of emission units subject to this section,must not,strong,emit,NOX in excess of the limitations in Table 1 to § 52.2336,False,False,,add,"(1) The owners/operators of emission 
+units subject to this section shall not emit, or cause to be emitted, 
+NO<INF>X</INF> in excess of the following limitations:
+
+     Table 1 to Sec.   52.2336--Emission limitations for BART Units
+------------------------------------------------------------------------
+                                                           NOX Emission
+                                                         limitation--lb/
+                                                          MMBtu (30-day
+                 Source name/BART unit                       rolling
+                                                             average)
+ 
+------------------------------------------------------------------------
+PacifiCorp Hunter Plant/Unit 1 \1\.....................             0.07
+PacifiCorp Hunter Plant/Unit 2 \1\.....................             0.07
+PacifiCorp Huntington Plant/Unit 1 \1\.................",§ 52.2336,primary,openai,gpt-5,2029,465
+48,EPA-R08-OAR-2015-0463,final,1,True,The text appears within an amendatory add block for § 52.2336 and prescribes new binding emission limits.,compound,none,52,52.2336,owners/operators of PacifiCorp Hunter Units 1 and 2 and Huntington Units 1 and 2,must,strong,comply,"the NOX emission limit for BART of 0.07 lb/MMBtu and other requirements of this section by August 4, 2021",False,False,,add,"(1) The owners/operators of emission 
+units subject to this section shall not emit, or cause to be emitted, 
+NO<INF>X</INF> in excess of the following limitations:
+
+     Table 1 to Sec.   52.2336--Emission limitations for BART Units
+------------------------------------------------------------------------
+                                                           NOX Emission
+                                                         limitation--lb/
+                                                          MMBtu (30-day
+                 Source name/BART unit                       rolling
+                                                             average)
+ 
+------------------------------------------------------------------------
+PacifiCorp Hunter Plant/Unit 1 \1\.....................             0.07
+PacifiCorp Hunter Plant/Unit 2 \1\.....................             0.07
+PacifiCorp Huntington Plant/Unit 1 \1\.................",§ 52.2336,primary,openai,gpt-5,0,0
+48,EPA-R08-OAR-2015-0463,final,2,True,The text appears within an amendatory add block for § 52.2336 and prescribes new binding emission limits.,compound,none,52,52.2336,owners/operators of emission units subject to this section,must,strong,apply the emission limitations,"at all times, including during startups, shutdowns, emergencies, and malfunctions",False,False,,add,"(1) The owners/operators of emission 
+units subject to this section shall not emit, or cause to be emitted, 
+NO<INF>X</INF> in excess of the following limitations:
+
+     Table 1 to Sec.   52.2336--Emission limitations for BART Units
+------------------------------------------------------------------------
+                                                           NOX Emission
+                                                         limitation--lb/
+                                                          MMBtu (30-day
+                 Source name/BART unit                       rolling
+                                                             average)
+ 
+------------------------------------------------------------------------
+PacifiCorp Hunter Plant/Unit 1 \1\.....................             0.07
+PacifiCorp Hunter Plant/Unit 2 \1\.....................             0.07
+PacifiCorp Huntington Plant/Unit 1 \1\.................",,primary,openai,gpt-5,0,0
+49,EPA-R08-OAR-2015-0463,final,0,True,"The sentence appears within amendatory regulatory text being added to § 52.2336, so it is new binding text.",compound,none,52,52.2336,The owners and operators of PacifiCorp Hunter Units 1 and 2 and PacifiCorp Huntington Units 1 and 2,shall,strong,comply with the NOX emission limit for BART,0.07 lb/MMBtu,False,False,,add,"0.07
+------------------------------------------------------------------------
+\1\ The owners and operators of PacifiCorp Hunter Units 1 and 2 and
+  Huntington Units 1 and 2, shall comply with the NOX emission limit for
+  BART of 0.07 lb/MMBtu and other requirements of this section by August
+  4, 2021.
+
+    (2)",,primary,openai,gpt-5,1861,339
+49,EPA-R08-OAR-2015-0463,final,1,True,"The sentence appears within amendatory regulatory text being added to § 52.2336, so it is new binding text.",compound,none,52,52.2336,The owners and operators of PacifiCorp Hunter Units 1 and 2 and PacifiCorp Huntington Units 1 and 2,shall,strong,comply with other requirements of this section,"by August 4, 2021",False,False,,add,"0.07
+------------------------------------------------------------------------
+\1\ The owners and operators of PacifiCorp Hunter Units 1 and 2 and
+  Huntington Units 1 and 2, shall comply with the NOX emission limit for
+  BART of 0.07 lb/MMBtu and other requirements of this section by August
+  4, 2021.
+
+    (2)",,primary,openai,gpt-5,0,0
+50,EPA-R08-OAR-2015-0463,final,0,True,"The sentence appears within an amendatory block adding regulatory text to § 52.2336, making it new binding text.",simple,none,52,52.2336,These emission limitations,shall,strong,apply,"at all times, including startups, shutdowns, emergencies, and malfunctions",False,False,,add,"These emission limitations shall apply at all times, including 
+startups, shutdowns, emergencies, and malfunctions.",,primary,openai,gpt-5,1793,183
+51,EPA-R08-OAR-2015-0463,final,0,True,"The sentence appears within amendatory regulatory text being added to 40 CFR 52.2336, making it binding.",compound,none,52,52.2336(d)(1),The owners and operators of PacifiCorp Hunter Units 1 and 2,shall,strong,comply with the NOX emission limitation,0.07 lb/MMBtu,False,False,,add,"(1) The owners and operators of PacifiCorp 
+Hunter Units 1 and 2 shall comply with the NO<INF>X</INF> emission 
+limitation of 0.07 lb/MMBtu and other requirements of this section by 
+August 4, 2021.",,primary,openai,gpt-5,1858,319
+51,EPA-R08-OAR-2015-0463,final,1,True,"The sentence appears within amendatory regulatory text being added to 40 CFR 52.2336, making it binding.",compound,none,52,52.2336(d)(1),The owners and operators of PacifiCorp Hunter Units 1 and 2,shall,strong,comply with other requirements of this section,"by August 4, 2021",False,False,,add,"(1) The owners and operators of PacifiCorp 
+Hunter Units 1 and 2 shall comply with the NO<INF>X</INF> emission 
+limitation of 0.07 lb/MMBtu and other requirements of this section by 
+August 4, 2021.",,primary,openai,gpt-5,0,0
+52,EPA-R08-OAR-2015-0463,final,0,True,"The sentence appears within an amendatory add/revise block for § 52.2336 and states mandatory compliance requirements, making it new binding regulatory text.",compound,none,52,52.2336(d),The owners and operators of PacifiCorp Huntington Units 1 and 2,shall,strong,comply with the NOX emission limitation,0.07 lb/MMBtu,False,False,,add,"The owners and operators of PacifiCorp Huntington Units 
+1 and 2 shall comply with the NO<INF>X</INF> emission limitation of 
+0.07 lb/MMBtu and other requirements of this section by August 4, 2021.
+    (2)",,primary,openai,gpt-5,1859,327
+52,EPA-R08-OAR-2015-0463,final,1,True,"The sentence appears within an amendatory add/revise block for § 52.2336 and states mandatory compliance requirements, making it new binding regulatory text.",compound,none,52,52.2336(d),The owners and operators of PacifiCorp Huntington Units 1 and 2,shall,strong,comply with other requirements,this section,False,False,"by August 4, 2021",add,"The owners and operators of PacifiCorp Huntington Units 
+1 and 2 shall comply with the NO<INF>X</INF> emission limitation of 
+0.07 lb/MMBtu and other requirements of this section by August 4, 2021.
+    (2)",§ 52.2336,primary,openai,gpt-5,0,0
+53,EPA-R08-OAR-2015-0463,final,0,True,The sentence appears within an amendatory block adding regulatory text and imposes duties with 'shall'.,compound,none,52,52.2336(e)(1)(i),the owner/operator of each unit,shall,strong,maintain,a CEMS in full compliance with the requirements found at 40 CFR part 75,False,True,At all times after the earliest compliance date specified in paragraph (d) of this section,add,"At all times after the earliest compliance date specified 
+in paragraph (d) of this section, the owner/operator of each unit shall 
+maintain, calibrate, and operate a CEMS, in full compliance with the 
+requirements found at 40 CFR part 75, to accurately measure 
+NO<INF>X</INF>, diluent, and stack gas volumetric flow rate from each 
+unit.",40 CFR part 75,primary,openai,gpt-5,1902,497
+53,EPA-R08-OAR-2015-0463,final,1,True,The sentence appears within an amendatory block adding regulatory text and imposes duties with 'shall'.,compound,none,52,52.2336(e)(1)(i),the owner/operator of each unit,shall,strong,calibrate,a CEMS in full compliance with the requirements found at 40 CFR part 75,False,True,At all times after the earliest compliance date specified in paragraph (d) of this section,add,"At all times after the earliest compliance date specified 
+in paragraph (d) of this section, the owner/operator of each unit shall 
+maintain, calibrate, and operate a CEMS, in full compliance with the 
+requirements found at 40 CFR part 75, to accurately measure 
+NO<INF>X</INF>, diluent, and stack gas volumetric flow rate from each 
+unit.",40 CFR part 75,primary,openai,gpt-5,0,0
+53,EPA-R08-OAR-2015-0463,final,2,True,The sentence appears within an amendatory block adding regulatory text and imposes duties with 'shall'.,compound,none,52,52.2336(e)(1)(i),the owner/operator of each unit,shall,strong,operate,"a CEMS to accurately measure NOX, diluent, and stack gas volumetric flow rate from each unit",False,True,At all times after the earliest compliance date specified in paragraph (d) of this section,add,"At all times after the earliest compliance date specified 
+in paragraph (d) of this section, the owner/operator of each unit shall 
+maintain, calibrate, and operate a CEMS, in full compliance with the 
+requirements found at 40 CFR part 75, to accurately measure 
+NO<INF>X</INF>, diluent, and stack gas volumetric flow rate from each 
+unit.",40 CFR part 75,primary,openai,gpt-5,0,0
+54,EPA-R08-OAR-2015-0463,final,0,True,The sentence appears within an amendatory block adding regulatory text and imposes a compliance-duty use of CEMS.,simple,none,52,52.2336,the owner/operator of each unit,shall,strong,use,the CEMS to determine compliance with the emission limitations in paragraph (c) of this section for each unit,False,True,At all times after the earliest compliance date specified in paragraph (d) of this section,add,"The CEMS shall be used to determine compliance with the emission 
+limitations in paragraph (c) of this section for each unit.
+    (ii) Method.",40 CFR part 75,primary,openai,gpt-5,1796,211
+55,EPA-R08-OAR-2015-0463,final,0,True,"The text appears within an amendatory block adding regulatory text, making it binding.",simple,none,52,52.2336,the owner/operator of each unit,shall,strong,calculate,the hourly average NOx emission rate in lb/MMBtu at the CEMS,False,True,For any hour in which fuel is combusted in a unit,add,"For any hour in which fuel is combusted in a unit, 
+the owner/operator of each unit shall calculate the hourly average 
+NO<INF>X</INF> emission rate in lb/MMBtu at the CEMS in accordance with 
+the requirements of 40 CFR part 75.",40 CFR part 75,primary,openai,gpt-5,1856,195
+56,EPA-R08-OAR-2015-0463,final,0,True,"The sentence is within amendatory regulatory text being added to § 52.2336 and imposes a duty using “shall,” making it binding.",compound,none,52,52.2336,the owner/operator,shall,strong,calculate,a new 30-day rolling average emission rate in lb/MMBtu from the arithmetic average of all valid hourly emission rates from the CEMS for the current operating day and the previous 29 successive operating days,False,True,At the end of each operating day,add,"At the end of each operating day, 
+the owner/operator shall calculate and record a new 30-day rolling 
+average emission rate in lb/MMBtu from the arithmetic average of all 
+valid hourly emission rates from the CEMS for the current operating day 
+and the previous 29 successive operating days.",40 CFR part 75,primary,openai,gpt-5,1862,340
+56,EPA-R08-OAR-2015-0463,final,1,True,"The sentence is within amendatory regulatory text being added to § 52.2336 and imposes a duty using “shall,” making it binding.",compound,none,52,52.2336,the owner/operator,shall,strong,record,the new 30-day rolling average emission rate in lb/MMBtu,False,True,At the end of each operating day,add,"At the end of each operating day, 
+the owner/operator shall calculate and record a new 30-day rolling 
+average emission rate in lb/MMBtu from the arithmetic average of all 
+valid hourly emission rates from the CEMS for the current operating day 
+and the previous 29 successive operating days.",,primary,openai,gpt-5,0,0
+57,EPA-R08-OAR-2015-0463,final,0,True,The sentence is within an amendatory block adding regulatory text and uses mandatory language prescribing reporting content.,compound,none,52,52.2336,Data reported to meet the requirements of this section,must not,strong,include,data substituted using the missing data substitution procedures of subpart D of 40 CFR part 75,False,False,,add,"(C) Data reported to meet the requirements of this section shall 
+not include data substituted using the missing data substitution 
+procedures of subpart D of 40 CFR part 75, nor shall the data have been 
+bias adjusted according to the procedures of 40 CFR part 75.
+    (2)",40 CFR part 75,primary,openai,gpt-5,1841,312
+57,EPA-R08-OAR-2015-0463,final,1,True,The sentence is within an amendatory block adding regulatory text and uses mandatory language prescribing reporting content.,compound,none,52,52.2336,Data reported to meet the requirements of this section,must not,strong,have been bias adjusted,according to the procedures of 40 CFR part 75,True,False,,add,"(C) Data reported to meet the requirements of this section shall 
+not include data substituted using the missing data substitution 
+procedures of subpart D of 40 CFR part 75, nor shall the data have been 
+bias adjusted according to the procedures of 40 CFR part 75.
+    (2)",40 CFR part 75,primary,openai,gpt-5,0,0
+58,EPA-R08-OAR-2015-0463,final,0,True,Text appears within an amendatory add block and imposes a recordkeeping duty.,simple,none,52,52.2336,The owner/operator,shall,strong,maintain,"the following records for at least five years, including all CEMS data with the date, place, and time of sampling or measurement; parameters sampled or measured; and results",False,False,,add,"The owner/operator shall maintain the following 
+records for at least five years:
+    (1) All CEMS data, including the date, place, and time of sampling 
+or measurement; parameters sampled or measured; and results.",40 CFR part 75,primary,openai,gpt-5,1821,199
+59,EPA-R08-OAR-2015-0463,final,0,True,"The text is within an amendatory added section and prescribes duties using shall, making it binding.",compound,none,52,52.2336,All reports under this section,shall,strong,be submitted,"to the Director, Office of Enforcement, Compliance and Environmental Justice, U.S. Environmental Protection Agency, Region 8, Mail Code 8ENF-AT, 1595 Wynkoop Street, Denver, Colorado 80202-1129",True,False,,add,"All reports under this section shall be submitted to 
+the Director, Office of Enforcement, Compliance and Environmental 
+Justice, U.S. Environmental Protection Agency, Region 8, Mail Code 
+8ENF-AT, 1595 Wynkoop Street, Denver, Colorado 80202-1129.
+    (1) The owner/operator of each unit shall submit quarterly excess 
+emissions reports for NO<INF>X</INF> BART units no later than the 30th 
+day following the end of each calendar quarter.",,primary,openai,gpt-5,1890,337
+59,EPA-R08-OAR-2015-0463,final,1,True,"The text is within an amendatory added section and prescribes duties using shall, making it binding.",compound,none,52,52.2336,The owner/operator of each unit,shall,strong,submit,quarterly excess emissions reports for NOX BART units,False,True,no later than the 30th day following the end of each calendar quarter,add,"All reports under this section shall be submitted to 
+the Director, Office of Enforcement, Compliance and Environmental 
+Justice, U.S. Environmental Protection Agency, Region 8, Mail Code 
+8ENF-AT, 1595 Wynkoop Street, Denver, Colorado 80202-1129.
+    (1) The owner/operator of each unit shall submit quarterly excess 
+emissions reports for NO<INF>X</INF> BART units no later than the 30th 
+day following the end of each calendar quarter.",,primary,openai,gpt-5,0,0
+60,EPA-R08-OAR-2015-0463,final,0,True,The sentence appears within an amendatory block adding regulatory text to § 52.2336; thus it is new binding text.,compound,none,52,52.2336,The reports,shall,strong,include,the magnitude of each period of excess emissions,False,False,,add,"The reports shall include the magnitude, date(s), and 
+duration of each period of excess emissions, specific identification of 
+each period of excess emissions that occurs during startups, shutdowns, 
+and malfunctions of the unit, the nature and cause of any malfunction 
+(if known), and the corrective action taken or preventative measures 
+adopted.",,primary,openai,gpt-5,1885,694
+60,EPA-R08-OAR-2015-0463,final,1,True,The sentence appears within an amendatory block adding regulatory text to § 52.2336; thus it is new binding text.,compound,none,52,52.2336,The reports,shall,strong,include,the date(s) of each period of excess emissions,False,False,,add,"The reports shall include the magnitude, date(s), and 
+duration of each period of excess emissions, specific identification of 
+each period of excess emissions that occurs during startups, shutdowns, 
+and malfunctions of the unit, the nature and cause of any malfunction 
+(if known), and the corrective action taken or preventative measures 
+adopted.",,primary,openai,gpt-5,0,0
+60,EPA-R08-OAR-2015-0463,final,2,True,The sentence appears within an amendatory block adding regulatory text to § 52.2336; thus it is new binding text.,compound,none,52,52.2336,The reports,shall,strong,include,the duration of each period of excess emissions,False,False,,add,"The reports shall include the magnitude, date(s), and 
+duration of each period of excess emissions, specific identification of 
+each period of excess emissions that occurs during startups, shutdowns, 
+and malfunctions of the unit, the nature and cause of any malfunction 
+(if known), and the corrective action taken or preventative measures 
+adopted.",,primary,openai,gpt-5,0,0
+60,EPA-R08-OAR-2015-0463,final,3,True,The sentence appears within an amendatory block adding regulatory text to § 52.2336; thus it is new binding text.,compound,none,52,52.2336,The reports,shall,strong,include,"specific identification of each period of excess emissions that occurs during startups, shutdowns, and malfunctions of the unit",False,False,,add,"The reports shall include the magnitude, date(s), and 
+duration of each period of excess emissions, specific identification of 
+each period of excess emissions that occurs during startups, shutdowns, 
+and malfunctions of the unit, the nature and cause of any malfunction 
+(if known), and the corrective action taken or preventative measures 
+adopted.",,primary,openai,gpt-5,0,0
+60,EPA-R08-OAR-2015-0463,final,4,True,The sentence appears within an amendatory block adding regulatory text to § 52.2336; thus it is new binding text.,compound,none,52,52.2336,The reports,shall,strong,include,the nature and cause of any malfunction (if known),False,False,,add,"The reports shall include the magnitude, date(s), and 
+duration of each period of excess emissions, specific identification of 
+each period of excess emissions that occurs during startups, shutdowns, 
+and malfunctions of the unit, the nature and cause of any malfunction 
+(if known), and the corrective action taken or preventative measures 
+adopted.",,primary,openai,gpt-5,0,0
+60,EPA-R08-OAR-2015-0463,final,5,True,The sentence appears within an amendatory block adding regulatory text to § 52.2336; thus it is new binding text.,compound,none,52,52.2336,The reports,shall,strong,include,the corrective action taken or preventative measures adopted,False,False,,add,"The reports shall include the magnitude, date(s), and 
+duration of each period of excess emissions, specific identification of 
+each period of excess emissions that occurs during startups, shutdowns, 
+and malfunctions of the unit, the nature and cause of any malfunction 
+(if known), and the corrective action taken or preventative measures 
+adopted.",,primary,openai,gpt-5,0,0
+61,EPA-R08-OAR-2015-0463,final,0,True,"The sentence appears within an amendatory block adding regulatory text and uses mandatory language, making it binding.",simple,none,52,52.2336,The owner/operator of each unit,shall,strong,submit,"quarterly CEMS performance reports including dates and duration of each period the CEMS was inoperative (except for zero and span adjustments and calibration checks), reasons for inoperability and steps taken to prevent recurrence, and any CEMS repairs or adjustments",False,False,,add,"(2) The owner/operator of each unit shall submit quarterly CEMS 
+performance reports, to include dates and duration of each period 
+during which the CEMS was inoperative (except for zero and span 
+adjustments and calibration checks), reason(s) why the CEMS was 
+inoperative and steps taken to prevent recurrence, and any CEMS repairs 
+or adjustments.",,primary,openai,gpt-5,1842,215
+62,EPA-R08-OAR-2015-0463,final,0,True,"Text appears within an amendatory block adding regulatory requirements, making it binding.",compound,none,52,52.2336,The owner/operator of each unit,shall,strong,submit,results of any CEMS performance tests required by 40 CFR part 75,False,False,,add,"The owner/operator of each unit shall also submit 
+results of any CEMS performance tests required by 40 CFR part 75.
+    (3) When no excess emissions have occurred or the CEMS has not been 
+inoperative, repaired, or adjusted during the reporting period, such 
+information shall be stated in the quarterly reports required by 
+paragraphs (g)(1) and (2) of this section.",40 CFR part 75,primary,openai,gpt-5,1858,340
+62,EPA-R08-OAR-2015-0463,final,1,True,"Text appears within an amendatory block adding regulatory requirements, making it binding.",compound,none,52,52.2336,The owner/operator of each unit,shall,strong,state,"that no excess emissions have occurred or that the CEMS has not been inoperative, repaired, or adjusted during the reporting period",False,True,"When no excess emissions have occurred or the CEMS has not been inoperative, repaired, or adjusted during the reporting period",add,"The owner/operator of each unit shall also submit 
+results of any CEMS performance tests required by 40 CFR part 75.
+    (3) When no excess emissions have occurred or the CEMS has not been 
+inoperative, repaired, or adjusted during the reporting period, such 
+information shall be stated in the quarterly reports required by 
+paragraphs (g)(1) and (2) of this section.",paragraphs (g)(1) and (2) of this section,primary,openai,gpt-5,0,0
+63,EPA-R08-OAR-2015-0463,final,0,True,The sentence appears within an amendatory block adding regulatory text and contains a clear obligation with 'shall'.,simple,none,52,52.2336,The owner/operator,shall,strong,submit,notification of commencement of construction of any equipment constructed to comply with the NOX emission limits in paragraph (c) of this section,False,False,,add,"(1) The owner/operator shall promptly submit 
+notification of commencement of construction of any equipment which is 
+being constructed to comply with the NO<INF>X</INF> emission limits in 
+paragraph (c) of this section.",,primary,openai,gpt-5,1795,189
+64,EPA-R08-OAR-2015-0463,final,0,True,The sentence appears within an amendatory block adding binding regulatory text to § 52.2336.,simple,none,52,52.2336,The owner/operator,shall,strong,submit,semi-annual progress reports on construction of any such equipment,False,False,,add,"(2) The owner/operator shall promptly submit semi-annual progress 
+reports on construction of any such equipment.",,primary,openai,gpt-5,1726,174
+65,EPA-R08-OAR-2015-0463,final,0,True,"The sentence appears within an amendatory block adding regulatory text, making it binding.",simple,none,52,52.2336,The owner/operator,shall,strong,submit,notification of initial startup of any such equipment,False,False,,add,"(3) The owner/operator shall promptly submit notification of 
+initial startup of any such equipment.",,primary,openai,gpt-5,1726,167
+66,EPA-R08-OAR-2015-0463,final,0,True,"The sentence appears within an amendatory block adding regulatory text, making it new binding text.",simple,none,52,52.2336,the owner/operator,shall,strong,maintain,"each unit, including associated air pollution control equipment, in a manner consistent with good air pollution control practices for minimizing emissions",False,False,,add,"At all times, the owner/operator shall 
+maintain each unit, including associated air pollution control 
+equipment, in a manner consistent with good air pollution control 
+practices for minimizing emissions.",,primary,openai,gpt-5,1770,185
+67,EPA-R08-OAR-2015-0463,final,0,True,"The sentence appears within an amendatory regulatory text block for § 52.2336 (added), so it is new binding text despite being phrased as a non-preclusion clause.",simple,none,52,52.2336,this section,shall,strong,not preclude,"the use, including the exclusive use, of any credible evidence or information relevant to whether a source would have been in compliance with requirements of this section if the appropriate performance or compliance test procedures or method had been performed",False,False,,add,"Nothing in this section shall preclude the 
+use, including the exclusive use, of any credible evidence or 
+information, relevant to whether a source would have been in compliance 
+with requirements of this section if the appropriate performance or 
+compliance test procedures or method had been performed.",,primary,openai,gpt-5,1739,223

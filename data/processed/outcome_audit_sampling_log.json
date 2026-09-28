@@ -1,0 +1,25 @@
+{
+  "seed": 20260516,
+  "tier2_size_requested": 34,
+  "n_total": 150,
+  "n_tier1_f3": 116,
+  "n_tier2_general": 34,
+  "per_outcome_total": {
+    "SURVIVED-edited": 66,
+    "MODIFIED": 64,
+    "SURVIVED-unchanged": 12,
+    "NEW": 4,
+    "DROPPED": 4
+  },
+  "per_outcome_tier1": {
+    "MODIFIED": 58,
+    "SURVIVED-edited": 58
+  },
+  "per_outcome_tier2": {
+    "SURVIVED-unchanged": 12,
+    "SURVIVED-edited": 8,
+    "MODIFIED": 6,
+    "DROPPED": 4,
+    "NEW": 4
+  }
+}

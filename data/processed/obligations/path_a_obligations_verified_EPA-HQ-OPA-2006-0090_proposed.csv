@@ -1,0 +1,1496 @@
+candidate_idx,docket_id,rule_type,split_idx,verified,verified_reason,complexity,recital_disposition,cfr_part,cfr_section,subject,modal,modal_strength,action,object,passive_voice,is_conditional,condition_text,amendatory_action,obligation_text,cross_reference,found_via,llm_provider,llm_model,in_tokens,out_tokens
+11,EPA-HQ-OPA-2006-0090,proposed,0,True,"The text appears within an explicit amendatory block ('Amend § 300.900 ... to read as follows'), making the included language binding regulatory text.",simple,none,300,300.900(a),"dispersants, other chemicals, other spill mitigating devices and substances",may,permissive,be used,"in carrying out the NCP, and the waters and quantities in which they may be used",True,False,,revise,"Amend Sec.  300.900 by revising paragraphs (a) and (c), and by 
+adding paragraph (d) to read as follows:
+
+
+Sec.  300.900  General.
+
+    (a) Section 311(d)(2)(G) of the Clean Water Act (CWA) requires EPA 
+to prepare a schedule identifying dispersants, other chemicals, other 
+spill mitigating devices and substances if any, that may be used in 
+carrying out the NCP; and the waters and quantities in which they may 
+be used.",,primary,openai,gpt-5,1944,206
+12,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within an amendatory block revising § 300.900 to read as follows, so the language constitutes new binding regulatory text.",simple,none,300,300.900(a),"dispersants, other chemicals, or other spill mitigating devices and substances",may,permissive,be used,in identified waters and quantities as determined by the schedule and procedures in this subpart,True,False,,revise,"This subpart establishes a schedule identifying chemical and 
+biological agents, and procedures that, when taken together, identify 
+the waters and quantities in which such dispersants, other chemicals, 
+or other spill mitigating devices and substances may be used.",,primary,openai,gpt-5,1843,203
+13,EPA-HQ-OPA-2006-0090,proposed,0,True,It appears within regulatory text of a CFR subpart being amended in the rulemaking context (surrounded by amendatory actions) and functions as binding applicability text for the subpart.,simple,none,300,300.900(c),this subpart,no_modal_implicit,strong,applies to the use,"chemical and biological agents as defined in Subpart A of this part, or other substances that may be used to remove, control, or otherwise mitigate oil discharges",False,False,,revise,"This subpart applies to the use of chemical and biological 
+agents as defined in Subpart A of this part, or other substances that 
+may be used to remove, control, or otherwise mitigate oil discharges.",,primary,openai,gpt-5,1804,219
+14,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within an amendatory block revising § 300.910, making it new binding regulatory text.",simple,none,300,300.910,use of chemical or biological agents in response to oil discharges to waters of the U.S. or adjoining shorelines,must,strong,be authorized,by the On-Scene Coordinator (OSC) in accordance with the provisions of this section,True,False,,revise,"Use of chemical or biological agents in response to oil discharges 
+to waters of the U.S. or adjoining shorelines must be authorized by the 
+OSC in accordance with the provisions of this section:
+    (a) Use of Agents Identified on the Schedule on Oil Discharges 
+Addressed by a Preauthorization Plan.",,primary,openai,gpt-5,1827,204
+15,EPA-HQ-OPA-2006-0090,proposed,0,True,"The obligation appears within a revised CFR section introduced by an amendatory instruction ('Revise Sec. 300.910 ... to read as follows'), making it new binding text.",simple,none,300,300.910(a),RRTs and Area Committees,shall,strong,address,whether the use of chemical and biological agents listed on the Schedule on certain oil discharges is appropriate in a preauthorization plan as part of their planning activities,False,False,,revise,"RRTs and Area Committees shall 
+address in a preauthorization plan, as part of their planning 
+activities, whether the use of chemical and biological agents listed on 
+the Schedule on certain oil discharges is appropriate.",,primary,openai,gpt-5,1784,213
+16,EPA-HQ-OPA-2006-0090,proposed,0,True,The sentence appears within amendatory regulatory text for § 300.910 and imposes a duty on RRTs and Area Committees.,simple,none,300,300.910,RRTs and Area Committees,shall,strong,include,applicable approved preauthorization plans in RCPs and ACPs,False,True,as appropriate,none,"RRTs and Area 
+Committees shall, as appropriate, include applicable approved 
+preauthorization plans in RCPs and ACPs.",,primary,openai,gpt-5,1735,189
+17,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within binding CFR regulatory text describing operative conditions and permissions under § 300.910, not preamble or mere definition.",simple,none,300,300.910(a),the OSC,may,permissive,authorize,the use of agents on the Schedule for their intended purpose without obtaining the incident-specific concurrences described in paragraph (b) of this section,False,True,When a preauthorization plan is approved in advance for the use of certain agents under specified discharge situations,none,"When a preauthorization plan 
+is approved in advance for the use of certain agents under specified 
+discharge situations, then the OSC may authorize the use of agents on 
+the Schedule for their intended purpose without obtaining the incident 
+specific concurrences described in paragraph (b) of this section.",paragraph (b) of this section,primary,openai,gpt-5,1806,224
+18,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within regulatory text of § 300.910 and imposes a prescriptive requirement using 'must', indicating binding text.",compound,none,300,300.910,the preauthorization plan,must,strong,specify,limits for the quantities of use,False,True,For discharge situations identified where such agents may be used,none,"For discharge situations 
+identified where such agents may be used, the preauthorization plan 
+must specify limits for the quantities and the duration of use, and use 
+parameters for water depth, distance to shoreline, and proximity to 
+populated areas.",,primary,openai,gpt-5,1747,627
+18,EPA-HQ-OPA-2006-0090,proposed,1,True,"The sentence appears within regulatory text of § 300.910 and imposes a prescriptive requirement using 'must', indicating binding text.",compound,none,300,300.910,the preauthorization plan,must,strong,specify,limits for the duration of use,False,True,For discharge situations identified where such agents may be used,none,"For discharge situations 
+identified where such agents may be used, the preauthorization plan 
+must specify limits for the quantities and the duration of use, and use 
+parameters for water depth, distance to shoreline, and proximity to 
+populated areas.",,primary,openai,gpt-5,0,0
+18,EPA-HQ-OPA-2006-0090,proposed,2,True,"The sentence appears within regulatory text of § 300.910 and imposes a prescriptive requirement using 'must', indicating binding text.",compound,none,300,300.910,the preauthorization plan,must,strong,specify,use parameters for water depth,False,True,For discharge situations identified where such agents may be used,none,"For discharge situations 
+identified where such agents may be used, the preauthorization plan 
+must specify limits for the quantities and the duration of use, and use 
+parameters for water depth, distance to shoreline, and proximity to 
+populated areas.",,primary,openai,gpt-5,0,0
+18,EPA-HQ-OPA-2006-0090,proposed,3,True,"The sentence appears within regulatory text of § 300.910 and imposes a prescriptive requirement using 'must', indicating binding text.",compound,none,300,300.910,the preauthorization plan,must,strong,specify,use parameters for distance to shoreline,False,True,For discharge situations identified where such agents may be used,none,"For discharge situations 
+identified where such agents may be used, the preauthorization plan 
+must specify limits for the quantities and the duration of use, and use 
+parameters for water depth, distance to shoreline, and proximity to 
+populated areas.",,primary,openai,gpt-5,0,0
+18,EPA-HQ-OPA-2006-0090,proposed,4,True,"The sentence appears within regulatory text of § 300.910 and imposes a prescriptive requirement using 'must', indicating binding text.",compound,none,300,300.910,the preauthorization plan,must,strong,specify,use parameters for proximity to populated areas,False,True,For discharge situations identified where such agents may be used,none,"For discharge situations 
+identified where such agents may be used, the preauthorization plan 
+must specify limits for the quantities and the duration of use, and use 
+parameters for water depth, distance to shoreline, and proximity to 
+populated areas.",,primary,openai,gpt-5,0,0
+19,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence is binding operational text within a regulatory section (not preamble) that prescribes duties, making it enforceable even without an explicit amendatory wrapper.",compound,none,300,300.910,"The EPA representative to the RRT, the Department of Commerce and the Department of the Interior natural resource trustees, and, as appropriate, the RRT representative from the state(s) with jurisdiction over waters and adjoining shorelines within the preauthorization plan area",shall,strong,review,the preauthorization plans developed by the RRT and/or the Area Committees,False,False,,none,"The EPA representative to the 
+RRT, the Department of Commerce and the Department of the Interior 
+natural resource trustees and, as appropriate the RRT representative 
+from the state(s) with jurisdiction over waters and adjoining 
+shorelines within the preauthorization plan area shall review and 
+either approve, approve with modification, or disapprove the 
+preauthorization plans developed by the RRT and/or the Area Committees.",,primary,openai,gpt-5,1830,399
+19,EPA-HQ-OPA-2006-0090,proposed,1,True,"The sentence is binding operational text within a regulatory section (not preamble) that prescribes duties, making it enforceable even without an explicit amendatory wrapper.",compound,none,300,300.910,"The EPA representative to the RRT, the Department of Commerce and the Department of the Interior natural resource trustees, and, as appropriate, the RRT representative from the state(s) with jurisdiction over waters and adjoining shorelines within the preauthorization plan area",shall,strong,"either approve, approve with modification, or disapprove",the preauthorization plans developed by the RRT and/or the Area Committees,False,False,,none,"The EPA representative to the 
+RRT, the Department of Commerce and the Department of the Interior 
+natural resource trustees and, as appropriate the RRT representative 
+from the state(s) with jurisdiction over waters and adjoining 
+shorelines within the preauthorization plan area shall review and 
+either approve, approve with modification, or disapprove the 
+preauthorization plans developed by the RRT and/or the Area Committees.",,primary,openai,gpt-5,0,0
+20,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears in regulatory text of § 300.910 and prescribes required procedure triggered by withdrawal of concurrence, making it binding under non-amendatory binding-text section rule.",simple,definition_embedded,300,300.910,the authorization of use for chemical or biological agents,must,strong,be performed,according to paragraph (b) of this section,True,True,"Upon withdrawal of concurrence, which renders the preauthorization plan invalid",none,"Withdrawal of concurrence means the preauthorization plan becomes 
+invalid and the authorization of use for chemical or biological agents 
+must be performed according to paragraph (b) of this section.",paragraph (b) of this section,primary,openai,gpt-5,1750,215
+21,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within binding regulatory text of § 300.910 setting requirements for RRTs/Area Committees, not preamble or pure definition, thus it is new/operative text.",compound,none,300,300.910,The RRTs and Area Committees,shall,strong,address,the withdrawal,False,False,,none,"The RRTs 
+and Area Committees shall address the withdrawal and the RRT shall 
+notify the NRT of the final status of the preauthorization plan within 
+30 days from withdrawal.
+    (3) Preauthorization Plans Reviews.",,primary,openai,gpt-5,1753,298
+21,EPA-HQ-OPA-2006-0090,proposed,1,True,"The sentence appears within binding regulatory text of § 300.910 setting requirements for RRTs/Area Committees, not preamble or pure definition, thus it is new/operative text.",compound,none,300,300.910,the RRT,shall,strong,notify,the NRT of the final status of the preauthorization plan within 30 days from withdrawal,False,False,,none,"The RRTs 
+and Area Committees shall address the withdrawal and the RRT shall 
+notify the NRT of the final status of the preauthorization plan within 
+30 days from withdrawal.
+    (3) Preauthorization Plans Reviews.",,primary,openai,gpt-5,0,0
+22,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence is binding regulatory text within a CFR section and states duties with must; it is not a preamble, quote, or pure definition.",compound,none,300,300.910,The RRT and/or the Area Committees,must,strong,review and revise as needed,preauthorization plans,False,True,at least every 5 years; after a major discharge or after a Spill of National Significance (SONS); to address revisions of the Schedule; to reflect new listings of threatened and/or endangered species; and to address any other change that may impact the conditions under which the use of chemical and biological agents is preauthorized,none,"The RRT and/or the Area 
+Committees must review, and revise as needed, preauthorization plans at 
+least every 5 years; after a major discharge or after a Spill of 
+National Significance (SONS); to address revisions of the Schedule; to 
+reflect new listings of threatened and/or endangered species; and to 
+address any other change that may impact the conditions under which the 
+use of chemical and biological agents is preauthorized.",,primary,openai,gpt-5,1841,248
+23,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence is operative regulatory text within § 300.910 prescribing actions by specified officials, making it binding.",compound,none,300,300.910,"The designated EPA RRT representative, the Department of Commerce and the Department of the Interior natural resource trustees, and the RRT representative from the state(s) with jurisdiction over the waters of the area to which a preauthorization plan applies",shall,strong,review,any revisions to the preauthorization plans,False,False,,none,"The designated 
+EPA RRT representative, the Department of Commerce and the Department 
+of the Interior natural resource trustees, and the RRT representative 
+from the state(s) with jurisdiction over the waters of the area to 
+which a preauthorization plan applies shall review and either approve, 
+approve with modification, or disapprove any revisions to the 
+preauthorization plans.",,primary,openai,gpt-5,1822,365
+23,EPA-HQ-OPA-2006-0090,proposed,1,True,"The sentence is operative regulatory text within § 300.910 prescribing actions by specified officials, making it binding.",compound,none,300,300.910,"The designated EPA RRT representative, the Department of Commerce and the Department of the Interior natural resource trustees, and the RRT representative from the state(s) with jurisdiction over the waters of the area to which a preauthorization plan applies",shall,strong,"either approve, approve with modification, or disapprove",any revisions to the preauthorization plans,False,False,,none,"The designated 
+EPA RRT representative, the Department of Commerce and the Department 
+of the Interior natural resource trustees, and the RRT representative 
+from the state(s) with jurisdiction over the waters of the area to 
+which a preauthorization plan applies shall review and either approve, 
+approve with modification, or disapprove any revisions to the 
+preauthorization plans.",,primary,openai,gpt-5,0,0
+24,EPA-HQ-OPA-2006-0090,proposed,0,True,The sentence is regulatory text within a CFR section prescribing when the OSC may authorize use of agents; it is binding permissive authority in a non-preamble rule section.,simple,none,300,300.910(b),the OSC,may,permissive,authorize the use,"appropriate chemical or biological agents identified on the Schedule for their intended purpose on an oil discharge, with the concurrence of the designated EPA RRT representative and, as appropriate, the concurrence of the RRT representatives from the state(s) with jurisdiction over the waters and adjoining shorelines threatened by the release or discharge, and in consultation with the Department of Commerce and the Department of the Interior natural resource trustees",False,True,For discharge situations that are not addressed by the preauthorization plan developed pursuant to paragraph (a) of this section,none,"For discharge situations that are 
+not addressed by the preauthorization plan developed pursuant to 
+paragraph (a) of this section, the OSC may authorize the use of 
+appropriate chemical or biological agents identified on the Schedule 
+for their intended purpose on an oil discharge with the concurrence of 
+the designated EPA RRT representative and, as appropriate, the 
+concurrence of the RRT representatives from the state(s) with 
+jurisdiction over the waters and adjoining shorelines threatened by the 
+release or discharge, and in consultation with the Department of 
+Commerce and the Department of the Interior natural resource trustees.",,primary,openai,gpt-5,1923,279
+25,EPA-HQ-OPA-2006-0090,proposed,0,True,"It is binding regulatory text within a CFR section, not preamble, containing a clear actor with a strong modal (must) specifying required actions.",compound,none,300,300.910,the OSC,must,strong,consider and document,"the parameters for the use of agents, including the quantities to be used, the duration of use, the depth of water, the distance to shoreline and proximity to populated areas",False,True,In meeting the provisions of this paragraph,none,"In meeting the provisions of this paragraph, the OSC must consider and 
+document the parameters for the use of agents including the quantities 
+to be used, the duration of use, the depth of water, the distance to 
+shoreline and proximity to populated areas, and should address factors 
+such as environmentally sensitive resources or restricted areas that 
+might be impacted, agent inventory and storage locations, agent 
+manufacturing capability, availability of equipment needed for agent 
+use, availability of adequately trained operators and appropriate means 
+to monitor agent use in the environment.",,primary,openai,gpt-5,1887,360
+25,EPA-HQ-OPA-2006-0090,proposed,1,True,"It is binding regulatory text within a CFR section, not preamble, containing a clear actor with a strong modal (must) specifying required actions.",compound,none,300,300.910,the OSC,must,strong,address,"factors such as environmentally sensitive resources or restricted areas that might be impacted, agent inventory and storage locations, agent manufacturing capability, availability of equipment needed for agent use, availability of adequately trained operators, and appropriate means to monitor agent use in the environment",False,True,In meeting the provisions of this paragraph,none,"In meeting the provisions of this paragraph, the OSC must consider and 
+document the parameters for the use of agents including the quantities 
+to be used, the duration of use, the depth of water, the distance to 
+shoreline and proximity to populated areas, and should address factors 
+such as environmentally sensitive resources or restricted areas that 
+might be impacted, agent inventory and storage locations, agent 
+manufacturing capability, availability of equipment needed for agent 
+use, availability of adequately trained operators and appropriate means 
+to monitor agent use in the environment.",,primary,openai,gpt-5,0,0
+26,EPA-HQ-OPA-2006-0090,proposed,0,True,It appears in CFR regulatory text as a substantive provision permitting an action and is not preamble or a mere definition.,simple,none,300,300.910,the OSC,may,permissive,authorize,the use of burning agents,False,True,For authorized in-situ burns,none,"For authorized in-situ burns, the OSC may 
+authorize the use of burning agents.",,primary,openai,gpt-5,1706,177
+27,EPA-HQ-OPA-2006-0090,proposed,0,True,"Text is binding regulatory language within a CFR section, prescribing authority and conditions, not preamble or mere definition.",simple,none,300,300.910,the OSC,are authorized to,permissive,authorize the use,"any chemical or biological agent, whether identified or not on the Schedule, without obtaining the immediate concurrence of the designated EPA RRT representative and, as appropriate, the RRT representatives from the relevant state(s)",False,True,"when, in the judgment of the OSC, use of the agent is necessary to prevent or substantially reduce a threat to human life",none,"The OSC may authorize the use of any chemical or 
+biological agent, whether it is identified or not on the Schedule, 
+without obtaining the immediate concurrence of the designated EPA RRT 
+representative and, as appropriate, the RRT representatives from the 
+state(s) with jurisdiction over the waters and adjoining shorelines 
+threatened by the release or discharge, when, in the judgment of the 
+OSC, the use of the agent is necessary to prevent or substantially 
+reduce a threat to human life.",,primary,openai,gpt-5,1889,234
+28,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence is binding operational text within § 300.910 and imposes duties on the OSC, not a preamble or pure definition.",compound,none,300,300.910(d),the On-Scene Coordinator (OSC),shall,strong,immediately notify,"the EPA RRT representative and, as appropriate, the RRT representatives from the affected state(s) and the Department of Commerce/Department of the Interior natural resources trustees",False,True,If an OSC authorizes the use of an agent pursuant to this paragraph,none,"If an OSC authorizes the use of an agent 
+pursuant to this paragraph, he or she shall immediately notify, and 
+document the circumstances requiring and the reasons for use of the 
+agent to the EPA RRT representative and, as appropriate, the RRT 
+representatives from the affected state(s) and, the Department of 
+Commerce/Department of the Interior natural resources trustees.",,primary,openai,gpt-5,1874,380
+28,EPA-HQ-OPA-2006-0090,proposed,1,True,"The sentence is binding operational text within § 300.910 and imposes duties on the OSC, not a preamble or pure definition.",compound,none,300,300.910(d),the On-Scene Coordinator (OSC),shall,strong,document,"the circumstances requiring and the reasons for use of the agent to the EPA RRT representative and, as appropriate, the RRT representatives from the affected state(s) and the Department of Commerce/Department of the Interior natural resources trustees",False,True,If an OSC authorizes the use of an agent pursuant to this paragraph,none,"If an OSC authorizes the use of an agent 
+pursuant to this paragraph, he or she shall immediately notify, and 
+document the circumstances requiring and the reasons for use of the 
+agent to the EPA RRT representative and, as appropriate, the RRT 
+representatives from the affected state(s) and, the Department of 
+Commerce/Department of the Interior natural resources trustees.",,primary,openai,gpt-5,0,0
+29,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence is regulatory text within a CFR section and states a binding requirement, not a preamble or definition scope clarification.",simple,none,300,300.910,Use of any agent beyond 48 hours under this exception,shall,strong,be in accordance with,paragraphs (a) or (b) of this section,False,True,under this exception and beyond 48 hours,none,"Use of 
+any agent beyond 48 hours under this exception shall be in accordance 
+with paragraphs (a) or (b) of this section.",paragraphs (a) or (b) of this section,primary,openai,gpt-5,1757,209
+30,EPA-HQ-OPA-2006-0090,proposed,0,True,"It is binding regulatory text within a CFR section, not preamble, creating a prohibition applicable to the OSC.",compound,none,300,300.910(e),the OSC,may not,strong,authorize,"the use of sinking agents, or any other chemical agent, biological agent, or any substance that acts as a sinking agent when mixed with oil",False,True,Notwithstanding paragraph (d) of this section,none,"Notwithstanding paragraph (d) of this 
+section, the OSC may not authorize the use of the following:
+    (1) Sinking agents, or any other chemical agent, biological agent, 
+or any substance that acts as a sinking agent when mixed with oil; and
+    (2) Chemical or biological agents that have either nonylphenol (NP) 
+or nonylphenol ethoxylates (NPEs) as components.",paragraph (d) of this section,primary,openai,gpt-5,1868,351
+30,EPA-HQ-OPA-2006-0090,proposed,1,True,"It is binding regulatory text within a CFR section, not preamble, creating a prohibition applicable to the OSC.",compound,none,300,300.910(e),the OSC,may not,strong,authorize,the use of chemical or biological agents that have either nonylphenol (NP) or nonylphenol ethoxylates (NPEs) as components,False,True,Notwithstanding paragraph (d) of this section,none,"Notwithstanding paragraph (d) of this 
+section, the OSC may not authorize the use of the following:
+    (1) Sinking agents, or any other chemical agent, biological agent, 
+or any substance that acts as a sinking agent when mixed with oil; and
+    (2) Chemical or biological agents that have either nonylphenol (NP) 
+or nonylphenol ethoxylates (NPEs) as components.",paragraph (d) of this section,primary,openai,gpt-5,0,0
+31,EPA-HQ-OPA-2006-0090,proposed,0,True,The sentence appears within regulatory text of § 300.910 and functions as binding operative text governing OSC authorization decisions.,simple,none,300,300.910,the OSC,may,permissive,authorize for use only,products certified by the responsible party as stored under the conditions provided by the submitter under § 300.915(a)(6) and whose date of use does not exceed the expiration date listed on the container’s label at the time of the incident,False,False,,none,"The OSC may authorize for use only 
+products that are certified by the responsible party to have been 
+stored under the conditions provided by the submitter under Sec.  
+300.915(a)(6) and whose date of use does not exceed the expiration date 
+listed on the container's label at the time of the incident.",§ 300.915(a)(6),primary,openai,gpt-5,1816,226
+32,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within regulatory text prescribing conditions for OSC authorization and contains a clear mandatory modal (“must”) directed at a responsible party, indicating binding regulatory text.",simple,none,300,300.915(f),The responsible party,must,strong,provide,"the OSC product documentation affirming the product has maintained its integrity, including no changes in its composition, efficacy, and toxicity",False,True,prior to OSC authorization of product use,none,"The 
+responsible party must provide the OSC product documentation, developed 
+in consultation with the submitter of the product to the Schedule, 
+prior to OSC authorization of product use affirming it has maintained 
+its integrity, including no changes in its composition, efficacy, and 
+toxicity.",§ 300.915(a)(6),primary,openai,gpt-5,1813,213
+33,EPA-HQ-OPA-2006-0090,proposed,0,True,The sentence is binding regulatory text with a strong modal ('must') within CFR rule text.,compound,none,300,300.915(a)(6),The owner or operator of a facility or vessel,must,strong,ensure testing is conducted,samples of the expired product lot following the applicable testing protocols in Appendix C,False,False,,none,"The owner or operator of a facility or vessel must ensure 
+samples of the expired product lot are tested following the applicable 
+testing protocols in Appendix C, and that they are representative of 
+all storage conditions at any end user location.",,primary,openai,gpt-5,1777,305
+33,EPA-HQ-OPA-2006-0090,proposed,1,True,The sentence is binding regulatory text with a strong modal ('must') within CFR rule text.,compound,none,300,300.915(a)(6),The owner or operator of a facility or vessel,must,strong,ensure representativeness,that the tested samples are representative of all storage conditions at any end user location,False,False,,none,"The owner or operator of a facility or vessel must ensure 
+samples of the expired product lot are tested following the applicable 
+testing protocols in Appendix C, and that they are representative of 
+all storage conditions at any end user location.",,primary,openai,gpt-5,0,0
+34,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within binding regulatory text of § 300.915(a)(6) alongside other mandatory provisions, making it part of an amendatory/binding section rather than preamble or definition scope-clarification.",simple,none,300,300.915(a)(6),the product,may,permissive,be used,for an additional 5 years from the date of the testing described above,True,True,If testing demonstrates the expired product has maintained its integrity,none,"If testing 
+demonstrates the expired product has maintained its integrity, the 
+product may be used for an additional 5 years from the date of the 
+testing described above.",,primary,openai,gpt-5,1754,214
+35,EPA-HQ-OPA-2006-0090,proposed,0,True,"Appears as operative regulatory text within a CFR section rather than preamble, prescribing duties with “must.”",compound,none,300,300.915(a)(6),"The responsible party, or its representative",must,strong,re-label,the tested product lots,False,False,,none,"The responsible party, or its representative, 
+must re-label the tested product lots and maintain test results and 
+document all of the information under Sec.  300.915(a)(17) and (a)(18) 
+until used.",,primary,openai,gpt-5,1761,413
+35,EPA-HQ-OPA-2006-0090,proposed,1,True,"Appears as operative regulatory text within a CFR section rather than preamble, prescribing duties with “must.”",compound,none,300,300.915(a)(6),"The responsible party, or its representative",must,strong,maintain,test results,False,False,,none,"The responsible party, or its representative, 
+must re-label the tested product lots and maintain test results and 
+document all of the information under Sec.  300.915(a)(17) and (a)(18) 
+until used.",,primary,openai,gpt-5,0,0
+35,EPA-HQ-OPA-2006-0090,proposed,2,True,"Appears as operative regulatory text within a CFR section rather than preamble, prescribing duties with “must.”",compound,none,300,300.915(a)(6),"The responsible party, or its representative",must,strong,document,all of the information under § 300.915(a)(17) and (a)(18) until used,False,False,,none,"The responsible party, or its representative, 
+must re-label the tested product lots and maintain test results and 
+document all of the information under Sec.  300.915(a)(17) and (a)(18) 
+until used.",§ 300.915(a)(17) and (a)(18),primary,openai,gpt-5,0,0
+36,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence is binding regulatory text within a CFR section context rather than preamble or a mere definition, and it uses a strong modal (“must”) imposing a duty on identified actors.",simple,none,300,300.915(a)(17),The owner or operator of a facility or vessel,must,strong,ensure testing,re-labeled products every 5 years,False,False,,none,"The owner or operator of a facility or vessel must ensure 
+the testing of re-labeled products every 5 years.",,primary,openai,gpt-5,1726,196
+37,EPA-HQ-OPA-2006-0090,proposed,0,True,"Within regulatory text of a CFR section, stating agency authority using permissive modal; treated as new binding text in an amendatory context.",compound,none,300,300.915(a)(17),The RRT,may,permissive,require,supplementary toxicity and efficacy testing,False,False,,none,"The RRT may 
+require supplementary toxicity and efficacy testing, or available data 
+or information that addresses site, area, or ecosystem specific 
+concerns relative to the use of a product for both planning and 
+authorization of use.",,primary,openai,gpt-5,1770,306
+37,EPA-HQ-OPA-2006-0090,proposed,1,True,"Within regulatory text of a CFR section, stating agency authority using permissive modal; treated as new binding text in an amendatory context.",compound,none,300,300.915(a)(17),The RRT,may,permissive,require,"available data or information that addresses site-, area-, or ecosystem-specific concerns relative to the use of a product for both planning and authorization of use",False,False,,none,"The RRT may 
+require supplementary toxicity and efficacy testing, or available data 
+or information that addresses site, area, or ecosystem specific 
+concerns relative to the use of a product for both planning and 
+authorization of use.",,primary,openai,gpt-5,0,0
+38,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within binding regulatory text of § 300.915 with surrounding mandatory provisions, indicating it is part of amendatory/binding text; it prescribes agency discretion using a deontic modal.",compound,none,300,300.915(a)(17),the RRT,may,permissive,request,that the OSC require a responsible party to conduct additional monitoring associated with the use of a product,False,True,During a discharge incident,none,"During a discharge incident, the RRT may request 
+that the OSC require a responsible party to conduct additional 
+monitoring associated with the use of a product.",,primary,openai,gpt-5,1735,331
+38,EPA-HQ-OPA-2006-0090,proposed,1,True,"The sentence appears within binding regulatory text of § 300.915 with surrounding mandatory provisions, indicating it is part of amendatory/binding text; it prescribes agency discretion using a deontic modal.",compound,none,300,300.915(a)(17),the OSC,may,permissive,require,a responsible party to conduct additional monitoring associated with the use of a product,False,True,During a discharge incident and upon request by the RRT,none,"During a discharge incident, the RRT may request 
+that the OSC require a responsible party to conduct additional 
+monitoring associated with the use of a product.",,primary,openai,gpt-5,0,0
+39,EPA-HQ-OPA-2006-0090,proposed,0,True,It appears within regulatory text of a CFR section (non-preamble) that contains binding requirements; this sentence specifies permissible contents of additional monitoring data as part of an amendatory/regulatory block.,compound,none,300,300.915(a)(17),additional monitoring data,may,permissive,include,supplemental toxicity and efficacy testing,False,False,,none,"Such additional 
+monitoring data may include supplemental toxicity and efficacy testing 
+or submission of available data or information that addresses the 
+discharge area or ecosystem specific concerns relative to the use of a 
+product or that aids the OSC and/or the RRT in operational decisions.",,primary,openai,gpt-5,1797,324
+39,EPA-HQ-OPA-2006-0090,proposed,1,True,It appears within regulatory text of a CFR section (non-preamble) that contains binding requirements; this sentence specifies permissible contents of additional monitoring data as part of an amendatory/regulatory block.,compound,none,300,300.915(a)(17),additional monitoring data,may,permissive,include,submission of available data or information that addresses the discharge area or ecosystem specific concerns relative to the use of a product or that aids the OSC and/or the RRT in operational decisions,False,False,,none,"Such additional 
+monitoring data may include supplemental toxicity and efficacy testing 
+or submission of available data or information that addresses the 
+discharge area or ecosystem specific concerns relative to the use of a 
+product or that aids the OSC and/or the RRT in operational decisions.",,primary,openai,gpt-5,0,0
+40,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within an amendatory block adding new regulatory text (e.g., paragraph (h) and subsequent amendatory instructions), so it is binding.",compound,none,300,300.915(a)(17),the responsible party,shall,strong,ensure that any removal action adequately contains agents that are intended to be recovered from the environment,agents that are intended to be recovered from the environment,False,True,"Depending on factors such as the safety of response personnel and harm to the environment, and as directed by the OSC",add,"Depending on factors 
+such as the safety of response personnel and harm to the environment, 
+and as directed by the OSC, the responsible party shall ensure that any 
+removal action adequately contains, collects, stores and disposes of 
+agents that are intended to be recovered from the environment.",,primary,openai,gpt-5,1800,655
+40,EPA-HQ-OPA-2006-0090,proposed,1,True,"The sentence appears within an amendatory block adding new regulatory text (e.g., paragraph (h) and subsequent amendatory instructions), so it is binding.",compound,none,300,300.915(a)(17),the responsible party,shall,strong,ensure that any removal action adequately collects agents that are intended to be recovered from the environment,agents that are intended to be recovered from the environment,False,True,"Depending on factors such as the safety of response personnel and harm to the environment, and as directed by the OSC",add,"Depending on factors 
+such as the safety of response personnel and harm to the environment, 
+and as directed by the OSC, the responsible party shall ensure that any 
+removal action adequately contains, collects, stores and disposes of 
+agents that are intended to be recovered from the environment.",,primary,openai,gpt-5,0,0
+40,EPA-HQ-OPA-2006-0090,proposed,2,True,"The sentence appears within an amendatory block adding new regulatory text (e.g., paragraph (h) and subsequent amendatory instructions), so it is binding.",compound,none,300,300.915(a)(17),the responsible party,shall,strong,ensure that any removal action adequately stores agents that are intended to be recovered from the environment,agents that are intended to be recovered from the environment,False,True,"Depending on factors such as the safety of response personnel and harm to the environment, and as directed by the OSC",add,"Depending on factors 
+such as the safety of response personnel and harm to the environment, 
+and as directed by the OSC, the responsible party shall ensure that any 
+removal action adequately contains, collects, stores and disposes of 
+agents that are intended to be recovered from the environment.",,primary,openai,gpt-5,0,0
+40,EPA-HQ-OPA-2006-0090,proposed,3,True,"The sentence appears within an amendatory block adding new regulatory text (e.g., paragraph (h) and subsequent amendatory instructions), so it is binding.",compound,none,300,300.915(a)(17),the responsible party,shall,strong,ensure that any removal action adequately disposes of agents that are intended to be recovered from the environment,agents that are intended to be recovered from the environment,False,True,"Depending on factors such as the safety of response personnel and harm to the environment, and as directed by the OSC",add,"Depending on factors 
+such as the safety of response personnel and harm to the environment, 
+and as directed by the OSC, the responsible party shall ensure that any 
+removal action adequately contains, collects, stores and disposes of 
+agents that are intended to be recovered from the environment.",,primary,openai,gpt-5,0,0
+41,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within amendatory regulatory text adding and revising sections (e.g., “Add § 300.913 to read as follows”), so the obligation is new binding text.",simple,none,300,300.915(a)(17),the authorizing OSC,shall,strong,provide,the RRT the specified information on chemical and biological agents used in response to an oil discharge,False,True,"Unless already included in the OSC report required under § 300.165 of this part, within 30 days of completion of agent operations",add,"Unless already included in the OSC 
+report required under Sec.  300.165 of this part, within 30 days of 
+completion of agent operations, the authorizing OSC shall provide the 
+RRT the following information on chemical and biological agents used in 
+response to an oil discharge: product name, quantity and concentration 
+used, duration of use, locations, and any data collected and analysis 
+of efficacy or environmental effects.",§ 300.165,primary,openai,gpt-5,1869,233
+42,EPA-HQ-OPA-2006-0090,proposed,0,True,The text appears in an amendatory block adding § 300.913 and contains mandatory duties.,compound,none,300,300.913,the responsible party,must,strong,monitor,any subsurface use of dispersant in response to an oil discharge,False,True,As directed by the OSC,add,"As directed by the OSC, the responsible party must monitor any 
+subsurface use of dispersant in response to an oil discharge, surface 
+use of dispersant in response to oil discharges of more than 100,000 
+U.S. gallons occurring within 24 hours, and surface use of dispersant 
+for more than 96 hours in response to an oil discharge, and submit a 
+Quality Assurance Project Plan for approval to the OSC covering the 
+collection of all environmental data.",,primary,openai,gpt-5,1893,531
+42,EPA-HQ-OPA-2006-0090,proposed,1,True,The text appears in an amendatory block adding § 300.913 and contains mandatory duties.,compound,none,300,300.913,the responsible party,must,strong,monitor,"surface use of dispersant in response to oil discharges of more than 100,000 U.S. gallons occurring within 24 hours",False,True,As directed by the OSC,add,"As directed by the OSC, the responsible party must monitor any 
+subsurface use of dispersant in response to an oil discharge, surface 
+use of dispersant in response to oil discharges of more than 100,000 
+U.S. gallons occurring within 24 hours, and surface use of dispersant 
+for more than 96 hours in response to an oil discharge, and submit a 
+Quality Assurance Project Plan for approval to the OSC covering the 
+collection of all environmental data.",,primary,openai,gpt-5,0,0
+42,EPA-HQ-OPA-2006-0090,proposed,2,True,The text appears in an amendatory block adding § 300.913 and contains mandatory duties.,compound,none,300,300.913,the responsible party,must,strong,monitor,surface use of dispersant for more than 96 hours in response to an oil discharge,False,True,As directed by the OSC,add,"As directed by the OSC, the responsible party must monitor any 
+subsurface use of dispersant in response to an oil discharge, surface 
+use of dispersant in response to oil discharges of more than 100,000 
+U.S. gallons occurring within 24 hours, and surface use of dispersant 
+for more than 96 hours in response to an oil discharge, and submit a 
+Quality Assurance Project Plan for approval to the OSC covering the 
+collection of all environmental data.",,primary,openai,gpt-5,0,0
+42,EPA-HQ-OPA-2006-0090,proposed,3,True,The text appears in an amendatory block adding § 300.913 and contains mandatory duties.,compound,none,300,300.913,the responsible party,must,strong,submit,a Quality Assurance Project Plan for approval to the OSC covering the collection of all environmental data,False,True,As directed by the OSC,add,"As directed by the OSC, the responsible party must monitor any 
+subsurface use of dispersant in response to an oil discharge, surface 
+use of dispersant in response to oil discharges of more than 100,000 
+U.S. gallons occurring within 24 hours, and surface use of dispersant 
+for more than 96 hours in response to an oil discharge, and submit a 
+Quality Assurance Project Plan for approval to the OSC covering the 
+collection of all environmental data.",,primary,openai,gpt-5,0,0
+43,EPA-HQ-OPA-2006-0090,proposed,0,True,The text is within an amendatory block adding § 300.913 and imposes duties with shall/must language.,compound,none,300,300.913,the responsible party,shall,strong,document,the characteristics of the source oil,False,True,"When these dispersant use conditions are met, and for the duration of dispersant operations",add,"When these dispersant use 
+conditions are met, and for the duration of dispersant operations, the 
+responsible party shall:
+    (a) Document the characteristics of the source oil; best estimate 
+of the oil discharge flow rate, periodically reevaluated as conditions 
+dictate, including a description of the method, associated 
+uncertainties, and materials; dispersant(s) product used, rationale for 
+dispersant product choice(s) including the results of any efficacy and 
+toxicity tests specific to area or site conditions, recommended 
+dispersant-to-oil ratio (DOR); and the application method and 
+procedures, including a description of the equipment to be used, hourly 
+application rates, capacities, and total amount of dispersant needed.",,primary,openai,gpt-5,2003,620
+43,EPA-HQ-OPA-2006-0090,proposed,1,True,The text is within an amendatory block adding § 300.913 and imposes duties with shall/must language.,compound,none,300,300.913,the responsible party,shall,strong,document,"the best estimate of the oil discharge flow rate, periodically reevaluated as conditions dictate, including a description of the method, associated uncertainties, and materials",False,True,"When these dispersant use conditions are met, and for the duration of dispersant operations",add,"When these dispersant use 
+conditions are met, and for the duration of dispersant operations, the 
+responsible party shall:
+    (a) Document the characteristics of the source oil; best estimate 
+of the oil discharge flow rate, periodically reevaluated as conditions 
+dictate, including a description of the method, associated 
+uncertainties, and materials; dispersant(s) product used, rationale for 
+dispersant product choice(s) including the results of any efficacy and 
+toxicity tests specific to area or site conditions, recommended 
+dispersant-to-oil ratio (DOR); and the application method and 
+procedures, including a description of the equipment to be used, hourly 
+application rates, capacities, and total amount of dispersant needed.",,primary,openai,gpt-5,0,0
+43,EPA-HQ-OPA-2006-0090,proposed,2,True,The text is within an amendatory block adding § 300.913 and imposes duties with shall/must language.,compound,none,300,300.913,the responsible party,shall,strong,document,"the dispersant product(s) used and the rationale for dispersant product choice(s) including the results of any efficacy and toxicity tests specific to area or site conditions, and the recommended dispersant-to-oil ratio (DOR)",False,True,"When these dispersant use conditions are met, and for the duration of dispersant operations",add,"When these dispersant use 
+conditions are met, and for the duration of dispersant operations, the 
+responsible party shall:
+    (a) Document the characteristics of the source oil; best estimate 
+of the oil discharge flow rate, periodically reevaluated as conditions 
+dictate, including a description of the method, associated 
+uncertainties, and materials; dispersant(s) product used, rationale for 
+dispersant product choice(s) including the results of any efficacy and 
+toxicity tests specific to area or site conditions, recommended 
+dispersant-to-oil ratio (DOR); and the application method and 
+procedures, including a description of the equipment to be used, hourly 
+application rates, capacities, and total amount of dispersant needed.",,primary,openai,gpt-5,0,0
+43,EPA-HQ-OPA-2006-0090,proposed,3,True,The text is within an amendatory block adding § 300.913 and imposes duties with shall/must language.,compound,none,300,300.913,the responsible party,shall,strong,document,"the application method and procedures, including a description of the equipment to be used, hourly application rates, capacities, and total amount of dispersant needed",False,True,"When these dispersant use conditions are met, and for the duration of dispersant operations",add,"When these dispersant use 
+conditions are met, and for the duration of dispersant operations, the 
+responsible party shall:
+    (a) Document the characteristics of the source oil; best estimate 
+of the oil discharge flow rate, periodically reevaluated as conditions 
+dictate, including a description of the method, associated 
+uncertainties, and materials; dispersant(s) product used, rationale for 
+dispersant product choice(s) including the results of any efficacy and 
+toxicity tests specific to area or site conditions, recommended 
+dispersant-to-oil ratio (DOR); and the application method and 
+procedures, including a description of the equipment to be used, hourly 
+application rates, capacities, and total amount of dispersant needed.",,primary,openai,gpt-5,0,0
+44,EPA-HQ-OPA-2006-0090,proposed,0,True,"Text is prescriptive operational requirements within a CFR section and appears as binding regulatory text (not preamble), specifying required monitoring actions.",compound,none,300,300.913,responsible parties in the dispersed oil plume area,must,strong,collect daily water column samples following standard operating and quality assurance procedures,at depths and locations where dispersed oil is likely to be present,False,True,in the dispersed oil plume,none,"In the 
+dispersed oil plume, collect daily water column samples following 
+standard operating and quality assurance procedures, at such depths and 
+locations where dispersed oil is likely to be present and analyze for:
+    (1) In-situ oil droplet size distribution, including mass or volume 
+mean diameter for droplet sizes ranging from 2.5 to 2,000 [mu]m, with 
+the majority of data collected between the 2.5 and 100 [mu]m size;
+    (2) In-situ fluorometry and fluorescence signatures targeted to the 
+type of oil discharged and referenced against the source oil;
+    (3) Dissolved oxygen (DO);
+    (4) Total petroleum hydrocarbons, individual resolvable 
+constituents including volatile organic compounds, aliphatic 
+hydrocarbons, monocyclic, polycyclic, and other aromatic hydrocarbons 
+including alkylated homologs, and hopane and sterane biomarker 
+compounds;
+    (5) Carbon dioxide (CO<INF>2</INF>) (subsurface only);
+    (6) Methane, if present (subsurface only);
+    (7) Heavy metals, including nickel and vanadium;
+    (8) Turbidity;
+    (9) Water temperature;
+    (10) pH; and
+    (11) Conductivity.
+    (c) In consultation with the OSC, and using best available 
+technologies, characterize the dispersant effectiveness and oil 
+distribution, considering the condition of oil, dispersant, and 
+dispersed oil components from the discharge location;
+    (d) In consultation with the OSC, characterize the ecological 
+receptors (e.g. aquatic species, wildlife, and/or other biological 
+resourc",,primary,openai,gpt-5,2403,1841
+44,EPA-HQ-OPA-2006-0090,proposed,1,True,"Text is prescriptive operational requirements within a CFR section and appears as binding regulatory text (not preamble), specifying required monitoring actions.",compound,none,300,300.913,responsible parties in the dispersed oil plume area,must,strong,analyze samples for in-situ oil droplet size distribution,"including mass or volume mean diameter for droplet sizes ranging from 2.5 to 2,000 μm, with the majority of data collected between the 2.5 and 100 μm size",False,True,for samples collected in the dispersed oil plume,none,"In the 
+dispersed oil plume, collect daily water column samples following 
+standard operating and quality assurance procedures, at such depths and 
+locations where dispersed oil is likely to be present and analyze for:
+    (1) In-situ oil droplet size distribution, including mass or volume 
+mean diameter for droplet sizes ranging from 2.5 to 2,000 [mu]m, with 
+the majority of data collected between the 2.5 and 100 [mu]m size;
+    (2) In-situ fluorometry and fluorescence signatures targeted to the 
+type of oil discharged and referenced against the source oil;
+    (3) Dissolved oxygen (DO);
+    (4) Total petroleum hydrocarbons, individual resolvable 
+constituents including volatile organic compounds, aliphatic 
+hydrocarbons, monocyclic, polycyclic, and other aromatic hydrocarbons 
+including alkylated homologs, and hopane and sterane biomarker 
+compounds;
+    (5) Carbon dioxide (CO<INF>2</INF>) (subsurface only);
+    (6) Methane, if present (subsurface only);
+    (7) Heavy metals, including nickel and vanadium;
+    (8) Turbidity;
+    (9) Water temperature;
+    (10) pH; and
+    (11) Conductivity.
+    (c) In consultation with the OSC, and using best available 
+technologies, characterize the dispersant effectiveness and oil 
+distribution, considering the condition of oil, dispersant, and 
+dispersed oil components from the discharge location;
+    (d) In consultation with the OSC, characterize the ecological 
+receptors (e.g. aquatic species, wildlife, and/or other biological 
+resourc",,primary,openai,gpt-5,0,0
+44,EPA-HQ-OPA-2006-0090,proposed,2,True,"Text is prescriptive operational requirements within a CFR section and appears as binding regulatory text (not preamble), specifying required monitoring actions.",compound,none,300,300.913,responsible parties in the dispersed oil plume area,must,strong,analyze samples for in-situ fluorometry and fluorescence signatures,targeted to the type of oil discharged and referenced against the source oil,False,True,for samples collected in the dispersed oil plume,none,"In the 
+dispersed oil plume, collect daily water column samples following 
+standard operating and quality assurance procedures, at such depths and 
+locations where dispersed oil is likely to be present and analyze for:
+    (1) In-situ oil droplet size distribution, including mass or volume 
+mean diameter for droplet sizes ranging from 2.5 to 2,000 [mu]m, with 
+the majority of data collected between the 2.5 and 100 [mu]m size;
+    (2) In-situ fluorometry and fluorescence signatures targeted to the 
+type of oil discharged and referenced against the source oil;
+    (3) Dissolved oxygen (DO);
+    (4) Total petroleum hydrocarbons, individual resolvable 
+constituents including volatile organic compounds, aliphatic 
+hydrocarbons, monocyclic, polycyclic, and other aromatic hydrocarbons 
+including alkylated homologs, and hopane and sterane biomarker 
+compounds;
+    (5) Carbon dioxide (CO<INF>2</INF>) (subsurface only);
+    (6) Methane, if present (subsurface only);
+    (7) Heavy metals, including nickel and vanadium;
+    (8) Turbidity;
+    (9) Water temperature;
+    (10) pH; and
+    (11) Conductivity.
+    (c) In consultation with the OSC, and using best available 
+technologies, characterize the dispersant effectiveness and oil 
+distribution, considering the condition of oil, dispersant, and 
+dispersed oil components from the discharge location;
+    (d) In consultation with the OSC, characterize the ecological 
+receptors (e.g. aquatic species, wildlife, and/or other biological 
+resourc",,primary,openai,gpt-5,0,0
+44,EPA-HQ-OPA-2006-0090,proposed,3,True,"Text is prescriptive operational requirements within a CFR section and appears as binding regulatory text (not preamble), specifying required monitoring actions.",compound,none,300,300.913,responsible parties in the dispersed oil plume area,must,strong,analyze samples for dissolved oxygen,DO,False,True,for samples collected in the dispersed oil plume,none,"In the 
+dispersed oil plume, collect daily water column samples following 
+standard operating and quality assurance procedures, at such depths and 
+locations where dispersed oil is likely to be present and analyze for:
+    (1) In-situ oil droplet size distribution, including mass or volume 
+mean diameter for droplet sizes ranging from 2.5 to 2,000 [mu]m, with 
+the majority of data collected between the 2.5 and 100 [mu]m size;
+    (2) In-situ fluorometry and fluorescence signatures targeted to the 
+type of oil discharged and referenced against the source oil;
+    (3) Dissolved oxygen (DO);
+    (4) Total petroleum hydrocarbons, individual resolvable 
+constituents including volatile organic compounds, aliphatic 
+hydrocarbons, monocyclic, polycyclic, and other aromatic hydrocarbons 
+including alkylated homologs, and hopane and sterane biomarker 
+compounds;
+    (5) Carbon dioxide (CO<INF>2</INF>) (subsurface only);
+    (6) Methane, if present (subsurface only);
+    (7) Heavy metals, including nickel and vanadium;
+    (8) Turbidity;
+    (9) Water temperature;
+    (10) pH; and
+    (11) Conductivity.
+    (c) In consultation with the OSC, and using best available 
+technologies, characterize the dispersant effectiveness and oil 
+distribution, considering the condition of oil, dispersant, and 
+dispersed oil components from the discharge location;
+    (d) In consultation with the OSC, characterize the ecological 
+receptors (e.g. aquatic species, wildlife, and/or other biological 
+resourc",,primary,openai,gpt-5,0,0
+44,EPA-HQ-OPA-2006-0090,proposed,4,True,"Text is prescriptive operational requirements within a CFR section and appears as binding regulatory text (not preamble), specifying required monitoring actions.",compound,none,300,300.913,responsible parties in the dispersed oil plume area,must,strong,analyze samples for total petroleum hydrocarbons and individual resolvable constituents,"including VOCs, aliphatic hydrocarbons, monocyclic, polycyclic, and other aromatic hydrocarbons including alkylated homologs, and hopane and sterane biomarker compounds",False,True,for samples collected in the dispersed oil plume,none,"In the 
+dispersed oil plume, collect daily water column samples following 
+standard operating and quality assurance procedures, at such depths and 
+locations where dispersed oil is likely to be present and analyze for:
+    (1) In-situ oil droplet size distribution, including mass or volume 
+mean diameter for droplet sizes ranging from 2.5 to 2,000 [mu]m, with 
+the majority of data collected between the 2.5 and 100 [mu]m size;
+    (2) In-situ fluorometry and fluorescence signatures targeted to the 
+type of oil discharged and referenced against the source oil;
+    (3) Dissolved oxygen (DO);
+    (4) Total petroleum hydrocarbons, individual resolvable 
+constituents including volatile organic compounds, aliphatic 
+hydrocarbons, monocyclic, polycyclic, and other aromatic hydrocarbons 
+including alkylated homologs, and hopane and sterane biomarker 
+compounds;
+    (5) Carbon dioxide (CO<INF>2</INF>) (subsurface only);
+    (6) Methane, if present (subsurface only);
+    (7) Heavy metals, including nickel and vanadium;
+    (8) Turbidity;
+    (9) Water temperature;
+    (10) pH; and
+    (11) Conductivity.
+    (c) In consultation with the OSC, and using best available 
+technologies, characterize the dispersant effectiveness and oil 
+distribution, considering the condition of oil, dispersant, and 
+dispersed oil components from the discharge location;
+    (d) In consultation with the OSC, characterize the ecological 
+receptors (e.g. aquatic species, wildlife, and/or other biological 
+resourc",,primary,openai,gpt-5,0,0
+44,EPA-HQ-OPA-2006-0090,proposed,5,True,"Text is prescriptive operational requirements within a CFR section and appears as binding regulatory text (not preamble), specifying required monitoring actions.",compound,none,300,300.913,responsible parties in the dispersed oil plume area,must,strong,analyze samples for carbon dioxide,CO2 (subsurface only),False,True,for subsurface samples collected in the dispersed oil plume,none,"In the 
+dispersed oil plume, collect daily water column samples following 
+standard operating and quality assurance procedures, at such depths and 
+locations where dispersed oil is likely to be present and analyze for:
+    (1) In-situ oil droplet size distribution, including mass or volume 
+mean diameter for droplet sizes ranging from 2.5 to 2,000 [mu]m, with 
+the majority of data collected between the 2.5 and 100 [mu]m size;
+    (2) In-situ fluorometry and fluorescence signatures targeted to the 
+type of oil discharged and referenced against the source oil;
+    (3) Dissolved oxygen (DO);
+    (4) Total petroleum hydrocarbons, individual resolvable 
+constituents including volatile organic compounds, aliphatic 
+hydrocarbons, monocyclic, polycyclic, and other aromatic hydrocarbons 
+including alkylated homologs, and hopane and sterane biomarker 
+compounds;
+    (5) Carbon dioxide (CO<INF>2</INF>) (subsurface only);
+    (6) Methane, if present (subsurface only);
+    (7) Heavy metals, including nickel and vanadium;
+    (8) Turbidity;
+    (9) Water temperature;
+    (10) pH; and
+    (11) Conductivity.
+    (c) In consultation with the OSC, and using best available 
+technologies, characterize the dispersant effectiveness and oil 
+distribution, considering the condition of oil, dispersant, and 
+dispersed oil components from the discharge location;
+    (d) In consultation with the OSC, characterize the ecological 
+receptors (e.g. aquatic species, wildlife, and/or other biological 
+resourc",,primary,openai,gpt-5,0,0
+44,EPA-HQ-OPA-2006-0090,proposed,6,True,"Text is prescriptive operational requirements within a CFR section and appears as binding regulatory text (not preamble), specifying required monitoring actions.",compound,none,300,300.913,responsible parties in the dispersed oil plume area,must,strong,analyze samples for methane,if present (subsurface only),False,True,for subsurface samples collected in the dispersed oil plume and if methane is present,none,"In the 
+dispersed oil plume, collect daily water column samples following 
+standard operating and quality assurance procedures, at such depths and 
+locations where dispersed oil is likely to be present and analyze for:
+    (1) In-situ oil droplet size distribution, including mass or volume 
+mean diameter for droplet sizes ranging from 2.5 to 2,000 [mu]m, with 
+the majority of data collected between the 2.5 and 100 [mu]m size;
+    (2) In-situ fluorometry and fluorescence signatures targeted to the 
+type of oil discharged and referenced against the source oil;
+    (3) Dissolved oxygen (DO);
+    (4) Total petroleum hydrocarbons, individual resolvable 
+constituents including volatile organic compounds, aliphatic 
+hydrocarbons, monocyclic, polycyclic, and other aromatic hydrocarbons 
+including alkylated homologs, and hopane and sterane biomarker 
+compounds;
+    (5) Carbon dioxide (CO<INF>2</INF>) (subsurface only);
+    (6) Methane, if present (subsurface only);
+    (7) Heavy metals, including nickel and vanadium;
+    (8) Turbidity;
+    (9) Water temperature;
+    (10) pH; and
+    (11) Conductivity.
+    (c) In consultation with the OSC, and using best available 
+technologies, characterize the dispersant effectiveness and oil 
+distribution, considering the condition of oil, dispersant, and 
+dispersed oil components from the discharge location;
+    (d) In consultation with the OSC, characterize the ecological 
+receptors (e.g. aquatic species, wildlife, and/or other biological 
+resourc",,primary,openai,gpt-5,0,0
+44,EPA-HQ-OPA-2006-0090,proposed,7,True,"Text is prescriptive operational requirements within a CFR section and appears as binding regulatory text (not preamble), specifying required monitoring actions.",compound,none,300,300.913,responsible parties in the dispersed oil plume area,must,strong,analyze samples for heavy metals,including nickel and vanadium,False,True,for samples collected in the dispersed oil plume,none,"In the 
+dispersed oil plume, collect daily water column samples following 
+standard operating and quality assurance procedures, at such depths and 
+locations where dispersed oil is likely to be present and analyze for:
+    (1) In-situ oil droplet size distribution, including mass or volume 
+mean diameter for droplet sizes ranging from 2.5 to 2,000 [mu]m, with 
+the majority of data collected between the 2.5 and 100 [mu]m size;
+    (2) In-situ fluorometry and fluorescence signatures targeted to the 
+type of oil discharged and referenced against the source oil;
+    (3) Dissolved oxygen (DO);
+    (4) Total petroleum hydrocarbons, individual resolvable 
+constituents including volatile organic compounds, aliphatic 
+hydrocarbons, monocyclic, polycyclic, and other aromatic hydrocarbons 
+including alkylated homologs, and hopane and sterane biomarker 
+compounds;
+    (5) Carbon dioxide (CO<INF>2</INF>) (subsurface only);
+    (6) Methane, if present (subsurface only);
+    (7) Heavy metals, including nickel and vanadium;
+    (8) Turbidity;
+    (9) Water temperature;
+    (10) pH; and
+    (11) Conductivity.
+    (c) In consultation with the OSC, and using best available 
+technologies, characterize the dispersant effectiveness and oil 
+distribution, considering the condition of oil, dispersant, and 
+dispersed oil components from the discharge location;
+    (d) In consultation with the OSC, characterize the ecological 
+receptors (e.g. aquatic species, wildlife, and/or other biological 
+resourc",,primary,openai,gpt-5,0,0
+44,EPA-HQ-OPA-2006-0090,proposed,8,True,"Text is prescriptive operational requirements within a CFR section and appears as binding regulatory text (not preamble), specifying required monitoring actions.",compound,none,300,300.913,responsible parties in the dispersed oil plume area,must,strong,analyze samples for turbidity,None,False,True,for samples collected in the dispersed oil plume,none,"In the 
+dispersed oil plume, collect daily water column samples following 
+standard operating and quality assurance procedures, at such depths and 
+locations where dispersed oil is likely to be present and analyze for:
+    (1) In-situ oil droplet size distribution, including mass or volume 
+mean diameter for droplet sizes ranging from 2.5 to 2,000 [mu]m, with 
+the majority of data collected between the 2.5 and 100 [mu]m size;
+    (2) In-situ fluorometry and fluorescence signatures targeted to the 
+type of oil discharged and referenced against the source oil;
+    (3) Dissolved oxygen (DO);
+    (4) Total petroleum hydrocarbons, individual resolvable 
+constituents including volatile organic compounds, aliphatic 
+hydrocarbons, monocyclic, polycyclic, and other aromatic hydrocarbons 
+including alkylated homologs, and hopane and sterane biomarker 
+compounds;
+    (5) Carbon dioxide (CO<INF>2</INF>) (subsurface only);
+    (6) Methane, if present (subsurface only);
+    (7) Heavy metals, including nickel and vanadium;
+    (8) Turbidity;
+    (9) Water temperature;
+    (10) pH; and
+    (11) Conductivity.
+    (c) In consultation with the OSC, and using best available 
+technologies, characterize the dispersant effectiveness and oil 
+distribution, considering the condition of oil, dispersant, and 
+dispersed oil components from the discharge location;
+    (d) In consultation with the OSC, characterize the ecological 
+receptors (e.g. aquatic species, wildlife, and/or other biological 
+resourc",,primary,openai,gpt-5,0,0
+44,EPA-HQ-OPA-2006-0090,proposed,9,True,"Text is prescriptive operational requirements within a CFR section and appears as binding regulatory text (not preamble), specifying required monitoring actions.",compound,none,300,300.913,responsible parties in the dispersed oil plume area,must,strong,measure water temperature,None,False,True,for samples collected in the dispersed oil plume,none,"In the 
+dispersed oil plume, collect daily water column samples following 
+standard operating and quality assurance procedures, at such depths and 
+locations where dispersed oil is likely to be present and analyze for:
+    (1) In-situ oil droplet size distribution, including mass or volume 
+mean diameter for droplet sizes ranging from 2.5 to 2,000 [mu]m, with 
+the majority of data collected between the 2.5 and 100 [mu]m size;
+    (2) In-situ fluorometry and fluorescence signatures targeted to the 
+type of oil discharged and referenced against the source oil;
+    (3) Dissolved oxygen (DO);
+    (4) Total petroleum hydrocarbons, individual resolvable 
+constituents including volatile organic compounds, aliphatic 
+hydrocarbons, monocyclic, polycyclic, and other aromatic hydrocarbons 
+including alkylated homologs, and hopane and sterane biomarker 
+compounds;
+    (5) Carbon dioxide (CO<INF>2</INF>) (subsurface only);
+    (6) Methane, if present (subsurface only);
+    (7) Heavy metals, including nickel and vanadium;
+    (8) Turbidity;
+    (9) Water temperature;
+    (10) pH; and
+    (11) Conductivity.
+    (c) In consultation with the OSC, and using best available 
+technologies, characterize the dispersant effectiveness and oil 
+distribution, considering the condition of oil, dispersant, and 
+dispersed oil components from the discharge location;
+    (d) In consultation with the OSC, characterize the ecological 
+receptors (e.g. aquatic species, wildlife, and/or other biological 
+resourc",,primary,openai,gpt-5,0,0
+44,EPA-HQ-OPA-2006-0090,proposed,10,True,"Text is prescriptive operational requirements within a CFR section and appears as binding regulatory text (not preamble), specifying required monitoring actions.",compound,none,300,300.913,responsible parties in the dispersed oil plume area,must,strong,measure pH,None,False,True,for samples collected in the dispersed oil plume,none,"In the 
+dispersed oil plume, collect daily water column samples following 
+standard operating and quality assurance procedures, at such depths and 
+locations where dispersed oil is likely to be present and analyze for:
+    (1) In-situ oil droplet size distribution, including mass or volume 
+mean diameter for droplet sizes ranging from 2.5 to 2,000 [mu]m, with 
+the majority of data collected between the 2.5 and 100 [mu]m size;
+    (2) In-situ fluorometry and fluorescence signatures targeted to the 
+type of oil discharged and referenced against the source oil;
+    (3) Dissolved oxygen (DO);
+    (4) Total petroleum hydrocarbons, individual resolvable 
+constituents including volatile organic compounds, aliphatic 
+hydrocarbons, monocyclic, polycyclic, and other aromatic hydrocarbons 
+including alkylated homologs, and hopane and sterane biomarker 
+compounds;
+    (5) Carbon dioxide (CO<INF>2</INF>) (subsurface only);
+    (6) Methane, if present (subsurface only);
+    (7) Heavy metals, including nickel and vanadium;
+    (8) Turbidity;
+    (9) Water temperature;
+    (10) pH; and
+    (11) Conductivity.
+    (c) In consultation with the OSC, and using best available 
+technologies, characterize the dispersant effectiveness and oil 
+distribution, considering the condition of oil, dispersant, and 
+dispersed oil components from the discharge location;
+    (d) In consultation with the OSC, characterize the ecological 
+receptors (e.g. aquatic species, wildlife, and/or other biological 
+resourc",,primary,openai,gpt-5,0,0
+44,EPA-HQ-OPA-2006-0090,proposed,11,True,"Text is prescriptive operational requirements within a CFR section and appears as binding regulatory text (not preamble), specifying required monitoring actions.",compound,none,300,300.913,responsible parties in the dispersed oil plume area,must,strong,measure conductivity,None,False,True,for samples collected in the dispersed oil plume,none,"In the 
+dispersed oil plume, collect daily water column samples following 
+standard operating and quality assurance procedures, at such depths and 
+locations where dispersed oil is likely to be present and analyze for:
+    (1) In-situ oil droplet size distribution, including mass or volume 
+mean diameter for droplet sizes ranging from 2.5 to 2,000 [mu]m, with 
+the majority of data collected between the 2.5 and 100 [mu]m size;
+    (2) In-situ fluorometry and fluorescence signatures targeted to the 
+type of oil discharged and referenced against the source oil;
+    (3) Dissolved oxygen (DO);
+    (4) Total petroleum hydrocarbons, individual resolvable 
+constituents including volatile organic compounds, aliphatic 
+hydrocarbons, monocyclic, polycyclic, and other aromatic hydrocarbons 
+including alkylated homologs, and hopane and sterane biomarker 
+compounds;
+    (5) Carbon dioxide (CO<INF>2</INF>) (subsurface only);
+    (6) Methane, if present (subsurface only);
+    (7) Heavy metals, including nickel and vanadium;
+    (8) Turbidity;
+    (9) Water temperature;
+    (10) pH; and
+    (11) Conductivity.
+    (c) In consultation with the OSC, and using best available 
+technologies, characterize the dispersant effectiveness and oil 
+distribution, considering the condition of oil, dispersant, and 
+dispersed oil components from the discharge location;
+    (d) In consultation with the OSC, characterize the ecological 
+receptors (e.g. aquatic species, wildlife, and/or other biological 
+resourc",,primary,openai,gpt-5,0,0
+44,EPA-HQ-OPA-2006-0090,proposed,12,True,"Text is prescriptive operational requirements within a CFR section and appears as binding regulatory text (not preamble), specifying required monitoring actions.",compound,none,300,300.913,responsible parties,must,strong,characterize the dispersant effectiveness and oil distribution,"considering the condition of oil, dispersant, and dispersed oil components from the discharge location, and in consultation with the OSC using best available technologies",False,False,,none,"In the 
+dispersed oil plume, collect daily water column samples following 
+standard operating and quality assurance procedures, at such depths and 
+locations where dispersed oil is likely to be present and analyze for:
+    (1) In-situ oil droplet size distribution, including mass or volume 
+mean diameter for droplet sizes ranging from 2.5 to 2,000 [mu]m, with 
+the majority of data collected between the 2.5 and 100 [mu]m size;
+    (2) In-situ fluorometry and fluorescence signatures targeted to the 
+type of oil discharged and referenced against the source oil;
+    (3) Dissolved oxygen (DO);
+    (4) Total petroleum hydrocarbons, individual resolvable 
+constituents including volatile organic compounds, aliphatic 
+hydrocarbons, monocyclic, polycyclic, and other aromatic hydrocarbons 
+including alkylated homologs, and hopane and sterane biomarker 
+compounds;
+    (5) Carbon dioxide (CO<INF>2</INF>) (subsurface only);
+    (6) Methane, if present (subsurface only);
+    (7) Heavy metals, including nickel and vanadium;
+    (8) Turbidity;
+    (9) Water temperature;
+    (10) pH; and
+    (11) Conductivity.
+    (c) In consultation with the OSC, and using best available 
+technologies, characterize the dispersant effectiveness and oil 
+distribution, considering the condition of oil, dispersant, and 
+dispersed oil components from the discharge location;
+    (d) In consultation with the OSC, characterize the ecological 
+receptors (e.g. aquatic species, wildlife, and/or other biological 
+resourc",,primary,openai,gpt-5,0,0
+44,EPA-HQ-OPA-2006-0090,proposed,13,True,"Text is prescriptive operational requirements within a CFR section and appears as binding regulatory text (not preamble), specifying required monitoring actions.",compound,none,300,300.913,responsible parties,must,strong,characterize the ecological receptors and their habitats and exposure pathways,"in consultation with the OSC, including sensitive life stages, transient or migratory species, breeding-related activities, and threatened and/or endangered species potentially exposed to oil, dispersed oil, and dispersant alone; estimate an acute toxicity level of concern for the dispersed oil using available dose/response information",False,False,,none,"In the 
+dispersed oil plume, collect daily water column samples following 
+standard operating and quality assurance procedures, at such depths and 
+locations where dispersed oil is likely to be present and analyze for:
+    (1) In-situ oil droplet size distribution, including mass or volume 
+mean diameter for droplet sizes ranging from 2.5 to 2,000 [mu]m, with 
+the majority of data collected between the 2.5 and 100 [mu]m size;
+    (2) In-situ fluorometry and fluorescence signatures targeted to the 
+type of oil discharged and referenced against the source oil;
+    (3) Dissolved oxygen (DO);
+    (4) Total petroleum hydrocarbons, individual resolvable 
+constituents including volatile organic compounds, aliphatic 
+hydrocarbons, monocyclic, polycyclic, and other aromatic hydrocarbons 
+including alkylated homologs, and hopane and sterane biomarker 
+compounds;
+    (5) Carbon dioxide (CO<INF>2</INF>) (subsurface only);
+    (6) Methane, if present (subsurface only);
+    (7) Heavy metals, including nickel and vanadium;
+    (8) Turbidity;
+    (9) Water temperature;
+    (10) pH; and
+    (11) Conductivity.
+    (c) In consultation with the OSC, and using best available 
+technologies, characterize the dispersant effectiveness and oil 
+distribution, considering the condition of oil, dispersant, and 
+dispersed oil components from the discharge location;
+    (d) In consultation with the OSC, characterize the ecological 
+receptors (e.g. aquatic species, wildlife, and/or other biological 
+resourc",,primary,openai,gpt-5,0,0
+45,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within operative CFR regulatory text in § 300.913(d) as part of a directive to characterize ecological receptors, making it binding despite no explicit amendatory header.",simple,none,300,300.913(d),the party characterizing ecological receptors,must,strong,include,"species that may be in sensitive life stages, transient or migratory species, breeding or breeding-related activities (e.g., embryo and larvae development), and threatened and/or endangered species that may be exposed to the oil that is not dispersed, the dispersed oil, and the dispersant alone",False,False,,none,"Include those species that may be in 
+sensitive life stages, transient or migratory species, breeding or 
+breeding-related activities (e.g., embryo and larvae development), and 
+threatened and/or endangered species that may be exposed to the oil 
+that is not dispersed, the dispersed oil, and the dispersant alone.",,primary,openai,gpt-5,1817,238
+46,EPA-HQ-OPA-2006-0090,proposed,0,True,"The text is operational command language within regulatory section § 300.913, not preamble or pure definition, and imposes reporting duties; thus it is binding.",compound,none,300,300.913,the responsible party or operator conducting subsurface dispersant application,must,strong,report immediately to the OSC,any deviation of more than 10 percent from the mean hourly dispersant use rate for subsurface application and the reason for the deviation,False,False,,none,"(e) Immediately report to the OSC any:
+    (1) Deviation of more than 10 percent from the mean hourly 
+dispersant use rate for subsurface application, based on the dispersant 
+volume authorized for 24 hours use, and the reason for the deviation; 
+and
+    (2) Ecological receptors, including any threatened or endangered 
+species that may be exposed based on dispersed plume trajectory 
+modeling and level of concern information.",,primary,openai,gpt-5,1856,470
+46,EPA-HQ-OPA-2006-0090,proposed,1,True,"The text is operational command language within regulatory section § 300.913, not preamble or pure definition, and imposes reporting duties; thus it is binding.",compound,none,300,300.913,the responsible party or operator conducting subsurface dispersant application,must,strong,report immediately to the OSC,"any ecological receptors, including any threatened or endangered species, that may be exposed based on dispersed plume trajectory modeling and level of concern information",False,False,,none,"(e) Immediately report to the OSC any:
+    (1) Deviation of more than 10 percent from the mean hourly 
+dispersant use rate for subsurface application, based on the dispersant 
+volume authorized for 24 hours use, and the reason for the deviation; 
+and
+    (2) Ecological receptors, including any threatened or endangered 
+species that may be exposed based on dispersed plume trajectory 
+modeling and level of concern information.",,primary,openai,gpt-5,0,0
+46,EPA-HQ-OPA-2006-0090,proposed,2,True,"The text is operational command language within regulatory section § 300.913, not preamble or pure definition, and imposes reporting duties; thus it is binding.",compound,none,300,300.913,the responsible party or operator conducting subsurface dispersant application,must,strong,report daily to the OSC,"water sampling and data analyses collected in § 300.913(b), including specified items",False,False,,none,"(e) Immediately report to the OSC any:
+    (1) Deviation of more than 10 percent from the mean hourly 
+dispersant use rate for subsurface application, based on the dispersant 
+volume authorized for 24 hours use, and the reason for the deviation; 
+and
+    (2) Ecological receptors, including any threatened or endangered 
+species that may be exposed based on dispersed plume trajectory 
+modeling and level of concern information.",§ 300.913(b),primary,openai,gpt-5,0,0
+47,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within an amendatory block revising § 300.915 to read as follows, making it new binding regulatory text.",simple,none,300,300.915,you,must,strong,provide,EPA the information required under § 300.955,False,True,If you are submitting an application for listing a product to the Schedule,revise,"If you are submitting an application for listing a product to the 
+Schedule, you must provide EPA the information required under Sec.  
+300.955.",§ 300.955,primary,openai,gpt-5,1765,196
+48,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within an amendatory block that revises § 300.915 to read as follows, making it new binding regulatory text.",simple,none,300,300.915,Your submission,must,strong,contain,general information for any Product Category,False,False,,revise,"Your submission must contain:
+    (a) General Information for any Product Category.",,primary,openai,gpt-5,1725,176
+49,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within CFR regulatory text specifying submission content and functions as binding permissive language within the section; it is part of operative regulatory requirements, not preamble or mere definition.",simple,none,300,300.915,You,may,permissive,use,"an existing label, provided it already contains the required dates and storage information",False,True,provided it already contains the required dates and storage information,none,"You may 
+use an existing label provided it already contains the required dates 
+and storage information;
+    (9) The chemical or biological agent category under which you want 
+the product to be considered for listing on the Schedule, including 
+detailed information on the specific process(es)",,primary,openai,gpt-5,1784,202
+50,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence imposes requirements within CFR regulatory text listing submission contents; it contains clear actors, a strong modal, and prescriptive actions, making it binding regulatory text.",compound,none,300,300.915,you,must,strong,identify,all applicable categories,False,True,If your product meets the definition of more than one chemical or biological agent category and you want it considered for listing on the Schedule in more than one category,none,"If your product meets the definition of more than 
+one chemical or biological agent category and you want it considered 
+for listing on the Schedule in more than one category, you must 
+identify all applicable categories and provide the test data to meet 
+the listing criteria appropriate to each category;
+    (10)",,primary,openai,gpt-5,1814,338
+50,EPA-HQ-OPA-2006-0090,proposed,1,True,"The sentence imposes requirements within CFR regulatory text listing submission contents; it contains clear actors, a strong modal, and prescriptive actions, making it binding regulatory text.",compound,none,300,300.915,you,must,strong,provide,the test data to meet the listing criteria appropriate to each category,False,True,If your product meets the definition of more than one chemical or biological agent category and you want it considered for listing on the Schedule in more than one category,none,"If your product meets the definition of more than 
+one chemical or biological agent category and you want it considered 
+for listing on the Schedule in more than one category, you must 
+identify all applicable categories and provide the test data to meet 
+the listing criteria appropriate to each category;
+    (10)",,primary,openai,gpt-5,0,0
+51,EPA-HQ-OPA-2006-0090,proposed,0,True,The text is operative requirement language within a CFR section (non-preamble) specifying what recommended product use procedures must include; it constitutes binding regulatory text.,compound,none,300,300.915,These procedures,must,strong,address,"variables such as weather, water salinity, water temperature, types and weathering states of oils or other pollutants, and product and oil containment, collection, recovery and disposal",False,False,,none,"These procedures must 
+address, as appropriate, variables such as weather, water salinity, 
+water temperature, types and weathering states of oils or other 
+pollutants, and product and oil containment, collection, recovery and 
+disposal, and include supporting documentation and standard methods 
+used to determine them;
+    (11) Environmental fate information, including any known measured 
+data and supporting documentation, on the persistence, bioconcentration 
+factor, bioaccumulation factor, and biodegradability of the product and 
+all of its components in the environment;
+    (12)",,primary,openai,gpt-5,1918,306
+51,EPA-HQ-OPA-2006-0090,proposed,1,True,The text is operative requirement language within a CFR section (non-preamble) specifying what recommended product use procedures must include; it constitutes binding regulatory text.,compound,none,300,300.915,These procedures,must,strong,include,supporting documentation and standard methods used to determine them,False,False,,none,"These procedures must 
+address, as appropriate, variables such as weather, water salinity, 
+water temperature, types and weathering states of oils or other 
+pollutants, and product and oil containment, collection, recovery and 
+disposal, and include supporting documentation and standard methods 
+used to determine them;
+    (11) Environmental fate information, including any known measured 
+data and supporting documentation, on the persistence, bioconcentration 
+factor, bioaccumulation factor, and biodegradability of the product and 
+all of its components in the environment;
+    (12)",,primary,openai,gpt-5,0,0
+52,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within binding regulatory text in § 300.915 setting testing and listing requirements, constituting new/operative CFR language.",simple,none,300,300.915,the dispersant,must,strong,demonstrate,"for each specified oil and temperature, a Dispersant Effectiveness (DE) at the 95% lower confidence level greater than or equal to the listed thresholds (55% for IFO-120 at 5°C; 65% for IFO-120 at 25°C; 70% for ANS at 5°C; 75% for ANS at 25°C) to be listed on the Schedule",False,True,To be listed on the Schedule,none,"To be listed on the Schedule, the dispersant must demonstrate 
+for each oil and temperature a Dispersant Effectiveness (DE) at the 95% 
+lower confidence level (LCL<INF>95</INF>) greater than or equal to:
+    (i) 55% for Intermediate Fuel Oil 120 (IFO-120) at 5 [deg]C;
+    (ii) 65% for IFO-120 at 25 [deg]C;
+    (iii) 70% for Alaska North Slope (ANS) crude oil at 5 [deg]C; and
+    (iv) 75% for ANS at 25 [deg]C.
+    (2) Dispersant Toxicity tests and listing criteria.",Appendix C to part 300,primary,openai,gpt-5,2024,270
+53,EPA-HQ-OPA-2006-0090,proposed,0,True,Text appears within regulatory testing and listing criteria in a CFR section and states binding thresholds using must; it is part of binding regulatory text.,compound,none,300,300.915,a dispersant to be listed on the Schedule,must,strong,have a lethal concentration for 50% of the test species (LC50) at the lower 95% confidence interval greater than,10 ppm for all acute toxicity tests,False,True,To be listed on the Schedule,none,"To be 
+listed on the Schedule, the lethal concentration for 50% of the test 
+species (LC<INF>50</INF>) at the lower 95% confidence interval for all 
+acute toxicity tests must be greater than 10 ppm; the inhibition 
+concentration for 50% of the test species (IC<INF>50</INF>) at the 
+lower 95% confidence interval must be greater than 10 ppm; and the sub-
+chronic No Observed Effect Concentration (NOEC) must be equal to or 
+greater than 1 ppm.
+    (3) Limitations.",Appendix C to part 300,primary,openai,gpt-5,1970,476
+53,EPA-HQ-OPA-2006-0090,proposed,1,True,Text appears within regulatory testing and listing criteria in a CFR section and states binding thresholds using must; it is part of binding regulatory text.,compound,none,300,300.915,a dispersant to be listed on the Schedule,must,strong,have an inhibition concentration for 50% of the test species (IC50) at the lower 95% confidence interval greater than,10 ppm,False,True,To be listed on the Schedule,none,"To be 
+listed on the Schedule, the lethal concentration for 50% of the test 
+species (LC<INF>50</INF>) at the lower 95% confidence interval for all 
+acute toxicity tests must be greater than 10 ppm; the inhibition 
+concentration for 50% of the test species (IC<INF>50</INF>) at the 
+lower 95% confidence interval must be greater than 10 ppm; and the sub-
+chronic No Observed Effect Concentration (NOEC) must be equal to or 
+greater than 1 ppm.
+    (3) Limitations.",,primary,openai,gpt-5,0,0
+53,EPA-HQ-OPA-2006-0090,proposed,2,True,Text appears within regulatory testing and listing criteria in a CFR section and states binding thresholds using must; it is part of binding regulatory text.,compound,none,300,300.915,a dispersant to be listed on the Schedule,must,strong,have a sub-chronic No Observed Effect Concentration (NOEC) equal to or greater than,1 ppm,False,True,To be listed on the Schedule,none,"To be 
+listed on the Schedule, the lethal concentration for 50% of the test 
+species (LC<INF>50</INF>) at the lower 95% confidence interval for all 
+acute toxicity tests must be greater than 10 ppm; the inhibition 
+concentration for 50% of the test species (IC<INF>50</INF>) at the 
+lower 95% confidence interval must be greater than 10 ppm; and the sub-
+chronic No Observed Effect Concentration (NOEC) must be equal to or 
+greater than 1 ppm.
+    (3) Limitations.",,primary,openai,gpt-5,0,0
+54,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence is binding regulatory text within a CFR section specifying listing criteria, functioning as an operative requirement for listing on the Schedule.",simple,none,300,300.915,the surface washing agent,must,strong,meet,"an efficacy of at least 30% in fresh water, salt water, or both, consistent with the intended product use and using a recognized standard methodology",False,True,To be listed on the Schedule,none,"To be 
+listed on the Schedule, using a recognized standard methodology, the 
+surface washing agent must meet an efficacy of greater than or equal to 
+30% in either fresh or saltwater or both depending on the intended 
+product use.",,primary,openai,gpt-5,1837,204
+55,EPA-HQ-OPA-2006-0090,proposed,0,True,"This is binding regulatory text within a CFR section prescribing listing criteria, not preamble or mere definition scope.",simple,none,300,300.915,the surface washing agent,must,strong,demonstrate,an LC50 at the lower 95% confidence interval greater than 10 ppm in either fresh or saltwater for all tested species,False,True,To be listed on the Schedule,none,"To be listed on the Schedule, the surface washing 
+agent must demonstrate an LC<INF>50</INF> at the lower 95% confidence 
+interval of greater than 10 ppm in either fresh or saltwater for all 
+tested species.",Appendix C to part 300,primary,openai,gpt-5,1803,205
+56,EPA-HQ-OPA-2006-0090,proposed,0,True,The sentence appears in regulatory text of § 300.915 setting listing criteria; it prescribes mandatory test performance for bioremediation agents and functions as binding listing requirements.,simple,none,300,300.915,a bioremediation agent,must,strong,successfully degrade,both alkanes and aromatics as determined by GC/MS in salt or fresh water (or both) following the test method in Appendix C to part 300,False,True,To be listed on the Schedule,none,"To be listed 
+on the Schedule, a bioremediation agent must successfully degrade both 
+alkanes and aromatics as determined by gas chromatography/mass 
+spectrometry (GC/MS) in salt or fresh water or both, depending on the 
+intended product use, following the test method specified in Appendix C 
+to part 300.",Appendix C to part 300,primary,openai,gpt-5,1860,227
+57,EPA-HQ-OPA-2006-0090,proposed,0,True,The sentence is binding operational text within § 300.915 prescribing an efficacy criterion for listing; it is not preamble or mere definition.,simple,none,300,300.915,The percentage reduction of total alkanes (aliphatic fraction) from the GC/MS analysis,must,strong,be greater than or equal to,95% at day 28 based on the ninety-fifth percentile Upper Confidence Limit (UCL95) for both salt and freshwater,False,False,,none,"The percentage reduction of total alkanes (aliphatic 
+fraction) from the GC/MS analysis must be greater than or equal to 95% 
+at day 28, based on the ninety-fifth percentile Upper Confidence Limit 
+(UCL<INF>95</INF>) for both salt and freshwater.",Appendix C to part 300,primary,openai,gpt-5,1841,224
+58,EPA-HQ-OPA-2006-0090,proposed,0,True,"It is binding performance criteria within regulatory text for § 300.915, not preamble or mere definition, prescribing quantitative thresholds.",compound,none,300,300.915,percentage reduction of total aromatics (aromatic fraction),must,strong,be greater than or equal to 70% at day 28,for saltwater based on the UCL95,False,False,,none,"The percentage 
+reduction of total aromatics (aromatic fraction) must be greater than 
+or equal to 70% at day 28 for saltwater and greater than or equal to 
+40% for freshwater based on the UCL<INF>95</INF>.",,primary,openai,gpt-5,1827,315
+58,EPA-HQ-OPA-2006-0090,proposed,1,True,"It is binding performance criteria within regulatory text for § 300.915, not preamble or mere definition, prescribing quantitative thresholds.",compound,none,300,300.915,percentage reduction of total aromatics (aromatic fraction),must,strong,be greater than or equal to 40% at day 28,for freshwater based on the UCL95,False,False,,none,"The percentage 
+reduction of total aromatics (aromatic fraction) must be greater than 
+or equal to 70% at day 28 for saltwater and greater than or equal to 
+40% for freshwater based on the UCL<INF>95</INF>.",,primary,openai,gpt-5,0,0
+59,EPA-HQ-OPA-2006-0090,proposed,0,True,The sentence appears within regulatory text of § 300.915 setting listing criteria and prescribes a testing requirement; it functions as binding amendatory/regulatory text rather than preamble or pure definition.,compound,none,300,300.915,the bioremediation agent,must,strong,"be tested for acute toxicity in saltwater, freshwater, or both depending on the intended product use","acute toxicity in saltwater, freshwater, or both",True,False,,none,"The 
+bioremediation agent must be tested for acute toxicity in saltwater, 
+freshwater or both, depending on the intended product use, following 
+the method specified in Appendix C to part 300.",,primary,openai,gpt-5,1802,329
+59,EPA-HQ-OPA-2006-0090,proposed,1,True,The sentence appears within regulatory text of § 300.915 setting listing criteria and prescribes a testing requirement; it functions as binding amendatory/regulatory text rather than preamble or pure definition.,compound,none,300,300.915,the bioremediation agent,must,strong,be tested following the method specified,the method specified in Appendix C to part 300,True,False,,none,"The 
+bioremediation agent must be tested for acute toxicity in saltwater, 
+freshwater or both, depending on the intended product use, following 
+the method specified in Appendix C to part 300.",Appendix C to part 300,primary,openai,gpt-5,0,0
+60,EPA-HQ-OPA-2006-0090,proposed,0,True,The sentence appears within binding regulatory text of § 300.915 prescribing listing criteria; it is not a preamble or mere definition and functions as a binding requirement.,simple,none,300,300.915,the bioremediation agent,must,strong,demonstrate,an LC50 at the lower 95% confidence interval greater than 10 ppm in either fresh or saltwater for all tested species,False,True,To be listed on the Schedule,none,"To be listed on the 
+Schedule, the bioremediation agent must demonstrate an LC<INF>50</INF> 
+at the lower 95% confidence interval of greater than 10 ppm in either 
+fresh or saltwater for all tested species.",Appendix C to part 300,primary,openai,gpt-5,1826,219
+61,EPA-HQ-OPA-2006-0090,proposed,0,True,The sentence appears in a CFR regulatory section setting testing and listing requirements and prescribes a clear duty using must.,simple,none,300,300.915,Solidifiers,must,strong,be tested for acute toxicity,"in saltwater, freshwater, or both following the method specified in Appendix C to part 300, depending on the intended product use",True,True,depending on the intended product use,none,"(1) Solidifiers 
+must be tested for acute toxicity in saltwater, freshwater or both, 
+depending on the intended product use, following the method specified 
+in Appendix C to part 300.",Appendix C to part 300,primary,openai,gpt-5,1776,206
+62,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within binding regulatory text of § 300.915 setting testing and listing requirements, functioning as eligibility criteria for listing and thus a binding obligation.",simple,definition_embedded,300,300.915,the solidifier,must,strong,demonstrate,an LC50 at the lower 95% confidence interval greater than 10 ppm in either fresh or saltwater for all tested species,False,True,To be listed on the Schedule,none,"To be listed on the Schedule, the solidifier 
+must demonstrate an LC<INF>50</INF> at the lower 95% confidence 
+interval of greater than 10 ppm in either fresh or saltwater for all 
+tested species.",Appendix C to part 300,primary,openai,gpt-5,1801,216
+63,EPA-HQ-OPA-2006-0090,proposed,0,True,The text appears within regulatory listing/testing requirements in CFR amendatory text for § 300.915 and prescribes mandatory testing using a specified method.,simple,none,300,300.915,Herding agents,must,strong,be tested for acute toxicity,"in saltwater, freshwater, or both, depending on the intended product use, following the method specified in Appendix C to part 300",True,False,,none,"(1) Herding 
+agents must be tested for acute toxicity in saltwater, freshwater, or 
+both, depending on the intended product use, following the method 
+specified in Appendix C to part 300.",Appendix C to part 300,primary,openai,gpt-5,1781,210
+64,EPA-HQ-OPA-2006-0090,proposed,0,True,The sentence appears within a CFR regulatory section listing testing and listing requirements and functions as binding text within that section.,simple,none,300,300.915,The herding agent,must,strong,demonstrate,an LC50 at the lower 95% confidence interval greater than 10 ppm in either fresh or saltwater for all tested species,False,False,,none,"The herding agent must demonstrate 
+an LC<INF>50</INF> at the lower 95% confidence interval of greater than 
+10 ppm in either fresh or saltwater for all tested species.",Appendix C to part 300,primary,openai,gpt-5,1783,200
+65,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence imposes a new binding requirement within CFR regulatory text directing submitters to provide specified information for listing; it uses must and is part of operative regulatory provisions, not preamble.",simple,none,300,300.915(g)(2),you,must,strong,submit,the following information for consideration for listing it as a sorbent on the Sorbent Product List,False,True,"If the product consists of one or more natural organic substances, inorganic/mineral compounds, and/or synthetic compounds not specifically identified in paragraph (g)(1) of this section but you believe the product meets the definition of a sorbent, as applicable under § 300.955(a) and (b)",none,"(2) If the product consists of one or more natural organic 
+substances, inorganic/mineral compounds, and/or synthetic compounds not 
+specifically identified in paragraph (g)(1) of this section but you 
+believe the product meets the definition of a sorbent then, as 
+applicable under Sec.  300.955(a) and (b), you must submit the 
+following information for consideration for listing it as a sorbent on 
+the Sorbent Product List:
+    (i)",§ 300.955(a) and (b),primary,openai,gpt-5,1953,271
+66,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within an amendatory block adding § 300.950 to subpart J to read as follows, so it is new binding text.",simple,none,300,300.950(b),You,may,permissive,claim,"only the concentration and the maximum, minimum, and average weight percent of each chemical component or microorganism in your product to be confidential business information",False,False,,add,"(b) You may only claim the concentration and the maximum, minimum, 
+and average weight percent of each chemical component or microorganism 
+in your product, as identified in Sec.  300.915(a)(13) or (14), to be 
+CBI.",§ 300.915(a)(13) or (14),primary,openai,gpt-5,1866,213
+67,EPA-HQ-OPA-2006-0090,proposed,0,True,"The text is within an amendatory block adding § 300.950 to subpart J, so the obligations are new binding regulatory text.",compound,none,300,300.950,You,must,strong,make,your CBI claim at the time you submit your information to EPA to be listed on the Schedule,False,False,,add,"EPA will handle such claims in accordance with 40 CFR part 2, 
+subpart B.
+    (1) You must make your CBI claim at the time you submit your 
+information to EPA to be listed on the Schedule.
+    (2) You must redact the CBI from all submitted information but 
+include the CBI separately with your submission package.",,primary,openai,gpt-5,1893,383
+67,EPA-HQ-OPA-2006-0090,proposed,1,True,"The text is within an amendatory block adding § 300.950 to subpart J, so the obligations are new binding regulatory text.",compound,none,300,300.950,You,must,strong,redact,the CBI from all submitted information,False,False,,add,"EPA will handle such claims in accordance with 40 CFR part 2, 
+subpart B.
+    (1) You must make your CBI claim at the time you submit your 
+information to EPA to be listed on the Schedule.
+    (2) You must redact the CBI from all submitted information but 
+include the CBI separately with your submission package.",,primary,openai,gpt-5,0,0
+67,EPA-HQ-OPA-2006-0090,proposed,2,True,"The text is within an amendatory block adding § 300.950 to subpart J, so the obligations are new binding regulatory text.",compound,none,300,300.950,You,must,strong,include,the CBI separately with your submission package,False,False,,add,"EPA will handle such claims in accordance with 40 CFR part 2, 
+subpart B.
+    (1) You must make your CBI claim at the time you submit your 
+information to EPA to be listed on the Schedule.
+    (2) You must redact the CBI from all submitted information but 
+include the CBI separately with your submission package.",,primary,openai,gpt-5,0,0
+68,EPA-HQ-OPA-2006-0090,proposed,0,True,"The text appears in an amendatory block adding § 300.955 to subpart J to read as follows, so it is new binding regulatory text.",compound,none,300,300.955(b),submitters,shall,strong,"include in the submission package, in order",a signed and dated cover letter on company letterhead certifying specified statements; a numbered Table of Contents; all required data and information arranged as specified; and a separate envelope containing Confidential Business Information if applicable,False,False,,add,"Your package shall include, in this order:
+    (1) A cover letter on company letterhead signed and dated by you 
+certifying that:
+    (i) All testing was conducted on representative product samples;
+    (ii) Testing was conducted at a nationally or internationally 
+accredited laboratory in accordance with the
+
+[[Page 3427]]
+
+methods specified in Appendix C to part 300, and other applicable 
+methods as appropriate; and
+    (iii) All test results and product technical data and information 
+are true and accurate.
+    (2) A numbered Table of Contents showing the information and data 
+submitted under Sec.  300.915(a) through (g);
+    (3) All required data and information arranged in the same order as 
+specified in Sec.  300.915(a) through (g); and
+    (4) A separate envelope containing Confidential Business 
+Information as specified in Sec.  300.950(b), if applicable.
+    (c) EPA Review.",,primary,openai,gpt-5,2117,954
+68,EPA-HQ-OPA-2006-0090,proposed,1,True,"The text appears in an amendatory block adding § 300.955 to subpart J to read as follows, so it is new binding regulatory text.",compound,none,300,300.955(b)(1)(i),submitters,shall,strong,certify in the cover letter that testing was conducted on representative product samples,None,False,False,,add,"Your package shall include, in this order:
+    (1) A cover letter on company letterhead signed and dated by you 
+certifying that:
+    (i) All testing was conducted on representative product samples;
+    (ii) Testing was conducted at a nationally or internationally 
+accredited laboratory in accordance with the
+
+[[Page 3427]]
+
+methods specified in Appendix C to part 300, and other applicable 
+methods as appropriate; and
+    (iii) All test results and product technical data and information 
+are true and accurate.
+    (2) A numbered Table of Contents showing the information and data 
+submitted under Sec.  300.915(a) through (g);
+    (3) All required data and information arranged in the same order as 
+specified in Sec.  300.915(a) through (g); and
+    (4) A separate envelope containing Confidential Business 
+Information as specified in Sec.  300.950(b), if applicable.
+    (c) EPA Review.",,primary,openai,gpt-5,0,0
+68,EPA-HQ-OPA-2006-0090,proposed,2,True,"The text appears in an amendatory block adding § 300.955 to subpart J to read as follows, so it is new binding regulatory text.",compound,none,300,300.955(b)(1)(ii),submitters,shall,strong,certify in the cover letter that testing was conducted at a nationally or internationally accredited laboratory in accordance with specified methods,methods specified in Appendix C to part 300 and other applicable methods as appropriate,False,False,,add,"Your package shall include, in this order:
+    (1) A cover letter on company letterhead signed and dated by you 
+certifying that:
+    (i) All testing was conducted on representative product samples;
+    (ii) Testing was conducted at a nationally or internationally 
+accredited laboratory in accordance with the
+
+[[Page 3427]]
+
+methods specified in Appendix C to part 300, and other applicable 
+methods as appropriate; and
+    (iii) All test results and product technical data and information 
+are true and accurate.
+    (2) A numbered Table of Contents showing the information and data 
+submitted under Sec.  300.915(a) through (g);
+    (3) All required data and information arranged in the same order as 
+specified in Sec.  300.915(a) through (g); and
+    (4) A separate envelope containing Confidential Business 
+Information as specified in Sec.  300.950(b), if applicable.
+    (c) EPA Review.",Appendix C to part 300,primary,openai,gpt-5,0,0
+68,EPA-HQ-OPA-2006-0090,proposed,3,True,"The text appears in an amendatory block adding § 300.955 to subpart J to read as follows, so it is new binding regulatory text.",compound,none,300,300.955(b)(1)(iii),submitters,shall,strong,certify in the cover letter that all test results and product technical data and information are true and accurate,None,False,False,,add,"Your package shall include, in this order:
+    (1) A cover letter on company letterhead signed and dated by you 
+certifying that:
+    (i) All testing was conducted on representative product samples;
+    (ii) Testing was conducted at a nationally or internationally 
+accredited laboratory in accordance with the
+
+[[Page 3427]]
+
+methods specified in Appendix C to part 300, and other applicable 
+methods as appropriate; and
+    (iii) All test results and product technical data and information 
+are true and accurate.
+    (2) A numbered Table of Contents showing the information and data 
+submitted under Sec.  300.915(a) through (g);
+    (3) All required data and information arranged in the same order as 
+specified in Sec.  300.915(a) through (g); and
+    (4) A separate envelope containing Confidential Business 
+Information as specified in Sec.  300.950(b), if applicable.
+    (c) EPA Review.",,primary,openai,gpt-5,0,0
+68,EPA-HQ-OPA-2006-0090,proposed,4,True,"The text appears in an amendatory block adding § 300.955 to subpart J to read as follows, so it is new binding regulatory text.",compound,none,300,300.955(b)(2),submitters,shall,strong,include a numbered Table of Contents,showing the information and data submitted under § 300.915(a) through (g),False,False,,add,"Your package shall include, in this order:
+    (1) A cover letter on company letterhead signed and dated by you 
+certifying that:
+    (i) All testing was conducted on representative product samples;
+    (ii) Testing was conducted at a nationally or internationally 
+accredited laboratory in accordance with the
+
+[[Page 3427]]
+
+methods specified in Appendix C to part 300, and other applicable 
+methods as appropriate; and
+    (iii) All test results and product technical data and information 
+are true and accurate.
+    (2) A numbered Table of Contents showing the information and data 
+submitted under Sec.  300.915(a) through (g);
+    (3) All required data and information arranged in the same order as 
+specified in Sec.  300.915(a) through (g); and
+    (4) A separate envelope containing Confidential Business 
+Information as specified in Sec.  300.950(b), if applicable.
+    (c) EPA Review.",§ 300.915(a) through (g),primary,openai,gpt-5,0,0
+68,EPA-HQ-OPA-2006-0090,proposed,5,True,"The text appears in an amendatory block adding § 300.955 to subpart J to read as follows, so it is new binding regulatory text.",compound,none,300,300.955(b)(3),submitters,shall,strong,include all required data and information arranged in the same order as specified,§ 300.915(a) through (g),False,False,,add,"Your package shall include, in this order:
+    (1) A cover letter on company letterhead signed and dated by you 
+certifying that:
+    (i) All testing was conducted on representative product samples;
+    (ii) Testing was conducted at a nationally or internationally 
+accredited laboratory in accordance with the
+
+[[Page 3427]]
+
+methods specified in Appendix C to part 300, and other applicable 
+methods as appropriate; and
+    (iii) All test results and product technical data and information 
+are true and accurate.
+    (2) A numbered Table of Contents showing the information and data 
+submitted under Sec.  300.915(a) through (g);
+    (3) All required data and information arranged in the same order as 
+specified in Sec.  300.915(a) through (g); and
+    (4) A separate envelope containing Confidential Business 
+Information as specified in Sec.  300.950(b), if applicable.
+    (c) EPA Review.",§ 300.915(a) through (g),primary,openai,gpt-5,0,0
+68,EPA-HQ-OPA-2006-0090,proposed,6,True,"The text appears in an amendatory block adding § 300.955 to subpart J to read as follows, so it is new binding regulatory text.",compound,none,300,300.955(b)(4),submitters,shall,strong,include a separate envelope containing Confidential Business Information,as specified in § 300.950(b),False,True,if applicable,add,"Your package shall include, in this order:
+    (1) A cover letter on company letterhead signed and dated by you 
+certifying that:
+    (i) All testing was conducted on representative product samples;
+    (ii) Testing was conducted at a nationally or internationally 
+accredited laboratory in accordance with the
+
+[[Page 3427]]
+
+methods specified in Appendix C to part 300, and other applicable 
+methods as appropriate; and
+    (iii) All test results and product technical data and information 
+are true and accurate.
+    (2) A numbered Table of Contents showing the information and data 
+submitted under Sec.  300.915(a) through (g);
+    (3) All required data and information arranged in the same order as 
+specified in Sec.  300.915(a) through (g); and
+    (4) A separate envelope containing Confidential Business 
+Information as specified in Sec.  300.950(b), if applicable.
+    (c) EPA Review.",§ 300.950(b),primary,openai,gpt-5,0,0
+69,EPA-HQ-OPA-2006-0090,proposed,0,True,The sentence appears in regulatory text of a CFR section rather than preamble and imposes a clear duty on EPA; such text is binding even without an explicit amendatory header.,compound,none,300,300.915(a),EPA,shall,strong,review,the submission package for completeness and compliance with all data and information requirements,False,True,within 90 days of receiving a submission package,none,"EPA shall, within 90 days of receiving a submission 
+package:
+    (1) Review the package for completeness and compliance with all 
+data and information requirements in Sec.","§§ 300.915, 300.950",primary,openai,gpt-5,1766,209
+70,EPA-HQ-OPA-2006-0090,proposed,0,True,"The text appears within binding CFR regulatory text in § 300.915(a) and is part of operative provisions, making it binding under rule (b).",compound,none,300,300.915(a),You,may,permissive,revise and resubmit,"the submission package to address test results, data, or information deficiencies",False,True,If your submission is rejected,none,"If your submission 
+is rejected:
+    (i) You may revise the submission package to address test results, 
+data, or information deficiencies and resubmit it.
+    (ii) EPA's 90-day review will not start until a complete package is 
+resubmitted.",,primary,openai,gpt-5,1797,307
+70,EPA-HQ-OPA-2006-0090,proposed,1,True,"The text appears within binding CFR regulatory text in § 300.915(a) and is part of operative provisions, making it binding under rule (b).",compound,none,300,300.915(a),EPA's 90-day review,may not,strong,start,until a complete package is resubmitted,False,True,If your submission is rejected,none,"If your submission 
+is rejected:
+    (i) You may revise the submission package to address test results, 
+data, or information deficiencies and resubmit it.
+    (ii) EPA's 90-day review will not start until a complete package is 
+resubmitted.",,primary,openai,gpt-5,0,0
+71,EPA-HQ-OPA-2006-0090,proposed,0,True,The sentence appears within regulatory text of a CFR section rather than preamble and functions as binding text; permissive obligation under an operative section.,simple,none,300,300.915(a),you,may,permissive,request,that the EPA Administrator review the determination,False,True,If your product is rejected for listing on the Schedule,none,"If your product is rejected for 
+listing on the Schedule, you may request that the EPA Administrator 
+review the determination.",,primary,openai,gpt-5,1739,188
+72,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence is prescriptive regulatory text within a CFR section (not preamble) and imposes a deadline and format requirement, making it binding.",compound,none,300,300.915(a),you,must,strong,submit,the request in writing,False,True,If your product is rejected for listing on the Schedule and you request that the EPA Administrator review the determination,none,"Your request must be in writing within 30 
+days of receipt of notification of EPA's decision not to list the 
+product on the Schedule.",,primary,openai,gpt-5,1734,327
+72,EPA-HQ-OPA-2006-0090,proposed,1,True,"The sentence is prescriptive regulatory text within a CFR section (not preamble) and imposes a deadline and format requirement, making it binding.",compound,none,300,300.915(a),you,must,strong,submit,the request within 30 days of receipt of notification of EPA's decision not to list the product on the Schedule,False,True,If your product is rejected for listing on the Schedule and you request that the EPA Administrator review the determination,none,"Your request must be in writing within 30 
+days of receipt of notification of EPA's decision not to list the 
+product on the Schedule.",,primary,openai,gpt-5,0,0
+73,EPA-HQ-OPA-2006-0090,proposed,0,True,"Appears within CFR regulatory text prescribing procedures (non-preamble) and uses mandatory modal ""must,"" making it binding.",compound,none,300,300.915(a),Your request,must,strong,contain,a clear and concise statement,False,True,If your product is rejected for listing on the Schedule and you request that the EPA Administrator review the determination,none,"Your request must contain a clear and concise 
+statement with supporting facts and technical analysis demonstrating 
+why you believe EPA's decision was incorrect.",,primary,openai,gpt-5,1756,318
+73,EPA-HQ-OPA-2006-0090,proposed,1,True,"Appears within CFR regulatory text prescribing procedures (non-preamble) and uses mandatory modal ""must,"" making it binding.",compound,none,300,300.915(a),Your request,must,strong,include,supporting facts and technical analysis demonstrating why you believe EPA's decision was incorrect,False,True,If your product is rejected for listing on the Schedule and you request that the EPA Administrator review the determination,none,"Your request must contain a clear and concise 
+statement with supporting facts and technical analysis demonstrating 
+why you believe EPA's decision was incorrect.",,primary,openai,gpt-5,0,0
+74,EPA-HQ-OPA-2006-0090,proposed,0,True,The sentence appears in operative CFR text (not preamble) and sets permissive authority for the Administrator; such language within the regulatory section is binding regulatory text.,compound,none,300,300.915(a),The EPA Administrator or designee,may,permissive,request,additional information from you,False,False,,none,"(1) The EPA Administrator or designee may request additional 
+information from you and may offer an opportunity for you to meet with 
+EPA.",,primary,openai,gpt-5,1746,290
+74,EPA-HQ-OPA-2006-0090,proposed,1,True,The sentence appears in operative CFR text (not preamble) and sets permissive authority for the Administrator; such language within the regulatory section is binding regulatory text.,compound,none,300,300.915(a),The EPA Administrator or designee,may,permissive,offer an opportunity for you to meet,with EPA,False,False,,none,"(1) The EPA Administrator or designee may request additional 
+information from you and may offer an opportunity for you to meet with 
+EPA.",,primary,openai,gpt-5,0,0
+75,EPA-HQ-OPA-2006-0090,proposed,0,True,The sentence is regulatory text within a CFR section prescribing conduct (notify EPA within 30 days) and functions as binding operative language.,simple,none,300,300.915(a),You,must,strong,notify,EPA in writing within 30 days of any changes to information submitted for a product on the Schedule,False,False,,none,"You must notify EPA in writing 
+within 30 days of any changes to information submitted under Sec.  
+300.915(a)(1) through (8) and Sec.  300.915(a)(19) through (21) for a 
+product on the Schedule.",§ 300.915(a)(1)–(8) and § 300.915(a)(19)–(21),primary,openai,gpt-5,1771,212
+76,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence is prescriptive regulatory text within a CFR section’s operational provisions, not preamble or definition, making it binding.",compound,none,300,300.915(a)(19),you,must,strong,detail,the specific changes,False,False,,none,"In the notification, you must detail the 
+specific changes, the reasons for such changes and supporting data and 
+information.",,primary,openai,gpt-5,1740,367
+76,EPA-HQ-OPA-2006-0090,proposed,1,True,"The sentence is prescriptive regulatory text within a CFR section’s operational provisions, not preamble or definition, making it binding.",compound,none,300,300.915(a)(19),you,must,strong,detail,the reasons for such changes,False,False,,none,"In the notification, you must detail the 
+specific changes, the reasons for such changes and supporting data and 
+information.",,primary,openai,gpt-5,0,0
+76,EPA-HQ-OPA-2006-0090,proposed,2,True,"The sentence is prescriptive regulatory text within a CFR section’s operational provisions, not preamble or definition, making it binding.",compound,none,300,300.915(a)(19),you,must,strong,detail,supporting data and information,False,False,,none,"In the notification, you must detail the 
+specific changes, the reasons for such changes and supporting data and 
+information.",,primary,openai,gpt-5,0,0
+77,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within regulatory text of a CFR amendatory context governing changes to a product listing, making it new binding text.",simple,none,300,300.915(a)(19),EPA,may,permissive,request,additional information and clarification regarding these changes,False,False,,none,"EPA may request additional information and clarification 
+regarding these changes.",,primary,openai,gpt-5,1721,177
+78,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence is binding operative text within a regulatory section, not a preamble or mere definition, and uses the mandatory modal 'must'.",compound,none,300,300.915(a)(19),you,must,strong,retest,the reformulated product according to the requirements for the product category,False,True,If you change the chemical components and/or concentrations,none,"If you change the chemical components and/or 
+concentrations, you must retest the reformulated product according to 
+the requirements for the product category and submit a complete new 
+package for a review and consideration for listing on the Schedule by 
+EPA.
+    (f) Transitioning Listed Products from the Current Schedule to the 
+New Schedule.",,primary,openai,gpt-5,1841,310
+78,EPA-HQ-OPA-2006-0090,proposed,1,True,"The sentence is binding operative text within a regulatory section, not a preamble or mere definition, and uses the mandatory modal 'must'.",compound,none,300,300.915(a)(19),you,must,strong,submit,a complete new package for review and consideration for listing on the Schedule by EPA,False,True,If you change the chemical components and/or concentrations,none,"If you change the chemical components and/or 
+concentrations, you must retest the reformulated product according to 
+the requirements for the product category and submit a complete new 
+package for a review and consideration for listing on the Schedule by 
+EPA.
+    (f) Transitioning Listed Products from the Current Schedule to the 
+New Schedule.",,primary,openai,gpt-5,0,0
+79,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within an amendatory block adding § 300.965 to subpart J to read as follows, making it new binding regulatory text.",simple,none,300,300.965,"any label, advertisement, or technical literature for the product",must,strong,display,the disclaimer shown below in its entirety,False,False,,add,"To avoid possible 
+misinterpretation or misrepresentation, any label, advertisement, or 
+technical literature for the product must display in its entirety the 
+disclaimer shown below.",,primary,openai,gpt-5,1772,187
+80,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within an amendatory block adding § 300.965 to subpart J, so it is new binding regulatory text.",compound,none,300,300.965,the disclaimer,must,strong,be conspicuous,None,False,False,,add,"The disclaimer must be conspicuous and must be 
+fully reproduced on all product literatures, labels, and electronic 
+media including Web site pages.",,primary,openai,gpt-5,1760,278
+80,EPA-HQ-OPA-2006-0090,proposed,1,True,"The sentence appears within an amendatory block adding § 300.965 to subpart J, so it is new binding regulatory text.",compound,none,300,300.965,the disclaimer,must,strong,be fully reproduced,"on all product literatures, labels, and electronic media including Web site pages",True,False,,add,"The disclaimer must be conspicuous and must be 
+fully reproduced on all product literatures, labels, and electronic 
+media including Web site pages.",,primary,openai,gpt-5,0,0
+81,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within amendatory text adding § 300.970 and revising Subpart J content, making the disclaimer language binding regulatory text.",simple,none,300,300.965,a Federal On-Scene Coordinator (OSC),may,permissive,authorize,use of this product according to the NCP,False,False,,add,"Only a Federal 
+On-Scene Coordinator (OSC) may authorize use of this product according 
+to the NCP.
+0
+15.",NCP,primary,openai,gpt-5,1746,189
+82,EPA-HQ-OPA-2006-0090,proposed,0,True,"The text appears within an amendatory block adding § 300.970 to subpart J to read as follows, making it new binding regulatory text.",simple,none,300,300.970(a),The EPA Administrator,may,permissive,remove,your product from the Schedule,False,True,"for reasons including, but not limited to: (1) misleading, inaccurate, or incorrect statements in the product submission or public materials; (2) unnotified alterations to chemical components, concentrations, or use conditions as required by § 300.955(e); (3) failure to print the disclaimer required by § 300.965 on labels, advertisements, or technical literature; or (4) new or previously unknown relevant information concerning impacts or potential impacts to human health or the environment",add,"(a) The EPA Administrator may remove your product from the Schedule 
+for reasons including, but not limited to:
+    (1) Misleading, inaccurate, or incorrect statements within the 
+product submission to EPA or to any person or private or public entity 
+regarding the composition or use of the product to remove or control 
+oil discharges, including on labels, advertisements, or technical 
+literature; or
+    (2) Alterations to the chemical components, concentrations, or use 
+conditions of the product without proper notification to EPA as 
+required by Sec.  300.955(e); or
+    (3) Failure to print the disclaimer provided in Sec.  300.965 on 
+all labels, advertisements, or technical literature, or
+    (4) New or previously unknown relevant information concerning the 
+impacts or potential impacts of the product to human health or the 
+environment.",§ 300.955(e),primary,openai,gpt-5,2067,284
+83,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within CFR regulatory text that is being revised/updated in an amendatory context, making it binding text.",simple,none,300,300.965,You,may,permissive,appeal,the decision to remove your product from the Schedule,False,False,,revise,"(c) You may appeal the decision to remove your product from the 
+Schedule within 30 days of receipt of EPA's notification.",,primary,openai,gpt-5,1745,177
+84,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within regulatory text of § 300.965 and is part of an amendatory rulemaking block revising Appendix C to Part 300, making it binding.",compound,none,300,300.965,Your appeal,must,strong,contain,a clear and concise statement,False,False,,revise,"Your appeal 
+must contain a clear and concise statement with supporting facts and 
+technical analysis demonstrating why you believe EPA's decision was 
+incorrect.",,primary,openai,gpt-5,1754,289
+84,EPA-HQ-OPA-2006-0090,proposed,1,True,"The sentence appears within regulatory text of § 300.965 and is part of an amendatory rulemaking block revising Appendix C to Part 300, making it binding.",compound,none,300,300.965,Your appeal,must,strong,include,supporting facts and technical analysis demonstrating why you believe EPA's decision was incorrect,False,False,,revise,"Your appeal 
+must contain a clear and concise statement with supporting facts and 
+technical analysis demonstrating why you believe EPA's decision was 
+incorrect.",,primary,openai,gpt-5,0,0
+85,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within an amendatory block of regulatory text specifying apparatus requirements, making it new binding text.",compound,none,300,300.965,All equipment,must,strong,be maintained,per standard laboratory procedures,True,False,,add,"All equipment must be maintained and calibrated 
+per standard laboratory procedures.",,primary,openai,gpt-5,1797,263
+85,EPA-HQ-OPA-2006-0090,proposed,1,True,"The sentence appears within an amendatory block of regulatory text specifying apparatus requirements, making it new binding text.",compound,none,300,300.965,All equipment,must,strong,be calibrated,per standard laboratory procedures,True,False,,add,"All equipment must be maintained and calibrated 
+per standard laboratory procedures.",,primary,openai,gpt-5,0,0
+86,EPA-HQ-OPA-2006-0090,proposed,0,True,The sentence appears within binding regulatory text specifying apparatus requirements and functions as new binding text within an amendatory context.,simple,none,300,300.965,the orbital shaker table,must,strong,have an orbital diameter,approximately 1.0 inch (2.5 cm) ± 0.1 inch (0.25 cm),False,False,,revise,"The 
+orbital diameter must be approximately 1.0 inch (2.5 cm) +/- 0.1 
+inch (0.25 cm).",,primary,openai,gpt-5,1839,192
+87,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within regulatory amendatory text for § 300.965 (appendix procedural requirements), making it binding operational text.",simple,none,300,300.965,the user handling the glassware,may,permissive,use,waste DCM for rinsing the glassware to remove oil adhering to the sides of the flask,False,True,If the glassware has been used with oil before,revise,"If the glassware has been used with oil before, 
+rinse with DCM to remove as much of the oil adhering to the sides of 
+the flask as possible; waste DCM may be used.",,primary,openai,gpt-5,1836,204
+88,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within technical regulatory text that functions as amendatory binding requirements for § 300.965, specifying procedural conditions for dispersant listing; it prescribes a clear actor, duty, and timeframe.",simple,none,300,300.965,The lab,must,strong,certify,that a positive control was successfully conducted within a year of any testing submitted for a dispersant listing,False,False,,none,"The lab must certify that a 
+positive control was successfully conducted within a year of any 
+testing submitted for a dispersant listing.",,primary,openai,gpt-5,1804,202
+89,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within detailed procedural text that is part of amendatory regulatory method instructions, making it new binding text.",simple,none,300,300.965,the operator preparing the baffled flask,must not,strong,cause,any oil or dispersant to splash on the flask walls,False,False,,revise,"Avoid any oil or dispersant 
+splashing on the flask walls, as it may reduce efficacy or cause 
+errors in the calculated results.",,primary,openai,gpt-5,1813,182
+91,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within procedural text that is part of amendatory regulatory language being added/revised, making it binding instructional text.",simple,none,300,300.965,the analyst,must not,strong,pull,any emulsion phase into the DCM extract,False,False,,revise,"Avoid pulling any emulsion phase into the DCM 
+extract as it may cloud the DCM-extract leading to error.",,primary,openai,gpt-5,1789,177
+92,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within procedural instructions of CFR amendatory text, which constitutes new binding regulatory text.",simple,none,300,300.965,the person performing the extraction,must not,strong,pull,any emulsion phase into the DCM extract,False,False,,revise,"Avoid pulling any emulsion phase into the DCM 
+extract as it may cloud the DCM extract.",,primary,openai,gpt-5,1792,174
+93,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within procedural amendatory text for § 300.965, making it new binding regulatory language despite the permissive modal.",simple,none,300,300.965,handlers of IFO 120 samples,may,permissive,dilute,IFO 120 samples when dispersed chemically due to high absorbance properties,False,True,when dispersed chemically and exhibiting high absorbance properties,revise,"IFO 120 samples may require dilution when 
+dispersed chemically because of their high absorbance properties.",,primary,openai,gpt-5,1793,200
+94,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within procedural instructions in an amendatory block of CFR text, making it binding regulatory text.",compound,none,300,300.965,Glass-stoppered mixing cylinders,may,permissive,be used,for short-term storage,True,False,,remove,"Glass-
+stoppered mixing cylinders may be used for short-term storage or 
+prior to bringing the extracts up to volume.",,primary,openai,gpt-5,1795,279
+94,EPA-HQ-OPA-2006-0090,proposed,1,True,"The sentence appears within procedural instructions in an amendatory block of CFR text, making it binding regulatory text.",compound,none,300,300.965,Glass-stoppered mixing cylinders,may,permissive,be used,prior to bringing the extracts up to volume,True,False,,remove,"Glass-
+stoppered mixing cylinders may be used for short-term storage or 
+prior to bringing the extracts up to volume.",,primary,openai,gpt-5,0,0
+95,EPA-HQ-OPA-2006-0090,proposed,0,True,The sentence appears within regulatory text of § 300.965 detailing procedures and functions as new binding text within an amendatory context.,simple,none,300,300.965,users of the spectrophotometer,may,permissive,use,"the older method of only measuring at 340 nm, 370 nm, and 400 nm",False,True,If the wavelengths must be manually set on the spectrophotometer,none,"2.7.4.3 If the wavelengths must be manually set on the 
+spectrophotometer, the older method of only measuring at 340 [lgr], 
+370 [lgr], and 400 [lgr] may be used.",,primary,openai,gpt-5,1852,206
+96,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within regulatory procedural text in an amendatory block, creating new binding requirements.",simple,none,300,300.965,the source of the problem,must,strong,be corrected,before analysis of the sample extracts begins,True,True,If any of the standard oil extracts fails to satisfy the initial-stability criterion,revise,"If any 
+of the standard oil extracts fails to satisfy the initial-stability 
+criterion, the source of the problem (e.g., preparation protocol for 
+the oil standards, spectrophotometer stability, etc.) must be 
+corrected before analysis of the sample extracts begins.",,primary,openai,gpt-5,1875,186
+98,EPA-HQ-OPA-2006-0090,proposed,0,True,The sentence appears within regulatory QC procedures text that functions as binding requirements in the CFR amendatory content.,simple,none,300,300.965,the absorbance values for the duplicates,must,strong,agree within,±5% of their mean value,False,False,,none,"The absorbance values for the 
+duplicates must agree within <plus-minus> 5% of their mean value.",,primary,openai,gpt-5,1704,174
+99,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within regulatory QC procedure text in an amendatory block for § 300.965, making it new binding text.",simple,none,300,300.965,Oil concentrations in method blanks,must,strong,be less than,detectable limits,False,False,,revise,"Oil concentrations in method blanks must be less 
+than detectable limits.",,primary,openai,gpt-5,1719,176
+100,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within amendatory regulatory text specifying QC procedures, constituting new binding requirements.",simple,none,300,300.965,the spectrophotometer,must,strong,meet,an instrument stability calibration criterion using the oil standards,False,True,Before analyzing samples,revise,"Before analyzing samples, the 
+spectrophotometer must meet an instrument stability calibration 
+criterion using the oil standards.",,primary,openai,gpt-5,1705,175
+101,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within amendatory regulatory text (procedural appendix section with prescriptive test methods), making it binding even though phrased permissively.",simple,none,300,300.965,test operators,may,permissive,conduct,preliminary rangefinder tests using a series of logarithmic concentrations to determine the appropriate exposure concentration range for LC50 values and 95% confidence intervals,False,False,,revise,"Preliminary rangefinder tests may 
+be necessary using a series of logarithmic concentrations (e.g. 0.1, 
+1, 10, 100 [mu]l dispersant product/L or mg TPH/L) to determine the 
+appropriate exposure concentration range necessary to determine 
+LC<INF>50</INF> values and 95% confidence intervals.",,primary,openai,gpt-5,1842,202
+102,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within regulatory test method text in an amendatory context and prescribes a prohibition using “must not,” making it new binding regulatory language.",simple,none,300,300.965,the highest test concentration,must not,strong,exceed,the dispersant's self-dispersibility limit,False,True,when testing only the dispersant product,revise,"Note 
+that when testing only the dispersant product, the highest test 
+concentration must not exceed the dispersant's self-dispersibility 
+limit.",,primary,openai,gpt-5,1789,192
+103,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within detailed procedural text in a CFR amendatory block for § 300.965, making it new binding regulatory language.",simple,none,300,300.965,testers,must,strong,perform,separate toxicity tests with a reference toxicant for each species tested,True,False,,revise,"Separate toxicity tests must be 
+performed with a reference toxicant for each species tested.",,primary,openai,gpt-5,1740,182
+104,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within regulatory test procedure text that is part of amendatory regulatory language, making it binding.",simple,none,300,300.965,test operators,must,strong,record,mortality,True,False,,revise,"Mortality must be recorded at 
+each 24 hour period of each test.",,primary,openai,gpt-5,1758,165
+105,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within regulatory test method text in a CFR section being amended, making it binding amendatory language.",compound,none,300,300.965,each test performed,must,strong,ensure survival of control animals is greater than 90 percent,None,False,False,,revise,"For each test performed, survival of 
+control animals must be >90% and test results must allow 
+determination of statistically valid LC<INF>50</INF> and 95% 
+confidence interval values except in cases where the LC<INF>50</INF> 
+is >1000 [mu]l/L or is determined to be greater than the limits of 
+water solubility of dispersibility.",,primary,openai,gpt-5,1906,308
+105,EPA-HQ-OPA-2006-0090,proposed,1,True,"The sentence appears within regulatory test method text in a CFR section being amended, making it binding amendatory language.",compound,none,300,300.965,each test performed,must,strong,allow determination of statistically valid LC50 and 95 percent confidence interval values,None,False,True,except when the LC50 is greater than 1000 µl/L or greater than the limits of water solubility or dispersibility,revise,"For each test performed, survival of 
+control animals must be >90% and test results must allow 
+determination of statistically valid LC<INF>50</INF> and 95% 
+confidence interval values except in cases where the LC<INF>50</INF> 
+is >1000 [mu]l/L or is determined to be greater than the limits of 
+water solubility of dispersibility.",,primary,openai,gpt-5,0,0
+106,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within prescriptive test procedures in an amendatory-style appendix section, creating new binding text that requires a calculation at a specific time.",simple,none,300,300.965,the tester,must,strong,calculate,the IC50 and the lower and upper 95% confidence intervals (LCI95 and ULCI95) for the concentration of dispersant causing inhibition of development in 50% of exposed embryos,True,False,,revise,"The concentration of dispersant causing 
+inhibition of development in 50% of exposed embryos 
+(IC<INF>50</INF>) with the lower and upper 95% confidence intervals 
+(LCI<INF>95</INF> and ULCI<INF>95</INF>) must be calculated at the 
+end of the exposure period.",,primary,openai,gpt-5,1870,211
+107,EPA-HQ-OPA-2006-0090,proposed,0,True,"The text appears within regulatory method requirements in CFR amendatory/binding text specifying test acceptability criteria, including explicit must statements.",compound,none,300,300.965,the control treatment for each species,must,strong,have survival,≥ 80% survival,False,False,,none,"Requirements of the assay are: (i) 
+>=80% survival in the control treatment for each species, (ii) dry 
+weights must meet the specific requirements as stipulated in Method 
+1006.0 for Menidia beryllina and Method 1007.0 for Americamysis 
+bahia, (iii) egg production must occur in 50% of female Americamysis 
+bahia in the replicate control treatments.",,primary,openai,gpt-5,1917,411
+107,EPA-HQ-OPA-2006-0090,proposed,1,True,"The text appears within regulatory method requirements in CFR amendatory/binding text specifying test acceptability criteria, including explicit must statements.",compound,none,300,300.965,dry weights,must,strong,meet,the specific requirements stipulated in Method 1006.0 for Menidia beryllina and Method 1007.0 for Americamysis bahia,False,False,,none,"Requirements of the assay are: (i) 
+>=80% survival in the control treatment for each species, (ii) dry 
+weights must meet the specific requirements as stipulated in Method 
+1006.0 for Menidia beryllina and Method 1007.0 for Americamysis 
+bahia, (iii) egg production must occur in 50% of female Americamysis 
+bahia in the replicate control treatments.",,primary,openai,gpt-5,0,0
+107,EPA-HQ-OPA-2006-0090,proposed,2,True,"The text appears within regulatory method requirements in CFR amendatory/binding text specifying test acceptability criteria, including explicit must statements.",compound,none,300,300.965,the replicate control treatments for Americamysis bahia,must,strong,have egg production occur,in 50% of female Americamysis bahia,False,False,,none,"Requirements of the assay are: (i) 
+>=80% survival in the control treatment for each species, (ii) dry 
+weights must meet the specific requirements as stipulated in Method 
+1006.0 for Menidia beryllina and Method 1007.0 for Americamysis 
+bahia, (iii) egg production must occur in 50% of female Americamysis 
+bahia in the replicate control treatments.",,primary,openai,gpt-5,0,0
+108,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within regulatory text of a CFR section as part of an amendatory block listing reporting requirements, making it new binding text.",simple,none,300,300.965,The laboratory,must,strong,include,"for each toxicity test report, all applicable information, data, and analyses as specified in section 3.8",False,False,,revise,"The laboratory must include, for each 
+toxicity test report, all applicable information, data and analyses 
+as follows:
+    3.8.1 Test Objective:",,primary,openai,gpt-5,1793,191
+109,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within amendatory regulatory text specifying test conditions in a CFR table, making it new binding text.",simple,none,300,300.965,Test temperatures,must not,strong,deviate,by more than 3 °C during the test (maximum minus minimum temperature),False,False,,revise,"[deg]C. Test temperatures must not deviate (maximum minus minimum      15 <plus-minus> 1
+                                                           temperature) by for than 3 [deg]C during the test.",,primary,openai,gpt-5,1655,182
+110,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within amendatory regulatory text detailing procedures, making it binding under the amendatory-block rule.",simple,none,300,300.965,test operators,may,permissive,conduct,preliminary rangefinder tests using a series of logarithmic concentrations to determine the appropriate exposure concentration range necessary to determine LC50 values and 95% confidence intervals,False,False,,revise,"Preliminary rangefinder tests may 
+be necessary using a series of logarithmic concentrations (e.g. 0.1, 
+1, 10, 100 [micro]l test product/L) to determine the appropriate 
+exposure concentration range necessary to determine LC<INF>50</INF> 
+values and 95% confidence intervals.",,primary,openai,gpt-5,1844,196
+111,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within binding regulatory test method text in § 300.965 as part of an amendatory block, making it new binding text.",simple,none,300,300.965,test operators,must,strong,perform,separate toxicity tests with a reference toxicant for each species tested,False,False,,revise,"Separate toxicity tests must be 
+performed with a reference toxicant for each species tested.",,primary,openai,gpt-5,1745,184
+112,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within amendatory regulatory text prescribing test procedures, making it binding under the amendatory-block rule.",simple,none,300,300.965,test operators,must,strong,record,mortality,True,False,,add,"Mortality must be recorded at each 24 hour 
+period of each test.",,primary,openai,gpt-5,1768,165
+113,EPA-HQ-OPA-2006-0090,proposed,0,True,The sentence is regulatory test-acceptability criteria within CFR text and appears as binding test method requirements; it is not preamble or a mere definition.,compound,none,300,300.965,control animals,must,strong,have survival,> 90%,False,False,,none,"For each test performed, survival of 
+control animals must be > 90% and test results must allow 
+determination of statistically valid LC<INF>50</INF> and 95% 
+confidence interval values except in cases where the LC<INF>50</INF> 
+is >1000 [micro]l/L or is determined to be greater than the limits 
+of water solubility or dispersibility.",,primary,openai,gpt-5,1912,305
+113,EPA-HQ-OPA-2006-0090,proposed,1,True,The sentence is regulatory test-acceptability criteria within CFR text and appears as binding test method requirements; it is not preamble or a mere definition.,compound,none,300,300.965,test results,must,strong,allow determination,statistically valid LC50 and 95% confidence interval values,False,True,except when the LC50 is > 1000 µl/L or is greater than the limits of water solubility or dispersibility,none,"For each test performed, survival of 
+control animals must be > 90% and test results must allow 
+determination of statistically valid LC<INF>50</INF> and 95% 
+confidence interval values except in cases where the LC<INF>50</INF> 
+is >1000 [micro]l/L or is determined to be greater than the limits 
+of water solubility or dispersibility.",,primary,openai,gpt-5,0,0
+114,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within regulatory test method text in an amendatory block, making it new binding text.",simple,none,300,300.965,test operators,must,strong,record,mortality at each 24-hour period of each test,True,False,,remove,"Mortality must be recorded at each 24 hour 
+period of each test.",,primary,openai,gpt-5,1747,172
+115,EPA-HQ-OPA-2006-0090,proposed,0,True,"The language appears within regulatory text that is part of an amendatory block for § 300.965 and imposes test acceptability criteria using “must,” creating new binding requirements.",compound,none,300,300.965,each test,must,strong,have,survival of control animals greater than 90 percent,False,False,,revise,"For each test performed, survival of 
+control animals must be > 90% and test results must allow 
+determination of statistically valid LC<INF>50</INF> and 95% 
+confidence interval values except in cases where the LC<INF>50</INF> 
+is >1000 [micro]l/L or is determined to be greater than the limits 
+of water solubility of dispersibility.",,primary,openai,gpt-5,1886,320
+115,EPA-HQ-OPA-2006-0090,proposed,1,True,"The language appears within regulatory text that is part of an amendatory block for § 300.965 and imposes test acceptability criteria using “must,” creating new binding requirements.",compound,none,300,300.965,each test,must,strong,allow determination,statistically valid LC50 and 95 percent confidence interval values,False,True,except when the LC50 is greater than 1000 µl/L or greater than the limits of water solubility or dispersibility,revise,"For each test performed, survival of 
+control animals must be > 90% and test results must allow 
+determination of statistically valid LC<INF>50</INF> and 95% 
+confidence interval values except in cases where the LC<INF>50</INF> 
+is >1000 [micro]l/L or is determined to be greater than the limits 
+of water solubility of dispersibility.",,primary,openai,gpt-5,0,0
+116,EPA-HQ-OPA-2006-0090,proposed,0,True,The text appears within CFR regulatory text specifying requirements (laboratory reporting content) and functions as binding operational requirements within the section.,simple,none,300,300.965,The laboratory,must,strong,include,"for each toxicity test report, all applicable information, data, and analyses as specified in the listed subsections",False,False,,none,"A summary of required test 
+conditions is provided in Table 9 of this Appendix.
+
+4.7 Laboratory Report
+
+    The laboratory must include, for each toxicity test report, all 
+applicable information, data and analyses as follows:
+    4.7.1 Test Objective:",,primary,openai,gpt-5,1864,187
+117,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within a CFR regulatory table as binding performance criteria in an amendatory context, making it new binding text.",simple,none,300,300.965,test temperatures,must not,strong,deviate,by more than 3 °C (maximum minus minimum) during the test,False,False,,remove,"[deg]C. Test temperatures must not deviate (maximum minus minimum temperature) by more than 3 [deg]C
+                                                                                     during the test.",,primary,openai,gpt-5,1644,183
+118,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within amendatory regulatory text adding protocol requirements, making it binding even though it is permissive.",simple,none,300,300.965,The manufacturer,may,permissive,test,"either freshwater, saltwater, or both depending on the product's intended use",False,True,depending on the product's intended use,revise,"The manufacturer may test either 
+one or both freshwater or saltwater, depending on the product's 
+intended use.",,primary,openai,gpt-5,1780,188
+119,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within binding regulatory text of § 300.965 detailing test requirements, functioning as a performance criterion in an amendatory/binding section.",simple,none,300,300.965,the day 28 GC/MS results from the killed control,must not,strong,be less than,90% of the day 0 results,False,False,,none,"The day 28 GC/MS results from the killed control 
+must not be less than 90% of the day 0 results.",,primary,openai,gpt-5,1776,191
+120,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within regulatory method text under § 300.965 as part of binding procedural requirements, functioning as new/operative regulatory language.",compound,none,300,300.965,All equipment,must,strong,be maintained,per standard laboratory procedures,True,False,,none,"All equipment must be maintained and calibrated per 
+standard laboratory procedures.",,primary,openai,gpt-5,1812,270
+120,EPA-HQ-OPA-2006-0090,proposed,1,True,"The sentence appears within regulatory method text under § 300.965 as part of binding procedural requirements, functioning as new/operative regulatory language.",compound,none,300,300.965,All equipment,must,strong,be calibrated,per standard laboratory procedures,True,False,,none,"All equipment must be maintained and calibrated per 
+standard laboratory procedures.",,primary,openai,gpt-5,0,0
+121,EPA-HQ-OPA-2006-0090,proposed,0,True,The sentence appears in regulatory text within a CFR amendatory block context and prescribes permissive conduct with a clear actor and condition.,simple,none,300,300.965,the manufacturer,may,permissive,add,nutrients,False,True,If a bioremediation agent contains living microorganisms but not nutrients (or limiting concentrations of nutrients),none,"If a bioremediation agent contains living microorganisms 
+but not nutrients (or limiting concentrations of nutrients), then 
+nutrients may be added by the manufacturer.",,primary,openai,gpt-5,1691,191
+122,EPA-HQ-OPA-2006-0090,proposed,0,True,The sentence appears within CFR regulatory text prescribing technical limits and functions as binding operative language in the amendatory context.,simple,none,300,300.965,the total concentration of the nutrients added to the bioremediation agent,must not,strong,exceed,the final concentrations listed in Table 11 of this Appendix,False,True,"If a bioremediation agent contains living microorganisms but not nutrients (or limiting concentrations of nutrients), and nutrients are added by the manufacturer",none,"However, the total 
+concentration of the nutrients added to the bioremediation agent 
+must not exceed the final concentrations listed in Table 11 of this 
+Appendix.",,primary,openai,gpt-5,1694,215
+123,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within CFR amendatory text setting out binding procedural requirements, making it new binding text.",simple,none,300,300.965,the product manufacturer,must,strong,submit,the specific composition and concentration used in the efficacy testing,True,True,If nutrients are supplied by the product manufacturer,revise,"0.075
+------------------------------------------------------------------------
+
+    If nutrients are supplied by the product manufacturer, the 
+specific composition and concentration used in the efficacy testing 
+must be submitted.",,primary,openai,gpt-5,1693,181
+124,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within an amendatory block specifying technical requirements (part of prescriptive appendix text), making it binding regulatory text.",simple,none,300,300.965,nutrients,may,permissive,be added,to a bioremediation agent,True,True,If a bioremediation agent does not include nutrients,add,"If a bioremediation agent does not include nutrients, 
+then nutrients may be added.",,primary,openai,gpt-5,1662,188
+125,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within amendatory regulatory text introducing Appendix criteria, making it new binding text.",simple,none,300,300.965,the total concentration of the nutrients added to the bioremediation agent,must not,strong,exceed,the final concentrations provided in Table 14 of this Appendix,False,True,"If a bioremediation agent does not include nutrients, then nutrients may be added",add,"However, the total concentration of the 
+nutrients added to the bioremediation agent must not exceed the 
+final concentrations provided in Table 14 of this Appendix.",,primary,openai,gpt-5,1717,201
+126,EPA-HQ-OPA-2006-0090,proposed,0,True,The sentence appears within CFR regulatory text as part of a procedural section and functions as new binding text within an amendatory context.,simple,none,300,300.965,the product vendor,must,strong,submit,the specific composition and concentration used in the efficacy testing,True,True,If nutrients are supplied by the product vendor,remove,"If nutrients are supplied by the product vendor, the specific 
+composition and concentration used in the efficacy testing must be 
+submitted.",,primary,openai,gpt-5,1746,185
+127,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within an amendatory block of CFR text specifying testing/reporting procedures, making it new binding regulatory language.",simple,none,300,300.965,The laboratory,must,strong,report,"positive control test results conducted within the year of any test results for bioremediation products, for one or both types of water as applicable",False,False,,revise,"* The laboratory must report positive control test results conducted
+  within the year of any test results for bioremediation products, for
+  one or both types of water as applicable.",,primary,openai,gpt-5,1773,194
+128,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within procedural text of an amendatory block revising CFR part 300, making it binding regulatory text.",simple,none,300,300.965,ANS521,may,permissive,be warmed in a hot water bath,to facilitate its flow,True,False,,remove,"ANS521 may be 
+previously warmed in a hot water bath to facilitate its flow.",,primary,openai,gpt-5,1739,177
+129,EPA-HQ-OPA-2006-0090,proposed,0,True,"Text appears within regulatory test procedure instructions in CFR amendatory text, prescribing how negative killed control flasks must be prepared.",compound,none,300,300.965,Negative killed control flasks for all products,shall,strong,contain,"exposure water, oil, product, the EPA culture for products not containing a living culture, and the sodium azide sterilant at a final concentration of 0.5 g/L",False,False,,revise,"5.4.7 Negative killed control flasks for all products shall 
+contain exposure water, oil, product, the EPA culture for products 
+not containing a living culture, and the sodium azide sterilant at a 
+final concentration of 0.5 g/L. Add the sodium azide sterilant prior 
+to adding any product or EPA culture.",,primary,openai,gpt-5,1879,321
+129,EPA-HQ-OPA-2006-0090,proposed,1,True,"Text appears within regulatory test procedure instructions in CFR amendatory text, prescribing how negative killed control flasks must be prepared.",compound,none,300,300.965,Preparers of negative killed control flasks,must,strong,add,the sodium azide sterilant prior to adding any product or EPA culture,False,False,,revise,"5.4.7 Negative killed control flasks for all products shall 
+contain exposure water, oil, product, the EPA culture for products 
+not containing a living culture, and the sodium azide sterilant at a 
+final concentration of 0.5 g/L. Add the sodium azide sterilant prior 
+to adding any product or EPA culture.",,primary,openai,gpt-5,0,0
+130,EPA-HQ-OPA-2006-0090,proposed,0,True,The sentence appears within procedural/regulatory test method text in a CFR section and functions as binding instruction within an amendatory block.,simple,none,300,300.965,A product that contains its own nutrients,must not,strong,be amended,with nutrients,True,True,unless the product contains insufficient nutrients,revise,"A 
+product that contains its own nutrients must not be amended with 
+nutrients, unless the product contains insufficient nutrients.",,primary,openai,gpt-5,1763,182
+131,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within prescriptive procedural text of an appendix/section being set out as regulatory requirements in an amendatory context, making it binding.",compound,none,300,300.965,the manufacturer,must,strong,report,any nutrient supplements to a product,False,False,,revise,"Any nutrient supplements to a product 
+must be reported and must not exceed the concentration limits in 
+Table 10 (for seawater) and 13 (for freshwater) of this Appendix, as 
+applicable.",,primary,openai,gpt-5,1793,297
+131,EPA-HQ-OPA-2006-0090,proposed,1,True,"The sentence appears within prescriptive procedural text of an appendix/section being set out as regulatory requirements in an amendatory context, making it binding.",compound,none,300,300.965,the manufacturer,must not,strong,exceed,"the concentration limits in Table 10 (seawater) and Table 13 (freshwater) of this appendix, as applicable",False,False,,revise,"Any nutrient supplements to a product 
+must be reported and must not exceed the concentration limits in 
+Table 10 (for seawater) and 13 (for freshwater) of this Appendix, as 
+applicable.",,primary,openai,gpt-5,0,0
+132,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within regulatory text of an appendix in a CFR amendatory block, making it binding new text.",simple,none,300,300.965,Critical compounds in the check standards and in the oil standards,must,strong,fall within,75–125% of expected values for the analysis to be valid,False,False,,revise,"Critical compounds in the check standards and in the oil 
+standards must fall within 75-125% of expected values for the 
+analysis to be valid.",,primary,openai,gpt-5,1772,187
+133,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within technical regulatory text in an amendatory context adding or revising Appendix procedures, making it binding.",simple,none,300,300.965,measured surrogate concentrations,must,strong,fall within,75–125% of expected values,False,False,,revise,"The measured surrogate 
+concentrations must fall within 75-125% of expected values.",,primary,openai,gpt-5,1727,175
+134,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within CFR regulatory text (a procedural/table requirement) as binding operational criteria, constituting binding text within the section.",simple,none,300,300.965,DFTPP check standard,must,strong,pass,all DFTPP criteria,False,False,,none,"DCM.............  GC/MS hydrocarbon   DFTPP Check        Once per           Must pass all      If any criteria
+                   analysis.",,primary,openai,gpt-5,1626,175
+135,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within binding regulatory text of a CFR section describing test requirements, functioning as an amendatory/binding provision for the positive control criteria.",simple,none,300,300.965,the average concentration of the biomarker hopane in the positive control,must not,strong,differ,from the average concentration at day 0 by more than 12%,False,False,,none,"The average concentration of the biomarker 
+hopane at day 28 must not differ from the average concentration at 
+day 0 by more than 12% in the positive control.",,primary,openai,gpt-5,1779,196
+136,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within regulatory text of an amendatory block for CFR Part 300 and prescribes a conditional mandatory action, making it binding.",simple,none,300,300.965,the procedure,must,strong,be repeated,None,True,True,If the conditions for the positive control are not met,remove,"If the conditions 
+for the positive control are not met, the entire procedure must be 
+repeated.",,primary,openai,gpt-5,1749,180
+137,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within amendatory regulatory text specifying reporting requirements, making it new binding text.",simple,none,300,300.965,The summary of findings from a product test,must,strong,include,the data listings for each analyte that was analyzed (all individual alkanes and aromatics in the list of required analytes),False,False,,revise,"The summary of findings from a product 
+test must include the data listings for each analyte that was 
+analyzed (i.e., all individual alkanes and aromatics in the list of 
+required analytes).",,primary,openai,gpt-5,1864,192
+138,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within regulatory method text in an amendatory block, making it new binding text.",simple,none,300,300.965,the GC/MS chromatogram of the internal standard solution in DCM,must,strong,show,only peaks corresponding to the internal standards,False,False,,revise,"The 
+only peaks corresponding to the internal standards must appear.",,primary,openai,gpt-5,1816,179
+139,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within amendatory regulatory text (procedural/technical requirements in an SOP section) and uses mandatory language (“must”), making it new binding text.",simple,none,300,300.965,The RSD of the RRFs for all analytes,must,strong,be,25% or less according to EPA Method 525.2,False,False,,revise,"The RSD of the RRFs for all analytes must be 25% or 
+less according to EPA Method 525.2.
+    5.10.4 SOP 4.",,primary,openai,gpt-5,1863,196
+140,EPA-HQ-OPA-2006-0090,proposed,0,True,The sentence appears within regulatory text that functions as binding procedural requirements in an amendatory context for § 300.965.,compound,none,300,300.965,ion grouping,must,strong,remain constant,the number of ions in each ion group,False,False,,none,"The number of ions in each ion group must be 
+constant, yielding the same scan rate for each group.",,primary,openai,gpt-5,1745,272
+140,EPA-HQ-OPA-2006-0090,proposed,1,True,The sentence appears within regulatory text that functions as binding procedural requirements in an amendatory context for § 300.965.,compound,none,300,300.965,ion grouping,must,strong,yield,the same scan rate for each group,False,False,,none,"The number of ions in each ion group must be 
+constant, yielding the same scan rate for each group.",,primary,openai,gpt-5,0,0
+141,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within prescriptive procedural text in an amendatory block for § 300.965, making it new binding regulatory language, even though it is permissive.",simple,none,300,300.965,a small piece of muffled glass wool,may,permissive,be inserted,to protect the column,True,False,,revise,"A small piece of muffled 
+glass wool may be inserted to protect the column.",,primary,openai,gpt-5,1780,189
+142,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within procedural regulatory text in an amendatory context and prescribes a quantitative criterion, making it new binding text.",simple,none,300,300.965,"the value reported for the relative abundance of water (m/z 18), nitrogen (m/z 28), oxygen (m/z 32), or carbon dioxide (m/z 44)",shall,strong,be less than,5% of the base peak,False,True,for the system to be considered leak free,revise,"The value reported for 
+the relative abundance of water (m/z 18), nitrogen (m/z 28), oxygen 
+(m/z 32), or carbon dioxide (m/z 44) shall be less than 5% of the 
+base peak for the system to be considered leak free.",,primary,openai,gpt-5,1874,218
+143,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within prescriptive amendatory text detailing procedures and includes a mandatory modal (“must”), making it binding.",simple,none,300,300.965,the Autotune report file,must,strong,be run,at least once per month,True,False,,none,"The Autotune report file is referenced by 
+the instrument when performing an air/water check and thus must be 
+run at least once per month.",,primary,openai,gpt-5,1870,174
+144,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within binding CFR regulatory text (procedural/tuning requirements) in an amendatory context, making it new binding text.",compound,none,300,300.965,Tune reports,must,strong,meet,"criteria: symmetrical peaks; mass assignments within ±0.2 amu from 69, 219, and 502; peak widths within 0.5 ± 0.1 amu; specified relative abundances; isotope relative abundances; and very small air and water peaks consistent with historical values",False,False,,revise,"Tune reports must meet the following criteria:
+    5.10.4.3.2.1 Symmetrical peaks;
+    5.10.4.3.2.2 Mass assignments within <plus-minus> 0.2 amu's from 
+69, 219, and 502;
+    5.10.4.3.2.3 Peak widths within 0.5 <plus-minus> 0.1 amu's;
+    5.10.4.3.2.4",,primary,openai,gpt-5,1997,230
+145,EPA-HQ-OPA-2006-0090,proposed,0,True,"The text appears within binding regulatory instructions that specify criteria tune reports must meet, indicating amendatory binding text.",compound,none,300,300.965,tune reports,must,strong,meet the criterion that the relative abundance is 100% for ion 69,ion 69 relative abundance = 100%,False,False,,none,"Relative abundance is 100% for ion 69, at least 35% 
+for ion 219, and at least 1% for ion 502;
+    5.10.4.3.2.5 Relative abundances for isotope masses 70, 220, and 
+503 <plus-minus> 0.2 amu's are 0.5-1.5%, 2-8%, and 5-15%, 
+respectively; and
+    5.10.4.3.2.6 Air and water peaks at m/z = 18, 28, 32, and 44 
+amu's must be very small and consistent with historical values.",,primary,openai,gpt-5,2049,711
+145,EPA-HQ-OPA-2006-0090,proposed,1,True,"The text appears within binding regulatory instructions that specify criteria tune reports must meet, indicating amendatory binding text.",compound,none,300,300.965,tune reports,must,strong,meet the criterion that the relative abundance is at least 35% for ion 219,ion 219 relative abundance ≥ 35%,False,False,,none,"Relative abundance is 100% for ion 69, at least 35% 
+for ion 219, and at least 1% for ion 502;
+    5.10.4.3.2.5 Relative abundances for isotope masses 70, 220, and 
+503 <plus-minus> 0.2 amu's are 0.5-1.5%, 2-8%, and 5-15%, 
+respectively; and
+    5.10.4.3.2.6 Air and water peaks at m/z = 18, 28, 32, and 44 
+amu's must be very small and consistent with historical values.",,primary,openai,gpt-5,0,0
+145,EPA-HQ-OPA-2006-0090,proposed,2,True,"The text appears within binding regulatory instructions that specify criteria tune reports must meet, indicating amendatory binding text.",compound,none,300,300.965,tune reports,must,strong,meet the criterion that the relative abundance is at least 1% for ion 502,ion 502 relative abundance ≥ 1%,False,False,,none,"Relative abundance is 100% for ion 69, at least 35% 
+for ion 219, and at least 1% for ion 502;
+    5.10.4.3.2.5 Relative abundances for isotope masses 70, 220, and 
+503 <plus-minus> 0.2 amu's are 0.5-1.5%, 2-8%, and 5-15%, 
+respectively; and
+    5.10.4.3.2.6 Air and water peaks at m/z = 18, 28, 32, and 44 
+amu's must be very small and consistent with historical values.",,primary,openai,gpt-5,0,0
+145,EPA-HQ-OPA-2006-0090,proposed,3,True,"The text appears within binding regulatory instructions that specify criteria tune reports must meet, indicating amendatory binding text.",compound,none,300,300.965,tune reports,must,strong,"meet the criterion that relative abundances for isotope masses 70, 220, and 503 ± 0.2 amu are 0.5–1.5%, 2–8%, and 5–15%, respectively",isotope mass 70: 0.5–1.5%; mass 220: 2–8%; mass 503: 5–15% (±0.2 amu),False,False,,none,"Relative abundance is 100% for ion 69, at least 35% 
+for ion 219, and at least 1% for ion 502;
+    5.10.4.3.2.5 Relative abundances for isotope masses 70, 220, and 
+503 <plus-minus> 0.2 amu's are 0.5-1.5%, 2-8%, and 5-15%, 
+respectively; and
+    5.10.4.3.2.6 Air and water peaks at m/z = 18, 28, 32, and 44 
+amu's must be very small and consistent with historical values.",,primary,openai,gpt-5,0,0
+145,EPA-HQ-OPA-2006-0090,proposed,4,True,"The text appears within binding regulatory instructions that specify criteria tune reports must meet, indicating amendatory binding text.",compound,none,300,300.965,"air and water peaks at m/z 18, 28, 32, and 44",must,strong,be very small and consistent with historical values,None,False,False,,none,"Relative abundance is 100% for ion 69, at least 35% 
+for ion 219, and at least 1% for ion 502;
+    5.10.4.3.2.5 Relative abundances for isotope masses 70, 220, and 
+503 <plus-minus> 0.2 amu's are 0.5-1.5%, 2-8%, and 5-15%, 
+respectively; and
+    5.10.4.3.2.6 Air and water peaks at m/z = 18, 28, 32, and 44 
+amu's must be very small and consistent with historical values.",,primary,openai,gpt-5,0,0
+146,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within regulatory procedural text that functions as binding operational requirements in the CFR section, constituting binding text rather than preamble or definition-only scope.",simple,none,300,300.965,the criteria identified in Table SOP 4.2 of this Appendix,must,strong,be met,before using the instrument for analysis,True,False,,none,"Each of the 
+criteria identified in Table SOP 4.2 of this Appendix must be met 
+before using the instrument for analysis:
+
+                                 Table SOP 4.3--Ion Abundance Criteria for DFTPP
+----------------------------------------------------------------------------------------------------------------
+                                           Relative to
+                Mass, M/z                      mass     Relative abundance criteria     Purpose of checkpoint
+----------------------------------------------------------------------------------------------------------------
+51.......................................          442  10-80% of the base peak....",,primary,openai,gpt-5,1849,190
+147,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within CFR amendatory text detailing procedural requirements in § 300.965, functioning as binding technical standard language in the amended appendix/section.",simple,none,300,300.965,the relative standard deviation (RSD) of the response factors (RRFs) for each compound,must,strong,be less than,25%,False,False,,revise,"The relative standard 
+deviation (RSD) of the RRFs for each compound must be less than 25%.",,primary,openai,gpt-5,1734,194
+148,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within amendatory regulatory text prescribing procedural requirements for calibration checks, making it binding.",simple,none,300,300.965,the relative response factor (RRF) for each compound in the check standard,must,strong,be within,25% of the average RRF obtained in the initial calibration,False,False,,revise,"The RRF for each compound in the 
+check standard must be within 25% of the average RRF obtained in the 
+initial calibration.",,primary,openai,gpt-5,1730,187
+149,EPA-HQ-OPA-2006-0090,proposed,0,True,The sentence appears within an amendatory block of CFR regulatory text specifying procedures; permissive language in amended text is binding regulatory text.,simple,none,300,300.965,users performing the analysis,may,permissive,use,the RRF of C3-naphthalene to calculate the concentrations of C3- and C4-naphthalenes,False,False,,revise,"For example, the RRF of C3-naphthalene may 
+be used to calculate the concentrations of C3- and C4-naphthalenes.",,primary,openai,gpt-5,1802,198
+150,EPA-HQ-OPA-2006-0090,proposed,0,True,The obligation appears within regulatory text setting out QA/QC requirements and functions as binding operational criteria; treated as part of an amendatory block for § 300.965.,compound,none,300,300.965,operators conducting sample analysis,must,strong,meet,the listed QA/QC criteria before any samples are analyzed,False,False,,revise,"The following criteria 
+must be met before any samples are analyzed:
+    5.10.5.1 Air/water check to verify the system is leak free.",,primary,openai,gpt-5,1766,296
+150,EPA-HQ-OPA-2006-0090,proposed,1,True,The obligation appears within regulatory text setting out QA/QC requirements and functions as binding operational criteria; treated as part of an amendatory block for § 300.965.,compound,none,300,300.965,operators,must,strong,perform air/water check,to verify the system is leak free,False,True,before any samples are analyzed,revise,"The following criteria 
+must be met before any samples are analyzed:
+    5.10.5.1 Air/water check to verify the system is leak free.",,primary,openai,gpt-5,0,0
+151,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within an amendatory block setting out QC criteria that must be met before samples are analyzed, making it new binding text.",simple,none,300,300.965,Concentrations of the analytes in the control chart,must,strong,be no more than 25% different from,their historical averages,False,False,,revise,"Concentrations of the analytes in the control chart must 
+be no more than 25% different from their historical averages.",,primary,openai,gpt-5,1817,189
+152,EPA-HQ-OPA-2006-0090,proposed,0,True,The sentence appears within operative regulatory text specifying QA/QC criteria and functions as binding performance requirements; it is part of the codified method text rather than preamble or definition.,simple,none,300,300.965,Relative response factors for analytes in the check standards inserted between every 10 samples,must,strong,be no more than 25 percent different from the average relative response factor of those same analytes in the calibration curve,,False,False,,none,"5.10.5.6 Relative response factors for analytes in the check 
+standards inserted between every 10 samples must be no more than 25 
+percent different from the average RRF of those same analytes in the 
+calibration curve.",,primary,openai,gpt-5,1895,211
+153,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within amendatory regulatory text specifying technical criteria, making it new binding text.",simple,none,300,300.965,Peak shapes,must,strong,be,symmetrical,False,False,,revise,"Peak shapes must be symmetrical.
+
+5.11 References for Section 5
+
+(1) Haines, J.R., E.J. Kleiner, K.A. McClellan, K.M. Koran, E.L. 
+Holder, D.W. King, and A.D. Venosa. 2005.",,primary,openai,gpt-5,1836,162
+100101,EPA-HQ-OPA-2006-0090,proposed,0,True,"The sentence appears within CFR regulatory text for § 300.965 and uses binding modal language (“are required”), making it new binding text within the amendatory context.",compound,none,300,300.965,Test operators,are required to,strong,conduct replicates,six replicates of each oil and test dispersant at each temperature,False,False,,revise,"2.6.1 Six replicates of each oil and test dispersant are required at each temperature plus two additional tests of method blanks (artificial seawater without oil and dispersant), one at each temperature.",,safety_net_verified,openai,gpt-5,1718,310
+100101,EPA-HQ-OPA-2006-0090,proposed,1,True,"The sentence appears within CFR regulatory text for § 300.965 and uses binding modal language (“are required”), making it new binding text within the amendatory context.",compound,none,300,300.965,Test operators,are required to,strong,conduct method blank tests,"two additional tests of method blanks (artificial seawater without oil and dispersant), one at each temperature",False,False,,revise,"2.6.1 Six replicates of each oil and test dispersant are required at each temperature plus two additional tests of method blanks (artificial seawater without oil and dispersant), one at each temperature.",,safety_net_verified,openai,gpt-5,0,0

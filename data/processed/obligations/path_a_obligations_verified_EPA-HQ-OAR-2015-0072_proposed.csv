@@ -1,0 +1,1270 @@
+candidate_idx,docket_id,rule_type,split_idx,verified,verified_reason,complexity,recital_disposition,cfr_part,cfr_section,subject,modal,modal_strength,action,object,passive_voice,is_conditional,condition_text,amendatory_action,obligation_text,cross_reference,found_via,llm_provider,llm_model,in_tokens,out_tokens
+1,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within regulatory appendix text prescribing computational criteria, which functions as binding regulatory text.",simple,none,50,50.20,24-hour average concentration,shall,strong,be considered valid,if at least 75 percent of the hourly averages (18 hourly values) for the 24-hour period are available,True,True,"at least 75 percent of the hourly averages (i.e., 18 hourly values) for the 24-hour period are available",none,"A 24-hour average concentration 
+shall be considered valid if at least 75 percent of the hourly 
+averages (i.e., 18 hourly values) for the 24-hour period are 
+available.",,primary,openai,gpt-5,1790,212
+2,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence is part of binding regulatory text within a CFR section (technical computation rule) and functions as an operative requirement, making it binding even without an explicit amendatory header.",simple,none,50,50.20,the 24-hour average concentration,shall,strong,be computed,on the basis of the hours available using the number of available hours within the 24-hour period as the divisor,True,True,"In the event that fewer than all 24 hourly average concentrations are available (i.e., fewer than 24 but at least 18)",none,"In the event that fewer than all 24 hourly average 
+concentrations are available (i.e., fewer than 24 but at least 18), 
+the 24-hour average concentration shall be computed on the basis of 
+the hours available using the number of available hours within the 
+24-hour period as the divisor (e.g., the divisor is 19 if 19 hourly 
+values are available).",§ 50.6,primary,openai,gpt-5,1888,235
+3,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within binding CFR regulatory text (appendix computational rules) and uses mandatory modal 'shall', making it binding even without an explicit amendatory header.",compound,none,50,50.20,24-hour periods with seven or more missing hours,shall,strong,be considered,for computations in this appendix,True,True,"after substituting zero for all missing hourly concentrations, the resulting 24-hour average daily value exceeds the level of the 24-hour standard specified in § 50.6 after rounding to the nearest 10 µg/m3",none,"24-hour periods with seven or more missing 
+hours shall also be considered for computations in this appendix if, 
+after substituting zero for all missing hourly concentrations, the 
+resulting 24-hour average daily value exceeds the level of the 24-
+hour standard specified in Sec.  50.6 after rounding to the nearest 
+10 [mu]g/m\3\.
+* *",§ 50.6,primary,openai,gpt-5,1860,236
+4,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within regulatory text of an appendix section describing computational procedures, which functions as binding text even without an explicit amendatory header.",simple,none,50,50.6,All computations shown in this appendix,shall,strong,be implemented,on a site-level basis,True,False,,none,"* * *
+
+3.0 Computational Equations for the 24-Hour Standards
+
+    (a) All computations shown in this appendix shall be implemented 
+on a site-level basis.",,primary,openai,gpt-5,1761,178
+5,EPA-HQ-OAR-2015-0072,proposed,0,True,"The language appears within regulatory text prescribing computational procedures, functioning as binding amendatory text for Part 50 without being mere definition or preamble.",compound,none,50,50.6,Site level concentration data,shall,strong,be processed,as follows,True,False,,none,"Site level concentration data shall be 
+processed as follows:
+    (1) The default dataset for PM<INF>10</INF> mass concentrations 
+for a site shall consist of the measured concentrations recorded 
+from the designated primary monitor(s).",,primary,openai,gpt-5,1792,286
+5,EPA-HQ-OAR-2015-0072,proposed,1,True,"The language appears within regulatory text prescribing computational procedures, functioning as binding amendatory text for Part 50 without being mere definition or preamble.",compound,none,50,50.6,The default dataset for PM10 mass concentrations for a site,shall,strong,consist,of the measured concentrations recorded from the designated primary monitor(s),False,False,,none,"Site level concentration data shall be 
+processed as follows:
+    (1) The default dataset for PM<INF>10</INF> mass concentrations 
+for a site shall consist of the measured concentrations recorded 
+from the designated primary monitor(s).",,primary,openai,gpt-5,0,0
+6,EPA-HQ-OAR-2015-0072,proposed,0,True,"The text is part of binding regulatory calculation procedures within CFR appendix context, prescribing how data shall be treated.",simple,none,50,50.6,the collocated monitor value,shall,strong,be considered,part of the combined site data record,True,True,"If a daily value is not produced by the primary monitor for a particular day, but a value is available from a single collocated monitor",none,"(2) If a daily value is not produced by the primary monitor for 
+a particular day, but a value is available from a single collocated 
+monitor, then that collocated monitor value shall be considered part 
+of the combined site data record.",,primary,openai,gpt-5,1783,200
+7,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence is operative regulatory text within a CFR section prescribing data-processing steps, not preamble or pure definition, so it is binding.",simple,none,50,50.6,the monitoring agency,shall,strong,use,the average of the collocated monitor values as the daily value,False,True,If daily value data is available from two or more collocated monitors,none,"If daily value data is available 
+from two or more collocated monitors, the average of those 
+collocated values shall be used as the daily value.",,primary,openai,gpt-5,1738,194
+8,EPA-HQ-OAR-2015-0072,proposed,0,True,"The language appears within an amendatory block revising appendix L to part 50, making it new binding regulatory text.",simple,none,50,50.6,data from two nearby sites,may,permissive,be combined,into a single site data record for the purpose of calculating a valid design value,True,True,"In certain circumstances, including but not limited to site closures or relocations",revise,"The data record 
+resulting from this procedure is referred to as the ``combined site 
+data record.''
+    (b) In certain circumstances, including but not limited to site 
+closures or relocations, data from two nearby sites may be combined 
+into a single site data record for the purpose of calculating a 
+valid design value.",,primary,openai,gpt-5,1808,201
+9,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within amendatory text revising appendix L to part 50, making it new binding regulatory language.",simple,none,50,50.6,The appropriate Regional Administrator,may,permissive,approve,combinations of data from two nearby sites into a single site data record,False,True,"if the Regional Administrator determines that the measured concentrations do not differ substantially between the two sites, considering factors such as distance, spatial and temporal air quality patterns, local emissions and meteorology, jurisdictional boundaries, and terrain features",revise,"The appropriate Regional Administrator may 
+approve such combinations if the Regional Administrator determines 
+that the measured concentrations do not differ substantially between 
+the two sites, taking into consideration factors such as distance 
+between sites, spatial and temporal patterns in air quality, local 
+emissions and meteorology, jurisdictional boundaries, and terrain 
+features.",,primary,openai,gpt-5,1859,227
+10,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within an amendatory block revising appendix L to part 50, making it new binding text.",simple,none,50,50.App.L(7.3.4),The sampler,shall,strong,be configured,with one of the three alternative particle size separators described in this section,True,False,,revise,"The sampler shall be configured 
+with one of the three alternative particle size separators described 
+in this section.",,primary,openai,gpt-5,1792,185
+11,EPA-HQ-OAR-2015-0072,proposed,0,True,The sentence appears in regulatory text specifying how PM2.5 data must be used and functions as binding text for NAAQS comparisons.,simple,none,50,50.6,FRM and FEM measurements that are derived in accordance with part 58 of this chapter,shall,strong,be used,in comparisons with the PM2.5 NAAQS,True,False,,none,"Only those 
+FRM and FEM measurements that are derived in accordance with part 58 
+of this chapter (i.e., that are deemed ``suitable'') shall be used 
+in comparisons with the PM<INF>2.5</INF> NAAQS.",part 58,primary,openai,gpt-5,1875,198
+12,EPA-HQ-OAR-2015-0072,proposed,0,True,"The text appears within regulatory appendix/section language setting procedures and permissions, functioning as binding text despite no explicit amendatory header.",simple,none,50,50.6,data from two nearby sites,may,permissive,be combined,into a single site data record for the purpose of calculating a valid design value,True,True,"In certain circumstances, including but not limited to site closures or relocations",none,"In certain circumstances, including but not limited to site 
+closures or relocations, data from two nearby sites may be combined 
+into a single site data record for the purpose of calculating a 
+valid design value.",,primary,openai,gpt-5,1828,201
+13,EPA-HQ-OAR-2015-0072,proposed,0,True,"The text appears within regulatory appendix instructions under a CFR amendatory context and sets permissive authority for approvals, making it binding operative text.",simple,none,50,50.6,The appropriate Regional Administrator,may,permissive,approve,site combinations into a single site data record for calculating a valid design value,False,True,"if the Regional Administrator determines that measured concentrations do not differ substantially between the two sites, considering factors such as distance between sites, spatial and temporal air quality patterns, local emissions and meteorology, jurisdictional boundaries, and terrain features",none,"The appropriate Regional Administrator may 
+approve such site combinations if the Regional Administrator 
+determines that the measured concentrations do not differ 
+substantially between the two sites, taking into consideration 
+factors such as distance between sites, spatial and temporal 
+patterns in air quality, local emissions and meteorology, 
+jurisdictional boundaries, and terrain features.",,primary,openai,gpt-5,1930,231
+14,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within an amendatory block revising § 53.4, making it binding regulatory text.",simple,none,53,53.4(a),Applications for FRM or FEM determinations and modification requests of existing designated instruments,shall,strong,be submitted,"to the Director, Center for Environmental Measurement and Modeling, Reference and Equivalent Methods Designation Program (MD-205-03), U.S. Environmental Protection Agency, Research Triangle Park, North Carolina 27711 (commercial delivery address: 4930 Old Page Road, Durham, North Carolina 27703)",True,False,,revise,"(a) Applications for FRM or FEM determinations and modification 
+requests of existing designated instruments shall be submitted to: 
+Director, Center for Environmental Measurement and Modeling, Reference 
+and Equivalent Methods Designation Program (MD-205-03), U.S. 
+Environmental Protection Agency, Research Triangle Park, North Carolina 
+27711 (commercial delivery address: 4930 Old Page Road, Durham, North 
+Carolina 27703).",,primary,openai,gpt-5,1911,239
+15,EPA-HQ-OAR-2015-0072,proposed,0,True,Text appears within an amendatory block revising § 53.4; therefore it is new binding regulatory text.,simple,none,53,53.4(b)(7),All written materials for new FRM and FEM applications and modification requests,must,strong,be submitted,to EPA in English in MS Word format,True,False,,revise,"* * *
+    (b) * * *
+    (7) All written materials for new FRM and FEM applications and 
+modification requests must be submitted in English in MS Word format.",,primary,openai,gpt-5,1748,188
+16,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence is within regulatory text of § 53.4 prescribing submission requirements, functioning as binding CFR text.",compound,none,53,53.4(b)(7),applicants for new FRM and FEM applications and modification requests,must,strong,submit,the original non-English version of the calibration certificate to EPA,False,True,For any calibration certificates originally written in a non-English language,none,"For any calibration certificates originally written in a non-English 
+language, the original non-
+
+[[Page 5696]]
+
+English version of the certificate must be submitted to EPA along with 
+a version of the certificate translated to English.",,primary,openai,gpt-5,1770,326
+16,EPA-HQ-OAR-2015-0072,proposed,1,True,"The sentence is within regulatory text of § 53.4 prescribing submission requirements, functioning as binding CFR text.",compound,none,53,53.4(b)(7),applicants for new FRM and FEM applications and modification requests,must,strong,submit,a version of the calibration certificate translated to English to EPA,False,True,For any calibration certificates originally written in a non-English language,none,"For any calibration certificates originally written in a non-English 
+language, the original non-
+
+[[Page 5696]]
+
+English version of the certificate must be submitted to EPA along with 
+a version of the certificate translated to English.",,primary,openai,gpt-5,0,0
+17,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within regulatory text of 40 CFR part 53.4 specifying application submission requirements, functioning as binding operational text in the CFR.",simple,none,53,53.4(b)(7),Applicants for new FRM and FEM applications and modification requests,must,strong,submit,all associated laboratory and field data in MS Excel format,True,False,,none,"All laboratory and 
+field data associated with new FRM and FEM applications and 
+modification requests must be submitted in MS Excel format.",,primary,openai,gpt-5,1743,192
+18,EPA-HQ-OAR-2015-0072,proposed,0,True,The sentence appears within regulatory text setting submission requirements and functions as binding amendatory content for § 53.4.,simple,none,53,53.4,All worksheets in MS Excel,must,strong,be unprotected to enable full inspection,as part of the application review process,True,False,,none,"All 
+worksheets in MS Excel must be unprotected to enable full inspection as 
+part of the application review process.",,primary,openai,gpt-5,1737,180
+19,EPA-HQ-OAR-2015-0072,proposed,0,True,The sentence appears within CFR regulatory text presenting prescriptive requirements and functions as binding text; it is not preamble or a mere definition.,simple,none,53,53.4(d),the applicant,shall,strong,provide,a representative sampler or analyzer for test purposes,False,True,"For candidate reference or equivalent methods or for designated instruments that are the subject of a modification request, if requested by EPA",none,"* * *
+    (d) For candidate reference or equivalent methods or for designated 
+instruments that are the subject of a modification request, the 
+applicant, if requested by EPA, shall provide to EPA a representative 
+sampler or analyzer for test purposes.",,primary,openai,gpt-5,1783,200
+20,EPA-HQ-OAR-2015-0072,proposed,0,True,The sentence appears within regulatory text of § 53.4 that states requirements (not preamble) and functions as binding operational language.,compound,none,53,53.4(d),the applicant,shall,strong,ship,"a representative sampler or analyzer free on board (FOB) destination to the Director, Center for Environmental Measurements and Modeling, Reference and Equivalent Methods Designation Program (MD D205-03), U.S. Environmental Protection Agency, 4930 Old Page Road, Durham, North Carolina 27703",False,True,if requested by EPA,none,"The sampler or analyzer shall be 
+shipped free on board (FOB) destination to Director, Center for 
+Environmental Measurements and Modeling, Reference and Equivalent 
+Methods Designation Program (MD D205-03), U.S. Environmental Protection 
+Agency, 4930 Old Page Road, Durham, North Carolina 27703, scheduled to 
+arrive concurrently with or within 30 days of the arrival of the other 
+application materials.",,primary,openai,gpt-5,1845,350
+20,EPA-HQ-OAR-2015-0072,proposed,1,True,The sentence appears within regulatory text of § 53.4 that states requirements (not preamble) and functions as binding operational language.,compound,none,53,53.4(d),the applicant,shall,strong,schedule delivery,the sampler or analyzer to arrive concurrently with or within 30 days of the arrival of the other application materials,False,True,if requested by EPA,none,"The sampler or analyzer shall be 
+shipped free on board (FOB) destination to Director, Center for 
+Environmental Measurements and Modeling, Reference and Equivalent 
+Methods Designation Program (MD D205-03), U.S. Environmental Protection 
+Agency, 4930 Old Page Road, Durham, North Carolina 27703, scheduled to 
+arrive concurrently with or within 30 days of the arrival of the other 
+application materials.",,primary,openai,gpt-5,0,0
+21,EPA-HQ-OAR-2015-0072,proposed,0,True,The sentence appears within binding regulatory text of § 53.4 and functions as an operative provision authorizing EPA testing; under rule (b) it is binding non-amendatory text.,compound,none,53,53.4,This sampler or analyzer,may,permissive,be subjected,various tests that EPA determines to be necessary or appropriate under § 53.5(f),True,False,,none,"This sampler or analyzer may be subjected to 
+various tests that EPA determines to be necessary or appropriate under 
+Sec.  53.5(f), and such tests may include special tests not described 
+in this part.",§ 53.5(f),primary,openai,gpt-5,1758,308
+21,EPA-HQ-OAR-2015-0072,proposed,1,True,The sentence appears within binding regulatory text of § 53.4 and functions as an operative provision authorizing EPA testing; under rule (b) it is binding non-amendatory text.,compound,none,53,53.4,such tests,may,permissive,include,special tests not described in this part,False,False,,none,"This sampler or analyzer may be subjected to 
+various tests that EPA determines to be necessary or appropriate under 
+Sec.  53.5(f), and such tests may include special tests not described 
+in this part.",,primary,openai,gpt-5,0,0
+22,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within amendatory text revising § 53.4(d), so it is new binding regulatory text.",compound,none,53,53.4(d),the applicant,shall,strong,repair,the device at no cost to the EPA,False,True,"If the instrument submitted under paragraph (d) malfunctions, becomes inoperative, or fails to perform as represented in the application before the necessary EPA testing is completed",revise,"If the instrument submitted under this paragraph (d) 
+malfunctions, becomes inoperative, or fails to perform as represented 
+in the application before the necessary EPA testing is completed, the 
+applicant shall be afforded the opportunity to repair or replace the 
+device at no cost to the EPA.",§ 53.5(f),primary,openai,gpt-5,1824,352
+22,EPA-HQ-OAR-2015-0072,proposed,1,True,"The sentence appears within amendatory text revising § 53.4(d), so it is new binding regulatory text.",compound,none,53,53.4(d),the applicant,shall,strong,replace,the device at no cost to the EPA,False,True,"If the instrument submitted under paragraph (d) malfunctions, becomes inoperative, or fails to perform as represented in the application before the necessary EPA testing is completed",revise,"If the instrument submitted under this paragraph (d) 
+malfunctions, becomes inoperative, or fails to perform as represented 
+in the application before the necessary EPA testing is completed, the 
+applicant shall be afforded the opportunity to repair or replace the 
+device at no cost to the EPA.",§ 53.5(f),primary,openai,gpt-5,0,0
+23,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within an amendatory block revising CFR text, making it new binding regulatory language.",simple,none,53,53.4(d),EPA,shall,strong,repack,"the sampler or analyzer submitted under paragraph (d) for return shipment to the applicant, using the same packing materials used for shipping the instrument to EPA unless alternative packing is provided by the applicant",True,True,Upon completion of EPA testing,revise,"Upon completion of EPA testing, the 
+sampler or analyzer submitted under this paragraph (d) shall be 
+repacked by EPA for return shipment to the applicant, using the same 
+packing materials used for shipping the instrument to EPA unless 
+alternative packing is provided by the applicant.",§ 53.5(f),primary,openai,gpt-5,1801,211
+24,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within an amendatory block revising regulatory text, making it new binding text.",simple,none,53,53.4,the applicant,shall,strong,be responsible for,arrangements for and the cost of return shipment,False,False,,revise,"Arrangements for, and 
+the cost of, return shipment shall be the responsibility of the 
+applicant.",,primary,openai,gpt-5,1715,172
+25,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within an explicit amendatory block revising § 53.8(a), so the language is new binding text.",simple,none,53,53.8(a),a candidate method determined by the Administrator to satisfy the applicable requirements of this part,shall,strong,be designated,as an FRM or FEM by and upon publication of a notice of the designation in the Federal Register,True,False,,revise,"(a) A candidate method determined by the Administrator to satisfy 
+the applicable requirements of this part shall be designated as an FRM 
+or FEM (as applicable) by and upon publication of a notice of the 
+designation in the Federal Register.",,primary,openai,gpt-5,1806,203
+26,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence is inside an amendatory block that revises § 53.8(a), making it new binding regulatory text.",compound,none,53,53.8(a),Applicants,may not,strong,publicly announce,the candidate sampler and analyzer as an approved FRM or FEM,False,True,until the Federal Register notice has been published,revise,"Applicants shall not publicly 
+announce, market, or sell the candidate sampler and analyzer as an 
+approved FRM or FEM (as applicable) until the Federal Register notice 
+has been published.",,primary,openai,gpt-5,1778,416
+26,EPA-HQ-OAR-2015-0072,proposed,1,True,"The sentence is inside an amendatory block that revises § 53.8(a), making it new binding regulatory text.",compound,none,53,53.8(a),Applicants,may not,strong,market,the candidate sampler and analyzer as an approved FRM or FEM,False,True,until the Federal Register notice has been published,revise,"Applicants shall not publicly 
+announce, market, or sell the candidate sampler and analyzer as an 
+approved FRM or FEM (as applicable) until the Federal Register notice 
+has been published.",,primary,openai,gpt-5,0,0
+26,EPA-HQ-OAR-2015-0072,proposed,2,True,"The sentence is inside an amendatory block that revises § 53.8(a), making it new binding regulatory text.",compound,none,53,53.8(a),Applicants,may not,strong,sell,the candidate sampler and analyzer as an approved FRM or FEM,False,True,until the Federal Register notice has been published,revise,"Applicants shall not publicly 
+announce, market, or sell the candidate sampler and analyzer as an 
+approved FRM or FEM (as applicable) until the Federal Register notice 
+has been published.",,primary,openai,gpt-5,0,0
+27,EPA-HQ-OAR-2015-0072,proposed,0,True,"The text is within an amendatory block revising § 53.14(c)(4), so it constitutes new binding regulatory text.",compound,none,53,53.14(c)(4),the Administrator,shall,strong,send notice,to the applicant that additional information must be submitted before a determination can be made,False,False,,revise,"* * *
+    (c) * * *
+    (4) Send notice to the applicant that additional information must 
+be submitted before a determination can be made and specify the 
+additional information that is needed (in such cases, the 90-day period 
+shall commence upon receipt of the additional information).",,primary,openai,gpt-5,1828,292
+27,EPA-HQ-OAR-2015-0072,proposed,1,True,"The text is within an amendatory block revising § 53.14(c)(4), so it constitutes new binding regulatory text.",compound,none,53,53.14(c)(4),the applicant,must,strong,submit,the additional information before a determination can be made,False,False,,revise,"* * *
+    (c) * * *
+    (4) Send notice to the applicant that additional information must 
+be submitted before a determination can be made and specify the 
+additional information that is needed (in such cases, the 90-day period 
+shall commence upon receipt of the additional information).",,primary,openai,gpt-5,0,0
+28,EPA-HQ-OAR-2015-0072,proposed,0,True,"The text appears within an amendatory block revising § 53.14(c)(5), so it is new binding regulatory text.",compound,none,53,53.14(c)(5),the Administrator,shall,strong,send notice,to the applicant that additional tests are necessary,False,False,,revise,"(5) Send notice to the applicant that additional tests are 
+necessary and specify which tests are necessary and how they shall be 
+interpreted (in such cases, the 90-day period shall commence upon 
+receipt of the additional test data).",,primary,openai,gpt-5,1786,287
+28,EPA-HQ-OAR-2015-0072,proposed,1,True,"The text appears within an amendatory block revising § 53.14(c)(5), so it is new binding regulatory text.",compound,none,53,53.14(c)(5),the Administrator,shall,strong,specify,which tests are necessary and how they shall be interpreted,False,False,,revise,"(5) Send notice to the applicant that additional tests are 
+necessary and specify which tests are necessary and how they shall be 
+interpreted (in such cases, the 90-day period shall commence upon 
+receipt of the additional test data).",,primary,openai,gpt-5,0,0
+29,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within CFR regulatory text of § 53.14(c) as part of operative list items and is within amendatory context of the rulemaking document, making it new binding text.",compound,none,53,53.14(c)(6),the Administrator,shall,strong,send notice,to the applicant that additional tests will be conducted by the Administrator,False,False,,revise,"(6) Send notice to the applicant that additional tests will be 
+conducted by the Administrator and specify the reasons for and the 
+nature of the additional tests (in such cases, the 90-day period shall 
+commence 1 calendar day after the additional tests are completed).",,primary,openai,gpt-5,1759,414
+29,EPA-HQ-OAR-2015-0072,proposed,1,True,"The sentence appears within CFR regulatory text of § 53.14(c) as part of operative list items and is within amendatory context of the rulemaking document, making it new binding text.",compound,none,53,53.14(c)(6),the Administrator,shall,strong,specify,the reasons for and the nature of the additional tests,False,False,,revise,"(6) Send notice to the applicant that additional tests will be 
+conducted by the Administrator and specify the reasons for and the 
+nature of the additional tests (in such cases, the 90-day period shall 
+commence 1 calendar day after the additional tests are completed).",,primary,openai,gpt-5,0,0
+29,EPA-HQ-OAR-2015-0072,proposed,2,True,"The sentence appears within CFR regulatory text of § 53.14(c) as part of operative list items and is within amendatory context of the rulemaking document, making it new binding text.",compound,none,53,53.14(c)(6),the 90-day period,shall,strong,commence,1 calendar day after the additional tests are completed,False,True,in such cases,revise,"(6) Send notice to the applicant that additional tests will be 
+conducted by the Administrator and specify the reasons for and the 
+nature of the additional tests (in such cases, the 90-day period shall 
+commence 1 calendar day after the additional tests are completed).",,primary,openai,gpt-5,0,0
+30,EPA-HQ-OAR-2015-0072,proposed,0,True,The sentence appears in a table footnote within an amendatory block revising tables in subpart B; therefore it is new binding text.,simple,none,53,53.14,requirements,may,permissive,apply,None,False,True,"based on the nature of each particular candidate method, as determined by the Administrator",revise,"[check]  [check]
+                                                                                                                                                    \1\
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+\1\ Some requirements may apply, based on the nature of each particular candidate method, as determined by the Administrator.",,primary,openai,gpt-5,1797,186
+31,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within an amendatory block revising tables/footnotes to subpart B of part 53, making it new binding regulatory text.",simple,none,53,53.14,Alternative Class III requirements,may,permissive,be substituted,None,True,False,,revise,\2\ Alternative Class III requirements may be substituted.,,primary,openai,gpt-5,1696,177
+32,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence is binding test-method text within CFR regulatory material and functions as operative requirement language, not a mere definition or preamble.",compound,none,53,53.14,Concentrations of interferent listed,must,strong,be prepared,to ±10 percent of the stated value,True,False,,none,"------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\1\ Concentrations of interferent listed must be prepared and controlled to <plus-minus>10 percent of the stated value.",,primary,openai,gpt-5,1810,286
+32,EPA-HQ-OAR-2015-0072,proposed,1,True,"The sentence is binding test-method text within CFR regulatory material and functions as operative requirement language, not a mere definition or preamble.",compound,none,53,53.14,Concentrations of interferent listed,must,strong,be controlled,to ±10 percent of the stated value,True,False,,none,"------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\1\ Concentrations of interferent listed must be prepared and controlled to <plus-minus>10 percent of the stated value.",,primary,openai,gpt-5,0,0
+33,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within an amendatory block revising appendix figures to read as follows, making the language new binding text.",simple,none,53,53.14,pollutant concentrations used for the test,must,strong,be prepared,to within ±10 percent of the stated value,True,False,,revise,These pollutant concentrations must be prepared to <plus-minus>10 percent of the stated value.,,primary,openai,gpt-5,1705,182
+34,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within an explicit amendatory block revising § 53.35(b)(1)(ii)(D), making it binding regulatory text.",simple,none,53,53.35(b)(1)(ii)(D),Site D,shall,strong,be located,in a large city east of the Mississippi River having characteristically high humidity levels,False,False,,revise,"* * *
+    (D) Site D shall be in a large city east of the Mississippi River, 
+having characteristically high humidity levels.",,primary,openai,gpt-5,1780,195
+36,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within an amendatory block revising § 53.51(d)(2), so it is new binding regulatory text.",compound,none,53,53.51(d)(2),the respective manufacturers,shall,strong,identify,the critical dimensions and manufacturing tolerances for the separator,False,True,For samplers and monitors utilizing the BGI VSCC or Tisch TE-PM2.5C particle size separators specified in sections 7.3.4.4 and 7.3.4.5 of appendix L to part 50 of this chapter,revise,"For samplers and monitors 
+utilizing the BGI VSCC or Tisch TE-PM<INF>2.5</INF>C particle size 
+separators specified in sections 7.3.4.4 and 7.3.4.5 of appendix L to 
+part 50 of this chapter, respectively, the respective manufacturers 
+shall identify the critical dimensions and manufacturing tolerances for 
+the separator, devise appropriate test procedures to verify that the 
+critical dimensions and tolerances are maintained during the 
+manufacturing process, and carry out those procedures on each separator 
+manufactured to verify conformance of the manufactured products.",appendix L to part 50,primary,openai,gpt-5,2020,589
+36,EPA-HQ-OAR-2015-0072,proposed,1,True,"The sentence appears within an amendatory block revising § 53.51(d)(2), so it is new binding regulatory text.",compound,none,53,53.51(d)(2),the respective manufacturers,shall,strong,devise,appropriate test procedures to verify that the critical dimensions and tolerances are maintained during the manufacturing process,False,True,For samplers and monitors utilizing the BGI VSCC or Tisch TE-PM2.5C particle size separators specified in sections 7.3.4.4 and 7.3.4.5 of appendix L to part 50 of this chapter,revise,"For samplers and monitors 
+utilizing the BGI VSCC or Tisch TE-PM<INF>2.5</INF>C particle size 
+separators specified in sections 7.3.4.4 and 7.3.4.5 of appendix L to 
+part 50 of this chapter, respectively, the respective manufacturers 
+shall identify the critical dimensions and manufacturing tolerances for 
+the separator, devise appropriate test procedures to verify that the 
+critical dimensions and tolerances are maintained during the 
+manufacturing process, and carry out those procedures on each separator 
+manufactured to verify conformance of the manufactured products.",appendix L to part 50,primary,openai,gpt-5,0,0
+36,EPA-HQ-OAR-2015-0072,proposed,2,True,"The sentence appears within an amendatory block revising § 53.51(d)(2), so it is new binding regulatory text.",compound,none,53,53.51(d)(2),the respective manufacturers,shall,strong,carry out,those procedures on each separator manufactured to verify conformance of the manufactured products,False,True,For samplers and monitors utilizing the BGI VSCC or Tisch TE-PM2.5C particle size separators specified in sections 7.3.4.4 and 7.3.4.5 of appendix L to part 50 of this chapter,revise,"For samplers and monitors 
+utilizing the BGI VSCC or Tisch TE-PM<INF>2.5</INF>C particle size 
+separators specified in sections 7.3.4.4 and 7.3.4.5 of appendix L to 
+part 50 of this chapter, respectively, the respective manufacturers 
+shall identify the critical dimensions and manufacturing tolerances for 
+the separator, devise appropriate test procedures to verify that the 
+critical dimensions and tolerances are maintained during the 
+manufacturing process, and carry out those procedures on each separator 
+manufactured to verify conformance of the manufactured products.",appendix L to part 50,primary,openai,gpt-5,0,0
+37,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within regulatory text being amended (surrounding context shows an amendatory instruction revising § 53.61 and related material), so it is binding under the amendatory-block rule.",compound,none,53,53.51,The manufacturer,shall,strong,maintain,records of these tests and their test results,False,False,,revise,"The 
+manufacturer shall also maintain records of these tests and their test 
+results and submit evidence that this procedure is incorporated into 
+the manufacturing procedure, that the test is or will be routinely 
+implemented, and that an appropriate procedure is in place for the 
+disposition of units that fail this tolerance tests.",,primary,openai,gpt-5,1857,505
+37,EPA-HQ-OAR-2015-0072,proposed,1,True,"The sentence appears within regulatory text being amended (surrounding context shows an amendatory instruction revising § 53.61 and related material), so it is binding under the amendatory-block rule.",compound,none,53,53.51,The manufacturer,shall,strong,submit evidence,that this procedure is incorporated into the manufacturing procedure,False,False,,revise,"The 
+manufacturer shall also maintain records of these tests and their test 
+results and submit evidence that this procedure is incorporated into 
+the manufacturing procedure, that the test is or will be routinely 
+implemented, and that an appropriate procedure is in place for the 
+disposition of units that fail this tolerance tests.",,primary,openai,gpt-5,0,0
+37,EPA-HQ-OAR-2015-0072,proposed,2,True,"The sentence appears within regulatory text being amended (surrounding context shows an amendatory instruction revising § 53.61 and related material), so it is binding under the amendatory-block rule.",compound,none,53,53.51,The manufacturer,shall,strong,submit evidence,that the test is or will be routinely implemented,False,False,,revise,"The 
+manufacturer shall also maintain records of these tests and their test 
+results and submit evidence that this procedure is incorporated into 
+the manufacturing procedure, that the test is or will be routinely 
+implemented, and that an appropriate procedure is in place for the 
+disposition of units that fail this tolerance tests.",,primary,openai,gpt-5,0,0
+37,EPA-HQ-OAR-2015-0072,proposed,3,True,"The sentence appears within regulatory text being amended (surrounding context shows an amendatory instruction revising § 53.61 and related material), so it is binding under the amendatory-block rule.",compound,none,53,53.51,The manufacturer,shall,strong,submit evidence,that an appropriate procedure is in place for the disposition of units that fail these tolerance tests,False,False,,revise,"The 
+manufacturer shall also maintain records of these tests and their test 
+results and submit evidence that this procedure is incorporated into 
+the manufacturing procedure, that the test is or will be routinely 
+implemented, and that an appropriate procedure is in place for the 
+disposition of units that fail this tolerance tests.",,primary,openai,gpt-5,0,0
+38,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within regulatory text of a CFR subpart describing test methods and uses mandatory modal 'shall', indicating binding operative text within the rule.",simple,none,53,53.61,solid particle tests performed in this subpart,shall,strong,be conducted,using particles composed of ammonium fluorescein,True,False,,none,"* *
+    (i) Solid particle tests performed in this subpart shall be 
+conducted using particles composed of ammonium fluorescein.",,primary,openai,gpt-5,1803,186
+39,EPA-HQ-OAR-2015-0072,proposed,0,True,The sentence appears within regulatory text of a CFR section and states a prescriptive requirement using shall; it is part of binding regulatory provisions.,simple,none,53,53.61,For purposes of converting particle physical diameter to aerodynamic diameter,shall,strong,use,an ammonium fluorescein particle density of 1.35 g/cm3,True,False,,none,"For purposes of converting particle physical diameter to 
+aerodynamic diameter, an ammonium fluorescein particle density of 1.35 
+g/cm\3\ shall be used.",,primary,openai,gpt-5,1852,192
+40,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within CFR regulatory text using prescriptive modal 'shall' in a technical requirement section and is part of amendatory content, making it binding.",simple,none,53,53.61,the volume concentration of the liquid solution,shall,strong,be calculated,as specified by Equation 5 to paragraph (g)(2)(iii),True,False,,none,"The volume 
+concentration of the liquid solution shall be calculated as:
+Equation 5 to Paragraph (g)(2)(iii)",,primary,openai,gpt-5,1875,192
+41,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears inside an amendatory block revising the definition of “Traceable,” so the language is new binding text and the definition embeds a requirement.",compound,definition_embedded,58,58.1,Traceable measurement results,must,strong,be compared,to a National Institute of Standards and Technology (NIST)-certified reference standard,True,False,,revise,"Traceable measurement results must be 
+compared and certified, either directly or via not more than one 
+intermediate standard, to a National Institute of Standards and 
+Technology (NIST)-certified reference standard.",,primary,openai,gpt-5,1854,305
+41,EPA-HQ-OAR-2015-0072,proposed,1,True,"The sentence appears inside an amendatory block revising the definition of “Traceable,” so the language is new binding text and the definition embeds a requirement.",compound,definition_embedded,58,58.1,Traceable measurement results,must,strong,be certified,to a National Institute of Standards and Technology (NIST)-certified reference standard,True,False,,revise,"Traceable measurement results must be 
+compared and certified, either directly or via not more than one 
+intermediate standard, to a National Institute of Standards and 
+Technology (NIST)-certified reference standard.",,primary,openai,gpt-5,0,0
+42,EPA-HQ-OAR-2015-0072,proposed,0,True,The sentence appears within an explicit amendatory block revising § 58.10; therefore it is new binding regulatory text.,simple,none,58,58.10(a)(1),"the state, or where applicable local, agency",shall,strong,submit,"to the Regional Administrator an annual monitoring network plan documenting the establishment and maintenance of an air quality surveillance system consisting of a network of SLAMS monitoring stations that can include FRM and FEM monitors that are part of SLAMS, NCore, CSN, PAMS, and SPM stations",False,True,"Beginning July 1, 2007",revise,"Beginning July 1, 2007, the state, or where applicable 
+local, agency shall submit to the Regional Administrator an annual 
+monitoring network plan which shall provide for the documentation of 
+the establishment and maintenance of an air quality surveillance system 
+that consists of a network of SLAMS monitoring stations that can 
+include FRM and FEM monitors that are part of SLAMS, NCore, CSN, PAMS, 
+and SPM stations.",,primary,openai,gpt-5,1915,242
+43,EPA-HQ-OAR-2015-0072,proposed,0,True,The sentence appears within an amendatory block revising § 58.10; therefore it is new binding text.,simple,none,58,58.10(a)(1),The annual monitoring network plan,shall,strong,include,"a statement of whether the operation of each monitor meets the requirements of appendices A, B, C, D, and E to this part, where applicable",False,False,,revise,"The plan shall include a statement of whether the 
+operation of each monitor meets the requirements of appendices A, B, C, 
+D, and E to this part, where applicable.",,primary,openai,gpt-5,1783,202
+44,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within binding regulatory text of § 58.10 that is presented as amendatory rule text, making it enforceable; it prescribes agency authority in the rule.",simple,none,58,58.10(a)(1),The Regional Administrator,may,permissive,require,additional information in support of this statement,False,False,,none,"The Regional Administrator may 
+require additional information in support of this statement.",,primary,openai,gpt-5,1726,190
+45,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence is in CFR regulatory text prescribing procedural requirements and appears within operative section § 58.10; it sets binding duties, not a mere definition or preamble.",compound,none,58,58.10,the monitoring agency,must,strong,make available for public inspection and comment,the annual monitoring network plan for at least 30 days prior to submission to the EPA,False,False,,none,"The annual 
+monitoring network plan must be made available for public inspection 
+and comment for at least 30 days prior to submission to the EPA and the 
+submitted plan shall include and address, as appropriate, any received 
+comments.",,primary,openai,gpt-5,1789,304
+45,EPA-HQ-OAR-2015-0072,proposed,1,True,"The sentence is in CFR regulatory text prescribing procedural requirements and appears within operative section § 58.10; it sets binding duties, not a mere definition or preamble.",compound,none,58,58.10,the monitoring agency,shall,strong,include and address,"any received public comments in the submitted plan, as appropriate",False,False,,none,"The annual 
+monitoring network plan must be made available for public inspection 
+and comment for at least 30 days prior to submission to the EPA and the 
+submitted plan shall include and address, as appropriate, any received 
+comments.",,primary,openai,gpt-5,0,0
+46,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within binding regulatory text of § 58.10 specifying plan content, functioning as new/operative requirements in an amendatory context.",simple,none,58,58.10(b)(10),the annual monitoring network plan,shall,strong,include,the date the waiver was approved for those monitors where a waiver has been approved,False,True,For those monitors where a waiver has been approved,none,"For those monitors where a waiver has been 
+approved, the annual monitoring network plan shall include the date the 
+waiver was approved.",,primary,openai,gpt-5,1763,200
+47,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence is prescriptive regulatory text within CFR part 58 § 58.10, not preamble or mere definition, and imposes a duty on monitoring agencies.",compound,none,58,58.10,the monitoring agency,must,strong,ensure,that an operating FRM or filter-based FEM meeting the sample frequency requirements described in § 58.12 is operating and reporting data to meet the network design criteria described in appendix D to this part,False,True,For required SLAMS where the agency identifies that the PM2.5 Class III FEM does not produce data of sufficient quality for comparison to the NAAQS,none,"Class III FEM does not produce 
+data of sufficient quality for comparison to the NAAQS, the monitoring 
+agency must ensure that an operating FRM or filter-based FEM meeting 
+the sample frequency requirements described in Sec.  58.12 or other 
+Class III PM<INF>2.5</INF> FEM with data of sufficient quality is 
+operating and reporting data to meet the network design criteria 
+described in appendix D to this part.
+    (14)",§ 58.12,primary,openai,gpt-5,1895,406
+47,EPA-HQ-OAR-2015-0072,proposed,1,True,"The sentence is prescriptive regulatory text within CFR part 58 § 58.10, not preamble or mere definition, and imposes a duty on monitoring agencies.",compound,none,58,58.10,the monitoring agency,must,strong,ensure,that another Class III PM2.5 FEM with data of sufficient quality is operating and reporting data to meet the network design criteria described in appendix D to this part,False,True,For required SLAMS where the agency identifies that the PM2.5 Class III FEM does not produce data of sufficient quality for comparison to the NAAQS,none,"Class III FEM does not produce 
+data of sufficient quality for comparison to the NAAQS, the monitoring 
+agency must ensure that an operating FRM or filter-based FEM meeting 
+the sample frequency requirements described in Sec.  58.12 or other 
+Class III PM<INF>2.5</INF> FEM with data of sufficient quality is 
+operating and reporting data to meet the network design criteria 
+described in appendix D to this part.
+    (14)",,primary,openai,gpt-5,0,0
+48,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence is binding regulatory text within CFR section § 58.12 setting a submission duty and deadline, not preamble or mere definition.",compound,none,58,58.12(b)(14),The monitoring agency,shall,strong,submit,an initial approach addressing whether any new or moved sites are needed and identifying the communities in which they intend to add monitoring to meet paragraph (b)(14),False,True,if applicable,none,"An initial approach to the question of whether any new or 
+moved sites are needed and to identify the communities in which they 
+intend to add monitoring for meeting the requirement in this paragraph 
+(b)(14), if applicable, shall be submitted in accordance with the 
+requirements of section 4.7.1(b)(3) of appendix D to this part which 
+includes submission to the EPA Regional Administrator no later than 
+July 1, 2024.","appendix D to this part, section 4.7.1(b)(3)",primary,openai,gpt-5,1975,474
+48,EPA-HQ-OAR-2015-0072,proposed,1,True,"The sentence is binding regulatory text within CFR section § 58.12 setting a submission duty and deadline, not preamble or mere definition.",compound,none,58,58.12(b)(14),The monitoring agency,shall,strong,submit,"the initial approach in accordance with section 4.7.1(b)(3) of appendix D, including submission to the EPA Regional Administrator",False,True,if applicable,none,"An initial approach to the question of whether any new or 
+moved sites are needed and to identify the communities in which they 
+intend to add monitoring for meeting the requirement in this paragraph 
+(b)(14), if applicable, shall be submitted in accordance with the 
+requirements of section 4.7.1(b)(3) of appendix D to this part which 
+includes submission to the EPA Regional Administrator no later than 
+July 1, 2024.","appendix D to this part, section 4.7.1(b)(3)",primary,openai,gpt-5,0,0
+48,EPA-HQ-OAR-2015-0072,proposed,2,True,"The sentence is binding regulatory text within CFR section § 58.12 setting a submission duty and deadline, not preamble or mere definition.",compound,none,58,58.12(b)(14),The monitoring agency,shall,strong,submit,"the initial approach no later than July 1, 2024",False,True,if applicable,none,"An initial approach to the question of whether any new or 
+moved sites are needed and to identify the communities in which they 
+intend to add monitoring for meeting the requirement in this paragraph 
+(b)(14), if applicable, shall be submitted in accordance with the 
+requirements of section 4.7.1(b)(3) of appendix D to this part which 
+includes submission to the EPA Regional Administrator no later than 
+July 1, 2024.",,primary,openai,gpt-5,0,0
+49,EPA-HQ-OAR-2015-0072,proposed,0,True,The sentence appears within CFR regulatory text (not preamble) alongside other binding requirements and functions as binding operational timing within § 58.12.,simple,none,58,58.12,The plan,shall,strong,provide for required sites to be operational,any required sites,False,False,,none,"The plan shall provide for any required sites to be operational 
+no later than 24 months from date of approval of a plan or January 1, 
+2027, whichever comes first.",,primary,openai,gpt-5,1753,179
+50,EPA-HQ-OAR-2015-0072,proposed,0,True,The text is binding operational CFR language within a regulatory section and functions as amendatory binding text in context.,compound,none,58,58.12(d),"The state, or where applicable local, agency",shall,strong,perform and submit to the EPA Regional Administrator an assessment,of the air quality surveillance system every 5 years to evaluate network objectives and needs,False,False,,none,"* * * *
+    (d) The state, or where applicable local, agency shall perform and 
+submit to the EPA Regional Administrator an assessment of the air 
+quality surveillance system every 5 years to determine, at a minimum, 
+if the network meets the monitoring objectives defined in appendix D to 
+this part, whether new sites are needed, whether existing sites are no 
+longer needed and can be terminated, and whether new technologies are 
+appropriate for incorporation into the ambient air monitoring network.",appendix D to this part,primary,openai,gpt-5,1885,453
+50,EPA-HQ-OAR-2015-0072,proposed,1,True,The text is binding operational CFR language within a regulatory section and functions as amendatory binding text in context.,compound,none,58,58.12(d),The network assessment,must,strong,consider,"the ability of existing and proposed sites to support air quality characterization for areas with relatively high populations of susceptible individuals and other at-risk populations, and the effects of proposed site discontinuances on other data users",False,False,,none,"* * * *
+    (d) The state, or where applicable local, agency shall perform and 
+submit to the EPA Regional Administrator an assessment of the air 
+quality surveillance system every 5 years to determine, at a minimum, 
+if the network meets the monitoring objectives defined in appendix D to 
+this part, whether new sites are needed, whether existing sites are no 
+longer needed and can be terminated, and whether new technologies are 
+appropriate for incorporation into the ambient air monitoring network.",,primary,openai,gpt-5,0,0
+50,EPA-HQ-OAR-2015-0072,proposed,2,True,The text is binding operational CFR language within a regulatory section and functions as amendatory binding text in context.,compound,none,58,58.12(d),"The state, or where applicable local, agency",must,strong,submit,"a copy of the 5-year assessment, along with a revised annual network plan, to the Regional Administrator",False,False,,none,"* * * *
+    (d) The state, or where applicable local, agency shall perform and 
+submit to the EPA Regional Administrator an assessment of the air 
+quality surveillance system every 5 years to determine, at a minimum, 
+if the network meets the monitoring objectives defined in appendix D to 
+this part, whether new sites are needed, whether existing sites are no 
+longer needed and can be terminated, and whether new technologies are 
+appropriate for incorporation into the ambient air monitoring network.",,primary,openai,gpt-5,0,0
+51,EPA-HQ-OAR-2015-0072,proposed,0,True,"Text appears within amendatory regulatory text revising § 58.11 and within the same amendatory context for Part 58, making it new binding text.",compound,none,58,58.12(d),The network assessment,must,strong,consider,the ability of existing and proposed sites to support air quality characterization for areas with relatively high populations of susceptible individuals and other at-risk populations,False,False,,revise,"The network assessment must consider the ability of existing and 
+proposed sites to support air quality characterization for areas with 
+relatively high populations of susceptible individuals (e.g., children 
+with asthma) and other at-risk populations, and, for any sites that are 
+being proposed for discontinuance, the effect on data users other than 
+the agency itself, such as nearby states and tribes or health effects 
+studies.",,primary,openai,gpt-5,1880,335
+51,EPA-HQ-OAR-2015-0072,proposed,1,True,"Text appears within amendatory regulatory text revising § 58.11 and within the same amendatory context for Part 58, making it new binding text.",compound,none,58,58.12(d),The network assessment,must,strong,consider,"for any sites proposed for discontinuance, the effect on data users other than the agency itself, such as nearby states and tribes or health effects studies",False,True,for any sites that are being proposed for discontinuance,revise,"The network assessment must consider the ability of existing and 
+proposed sites to support air quality characterization for areas with 
+relatively high populations of susceptible individuals (e.g., children 
+with asthma) and other at-risk populations, and, for any sites that are 
+being proposed for discontinuance, the effect on data users other than 
+the agency itself, such as nearby states and tribes or health effects 
+studies.",,primary,openai,gpt-5,0,0
+52,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within an amendatory block revising § 58.11, making it new binding regulatory text.",compound,none,58,58.11,"The state, or where applicable local, agency",must,strong,submit,a copy of the 5-year assessment,False,False,,revise,"The state, or where applicable local, agency must submit a 
+copy of this 5-year assessment, along with a revised annual network 
+plan, to the Regional Administrator.",,primary,openai,gpt-5,1767,284
+52,EPA-HQ-OAR-2015-0072,proposed,1,True,"The sentence appears within an amendatory block revising § 58.11, making it new binding regulatory text.",compound,none,58,58.11,"The state, or where applicable local, agency",must,strong,submit,a revised annual network plan,False,False,,revise,"The state, or where applicable local, agency must submit a 
+copy of this 5-year assessment, along with a revised annual network 
+plan, to the Regional Administrator.",,primary,openai,gpt-5,0,0
+53,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence is within an amendatory block revising § 58.11(a)(2), making it new binding regulatory text.",simple,none,58,58.11(a)(2),state and local governments,shall,strong,follow,the quality assurance criteria in appendix A to this part that apply to SPM sites when operating any SPM site that uses an FRM or an FEM and meets the requirements of appendix E to this part,False,True,unless the Regional Administrator approves an alternative to the requirements of appendix A for such SPM sites because meeting those requirements would be physically and/or financially impractical due to physical conditions at the monitoring site and the requirements are not essential to achieving the intended data objectives of the SPM site,revise,"Beginning January 1, 2009, state and local governments shall 
+follow the quality assurance criteria contained in appendix A to this 
+part that apply to SPM sites when operating any SPM site which uses an 
+FRM or an FEM and meets the requirements of appendix E to this part, 
+unless the Regional Administrator approves an alternative to the 
+requirements of appendix A with respect to such SPM sites because 
+meeting those requirements would be physically and/or financially 
+impractical due to physical conditions at the monitoring site and the 
+requirements are not essential to achieving the intended data 
+objectives of the SPM site.",,primary,openai,gpt-5,2040,268
+54,EPA-HQ-OAR-2015-0072,proposed,0,True,The sentence appears within binding CFR regulatory text (non-preamble) in § 58.11 and functions as an operative provision allowing approvals.,simple,none,58,58.11,Alternatives to the requirements of appendix A,may,permissive,be approved,"for an SPM site as part of the approval of the annual monitoring plan, or separately",True,False,,none,"Alternatives to the requirements of 
+appendix A may be approved for an SPM site as part of the approval of 
+the annual monitoring plan, or separately.",,primary,openai,gpt-5,1751,196
+55,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence imposes a requirement within CFR regulatory text and appears as operative rule language in § 58.11, constituting binding text.",simple,none,58,58.11(e),State and local governments,must,strong,assess,data from Class III PM2.5 FEM monitors operated within their network using the performance criteria described in table C-4 to subpart C of part 53 of this chapter,False,True,for cases where the data are identified as not of sufficient comparability to a collocated FRM and the monitoring agency requests that the FEM data should not be used in comparison to the NAAQS,none,"* * * *
+    (e) State and local governments must assess data from Class III 
+PM<INF>2.5</INF> FEM monitors operated within their network using the 
+performance criteria described in table C-4 to subpart C of part 53 of 
+this chapter, for cases where the data are identified as not of 
+sufficient comparability to a collocated FRM, and the monitoring agency 
+requests that the FEM data should not be used in comparison to the 
+NAAQS.",§ 58.10(b),primary,openai,gpt-5,1898,253
+56,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence is part of binding regulatory text (performance criteria with additional provisions) within CFR section § 58.10(b), not preamble or mere definition.",simple,none,58,58.10(b),the acceptable concentration range (Rj),may,permissive,include,values down to 0 µg/m3,False,True,"For these collocated PM2.5 monitors, the performance criteria apply with the following additional provisions",none,"For these collocated PM<INF>2.5</INF> monitors, the performance 
+criteria apply with the following additional provisions:
+    (1) The acceptable concentration range (Rj), [mu]g/m\3\ may include 
+values down to 0",,primary,openai,gpt-5,1827,209
+57,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within regulatory text prescribing performance criteria and uses mandatory modals (“shall,” “must”), indicating binding obligations in the CFR section context.",compound,none,58,58.10(b),the minimum number of test sites,shall,strong,be,at least one,False,False,,none,"[[Page 5704]]
+
+    (2) The minimum number of test sites shall be at least one; 
+however, the number of test sites will generally include all locations 
+within an agency's network with collocated FRMs and FEMs.",,primary,openai,gpt-5,1823,295
+57,EPA-HQ-OAR-2015-0072,proposed,1,True,"The sentence appears within regulatory text prescribing performance criteria and uses mandatory modals (“shall,” “must”), indicating binding obligations in the CFR section context.",compound,none,58,58.10(b),the number of test sites,no_modal_implicit,permissive,generally include,all locations within an agency's network with collocated FRMs and FEMs,False,False,,none,"[[Page 5704]]
+
+    (2) The minimum number of test sites shall be at least one; 
+however, the number of test sites will generally include all locations 
+within an agency's network with collocated FRMs and FEMs.",,primary,openai,gpt-5,0,0
+58,EPA-HQ-OAR-2015-0072,proposed,0,True,"The text appears within regulatory performance criteria language in an amendatory context (surrounding text shows revisions to Part 58), making it new binding text.",compound,none,58,58.10(b),The minimum number of methods,shall,strong,include,at least one FRM,False,False,,revise,"(3) The minimum number of methods shall include at least one FRM 
+and at least one FEM.
+    (4) Since multiple FRMs and FEMs may not be present at each site, 
+the precision statistic requirement does not apply, even if precision 
+data are available.",,primary,openai,gpt-5,1859,399
+58,EPA-HQ-OAR-2015-0072,proposed,1,True,"The text appears within regulatory performance criteria language in an amendatory context (surrounding text shows revisions to Part 58), making it new binding text.",compound,none,58,58.10(b),The minimum number of methods,shall,strong,include,at least one FEM,False,False,,revise,"(3) The minimum number of methods shall include at least one FRM 
+and at least one FEM.
+    (4) Since multiple FRMs and FEMs may not be present at each site, 
+the precision statistic requirement does not apply, even if precision 
+data are available.",,primary,openai,gpt-5,0,0
+58,EPA-HQ-OAR-2015-0072,proposed,2,True,"The text appears within regulatory performance criteria language in an amendatory context (surrounding text shows revisions to Part 58), making it new binding text.",compound,none,58,58.10(b),the precision statistic requirement,may not,strong,apply,None,False,True,"Since multiple FRMs and FEMs may not be present at each site, even if precision data are available",revise,"(3) The minimum number of methods shall include at least one FRM 
+and at least one FEM.
+    (4) Since multiple FRMs and FEMs may not be present at each site, 
+the precision statistic requirement does not apply, even if precision 
+data are available.",,primary,openai,gpt-5,0,0
+59,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within an amendatory block introducing new regulatory provisions, making it binding text.",compound,none,58,58.10(b),the assessment data set,must,strong,cover,all seasons,False,False,,revise,"(5) All seasons must be covered with no more than 36 consecutive 
+months of data in total aggregated together.",,primary,openai,gpt-5,1794,275
+59,EPA-HQ-OAR-2015-0072,proposed,1,True,"The sentence appears within an amendatory block introducing new regulatory provisions, making it binding text.",compound,none,58,58.10(b),the assessment data set,must,strong,be limited to,no more than 36 consecutive months of data in total aggregated together,False,False,,revise,"(5) All seasons must be covered with no more than 36 consecutive 
+months of data in total aggregated together.",,primary,openai,gpt-5,0,0
+60,EPA-HQ-OAR-2015-0072,proposed,0,True,The sentence appears within an amendatory block setting out new binding text for CFR part 58 requirements.,compound,none,58,58.10(b),the assessment,is required to,strong,report,correlation,True,False,,revise,"Correlation is 
+required to be reported in the assessment, but failure to meet the 
+correlation criteria, by itself, is not cause to exclude data from a 
+continuous FEM monitor.
+0
+23.",,primary,openai,gpt-5,1835,281
+60,EPA-HQ-OAR-2015-0072,proposed,1,True,The sentence appears within an amendatory block setting out new binding text for CFR part 58 requirements.,compound,none,58,58.10(b),a continuous FEM monitor,may not,strong,have data excluded solely for failure to meet correlation criteria,None,False,True,solely for failure to meet the correlation criteria,revise,"Correlation is 
+required to be reported in the assessment, but failure to meet the 
+correlation criteria, by itself, is not cause to exclude data from a 
+continuous FEM monitor.
+0
+23.",,primary,openai,gpt-5,0,0
+61,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within an amendatory block revising § 58.12(d), making it new binding regulatory text.",simple,none,58,58.12(d)(1)(i),Manual PM2.5 samplers at required SLAMS stations without a collocated continuously operating PM2.5 monitor,must,strong,operate,on at least a 1-in-3 day schedule,False,True,unless a waiver for an alternative schedule has been approved per paragraph (d)(1)(ii) of this section,revise,"* * *
+    (1)(i) Manual PM<INF>2.5</INF> samplers at required SLAMS stations 
+without a collocated continuously operating PM<INF>2.5</INF> monitor 
+must operate on at least a 1-in-3 day schedule unless a waiver for an 
+alternative schedule has been approved per paragraph (d)(1)(ii) of this 
+section.",§ 58.12(d)(1)(ii),primary,openai,gpt-5,1935,235
+62,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within an amendatory block revising § 58.12(d), so it is new binding text.",simple,none,58,58.12(d)(1)(ii),the monitoring agency,may,permissive,request approval,a reduction to 1-in-6 day PM2.5 sampling or seasonal PM2.5 sampling from the EPA Regional Administrator,False,False,,revise,"For SLAMS PM<INF>2.5</INF> sites with both manual and 
+continuous PM<INF>2.5</INF> monitors operating, the monitoring agency 
+may request approval for a reduction to 1-in-6 day PM<INF>2.5</INF> 
+sampling or for seasonal sampling from the EPA Regional Administrator.",,primary,openai,gpt-5,1875,201
+63,EPA-HQ-OAR-2015-0072,proposed,0,True,The sentence appears within regulatory text of § 58.12 that functions as binding CFR text (non-preamble) and prescribes permissive authority; thus it is binding under rule (b).,simple,none,58,58.12(d)(1)(ii),the EPA Regional Administrator,may,permissive,approve,other requests for a reduction to 1-in-6 day PM2.5 sampling or for seasonal sampling on a case-by-case basis,False,False,,none,"Other requests for a reduction to 1-in-6 day PM<INF>2.5</INF> sampling 
+or for seasonal sampling may be approved on a case-by-case basis.",,primary,openai,gpt-5,1795,217
+64,EPA-HQ-OAR-2015-0072,proposed,0,True,It is binding text within a CFR regulatory section (not preamble) setting permissive authority and conditions for approvals.,compound,none,58,58.12(d)(1)(ii),EPA Regional Administrator,may,permissive,grant,sampling frequency reductions,False,True,"after consideration of factors including but not limited to historical PM2.5 data quality assessments, the location of current PM2.5 design value sites, and their regulatory data needs",none,"The 
+EPA Regional Administrator may grant sampling frequency reductions 
+after consideration of factors (including but not limited to the 
+historical PM<INF>2.5</INF> data quality assessments, the location of 
+current PM<INF>2.5</INF> design value sites, and their regulatory data 
+needs) if the Regional Administrator determines that the reduction in 
+sampling frequency will not compromise data needed for implementation 
+of the NAAQS.",,primary,openai,gpt-5,1919,335
+64,EPA-HQ-OAR-2015-0072,proposed,1,True,It is binding text within a CFR regulatory section (not preamble) setting permissive authority and conditions for approvals.,compound,none,58,58.12(d)(1)(ii),EPA Regional Administrator,may,permissive,grant,sampling frequency reductions,False,True,if the Regional Administrator determines that the reduction in sampling frequency will not compromise data needed for implementation of the NAAQS,none,"The 
+EPA Regional Administrator may grant sampling frequency reductions 
+after consideration of factors (including but not limited to the 
+historical PM<INF>2.5</INF> data quality assessments, the location of 
+current PM<INF>2.5</INF> design value sites, and their regulatory data 
+needs) if the Regional Administrator determines that the reduction in 
+sampling frequency will not compromise data needed for implementation 
+of the NAAQS.",,primary,openai,gpt-5,0,0
+65,EPA-HQ-OAR-2015-0072,proposed,0,True,The sentence is binding regulatory text in a CFR section prescribing mandatory sampling frequency; it is not preamble or a mere definition.,simple,none,58,58.12(d)(1)(ii),"Required SLAMS stations whose measurements determine the design value for their area and are within ±10 percent of the annual NAAQS, and all required sites where one or more 24-hour values have exceeded the 24-hour NAAQS each year for at least 3 consecutive years",are required to,strong,maintain,at least a 1-in-3 day sampling frequency,False,True,until the design value no longer meets the criteria in paragraph (d)(1)(ii) for 3 consecutive years,none,"Required SLAMS stations whose measurements determine the 
+design value for their area and that are within plus or minus 10 
+percent of the annual NAAQS, and all required sites where one or more 
+24-hour values have exceeded the 24-hour NAAQS each year for a 
+consecutive period of at least 3 years are required to maintain at 
+least a 1-in-3 day sampling frequency until the design value no longer 
+meets the criteria in this paragraph (d)(1)(ii) for 3 consecutive 
+years.",,primary,openai,gpt-5,1920,262
+66,EPA-HQ-OAR-2015-0072,proposed,0,True,"The text appears within binding CFR regulatory text in § 58.12 specifying operational requirements and uses mandatory language (“must”), making it a binding obligation.",compound,none,58,58.12(d)(1)(iii),Required SLAMS stations whose measurements determine the 24-hour design value for their area and whose data are within ±5 percent of the level of the 24-hour PM2.5 NAAQS,must,strong,operate,an FRM or FEM on a daily schedule,False,True,if that area's design value for the annual NAAQS is less than the level of the annual PM2.5 standard,none,"A continuously operating FEM PM<INF>2.5</INF> monitor satisfies 
+the requirement in this paragraph (d)(1)(ii) unless it is identified in 
+the monitoring agency's annual monitoring network plan as not 
+appropriate for comparison to the NAAQS and the EPA Regional 
+Administrator has approved that the data from that monitor may be 
+excluded from comparison to the NAAQS.
+    (iii) Required SLAMS stations whose measurements determine the 24-
+hour design value for their area and whose data are within plus or 
+minus 5 percent of the level of the 24-hour PM<INF>2.5</INF> NAAQS must 
+have an FRM or FEM operate on a daily schedule if that area's design 
+value for the annual NAAQS is less than the level of the annual 
+PM<INF>2.5</INF> standard.",,primary,openai,gpt-5,2058,420
+66,EPA-HQ-OAR-2015-0072,proposed,1,True,"The text appears within binding CFR regulatory text in § 58.12 specifying operational requirements and uses mandatory language (“must”), making it a binding obligation.",compound,none,58,58.12(d)(1)(ii),A continuously operating FEM PM2.5 monitor,no_modal_implicit,strong,satisfies the requirement in paragraph (d)(1)(ii),None,False,True,unless it is identified in the monitoring agency's annual monitoring network plan as not appropriate for comparison to the NAAQS and the EPA Regional Administrator has approved that the data from that monitor may be excluded from comparison to the NAAQS,none,"A continuously operating FEM PM<INF>2.5</INF> monitor satisfies 
+the requirement in this paragraph (d)(1)(ii) unless it is identified in 
+the monitoring agency's annual monitoring network plan as not 
+appropriate for comparison to the NAAQS and the EPA Regional 
+Administrator has approved that the data from that monitor may be 
+excluded from comparison to the NAAQS.
+    (iii) Required SLAMS stations whose measurements determine the 24-
+hour design value for their area and whose data are within plus or 
+minus 5 percent of the level of the 24-hour PM<INF>2.5</INF> NAAQS must 
+have an FRM or FEM operate on a daily schedule if that area's design 
+value for the annual NAAQS is less than the level of the annual 
+PM<INF>2.5</INF> standard.",§ 58.12(d)(1)(ii),primary,openai,gpt-5,0,0
+67,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within regulatory text of § 58.12 that sets binding operational requirements for monitoring schedules, constituting binding CFR text within an amendatory context.",simple,none,58,58.12(d)(1)(iii),the EPA Regional Administrator,may,permissive,approve,that the data from a continuously operating FEM or PM2.5 monitor be excluded from comparison to the NAAQS,False,True,if the monitor is identified in the monitoring agency's annual monitoring network plan as not appropriate for comparison to the NAAQS,none,"A continuously operating FEM or 
+PM<INF>2.5</INF> monitor satisfies the requirement in this paragraph 
+(d)(1)(iii) unless it is identified in the monitoring agency's annual 
+monitoring network plan as not appropriate for comparison to the NAAQS 
+and the EPA Regional Administrator has approved that the data from that 
+monitor may be excluded from comparison to the NAAQS.",,primary,openai,gpt-5,1873,229
+68,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence is part of CFR regulatory text within an amendatory context revising Part 58, making it new binding text.",simple,none,58,58.12(d)(1)(iii),the daily schedule,must,strong,be maintained,,True,True,until the referenced design values no longer meet the criteria in paragraph (d)(1)(iii) for 3 consecutive years,revise,"The daily 
+schedule must be maintained until the referenced design values no 
+longer meets the criteria in this paragraph (d)(1)(iii) for 3 
+consecutive years.",§ 58.15,primary,openai,gpt-5,1787,202
+69,EPA-HQ-OAR-2015-0072,proposed,0,True,The sentence appears within regulatory text of a CFR section being amended and operates as new binding text within an amendatory block.,simple,none,58,58.12(d)(1)(iv),monitoring agencies,shall,strong,implement,changes in sampling frequency attributable to changes in design values,False,False,,revise,"(iv) Changes in sampling frequency attributable to changes in 
+design values shall be implemented no later than January 1 of the 
+calendar year following the certification of such data as described in 
+Sec.  58.15.",§ 58.15,primary,openai,gpt-5,1795,187
+70,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within an amendatory block revising § 58.15 to read as follows, making it new binding text.",simple,none,58,58.15(a),"The state, or where appropriate local, agency",shall,strong,submit,an annual air monitoring data certification letter to certify data collected by FRM and FEM monitors at SLAMS and SPM sites that meet criteria in appendix A to this part from January 1 to December 31 of the previous year,False,False,,revise,"(a) The state, or where appropriate local, agency shall submit to 
+the EPA Regional Administrator an annual air monitoring data 
+certification letter to certify data collected by FRM and FEM monitors 
+at SLAMS and SPM sites that meet criteria in appendix A to this part 
+from January 1 to December 31 of the previous year.",,primary,openai,gpt-5,1835,221
+71,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within an amendatory block revising § 58.15, so it is new binding regulatory text.",compound,none,58,58.15(a),"The head official in each monitoring agency, or his or her designee",shall,strong,certify,that the previous year of ambient concentration and quality assurance data are completely submitted to AQS,False,False,,revise,"The head official 
+in each monitoring agency, or his or her designee, shall certify that 
+the previous year of ambient concentration and quality assurance data 
+are completely submitted to AQS and that the ambient concentration data 
+are accurate to the best of her or his knowledge, taking into 
+consideration the quality assurance findings.",,primary,openai,gpt-5,1834,326
+71,EPA-HQ-OAR-2015-0072,proposed,1,True,"The sentence appears within an amendatory block revising § 58.15, so it is new binding regulatory text.",compound,none,58,58.15(a),"The head official in each monitoring agency, or his or her designee",shall,strong,certify,"that the ambient concentration data are accurate to the best of his or her knowledge, taking into consideration the quality assurance findings",False,False,,revise,"The head official 
+in each monitoring agency, or his or her designee, shall certify that 
+the previous year of ambient concentration and quality assurance data 
+are completely submitted to AQS and that the ambient concentration data 
+are accurate to the best of her or his knowledge, taking into 
+consideration the quality assurance findings.",,primary,openai,gpt-5,0,0
+72,EPA-HQ-OAR-2015-0072,proposed,0,True,"It is binding operational text within a CFR section prescribing deadlines, not preamble or mere definition.",simple,none,58,58.15,the annual data certification letter,must,strong,be submitted,by May 1 of each year,True,False,,none,"The annual data 
+certification letter is due by May 1 of each year.",,primary,openai,gpt-5,1703,171
+73,EPA-HQ-OAR-2015-0072,proposed,0,True,"Text is within a CFR regulatory section prescribing actions (not preamble or mere definition), creating binding requirements.",simple,none,58,58.15,the state,shall,strong,submit,an annual summary report of all the ambient air quality data collected by FRM and FEM monitors at SLAMS and SPM sites,False,True,Along with each certification letter,none,"(b) Along with each certification letter, the state shall submit to 
+the Regional Administrator an annual summary report of all the ambient 
+air quality data collected by FRM and FEM monitors at SLAMS and SPM 
+sites.",,primary,openai,gpt-5,1794,192
+74,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within an amendatory block revising § 58.20(b)-(e), so it is new binding regulatory text.",simple,none,58,58.15(b),the state,shall,strong,submit,the annual report(s) for data collected from January 1 to December 31 of the previous year,False,False,,revise,"The annual report(s) shall be submitted for data collected from 
+January 1 to December 31 of the previous year.",,primary,openai,gpt-5,1735,190
+75,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within regulatory text of a CFR section and is part of binding requirements; nearby headings show an amendatory block revising related sections, indicating this is binding operational text.",simple,none,58,58.15,the state,shall,strong,submit,a summary of the precision and accuracy data for all ambient air quality data collected by FRM and FEM monitors at SLAMS and SPM sites,False,True,Along with each certification letter,revise,"(c) Along with each certification letter, the state shall submit to 
+the Regional Administrator a summary of the precision and accuracy data 
+for all ambient air quality data collected by FRM and FEM monitors at 
+SLAMS and SPM sites.",,primary,openai,gpt-5,1837,211
+76,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within amendatory regulatory text revising § 58.20 and is part of binding CFR language, making it a new binding requirement.",simple,none,58,58.15,the state,shall,strong,submit,a summary of the precision and accuracy data for all ambient air quality data collected by FRM and FEM monitors at SLAMS and SPM sites,False,False,,revise,"The summary of precision and accuracy shall be 
+submitted for data collected from January 1 to December 31 of the 
+previous year.",,primary,openai,gpt-5,1764,200
+77,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within an explicit amendatory block revising § 58.20(b)–(e), making it new binding regulatory text.",simple,none,58,58.20(b),air monitoring agency,must,strong,ensure that data meet,the requirements of §§ 58.11 and 58.12 and appendix A to part 58 or an approved alternative to appendix A,False,True,Any SPM data collected using a Federal reference method (FRM) or Federal equivalent method (FEM),revise,"Any SPM data collected by an air monitoring agency using a 
+Federal reference method (FRM) or Federal equivalent method (FEM) must 
+meet the requirements of Sec.","§§ 58.11, 58.12",primary,openai,gpt-5,1787,235
+78,EPA-HQ-OAR-2015-0072,proposed,0,True,The text is within an amendatory block revising § 58.20; obligations therein are new binding text.,compound,none,58,58.20(b),an air monitoring agency,must,strong,ensure that SPM data collected using a Federal reference method (FRM) or Federal equivalent method (FEM) meet,the requirements of §§ 58.11 and 58.12 and appendix A to part 58 or an approved alternative to appendix A,False,True,for any SPM data collected by an air monitoring agency using an FRM or FEM,revise,"Sec.  58.11 and 58.12 and appendix A to 
+this part or an approved alternative to appendix A. Compliance with 
+appendix E to this part is optional but encouraged except when the 
+monitoring agency's data objectives are inconsistent with the 
+requirements in appendix E. Data collected at an SPM using a FRM or FEM 
+meeting the requirements of appendix A must be submitted to AQS 
+according to the requirements of Sec.  58.16.","§§ 58.11, 58.12; appendix A",primary,openai,gpt-5,1917,379
+78,EPA-HQ-OAR-2015-0072,proposed,1,True,The text is within an amendatory block revising § 58.20; obligations therein are new binding text.,compound,none,58,58.20(b),the monitoring agency,must,strong,submit,data collected at an SPM using an FRM or FEM meeting the requirements of appendix A to AQS according to the requirements of § 58.16,False,False,,revise,"Sec.  58.11 and 58.12 and appendix A to 
+this part or an approved alternative to appendix A. Compliance with 
+appendix E to this part is optional but encouraged except when the 
+monitoring agency's data objectives are inconsistent with the 
+requirements in appendix E. Data collected at an SPM using a FRM or FEM 
+meeting the requirements of appendix A must be submitted to AQS 
+according to the requirements of Sec.  58.16.",§ 58.16,primary,openai,gpt-5,0,0
+79,EPA-HQ-OAR-2015-0072,proposed,0,True,The sentence appears within binding regulatory text of a CFR section and functions as a permissive obligation (permission) within the operational requirements.,simple,none,58,58.11(b),Data collected by other SPMs,may,permissive,be submitted,to AQS,True,False,,none,"Data collected by other 
+SPMs may be submitted.",§ 58.16,primary,openai,gpt-5,1727,184
+80,EPA-HQ-OAR-2015-0072,proposed,0,True,The sentence is binding regulatory text within a CFR section (not preamble) that prescribes a duty with “must.”,simple,none,58,58.11,The monitoring agency,must,strong,submit,to AQS an indication of whether each SPM reporting data to AQS meets the requirements of appendices A and E,False,False,,none,"The monitoring agency must also submit to AQS an 
+indication of whether each SPM reporting data to AQS monitor meets the 
+requirements of appendices A and E.
+    (c) All data from an SPM using an FRM or FEM which has operated for 
+more than 24 months are eligible for comparison to the relevant NAAQS, 
+subject to the conditions of Sec.",,primary,openai,gpt-5,1907,191
+81,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within an amendatory block that revises section 2.6.1, making it new binding regulatory text.",simple,none,58,58.11(e),"Gaseous pollutant concentration standards used to obtain test concentrations for CO, SO2, NO, and NO2",must,strong,be certified,as EPA Protocol Gases in accordance with one of the procedures given in Reference 4 of this appendix,True,False,,revise,"* * *
+    2.6.1 Gaseous pollutant concentration standards (permeation 
+devices or cylinders of compressed gas) used to obtain test 
+concentrations for CO, SO<INF>2</INF>, NO, and NO<INF>2</INF> must 
+be EPA Protocol Gases certified in accordance with one of the 
+procedures given in Reference 4 of this appendix.",,primary,openai,gpt-5,1977,211
+82,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within an amendatory block that reads ""The revisions and additions read as follows,"" making it new binding regulatory text.",simple,none,58,58.11(e),The concentrations of EPA Protocol Gas standards used for ambient air monitoring,must,strong,be certified with a 95-percent confidence interval to have an analytical uncertainty,no more than ±2.0 percent (inclusive) of the certified concentration (tag value) of the gas mixture,True,False,,revise,"The concentrations of EPA Protocol Gas standards used 
+for ambient air monitoring must be certified with a 95-percent 
+confidence interval to have an analytical uncertainty of no more 
+than <plus-minus>2.0 percent (inclusive) of the certified 
+concentration (tag value) of the gas mixture.",,primary,openai,gpt-5,1840,215
+83,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within binding regulatory text of an appendix/section containing mandatory requirements (not preamble) and uses a mandatory modal, making it binding.",simple,none,58,58.11(e),the uncertainty,must,strong,be calculated,in accordance with the statistical procedures defined in Reference 4 of this appendix,True,False,,none,"The uncertainty must 
+be calculated in accordance with the statistical procedures defined 
+in Reference 4 of this appendix.",,primary,openai,gpt-5,1741,187
+84,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within binding regulatory text of an appendix update context and states a deontic requirement using must, making it binding even without an explicit amendatory wrapper.",compound,none,58,58.11(e),"Specialty gas producers advertising certification with the procedures provided in Reference 4 of this appendix and distributing gases as ""EPA Protocol Gas"" for ambient air monitoring purposes",must,strong,adhere,the regulatory requirements specified in 40 CFR 75.21(g),False,False,,none,"2.6.1.2 Specialty gas producers advertising certification with 
+the procedures provided in Reference 4 of this appendix and 
+distributing gases as ``EPA Protocol Gas'' for ambient air 
+monitoring purposes must adhere to the regulatory requirements 
+specified in 40 CFR 75.21(g) or not use ``EPA'' in any form of 
+advertising.",§ 75.21(g),primary,openai,gpt-5,1836,353
+84,EPA-HQ-OAR-2015-0072,proposed,1,True,"The sentence appears within binding regulatory text of an appendix update context and states a deontic requirement using must, making it binding even without an explicit amendatory wrapper.",compound,none,58,58.11(e),"Specialty gas producers advertising certification with the procedures provided in Reference 4 of this appendix and distributing gases as ""EPA Protocol Gas"" for ambient air monitoring purposes",may not,strong,use,"""EPA"" in any form of advertising",False,False,,none,"2.6.1.2 Specialty gas producers advertising certification with 
+the procedures provided in Reference 4 of this appendix and 
+distributing gases as ``EPA Protocol Gas'' for ambient air 
+monitoring purposes must adhere to the regulatory requirements 
+specified in 40 CFR 75.21(g) or not use ``EPA'' in any form of 
+advertising.",,primary,openai,gpt-5,0,0
+85,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within regulatory text of an appendix with prescriptive requirements, functioning as binding text in the CFR context.",simple,none,58,58.11(e),Monitoring organizations,must,strong,provide,information to the EPA on the specialty gas producers they use on an annual basis,False,False,,none,"Monitoring organizations must provide information to 
+the EPA on the specialty gas producers they use on an annual basis.",,primary,openai,gpt-5,1742,180
+86,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within regulatory text of a CFR section (Part 58, § 58.11(e)) that sets programmatic requirements and is not preamble or mere definition; it imposes a clear duty on PQAOs.",compound,none,58,58.11(e),PQAOs,must,strong,participate,the EPA Ambient Air Protocol Gas Verification Program at least once every 5 years,False,True,when requested by the EPA,none,"PQAOs, when requested by the EPA, must participate in the EPA 
+Ambient Air Protocol Gas Verification Program at least once every 5 
+years by sending a new unused standard to a designated verification 
+laboratory.",,primary,openai,gpt-5,1789,318
+86,EPA-HQ-OAR-2015-0072,proposed,1,True,"The sentence appears within regulatory text of a CFR section (Part 58, § 58.11(e)) that sets programmatic requirements and is not preamble or mere definition; it imposes a clear duty on PQAOs.",compound,none,58,58.11(e),PQAOs,must,strong,send,a new unused standard to a designated verification laboratory,False,True,when requested by the EPA,none,"PQAOs, when requested by the EPA, must participate in the EPA 
+Ambient Air Protocol Gas Verification Program at least once every 5 
+years by sending a new unused standard to a designated verification 
+laboratory.",,primary,openai,gpt-5,0,0
+87,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within regulatory text prescribing program procedures (a non-preamble binding section) and uses the mandatory modal 'must', creating new or restated binding requirements.",compound,none,58,58.11(e),PQAOs with less than or equal to five monitoring sites,must,strong,collect,five valid performance evaluation audits each year,False,False,,none,"For PQAOs with less than or equal to five 
+monitoring sites, five valid performance evaluation audits must be 
+collected and reported each year.",,primary,openai,gpt-5,1765,301
+87,EPA-HQ-OAR-2015-0072,proposed,1,True,"The sentence appears within regulatory text prescribing program procedures (a non-preamble binding section) and uses the mandatory modal 'must', creating new or restated binding requirements.",compound,none,58,58.11(e),PQAOs with less than or equal to five monitoring sites,must,strong,report,five valid performance evaluation audits each year,False,False,,none,"For PQAOs with less than or equal to five 
+monitoring sites, five valid performance evaluation audits must be 
+collected and reported each year.",,primary,openai,gpt-5,0,0
+88,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence is part of binding regulatory text within an appendix procedure section prescribing required annual audits, functioning as new or existing binding text in a non-preamble context.",simple,none,58,58.11(e),PQAOs with greater than five monitoring sites,must,strong,collect and report,eight valid performance evaluation audits each year,False,False,,none,"For PQAOs with greater than five 
+monitoring sites, eight valid performance evaluation audits must be 
+collected and reported each year.",,primary,openai,gpt-5,1751,190
+89,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within regulatory text of an appendix presented as binding requirements, functioning as amendatory binding text.",simple,none,58,58.11(e),Siting of the PEP monitor,must,strong,be consistent with,section 3.2.3.4(c) of this appendix,False,False,,none,"Siting of the PEP monitor must be consistent with section 3.2.3.4(c) 
+of this appendix.",,primary,openai,gpt-5,1742,184
+90,EPA-HQ-OAR-2015-0072,proposed,0,True,The sentence appears within regulatory text prescribing QA requirements and uses mandatory language (“must”) in a binding context.,simple,none,58,58.11(e),any horizontal distance greater than 4 meters and any vertical distance greater than one meter,must,strong,be reported,to the EPA regional PEP coordinator,True,False,,none,"However, any horizontal distance greater than 4 
+meters and any vertical distance greater than one meter must be 
+reported to the EPA regional PEP coordinator.",,primary,openai,gpt-5,1766,185
+91,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within regulatory text prescribing requirements (appendix procedures) and contains a clear modal 'must' imposing a duty, thus constituting binding text.",simple,none,58,58.11(e),a primary quality assurance organization,must,strong,perform the listed quality assurance actions,for every monitor designated as a primary monitor,False,False,,none,"Additionally for every 
+monitor designated as a primary monitor, a primary quality assurance 
+organization must:
+* * * * *
+    4.2.1 Collocated Quality Control Sampler Precision Estimate for 
+PM10, PM2.5, and Pb. Precision is estimated via duplicate 
+measurements from collocated samplers.",,primary,openai,gpt-5,1844,189
+93,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within an amendatory block revising appendix B to part 58, making it new binding regulatory text.",simple,none,58,58.Appendix B(2.6.1),"Gaseous pollutant concentration standards (permeation devices or cylinders of compressed gas) used to obtain test concentrations for CO, SO2, NO, and NO2",must,strong,be certified,as EPA Protocol Gases in accordance with one of the procedures given in Reference 4 of this appendix,True,False,,revise,"* * *
+    2.6.1 Gaseous pollutant concentration standards (permeation 
+devices or cylinders of compressed gas) used to obtain test 
+concentrations for CO, SO<INF>2</INF>, NO, and NO<INF>2</INF> must 
+be EPA Protocol Gases certified in accordance with one of the 
+procedures given in Reference 4 of this appendix.",,primary,openai,gpt-5,1951,226
+94,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within an amendatory block introduced by 'The revisions and additions read as follows,' making it new binding regulatory text.",simple,none,58,58.11(e),The concentrations of EPA Protocol Gas standards used for ambient air monitoring,must,strong,be certified with a 95-percent confidence interval to have an analytical uncertainty of no more than ±2.0 percent of the certified concentration (tag value) of the gas mixture,analytical uncertainty limit for certification,True,False,,revise,"The concentrations of EPA Protocol Gas standards used 
+for ambient air monitoring must be certified with a 95-percent 
+confidence interval to have an analytical uncertainty of no more 
+than <plus-minus>2.0 percent (inclusive) of the certified 
+concentration (tag value) of the gas mixture.",Reference 4 of Appendix B to Part 58,primary,openai,gpt-5,1852,229
+95,EPA-HQ-OAR-2015-0072,proposed,0,True,"It is binding operational text within a regulatory section (not preamble), prescribing how uncertainty must be calculated.",simple,none,58,58.11(e),The uncertainty,must,strong,be calculated,in accordance with the statistical procedures defined in Reference 4 of this appendix,True,False,,none,"The uncertainty must 
+be calculated in accordance with the statistical procedures defined 
+in Reference 4 of this appendix.",,primary,openai,gpt-5,1746,178
+96,EPA-HQ-OAR-2015-0072,proposed,0,True,The sentence appears in regulatory text within CFR part 58 and functions as binding rule language; no indication it is preamble or mere definition.,compound,none,58,58.11(e),"Specialty gas producers advertising certification with the procedures provided in Reference 4 of this appendix and distributing gases as ""EPA Protocol Gas"" for ambient air monitoring purposes",must,strong,adhere,the regulatory requirements specified in 40 CFR 75.21(g),False,False,,none,"2.6.1.2 Specialty gas producers advertising certification with 
+the procedures provided in Reference 4 of this appendix and 
+distributing gases as ``EPA Protocol Gas'' for ambient air 
+monitoring purposes must adhere to the regulatory requirements 
+specified in 40 CFR 75.21(g) or not use ``EPA'' in any form of 
+advertising.",§ 75.21(g),primary,openai,gpt-5,1841,348
+96,EPA-HQ-OAR-2015-0072,proposed,1,True,The sentence appears in regulatory text within CFR part 58 and functions as binding rule language; no indication it is preamble or mere definition.,compound,none,58,58.11(e),"Specialty gas producers advertising certification with the procedures provided in Reference 4 of this appendix and distributing gases as ""EPA Protocol Gas"" for ambient air monitoring purposes",may not,strong,use,"""EPA"" in any form of advertising",False,False,,none,"2.6.1.2 Specialty gas producers advertising certification with 
+the procedures provided in Reference 4 of this appendix and 
+distributing gases as ``EPA Protocol Gas'' for ambient air 
+monitoring purposes must adhere to the regulatory requirements 
+specified in 40 CFR 75.21(g) or not use ``EPA'' in any form of 
+advertising.",,primary,openai,gpt-5,0,0
+97,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within CFR regulatory text specifying procedural requirements and is part of binding regulatory provisions, not preamble or mere definition.",simple,none,58,58.11(e),PSD PQAOs,must,strong,provide,information to the PSD reviewing authority on the specialty gas producers they use (or will use) for the duration of the PSD monitoring project,False,False,,none,"The PSD PQAOs must provide information to the PSD 
+reviewing authority on the specialty gas producers they use (or will 
+use) for the duration of the PSD monitoring project.",,primary,openai,gpt-5,1775,195
+98,EPA-HQ-OAR-2015-0072,proposed,0,True,The sentence appears within binding regulatory text in an appendix context and imposes a requirement on PSD PQAOs to update information; it is not preamble or a mere definition.,simple,none,58,58.11(e),PSD PQAOs,must,strong,update,the information provided to the PSD reviewing authority on the specialty gas producers they use,False,True,if there is a change in the specialty gas producers used,none,"This 
+information can be provided in the QAPP or monitoring plan, but must 
+be updated if there is a change in the specialty gas producers used.",,primary,openai,gpt-5,1765,205
+99,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence is binding operational text within a regulatory appendix section describing procedures, not preamble; it imposes a quantitative requirement.",compound,none,58,58.11(e),PQAOs with less than or equal to five monitoring sites,must,strong,collect,five valid performance evaluation audits each year,False,False,,none,"For PQAOs with less than or equal to five monitoring sites, five 
+valid performance evaluation audits must be collected and reported 
+each year.",,primary,openai,gpt-5,1763,293
+99,EPA-HQ-OAR-2015-0072,proposed,1,True,"The sentence is binding operational text within a regulatory appendix section describing procedures, not preamble; it imposes a quantitative requirement.",compound,none,58,58.11(e),PQAOs with less than or equal to five monitoring sites,must,strong,report,five valid performance evaluation audits each year,False,False,,none,"For PQAOs with less than or equal to five monitoring sites, five 
+valid performance evaluation audits must be collected and reported 
+each year.",,primary,openai,gpt-5,0,0
+100,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within binding regulatory text of an appendix section prescribing requirements (not mere definition or preamble), making it a binding obligation.",simple,none,58,58.11(e),Primary quality assurance organizations (PQAOs) with greater than five monitoring sites,must,strong,collect and report,eight valid performance evaluation audits each year,False,False,,none,"For PQAOs with greater than five monitoring sites, eight 
+valid performance evaluation audits must be collected and reported 
+each year.",,primary,openai,gpt-5,1754,191
+101,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within regulatory text prescribing program requirements, functioning as binding text in the CFR section context.",simple,none,58,58.11(e),Siting of the PEP monitor,must,strong,be consistent with,section 3.2.3.4(c) of this appendix,False,False,,none,"Siting of the PEP monitor must be 
+consistent with section 3.2.3.4(c) of this appendix.",,primary,openai,gpt-5,1750,183
+102,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence is part of binding regulatory text within a CFR appendix section and contains mandatory language (must), not a preamble or mere definition.",simple,none,58,58.11(e),the PQAO or responsible party for PEP monitor siting,must,strong,report,any horizontal distance greater than 4 meters and any vertical distance greater than one meter,True,False,,none,"However, any 
+horizontal distance greater than 4 meters and any vertical distance 
+greater than one meter must be reported to the EPA regional PEP 
+coordinator.",,primary,openai,gpt-5,1763,196
+103,EPA-HQ-OAR-2015-0072,proposed,0,True,"The text is prescriptive program requirements within CFR regulatory text (appendix procedures) and functions as binding operational requirements, even though no explicit amendatory header is shown in the excerpt.",compound,none,58,58.11(e),a primary quality assurance organization,must,strong,have evaluated,each method designation,False,True,Additionally for every monitor designated as a primary monitor,none,"Additionally for every monitor designated as a primary monitor, 
+a primary quality assurance organization must:
+    3.2.4.1 Have each method designation evaluated each year; and,
+    3.2.4.2 Have all FRM, FEM, or ARM samplers subject to a PEP 
+audit at least once every 6 years, which equates to approximately 15 
+percent of the monitoring sites audited each year.",,primary,openai,gpt-5,1884,314
+103,EPA-HQ-OAR-2015-0072,proposed,1,True,"The text is prescriptive program requirements within CFR regulatory text (appendix procedures) and functions as binding operational requirements, even though no explicit amendatory header is shown in the excerpt.",compound,none,58,58.11(e),a primary quality assurance organization,must,strong,have subject to a PEP audit,"all FRM, FEM, or ARM samplers",False,True,Additionally for every monitor designated as a primary monitor,none,"Additionally for every monitor designated as a primary monitor, 
+a primary quality assurance organization must:
+    3.2.4.1 Have each method designation evaluated each year; and,
+    3.2.4.2 Have all FRM, FEM, or ARM samplers subject to a PEP 
+audit at least once every 6 years, which equates to approximately 15 
+percent of the monitoring sites audited each year.",,primary,openai,gpt-5,0,0
+105,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within an amendatory block adding text to Appendix C to part 58, making it binding regulatory text.",simple,none,58,58.11(e),"NPAP, PM2.5, PEP, and Pb-PEP",must,strong,be implemented,for ambient air monitoring data used for NAAQS decisions,True,True,if data is used for NAAQS decisions,add,"\2\ Corrected concentration, if applicable for open path analyzers.
+\3\ NPAP, PM2.5, PEP, and Pb-PEP must be implemented if data is used for NAAQS decisions otherwise implementation is at PSD reviewing authority
+  discretion.",,primary,openai,gpt-5,1817,201
+106,EPA-HQ-OAR-2015-0072,proposed,0,True,"The text is within an amendatory block adding sections 2.2 and 2.2.1, making it new binding regulatory text.",compound,none,58,58.11(e),"PM10, PM2.5, or PM10-2.5 continuous FEMs with existing valid designations",may,permissive,be calibrated,using network data from collocated FRM and continuous FEM data,True,True,under the following provisions,add,"* * * *
+    2.2 PM<INF>10</INF>, PM<INF>2.5</INF>, or PM<INF>10-2.5</INF> 
+continuous FEMs with existing valid designations may be calibrated 
+using network data from collocated FRM and continuous FEM data under 
+the following provisions:
+    2.2.1 Data to demonstrate a calibration may include valid data 
+from State, local, or Tribal air agencies or data collected by 
+instrument manufacturers in accordance with 40 CFR 53.35 or other 
+data approved by the Administrator.",,primary,openai,gpt-5,2006,348
+106,EPA-HQ-OAR-2015-0072,proposed,1,True,"The text is within an amendatory block adding sections 2.2 and 2.2.1, making it new binding regulatory text.",compound,none,58,58.11(e),Data to demonstrate a calibration,may,permissive,include,"valid data from State, local, or Tribal air agencies or data collected by instrument manufacturers in accordance with 40 CFR 53.35 or other data approved by the Administrator",False,False,,add,"* * * *
+    2.2 PM<INF>10</INF>, PM<INF>2.5</INF>, or PM<INF>10-2.5</INF> 
+continuous FEMs with existing valid designations may be calibrated 
+using network data from collocated FRM and continuous FEM data under 
+the following provisions:
+    2.2.1 Data to demonstrate a calibration may include valid data 
+from State, local, or Tribal air agencies or data collected by 
+instrument manufacturers in accordance with 40 CFR 53.35 or other 
+data approved by the Administrator.",40 CFR 53.35,primary,openai,gpt-5,0,0
+107,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within an amendatory block adding text to Appendix C to Part 58, making it new binding regulatory text.",compound,none,58,58.11(e),instrument manufacturer of record,may,permissive,initiate,a request to update a designated method’s calibration,False,False,,add,"2.2.2 A request to update a designated methods calibration may 
+be initiated by the
+
+[[Page 5709]]
+
+instrument manufacturer of record or the EPA Administrator.",,primary,openai,gpt-5,1813,285
+107,EPA-HQ-OAR-2015-0072,proposed,1,True,"The sentence appears within an amendatory block adding text to Appendix C to Part 58, making it new binding regulatory text.",compound,none,58,58.11(e),EPA Administrator,may,permissive,initiate,a request to update a designated method’s calibration,False,False,,add,"2.2.2 A request to update a designated methods calibration may 
+be initiated by the
+
+[[Page 5709]]
+
+instrument manufacturer of record or the EPA Administrator.",,primary,openai,gpt-5,0,0
+108,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within regulatory amendatory text adding requirements for FEM calibration procedures, making it binding.",simple,none,58,58.11(e),"Requests for approval of an updated PM10, PM2.5, or PM10-2.5 continuous FEM calibration",must,strong,meet,the general submittal requirements of section 2.7 of this appendix,False,False,,add,"2.2.3 Requests for approval of an updated PM<INF>10</INF>, 
+PM<INF>2.5</INF>, or PM<INF>10-2.5</INF> continuous FEM calibration 
+must meet the general submittal requirements of section 2.7 of this 
+appendix.",section 2.7 of this appendix,primary,openai,gpt-5,1848,206
+109,EPA-HQ-OAR-2015-0072,proposed,0,True,The sentence appears within regulatory text of an appendix section (non-preamble) that sets requirements and permissions; such non-amendatory binding-text sections are treated as binding.,simple,none,58,58.11(e),an updated candidate calibration,may,permissive,be limited,to the sites where both methods are in use,True,True,For cases with a small number of collocated FRMs and continuous FEMs sites,none,"For cases 
+with a small number of collocated FRMs and continuous FEMs sites, an 
+updated candidate calibration may be limited to the sites where both 
+methods are in use.",,primary,openai,gpt-5,1792,206
+110,EPA-HQ-OAR-2015-0072,proposed,0,True,"It appears within regulatory text of appendix/section guidance under CFR amendatory content and prescribes permissible content for submissions, making it binding within the amendment context.",simple,none,58,58.11(e),Data included in a candidate method updated calibration,may,permissive,include,a subset of sites where there is a large grouping of sites in one part of the country such that the updated calibration would be representative of the country as a whole,False,False,,none,"2.2.5 Data included in a candidate method updated calibration 
+may include a subset of sites where there is a large grouping of 
+sites in one part of the country such that the updated calibration 
+would be representative of the country as a whole.",,primary,openai,gpt-5,1826,213
+113,EPA-HQ-OAR-2015-0072,proposed,0,True,"It appears within prescriptive appendix text that functions as binding regulatory requirements for implementing § 58.11(e), even without an explicit amendatory wrapper.",simple,none,58,58.11(e),Data utilized as the basis of the updated calibration,may,permissive,be obtained,by accessing EPA's AQS database,True,False,,none,"2.2.12 Data utilized as the basis of the updated calibration may 
+be obtained by accessing EPA's AQS database.",,primary,openai,gpt-5,1760,189
+114,EPA-HQ-OAR-2015-0072,proposed,0,True,The text appears within CFR regulatory appendix guidance language as part of § 58.11(e) and prescribes a methodological requirement (years of data to include) using a deontic modal; treat as binding regulatory text outside preamble.,simple,none,58,58.11(e),candidate method calibration years of data,may,permissive,include,two recent years where the certification period for the previous year's data (May 1 of each year) has passed,False,False,,none,"2.2.13 Years of data to use in a candidate method calibration 
+should include two recent years where we are past the certification 
+period for the previous year's data, which is May 1st of each year.",,primary,openai,gpt-5,1793,218
+115,EPA-HQ-OAR-2015-0072,proposed,0,True,The text appears within regulatory amendatory content providing procedural requirements and permissions for calibrations; it sets permissive binding text within the section.,compound,none,58,58.11(e),data from additional years,must,strong,demonstrate,"that a larger number of sites are expected to meet bias MQO, especially at sites near the level of the NAAQS for the PM indicator of interest",False,False,,none,"Data from these additional years need to 
+minimally demonstrate that a larger number of sites are expected to 
+meet bias MQO especially at sites near the level of the NAAQS for 
+the PM indicator of interest
+    2.2.15 Outliers may be excluded using routine outlier tests.",,primary,openai,gpt-5,1824,304
+115,EPA-HQ-OAR-2015-0072,proposed,1,True,The text appears within regulatory amendatory content providing procedural requirements and permissions for calibrations; it sets permissive binding text within the section.,compound,none,58,58.11(e),outliers,may,permissive,be excluded,using routine outlier tests,True,False,,none,"Data from these additional years need to 
+minimally demonstrate that a larger number of sites are expected to 
+meet bias MQO especially at sites near the level of the NAAQS for 
+the PM indicator of interest
+    2.2.15 Outliers may be excluded using routine outlier tests.",,primary,openai,gpt-5,0,0
+117,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within regulatory text listing procedural provisions (not preamble) and uses a modal (may), making it binding permissive text within the CFR section.",simple,none,58,58.11(e),Other improvements to a PM continuous method,may,permissive,be included,as part of a recommended update,True,True,so long as appropriate testing is conducted with input from EPA's Office of Research and Development (ORD) Reference and Equivalent (R&E) Methods Designation program,none,"2.2.17 Other improvements to a PM continuous method may be 
+included as part of a recommended update so long as appropriate 
+testing is conducted with input from EPA's Office of Research and 
+Development (ORD) Reference and Equivalent (R&E) Methods Designation 
+program.",§ 53.4,primary,openai,gpt-5,1803,224
+118,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within appendix amendatory text for part 58 (appendix E context preceding an explicit amendatory instruction for appendix D), making it new binding regulatory text, and it contains a clear actor with a mandatory modal.",simple,none,58,58.11(e),Manufacturers interested in improving an instrument's performance through an updated factory calibration,must,strong,submit,a written modification request with supporting rationale,False,False,,revise,"2.2.19 Manufacturers interested in improving instrument's 
+performance through an updated factory calibration must submit a 
+written modification request to EPA with supporting rationale.",,primary,openai,gpt-5,1780,207
+119,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence is binding regulatory text within a CFR section prescribing requirements for monitoring networks, not preamble or a mere definition.",simple,none,58,58.11(e),"State, and where applicable local, agencies",must,strong,operate,the minimum number of required PM2.5 SLAMS sites listed in table D-5 to this appendix,False,False,,none,"4.7.1 * * *
+    (a) State, and where applicable local, agencies must operate the 
+minimum number of required PM<INF>2.5</INF> SLAMS sites listed in 
+table D-5 to this appendix.",,primary,openai,gpt-5,1810,193
+120,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within regulatory text of Part 58 and functions as binding monitoring requirements; it is part of amendatory/regulatory text rather than preamble, thus creating enforceable obligation.",simple,none,58,58.11(e),the EPA Regional Administrator,must,strong,approve,deviations from the PM2.5 monitoring requirements,True,False,,none,"Deviations from 
+these PM<INF>2.5</INF> monitoring requirements must be approved by 
+the EPA Regional Administrator.",,primary,openai,gpt-5,1774,192
+121,EPA-HQ-OAR-2015-0072,proposed,0,True,The sentence appears within regulatory text being revised/added (amendatory context) and states a clear duty with 'must'.,simple,none,58,58.11(e),"The state, or where appropriate, local agencies",must,strong,operate,continuous PM2.5 analyzers equal to at least one-half (rounded up) of the minimum required sites listed in table D-5 to this appendix,False,False,,revise,"The state, or where appropriate, local agencies must operate 
+continuous PM<INF>2.5</INF> analyzers equal to at least one-half 
+(round up) the minimum required sites listed in table D-5 to this 
+appendix.",,primary,openai,gpt-5,1809,207
+122,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within regulatory text of appendix D to part 58 that is being revised/amended in this rulemaking, making it new binding text.",simple,none,58,58.11(e),At least one required continuous analyzer in each MSA,must,strong,be collocated,with one of the required FRM/FEM monitors,True,True,"unless at least one of the required FRM/FEM monitors is itself a continuous FEM monitor, in which case no collocation requirement applies",revise,"At least one required continuous analyzer in each MSA must 
+be collocated with one of the required FRM/FEM monitors, unless at 
+least one of the required FRM/FEM monitors is itself a continuous 
+FEM monitor in which case no collocation requirement applies.",,primary,openai,gpt-5,1866,220
+123,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within amendatory regulatory text that revises appendix content, making it new binding text.",compound,none,58,58.11(e),State and local air monitoring agencies,must,strong,use methodologies,for these required continuous analyzers,False,False,,revise,"State 
+and local air monitoring agencies must use methodologies and quality 
+assurance/quality control (QA/QC) procedures approved by the EPA 
+Regional Administrator for these required continuous analyzers.",,primary,openai,gpt-5,1802,294
+123,EPA-HQ-OAR-2015-0072,proposed,1,True,"The sentence appears within amendatory regulatory text that revises appendix content, making it new binding text.",compound,none,58,58.11(e),State and local air monitoring agencies,must,strong,use quality assurance/quality control (QA/QC) procedures approved by the EPA Regional Administrator,for these required continuous analyzers,False,False,,revise,"State 
+and local air monitoring agencies must use methodologies and quality 
+assurance/quality control (QA/QC) procedures approved by the EPA 
+Regional Administrator for these required continuous analyzers.",,primary,openai,gpt-5,0,0
+124,EPA-HQ-OAR-2015-0072,proposed,0,True,"This is binding regulatory text within a CFR appendix prescribing conduct, not a preamble or mere definition.",simple,none,58,58.11(e),Operators subject to this appendix,must,strong,follow,the probe and monitoring path siting criteria discussed in this appendix to the maximum extent possible,False,False,,none,"[[Page 5710]]
+
+    (b) The probe and monitoring path siting criteria discussed in 
+this appendix must be followed to the maximum extent possible.",,primary,openai,gpt-5,1738,182
+126,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within binding regulatory text (appendix/provision language using must) rather than preamble, making it enforceable even without an explicit amendatory header.",compound,none,58,58.11(e),the reasons,must,strong,be thoroughly documented,in a written request for a waiver,True,True,In any such case where deviation from the siting criteria is necessary,none,"In any such case, the reasons 
+must be thoroughly documented in a written request for a waiver that 
+describes how and why the proposed siting deviates from the 
+criteria.",,primary,openai,gpt-5,1726,318
+126,EPA-HQ-OAR-2015-0072,proposed,1,True,"The sentence appears within binding regulatory text (appendix/provision language using must) rather than preamble, making it enforceable even without an explicit amendatory header.",compound,none,58,58.11(e),the written request for a waiver,must,strong,describe,how and why the proposed siting deviates from the criteria,False,True,In any such case where deviation from the siting criteria is necessary,none,"In any such case, the reasons 
+must be thoroughly documented in a written request for a waiver that 
+describes how and why the proposed siting deviates from the 
+criteria.",,primary,openai,gpt-5,0,0
+127,EPA-HQ-OAR-2015-0072,proposed,0,True,It appears in regulatory text within a CFR appendix/section setting enforceable criteria and contains a binding requirement that exceptions must be approved through waiver provisions.,simple,none,58,58.11(e),"exceptions to specific siting criteria phrased with ""must""",must,strong,be approved,through the waiver provisions,True,False,,none,"Specific siting criteria that are phrased with a ``must'' 
+are defined as requirements and exceptions must be approved through 
+the waiver provisions.",,primary,openai,gpt-5,1773,186
+128,EPA-HQ-OAR-2015-0072,proposed,0,True,"It is binding regulatory text in a CFR appendix using the modal must, not preamble or definition scope clarification.",simple,none,58,58.11(e),the probe,must,strong,be located,greater than or equal to 2.0 meters and less than or equal to 15.0 meters above ground level,True,True,"for all O3 and SO2 monitoring, and for neighborhood or larger spatial scale Pb, PM10, PM10-2.5, PM2.5, NO2, and CO sites",none,"Monitors and Samplers With Probe Inlets
+
+2.1 Horizontal and Vertical Placement
+
+    The probe must be located greater than or equal to 2.0 and less 
+than or equal to 15. meters above ground level for all O<INF>3</INF> 
+and SO<INF>2</INF> monitoring, and for neighborhood or larger 
+spatial scale Pb, PM<INF>10</INF>, PM<INF>10-2.5</INF>, 
+PM<INF>2.5</INF>, NO<INF>2</INF>, and CO sites.",,primary,openai,gpt-5,1971,228
+129,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence is prescriptive regulatory text within a CFR section detailing siting criteria and uses the modal 'must', indicating a binding requirement.",simple,none,58,58.11(e),Middle scale CO and NO2 monitors,must,strong,have,sampler inlets greater than or equal to 2.0 meters and less than or equal to 15 meters above ground level,False,False,,none,"Middle scale CO and 
+NO<INF>2</INF> monitors must also have sampler inlets greater than 
+or equal to 2.0 and less than or equal to 15 meters above ground 
+level.",,primary,openai,gpt-5,1871,200
+130,EPA-HQ-OAR-2015-0072,proposed,0,True,This is operative monitoring requirement text within a CFR section; it sets a binding technical standard for site inlet heights.,simple,none,58,58.11(e),Middle scale PM10-2.5 sites,are required to,strong,have,sampler inlets greater than or equal to 2.0 meters and less than or equal to 7.0 meters above ground level,False,False,,none,"Middle scale PM<INF>10-2.5</INF> sites are required to have 
+sampler inlets greater than or equal to 2.0 and less than or equal 
+to 7.0 meters above ground level.",,primary,openai,gpt-5,1883,201
+131,EPA-HQ-OAR-2015-0072,proposed,0,True,Text is regulatory requirement language in a CFR section prescribing technical criteria; it states a clear duty with strong modal.,simple,none,58,58.11(e),"Microscale Pb, PM10, PM10-2.5, and PM2.5 sites",are required to,strong,have sampler inlets,greater than or equal to 2.0 and less than or equal to 7.0 meters above ground level,True,False,,none,"Microscale Pb, PM<INF>10</INF>, 
+PM<INF>10-2.5</INF>, and PM<INF>2.5</INF> sites are required to have 
+sampler inlets greater than or equal to 2.0 and less than or equal 
+to 7.0 meters above ground level.",,primary,openai,gpt-5,1938,211
+132,EPA-HQ-OAR-2015-0072,proposed,0,True,"This sentence appears within regulatory text of § 58.11(e) prescribing technical siting requirements and functions as binding rule text, even without an explicit amendatory wrapper.",simple,none,58,58.11(e),Microscale near-road NO2 monitoring sites,are required to,strong,have,sampler inlets greater than or equal to 2.0 meters and less than or equal to 7.0 meters above ground level,False,False,,none,"Microscale near-road 
+NO<INF>2</INF> monitoring sites are required to have sampler inlets 
+greater than or equal to 2.0 and less than or equal to 7.0 meters 
+above ground level.",,primary,openai,gpt-5,1861,213
+133,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence is binding regulatory text within a CFR section prescribing technical siting requirements, not a preamble or mere definition.",simple,none,58,58.11(e),probe inlets for microscale carbon monoxide monitors used to measure concentrations near roadways,must,strong,be,greater than or equal to 2.0 meters and less than or equal to 7.0 meters above ground level,False,False,,none,"The probe inlets for microscale carbon monoxide 
+monitors that are being used to measure concentrations near roadways 
+must be greater than or equal to 2.0 and less than or equal to 7.0 
+meters above ground level.",,primary,openai,gpt-5,1841,204
+134,EPA-HQ-OAR-2015-0072,proposed,0,True,"Text appears in regulatory requirements section language prescribing technical siting criteria, functioning as binding operative text.",compound,none,58,58.11(e),probe inlets for microscale carbon monoxide monitors measuring concentrations near roadways in downtown areas or urban street canyons,must,strong,be,greater than or equal to 2.5 meters above ground level,False,False,,none,"Those probe inlets for microscale carbon 
+monoxide monitors measuring concentrations near roadways in downtown 
+areas or urban street canyons must be greater than or equal to 2.5 
+and less than or equal to 3.5 meters above ground level.",,primary,openai,gpt-5,1833,321
+134,EPA-HQ-OAR-2015-0072,proposed,1,True,"Text appears in regulatory requirements section language prescribing technical siting criteria, functioning as binding operative text.",compound,none,58,58.11(e),probe inlets for microscale carbon monoxide monitors measuring concentrations near roadways in downtown areas or urban street canyons,must,strong,be,less than or equal to 3.5 meters above ground level,False,False,,none,"Those probe inlets for microscale carbon 
+monoxide monitors measuring concentrations near roadways in downtown 
+areas or urban street canyons must be greater than or equal to 2.5 
+and less than or equal to 3.5 meters above ground level.",,primary,openai,gpt-5,0,0
+135,EPA-HQ-OAR-2015-0072,proposed,0,True,"This is binding technical requirement language within CFR regulatory text, not a preamble or mere definition.",compound,none,58,58.11(e),The probe,must,strong,be located,"at least 1.0 meter vertically or horizontally away from any supporting structure, walls, parapets, penthouses, etc.",True,False,,none,"The probe 
+must be at least 1.0 meter vertically or horizontally away from any 
+supporting structure, walls, parapets, penthouses, etc., and away 
+from dusty or dirty areas.",,primary,openai,gpt-5,1777,286
+135,EPA-HQ-OAR-2015-0072,proposed,1,True,"This is binding technical requirement language within CFR regulatory text, not a preamble or mere definition.",compound,none,58,58.11(e),The probe,must,strong,be located,away from dusty or dirty areas,True,False,,none,"The probe 
+must be at least 1.0 meter vertically or horizontally away from any 
+supporting structure, walls, parapets, penthouses, etc., and away 
+from dusty or dirty areas.",,primary,openai,gpt-5,0,0
+137,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within binding regulatory text in a CFR section prescribing technical requirements, not in preamble or pure definition, so it is a new/operative obligation.",simple,none,58,58.11(e),the probe inlet,must,strong,have,unrestricted airflow pursuant to paragraph (b) of this section,False,True,To avoid this interference,none,"To avoid this interference, the 
+probe inlet must have unrestricted airflow pursuant to paragraph (b) 
+of this section and should be located away from obstacles.",paragraph (b) of this section,primary,openai,gpt-5,1784,312
+137,EPA-HQ-OAR-2015-0072,proposed,1,True,"The sentence appears within binding regulatory text in a CFR section prescribing technical requirements, not in preamble or pure definition, so it is a new/operative obligation.",simple,none,58,58.11(e),the probe inlet,must,strong,be located,at a horizontal distance from obstacles of at least twice the height the obstacle protrudes above the probe inlet,True,False,,none,"To avoid this interference, the 
+probe inlet must have unrestricted airflow pursuant to paragraph (b) 
+of this section and should be located away from obstacles.",,primary,openai,gpt-5,0,0
+138,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears in regulatory text prescribing technical siting criteria and uses mandatory modal 'must', making it binding operational text.",simple,none,58,58.11(e),The horizontal distance from the obstacle to the probe inlet,must,strong,be at least,twice the height that the obstacle protrudes above the probe inlet,False,False,,none,"The 
+horizontal distance from the obstacle to the probe inlet must be at 
+least twice the height that the obstacle protrudes above the probe 
+inlet.",,primary,openai,gpt-5,1762,189
+140,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence is binding regulatory text within a CFR section prescribing technical siting criteria, not preamble or mere definition.",simple,none,58,58.11(e),A probe inlet,must,strong,have,unrestricted airflow with no obstructions in a continuous arc of at least 270 degrees,False,False,,none,"A probe inlet must have unrestricted 
+airflow with no obstructions (as defined in paragraph (a) of this 
+section) in a continuous arc of at least 270 degrees.",paragraph (a) of this section,primary,openai,gpt-5,1743,190
+141,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence is part of binding regulatory text within a CFR section (not preamble) specifying technical siting requirements, thus constituting a binding obligation.",simple,none,58,58.11(e),the arc,must,strong,include,the predominant wind direction for the season of greatest pollutant concentration potential,False,False,,none,"This arc must include the predominant wind 
+direction for the season of greatest pollutant concentration 
+potential.",,primary,openai,gpt-5,1719,185
+142,EPA-HQ-OAR-2015-0072,proposed,0,True,The sentence is regulatory requirement text within a CFR section (not preamble) and prescribes a clear obligation for near-road monitoring stations.,simple,none,58,58.11(e),near-road monitoring stations (monitor probe),shall,strong,have,"an unobstructed air flow between the monitor probe and the outside nearest edge of the traffic lanes of the target road segment, with no obstacles at or above the height of the monitor probe",False,False,,none,"For near-road monitoring stations, the monitor probe shall 
+have an unobstructed air flow, where no obstacles exist at or above 
+the height of the monitor probe, between the monitor probe and the 
+outside nearest edge of the traffic lanes of the target road 
+segment.",,primary,openai,gpt-5,1803,211
+143,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence is binding technical text within CFR regulatory requirements (appendix to part 58) prescribing siting criteria; it contains clear must/should directives, not preamble or definition scope-clarification.",compound,none,58,58.11(e),the probe inlet,no_modal_implicit,permissive,be located,20 meters or more from the drip line of trees,True,True,To reduce possible interference/obstruction from trees affecting airflow around the probe inlet,none,"To reduce this possible 
+interference/obstruction, the probe inlet should be 20 meters or 
+more from the drip line of trees and must be at least 10 meters from 
+the drip line of trees.",,primary,openai,gpt-5,1794,332
+143,EPA-HQ-OAR-2015-0072,proposed,1,True,"The sentence is binding technical text within CFR regulatory requirements (appendix to part 58) prescribing siting criteria; it contains clear must/should directives, not preamble or definition scope-clarification.",compound,none,58,58.11(e),the probe inlet,must,strong,be located,at least 10 meters from the drip line of trees,True,True,To reduce possible interference/obstruction from trees affecting airflow around the probe inlet,none,"To reduce this possible 
+interference/obstruction, the probe inlet should be 20 meters or 
+more from the drip line of trees and must be at least 10 meters from 
+the drip line of trees.",,primary,openai,gpt-5,0,0
+144,EPA-HQ-OAR-2015-0072,proposed,0,True,The sentence appears in binding regulatory text within 40 CFR part 58 appendix E; it is not preamble or a mere definition and imposes a clear requirement.,simple,none,58,58.11(e),the probe inlet,must,strong,meet,the distance requirements of section 2.3 of this appendix,False,True,If a tree or trees is an obstacle,none,"If a tree or trees is an obstacle, the probe 
+inlet must meet the distance requirements of section 2.3 of this 
+appendix.
+    (b) The scavenging effect of trees is greater for O<INF>3</INF> 
+than for other criteria pollutants.",section 2.3 of this appendix,primary,openai,gpt-5,1849,204
+145,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence is prescriptive operative text within CFR regulatory provisions, not preamble or pure definition, and imposes a duty on monitoring agencies.",compound,none,58,58.11(e),Monitoring agencies,must,strong,take steps to consider the impact of trees on ozone monitoring sites,None,False,False,,none,"Monitoring agencies must take 
+steps to consider the impact of trees on ozone monitoring sites and 
+take steps to avoid this problem.",,primary,openai,gpt-5,1740,284
+145,EPA-HQ-OAR-2015-0072,proposed,1,True,"The sentence is prescriptive operative text within CFR regulatory provisions, not preamble or pure definition, and imposes a duty on monitoring agencies.",compound,none,58,58.11(e),Monitoring agencies,must,strong,take steps to avoid the impact of trees on ozone monitoring sites,None,False,False,,none,"Monitoring agencies must take 
+steps to consider the impact of trees on ozone monitoring sites and 
+take steps to avoid this problem.",,primary,openai,gpt-5,0,0
+146,EPA-HQ-OAR-2015-0072,proposed,0,True,The sentence is binding regulatory text within a CFR section (not preamble) and states a clear prohibition with an effective date.,simple,none,58,58.11(e),microscale sites of any air pollutant,must not,strong,have,trees or shrubs located at or above the line-of-sight fetch between the probe and the source under investigation,False,True,"Beginning January 1, 2024",none,"(c) Beginning January 1, 2024, microscale sites of any air 
+pollutant, shall have no trees or shrubs located at or above the 
+line-of-sight fetch between the probe and the source under 
+investigation, such as a roadway or a stationary source.",,primary,openai,gpt-5,1801,204
+147,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence is binding regulatory text within Part 58 specifying siting requirements, not a preamble or pure definition.",compound,none,58,58.11(e),Microscale CO monitor probe inlets in downtown areas or urban street canyon locations,shall,strong,be located at a minimum distance,2.0 meters from the edge of the nearest traffic lane,True,False,,none,"(b) Microscale CO monitor probe inlets in downtown areas or 
+urban street canyon locations shall be located a minimum distance of 
+2.0 meters and a maximum distance of 10 meters from the edge of the 
+nearest traffic lane.",,primary,openai,gpt-5,1782,317
+147,EPA-HQ-OAR-2015-0072,proposed,1,True,"The sentence is binding regulatory text within Part 58 specifying siting requirements, not a preamble or pure definition.",compound,none,58,58.11(e),Microscale CO monitor probe inlets in downtown areas or urban street canyon locations,shall,strong,be located at a maximum distance,10 meters from the edge of the nearest traffic lane,True,False,,none,"(b) Microscale CO monitor probe inlets in downtown areas or 
+urban street canyon locations shall be located a minimum distance of 
+2.0 meters and a maximum distance of 10 meters from the edge of the 
+nearest traffic lane.",,primary,openai,gpt-5,0,0
+148,EPA-HQ-OAR-2015-0072,proposed,0,True,"Appears within binding regulatory text (technical appendix guidance within CFR part) specifying siting requirements, not preamble or mere definition.",simple,none,58,58.11(e),Microscale CO monitor probe inlets in downtown areas or urban street canyon locations,shall,strong,be located,at least 10 meters from an intersection,True,False,,none,"(c) Microscale CO monitor probe inlets in downtown areas or 
+urban street canyon locations shall be located at least 10 meters 
+from an intersection and preferably at a midblock location.",,primary,openai,gpt-5,1734,191
+149,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within regulatory siting criteria text (non-preamble, binding technical requirements) and uses the mandatory modal 'must', making it binding deontic text even without an explicit amendatory wrapper.",simple,none,58,58.11(e),the microscale traffic corridor site location,must,strong,be located at a distance,greater than or equal to 5.0 meters and less than or equal to 15 meters from the major roadway,False,False,,none,"For the microscale traffic corridor site, the 
+location must be greater than or equal 5.0 and less than or equal to 
+15 meters from the major roadway.",,primary,openai,gpt-5,1749,215
+150,EPA-HQ-OAR-2015-0072,proposed,0,True,"It is binding technical siting text within CFR Part 58 requirements, prescribing mandatory distances using must.",compound,none,58,58.11(e),the microscale street canyon site location,must,strong,be located at a distance greater than or equal to,2.0 meters from the roadway,False,False,,none,"For the microscale street canyon 
+site, the location must be greater than or equal 2.0 and less than 
+or equal to 10 meters from the roadway.",,primary,openai,gpt-5,1752,294
+150,EPA-HQ-OAR-2015-0072,proposed,1,True,"It is binding technical siting text within CFR Part 58 requirements, prescribing mandatory distances using must.",compound,none,58,58.11(e),the microscale street canyon site location,must,strong,be located at a distance less than or equal to,10 meters from the roadway,False,False,,none,"For the microscale street canyon 
+site, the location must be greater than or equal 2.0 and less than 
+or equal to 10 meters from the roadway.",,primary,openai,gpt-5,0,0
+151,EPA-HQ-OAR-2015-0072,proposed,0,True,"This is binding regulatory text within CFR appendix provisions prescribing how monitors must be sited, not preamble or mere definition.",compound,none,58,58.11(e),the monitor probe,shall,strong,be located,as near as practicable to the outside nearest edge of the traffic lanes of the target road segment,True,True,In siting near-road NO2 monitors as required in section 4.3.2 of appendix D to this part,none,"2.5.4 Spacing for Nitrogen Dioxide (NO2) Probes
+
+    (a) In siting near-road NO<INF>2</INF> monitors as required in 
+section 4.3.2 of appendix D to this part, the monitor probe shall be 
+as near as practicable to the outside nearest edge of the traffic 
+lanes of the target road segment; but shall not be located at a 
+distance greater than 50 meters, in the horizontal, from the outside 
+nearest edge of the traffic lanes of the target road segment.",section 4.3.2 of appendix D to this part,primary,openai,gpt-5,2000,383
+151,EPA-HQ-OAR-2015-0072,proposed,1,True,"This is binding regulatory text within CFR appendix provisions prescribing how monitors must be sited, not preamble or mere definition.",compound,none,58,58.11(e),the monitor probe,may not,strong,be located,"at a distance greater than 50 meters, in the horizontal, from the outside nearest edge of the traffic lanes of the target road segment",True,True,In siting near-road NO2 monitors as required in section 4.3.2 of appendix D to this part,none,"2.5.4 Spacing for Nitrogen Dioxide (NO2) Probes
+
+    (a) In siting near-road NO<INF>2</INF> monitors as required in 
+section 4.3.2 of appendix D to this part, the monitor probe shall be 
+as near as practicable to the outside nearest edge of the traffic 
+lanes of the target road segment; but shall not be located at a 
+distance greater than 50 meters, in the horizontal, from the outside 
+nearest edge of the traffic lanes of the target road segment.",section 4.3.2 of appendix D to this part,primary,openai,gpt-5,0,0
+152,EPA-HQ-OAR-2015-0072,proposed,0,True,The sentence appears in CFR regulatory text (Appendix E to Part 58) as binding technical requirements for monitoring and is not preamble or mere definition.,simple,none,58,58.11(e),"monitors for reactive gases (SO2, NO2, and O3)",must,strong,use special probe material,probe material for intake sampling,False,False,,none,"TP27JA23.017
+
+2.6 Probe Material and Pollutant Sampler Residence Time
+
+    (a) For the reactive gases (SO<INF>2</INF>, NO<INF>2</INF>, and 
+O<INF>3</INF>), special probe material must be used for monitors.",,primary,openai,gpt-5,1883,194
+153,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears in regulatory text of § 58.11(e) prescribing materials and uses mandatory modal 'must,' making it binding regulatory text.",simple,none,58,58.11(e),the sampling train (from probe inlet to the back of the monitor) for reactive gas monitors,must,strong,use only,"borosilicate glass, PVDF, PTFE, PFA, FEP, or their equivalent for any component that contacts the ambient air sample",False,False,,none,"Therefore, borosilicate glass, PVDF, PTFE, PFA, 
+FEP, or their equivalent must be the only material in the sampling 
+train (from probe inlet to the back of the monitor) that can be in 
+contact with the ambient air sample for reactive gas monitors.",,primary,openai,gpt-5,1850,218
+154,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within regulatory text of § 58.11(e) as binding technical requirements, not preamble, and functions as an operative requirement.",simple,none,58,58.11(e),operators conducting VOC and carbonyl sampling at PAMS,must,strong,ensure,the sample residence time is 20 seconds or less,False,False,,none,"Care must 
+be taken to ensure that the sample residence time is kept to 20 
+seconds or less.",,primary,openai,gpt-5,1749,190
+155,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence is binding regulatory text within CFR part 58, not preamble, and contains a clear obligation with “must.”",simple,none,58,58.11(e),"sampling probes for reactive gas monitors (SO2, NO2, and O3)",must,strong,have,a sample residence time less than 20 seconds,False,False,,none,"Therefore, 
+sampling probes for reactive gas monitors (i.e., SO<INF>2</INF>, 
+NO<INF>2</INF>, and O<INF>3</INF>) must have a sample residence time 
+less than 20 seconds.",,primary,openai,gpt-5,1782,191
+156,EPA-HQ-OAR-2015-0072,proposed,0,True,The text is regulatory siting criteria within a CFR section (not preamble) and contains binding modals (“must”); thus it is binding regulatory text.,compound,none,58,58.11(e),sampler or probe inlet,must,strong,be located,at least twice the height that the obstacle protrudes above the sampler or probe inlet from an obstacle such as a building,True,False,,none,"\2\ Should be greater than 20 meters from the dripline of tree(s) and must be 10 meters from the dripline.
+\3\ Distance from sampler or probe inlet to obstacle, such as a building, must be at least twice the height the obstacle protrudes above the sampler or
+  probe inlet.",,primary,openai,gpt-5,1758,305
+156,EPA-HQ-OAR-2015-0072,proposed,1,True,The text is regulatory siting criteria within a CFR section (not preamble) and contains binding modals (“must”); thus it is binding regulatory text.,compound,none,58,58.11(e),sampler or probe,must,strong,be located,10 meters from the dripline of tree(s),True,False,,none,"\2\ Should be greater than 20 meters from the dripline of tree(s) and must be 10 meters from the dripline.
+\3\ Distance from sampler or probe inlet to obstacle, such as a building, must be at least twice the height the obstacle protrudes above the sampler or
+  probe inlet.",,primary,openai,gpt-5,0,0
+158,EPA-HQ-OAR-2015-0072,proposed,0,True,This is binding regulatory text within CFR Part 58 § 58.11(e) prescribing siting criteria; it uses mandatory modal language and is not preamble or a mere definition.,compound,none,58,58.11(e),the probe or sampler location,must,strong,have,unrestricted airflow in a continuous arc of at least 270 degrees around the probe or sampler,False,False,,none,"\4\ Must have unrestricted airflow in a continuous arc of at least 270 degrees around the probe or sampler; 180 degrees if the probe is on the side of a
+  building or a wall for street canyon monitoring.",,primary,openai,gpt-5,1796,342
+158,EPA-HQ-OAR-2015-0072,proposed,1,True,This is binding regulatory text within CFR Part 58 § 58.11(e) prescribing siting criteria; it uses mandatory modal language and is not preamble or a mere definition.,compound,none,58,58.11(e),the probe or sampler location,must,strong,have,unrestricted airflow in a continuous arc of at least 180 degrees if the probe is on the side of a building or a wall for street canyon monitoring,False,True,if the probe is on the side of a building or a wall for street canyon monitoring,none,"\4\ Must have unrestricted airflow in a continuous arc of at least 270 degrees around the probe or sampler; 180 degrees if the probe is on the side of a
+  building or a wall for street canyon monitoring.",,primary,openai,gpt-5,0,0
+159,EPA-HQ-OAR-2015-0072,proposed,0,True,The sentence appears in binding regulatory text within CFR part 58 appendix/table context and states a prescriptive siting criterion using must.,simple,none,58,58.11(e),the probe at microscale CO monitoring sites,must,strong,be located,at least 10 meters from a street intersection,True,True,For microscale CO monitoring sites,none,"\6\ For microscale CO monitoring sites, the probe must be >=10 meters from a street intersection and preferably at a midblock location.",,primary,openai,gpt-5,1758,190
+160,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence is binding regulatory text within 40 CFR part 58 siting requirements, not preamble or mere definition, and contains a mandatory modal (“must”).",compound,none,58,58.11(e),Collocated monitor inlets,must,strong,be located within a maximum separation distance,within 4.0 meters of each other,False,True,unless a waiver is in place as approved by the Regional Administrator pursuant to section 3 of appendix A to this part,none,"\7\ Collocated monitor inlets must be within 4.0 meters of each other and at least 2.0 meters apart for flow rates greater than 200 liters/min or at
+  least 1.0 meter apart for samplers having flow rates less than 200 liters/min to preclude airflow interference, unless a waiver is in place as
+  approved by the Regional Administrator pursuant to section 3 of appendix A to this part.",section 3 of appendix A to this part,primary,openai,gpt-5,1915,536
+160,EPA-HQ-OAR-2015-0072,proposed,1,True,"The sentence is binding regulatory text within 40 CFR part 58 siting requirements, not preamble or mere definition, and contains a mandatory modal (“must”).",compound,none,58,58.11(e),Collocated monitor inlets with flow rates greater than 200 liters/min,must,strong,maintain a minimum separation distance,at least 2.0 meters apart to preclude airflow interference,False,True,unless a waiver is in place as approved by the Regional Administrator pursuant to section 3 of appendix A to this part,none,"\7\ Collocated monitor inlets must be within 4.0 meters of each other and at least 2.0 meters apart for flow rates greater than 200 liters/min or at
+  least 1.0 meter apart for samplers having flow rates less than 200 liters/min to preclude airflow interference, unless a waiver is in place as
+  approved by the Regional Administrator pursuant to section 3 of appendix A to this part.",section 3 of appendix A to this part,primary,openai,gpt-5,0,0
+160,EPA-HQ-OAR-2015-0072,proposed,2,True,"The sentence is binding regulatory text within 40 CFR part 58 siting requirements, not preamble or mere definition, and contains a mandatory modal (“must”).",compound,none,58,58.11(e),Collocated monitor inlets with samplers having flow rates less than 200 liters/min,must,strong,maintain a minimum separation distance,at least 1.0 meter apart to preclude airflow interference,False,True,unless a waiver is in place as approved by the Regional Administrator pursuant to section 3 of appendix A to this part,none,"\7\ Collocated monitor inlets must be within 4.0 meters of each other and at least 2.0 meters apart for flow rates greater than 200 liters/min or at
+  least 1.0 meter apart for samplers having flow rates less than 200 liters/min to preclude airflow interference, unless a waiver is in place as
+  approved by the Regional Administrator pursuant to section 3 of appendix A to this part.",section 3 of appendix A to this part,primary,openai,gpt-5,0,0
+161,EPA-HQ-OAR-2015-0072,proposed,0,True,"The text is binding technical siting requirements within regulatory appendix language, not preamble or pure definition, and uses mandatory modals (must/are required to).",compound,none,58,58.11(e),At least 80 percent of the monitoring path,must,strong,be located,greater than or equal to 2.0 meters and less than or equal to 15 meters above ground level,True,True,"for all O3 and SO2 monitoring sites, and for neighborhood or larger spatial scale NO2 and CO sites",none,"Open Path Analyzers
+
+3.1 Horizontal and Vertical Placement
+
+    At least 80 percent of the monitoring path, must be located 
+greater than or equal 2.0 and less than or equal to 15 meters above 
+ground level for all O<INF>3</INF> and SO<INF>2</INF>",,primary,openai,gpt-5,1834,608
+161,EPA-HQ-OAR-2015-0072,proposed,1,True,"The text is binding technical siting requirements within regulatory appendix language, not preamble or pure definition, and uses mandatory modals (must/are required to).",compound,none,58,58.11(e),Middle scale CO and NO2 sites,must,strong,have monitoring paths located,greater than or equal to 2.0 meters and less than or equal to 15 meters above ground level,True,False,,none,"Open Path Analyzers
+
+3.1 Horizontal and Vertical Placement
+
+    At least 80 percent of the monitoring path, must be located 
+greater than or equal 2.0 and less than or equal to 15 meters above 
+ground level for all O<INF>3</INF> and SO<INF>2</INF>",,primary,openai,gpt-5,0,0
+161,EPA-HQ-OAR-2015-0072,proposed,2,True,"The text is binding technical siting requirements within regulatory appendix language, not preamble or pure definition, and uses mandatory modals (must/are required to).",compound,none,58,58.11(e),Microscale near-road monitoring sites,are required to,strong,have monitoring paths located,greater than or equal to 2.0 meters and less than or equal to 7.0 meters above ground level,True,False,,none,"Open Path Analyzers
+
+3.1 Horizontal and Vertical Placement
+
+    At least 80 percent of the monitoring path, must be located 
+greater than or equal 2.0 and less than or equal to 15 meters above 
+ground level for all O<INF>3</INF> and SO<INF>2</INF>",,primary,openai,gpt-5,0,0
+161,EPA-HQ-OAR-2015-0072,proposed,3,True,"The text is binding technical siting requirements within regulatory appendix language, not preamble or pure definition, and uses mandatory modals (must/are required to).",compound,none,58,58.11(e),Microscale carbon monoxide monitors that are being used to measure concentrations near roadways,must,strong,have monitoring paths located,greater than or equal to 2.0 meters and less than or equal to 7.0 meters above ground level,True,False,,none,"Open Path Analyzers
+
+3.1 Horizontal and Vertical Placement
+
+    At least 80 percent of the monitoring path, must be located 
+greater than or equal 2.0 and less than or equal to 15 meters above 
+ground level for all O<INF>3</INF> and SO<INF>2</INF>",,primary,openai,gpt-5,0,0
+162,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence is binding regulatory text within a CFR section describing siting requirements, not a preamble or mere definition.",simple,none,58,58.11(e),Middle scale CO and NO2 sites,must,strong,have,monitoring paths greater than or equal to 2.0 meters and less than or equal to 15 meters above ground level,False,False,,none,"Middle scale CO and NO<INF>2</INF> sites must also 
+have monitoring paths greater than or equal 2.0 and less than or 
+equal to 15 meters above ground level.",,primary,openai,gpt-5,1782,195
+163,EPA-HQ-OAR-2015-0072,proposed,0,True,"It appears in binding regulatory text within a CFR section specifying technical siting requirements, constituting operative rule language.",simple,none,58,58.11(e),Microscale near-road monitoring sites,are required to,strong,have,monitoring paths greater than or equal to 2.0 meters and less than or equal to 7.0 meters above ground level,True,False,,none,"Microscale near-road 
+monitoring sites are required to have monitoring paths greater than 
+or equal 2.0 and less than or equal to 7.0 meters above ground 
+level.",,primary,openai,gpt-5,1795,198
+164,EPA-HQ-OAR-2015-0072,proposed,0,True,The sentence is binding regulatory text within a CFR section and contains a clear mandatory modal (must) prescribing technical siting criteria.,simple,none,58,58.11(e),the monitoring path for microscale carbon monoxide monitors used to measure concentrations near roadways,must,strong,be located,greater than or equal to 2.0 meters and less than or equal to 7.0 meters above ground level,True,False,,none,"The monitoring path for microscale carbon monoxide monitors 
+that are being used to measure concentrations near roadways must be 
+greater than or equal 2.0 and less than or equal to 7.0 meters above 
+ground level.",,primary,openai,gpt-5,1815,206
+165,EPA-HQ-OAR-2015-0072,proposed,0,True,"This is operative regulatory text within a CFR section prescribing technical siting criteria, not a preamble or mere definition.",simple,none,58,58.11(e),Microscale near-road carbon monoxide monitor monitoring paths in downtown areas or urban street canyons,must,strong,be,greater than or equal to 2.5 meters and less than or equal to 3.5 meters above ground level,False,False,,none,"Those monitoring paths for microscale carbon monoxide 
+monitors measuring concentrations near roadways in downtown areas or 
+urban street canyons must be greater than or equal 2.5 and less than 
+or equal to 3.5 meters above ground level.",,primary,openai,gpt-5,1806,206
+166,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears in regulatory text setting technical siting requirements and uses the binding modal ""must,"" indicating new or existing binding text.",compound,none,58,58.11(e),At least 90 percent of the monitoring path,must,strong,be located at least 1.0 meter away,"any supporting structure, walls, parapets, penthouses, etc., measured vertically or horizontally",False,False,,none,"At least 90 percent of 
+the monitoring path must be at least 1.0 meter vertically or 
+horizontally away from any supporting structure, walls, parapets, 
+penthouses, etc., and away from dusty or dirty areas.",,primary,openai,gpt-5,1796,309
+166,EPA-HQ-OAR-2015-0072,proposed,1,True,"The sentence appears in regulatory text setting technical siting requirements and uses the binding modal ""must,"" indicating new or existing binding text.",compound,none,58,58.11(e),At least 90 percent of the monitoring path,must,strong,be located away from,dusty or dirty areas,False,False,,none,"At least 90 percent of 
+the monitoring path must be at least 1.0 meter vertically or 
+horizontally away from any supporting structure, walls, parapets, 
+penthouses, etc., and away from dusty or dirty areas.",,primary,openai,gpt-5,0,0
+167,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within binding regulatory text of § 58.11(e) and states a mandatory siting criterion using 'must', making it binding even without an explicit amendatory wrapper.",simple,none,58,58.11(e),monitoring agencies,must,strong,locate,at least 90 percent of the monitoring path away from furnace or incineration flues or other minor sources of SO2 or NO,False,False,,none,"To minimize these 
+potential interferences, at least 90 percent of the monitoring path 
+must be away from furnace or incineration flues or other minor 
+sources of SO<INF>2</INF> or NO.",,primary,openai,gpt-5,1801,208
+169,EPA-HQ-OAR-2015-0072,proposed,0,True,The sentence appears in a CFR regulatory section text (technical siting criteria) that functions as binding regulatory requirements; it contains a clear modal 'must' prescribing a criterion.,simple,none,58,58.11(e),the monitoring path,must,strong,have,at least 90 percent of its length with unrestricted airflow,False,True,To avoid interference from buildings and other obstacles that can restrict airflow,none,"To avoid this interference, at 
+least 90 percent of the monitoring path must have unrestricted 
+airflow and should be located away from obstacles.",,primary,openai,gpt-5,1767,200
+170,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence is binding technical standard text within a regulatory section, specifying a mandatory criterion using “must,” not a mere definition or preamble.",simple,none,58,58.11(e),The horizontal distance from the obstacle to the monitoring path,must,strong,be at least,twice the height that the obstacle protrudes above the monitoring path,False,False,,none,"The horizontal 
+distance from the obstacle to the monitoring path must be at least 
+twice the height that the obstacle protrudes above the monitoring 
+path.",,primary,openai,gpt-5,1762,193
+172,EPA-HQ-OAR-2015-0072,proposed,0,True,This is prescriptive CFR text within a regulatory section (not preamble) imposing a requirement on monitoring paths; such non-preamble regulatory text is binding.,compound,none,58,58.11(e),at least 90 percent of the monitoring path for open path analyzers,must,strong,have,unrestricted airflow with no obstructions in a continuous arc of at least 270 degrees,False,False,,none,"At least 90 percent of the monitoring 
+path for open path analyzers must have unrestricted airflow with no 
+obstructions (as defined in paragraph (a) of this section) in a 
+continuous arc of at least 270 degrees.",paragraph (a) of this section,primary,openai,gpt-5,1768,209
+173,EPA-HQ-OAR-2015-0072,proposed,0,True,It appears in CFR regulatory text prescribing siting criteria and functions as binding operational language.,simple,none,58,58.11(e),the continuous arc for the monitoring path,must,strong,include,the predominant wind direction for the season of greatest pollutant concentration potential,False,False,,none,"This arc must include the predominant wind direction for 
+the season of greatest pollutant concentration potential.",,primary,openai,gpt-5,1721,177
+174,EPA-HQ-OAR-2015-0072,proposed,0,True,The sentence is binding regulatory text within a CFR section and uses mandatory modal language (“must”) prescribing required consideration when using open path analyzers.,simple,none,58,58.11(e),persons responsible for siting or using open path analyzers,must,strong,give special consideration,the use of open path analyzers due to their inherent potential sensitivity to certain types of interferences or optical obstructions,True,False,,none,"(c) Special consideration must be given to the use of open path 
+analyzers due to their inherent potential sensitivity to certain 
+types of interferences, or optical obstructions.",,primary,openai,gpt-5,1745,204
+175,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within binding regulatory text of § 58.11(e) rather than preamble or pure definition, prescribing a clear requirement for monitoring path siting.",compound,none,58,58.11(e),A monitoring path,must,strong,be clear of,"all trees, brush, buildings, plumes, dust, or other optical obstructions",False,False,,none,"A monitoring path 
+must be clear of all trees, brush, buildings, plumes, dust, or other 
+optical obstructions, including potential obstructions that may move 
+due to wind, human activity, growth of vegetation, etc.",,primary,openai,gpt-5,1765,308
+175,EPA-HQ-OAR-2015-0072,proposed,1,True,"The sentence appears within binding regulatory text of § 58.11(e) rather than preamble or pure definition, prescribing a clear requirement for monitoring path siting.",compound,none,58,58.11(e),A monitoring path,must,strong,be clear of,"potential obstructions that may move due to wind, human activity, growth of vegetation, etc.",False,False,,none,"A monitoring path 
+must be clear of all trees, brush, buildings, plumes, dust, or other 
+optical obstructions, including potential obstructions that may move 
+due to wind, human activity, growth of vegetation, etc.",,primary,openai,gpt-5,0,0
+177,EPA-HQ-OAR-2015-0072,proposed,0,True,"Text appears within regulatory section language specifying technical siting criteria and uses binding modal 'shall', indicating new or existing binding regulatory text.",simple,none,58,58.11(e),near-road monitoring stations,shall,strong,ensure,the monitoring path has unobstructed air flow with no obstacles at or above the height of the monitoring path between the monitoring path and the outside nearest edge of the traffic lanes of the target road segment,False,False,,none,"[[Page 5714]]
+
+    (e) For near-road monitoring stations, the monitoring path shall 
+have an unobstructed air flow, where no obstacles exist at or above 
+the height of the monitoring path, between the monitoring path and 
+the outside nearest edge of the traffic lanes of the target road 
+segment.",,primary,openai,gpt-5,1813,209
+178,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within binding regulatory text of an appendix/section rather than preamble, prescribing site siting criteria with mandatory modals.",compound,none,58,58.11(e),the monitoring path,must,strong,be located,at least 10 meters from the drip line of trees,True,True,To reduce possible interference/obstruction from trees,none,"To 
+reduce this possible interference/obstruction, at least 90 percent 
+of the monitoring path should be 20 meters or more from the drip 
+line of trees and must be at least 10 meters from the drip line of 
+trees.",,primary,openai,gpt-5,1798,319
+178,EPA-HQ-OAR-2015-0072,proposed,1,True,"The sentence appears within binding regulatory text of an appendix/section rather than preamble, prescribing site siting criteria with mandatory modals.",compound,none,58,58.11(e),the monitoring path,no_modal_implicit,permissive,be located,at least 20 meters from the drip line of trees for at least 90 percent of the path,True,True,To reduce possible interference/obstruction from trees,none,"To 
+reduce this possible interference/obstruction, at least 90 percent 
+of the monitoring path should be 20 meters or more from the drip 
+line of trees and must be at least 10 meters from the drip line of 
+trees.",,primary,openai,gpt-5,0,0
+179,EPA-HQ-OAR-2015-0072,proposed,0,True,"This is operative regulatory text within CFR Part 58, not preamble, and it prescribes a binding requirement using “must.”",simple,none,58,58.11(e),the monitoring path,must,strong,meet,the distance requirements of section 3.3 of this appendix,False,True,If a tree or trees could be considered an obstacle,none,"If a tree or trees could be considered an obstacle, the 
+monitoring path must meet the distance requirements of section 3.3 
+of this appendix.",section 3.3 of this appendix,primary,openai,gpt-5,1794,200
+180,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears in regulatory text within a CFR appendix section (not preamble) and contains a clear actor with a strong modal, making it binding.",compound,none,58,58.11(e),Monitoring agencies,must,strong,take steps to consider,the impact of trees on ozone monitoring sites,False,False,,none,"Monitoring agencies must take 
+steps to consider the impact of trees on ozone monitoring sites and 
+take steps to avoid this problem.",,primary,openai,gpt-5,1735,286
+180,EPA-HQ-OAR-2015-0072,proposed,1,True,"The sentence appears in regulatory text within a CFR appendix section (not preamble) and contains a clear actor with a strong modal, making it binding.",compound,none,58,58.11(e),Monitoring agencies,must,strong,take steps to avoid,the impact of trees on ozone monitoring sites,False,False,,none,"Monitoring agencies must take 
+steps to consider the impact of trees on ozone monitoring sites and 
+take steps to avoid this problem.",,primary,openai,gpt-5,0,0
+181,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence is prescriptive regulatory text within CFR part 58 and uses mandatory modal language (“shall”) establishing a new requirement, not a definition or preamble narrative.",simple,none,58,58.11(e),microscale sites of any air pollutant,shall,strong,have,no trees or shrubs located at or above the line-of-sight fetch between the monitoring path and the source under investigation,False,True,"Beginning January 1, 2024",none,"(c) Beginning January 1, 2024, microscale sites of any air 
+pollutant shall have no trees or shrubs located at or above the 
+line-of-sight fetch between the monitoring path and the source under 
+investigation, such as a roadway or a stationary source.",,primary,openai,gpt-5,1780,213
+182,EPA-HQ-OAR-2015-0072,proposed,0,True,The sentence is operative regulatory text in a CFR section prescribing a prohibition and is not merely a definition or preamble narrative.,simple,none,58,58.11(e),monitoring path(s),must not,strong,cross over,"a roadway with an average daily traffic count of 10,000 vehicles per day or more",False,False,,none,"The 
+monitoring path(s) must not cross over a roadway with an average 
+daily traffic count of 10,000 vehicles per day or more.",,primary,openai,gpt-5,1734,188
+183,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears in CFR regulatory text prescribing requirements for monitoring agencies and uses the mandatory modal 'must', indicating binding operative text.",simple,none,58,58.11(e),monitoring agencies,must,strong,consider,the entire segment of the monitoring path in the area of potential atmospheric interference from automobile emissions,False,True,"For situations where a monitoring path crosses a roadway with fewer than 10,000 vehicles per day",none,"For those 
+situations where a monitoring path crosses a roadway with fewer than 
+10,000 vehicles per day, monitoring agencies must consider the 
+entire segment of the monitoring path in the area of potential 
+atmospheric interference from automobile emissions.",,primary,openai,gpt-5,1795,204
+184,EPA-HQ-OAR-2015-0072,proposed,0,True,The sentence appears within binding regulatory text in a CFR section (not preamble) prescribing how monitoring agencies must perform a calculation.,simple,none,58,58.11(e),the calculation,must,strong,include,"the length of the monitoring path over the roadway plus any segments of the monitoring path that lie in the area between the roadway and the minimum separation distance, as determined from table E-4",False,True,"For situations where a monitoring path crosses a roadway with fewer than 10,000 vehicles per day and the agency must consider the entire segment in the area of potential atmospheric interference",none,"Therefore, this 
+calculation must include the length of the monitoring path over the 
+roadway plus any segments of the monitoring path that lie in the 
+area between the roadway and minimum separation distance, as 
+determined from table E-4.",,primary,openai,gpt-5,1782,238
+185,EPA-HQ-OAR-2015-0072,proposed,0,True,"It is operative regulatory text within a CFR section prescribing a quantitative requirement, making it binding.",simple,none,58,58.11(e),the sum of these distances,must not,strong,exceed,10 percent of the total monitoring path length,False,False,,none,"The sum of these distances must not be 
+greater than 10 percent of the total monitoring path length.",,primary,openai,gpt-5,1720,173
+186,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence is binding regulatory text within a CFR part/appendix section prescribing siting requirements, not a preamble or pure definition.",compound,none,58,58.11(e),Microscale CO monitoring paths in downtown areas or urban street canyon locations,shall,strong,be located,a minimum distance of 2.0 meters from the edge of the nearest traffic lane,True,False,,none,"(b) Microscale CO monitoring paths in downtown areas or urban 
+street canyon locations shall be located a minimum distance of 2.0 
+meters and a maximum distance of 10 meters from the edge of the 
+nearest traffic lane.",,primary,openai,gpt-5,1783,319
+186,EPA-HQ-OAR-2015-0072,proposed,1,True,"The sentence is binding regulatory text within a CFR part/appendix section prescribing siting requirements, not a preamble or pure definition.",compound,none,58,58.11(e),Microscale CO monitoring paths in downtown areas or urban street canyon locations,shall,strong,be located,a maximum distance of 10 meters from the edge of the nearest traffic lane,True,False,,none,"(b) Microscale CO monitoring paths in downtown areas or urban 
+street canyon locations shall be located a minimum distance of 2.0 
+meters and a maximum distance of 10 meters from the edge of the 
+nearest traffic lane.",,primary,openai,gpt-5,0,0
+187,EPA-HQ-OAR-2015-0072,proposed,0,True,"It is binding regulatory text within a CFR section prescribing siting requirements, not preamble or mere definition.",simple,none,58,58.11(e),Microscale CO monitoring paths in downtown areas or urban street canyon locations,shall,strong,be located,at least 10 meters from an intersection,True,False,,none,"(c) Microscale CO monitoring paths in downtown areas or urban 
+street canyon locations shall be located at least 10 meters from an 
+intersection and preferably at a midblock location.",,primary,openai,gpt-5,1723,184
+188,EPA-HQ-OAR-2015-0072,proposed,0,True,"Text appears within regulatory appendix siting requirements and uses mandatory modal ""shall,"" indicating binding operational text.",compound,none,58,58.11(e),persons siting near-road NO2 monitors,shall,strong,locate the monitoring path as near as practicable to the outside nearest edge of the traffic lanes of the target road segment,None,False,True,In siting near-road NO2 monitors as required in section 4.3.2 of appendix D to this part,none,"Monitoring Paths
+
+    (a) In siting near-road NO<INF>2</INF> monitors as required in 
+section 4.3.2 of appendix D to this part, the monitoring path shall 
+be as near as practicable to the outside nearest edge of the traffic 
+lanes of the target road segment; but shall not be located at a 
+distance greater than 50 meters, in the horizontal, from the outside 
+nearest edge of the traffic lanes of the target road segment.",section 4.3.2 of appendix D to this part,primary,openai,gpt-5,1908,392
+188,EPA-HQ-OAR-2015-0072,proposed,1,True,"Text appears within regulatory appendix siting requirements and uses mandatory modal ""shall,"" indicating binding operational text.",compound,none,58,58.11(e),persons siting near-road NO2 monitors,shall,strong,ensure the monitoring path is not located at a horizontal distance greater than 50 meters from the outside nearest edge of the traffic lanes of the target road segment,None,False,True,In siting near-road NO2 monitors as required in section 4.3.2 of appendix D to this part,none,"Monitoring Paths
+
+    (a) In siting near-road NO<INF>2</INF> monitors as required in 
+section 4.3.2 of appendix D to this part, the monitoring path shall 
+be as near as practicable to the outside nearest edge of the traffic 
+lanes of the target road segment; but shall not be located at a 
+distance greater than 50 meters, in the horizontal, from the outside 
+nearest edge of the traffic lanes of the target road segment.",section 4.3.2 of appendix D to this part,primary,openai,gpt-5,0,0
+189,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence is operative regulatory text within a CFR section prescribing siting requirements, not a preamble or mere definition.",simple,none,58,58.11(e),The monitoring path(s),must not,strong,cross over,"a roadway with an average daily traffic count of 10,000 vehicles per day or more",False,False,,none,"The monitoring path(s) must not cross 
+over a roadway with an average daily traffic count of 10,000 
+vehicles per day or more.",,primary,openai,gpt-5,1731,187
+190,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence is prescriptive monitoring requirement text within regulatory provisions (non-preamble) and constitutes binding operational criteria, even without an explicit amendatory wrapper.",simple,none,58,58.11(e),monitoring agencies,must,strong,consider,the entire segment of the monitoring path in the area of potential atmospheric interference from automobile emissions,False,True,"For situations where a monitoring path crosses a roadway with fewer than 10,000 vehicles per day",none,"For those situations where a monitoring 
+path crosses a roadway with fewer than 10,000 vehicles per day, 
+monitoring agencies must consider the entire segment of the 
+monitoring path in the area of potential atmospheric interference 
+form automobile emissions.",,primary,openai,gpt-5,1791,209
+191,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence is binding regulatory text within a requirements section and uses the modal 'must', prescribing how agencies perform a calculation.",compound,none,58,58.11(e),the calculation,must,strong,include,the length of the monitoring path over the roadway,False,True,"For situations where a monitoring path crosses a roadway with fewer than 10,000 vehicles per day and agencies must consider the segment in the area of potential atmospheric interference",none,"Therefore, this calculation must include 
+the length of the monitoring path over the roadway plus any segments 
+of the monitoring path that lie in the area between the roadway and 
+minimum separation distance, as determined form table E-5.",,primary,openai,gpt-5,1771,358
+191,EPA-HQ-OAR-2015-0072,proposed,1,True,"The sentence is binding regulatory text within a requirements section and uses the modal 'must', prescribing how agencies perform a calculation.",compound,none,58,58.11(e),the calculation,must,strong,include,"any segments of the monitoring path that lie in the area between the roadway and the minimum separation distance, as determined from table E-5",False,True,"For situations where a monitoring path crosses a roadway with fewer than 10,000 vehicles per day and agencies must consider the segment in the area of potential atmospheric interference",none,"Therefore, this calculation must include 
+the length of the monitoring path over the roadway plus any segments 
+of the monitoring path that lie in the area between the roadway and 
+minimum separation distance, as determined form table E-5.",,primary,openai,gpt-5,0,0
+192,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within binding regulatory text of a CFR section (performance/technical requirements) rather than preamble, making it a binding obligation.",simple,none,58,58.11(e),The sum of these distances,must not,strong,exceed,10 percent of the total monitoring path length,False,False,,none,"The sum 
+of these distances must not be greater than 10 percent of the total 
+monitoring path length.",,primary,openai,gpt-5,1718,183
+193,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence is prescriptive regulatory text within a CFR section, setting a quantitative limit; it is binding even without an explicit amendatory header.",simple,none,58,58.11(e),"the cumulative length or portion of a monitoring path that is affected by minor sources, trees, or roadways",must not,strong,exceed,10 percent of the total monitoring path length,False,False,,none,"3.6 Cumulative Interferences on a Monitoring Path
+
+    The cumulative length or portion of a monitoring path that is 
+affected by minor sources, trees, or roadways must not exceed 10 
+percent of the total monitoring path length.",,primary,openai,gpt-5,1774,199
+194,EPA-HQ-OAR-2015-0072,proposed,0,True,"The text is regulatory requirement language in a CFR section (Part 58, § 58.11(e)) setting a quantitative limit and is not preamble or a mere definition.",simple,none,58,58.11(e),The monitoring path length,must not,strong,exceed,"1 kilometer for open path analyzers in neighborhood, urban, or regional scale",False,False,,none,"3.7 Maximum Monitoring Path Length
+
+    The monitoring path length must not exceed 1 kilometer for open 
+path analyzers in neighborhood, urban, or regional scale.",,primary,openai,gpt-5,1733,197
+195,EPA-HQ-OAR-2015-0072,proposed,0,True,"It appears within binding regulatory text specifying technical limits, not preamble or pure definition, and is part of CFR regulatory requirements.",simple,none,58,58.11(e),the monitoring path length,must not,strong,exceed,300 meters,False,False,,none,"For middle 
+scale monitoring sites, the monitoring path length must not exceed 
+300 meters.",,primary,openai,gpt-5,1711,173
+196,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within binding regulatory text in Part 58 appendix guidance for monitoring path lengths, not preamble, and prescribes permissible adjustments (shorter path lengths) to meet appendix D objectives.",simple,none,58,58.11(e),monitoring agencies using open path analyzers,may,permissive,use,shorter monitoring path lengths to ensure the monitoring site meets the objectives and spatial scales defined in appendix D to this part,False,True,For certain ambient air monitoring scenarios using open path analyzers,none,"For certain ambient air monitoring 
+scenarios using open path analyzers, shorter path lengths may be 
+needed in order to ensure that the monitoring site meets the 
+objectives and spatial scales defined in appendix D to this part.",appendix D to this part,primary,openai,gpt-5,1761,229
+197,EPA-HQ-OAR-2015-0072,proposed,0,True,It appears in regulatory text of a CFR section (not preamble) establishing requirements and authorizations; such text is binding even without an explicit amendatory wrapper.,simple,none,58,58.11(e),The Regional Administrator,may,permissive,require,shorter path lengths,False,True,as needed on an individual basis to ensure that SLAMS sites meet the appendix D requirements,none,"The Regional Administrator may require shorter path lengths, as 
+needed on an individual basis, to ensure that the SLAMS sites meet 
+the appendix D requirements.",appendix D to this part,primary,openai,gpt-5,1730,204
+198,EPA-HQ-OAR-2015-0072,proposed,0,True,"Sentence appears within regulatory text of an appendix/section functioning as binding requirements for monitoring site criteria, making it a permissive authority.",simple,none,58,58.11(e),the Administrator,may,permissive,specify,the maximum path length used at NCore monitoring sites,False,False,,none,"Likewise, the Administrator may specify 
+the maximum path length used at NCore monitoring sites.
+
+3.8 Summary
+
+    Table E-6 to this appendix presents a summary of the general 
+requirements for monitoring path siting criteria with respect to 
+distances and heights.",,primary,openai,gpt-5,1780,181
+199,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears in regulatory text of § 58.11(e) providing siting criteria and contains binding modals (“must”), making it binding regulatory text.",compound,none,58,58.11(e),the monitoring path,must,strong,be,10 meters from the dripline of tree(s),False,True,when the monitoring path is near tree(s),none,"\3\ At least 90 percent of the monitoring path should be greater than 20 meters from the dripline of tree(s) and
+  must be 10 meters from the dripline when the tree(s).",,primary,openai,gpt-5,1741,192
+200,EPA-HQ-OAR-2015-0072,proposed,0,True,"Text appears within binding regulatory provisions of § 58.11(e) and contains a mandatory ""must"" requirement.",simple,none,58,58.11(e),Placement of the monitoring path relative to obstacles,must,strong,maintain a minimum separation distance,at least twice the height that the obstacle protrudes above the monitoring path between at least 90 percent of the monitoring path and the obstacle,False,False,,none,"\4\ Distance from 90 percent of monitoring path to obstacle, such as a building, must be at least twice the
+  height the obstacle protrudes above the monitoring path.",,primary,openai,gpt-5,1774,203
+202,EPA-HQ-OAR-2015-0072,proposed,0,True,Text appears within binding regulatory siting requirements (non-preamble CFR text) specifying mandatory criteria using must/should; thus it is binding for the must clauses.,compound,none,58,58.11(e),Monitoring site,must,strong,have,unrestricted airflow 270 degrees around at least 90 percent of the monitoring path,False,True,"unless the monitoring path is adjacent to the side of a building or a wall for street canyon monitoring, in which case 180 degrees applies",none,"\5\ Must have unrestricted airflow 270 degrees around at least 90 percent of the monitoring path; 180 degrees if
+  the monitoring path is adjacent to the side of a building or a wall for street canyon monitoring.
+\6\ The monitoring path should be away from minor sources, such as furnace or incineration flues.",,primary,openai,gpt-5,1837,323
+202,EPA-HQ-OAR-2015-0072,proposed,1,True,Text appears within binding regulatory siting requirements (non-preamble CFR text) specifying mandatory criteria using must/should; thus it is binding for the must clauses.,compound,none,58,58.11(e),Microscale CO monitoring sites,must,strong,be located,at least 10 meters from a street intersection,True,False,,none,"\5\ Must have unrestricted airflow 270 degrees around at least 90 percent of the monitoring path; 180 degrees if
+  the monitoring path is adjacent to the side of a building or a wall for street canyon monitoring.
+\6\ The monitoring path should be away from minor sources, such as furnace or incineration flues.",,primary,openai,gpt-5,0,0
+203,EPA-HQ-OAR-2015-0072,proposed,0,True,"Text appears within binding CFR appendix siting requirements, not as preamble or mere definition, thus constitutes binding regulatory text.",compound,none,58,58.11(e),the monitoring path at microscale CO monitoring sites,must,strong,be located,at least 10 meters from a street intersection,True,True,For microscale CO monitoring sites,none,"\7\ For microscale CO monitoring sites, the monitoring path must be >=10. meters from a street intersection and
+  preferably at a midblock location.",,primary,openai,gpt-5,1744,305
+203,EPA-HQ-OAR-2015-0072,proposed,1,True,"Text appears within binding CFR appendix siting requirements, not as preamble or mere definition, thus constitutes binding regulatory text.",compound,none,58,58.11(e),the monitoring path at microscale CO monitoring sites,no_modal_implicit,permissive,be located,at a midblock location,True,True,For microscale CO monitoring sites,none,"\7\ For microscale CO monitoring sites, the monitoring path must be >=10. meters from a street intersection and
+  preferably at a midblock location.",,primary,openai,gpt-5,0,0
+205,EPA-HQ-OAR-2015-0072,proposed,0,True,Text appears within CFR regulatory appendix waiver provisions (binding operational text) specifying when EPA may grant waivers.,compound,none,58,58.11(e),the EPA,may,permissive,consider,"a written request from the State, or where applicable local, agency to waive one or more siting criteria for some monitoring sites",False,True,providing that the State or their designee can adequately demonstrate the need (purpose) for monitoring or establishing a monitoring site at that location,none,"The EPA will consider a 
+written request from
+
+[[Page 5716]]
+
+the State, or where applicable local, agency to waive one or more 
+siting criteria for some monitoring sites providing that the State 
+or their designee can adequately demonstrate the need (purpose) for 
+monitoring or establishing a monitoring site at that location.
+    4.1 For establishing a new site, a waiver may be granted only if 
+both of the following criteria are met:
+    4.1.1",,primary,openai,gpt-5,1895,380
+205,EPA-HQ-OAR-2015-0072,proposed,1,True,Text appears within CFR regulatory appendix waiver provisions (binding operational text) specifying when EPA may grant waivers.,compound,none,58,58.11(e),a waiver,may,permissive,be granted,for establishing a new site,True,True,only if both of the following criteria are met: (1) The site can be demonstrated to be as representative of the monitoring area as it would be if the siting criteria were being met; and (2) The monitor or probe cannot reasonably be located so as to meet the siting criteria because of physical constraints,none,"The EPA will consider a 
+written request from
+
+[[Page 5716]]
+
+the State, or where applicable local, agency to waive one or more 
+siting criteria for some monitoring sites providing that the State 
+or their designee can adequately demonstrate the need (purpose) for 
+monitoring or establishing a monitoring site at that location.
+    4.1 For establishing a new site, a waiver may be granted only if 
+both of the following criteria are met:
+    4.1.1",,primary,openai,gpt-5,0,0
+206,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within regulatory text setting waiver criteria and prescribes when a waiver may be granted, which is binding operational text.",simple,none,58,58.11(e),a waiver,may,permissive,be granted,None,True,True,"for an existing site, if either of the criteria in sections 4.1.1 and 4.1.2 of this appendix are met",none,"4.2 However, for an existing site, a waiver may be granted if 
+either of the criteria in sections 4.1.1 and 4.1.2 of this appendix 
+are met.",,primary,openai,gpt-5,1785,200
+207,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within binding regulatory text (not preamble) setting conditions for waiver decisions, and includes prescriptive language about what may be used and what will not be acceptable; treat as new/operative text under the surrounding section.",compound,none,58,58.11(e),"Cost benefits, historical trends, and other factors",may,permissive,be used to add support to the criteria,the criteria in sections 4.1.1 and 4.1.2 of this appendix,True,False,,none,"4.3 Cost benefits, historical trends, and other factors may be 
+used to add support to the criteria in sections 4.1.1 and 4.1.2 of 
+this appendix, however, they in themselves, will not be acceptable 
+reasons for granting a waiver.",,primary,openai,gpt-5,1842,331
+207,EPA-HQ-OAR-2015-0072,proposed,1,True,"The sentence appears within binding regulatory text (not preamble) setting conditions for waiver decisions, and includes prescriptive language about what may be used and what will not be acceptable; treat as new/operative text under the surrounding section.",compound,none,58,58.11(e),"Cost benefits, historical trends, and other factors",may not,strong,serve as acceptable reasons for granting a waiver,None,False,False,,none,"4.3 Cost benefits, historical trends, and other factors may be 
+used to add support to the criteria in sections 4.1.1 and 4.1.2 of 
+this appendix, however, they in themselves, will not be acceptable 
+reasons for granting a waiver.",,primary,openai,gpt-5,0,0
+208,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within binding regulatory text of an appendix under a CFR section, functioning as operative requirements rather than preamble or definition scope-clarification.",simple,none,58,58.11(e),Written requests for waivers,must,strong,be submitted,to the Regional Administrator,True,False,,none,"Written requests for waivers must be 
+submitted to the Regional Administrator.",,primary,openai,gpt-5,1751,180
+209,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears in regulatory text of an appendix under 40 CFR part 58 and sets a requirement for waivers; it is binding operational text, not preamble or mere definition.",simple,none,58,58.11(e),Approved waivers,must,strong,be renewed,at least every 5 years,True,False,,none,"Approved waivers must be 
+renewed minimally every 5 years and ideally as part of the annual 
+monitoring network plan accompanying the network assessment as 
+defined in Sec.  58.10(d).",§ 58.10(d),primary,openai,gpt-5,1817,193
+210,EPA-HQ-OAR-2015-0072,proposed,0,True,The sentence appears within binding regulatory text of appendix/section requirements (not preamble) and imposes a clear must requirement.,simple,none,58,58.11(e),the annual monitoring network plan,must,strong,document,the approval date of the waiver to support the requirements of § 58.10(a)(1) and (b)(10),True,False,,none,"The approval date of the waiver must be 
+documented in the annual monitoring network plan to support the 
+requirements of Sec.  58.10(a)(1) and (b)(10).",§ 58.10,primary,openai,gpt-5,1822,200
+212,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within binding regulatory text specifying reporting requirements, functioning as operative rule language.",simple,none,58,58.10(a)(1),"A metropolitan statistical area (MSA) with a population over 350,000",must,strong,report,the Air Quality Index (AQI) daily,False,False,,none,"The AQI must be reported daily for a 
+metropolitan statistical area (MSA) with a population over 350,000.",,primary,openai,gpt-5,1788,184
+213,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears in a binding regulatory text section listing report content requirements, not preamble or mere definition.",simple,none,58,58.10(a)(1),An AQI report,must,strong,contain,the specified required elements,False,False,,none,"An AQI report must 
+contain the following:
+    a.",,primary,openai,gpt-5,1747,171
+214,EPA-HQ-OAR-2015-0072,proposed,0,True,It appears in regulatory text prescribing report contents and uses a modal ('may') governing permitted content; it is not preamble or mere definition.,simple,none,58,58.10(a)(1),the AQI report,may,permissive,contain,the following information,False,True,When appropriate,none,"When appropriate, 
+the AQI report may also contain the following, but such information 
+is not required:
+    a. Appropriate health and cautionary statements.
+    b.",,primary,openai,gpt-5,1783,181
+215,EPA-HQ-OAR-2015-0072,proposed,0,True,This sentence appears in regulatory text prescribing reporting frequency and access; it is operative binding language within a CFR appendix section.,compound,none,58,58.10(a)(1),the daily AQI,must,strong,be reported,7 days per week,True,False,,none,"The 
+daily AQI must be reported 7 days per week and made available via 
+website or other means of public access.",,primary,openai,gpt-5,1755,280
+215,EPA-HQ-OAR-2015-0072,proposed,1,True,This sentence appears in regulatory text prescribing reporting frequency and access; it is operative binding language within a CFR appendix section.,compound,none,58,58.10(a)(1),the daily AQI,must,strong,be made available,via website or other means of public access,True,False,,none,"The 
+daily AQI must be reported 7 days per week and made available via 
+website or other means of public access.",,primary,openai,gpt-5,0,0
+216,EPA-HQ-OAR-2015-0072,proposed,0,True,"The text appears within binding regulatory appendix language (non-preamble), prescribing when pollutants may be excluded from AQI calculations; such appendix provisions are binding even without an explicit amendatory wrapper.",simple,none,58,58.10(a)(1),the reporting agency,may,permissive,exclude,a pollutant whose index value remains below 50 for a season or year from the calculation of the AQI in section 3 of this appendix,False,True,If the index value for a particular pollutant remains below 50 for a season or year,none,"2.4 Exceptions to Reporting Requirements.
+    i. If the index value for a particular pollutant remains below 
+50 for a season or year, then it may be excluded from the 
+calculation of the AQI in section 3 of this appendix.",section 3 of this appendix,primary,openai,gpt-5,1804,237
+217,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears in regulatory text within an appendix setting reporting requirements and exceptions, functioning as binding permissive rule text.",simple,none,58,58.10(a)(1),the reporting agency,may,permissive,report,the AQI,False,True,If all index values remain below 50 for a year,none,"If all index values remain below 50 for a year, then the AQI 
+may be reported at the discretion of the reporting agency.",,primary,openai,gpt-5,1771,184
+218,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within regulatory text setting reporting requirements (non-preamble, non-definition) and functions as binding instruction within the CFR appendix section.",simple,none,58,58.10(a)(1),the reporting agency,must,strong,report,the AQI as required in section 2 of this appendix,False,True,"In subsequent years, if pollutant levels rise to where the AQI would be above 50",none,"In 
+subsequent years, if pollutant levels rise to where the AQI would be 
+above 50, then the AQI must be reported as required in section 2 of 
+this appendix.",section 2 of this appendix,primary,openai,gpt-5,1787,210
+219,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within binding regulatory text of an AQI reporting section and states a requirement using “must,” making it new or operative binding text.",simple,none,58,58.10(a)(1),AQI reporters,must,strong,use,concentration data from State/Local Air Monitoring Station (SLAMS) or parts of the SLAMS required by 40 CFR 58.10 for each pollutant except PM,False,False,,none,"Concentration data from 
+State/Local Air Monitoring Station (SLAMS) or parts of the SLAMS 
+required by 40 CFR 58.10 must be used for each pollutant except PM.",§ 58.10,primary,openai,gpt-5,1802,214
+220,EPA-HQ-OAR-2015-0072,proposed,0,True,The sentence appears within regulatory text prescribing AQI reporting methods (non-preamble) and functions as binding permissive language allowing use of non-reference PM monitors.,simple,none,58,58.10(a)(1),PM measurements,may,permissive,be used,"from monitors that are not reference or equivalent methods (e.g., continuous PM10 or PM2.5 monitors)",True,False,,none,"PM measurements may 
+be used from monitors that are not reference or equivalent methods 
+(for example, continuous PM<INF>10</INF> or PM<INF>2.5</INF> 
+monitors).",,primary,openai,gpt-5,1840,200
+221,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within binding regulatory text (appendix/table notes) of the CFR, not preamble, and prescribes permissive reporting/calculation behavior.",compound,none,58,58.10(a)(1),reporting authorities,may,permissive,calculate,the 1-hour ozone index value,False,True,"in areas where an AQI based on 1-hour ozone values would be more precautionary, and in addition to calculating the 8-hour ozone index value",none,"In these cases, in addition to calculating the 8-hour ozone index value, the 1-hour ozone index value may be
+  calculated, and the maximum of the two values reported.",,primary,openai,gpt-5,1794,352
+221,EPA-HQ-OAR-2015-0072,proposed,1,True,"The sentence appears within binding regulatory text (appendix/table notes) of the CFR, not preamble, and prescribes permissive reporting/calculation behavior.",compound,none,58,58.10(a)(1),reporting authorities,may,permissive,report,the maximum of the 8-hour and 1-hour ozone index values,False,True,"in areas where an AQI based on 1-hour ozone values would be more precautionary, and when both values are calculated",none,"In these cases, in addition to calculating the 8-hour ozone index value, the 1-hour ozone index value may be
+  calculated, and the maximum of the two values reported.",,primary,openai,gpt-5,0,0
+222,EPA-HQ-OAR-2015-0072,proposed,0,True,"The sentence appears within prescriptive appendix text that functions as binding calculation procedures, making it binding regulatory text.",compound,none,58,58.10(a)(1),calculators of the AQI for ozone,may,permissive,use,1-hour values as well as 8-hour values to calculate index values,False,True,in areas where the AQI based on 1-hour O3 is more precautionary than using 8-hour values,none,"In these cases, the 1-
+hour values as well as 8-hour values may be used to calculate index 
+values and then use the maximum index value as the AQI for 
+O<INF>3</INF>.",,primary,openai,gpt-5,1895,350
+222,EPA-HQ-OAR-2015-0072,proposed,1,True,"The sentence appears within prescriptive appendix text that functions as binding calculation procedures, making it binding regulatory text.",compound,none,58,58.10(a)(1),calculators of the AQI for ozone,may,permissive,use,the maximum index value as the AQI for O3,False,True,after calculating index values from both 1-hour and 8-hour values in areas where the 1-hour AQI is more precautionary,none,"In these cases, the 1-
+hour values as well as 8-hour values may be used to calculate index 
+values and then use the maximum index value as the AQI for 
+O<INF>3</INF>.",,primary,openai,gpt-5,0,0
+223,EPA-HQ-OAR-2015-0072,proposed,0,True,"Appears within regulatory appendix instructional text that functions as binding implementation guidance, not preamble, and prescribes how to apply Equation 1 when a condition occurs.",simple,none,58,58.10(a)(1),the implementing analyst,may,permissive,use,the last two breakpoints in table 2 to this appendix when applying equation 1 to this appendix,False,True,If the concentration is larger than the highest breakpoint in table 2 to this appendix,none,"If the concentration is larger than the highest breakpoint 
+in table 2 to this appendix then the last two breakpoints in table 2 
+may be used when equation 1 to this appendix is applied.",,primary,openai,gpt-5,1925,215

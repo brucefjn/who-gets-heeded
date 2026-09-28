@@ -1,0 +1,258 @@
+candidate_idx,docket_id,rule_type,split_idx,verified,verified_reason,complexity,recital_disposition,cfr_part,cfr_section,subject,modal,modal_strength,action,object,passive_voice,is_conditional,condition_text,amendatory_action,obligation_text,cross_reference,found_via,llm_provider,llm_model,in_tokens,out_tokens
+48,EPA-HQ-OW-2009-0596,proposed,0,True,"The sentence is in a regulatory requirements list establishing water quality standards and states a mandatory requirement using must, indicating binding text.",simple,none,,,Interim restoration designated uses and numeric water quality criteria,must,strong,be established,None,True,False,,none,"Interim restoration designated uses and numeric water quality 
+criteria, with each based on achieving the maximum feasible progress 
+during the applicable phase as determined in the UAA, must be 
+established.",,primary,openai,gpt-5,1767,171
+49,EPA-HQ-OW-2009-0596,proposed,0,True,The sentence appears within a list of mandatory elements using must/ may not language in regulatory text that functions as binding amendatory content.,simple,none,,,Specific time periods for each restoration phase,must,strong,be established,None,True,False,,none,"Specific time periods for each restoration phase must be 
+established.",,primary,openai,gpt-5,1705,170
+50,EPA-HQ-OW-2009-0596,proposed,0,True,"The sentence appears within a numbered list of requirements that function as binding regulatory text in an amendatory-style section, prescribing what must be established for restoration WQS phases.",simple,none,,,The length of each restoration phase,must,strong,be based on,the UAA demonstration of when interim uses can be attained on a case-specific basis,True,False,,none,"The length of each phase must be based on the UAA 
+demonstration of when interim uses can be attained on a case-specific 
+basis.",,primary,openai,gpt-5,1732,193
+51,EPA-HQ-OW-2009-0596,proposed,0,True,"The sentence appears within a list of prescriptive requirements in regulatory text that specifies what must be included/established, functioning as binding text even without an explicit amendatory header.",simple,none,,,Interim restoration designated uses and numeric water quality criteria,must,strong,reflect,the highest attainable use during the time period of the restoration phase,False,False,,none,"Interim restoration designated uses and numeric water quality 
+criteria must reflect the highest attainable use during the time period 
+of the restoration phase.",,primary,openai,gpt-5,1734,193
+52,EPA-HQ-OW-2009-0596,proposed,0,True,"The sentence appears within a list of prescriptive requirements that function as binding regulatory text in an amendatory-style section, not preamble narrative.",simple,none,,,The sum of the phase time periods,may not,strong,exceed,twenty years,False,False,,none,"The sum of these times periods may not exceed 
+twenty years.",,primary,openai,gpt-5,1705,176
+53,EPA-HQ-OW-2009-0596,proposed,0,True,"The sentence is part of prescriptive regulatory text listing requirements (with multiple must/shall statements) rather than preamble narrative, creating new binding requirements in a non-amendatory binding-text section.",simple,none,,,the restoration WQS,must,strong,have specified,the spatial extent to which the restoration WQS will apply,True,False,,none,"The spatial extent to which the restoration WQS will apply 
+(e.g., how far downstream the restoration WQS would apply) must be 
+specified.",,primary,openai,gpt-5,1736,191
+55,EPA-HQ-OW-2009-0596,proposed,0,True,"The sentence appears within prescriptive regulatory text setting conditions for restoration WQS and functions as binding text, not a preamble or mere definition.",simple,none,,,States revising their WQS,must,strong,continue to meet,the regulatory requirements for public participation and EPA review and approval whenever revising WQS,False,False,,none,"The regulatory requirements for public participation and EPA 
+review and approval whenever revising its WQS must continue to be met.",,primary,openai,gpt-5,1733,188
+56,EPA-HQ-OW-2009-0596,proposed,0,True,"The sentence appears within a numbered list of requirements in binding regulatory text (non-preamble) establishing conditions for restoration WQS, functioning as new binding text despite no explicit amendatory wrapper.",compound,none,,,a restoration WQS,may not,strong,include,interim uses less stringent than a use that is an existing use,False,False,,none,"Specifically, a restoration WQS may not include interim uses less 
+stringent than a use that is an ``existing use'' as defined in 40 CFR 
+131.3 or that do not meet the requirements of 40 CFR 131.10(h)(2).",40 CFR 131.3,primary,openai,gpt-5,1787,317
+56,EPA-HQ-OW-2009-0596,proposed,1,True,"The sentence appears within a numbered list of requirements in binding regulatory text (non-preamble) establishing conditions for restoration WQS, functioning as new binding text despite no explicit amendatory wrapper.",compound,none,,,a restoration WQS,may not,strong,include,interim uses that do not meet the requirements of 40 CFR 131.10(h)(2),False,False,,none,"Specifically, a restoration WQS may not include interim uses less 
+stringent than a use that is an ``existing use'' as defined in 40 CFR 
+131.3 or that do not meet the requirements of 40 CFR 131.10(h)(2).",40 CFR 131.10(h)(2),primary,openai,gpt-5,0,0
+72,EPA-HQ-OW-2009-0596,proposed,0,True,"The sentence appears within regulatory text defining terms and prescribing classification criteria in § 131.43, which functions as binding text rather than preamble; it sets a rule for classifying spring water.",simple,definition_embedded,131,131.43,Water from natural springs,shall,strong,be classified,as surface water,True,True,when it exits from the spring onto the Earth's surface,none,"Water from natural springs shall be classified as surface 
+water when it exits from the spring onto the Earth's surface.",,primary,openai,gpt-5,1678,198
+73,EPA-HQ-OW-2009-0596,proposed,0,True,"Text appears within binding regulatory table footnotes in CFR § 131.43, constituting operative criteria rather than preamble or definition scope; thus it is binding.",simple,none,131,131.43,the long-term average of annual geometric mean values,shall,strong,not surpass,the listed concentration values,False,False,,none,"In addition, the long-term average of annual geometric mean values shall not surpass the listed
+  concentration values.",,primary,openai,gpt-5,1768,186
+74,EPA-HQ-OW-2009-0596,proposed,0,True,"The sentence appears within binding regulatory text of § 131.43 that contains prescriptive criteria and procedures, constituting new or operative CFR text, not preamble or mere definition.",simple,none,131,131.43,Any such determination,must,strong,be made consistent with,the provisions in footnote c below,True,False,,none,"Any
+  such determination must be made consistent with the provisions in footnote c below.",,primary,openai,gpt-5,1698,188
+75,EPA-HQ-OW-2009-0596,proposed,0,True,"The sentence appears in regulatory text prescribing criteria within § 131.43 and functions as binding operative language, not preamble or pure definition.",simple,none,131,131.43,the determination,must,strong,be documented,"in an easily accessible and publicly available location, such as an official State website",True,False,,none,"Such determination must
+  also be documented in an easily accessible and publicly available location, such as an official State Web
+  site.",,primary,openai,gpt-5,1711,185
+76,EPA-HQ-OW-2009-0596,proposed,0,True,"The sentence appears within binding regulatory text of § 131.43 establishing criteria and procedures, not preamble; it prescribes authority and procedure for FDEP within the regulatory section.",simple,none,131,131.43,FDEP,may,permissive,calculate,"ambient-based, lake-specific, modified TP and TN criteria within specified bounds from ambient measurements to determine lake-specific, modified criteria pursuant to CWA section 303(c)",False,True,"If chlorophyll a is below the criterion in column B and there are representative data to calculate ambient-based, lake-specific, modified TP and TN criteria",none,"\c\ If chlorophyll a is below the criterion in column B and there are representative data to calculate ambient-
+  based, lake-specific, modified TP and TN criteria, then FDEP may calculate such criteria within these bounds
+  from ambient measurements to determine lake-specific, modified criteria pursuant to CWA section 303(c).",,primary,openai,gpt-5,1794,240
+77,EPA-HQ-OW-2009-0596,proposed,0,True,The sentence appears within binding regulatory text of § 131.43 and uses mandatory language (“must”) prescribing data requirements; it is not mere definition scope or preamble.,compound,none,131,131.43,Modified TN and TP criteria,must,strong,be based on,at least three years of ambient monitoring data,True,True,"When calculating lake-specific, modified TN and TP criteria pursuant to footnote c",none,"Modified TN and TP criteria must be based on at least three years of ambient monitoring data with (a) at least
+  four measurements per year and (b) at least one measurement between May and September and one measurement
+  between October and April each year.",,primary,openai,gpt-5,1769,452
+77,EPA-HQ-OW-2009-0596,proposed,1,True,The sentence appears within binding regulatory text of § 131.43 and uses mandatory language (“must”) prescribing data requirements; it is not mere definition scope or preamble.,compound,none,131,131.43,Ambient monitoring data used for modified TN and TP criteria,must,strong,include at least,four measurements per year,False,True,For the data set on which modified TN and TP criteria are based,none,"Modified TN and TP criteria must be based on at least three years of ambient monitoring data with (a) at least
+  four measurements per year and (b) at least one measurement between May and September and one measurement
+  between October and April each year.",,primary,openai,gpt-5,0,0
+77,EPA-HQ-OW-2009-0596,proposed,2,True,The sentence appears within binding regulatory text of § 131.43 and uses mandatory language (“must”) prescribing data requirements; it is not mere definition scope or preamble.,compound,none,131,131.43,Ambient monitoring data used for modified TN and TP criteria,must,strong,include at least,one measurement between May and September each year and one measurement between October and April each year,False,True,For the data set on which modified TN and TP criteria are based,none,"Modified TN and TP criteria must be based on at least three years of ambient monitoring data with (a) at least
+  four measurements per year and (b) at least one measurement between May and September and one measurement
+  between October and April each year.",,primary,openai,gpt-5,0,0
+78,EPA-HQ-OW-2009-0596,proposed,0,True,"The sentence appears within regulatory text specifying criteria in § 131.43 and functions as binding amendatory/standards text, not preamble or definition-only scope.",simple,none,131,131.43,Modified TP and TN criteria,may not,strong,exceed,criteria applicable to streams to which a lake discharges,False,False,,none,"Modified TP and TN criteria may not exceed criteria applicable to streams to
+  which a lake discharges.",,primary,openai,gpt-5,1724,189
+79,EPA-HQ-OW-2009-0596,proposed,0,True,"The sentence appears within regulatory criteria text for § 131.43 being added/revised as binding WQS, functioning as an operative allowance within an amendatory block.",simple,none,131,131.43,regulated parties determining alkalinity or surrogate measures,may,permissive,substitute,a specific conductance of 250 micromhos/cm for alkalinity data,False,True,If alkalinity data are unavailable,add,"\e\ If alkalinity data are unavailable, a specific conductance of 250 micromhos/cm may be substituted.
+\f\",,primary,openai,gpt-5,1718,204
+80,EPA-HQ-OW-2009-0596,proposed,0,True,"The sentence is part of binding regulatory text within § 131.43 (table note) specifying a quantitative criterion, making it enforceable substantive text.",simple,none,131,131.43,the long-term average of annual geometric mean values,may not,strong,surpass,the listed concentration values,False,False,,none,"In addition, the long-
+  term average of annual geometric mean values shall not surpass the
+  listed concentration values.",,primary,openai,gpt-5,1756,184
+81,EPA-HQ-OW-2009-0596,proposed,0,True,Text appears within substantive CFR regulatory text in § 131.43 prescribing how States may use site-specific values; it is binding permissive language in the rule text.,compound,none,131,131.43,The State,may,permissive,substitute,site-specific values for the preset values for c_f and τ_w,False,True,where the State determines that they are appropriate,none,"The State may substitute site-specific 
+values for these preset values where the State determines that they are 
+appropriate and documents the site-specific values in an easily 
+accessible and publicly available location, such as an official State 
+Web site.",,primary,openai,gpt-5,1848,320
+81,EPA-HQ-OW-2009-0596,proposed,1,True,Text appears within substantive CFR regulatory text in § 131.43 prescribing how States may use site-specific values; it is binding permissive language in the rule text.,compound,none,131,131.43,The State,must,strong,document,"the site-specific values in an easily accessible and publicly available location, such as an official State Web site",False,True,if the State substitutes site-specific values for the preset values,none,"The State may substitute site-specific 
+values for these preset values where the State determines that they are 
+appropriate and documents the site-specific values in an easily 
+accessible and publicly available location, such as an official State 
+Web site.",,primary,openai,gpt-5,0,0
+82,EPA-HQ-OW-2009-0596,proposed,0,True,Text appears within binding regulatory section language of § 131.43 establishing requirements and permissions; it is not preamble or mere definitional scope and functions as operative rule text.,compound,none,131,131.43,DPVs,may not,strong,exceed,other criteria established for designated use protection in this section,False,False,,none,"DPVs may not exceed other criteria established for designated use 
+protection in this section, nor result in an exceedance of other 
+criteria for other water quality parameters established pursuant to 
+Rule 62-302, F.A.C.
+
+    (B) The State may calculate alternative DPVs as above for Ci except 
+that Li is determined as a series of values for each reach in the 
+upstream drainage area such that the sum of reach-specific incremental 
+loading rates equals the target loading rate to the downstream water 
+protective of downstream uses, taking into account that downstream 
+reaches must reflect loads established for upstream reaches.",,primary,openai,gpt-5,1917,303
+82,EPA-HQ-OW-2009-0596,proposed,1,True,Text appears within binding regulatory section language of § 131.43 establishing requirements and permissions; it is not preamble or mere definitional scope and functions as operative rule text.,compound,none,131,131.43,DPVs,may not,strong,result in an exceedance,"other criteria for other water quality parameters established pursuant to Rule 62-302, F.A.C.",False,False,,none,"DPVs may not exceed other criteria established for designated use 
+protection in this section, nor result in an exceedance of other 
+criteria for other water quality parameters established pursuant to 
+Rule 62-302, F.A.C.
+
+    (B) The State may calculate alternative DPVs as above for Ci except 
+that Li is determined as a series of values for each reach in the 
+upstream drainage area such that the sum of reach-specific incremental 
+loading rates equals the target loading rate to the downstream water 
+protective of downstream uses, taking into account that downstream 
+reaches must reflect loads established for upstream reaches.",,primary,openai,gpt-5,0,0
+83,EPA-HQ-OW-2009-0596,proposed,0,True,The sentence appears within binding regulatory text of § 131.43 and forms part of an amendatory block establishing procedures; it prescribes what alternative DPVs are permitted to consider.,simple,none,131,131.43,Alternative DPVs,may,permissive,factor in,"additional nutrient attenuation provided by already existing landscape modifications or treatment systems, such as constructed wetlands or stormwater treatment areas",False,False,,none,"Alternative DPVs may factor in additional nutrient attenuation provided 
+by already existing landscape modifications or treatment systems, such 
+as constructed wetlands or stormwater treatment areas.",,primary,openai,gpt-5,1733,203
+84,EPA-HQ-OW-2009-0596,proposed,0,True,"The sentences appear in regulatory text within § 131.43 and state requirements with “must,” constituting binding text even without an explicit amendatory header.",compound,none,131,131.43,the State,must,strong,provide,public notice and opportunity for comment,False,True,For alternative DPVs to become effective for Clean Water Act purposes,none,"For alternative 
+DPVs to become effective for Clean Water Act purposes, the State must 
+provide public notice and opportunity for comment.
+    (C) To use an alternative technical approach of comparable 
+scientific rigor to quantitatively determine the protective load to the 
+estuary and associated protective stream concentrations, the State must 
+go through the process for a Federal site-specific alternative 
+criterion pursuant to paragraph (e) of this section.",,primary,openai,gpt-5,1837,323
+84,EPA-HQ-OW-2009-0596,proposed,1,True,"The sentences appear in regulatory text within § 131.43 and state requirements with “must,” constituting binding text even without an explicit amendatory header.",compound,none,131,131.43,the State,must,strong,go through the process,for a Federal site-specific alternative criterion,False,True,To use an alternative technical approach of comparable scientific rigor to quantitatively determine the protective load to the estuary and associated protective stream concentrations,none,"For alternative 
+DPVs to become effective for Clean Water Act purposes, the State must 
+provide public notice and opportunity for comment.
+    (C) To use an alternative technical approach of comparable 
+scientific rigor to quantitatively determine the protective load to the 
+estuary and associated protective stream concentrations, the State must 
+go through the process for a Federal site-specific alternative 
+criterion pursuant to paragraph (e) of this section.",§ 131.43(e),primary,openai,gpt-5,0,0
+85,EPA-HQ-OW-2009-0596,proposed,0,True,"The sentence appears in regulatory text within a CFR section prescribing numeric water quality criteria, which constitutes binding requirements even without an explicit amendatory wrapper.",simple,none,131,131.43,the long-term average of annual geometric mean values,must not,strong,surpass,the listed concentration values,False,False,,none,"In addition, the long-term average of annual geometric mean values shall not surpass the listed
+  concentration values.",,primary,openai,gpt-5,1700,182
+86,EPA-HQ-OW-2009-0596,proposed,0,True,The sentence is binding regulatory text within a CFR section using mandatory modal 'shall' and is not preamble or a mere definition.,simple,none,131,131.43,The State,shall,strong,use,an appropriate design flow condition for purposes of permit limit derivation or load and wasteload allocations that is consistent with the criteria duration and frequency established in this section,False,True,where necessary,none,"(ii) The State shall use an appropriate design flow condition, 
+where necessary, for purposes of permit limit derivation or load and 
+wasteload allocations that is consistent with the criteria duration and 
+frequency established in this section (e.g., average annual flow for a 
+criterion magnitude expressed as an average annual geometric mean 
+value).",,primary,openai,gpt-5,1807,200
+87,EPA-HQ-OW-2009-0596,proposed,0,True,"The sentence appears within regulatory text of § 131.43 establishing procedures and contains deontic modals governing agency action, making it binding regulatory text.",simple,none,131,131.43(e)(1),the Regional Administrator,may,permissive,determine,that site-specific alternative criteria apply to specific surface waters in lieu of the criteria established in paragraph (c) of this section,False,True,Upon request from the State,none,"(1) Upon request from the State, the Regional Administrator may 
+determine that site-specific alternative criteria shall apply to 
+specific surface waters in lieu of the criteria established in 
+paragraph (c) of this section.",§ 131.11,primary,openai,gpt-5,1749,213
+88,EPA-HQ-OW-2009-0596,proposed,0,True,"The text appears within binding regulatory text of § 131.43 establishing procedures and requirements (non-preamble, non-definition), thus it is binding under rule (b).",compound,none,131,131.43(e)(1),Regional Administrator,shall,strong,make any such determination,consistent with § 131.11,False,False,,none,"Any such determination shall be made 
+consistent with Sec.  131.11.
+    (2) To receive consideration from the Regional Administrator for a 
+determination of site-specific alternative criteria, the State must 
+submit a request that includes proposed alternative numeric criteria 
+and supporting rationale suitable to meet the needs for a technical 
+support document pursuant to paragraph (e)(3) of this section.",§ 131.11,primary,openai,gpt-5,1816,335
+88,EPA-HQ-OW-2009-0596,proposed,1,True,"The text appears within binding regulatory text of § 131.43 establishing procedures and requirements (non-preamble, non-definition), thus it is binding under rule (b).",compound,none,131,131.43(e)(2),the State,must,strong,submit a request,that includes proposed alternative numeric criteria and supporting rationale suitable to meet the needs for a technical support document pursuant to paragraph (e)(3) of this section,False,True,To receive consideration from the Regional Administrator for a determination of site-specific alternative criteria,none,"Any such determination shall be made 
+consistent with Sec.  131.11.
+    (2) To receive consideration from the Regional Administrator for a 
+determination of site-specific alternative criteria, the State must 
+submit a request that includes proposed alternative numeric criteria 
+and supporting rationale suitable to meet the needs for a technical 
+support document pursuant to paragraph (e)(3) of this section.",,primary,openai,gpt-5,0,0
+89,EPA-HQ-OW-2009-0596,proposed,0,True,"The sentence is binding regulatory text within a CFR section, not a preamble or mere definition, and uses mandatory modal language prescribing agency procedure.",simple,none,131,131.43,the Regional Administrator,shall,strong,provide,public notice and comment on a proposed determination,False,True,For any determination made under paragraph (e)(1) of this section and prior to making such a determination,none,"(3) For any determination made under paragraph (e)(1) of this 
+section, the Regional Administrator shall, prior to making such a 
+determination, provide for public notice and comment on a proposed 
+determination.",paragraph (e)(1) of this section,primary,openai,gpt-5,1739,208
+90,EPA-HQ-OW-2009-0596,proposed,0,True,"The sentence appears in binding regulatory text within a CFR section as part of amendatory language establishing procedures, making it new binding text.",compound,none,131,131.43,the Regional Administrator,shall,strong,prepare,a technical support document addressing the specific surface waters affected and the justification for each proposed determination,False,True,For any such proposed determination,none,"For any such proposed determination, the Regional 
+Administrator shall prepare and make available to the public a 
+technical support document addressing the specific surface waters 
+affected and the justification for each proposed determination.",,primary,openai,gpt-5,1747,295
+90,EPA-HQ-OW-2009-0596,proposed,1,True,"The sentence appears in binding regulatory text within a CFR section as part of amendatory language establishing procedures, making it new binding text.",compound,none,131,131.43,the Regional Administrator,shall,strong,make available to the public,the technical support document,False,True,For any such proposed determination,none,"For any such proposed determination, the Regional 
+Administrator shall prepare and make available to the public a 
+technical support document addressing the specific surface waters 
+affected and the justification for each proposed determination.",,primary,openai,gpt-5,0,0
+91,EPA-HQ-OW-2009-0596,proposed,0,True,"Text appears within binding regulatory text of § 131.43, not preamble, and states a deontic requirement.",simple,none,131,131.43,The Regional Administrator,shall,strong,make available to the public,the technical support document,False,False,,none,"This 
+document shall be made available to the public no later than the date 
+of public notice issuance.
+    (4)",,primary,openai,gpt-5,1713,175
+92,EPA-HQ-OW-2009-0596,proposed,0,True,"The sentence appears within binding regulatory text of § 131.43, not preamble, and uses mandatory modal 'shall' directing the Regional Administrator to act.",compound,none,131,131.43(e)(4),The Regional Administrator,shall,strong,maintain,an updated list of determinations made pursuant to paragraph (e)(1) of this section,False,False,,none,"The Regional Administrator shall maintain and make available to 
+the public an updated list of determinations made pursuant to paragraph 
+(e)(1) of this section as well as the technical support documents for 
+each determination.
+    (5) Nothing in this paragraph (e) shall limit the Administrator's 
+authority to modify the criteria in paragraph (c) of this section 
+through rulemaking.
+    (f) Effective date.",paragraph (e)(1) of this section,primary,openai,gpt-5,1834,339
+92,EPA-HQ-OW-2009-0596,proposed,1,True,"The sentence appears within binding regulatory text of § 131.43, not preamble, and uses mandatory modal 'shall' directing the Regional Administrator to act.",compound,none,131,131.43(e)(4),The Regional Administrator,shall,strong,make available to the public,an updated list of determinations made pursuant to paragraph (e)(1) of this section and the technical support documents for each determination,False,False,,none,"The Regional Administrator shall maintain and make available to 
+the public an updated list of determinations made pursuant to paragraph 
+(e)(1) of this section as well as the technical support documents for 
+each determination.
+    (5) Nothing in this paragraph (e) shall limit the Administrator's 
+authority to modify the criteria in paragraph (c) of this section 
+through rulemaking.
+    (f) Effective date.",paragraph (e)(1) of this section,primary,openai,gpt-5,0,0
+93,EPA-HQ-OW-2009-0596,proposed,0,True,"The sentence appears within regulatory text setting out requirements for restoration WQS in § 131.43; even though the modal is permissive, it is binding regulatory text within the rule section.",simple,none,131,131.43(g),The State,may,permissive,adopt,restoration water quality standards (WQS) to allow attainment of a designated use over phased time periods,False,True,where the designated use is not currently attainable as a result of nutrient pollution but is attainable in the future,none,"The State may, at 
+its discretion, adopt restoration WQS to allow attainment of a 
+designated use over phased time periods where the designated use is not 
+currently attainable as a result of nutrient pollution but is 
+attainable in the future.",§ 131.10(g)(1) through (6),primary,openai,gpt-5,1788,235
+94,EPA-HQ-OW-2009-0596,proposed,0,True,The text is binding regulatory text within a CFR section (non-preamble) establishing requirements for States when adopting restoration WQS.,compound,none,131,131.43(g),the State,must,strong,demonstrate,that the designated use is not attainable during the time periods established for the restoration phases based on one of the factors identified in § 131.10(g)(1) through (6),False,False,,none,"In establishing restoration WQS, the State 
+must:
+    (1) Demonstrate that the designated use is not attainable during 
+the time periods established for the restoration phases based on one of 
+the factors identified in Sec.  131.10(g)(1) through (6);
+    (2) Specify the designated use to be attained at the termination of 
+the restoration period, as well as the criteria necessary to protect 
+such use, provided that the final designated use and corresponding 
+criteria shall include, at a minimum, uses and criteria that are 
+consistent with CWA section 101(a)(2) ;
+    (3) Establish interim restoration designated uses and water quality 
+criteria, that apply during each phase that will result in maximum 
+feasible progress toward the highest attainable designated use and the 
+use identified in paragraph (g)(2) of this section.",§ 131.10(g)(1) through (6),primary,openai,gpt-5,2117,505
+94,EPA-HQ-OW-2009-0596,proposed,1,True,The text is binding regulatory text within a CFR section (non-preamble) establishing requirements for States when adopting restoration WQS.,compound,none,131,131.43(g),the State,must,strong,specify,"the designated use to be attained at the termination of the restoration period, and the criteria necessary to protect such use",False,True,"provided that the final designated use and corresponding criteria shall include, at a minimum, uses and criteria that are consistent with CWA section 101(a)(2)",none,"In establishing restoration WQS, the State 
+must:
+    (1) Demonstrate that the designated use is not attainable during 
+the time periods established for the restoration phases based on one of 
+the factors identified in Sec.  131.10(g)(1) through (6);
+    (2) Specify the designated use to be attained at the termination of 
+the restoration period, as well as the criteria necessary to protect 
+such use, provided that the final designated use and corresponding 
+criteria shall include, at a minimum, uses and criteria that are 
+consistent with CWA section 101(a)(2) ;
+    (3) Establish interim restoration designated uses and water quality 
+criteria, that apply during each phase that will result in maximum 
+feasible progress toward the highest attainable designated use and the 
+use identified in paragraph (g)(2) of this section.",,primary,openai,gpt-5,0,0
+94,EPA-HQ-OW-2009-0596,proposed,2,True,The text is binding regulatory text within a CFR section (non-preamble) establishing requirements for States when adopting restoration WQS.,compound,none,131,131.43(g),the State,must,strong,establish,interim restoration designated uses and water quality criteria that apply during each phase and will result in maximum feasible progress toward the highest attainable designated use and the use identified in paragraph (g)(2) of this section,False,False,,none,"In establishing restoration WQS, the State 
+must:
+    (1) Demonstrate that the designated use is not attainable during 
+the time periods established for the restoration phases based on one of 
+the factors identified in Sec.  131.10(g)(1) through (6);
+    (2) Specify the designated use to be attained at the termination of 
+the restoration period, as well as the criteria necessary to protect 
+such use, provided that the final designated use and corresponding 
+criteria shall include, at a minimum, uses and criteria that are 
+consistent with CWA section 101(a)(2) ;
+    (3) Establish interim restoration designated uses and water quality 
+criteria, that apply during each phase that will result in maximum 
+feasible progress toward the highest attainable designated use and the 
+use identified in paragraph (g)(2) of this section.",§ 131.43(g)(2),primary,openai,gpt-5,0,0
+95,EPA-HQ-OW-2009-0596,proposed,0,True,"The sentence appears within regulatory text of § 131.43 setting substantive requirements and functions as binding prohibitive language, not a preamble or pure definition.",compound,none,131,131.43,interim restoration designated uses and water quality criteria,may not,strong,provide for further degradation,a water body,False,False,,none,"Such interim uses 
+and criteria may not provide for further degradation of a water body 
+and may be revised prior to the end of each phase in accordance with 
+Sec.",,primary,openai,gpt-5,1757,324
+95,EPA-HQ-OW-2009-0596,proposed,1,True,"The sentence appears within regulatory text of § 131.43 setting substantive requirements and functions as binding prohibitive language, not a preamble or pure definition.",compound,none,131,131.43,interim restoration designated uses and water quality criteria,may,permissive,be revised,prior to the end of each phase in accordance with §§ 131.10 and 131.20 and submitted to EPA for approval,True,False,,none,"Such interim uses 
+and criteria may not provide for further degradation of a water body 
+and may be revised prior to the end of each phase in accordance with 
+Sec.",§§ 131.10 and 131.20,primary,openai,gpt-5,0,0
+96,EPA-HQ-OW-2009-0596,proposed,0,True,"The text appears within a regulatory requirements list in § 131.43 that functions as binding amendatory text, prescribing actions states must take when adopting restoration WQS.",compound,none,131,131.43(g)(4),States adopting a restoration water quality standard,must,strong,establish,the time periods for each restoration phase that will result in maximum feasible progress toward the highest attainable use and the designated use identified in paragraph (g)(2) of this section,False,False,,none,"Sec.  131.10 and 131.20 and submitted to EPA for approval;
+    (4) Establish the time periods for each restoration phase that will 
+result in maximum feasible progress toward the highest attainable use 
+and the designated use identified in paragraph (g)(2) of this section, 
+except that the sum of such time periods shall not exceed twenty years 
+from the initial date of establishment of the restoration WQS under 
+this section;
+    (5) Specify the spatial extent of applicability for all affected 
+waters;
+    (6) Meet the requirements of Sec.",§ 131.43(g)(2),primary,openai,gpt-5,1921,575
+96,EPA-HQ-OW-2009-0596,proposed,1,True,"The text appears within a regulatory requirements list in § 131.43 that functions as binding amendatory text, prescribing actions states must take when adopting restoration WQS.",compound,none,131,131.43(g)(4),States adopting a restoration water quality standard,must not,strong,exceed,a sum of time periods greater than twenty years from the initial date of establishment of the restoration WQS under this section,False,False,,none,"Sec.  131.10 and 131.20 and submitted to EPA for approval;
+    (4) Establish the time periods for each restoration phase that will 
+result in maximum feasible progress toward the highest attainable use 
+and the designated use identified in paragraph (g)(2) of this section, 
+except that the sum of such time periods shall not exceed twenty years 
+from the initial date of establishment of the restoration WQS under 
+this section;
+    (5) Specify the spatial extent of applicability for all affected 
+waters;
+    (6) Meet the requirements of Sec.",,primary,openai,gpt-5,0,0
+96,EPA-HQ-OW-2009-0596,proposed,2,True,"The text appears within a regulatory requirements list in § 131.43 that functions as binding amendatory text, prescribing actions states must take when adopting restoration WQS.",compound,none,131,131.43(g)(5),States adopting a restoration water quality standard,must,strong,specify,the spatial extent of applicability for all affected waters,False,False,,none,"Sec.  131.10 and 131.20 and submitted to EPA for approval;
+    (4) Establish the time periods for each restoration phase that will 
+result in maximum feasible progress toward the highest attainable use 
+and the designated use identified in paragraph (g)(2) of this section, 
+except that the sum of such time periods shall not exceed twenty years 
+from the initial date of establishment of the restoration WQS under 
+this section;
+    (5) Specify the spatial extent of applicability for all affected 
+waters;
+    (6) Meet the requirements of Sec.",,primary,openai,gpt-5,0,0
+96,EPA-HQ-OW-2009-0596,proposed,3,True,"The text appears within a regulatory requirements list in § 131.43 that functions as binding amendatory text, prescribing actions states must take when adopting restoration WQS.",compound,none,131,131.43(g)(6),States adopting a restoration water quality standard,must,strong,meet,the requirements of §§ 131.10 and 131.20,False,False,,none,"Sec.  131.10 and 131.20 and submitted to EPA for approval;
+    (4) Establish the time periods for each restoration phase that will 
+result in maximum feasible progress toward the highest attainable use 
+and the designated use identified in paragraph (g)(2) of this section, 
+except that the sum of such time periods shall not exceed twenty years 
+from the initial date of establishment of the restoration WQS under 
+this section;
+    (5) Specify the spatial extent of applicability for all affected 
+waters;
+    (6) Meet the requirements of Sec.",§ 131.10,primary,openai,gpt-5,0,0

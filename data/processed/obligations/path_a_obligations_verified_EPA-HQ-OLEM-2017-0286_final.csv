@@ -1,0 +1,823 @@
+candidate_idx,docket_id,rule_type,split_idx,verified,verified_reason,complexity,recital_disposition,cfr_part,cfr_section,subject,modal,modal_strength,action,object,passive_voice,is_conditional,condition_text,amendatory_action,obligation_text,cross_reference,found_via,llm_provider,llm_model,in_tokens,out_tokens
+13,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within an amendatory block revising § 257.60(b), making it new binding text.",compound,none,257,257.60(b),The owner or operator of the CCR unit,must,strong,obtain,a certification stating that the demonstration meets the requirements of paragraph (a) of this section,False,False,,revise,"The owner or operator of the CCR unit must obtain a 
+certification from a qualified professional engineer or approval from 
+the Participating State Director or approval from EPA where EPA is the 
+permitting authority stating that the demonstration meets the 
+requirements of paragraph (a) of this section.",§ 257.60(a),primary,openai,gpt-5,1837,454
+13,EPA-HQ-OLEM-2017-0286,final,1,True,"The sentence appears within an amendatory block revising § 257.60(b), making it new binding text.",compound,none,257,257.60(b),The owner or operator of the CCR unit,must,strong,obtain,approval from the Participating State Director stating that the demonstration meets the requirements of paragraph (a) of this section,False,False,,revise,"The owner or operator of the CCR unit must obtain a 
+certification from a qualified professional engineer or approval from 
+the Participating State Director or approval from EPA where EPA is the 
+permitting authority stating that the demonstration meets the 
+requirements of paragraph (a) of this section.",§ 257.60(a),primary,openai,gpt-5,0,0
+13,EPA-HQ-OLEM-2017-0286,final,2,True,"The sentence appears within an amendatory block revising § 257.60(b), making it new binding text.",compound,none,257,257.60(b),The owner or operator of the CCR unit,must,strong,obtain,approval from EPA where EPA is the permitting authority stating that the demonstration meets the requirements of paragraph (a) of this section,False,False,,revise,"The owner or operator of the CCR unit must obtain a 
+certification from a qualified professional engineer or approval from 
+the Participating State Director or approval from EPA where EPA is the 
+permitting authority stating that the demonstration meets the 
+requirements of paragraph (a) of this section.",§ 257.60(a),primary,openai,gpt-5,0,0
+14,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within an amendatory block revising § 257.61(b), making it new binding regulatory text.",compound,none,257,257.61(b),The owner or operator of the CCR unit,must,strong,obtain,a certification from a qualified professional engineer stating that the demonstration meets the requirements of paragraph (a) of this section,False,False,,revise,"The owner or operator of the CCR unit must obtain a 
+certification from a qualified professional engineer or approval from 
+the Participating State Director or approval from EPA where EPA is the 
+permitting authority stating that the demonstration meets the 
+requirements of paragraph (a) of this section.",§ 257.61(a),primary,openai,gpt-5,1866,466
+14,EPA-HQ-OLEM-2017-0286,final,1,True,"The sentence appears within an amendatory block revising § 257.61(b), making it new binding regulatory text.",compound,none,257,257.61(b),The owner or operator of the CCR unit,must,strong,obtain,approval from the Participating State Director stating that the demonstration meets the requirements of paragraph (a) of this section,False,False,,revise,"The owner or operator of the CCR unit must obtain a 
+certification from a qualified professional engineer or approval from 
+the Participating State Director or approval from EPA where EPA is the 
+permitting authority stating that the demonstration meets the 
+requirements of paragraph (a) of this section.",§ 257.61(a),primary,openai,gpt-5,0,0
+14,EPA-HQ-OLEM-2017-0286,final,2,True,"The sentence appears within an amendatory block revising § 257.61(b), making it new binding regulatory text.",compound,none,257,257.61(b),The owner or operator of the CCR unit,must,strong,obtain,approval from EPA where EPA is the permitting authority stating that the demonstration meets the requirements of paragraph (a) of this section,False,True,where EPA is the permitting authority,revise,"The owner or operator of the CCR unit must obtain a 
+certification from a qualified professional engineer or approval from 
+the Participating State Director or approval from EPA where EPA is the 
+permitting authority stating that the demonstration meets the 
+requirements of paragraph (a) of this section.",§ 257.61(a),primary,openai,gpt-5,0,0
+15,EPA-HQ-OLEM-2017-0286,final,0,True,"Text appears within an amendatory block revising § 257.62(b), so it is new binding regulatory text.",compound,amendatory_quote,257,257.62(b),The owner or operator of the CCR unit,must,strong,obtain,a certification from a qualified professional engineer stating that the demonstration meets the requirements of paragraph (a) of this section,False,False,,revise,"The owner or operator of the CCR unit must obtain a 
+certification from a qualified professional engineer or approval from 
+the Participating State Director or approval from EPA where EPA is the 
+permitting authority stating that the demonstration meets the 
+requirements of paragraph (a) of this section.",§ 257.62(a),primary,openai,gpt-5,1871,463
+15,EPA-HQ-OLEM-2017-0286,final,1,True,"Text appears within an amendatory block revising § 257.62(b), so it is new binding regulatory text.",compound,amendatory_quote,257,257.62(b),The owner or operator of the CCR unit,must,strong,obtain,approval from the Participating State Director stating that the demonstration meets the requirements of paragraph (a) of this section,False,False,,revise,"The owner or operator of the CCR unit must obtain a 
+certification from a qualified professional engineer or approval from 
+the Participating State Director or approval from EPA where EPA is the 
+permitting authority stating that the demonstration meets the 
+requirements of paragraph (a) of this section.",§ 257.62(a),primary,openai,gpt-5,0,0
+15,EPA-HQ-OLEM-2017-0286,final,2,True,"Text appears within an amendatory block revising § 257.62(b), so it is new binding regulatory text.",compound,amendatory_quote,257,257.62(b),The owner or operator of the CCR unit,must,strong,obtain,approval from EPA where EPA is the permitting authority stating that the demonstration meets the requirements of paragraph (a) of this section,False,False,,revise,"The owner or operator of the CCR unit must obtain a 
+certification from a qualified professional engineer or approval from 
+the Participating State Director or approval from EPA where EPA is the 
+permitting authority stating that the demonstration meets the 
+requirements of paragraph (a) of this section.",§ 257.62(a),primary,openai,gpt-5,0,0
+16,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within an amendatory block revising § 257.63(b), making it new binding regulatory text.",compound,amendatory_quote,257,257.63(b),The owner or operator of the CCR unit,must,strong,obtain,a certification from a qualified professional engineer stating that the demonstration meets the requirements of paragraph (a) of this section,False,False,,revise,"The owner or operator of the CCR unit must obtain a 
+certification from a qualified professional engineer or approval from 
+the Participating State Director or approval from EPA where EPA is the 
+permitting authority stating that the demonstration meets the 
+requirements of paragraph (a) of this section.",paragraph (a) of this section,primary,openai,gpt-5,1868,466
+16,EPA-HQ-OLEM-2017-0286,final,1,True,"The sentence appears within an amendatory block revising § 257.63(b), making it new binding regulatory text.",compound,amendatory_quote,257,257.63(b),The owner or operator of the CCR unit,must,strong,obtain,approval from the Participating State Director stating that the demonstration meets the requirements of paragraph (a) of this section,False,False,,revise,"The owner or operator of the CCR unit must obtain a 
+certification from a qualified professional engineer or approval from 
+the Participating State Director or approval from EPA where EPA is the 
+permitting authority stating that the demonstration meets the 
+requirements of paragraph (a) of this section.",paragraph (a) of this section,primary,openai,gpt-5,0,0
+16,EPA-HQ-OLEM-2017-0286,final,2,True,"The sentence appears within an amendatory block revising § 257.63(b), making it new binding regulatory text.",compound,amendatory_quote,257,257.63(b),The owner or operator of the CCR unit,must,strong,obtain,approval from EPA where EPA is the permitting authority stating that the demonstration meets the requirements of paragraph (a) of this section,False,False,,revise,"The owner or operator of the CCR unit must obtain a 
+certification from a qualified professional engineer or approval from 
+the Participating State Director or approval from EPA where EPA is the 
+permitting authority stating that the demonstration meets the 
+requirements of paragraph (a) of this section.",paragraph (a) of this section,primary,openai,gpt-5,0,0
+17,EPA-HQ-OLEM-2017-0286,final,0,True,"Text is within an amendatory block revising § 257.64(c), making it new binding regulatory text.",compound,none,257,257.64(c),The owner or operator of the CCR unit,must,strong,obtain,a certification from a qualified professional engineer stating that the demonstration meets the requirements of paragraph (a) of this section,False,False,,revise,"The owner or operator of the CCR unit must obtain a 
+certification from a qualified professional engineer or approval from 
+the Participating State Director or approval from EPA where EPA is the 
+permitting authority stating that the demonstration meets the 
+requirements of paragraph (a) of this section.",paragraph (a) of this section,primary,openai,gpt-5,1852,468
+17,EPA-HQ-OLEM-2017-0286,final,1,True,"Text is within an amendatory block revising § 257.64(c), making it new binding regulatory text.",compound,none,257,257.64(c),The owner or operator of the CCR unit,must,strong,obtain,approval from the Participating State Director stating that the demonstration meets the requirements of paragraph (a) of this section,False,False,,revise,"The owner or operator of the CCR unit must obtain a 
+certification from a qualified professional engineer or approval from 
+the Participating State Director or approval from EPA where EPA is the 
+permitting authority stating that the demonstration meets the 
+requirements of paragraph (a) of this section.",paragraph (a) of this section,primary,openai,gpt-5,0,0
+17,EPA-HQ-OLEM-2017-0286,final,2,True,"Text is within an amendatory block revising § 257.64(c), making it new binding regulatory text.",compound,none,257,257.64(c),The owner or operator of the CCR unit,must,strong,obtain,approval from EPA where EPA is the permitting authority stating that the demonstration meets the requirements of paragraph (a) of this section,False,True,where EPA is the permitting authority,revise,"The owner or operator of the CCR unit must obtain a 
+certification from a qualified professional engineer or approval from 
+the Participating State Director or approval from EPA where EPA is the 
+permitting authority stating that the demonstration meets the 
+requirements of paragraph (a) of this section.",paragraph (a) of this section,primary,openai,gpt-5,0,0
+18,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within an amendatory block revising § 257.70(c)(2) to read as follows, making it new binding regulatory text.",simple,none,257,257.70(c)(2),The owner or operator,must,strong,obtain,certification from a qualified professional engineer or approval from the Participating State Director or approval from EPA (where EPA is the permitting authority) that the liquid flow rate through the lower component of the alternative composite liner is no greater than the liquid flow rate through two feet of compacted soil with a hydraulic conductivity of 1x10^-7 cm/sec,False,False,,revise,"The owner or operator must obtain certification from a 
+qualified professional engineer or approval from the Participating 
+State Director or approval from EPA where EPA is the permitting 
+authority that the liquid flow rate through the lower component of the 
+alternative composite liner is no greater than the liquid flow rate 
+through two feet of compacted soil with a hydraulic conductivity of 
+1x10<SUP>-</SUP>\7\ cm/sec.",,primary,openai,gpt-5,1888,248
+19,EPA-HQ-OLEM-2017-0286,final,0,True,The sentence appears within an amendatory block revising § 257.70 and sets a binding technical criterion.,simple,none,257,257.70(c)(2),the two feet of compacted soil used in the comparison,shall,strong,have a hydraulic conductivity no greater than,1x10^-7 cm/sec,False,False,,revise,"The hydraulic conductivity for the two feet 
+of compacted soil used in the comparison shall be no greater than 
+1x10<SUP>-</SUP>\7\ cm/sec.",,primary,openai,gpt-5,1771,189
+20,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within an amendatory block revising § 257.70, making it new binding regulatory text.",simple,none,257,257.70,the hydraulic conductivity of any alternative to the two feet of compacted soil,must,strong,be determined,using recognized and generally accepted methods,True,False,,revise,"The hydraulic conductivity of any 
+alternative to the two feet of compacted soil must be determined using 
+recognized and generally accepted methods.",,primary,openai,gpt-5,1771,184
+21,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within amendatory text revising § 257.70, making it binding regulatory text.",simple,none,257,257.70,the liquid flow rate comparison,must,strong,be made,using Equation 1 of this section,True,False,,revise,"The liquid flow rate 
+comparison must be made using Equation 1 of this section, which is 
+derived from Darcy's Law for gravity flow through porous media.",,primary,openai,gpt-5,1764,174
+22,EPA-HQ-OLEM-2017-0286,final,0,True,"Text appears within an amendatory block revising CFR paragraphs, making it new binding regulatory text.",compound,none,257,257.70(e),the owner or operator,must,strong,obtain,"a certification from a qualified professional engineer that the design of the composite liner (or, if applicable, alternative composite liner) and the leachate collection and removal system meets the requirements of this section",False,True,Prior to construction of the CCR landfill or any lateral expansion of a CCR landfill,revise,"* * * *
+    (e) Prior to construction of the CCR landfill or any lateral 
+expansion of a CCR landfill, the owner or operator must obtain a 
+certification from a qualified professional engineer or approval from 
+the Participating State Director or approval from EPA where EPA is the 
+permitting authority that the design of the composite liner (or, if 
+applicable, alternative composite liner) and the leachate collection 
+and removal system meets the requirements of this section.",,primary,openai,gpt-5,1917,523
+22,EPA-HQ-OLEM-2017-0286,final,1,True,"Text appears within an amendatory block revising CFR paragraphs, making it new binding regulatory text.",compound,none,257,257.70(e),the owner or operator,must,strong,obtain,"approval from the Participating State Director that the design of the composite liner (or, if applicable, alternative composite liner) and the leachate collection and removal system meets the requirements of this section",False,True,Prior to construction of the CCR landfill or any lateral expansion of a CCR landfill,revise,"* * * *
+    (e) Prior to construction of the CCR landfill or any lateral 
+expansion of a CCR landfill, the owner or operator must obtain a 
+certification from a qualified professional engineer or approval from 
+the Participating State Director or approval from EPA where EPA is the 
+permitting authority that the design of the composite liner (or, if 
+applicable, alternative composite liner) and the leachate collection 
+and removal system meets the requirements of this section.",,primary,openai,gpt-5,0,0
+22,EPA-HQ-OLEM-2017-0286,final,2,True,"Text appears within an amendatory block revising CFR paragraphs, making it new binding regulatory text.",compound,none,257,257.70(e),the owner or operator,must,strong,obtain,"approval from EPA, where EPA is the permitting authority, that the design of the composite liner (or, if applicable, alternative composite liner) and the leachate collection and removal system meets the requirements of this section",False,True,Prior to construction of the CCR landfill or any lateral expansion of a CCR landfill,revise,"* * * *
+    (e) Prior to construction of the CCR landfill or any lateral 
+expansion of a CCR landfill, the owner or operator must obtain a 
+certification from a qualified professional engineer or approval from 
+the Participating State Director or approval from EPA where EPA is the 
+permitting authority that the design of the composite liner (or, if 
+applicable, alternative composite liner) and the leachate collection 
+and removal system meets the requirements of this section.",,primary,openai,gpt-5,0,0
+23,EPA-HQ-OLEM-2017-0286,final,0,True,The sentence appears within an amendatory block revising § 257.70; therefore it is new binding regulatory text.,simple,none,257,257.70(f),the owner or operator,must,strong,obtain,"a certification from a qualified professional engineer or approval from the Participating State Director or approval from EPA (where EPA is the permitting authority) that the composite liner (or, if applicable, alternative composite liner) and the leachate collection and removal system have been constructed in accordance with the requirements of this section",False,True,Upon completion of construction of the CCR landfill or any lateral expansion of a CCR landfill,revise,"Upon completion of construction of the CCR landfill or any 
+lateral expansion of a CCR landfill, the owner or operator must obtain 
+a certification from a qualified professional engineer or approval from 
+the Participating State Director or approval from EPA where EPA is the 
+permitting authority that the design of the composite liner (or, if 
+applicable, alternative composite liner) and the leachate collection 
+and removal system have been constructed in accordance with the 
+requirements of this section.",,primary,openai,gpt-5,1913,247
+24,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within an amendatory block revising § 257.71(b), so it is new binding regulatory text.",simple,none,257,257.71(b),The owner or operator of the CCR unit,must,strong,obtain,a certification from a qualified professional engineer or approval from the Participating State Director or approval from EPA (where EPA is the permitting authority) attesting that the documentation as to whether a CCR unit meets the requirements of paragraph (a) of this section is accurate,False,False,,revise,"The owner or operator of the CCR unit must obtain a 
+certification from a qualified professional engineer or approval from 
+the Participating State Director or approval from EPA where EPA is the 
+permitting authority attesting that the documentation as to whether a 
+CCR unit meets the requirements of paragraph (a) of this section is 
+accurate.",§ 257.71(a),primary,openai,gpt-5,1846,232
+25,EPA-HQ-OLEM-2017-0286,final,0,True,"The text is within an amendatory block revising § 257.72(c), so it is new binding regulatory text.",compound,amendatory_quote,257,257.72(c),the owner or operator,must,strong,obtain,certification from a qualified professional engineer that the design of the composite liner complies with the requirements of this section,False,True,Prior to construction of the CCR surface impoundment or any lateral expansion of a CCR surface impoundment,revise,"* * * *
+    (c) Prior to construction of the CCR surface impoundment or any 
+lateral expansion of a CCR surface impoundment, the owner or operator 
+must obtain certification from a qualified professional engineer or 
+approval from the Participating State Director or approval from EPA 
+where EPA is the permitting authority that the design of the composite 
+liner or, if applicable, the design of an alternative composite liner 
+complies with the requirements of this section.",,primary,openai,gpt-5,1917,955
+25,EPA-HQ-OLEM-2017-0286,final,1,True,"The text is within an amendatory block revising § 257.72(c), so it is new binding regulatory text.",compound,amendatory_quote,257,257.72(c),the owner or operator,must,strong,obtain,approval from the Participating State Director that the design of the composite liner complies with the requirements of this section,False,True,Prior to construction of the CCR surface impoundment or any lateral expansion of a CCR surface impoundment,revise,"* * * *
+    (c) Prior to construction of the CCR surface impoundment or any 
+lateral expansion of a CCR surface impoundment, the owner or operator 
+must obtain certification from a qualified professional engineer or 
+approval from the Participating State Director or approval from EPA 
+where EPA is the permitting authority that the design of the composite 
+liner or, if applicable, the design of an alternative composite liner 
+complies with the requirements of this section.",,primary,openai,gpt-5,0,0
+25,EPA-HQ-OLEM-2017-0286,final,2,True,"The text is within an amendatory block revising § 257.72(c), so it is new binding regulatory text.",compound,amendatory_quote,257,257.72(c),the owner or operator,must,strong,obtain,approval from EPA where EPA is the permitting authority that the design of the composite liner complies with the requirements of this section,False,True,Prior to construction of the CCR surface impoundment or any lateral expansion of a CCR surface impoundment,revise,"* * * *
+    (c) Prior to construction of the CCR surface impoundment or any 
+lateral expansion of a CCR surface impoundment, the owner or operator 
+must obtain certification from a qualified professional engineer or 
+approval from the Participating State Director or approval from EPA 
+where EPA is the permitting authority that the design of the composite 
+liner or, if applicable, the design of an alternative composite liner 
+complies with the requirements of this section.",,primary,openai,gpt-5,0,0
+25,EPA-HQ-OLEM-2017-0286,final,3,True,"The text is within an amendatory block revising § 257.72(c), so it is new binding regulatory text.",compound,amendatory_quote,257,257.72(c),the owner or operator,must,strong,obtain,"certification from a qualified professional engineer that the design of an alternative composite liner, if applicable, complies with the requirements of this section",False,True,Prior to construction of the CCR surface impoundment or any lateral expansion of a CCR surface impoundment; and only if an alternative composite liner is applicable,revise,"* * * *
+    (c) Prior to construction of the CCR surface impoundment or any 
+lateral expansion of a CCR surface impoundment, the owner or operator 
+must obtain certification from a qualified professional engineer or 
+approval from the Participating State Director or approval from EPA 
+where EPA is the permitting authority that the design of the composite 
+liner or, if applicable, the design of an alternative composite liner 
+complies with the requirements of this section.",,primary,openai,gpt-5,0,0
+25,EPA-HQ-OLEM-2017-0286,final,4,True,"The text is within an amendatory block revising § 257.72(c), so it is new binding regulatory text.",compound,amendatory_quote,257,257.72(c),the owner or operator,must,strong,obtain,"approval from the Participating State Director that the design of an alternative composite liner, if applicable, complies with the requirements of this section",False,True,Prior to construction of the CCR surface impoundment or any lateral expansion of a CCR surface impoundment; and only if an alternative composite liner is applicable,revise,"* * * *
+    (c) Prior to construction of the CCR surface impoundment or any 
+lateral expansion of a CCR surface impoundment, the owner or operator 
+must obtain certification from a qualified professional engineer or 
+approval from the Participating State Director or approval from EPA 
+where EPA is the permitting authority that the design of the composite 
+liner or, if applicable, the design of an alternative composite liner 
+complies with the requirements of this section.",,primary,openai,gpt-5,0,0
+25,EPA-HQ-OLEM-2017-0286,final,5,True,"The text is within an amendatory block revising § 257.72(c), so it is new binding regulatory text.",compound,amendatory_quote,257,257.72(c),the owner or operator,must,strong,obtain,"approval from EPA where EPA is the permitting authority that the design of an alternative composite liner, if applicable, complies with the requirements of this section",False,True,Prior to construction of the CCR surface impoundment or any lateral expansion of a CCR surface impoundment; and only if an alternative composite liner is applicable,revise,"* * * *
+    (c) Prior to construction of the CCR surface impoundment or any 
+lateral expansion of a CCR surface impoundment, the owner or operator 
+must obtain certification from a qualified professional engineer or 
+approval from the Participating State Director or approval from EPA 
+where EPA is the permitting authority that the design of the composite 
+liner or, if applicable, the design of an alternative composite liner 
+complies with the requirements of this section.",,primary,openai,gpt-5,0,0
+26,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within an amendatory block revising CFR text, making it new binding regulatory language.",simple,none,257,257.72(d),the owner or operator,must,strong,obtain,"certification from a qualified professional engineer or approval from the Participating State Director or approval from EPA (where EPA is the permitting authority) that the composite liner or, if applicable, the alternative composite liner has been constructed in accordance with the requirements of this section",False,True,Upon completion,revise,"(d) Upon completion, the owner or operator must obtain 
+certification from a qualified professional engineer or approval from 
+the Participating State Director or approval from EPA where EPA is the 
+permitting authority that the composite liner or if applicable, the 
+alternative composite liner has been constructed in accordance with the 
+requirements of this section.",,primary,openai,gpt-5,1842,219
+27,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within an amendatory block revising § 257.80(b)(7), so it is new binding regulatory text.",compound,none,257,257.80(b)(7),The owner or operator,must,strong,obtain,"a certification from a qualified professional engineer that the initial CCR fugitive dust control plan, or any subsequent amendment of it, meets the requirements of this section",False,False,,revise,"The owner or operator must obtain a certification from a 
+qualified professional engineer or approval from the Participating 
+State Director or approval from EPA where EPA is the permitting 
+authority that the initial CCR fugitive dust control plan, or any 
+subsequent amendment of it, meets the requirements of this section.",§ 257.80,primary,openai,gpt-5,1839,484
+27,EPA-HQ-OLEM-2017-0286,final,1,True,"The sentence appears within an amendatory block revising § 257.80(b)(7), so it is new binding regulatory text.",compound,none,257,257.80(b)(7),The owner or operator,must,strong,obtain,"approval from the Participating State Director that the initial CCR fugitive dust control plan, or any subsequent amendment of it, meets the requirements of this section",False,False,,revise,"The owner or operator must obtain a certification from a 
+qualified professional engineer or approval from the Participating 
+State Director or approval from EPA where EPA is the permitting 
+authority that the initial CCR fugitive dust control plan, or any 
+subsequent amendment of it, meets the requirements of this section.",§ 257.80,primary,openai,gpt-5,0,0
+27,EPA-HQ-OLEM-2017-0286,final,2,True,"The sentence appears within an amendatory block revising § 257.80(b)(7), so it is new binding regulatory text.",compound,none,257,257.80(b)(7),The owner or operator,must,strong,obtain,"approval from EPA where EPA is the permitting authority that the initial CCR fugitive dust control plan, or any subsequent amendment of it, meets the requirements of this section",False,True,where EPA is the permitting authority,revise,"The owner or operator must obtain a certification from a 
+qualified professional engineer or approval from the Participating 
+State Director or approval from EPA where EPA is the permitting 
+authority that the initial CCR fugitive dust control plan, or any 
+subsequent amendment of it, meets the requirements of this section.",§ 257.80,primary,openai,gpt-5,0,0
+28,EPA-HQ-OLEM-2017-0286,final,0,True,"The obligation appears within an amendatory block revising § 257.81(c)(5), making it new binding regulatory text.",compound,none,257,257.81(c)(5),The owner or operator,must,strong,obtain,a certification stating that the initial and periodic run-on and run-off control system plans meet the requirements of this section,False,False,,revise,"The owner or operator must obtain a certification from a 
+qualified professional engineer or approval from the Participating 
+State Director or approval from EPA where EPA is the permitting 
+authority stating that the initial and periodic run-on and run-off 
+control system plans meet the requirements of this section.",,primary,openai,gpt-5,1843,456
+28,EPA-HQ-OLEM-2017-0286,final,1,True,"The obligation appears within an amendatory block revising § 257.81(c)(5), making it new binding regulatory text.",compound,none,257,257.81(c)(5),The owner or operator,must,strong,obtain,an approval from the Participating State Director stating that the initial and periodic run-on and run-off control system plans meet the requirements of this section,False,False,,revise,"The owner or operator must obtain a certification from a 
+qualified professional engineer or approval from the Participating 
+State Director or approval from EPA where EPA is the permitting 
+authority stating that the initial and periodic run-on and run-off 
+control system plans meet the requirements of this section.",,primary,openai,gpt-5,0,0
+28,EPA-HQ-OLEM-2017-0286,final,2,True,"The obligation appears within an amendatory block revising § 257.81(c)(5), making it new binding regulatory text.",compound,none,257,257.81(c)(5),The owner or operator,must,strong,obtain,an approval from EPA where EPA is the permitting authority stating that the initial and periodic run-on and run-off control system plans meet the requirements of this section,False,False,where EPA is the permitting authority,revise,"The owner or operator must obtain a certification from a 
+qualified professional engineer or approval from the Participating 
+State Director or approval from EPA where EPA is the permitting 
+authority stating that the initial and periodic run-on and run-off 
+control system plans meet the requirements of this section.",,primary,openai,gpt-5,0,0
+29,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within an amendatory block revising § 257.82(c)(5), making it new binding regulatory text.",compound,none,257,257.82(c)(5),The owner or operator,must,strong,obtain,a certification from a qualified professional engineer stating that the initial and periodic inflow design flood control system plans meet the requirements of this section,False,False,,revise,"The owner or operator must obtain a certification from a 
+qualified professional engineer or approval from the Participating 
+State Director or approval from EPA where EPA is the permitting 
+authority stating that the initial and periodic inflow design flood 
+control system plans meet the requirements of this section.",,primary,openai,gpt-5,1835,450
+29,EPA-HQ-OLEM-2017-0286,final,1,True,"The sentence appears within an amendatory block revising § 257.82(c)(5), making it new binding regulatory text.",compound,none,257,257.82(c)(5),The owner or operator,must,strong,obtain,approval from the Participating State Director stating that the initial and periodic inflow design flood control system plans meet the requirements of this section,False,False,,revise,"The owner or operator must obtain a certification from a 
+qualified professional engineer or approval from the Participating 
+State Director or approval from EPA where EPA is the permitting 
+authority stating that the initial and periodic inflow design flood 
+control system plans meet the requirements of this section.",,primary,openai,gpt-5,0,0
+29,EPA-HQ-OLEM-2017-0286,final,2,True,"The sentence appears within an amendatory block revising § 257.82(c)(5), making it new binding regulatory text.",compound,none,257,257.82(c)(5),The owner or operator,must,strong,obtain,approval from EPA where EPA is the permitting authority stating that the initial and periodic inflow design flood control system plans meet the requirements of this section,False,False,,revise,"The owner or operator must obtain a certification from a 
+qualified professional engineer or approval from the Participating 
+State Director or approval from EPA where EPA is the permitting 
+authority stating that the initial and periodic inflow design flood 
+control system plans meet the requirements of this section.",,primary,openai,gpt-5,0,0
+30,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within an amendatory block revising § 257.90 and adding paragraph (g), making it new binding regulatory text.",simple,none,257,257.90(g)(1),The Participating State Director or EPA where EPA is the permitting authority,may,permissive,suspend,the groundwater monitoring requirements under §§ 257.90 through 257.95 for a CCR unit for a period of up to ten years,False,True,"if the owner or operator provides written documentation demonstrating no potential for migration of constituents listed in appendices III and IV to this part from the CCR unit to the uppermost aquifer during the active life and post-closure care period, with the demonstration certified by a qualified professional engineer and approved by the Participating State Director or EPA",revise,"(1) The 
+Participating State Director or EPA where EPA is the permitting 
+authority may suspend the groundwater monitoring requirements under 
+Sec.",§§ 257.90 through 257.95,primary,openai,gpt-5,1771,290
+31,EPA-HQ-OLEM-2017-0286,final,0,True,"The text appears within an amendatory block revising § 257.90, making it new binding regulatory text.",compound,none,257,257.90,the demonstration,must,strong,be certified,by a qualified professional engineer,True,True,If the owner or operator seeks suspension of groundwater monitoring requirements by providing documentation showing no potential for migration,revise,"This demonstration must be certified by a 
+qualified professional
+
+[[Page 36453]]
+
+engineer and approved by the Participating State Director or EPA where 
+EPA is the permitting authority, and must be based upon:
+    (i) Site-specific field collected measurements, sampling, and 
+analysis of physical, chemical, and biological processes affecting 
+contaminant fate and transport, including at a minimum, the information 
+necessary to evaluate or interpret the effects of the following 
+properties or processes on contaminant fate and transport:
+    (A) Aquifer Characteristics, including hydraulic conductivity, 
+hydraulic gradient, effective porosity, aquifer thickness, degree of 
+saturation, stratigraphy, degree of fracturing and secondary porosity 
+of soils and bedrock, aquifer heterogeneity, groundwater discharge, and 
+groundwater recharge areas;
+    (B) Waste Characteristics, including quantity, type, and origin;
+    (C) Climatic Conditions, including annual precipitation, leachate 
+generation estimates, and effects on leachate quality;
+    (D) Leachate Characteristics, including leachate composition, 
+solubility, density, the presence of immiscible constituents, Eh, and 
+pH; and
+    (E) Engineered Controls, including liners, cover systems, and 
+aquifer controls (e.g., lowering the water table).",§§ 257.90 through 257.95,primary,openai,gpt-5,2224,484
+31,EPA-HQ-OLEM-2017-0286,final,1,True,"The text appears within an amendatory block revising § 257.90, making it new binding regulatory text.",compound,none,257,257.90,the demonstration,must,strong,be approved,by the Participating State Director or EPA where EPA is the permitting authority,True,True,If the owner or operator seeks suspension of groundwater monitoring requirements by providing documentation showing no potential for migration,revise,"This demonstration must be certified by a 
+qualified professional
+
+[[Page 36453]]
+
+engineer and approved by the Participating State Director or EPA where 
+EPA is the permitting authority, and must be based upon:
+    (i) Site-specific field collected measurements, sampling, and 
+analysis of physical, chemical, and biological processes affecting 
+contaminant fate and transport, including at a minimum, the information 
+necessary to evaluate or interpret the effects of the following 
+properties or processes on contaminant fate and transport:
+    (A) Aquifer Characteristics, including hydraulic conductivity, 
+hydraulic gradient, effective porosity, aquifer thickness, degree of 
+saturation, stratigraphy, degree of fracturing and secondary porosity 
+of soils and bedrock, aquifer heterogeneity, groundwater discharge, and 
+groundwater recharge areas;
+    (B) Waste Characteristics, including quantity, type, and origin;
+    (C) Climatic Conditions, including annual precipitation, leachate 
+generation estimates, and effects on leachate quality;
+    (D) Leachate Characteristics, including leachate composition, 
+solubility, density, the presence of immiscible constituents, Eh, and 
+pH; and
+    (E) Engineered Controls, including liners, cover systems, and 
+aquifer controls (e.g., lowering the water table).",,primary,openai,gpt-5,0,0
+31,EPA-HQ-OLEM-2017-0286,final,2,True,"The text appears within an amendatory block revising § 257.90, making it new binding regulatory text.",compound,none,257,257.90,the demonstration,must,strong,"be based upon site-specific measurements, sampling, and analyses of processes affecting contaminant fate and transport","including, at a minimum, information necessary to evaluate aquifer characteristics, waste characteristics, climatic conditions, leachate characteristics, and engineered controls",True,True,If the owner or operator seeks suspension of groundwater monitoring requirements by providing documentation showing no potential for migration,revise,"This demonstration must be certified by a 
+qualified professional
+
+[[Page 36453]]
+
+engineer and approved by the Participating State Director or EPA where 
+EPA is the permitting authority, and must be based upon:
+    (i) Site-specific field collected measurements, sampling, and 
+analysis of physical, chemical, and biological processes affecting 
+contaminant fate and transport, including at a minimum, the information 
+necessary to evaluate or interpret the effects of the following 
+properties or processes on contaminant fate and transport:
+    (A) Aquifer Characteristics, including hydraulic conductivity, 
+hydraulic gradient, effective porosity, aquifer thickness, degree of 
+saturation, stratigraphy, degree of fracturing and secondary porosity 
+of soils and bedrock, aquifer heterogeneity, groundwater discharge, and 
+groundwater recharge areas;
+    (B) Waste Characteristics, including quantity, type, and origin;
+    (C) Climatic Conditions, including annual precipitation, leachate 
+generation estimates, and effects on leachate quality;
+    (D) Leachate Characteristics, including leachate composition, 
+solubility, density, the presence of immiscible constituents, Eh, and 
+pH; and
+    (E) Engineered Controls, including liners, cover systems, and 
+aquifer controls (e.g., lowering the water table).",,primary,openai,gpt-5,0,0
+32,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within amendatory text revising § 257.90, making it new binding regulatory language.",simple,none,257,257.90,"Engineered controls, including liners, cover systems, and aquifer controls",must,strong,be evaluated,under design and failure conditions to estimate their long-term residual performance,True,False,,revise,"These must be 
+evaluated under design and failure conditions to estimate their long-
+term residual performance.",,primary,openai,gpt-5,1724,189
+33,EPA-HQ-OLEM-2017-0286,final,0,True,The text appears within an amendatory block revising § 257.90 and sets conditions for renewal and submission; such amendatory language is binding.,compound,none,257,257.90,The owner or operator of the CCR unit,may,permissive,renew,the suspension,False,True,by submitting written documentation that the site characteristics continue to ensure there will be no potential for migration of any of the constituents listed in Appendices III and IV of this part,revise,"(ii) Contaminant fate and transport predictions that maximize 
+contaminant migration and consider impacts on human health and the 
+environment.
+    (2) The owner or operator of the CCR unit may renew this suspension 
+for additional ten year periods by submitting written documentation 
+that the site characteristics continue to ensure there will be no 
+potential for migration of any of the constituents listed in Appendices 
+III and IV of this part.",,primary,openai,gpt-5,1860,500
+33,EPA-HQ-OLEM-2017-0286,final,1,True,The text appears within an amendatory block revising § 257.90 and sets conditions for renewal and submission; such amendatory language is binding.,compound,none,257,257.90,The documentation,must,strong,include,"at a minimum, the information specified in paragraphs (g)(1)(i) and (g)(1)(ii) of this section and a certification by a qualified professional engineer and approved by the State Director or EPA where EPA is the permitting authority",False,False,,revise,"(ii) Contaminant fate and transport predictions that maximize 
+contaminant migration and consider impacts on human health and the 
+environment.
+    (2) The owner or operator of the CCR unit may renew this suspension 
+for additional ten year periods by submitting written documentation 
+that the site characteristics continue to ensure there will be no 
+potential for migration of any of the constituents listed in Appendices 
+III and IV of this part.",§ 257.90(g)(1)(i); § 257.90(g)(1)(ii),primary,openai,gpt-5,0,0
+33,EPA-HQ-OLEM-2017-0286,final,2,True,The text appears within an amendatory block revising § 257.90 and sets conditions for renewal and submission; such amendatory language is binding.,compound,none,257,257.90,The owner or operator,must,strong,submit,the documentation supporting their renewal request for the state's or EPA's review and approval of their extension one year before the groundwater monitoring suspension is due to expire,False,False,,revise,"(ii) Contaminant fate and transport predictions that maximize 
+contaminant migration and consider impacts on human health and the 
+environment.
+    (2) The owner or operator of the CCR unit may renew this suspension 
+for additional ten year periods by submitting written documentation 
+that the site characteristics continue to ensure there will be no 
+potential for migration of any of the constituents listed in Appendices 
+III and IV of this part.",,primary,openai,gpt-5,0,0
+34,EPA-HQ-OLEM-2017-0286,final,0,True,The sentence appears within amendatory regulatory text revising § 257.90 and imposes mandatory content requirements for renewal documentation.,compound,none,257,257.90(g)(2),The owner or operator of the CCR unit,must,strong,include,"at a minimum, the information specified in paragraphs (g)(1)(i) and (g)(1)(ii) of this section",False,True,to renew the suspension for an additional ten-year period,revise,"The documentation must include, at a minimum, 
+the information specified in paragraphs (g)(1)(i) and (g)(1)(ii) of 
+this section and a certification by a qualified professional engineer 
+and approved by the State Director or EPA where EPA is the permitting 
+authority.",§ 257.90(g)(1)(i)-(ii),primary,openai,gpt-5,1799,469
+34,EPA-HQ-OLEM-2017-0286,final,1,True,The sentence appears within amendatory regulatory text revising § 257.90 and imposes mandatory content requirements for renewal documentation.,compound,none,257,257.90(g)(2),The owner or operator of the CCR unit,must,strong,include,a certification by a qualified professional engineer,False,True,to renew the suspension for an additional ten-year period,revise,"The documentation must include, at a minimum, 
+the information specified in paragraphs (g)(1)(i) and (g)(1)(ii) of 
+this section and a certification by a qualified professional engineer 
+and approved by the State Director or EPA where EPA is the permitting 
+authority.",,primary,openai,gpt-5,0,0
+34,EPA-HQ-OLEM-2017-0286,final,2,True,The sentence appears within amendatory regulatory text revising § 257.90 and imposes mandatory content requirements for renewal documentation.,compound,none,257,257.90(g)(2),The owner or operator of the CCR unit,must,strong,obtain approval,approval by the State Director or EPA where EPA is the permitting authority,False,True,to renew the suspension for an additional ten-year period,revise,"The documentation must include, at a minimum, 
+the information specified in paragraphs (g)(1)(i) and (g)(1)(ii) of 
+this section and a certification by a qualified professional engineer 
+and approved by the State Director or EPA where EPA is the permitting 
+authority.",,primary,openai,gpt-5,0,0
+35,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within an amendatory block revising § 257.90, so it is new binding regulatory text.",simple,none,257,257.90,The owner or operator of the CCR unit,must,strong,submit,documentation supporting their renewal request for the State's or EPA's review and approval of their extension,False,False,,revise,"The owner or operator must submit the documentation 
+supporting their renewal request for the state's or EPA's review and 
+approval of their extension one year before the groundwater monitoring 
+suspension is due to expire.",,primary,openai,gpt-5,1756,190
+36,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within an amendatory block revising § 257.91(f), making it new binding regulatory text.",simple,none,257,257.91(f),the owner or operator,must,strong,begin,groundwater monitoring according to paragraph (a) of this section within 90 days,False,True,If the existing groundwater monitoring extension expires or is not approved,revise,"If the existing groundwater monitoring 
+extension expires or is not approved, the owner or operator must begin 
+groundwater monitoring according to paragraph (a) of this section 
+within 90 days.",paragraph (a) of this section,primary,openai,gpt-5,1781,203
+37,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within an amendatory block revising § 257.90, making it binding regulatory text.",simple,none,257,257.90,The owner or operator,may,permissive,continue to renew,the suspension for ten-year periods,False,True,provided the owner or operator demonstrate that the standard in paragraph (g)(1) of this section continues to be met for the unit,revise,"The owner or operator may continue to renew the 
+suspension for ten-year periods, provided the owner or operator 
+demonstrate that the standard in paragraph (g)(1) of this section 
+continues to be met for the unit.",§ 257.90(g)(1),primary,openai,gpt-5,1790,210
+38,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within an amendatory block revising regulatory text, making it new binding text.",simple,none,257,257.90,The owner or operator,must,strong,place,each completed demonstration in the facility's operating record,False,False,,revise,"The owner or operator must place each 
+completed demonstration in the facility's operating record.",,primary,openai,gpt-5,1734,172
+39,EPA-HQ-OLEM-2017-0286,final,0,True,The sentence appears within an amendatory block revising § 257.91 and thus constitutes new binding regulatory text.,simple,none,257,257.90,The owner or operator of the CCR unit,must,strong,include,any approved no migration demonstration,False,False,,revise,"(3) The owner or operator of the CCR unit must include in the 
+annual groundwater monitoring and corrective action report required by 
+Sec.  257.90(e) or Sec.  257.100(e)(5)(ii) any approved no migration 
+demonstration.",§ 257.90(e) or § 257.100(e)(5)(ii),primary,openai,gpt-5,1794,194
+40,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within an amendatory block revising § 257.91(f), so it is new binding regulatory text.",simple,none,257,257.91(f),The owner or operator,must,strong,obtain,a certification from a qualified professional engineer or approval from the Participating State Director or approval from EPA (where EPA is the permitting authority) stating that the groundwater monitoring system has been designed and constructed to meet the requirements of this section,False,False,,revise,"The owner or operator must obtain a certification from a 
+qualified professional engineer or approval from the Participating 
+State Director or approval from EPA where EPA is the permitting 
+authority stating that the groundwater monitoring system has been 
+designed and constructed to meet the requirements of this section.",,primary,openai,gpt-5,1828,216
+41,EPA-HQ-OLEM-2017-0286,final,0,True,"Text appears within an amendatory block revising § 257.91(f), making it new binding regulatory text.",simple,none,257,257.91(f),the certification,must,strong,document,the basis supporting the determination that the groundwater monitoring system includes the minimum number of monitoring wells specified in paragraph (c)(1) of this section,False,True,If the groundwater monitoring system includes the minimum number of monitoring wells specified in paragraph (c)(1) of this section,revise,"If 
+the groundwater monitoring system includes the minimum number of 
+monitoring wells specified in paragraph (c)(1) of this section, the 
+certification must document the basis supporting this determination.",§ 257.91(c)(1),primary,openai,gpt-5,1802,225
+42,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within an amendatory block revising § 257.93(f)(6), so it is new binding regulatory text.",simple,none,257,257.93(f)(6),The owner or operator of the CCR unit,must,strong,obtain,a certification from a qualified professional engineer or approval from the Participating State Director or approval from EPA (where EPA is the permitting authority) stating that the selected statistical method is appropriate for evaluating the groundwater monitoring data for the CCR management area,False,False,,revise,"The owner or operator of the CCR unit must obtain a 
+certification from a qualified professional engineer or approval from 
+the Participating State Director or approval from EPA where EPA is the 
+permitting authority stating that the selected statistical method is 
+appropriate for evaluating the groundwater monitoring data for the CCR 
+management area.",,primary,openai,gpt-5,1824,225
+43,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within an amendatory block revising § 257.93(f)(6), making it new binding text.",simple,none,257,257.93(f)(6),The certification,must,strong,include,a narrative description of the statistical method selected to evaluate the groundwater monitoring data,False,False,,revise,"The certification must include a narrative description 
+of the statistical method selected to evaluate the groundwater 
+monitoring data.",,primary,openai,gpt-5,1749,184
+44,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within an explicit amendatory block revising § 257.94(d)(3), making it new binding regulatory text.",simple,none,257,257.94(d)(3),The owner or operator,must,strong,obtain,a certification from a qualified professional engineer or approval from the Participating State Director or approval from EPA (where EPA is the permitting authority) stating that the demonstration for an alternative groundwater sampling and analysis frequency meets the requirements of this section,False,False,,revise,"The owner or operator must obtain a certification from a 
+qualified professional engineer or approval from the Participating 
+State Director or approval from EPA where EPA is the permitting 
+authority stating that the demonstration for an alternative groundwater 
+sampling and analysis frequency meets the requirements of this section.",,primary,openai,gpt-5,1778,220
+45,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence is within an amendatory block revising § 257.94(d)(3), so it is new binding regulatory text.",compound,none,257,257.94(d)(3),The owner or operator,must,strong,include,the demonstration providing the basis for the alternative monitoring frequency,False,False,,revise,"The owner or operator must include the demonstration providing the 
+basis for the alternative monitoring frequency and the certification by 
+a qualified professional engineer or the approval from the 
+Participating State Director or approval from EPA where EPA is the 
+permitting authority in the annual groundwater monitoring and 
+corrective action report required by Sec.  257.90(e).",§ 257.90(e),primary,openai,gpt-5,1804,433
+45,EPA-HQ-OLEM-2017-0286,final,1,True,"The sentence is within an amendatory block revising § 257.94(d)(3), so it is new binding regulatory text.",compound,none,257,257.94(d)(3),The owner or operator,must,strong,include,the certification by a qualified professional engineer or the approval from the Participating State Director or approval from EPA where EPA is the permitting authority,False,False,,revise,"The owner or operator must include the demonstration providing the 
+basis for the alternative monitoring frequency and the certification by 
+a qualified professional engineer or the approval from the 
+Participating State Director or approval from EPA where EPA is the 
+permitting authority in the annual groundwater monitoring and 
+corrective action report required by Sec.  257.90(e).",§ 257.90(e),primary,openai,gpt-5,0,0
+45,EPA-HQ-OLEM-2017-0286,final,2,True,"The sentence is within an amendatory block revising § 257.94(d)(3), so it is new binding regulatory text.",compound,none,257,257.94(d)(3),The owner or operator,must,strong,include,the materials in the annual groundwater monitoring and corrective action report,False,False,,revise,"The owner or operator must include the demonstration providing the 
+basis for the alternative monitoring frequency and the certification by 
+a qualified professional engineer or the approval from the 
+Participating State Director or approval from EPA where EPA is the 
+permitting authority in the annual groundwater monitoring and 
+corrective action report required by Sec.  257.90(e).",§ 257.90(e),primary,openai,gpt-5,0,0
+46,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within an amendatory block revising § 257.94, making it new binding regulatory text.",compound,none,257,257.94(e)(2),The owner or operator,may,permissive,demonstrate,that a source other than the CCR unit caused the statistically significant increase over background levels for a constituent,False,False,,revise,"The owner or operator may demonstrate that a source other than 
+the CCR unit caused the statistically significant increase over 
+background levels for a constituent or that the statistically 
+significant increase resulted from error in sampling, analysis, 
+statistical evaluation, or natural variation in groundwater quality.",,primary,openai,gpt-5,1753,316
+46,EPA-HQ-OLEM-2017-0286,final,1,True,"The sentence appears within an amendatory block revising § 257.94, making it new binding regulatory text.",compound,none,257,257.94(e)(2),The owner or operator,may,permissive,demonstrate,"that the statistically significant increase resulted from error in sampling, analysis, statistical evaluation, or natural variation in groundwater quality",False,False,,revise,"The owner or operator may demonstrate that a source other than 
+the CCR unit caused the statistically significant increase over 
+background levels for a constituent or that the statistically 
+significant increase resulted from error in sampling, analysis, 
+statistical evaluation, or natural variation in groundwater quality.",,primary,openai,gpt-5,0,0
+47,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within amendatory text revising § 257.94, making it new binding regulatory language.",compound,none,257,257.94,The owner or operator,must,strong,complete,the written demonstration,False,True,within 90 days of detecting a statistically significant increase over background levels,revise,"The owner or operator must complete the written demonstration within 90 
+days of detecting a statistically significant increase over background 
+levels to include obtaining a certification from a qualified 
+professional engineer or approval from the Participating State Director 
+or approval from EPA where EPA is the permitting authority verifying 
+the accuracy of the information in the report.",,primary,openai,gpt-5,1794,331
+47,EPA-HQ-OLEM-2017-0286,final,1,True,"The sentence appears within amendatory text revising § 257.94, making it new binding regulatory language.",compound,none,257,257.94,The owner or operator,must,strong,obtain,a certification from a qualified professional engineer or approval from the Participating State Director or approval from EPA where EPA is the permitting authority verifying the accuracy of the information in the report,False,True,as part of completing the written demonstration within 90 days of detecting a statistically significant increase over background levels,revise,"The owner or operator must complete the written demonstration within 90 
+days of detecting a statistically significant increase over background 
+levels to include obtaining a certification from a qualified 
+professional engineer or approval from the Participating State Director 
+or approval from EPA where EPA is the permitting authority verifying 
+the accuracy of the information in the report.",,primary,openai,gpt-5,0,0
+48,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within amendatory regulatory text revising § 257.94, so the permissive condition is new binding text.",simple,none,257,257.94,the owner or operator of the CCR unit,may,permissive,continue,a detection monitoring program under this section,False,True,If a successful demonstration is completed within the 90-day period,revise,"If a successful 
+demonstration is completed within the 90-day period, the owner or 
+operator of the CCR unit may continue with a detection monitoring 
+program under this section.",,primary,openai,gpt-5,1739,195
+49,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within amendatory regulatory text being revised, making it new binding CFR language.",simple,none,257,257.94,the owner or operator of the CCR unit,must,strong,initiate,an assessment monitoring program,False,True,If a successful demonstration is not completed within the 90-day period,revise,"If a successful demonstration is not 
+completed within the 90-day period, the owner or operator of the CCR 
+unit must initiate an assessment monitoring program as required under 
+Sec.  257.95.",§ 257.95,primary,openai,gpt-5,1786,189
+50,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within amendatory text revising CFR provisions, making it new binding text.",simple,none,257,257.94,The owner or operator,must,strong,include,"the demonstration in the annual groundwater monitoring and corrective action report, in addition to the certification by a qualified professional engineer or approval from the Participating State Director or approval from EPA where EPA is the permitting authority",False,False,,revise,"The owner or operator must also include the demonstration 
+in the annual groundwater monitoring and corrective action report 
+required by Sec.  257.90(e), in addition to the certification by a 
+qualified professional engineer or approval from the Participating 
+State Director or approval from EPA where EPA is the permitting 
+authority.",§ 257.90(e),primary,openai,gpt-5,1832,208
+51,EPA-HQ-OLEM-2017-0286,final,0,True,"Text appears within an amendatory block revising § 257.95(c)(3), making it new binding regulatory text.",compound,none,257,257.95(c)(3),The owner or operator,must,strong,obtain,a certification stating that the demonstration for an alternative groundwater sampling and analysis frequency meets the requirements of this section,False,False,,revise,"The owner or operator must obtain a certification from a 
+qualified
+
+[[Page 36454]]
+
+professional engineer or approval from the Participating State Director 
+or approval from EPA where EPA is the permitting authority stating that 
+the demonstration for an alternative groundwater sampling and analysis 
+frequency meets the requirements of this section.",,primary,openai,gpt-5,1821,445
+51,EPA-HQ-OLEM-2017-0286,final,1,True,"Text appears within an amendatory block revising § 257.95(c)(3), making it new binding regulatory text.",compound,none,257,257.95(c)(3),The owner or operator,may,permissive,obtain,approval from the Participating State Director stating that the demonstration for an alternative groundwater sampling and analysis frequency meets the requirements of this section,False,False,,revise,"The owner or operator must obtain a certification from a 
+qualified
+
+[[Page 36454]]
+
+professional engineer or approval from the Participating State Director 
+or approval from EPA where EPA is the permitting authority stating that 
+the demonstration for an alternative groundwater sampling and analysis 
+frequency meets the requirements of this section.",,primary,openai,gpt-5,0,0
+51,EPA-HQ-OLEM-2017-0286,final,2,True,"Text appears within an amendatory block revising § 257.95(c)(3), making it new binding regulatory text.",compound,none,257,257.95(c)(3),The owner or operator,may,permissive,obtain,approval from EPA where EPA is the permitting authority stating that the demonstration for an alternative groundwater sampling and analysis frequency meets the requirements of this section,False,False,,revise,"The owner or operator must obtain a certification from a 
+qualified
+
+[[Page 36454]]
+
+professional engineer or approval from the Participating State Director 
+or approval from EPA where EPA is the permitting authority stating that 
+the demonstration for an alternative groundwater sampling and analysis 
+frequency meets the requirements of this section.",,primary,openai,gpt-5,0,0
+52,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence is within an amendatory block revising § 257.95, making it new binding regulatory text.",compound,none,257,257.95(c)(3),The owner or operator,must,strong,include,the demonstration providing the basis for the alternative monitoring frequency,False,False,,revise,"The owner or operator 
+must include the demonstration providing the basis for the alternative 
+monitoring frequency and the certification by a qualified professional 
+engineer or the approval from the Participating State Director or the 
+approval from EPA where EPA is the permitting authority in the annual 
+groundwater monitoring and corrective action report required by Sec.  
+257.90(e).",§ 257.90(e),primary,openai,gpt-5,1835,438
+52,EPA-HQ-OLEM-2017-0286,final,1,True,"The sentence is within an amendatory block revising § 257.95, making it new binding regulatory text.",compound,none,257,257.95(c)(3),The owner or operator,must,strong,include,the certification by a qualified professional engineer or the approval from the Participating State Director or the approval from EPA where EPA is the permitting authority,False,False,,revise,"The owner or operator 
+must include the demonstration providing the basis for the alternative 
+monitoring frequency and the certification by a qualified professional 
+engineer or the approval from the Participating State Director or the 
+approval from EPA where EPA is the permitting authority in the annual 
+groundwater monitoring and corrective action report required by Sec.  
+257.90(e).",§ 257.90(e),primary,openai,gpt-5,0,0
+52,EPA-HQ-OLEM-2017-0286,final,2,True,"The sentence is within an amendatory block revising § 257.95, making it new binding regulatory text.",compound,none,257,257.95(c)(3),The owner or operator,must,strong,include,the materials in the annual groundwater monitoring and corrective action report required by § 257.90(e),False,False,,revise,"The owner or operator 
+must include the demonstration providing the basis for the alternative 
+monitoring frequency and the certification by a qualified professional 
+engineer or the approval from the Participating State Director or the 
+approval from EPA where EPA is the permitting authority in the annual 
+groundwater monitoring and corrective action report required by Sec.  
+257.90(e).",§ 257.90(e),primary,openai,gpt-5,0,0
+53,EPA-HQ-OLEM-2017-0286,final,0,True,The sentence appears within amendatory regulatory text revising § 257.95; therefore it constitutes new binding text.,compound,none,257,257.95(g)(3)(ii),Any such demonstration,must,strong,be supported by a report that includes,the factual or evidentiary basis for any conclusions,True,True,If a demonstration that a source other than the CCR unit caused the contamination or that the increase resulted from error or natural variation is made,revise,"Any such demonstration must be 
+supported by a report that includes the factual or evidentiary basis 
+for any conclusions and must be certified to be accurate by a qualified 
+professional engineer or approval from the Participating State Director 
+or approval from EPA where EPA is the permitting authority.",,primary,openai,gpt-5,1775,364
+53,EPA-HQ-OLEM-2017-0286,final,1,True,The sentence appears within amendatory regulatory text revising § 257.95; therefore it constitutes new binding text.,compound,none,257,257.95(g)(3)(ii),Any such demonstration,must,strong,be certified to be accurate by,a qualified professional engineer or approved by the Participating State Director or approved by EPA where EPA is the permitting authority,True,True,If a demonstration that a source other than the CCR unit caused the contamination or that the increase resulted from error or natural variation is made,revise,"Any such demonstration must be 
+supported by a report that includes the factual or evidentiary basis 
+for any conclusions and must be certified to be accurate by a qualified 
+professional engineer or approval from the Participating State Director 
+or approval from EPA where EPA is the permitting authority.",,primary,openai,gpt-5,0,0
+54,EPA-HQ-OLEM-2017-0286,final,0,True,Text appears within an amendatory block revising § 257.95; thus it is new binding regulatory text.,compound,none,257,257.95,the owner or operator,must,strong,continue monitoring,in accordance with the assessment monitoring program pursuant to this section,False,True,If a successful demonstration is made,revise,"If a 
+successful demonstration is made, the owner or operator must continue 
+monitoring in accordance with the assessment monitoring program 
+pursuant to this section, and may return to detection monitoring if the 
+constituents in Appendix III and Appendix IV of this part are at or 
+below background as specified in paragraph (e) of this section.",,primary,openai,gpt-5,1853,323
+54,EPA-HQ-OLEM-2017-0286,final,1,True,Text appears within an amendatory block revising § 257.95; thus it is new binding regulatory text.,compound,none,257,257.95,the owner or operator,may,permissive,return to detection monitoring,None,False,True,If a successful demonstration is made and the constituents in Appendix III and Appendix IV of this part are at or below background as specified in paragraph (e) of this section,revise,"If a 
+successful demonstration is made, the owner or operator must continue 
+monitoring in accordance with the assessment monitoring program 
+pursuant to this section, and may return to detection monitoring if the 
+constituents in Appendix III and Appendix IV of this part are at or 
+below background as specified in paragraph (e) of this section.",§ 257.90(e),primary,openai,gpt-5,0,0
+55,EPA-HQ-OLEM-2017-0286,final,0,True,The sentence appears within amendatory text revising § 257.95; obligations within an amendatory block are binding.,simple,none,257,257.95,The owner or operator,must,strong,include,"the demonstration in the annual groundwater monitoring and corrective action report required by § 257.90(e), in addition to the certification by a qualified professional engineer or the approval from the Participating State Director or the approval from EPA where EPA is the permitting authority",False,False,,revise,"The 
+owner or operator must also include the demonstration in the annual 
+groundwater monitoring and corrective action report required by Sec.  
+257.90(e), in addition to the certification by a qualified professional 
+engineer or the approval from the Participating State Director or the 
+approval from EPA where EPA is the permitting authority.",§ 257.90(e),primary,openai,gpt-5,1875,224
+56,EPA-HQ-OLEM-2017-0286,final,0,True,The sentence appears in an amendatory block revising § 257.96(a) and imposes a mandatory action.,simple,none,257,257.96(a),the owner or operator,must,strong,initiate an assessment of corrective measures,"to prevent further releases, to remediate any releases, and to restore affected area to original conditions",False,True,"Within 90 days of finding that any constituent listed in Appendix IV to this part has been detected at a statistically significant level exceeding the groundwater protection standard defined under § 257.95(h), or immediately upon detection of a release from a CCR unit",revise,"(a) Within 90 days of finding that any constituent listed in 
+Appendix IV to this part has been detected at a statistically 
+significant level exceeding the groundwater protection standard defined 
+under Sec.  257.95(h), or immediately upon detection of a release from 
+a CCR unit, the owner or operator must initiate an assessment of 
+corrective measures to prevent further releases, to remediate any 
+releases and to restore affected area to original conditions.",§ 257.95(h),primary,openai,gpt-5,1911,249
+57,EPA-HQ-OLEM-2017-0286,final,0,True,"Text appears within an amendatory block revising § 257.96(a), making it binding.",simple,none,257,257.96(a),the owner or operator,must,strong,complete,the assessment of corrective measures within 90 days,False,True,unless the owner or operator demonstrates the need for additional time to complete the assessment of corrective measures due to site-specific conditions or circumstances,revise,"The 
+assessment of corrective measures must be completed within 90 days, 
+unless the owner or operator demonstrates the need for additional time 
+to complete the assessment of corrective measures due to site-specific 
+conditions or circumstances.",,primary,openai,gpt-5,1785,199
+58,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within an amendatory block revising § 257.96/§ 257.97 text, making it new binding regulatory language.",compound,none,257,257.96,The owner or operator,must,strong,obtain,a certification attesting that the demonstration is accurate,False,False,,revise,"The owner or operator must obtain a 
+certification from a qualified professional engineer or approval from 
+the Participating State Director or approval from EPA where EPA is the 
+permitting authority attesting that the demonstration is accurate.",,primary,openai,gpt-5,1763,406
+58,EPA-HQ-OLEM-2017-0286,final,1,True,"The sentence appears within an amendatory block revising § 257.96/§ 257.97 text, making it new binding regulatory language.",compound,none,257,257.96,The owner or operator,must,strong,obtain,an approval from the Participating State Director attesting that the demonstration is accurate,False,False,,revise,"The owner or operator must obtain a 
+certification from a qualified professional engineer or approval from 
+the Participating State Director or approval from EPA where EPA is the 
+permitting authority attesting that the demonstration is accurate.",,primary,openai,gpt-5,0,0
+58,EPA-HQ-OLEM-2017-0286,final,2,True,"The sentence appears within an amendatory block revising § 257.96/§ 257.97 text, making it new binding regulatory language.",compound,none,257,257.96,The owner or operator,must,strong,obtain,an approval from EPA where EPA is the permitting authority attesting that the demonstration is accurate,False,False,,revise,"The owner or operator must obtain a 
+certification from a qualified professional engineer or approval from 
+the Participating State Director or approval from EPA where EPA is the 
+permitting authority attesting that the demonstration is accurate.",,primary,openai,gpt-5,0,0
+59,EPA-HQ-OLEM-2017-0286,final,0,True,The sentence appears within an amendatory block revising § 257.96; therefore it is new binding regulatory text.,simple,none,257,257.96,the 90-day deadline to complete the assessment of corrective measures,may,permissive,be extended,for no longer than 60 days,True,False,,revise,"The 
+90-day deadline to complete the assessment of corrective measures may 
+be extended for no longer than 60 days.",,primary,openai,gpt-5,1720,186
+60,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence is within amendatory text revising CFR provisions, making it new binding regulatory language.",compound,none,257,257.96,The owner or operator,must,strong,include,the demonstration in the annual groundwater monitoring and corrective action report required by § 257.90(e),False,False,,revise,"The owner or operator must also 
+include the demonstration in the annual groundwater monitoring and 
+corrective action report required by Sec.  257.90(e), in addition to 
+the certification by a qualified professional engineer or the approval 
+from the Participating State Director or the approval from EPA where 
+EPA is the permitting authority.",§ 257.90(e),primary,openai,gpt-5,1832,318
+60,EPA-HQ-OLEM-2017-0286,final,1,True,"The sentence is within amendatory text revising CFR provisions, making it new binding regulatory language.",compound,none,257,257.96,The owner or operator,must,strong,include,the certification by a qualified professional engineer or the approval from the Participating State Director or the approval from EPA where EPA is the permitting authority in the annual groundwater monitoring and corrective action report,False,False,,revise,"The owner or operator must also 
+include the demonstration in the annual groundwater monitoring and 
+corrective action report required by Sec.  257.90(e), in addition to 
+the certification by a qualified professional engineer or the approval 
+from the Participating State Director or the approval from EPA where 
+EPA is the permitting authority.",,primary,openai,gpt-5,0,0
+61,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within an amendatory block revising § 257.97(a), making it binding regulatory text.",simple,none,257,257.97(a),the owner or operator,must,strong,select,"a remedy that, at a minimum, meets the standards listed in paragraph (b) of this section",False,True,Based on the results of the corrective measures assessment conducted under § 257.96 and as soon as feasible,revise,"(a) Based on the results of the corrective measures assessment 
+conducted under Sec.  257.96, the owner or operator must, as soon as 
+feasible, select a remedy that, at a minimum, meets the standards 
+listed in paragraph (b) of this section.",§ 257.96,primary,openai,gpt-5,1791,214
+62,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within an amendatory block revising § 257.97(a), so it is new binding regulatory text.",simple,none,257,257.97(a),The owner or operator,must,strong,prepare,a semiannual report describing the progress in selecting and designing the remedy,False,False,,revise,"The owner or operator must prepare 
+a semiannual report describing the progress in selecting and designing 
+the remedy.",,primary,openai,gpt-5,1742,183
+63,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within an amendatory block revising § 257.97(a), so it is new binding regulatory text.",simple,none,257,257.97(a),the owner or operator,must,strong,prepare,a final report describing the selected remedy and how it meets the standards specified in paragraph (b) of this section,False,True,Upon selection of a remedy,revise,"Upon selection of a remedy, the owner or operator must 
+prepare a final report describing the selected remedy and how it meets 
+the standards specified in paragraph (b) of this section.",§ 257.97(b),primary,openai,gpt-5,1782,203
+64,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within an amendatory block revising regulatory text, making it new binding text.",compound,none,257,257.97,The owner or operator,must,strong,obtain,a certification from a qualified professional engineer that the selected remedy meets the requirements of this section,False,False,,revise,"The owner or 
+operator must obtain a certification from a qualified professional 
+engineer or approval from the Participating State Director or approval 
+from EPA where EPA is the permitting authority that the remedy selected 
+meets the requirements of this section.",,primary,openai,gpt-5,1786,407
+64,EPA-HQ-OLEM-2017-0286,final,1,True,"The sentence appears within an amendatory block revising regulatory text, making it new binding text.",compound,none,257,257.97,The owner or operator,must,strong,obtain,approval from the Participating State Director that the selected remedy meets the requirements of this section,False,False,,revise,"The owner or 
+operator must obtain a certification from a qualified professional 
+engineer or approval from the Participating State Director or approval 
+from EPA where EPA is the permitting authority that the remedy selected 
+meets the requirements of this section.",,primary,openai,gpt-5,0,0
+64,EPA-HQ-OLEM-2017-0286,final,2,True,"The sentence appears within an amendatory block revising regulatory text, making it new binding text.",compound,none,257,257.97,The owner or operator,must,strong,obtain,approval from EPA where EPA is the permitting authority that the selected remedy meets the requirements of this section,False,False,,revise,"The owner or 
+operator must obtain a certification from a qualified professional 
+engineer or approval from the Participating State Director or approval 
+from EPA where EPA is the permitting authority that the remedy selected 
+meets the requirements of this section.",,primary,openai,gpt-5,0,0
+65,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence is inside an amendatory block revising § 257.98(e), making it new binding text.",simple,amendatory_quote,257,257.98(e),the owner or operator,must,strong,prepare,a notification stating that the remedy has been completed,False,True,Upon completion of the remedy,revise,"* * * *
+    (e) Upon completion of the remedy, the owner or operator must 
+prepare a notification stating that the remedy has been completed.",,primary,openai,gpt-5,1763,185
+66,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within an amendatory block revising § 257.98(e), making it new binding regulatory text.",compound,none,257,257.98(e),owner or operator,must,strong,obtain,a certification attesting that the remedy has been completed in compliance with the requirements of paragraph (c) of this section,False,True,Upon completion of the remedy,revise,"The 
+owner or operator must obtain a certification from a qualified 
+professional engineer or approval from the Participating State Director 
+or approval from EPA where EPA is the permitting authority attesting 
+that the remedy has been completed in compliance with the requirements 
+of paragraph (c) of this section.",paragraph (c) of this section,primary,openai,gpt-5,1840,476
+66,EPA-HQ-OLEM-2017-0286,final,1,True,"The sentence appears within an amendatory block revising § 257.98(e), making it new binding regulatory text.",compound,none,257,257.98(e),owner or operator,must,strong,obtain,approval from the Participating State Director attesting that the remedy has been completed in compliance with the requirements of paragraph (c) of this section,False,True,Upon completion of the remedy,revise,"The 
+owner or operator must obtain a certification from a qualified 
+professional engineer or approval from the Participating State Director 
+or approval from EPA where EPA is the permitting authority attesting 
+that the remedy has been completed in compliance with the requirements 
+of paragraph (c) of this section.",paragraph (c) of this section,primary,openai,gpt-5,0,0
+66,EPA-HQ-OLEM-2017-0286,final,2,True,"The sentence appears within an amendatory block revising § 257.98(e), making it new binding regulatory text.",compound,none,257,257.98(e),owner or operator,must,strong,obtain,approval from EPA where EPA is the permitting authority attesting that the remedy has been completed in compliance with the requirements of paragraph (c) of this section,False,True,Upon completion of the remedy,revise,"The 
+owner or operator must obtain a certification from a qualified 
+professional engineer or approval from the Participating State Director 
+or approval from EPA where EPA is the permitting authority attesting 
+that the remedy has been completed in compliance with the requirements 
+of paragraph (c) of this section.",paragraph (c) of this section,primary,openai,gpt-5,0,0
+67,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within an amendatory block revising § 257.101(a)(1), so it is new binding regulatory text.",compound,none,257,257.101(a)(1),the owner or operator of the existing unlined CCR surface impoundment,must,strong,cease placing,CCR and non-CCR wastestreams into such CCR surface impoundment,False,True,"Except as provided by paragraph (a)(3) of this section, if at any time after October 19, 2015, the owner or operator determines in any sampling event that one or more Appendix IV constituents are detected at statistically significant levels above the groundwater protection standard established under § 257.95(h) for such CCR unit, within six months of making such determination or no later than October 31, 2020, whichever is later",revise,"Except as provided by paragraph (a)(3) of this section, if at 
+any time after October 19, 2015, an owner or operator of an existing 
+unlined CCR surface impoundment determines in any sampling event that 
+the concentrations of one or more constituents listed in appendix IV of 
+this part are detected at statistically significant levels above the 
+groundwater protection standard established under Sec.  257.95(h) for 
+such CCR unit, within six months of making such determination or no 
+later than October 31, 2020, whichever date is later, the owner or 
+operator of the existing unlined CCR surface impoundment must cease 
+placing CCR and non-CCR wastestreams into such CCR surface impoundment 
+and either retrofit or close the CCR unit in accordance with the 
+requirements of Sec.  257.102.",§ 257.95(h),primary,openai,gpt-5,2093,516
+67,EPA-HQ-OLEM-2017-0286,final,1,True,"The sentence appears within an amendatory block revising § 257.101(a)(1), so it is new binding regulatory text.",compound,none,257,257.101(a)(1),the owner or operator of the existing unlined CCR surface impoundment,must,strong,either retrofit or close,the CCR unit in accordance with the requirements of § 257.102,False,True,"Except as provided by paragraph (a)(3) of this section, if at any time after October 19, 2015, the owner or operator determines in any sampling event that one or more Appendix IV constituents are detected at statistically significant levels above the groundwater protection standard established under § 257.95(h) for such CCR unit, within six months of making such determination or no later than October 31, 2020, whichever is later",revise,"Except as provided by paragraph (a)(3) of this section, if at 
+any time after October 19, 2015, an owner or operator of an existing 
+unlined CCR surface impoundment determines in any sampling event that 
+the concentrations of one or more constituents listed in appendix IV of 
+this part are detected at statistically significant levels above the 
+groundwater protection standard established under Sec.  257.95(h) for 
+such CCR unit, within six months of making such determination or no 
+later than October 31, 2020, whichever date is later, the owner or 
+operator of the existing unlined CCR surface impoundment must cease 
+placing CCR and non-CCR wastestreams into such CCR surface impoundment 
+and either retrofit or close the CCR unit in accordance with the 
+requirements of Sec.  257.102.",§ 257.102,primary,openai,gpt-5,0,0
+68,EPA-HQ-OLEM-2017-0286,final,0,True,The sentence appears within an amendatory block revising § 257.101 and contains mandatory regulatory text.,simple,none,257,257.101(b)(1)(i),the owner or operator of an existing CCR surface impoundment that has not demonstrated compliance with the location standard specified in § 257.60(a),must,strong,cease placing,CCR and non-CCR wastestreams into such CCR unit,False,True,Except as provided by paragraph (b)(4) of this section,revise,"Except as provided by 
+paragraph (b)(4) of this section, the owner or operator of an existing 
+CCR surface impoundment that has not demonstrated compliance with the 
+location standard specified in Sec.  257.60(a) must cease placing CCR 
+and non-CCR wastestreams into such CCR",§ 257.60(a),primary,openai,gpt-5,1908,228
+69,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within an amendatory block revising § 257.101, so the language constitutes new binding regulatory text.",compound,none,257,257.101,the owner or operator of the CCR surface impoundment,must,strong,cease placing,CCR and non-CCR wastestreams into such CCR unit,False,True,"within six months of determining that an existing CCR surface impoundment has not demonstrated compliance with any location standard specified in §§ 257.61(a), 257.62(a), 257.63(a), and 257.64(a), except as provided by paragraph (b)(4) of this section",revise,"Sec.  257.61(a), 257.62(a), 257.63(a), and 257.64(a), the owner or 
+operator of the CCR surface impoundment must cease placing CCR and non-
+CCR wastestreams into such CCR unit and close the CCR unit in 
+accordance with the requirements of Sec.  257.102.",§ 257.61(a),primary,openai,gpt-5,1886,440
+69,EPA-HQ-OLEM-2017-0286,final,1,True,"The sentence appears within an amendatory block revising § 257.101, so the language constitutes new binding regulatory text.",compound,none,257,257.101,the owner or operator of the CCR surface impoundment,must,strong,close,the CCR unit in accordance with the requirements of § 257.102,False,True,"within six months of determining that an existing CCR surface impoundment has not demonstrated compliance with any location standard specified in §§ 257.61(a), 257.62(a), 257.63(a), and 257.64(a), except as provided by paragraph (b)(4) of this section",revise,"Sec.  257.61(a), 257.62(a), 257.63(a), and 257.64(a), the owner or 
+operator of the CCR surface impoundment must cease placing CCR and non-
+CCR wastestreams into such CCR unit and close the CCR unit in 
+accordance with the requirements of Sec.  257.102.",§ 257.102,primary,openai,gpt-5,0,0
+70,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within an amendatory block revising § 257.102, making it new binding regulatory text.",simple,none,257,257.102(b)(4),The owner or operator of the CCR unit,must,strong,obtain,a written certification from a qualified professional engineer or approval from the Participating State Director or approval from EPA (where EPA is the permitting authority) that the initial and any amendment of the written closure plan meets the requirements of this section,False,False,,revise,"The owner or operator of the CCR unit must obtain a written 
+certification from a qualified professional engineer or approval from 
+the Participating State Director or approval from EPA where EPA is the 
+permitting authority that the initial and any amendment of the written 
+closure plan meets the requirements of this section.",§ 257.102,primary,openai,gpt-5,1883,225
+71,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within an amendatory block revising § 257.102(d)(3)(iii) to read as follows, making it new binding regulatory text.",simple,none,257,257.102(d)(3)(iii),The owner or operator of the CCR unit,must,strong,obtain,a written certification from a qualified professional engineer or approval from the Participating State Director or approval from EPA (where EPA is the permitting authority) that the design of the final cover system meets the requirements of this section,False,False,,revise,"* * *
+    (3) * * *
+    (iii) The owner or operator of the CCR unit must obtain a written 
+certification from a qualified professional engineer or approval from 
+the Participating State Director or approval from EPA where EPA is the 
+permitting authority that the design of the final cover system meets 
+the requirements of this section.",,primary,openai,gpt-5,1857,229
+72,EPA-HQ-OLEM-2017-0286,final,0,True,The sentence appears within an amendatory block revising § 257.102 and contains binding regulatory text.,compound,none,257,257.102(f)(3),the owner or operator of the CCR unit,must,strong,obtain,a certification from a qualified professional engineer verifying that closure has been completed in accordance with the closure plan specified in paragraph (b) of this section and the requirements of this section,False,True,Upon completion,revise,"* * *
+    (f) * * *
+    (3) Upon completion, the owner or operator of the CCR unit must 
+obtain a certification from a qualified professional engineer or 
+approval from the Participating State Director or approval from EPA 
+where EPA is the permitting authority verifying that closure has been 
+completed in accordance with the closure plan specified in paragraph 
+(b) of this section and the requirements of this section.",§ 257.102(b),primary,openai,gpt-5,1851,505
+72,EPA-HQ-OLEM-2017-0286,final,1,True,The sentence appears within an amendatory block revising § 257.102 and contains binding regulatory text.,compound,none,257,257.102(f)(3),the owner or operator of the CCR unit,must,strong,obtain,approval from the Participating State Director verifying that closure has been completed in accordance with the closure plan specified in paragraph (b) of this section and the requirements of this section,False,True,Upon completion,revise,"* * *
+    (f) * * *
+    (3) Upon completion, the owner or operator of the CCR unit must 
+obtain a certification from a qualified professional engineer or 
+approval from the Participating State Director or approval from EPA 
+where EPA is the permitting authority verifying that closure has been 
+completed in accordance with the closure plan specified in paragraph 
+(b) of this section and the requirements of this section.",§ 257.102(b),primary,openai,gpt-5,0,0
+72,EPA-HQ-OLEM-2017-0286,final,2,True,The sentence appears within an amendatory block revising § 257.102 and contains binding regulatory text.,compound,none,257,257.102(f)(3),the owner or operator of the CCR unit,must,strong,obtain,approval from EPA where EPA is the permitting authority verifying that closure has been completed in accordance with the closure plan specified in paragraph (b) of this section and the requirements of this section,False,True,Upon completion,revise,"* * *
+    (f) * * *
+    (3) Upon completion, the owner or operator of the CCR unit must 
+obtain a certification from a qualified professional engineer or 
+approval from the Participating State Director or approval from EPA 
+where EPA is the permitting authority verifying that closure has been 
+completed in accordance with the closure plan specified in paragraph 
+(b) of this section and the requirements of this section.",§ 257.102(b),primary,openai,gpt-5,0,0
+73,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within amendatory text revising § 257.102, making it new binding regulatory language.",simple,none,257,257.102(g),the owner or operator,must,strong,prepare,a notification of intent to close a CCR unit,False,True,No later than the date the owner or operator initiates closure of a CCR unit,revise,"(g) No later than the date the owner or operator initiates closure 
+of a CCR unit, the owner or operator must prepare a notification of 
+intent to close a CCR unit.",,primary,openai,gpt-5,1761,192
+74,EPA-HQ-OLEM-2017-0286,final,0,True,The sentence appears within an amendatory block revising CFR text and states a mandatory requirement for the notification’s contents.,compound,none,257,257.102(g),the owner or operator,must,strong,include in the notification,a certification by a qualified professional engineer for the design of the final cover system as required by § 257.102(d)(3)(iii),False,True,if applicable,revise,"The notification must include the 
+certification by a qualified professional engineer or the approval from 
+the Participating State Director or the approval from EPA where EPA is 
+the permitting authority for the design of the final cover system as 
+required by Sec.  257.102(d)(3)(iii), if applicable.",§ 257.102(d)(3)(iii),primary,openai,gpt-5,1810,491
+74,EPA-HQ-OLEM-2017-0286,final,1,True,The sentence appears within an amendatory block revising CFR text and states a mandatory requirement for the notification’s contents.,compound,none,257,257.102(g),the owner or operator,must,strong,include in the notification,an approval from the Participating State Director for the design of the final cover system as required by § 257.102(d)(3)(iii),False,True,if applicable,revise,"The notification must include the 
+certification by a qualified professional engineer or the approval from 
+the Participating State Director or the approval from EPA where EPA is 
+the permitting authority for the design of the final cover system as 
+required by Sec.  257.102(d)(3)(iii), if applicable.",§ 257.102(d)(3)(iii),primary,openai,gpt-5,0,0
+74,EPA-HQ-OLEM-2017-0286,final,2,True,The sentence appears within an amendatory block revising CFR text and states a mandatory requirement for the notification’s contents.,compound,none,257,257.102(g),the owner or operator,must,strong,include in the notification,an approval from EPA where EPA is the permitting authority for the design of the final cover system as required by § 257.102(d)(3)(iii),False,True,if applicable,revise,"The notification must include the 
+certification by a qualified professional engineer or the approval from 
+the Participating State Director or the approval from EPA where EPA is 
+the permitting authority for the design of the final cover system as 
+required by Sec.  257.102(d)(3)(iii), if applicable.",§ 257.102(d)(3)(iii),primary,openai,gpt-5,0,0
+75,EPA-HQ-OLEM-2017-0286,final,0,True,The sentence appears within amendatory text revising § 257.102 and states a clear duty with a deadline.,simple,none,257,257.102(h),the owner or operator,must,strong,prepare,a notification of closure of a CCR unit,False,True,Within 30 days of completion of closure of the CCR unit,revise,"Within 30 days of completion of closure of the CCR unit, the 
+owner or operator must prepare a notification of closure of a CCR unit.",,primary,openai,gpt-5,1754,188
+76,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within amendatory text revising § 257.102, so it is new binding regulatory text.",simple,none,257,257.102,The notification,must,strong,include,the certification by a qualified professional engineer or the approval from the Participating State Director or the approval from EPA where EPA is the permitting authority as required by § 257.102(f)(3),False,False,,revise,"The notification must include the certification by a qualified 
+professional engineer or the approval from the Participating State 
+Director or the approval from EPA where EPA is the permitting authority 
+as required by Sec.  257.102(f)(3).",§ 257.102(f)(3),primary,openai,gpt-5,1790,211
+77,EPA-HQ-OLEM-2017-0286,final,0,True,"Text appears within an amendatory block being revised, making it new binding regulatory text.",simple,none,257,257.102(k)(2)(iv),The owner or operator of the CCR unit,must,strong,obtain,"a written certification from a qualified professional engineer or an approval from the Participating State Director or an approval from EPA (where EPA is the permitting authority) that the activities outlined in the written retrofit plan, including any amendment of the plan, meet the requirements of this section",False,False,,revise,"(k) * * *
+    (2) * * *
+    (iv) The owner or operator of the CCR unit must obtain a written 
+certification from a qualified professional engineer or an approval 
+from the Participating State Director or an approval from EPA where EPA 
+is the permitting authority that the activities outlined in the written 
+retrofit plan, including any amendment of the plan, meet the 
+requirements of this section.",,primary,openai,gpt-5,1866,224
+78,EPA-HQ-OLEM-2017-0286,final,0,True,"The text appears within an amendatory block revising § 257.102(k), making it new binding regulatory text.",compound,none,257,257.102(k)(4),the owner or operator,must,strong,obtain,a written certification verifying that the retrofit activities have been completed in accordance with the retrofit plan specified in paragraph (k)(2) of this section and the requirements of this section,False,True,Upon completion,revise,"* * * *
+    (4) Upon completion, the owner or operator must obtain a written 
+certification from a qualified professional engineer or an approval 
+from the Participating State Director or an approval from EPA where EPA 
+is the permitting authority verifying that the retrofit activities have 
+been completed in accordance with the retrofit plan specified in 
+paragraph (k)(2) of this section and the requirements of this section.",paragraph (k)(2) of this section,primary,openai,gpt-5,1851,515
+78,EPA-HQ-OLEM-2017-0286,final,1,True,"The text appears within an amendatory block revising § 257.102(k), making it new binding regulatory text.",compound,none,257,257.102(k)(4),the owner or operator,must,strong,obtain,an approval from the Participating State Director verifying that the retrofit activities have been completed in accordance with the retrofit plan specified in paragraph (k)(2) of this section and the requirements of this section,False,True,Upon completion,revise,"* * * *
+    (4) Upon completion, the owner or operator must obtain a written 
+certification from a qualified professional engineer or an approval 
+from the Participating State Director or an approval from EPA where EPA 
+is the permitting authority verifying that the retrofit activities have 
+been completed in accordance with the retrofit plan specified in 
+paragraph (k)(2) of this section and the requirements of this section.",paragraph (k)(2) of this section,primary,openai,gpt-5,0,0
+78,EPA-HQ-OLEM-2017-0286,final,2,True,"The text appears within an amendatory block revising § 257.102(k), making it new binding regulatory text.",compound,none,257,257.102(k)(4),the owner or operator,must,strong,obtain,an approval from EPA where EPA is the permitting authority verifying that the retrofit activities have been completed in accordance with the retrofit plan specified in paragraph (k)(2) of this section and the requirements of this section,False,True,Upon completion,revise,"* * * *
+    (4) Upon completion, the owner or operator must obtain a written 
+certification from a qualified professional engineer or an approval 
+from the Participating State Director or an approval from EPA where EPA 
+is the permitting authority verifying that the retrofit activities have 
+been completed in accordance with the retrofit plan specified in 
+paragraph (k)(2) of this section and the requirements of this section.",paragraph (k)(2) of this section,primary,openai,gpt-5,0,0
+79,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within an amendatory block revising regulatory text, making it binding new CFR language.",simple,none,257,257.102(k)(6),the owner or operator,must,strong,prepare,a notification of completion of retrofit activities,False,True,Within 30 days of completing the retrofit activities specified in paragraph (k)(1) of this section,revise,"Within 30 days of completing the retrofit activities specified 
+in paragraph (k)(1) of this section, the owner or operator must prepare 
+a notification of completion of retrofit activities.",paragraph (k)(1) of this section,primary,openai,gpt-5,1775,203
+80,EPA-HQ-OLEM-2017-0286,final,0,True,The sentence is within amendatory text revising § 257.102 and sets new binding requirements within an amendatory block.,compound,none,257,257.102(k)(6),The notification,must,strong,include,a certification from a qualified professional engineer,False,False,,revise,"The notification 
+must include the certification from a qualified professional engineer 
+or an approval from the Participating State Director or an approval 
+from EPA where EPA is the permitting authority has is required by 
+paragraph (k)(4) of this section.",paragraph (k)(4) of this section,primary,openai,gpt-5,1801,412
+80,EPA-HQ-OLEM-2017-0286,final,1,True,The sentence is within amendatory text revising § 257.102 and sets new binding requirements within an amendatory block.,compound,none,257,257.102(k)(6),The notification,must,strong,include,an approval from the Participating State Director,False,False,,revise,"The notification 
+must include the certification from a qualified professional engineer 
+or an approval from the Participating State Director or an approval 
+from EPA where EPA is the permitting authority has is required by 
+paragraph (k)(4) of this section.",paragraph (k)(4) of this section,primary,openai,gpt-5,0,0
+80,EPA-HQ-OLEM-2017-0286,final,2,True,The sentence is within amendatory text revising § 257.102 and sets new binding requirements within an amendatory block.,compound,none,257,257.102(k)(6),The notification,must,strong,include,an approval from EPA where EPA is the permitting authority,False,False,,revise,"The notification 
+must include the certification from a qualified professional engineer 
+or an approval from the Participating State Director or an approval 
+from EPA where EPA is the permitting authority has is required by 
+paragraph (k)(4) of this section.",paragraph (k)(4) of this section,primary,openai,gpt-5,0,0
+81,EPA-HQ-OLEM-2017-0286,final,0,True,The sentence appears within an amendatory block revising § 257.104; thus it is new binding regulatory text.,compound,amendatory_quote,257,257.104,Post-closure use of the property,may not,strong,disturb,"the integrity of the final cover, liner(s), or any other component of the containment system",False,True,unless necessary to comply with the requirements in this subpart,revise,"Post-closure use of the property shall not disturb 
+the integrity of the final cover, liner(s), or any other component of 
+the containment system, or the function of the monitoring systems 
+unless necessary to comply with the requirements in this subpart.",,primary,openai,gpt-5,1844,321
+81,EPA-HQ-OLEM-2017-0286,final,1,True,The sentence appears within an amendatory block revising § 257.104; thus it is new binding regulatory text.,compound,amendatory_quote,257,257.104,Post-closure use of the property,may not,strong,disturb,the function of the monitoring systems,False,True,unless necessary to comply with the requirements in this subpart,revise,"Post-closure use of the property shall not disturb 
+the integrity of the final cover, liner(s), or any other component of 
+the containment system, or the function of the monitoring systems 
+unless necessary to comply with the requirements in this subpart.",,primary,openai,gpt-5,0,0
+82,EPA-HQ-OLEM-2017-0286,final,0,True,"Appears within amendatory text revising § 257.104, making it new binding regulatory language.",compound,none,257,257.104,the demonstration,must,strong,be certified or approved,certified by a qualified professional engineer or approved by the Participating State Director or approved by EPA where EPA is the permitting authority,True,False,,revise,"The demonstration must be certified by a qualified professional 
+engineer or approved by the Participating State Director or approved 
+from EPA where EPA is the permitting authority, and notification shall 
+be provided to the State Director that the demonstration has been 
+placed in the operating record and on the owners or operator's publicly 
+accessible internet site.",,primary,openai,gpt-5,1803,312
+82,EPA-HQ-OLEM-2017-0286,final,1,True,"Appears within amendatory text revising § 257.104, making it new binding regulatory language.",compound,none,257,257.104,the owner or operator,shall,strong,provide notification,to the State Director that the demonstration has been placed in the operating record and on the owner’s or operator's publicly accessible internet site,False,False,,revise,"The demonstration must be certified by a qualified professional 
+engineer or approved by the Participating State Director or approved 
+from EPA where EPA is the permitting authority, and notification shall 
+be provided to the State Director that the demonstration has been 
+placed in the operating record and on the owners or operator's publicly 
+accessible internet site.",,primary,openai,gpt-5,0,0
+83,EPA-HQ-OLEM-2017-0286,final,0,True,Text appears within an amendatory block revising § 257.104 and sets new binding requirements.,compound,none,257,257.104,The owner or operator of the CCR unit,must,strong,obtain,a written certification that the initial and any amendment of the written post-closure plan meets the requirements of this section,False,False,,revise,"The owner or operator of the CCR unit must obtain a written 
+certification from a qualified professional engineer or an approval 
+from the Participating State Director or an approval from EPA where EPA 
+is the permitting authority that the initial and any amendment of the 
+written post-closure plan meets the requirements of this section.",,primary,openai,gpt-5,1792,451
+83,EPA-HQ-OLEM-2017-0286,final,1,True,Text appears within an amendatory block revising § 257.104 and sets new binding requirements.,compound,none,257,257.104,The owner or operator of the CCR unit,must,strong,obtain,an approval from the Participating State Director that the initial and any amendment of the written post-closure plan meets the requirements of this section,False,False,,revise,"The owner or operator of the CCR unit must obtain a written 
+certification from a qualified professional engineer or an approval 
+from the Participating State Director or an approval from EPA where EPA 
+is the permitting authority that the initial and any amendment of the 
+written post-closure plan meets the requirements of this section.",,primary,openai,gpt-5,0,0
+83,EPA-HQ-OLEM-2017-0286,final,2,True,Text appears within an amendatory block revising § 257.104 and sets new binding requirements.,compound,none,257,257.104,The owner or operator of the CCR unit,must,strong,obtain,an approval from EPA where EPA is the permitting authority that the initial and any amendment of the written post-closure plan meets the requirements of this section,False,True,where EPA is the permitting authority,revise,"The owner or operator of the CCR unit must obtain a written 
+certification from a qualified professional engineer or an approval 
+from the Participating State Director or an approval from EPA where EPA 
+is the permitting authority that the initial and any amendment of the 
+written post-closure plan meets the requirements of this section.",,primary,openai,gpt-5,0,0
+84,EPA-HQ-OLEM-2017-0286,final,0,True,The sentence appears within an amendatory block revising § 257.104 and contains binding regulatory text.,simple,none,257,257.104,the owner or operator of the CCR unit,must,strong,prepare,a notification verifying that post-closure care has been completed,False,True,No later than 60 days following the completion of the post-closure care period,revise,"No 
+later than 60 days following the completion of the post-closure care 
+period, the owner or operator of the CCR unit must prepare a 
+notification verifying that post-closure care has been completed.",,primary,openai,gpt-5,1762,196
+85,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within CFR amendatory text revising § 257.104, so it is new binding regulatory language.",compound,none,257,257.104(e),The notification,must,strong,include,a certification by a qualified professional engineer verifying that post-closure care has been completed in accordance with the closure plan specified in paragraph (d) of this section and the requirements of this section,False,False,,revise,"The 
+notification must include the certification by a qualified professional 
+engineer or the approval from the Participating State Director or the 
+approval from EPA where EPA is the permitting authority verifying that 
+post-closure care has been completed in accordance with the closure 
+plan specified in paragraph (d) of this section and the requirements of 
+this section.",§ 257.104(d),primary,openai,gpt-5,1848,488
+85,EPA-HQ-OLEM-2017-0286,final,1,True,"The sentence appears within CFR amendatory text revising § 257.104, so it is new binding regulatory language.",compound,none,257,257.104(e),The notification,must,strong,include,an approval from the Participating State Director verifying that post-closure care has been completed in accordance with the closure plan specified in paragraph (d) of this section and the requirements of this section,False,False,,revise,"The 
+notification must include the certification by a qualified professional 
+engineer or the approval from the Participating State Director or the 
+approval from EPA where EPA is the permitting authority verifying that 
+post-closure care has been completed in accordance with the closure 
+plan specified in paragraph (d) of this section and the requirements of 
+this section.",§ 257.104(d),primary,openai,gpt-5,0,0
+85,EPA-HQ-OLEM-2017-0286,final,2,True,"The sentence appears within CFR amendatory text revising § 257.104, so it is new binding regulatory language.",compound,none,257,257.104(e),The notification,must,strong,include,"an approval from EPA, where EPA is the permitting authority, verifying that post-closure care has been completed in accordance with the closure plan specified in paragraph (d) of this section and the requirements of this section",False,False,,revise,"The 
+notification must include the certification by a qualified professional 
+engineer or the approval from the Participating State Director or the 
+approval from EPA where EPA is the permitting authority verifying that 
+post-closure care has been completed in accordance with the closure 
+plan specified in paragraph (d) of this section and the requirements of 
+this section.",§ 257.104(d),primary,openai,gpt-5,0,0
+100300,EPA-HQ-OLEM-2017-0286,final,0,True,"Text appears within an amendatory block revising § 257.61(b), making it new binding regulatory text.",simple,amendatory_quote,257,257.61(b),The owner or operator of the CCR unit,must,strong,obtain,a certification from a qualified professional engineer or approval from the Participating State Director or approval from EPA (where EPA is the permitting authority) stating that the demonstration meets the requirements of paragraph (a) of this section,False,False,,revise,The owner or operator of the CCR unit must obtain a certification from a qualified professional engineer or approval from the Participating State Director or approval from EPA where EPA is the permitting authority stating that the demonstration meets the requirements of paragraph (a) of this section.,§ 257.61(a),safety_net_verified,openai,gpt-5,1625,224
+100400,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within an amendatory block revising § 257.62(b), making it new binding regulatory text.",compound,none,257,257.62(b),The owner or operator of the CCR unit,must,strong,obtain a certification stating that the demonstration meets the requirements of paragraph (a) of this section,certification from a qualified professional engineer,False,False,,revise,The owner or operator of the CCR unit must obtain a certification from a qualified professional engineer or approval from the Participating State Director or approval from EPA where EPA is the permitting authority stating that the demonstration meets the requirements of paragraph (a) of this section.,§ 257.62(a),safety_net_verified,openai,gpt-5,1628,464
+100400,EPA-HQ-OLEM-2017-0286,final,1,True,"The sentence appears within an amendatory block revising § 257.62(b), making it new binding regulatory text.",compound,none,257,257.62(b),The owner or operator of the CCR unit,must,strong,obtain approval stating that the demonstration meets the requirements of paragraph (a) of this section,approval from the Participating State Director,False,False,,revise,The owner or operator of the CCR unit must obtain a certification from a qualified professional engineer or approval from the Participating State Director or approval from EPA where EPA is the permitting authority stating that the demonstration meets the requirements of paragraph (a) of this section.,§ 257.62(a),safety_net_verified,openai,gpt-5,0,0
+100400,EPA-HQ-OLEM-2017-0286,final,2,True,"The sentence appears within an amendatory block revising § 257.62(b), making it new binding regulatory text.",compound,none,257,257.62(b),The owner or operator of the CCR unit,must,strong,obtain approval stating that the demonstration meets the requirements of paragraph (a) of this section,approval from EPA where EPA is the permitting authority,False,False,,revise,The owner or operator of the CCR unit must obtain a certification from a qualified professional engineer or approval from the Participating State Director or approval from EPA where EPA is the permitting authority stating that the demonstration meets the requirements of paragraph (a) of this section.,§ 257.62(a),safety_net_verified,openai,gpt-5,0,0
+100500,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within an amendatory block revising § 257.63(b), so it is new binding regulatory text.",simple,none,257,257.63(b),The owner or operator of the CCR unit,must,strong,obtain,"a certification from a qualified professional engineer, or approval from the Participating State Director, or approval from EPA where EPA is the permitting authority, stating that the demonstration meets the requirements of paragraph (a) of this section",False,False,,revise,The owner or operator of the CCR unit must obtain a certification from a qualified professional engineer or approval from the Participating State Director or approval from EPA where EPA is the permitting authority stating that the demonstration meets the requirements of paragraph (a) of this section.,§ 257.63(a),safety_net_verified,openai,gpt-5,1630,224
+100600,EPA-HQ-OLEM-2017-0286,final,0,True,"Text appears within an amendatory block revising § 257.64(c), making it new binding regulatory text.",simple,none,257,257.64(c),The owner or operator of the CCR unit,must,strong,obtain,a certification from a qualified professional engineer or an approval from the Participating State Director or an approval from EPA (where EPA is the permitting authority) stating that the demonstration meets the requirements of paragraph (a) of this section,False,False,,revise,The owner or operator of the CCR unit must obtain a certification from a qualified professional engineer or approval from the Participating State Director or approval from EPA where EPA is the permitting authority stating that the demonstration meets the requirements of paragraph (a) of this section.,§ 257.64(a),safety_net_verified,openai,gpt-5,1626,223
+101300,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within an amendatory block that revises paragraph (a), making it new binding regulatory text.",simple,none,257,257.90(a),"All CCR landfills, CCR surface impoundments, and lateral expansions of CCR units",must,strong,comply with,the groundwater monitoring and corrective action requirements in §§ 257.90 through 257.99,False,True,except as provided in paragraph (g) of this section,revise,"(a) All CCR landfills, CCR surface impoundments, and lateral expansions of CCR units are subject to the groundwater monitoring and corrective action requirements under Sec. Sec.  257.90 through 257.99, except as provided in paragraph (g) of this section.",§§ 257.90 through 257.99,safety_net_verified,openai,gpt-5,1728,222
+101700,EPA-HQ-OLEM-2017-0286,final,0,True,"The language appears within an amendatory block revising § 257.95(c)(3), making it new binding regulatory text.",simple,none,257,257.95(c)(3),The owner or operator,must,strong,obtain,"either (1) a certification from a qualified professional engineer, or (2) approval from the Participating State Director, or (3) approval from EPA where EPA is the permitting authority, stating that the demonstration for an alternative groundwater sampling and analysis frequency meets the requirements of this section",False,False,,revise,The owner or operator must obtain a certification from a qualified professional engineer or approval from the Participating State Director or approval from EPA where EPA is the permitting authority stating that the demonstration for an alternative groundwater sampling and analysis frequency meets the requirements of this section.,,safety_net_verified,openai,gpt-5,1715,230
+102002,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within an amendatory block revising § 257.98(e), making it binding regulatory text.",simple,none,257,257.98(e),the owner or operator,must,strong,place the report in the operating record,as required by § 257.105(h)(13),False,False,,revise,The report has been completed when it is placed in the operating record as required by Sec.  257.105(h)(13).,§ 257.105(h)(13),safety_net_verified,openai,gpt-5,1624,193
+102101,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within an amendatory block revising § 257.101, making it binding regulatory text.",compound,none,257,257.101(a)(1),the owner or operator of an existing CCR surface impoundment that has not demonstrated compliance with the location standard specified in § 257.60(a),must,strong,cease placing,CCR and non-CCR wastestreams into such CCR unit,False,False,,revise,"the owner or operator of an existing CCR surface impoundment that has not demonstrated compliance with the location standard specified in Sec.  257.60(a) must cease placing CCR and non-CCR wastestreams into such CCR unit no later than October 31, 2020, and close the CCR unit in accordance with the requirements of Sec.  257.102.",,safety_net_verified,openai,gpt-5,1782,359
+102101,EPA-HQ-OLEM-2017-0286,final,1,True,"The sentence appears within an amendatory block revising § 257.101, making it binding regulatory text.",compound,none,257,257.101(a)(1),the owner or operator of an existing CCR surface impoundment that has not demonstrated compliance with the location standard specified in § 257.60(a),must,strong,close the CCR unit,in accordance with the requirements of § 257.102,False,False,"no later than October 31, 2020",revise,"the owner or operator of an existing CCR surface impoundment that has not demonstrated compliance with the location standard specified in Sec.  257.60(a) must cease placing CCR and non-CCR wastestreams into such CCR unit no later than October 31, 2020, and close the CCR unit in accordance with the requirements of Sec.  257.102.",§ 257.102,safety_net_verified,openai,gpt-5,0,0
+102302,EPA-HQ-OLEM-2017-0286,final,0,True,"The sentence appears within an amendatory block revising § 257.104, making it binding regulatory text.",simple,none,257,257.104,the owner or operator,no_modal_implicit,strong,complete the notification,by placing it in the facility's operating record as required,False,False,,revise,The owner or operator has completed the notification when it has been placed in the facility's operating record as required by Sec.  257.105(i)(13).,§ 257.105(i)(13),safety_net_verified,openai,gpt-5,1669,190
+102500,EPA-HQ-OLEM-2017-0286,final,0,True,The sentence appears within an amendatory block adding paragraph (h)(11) and thus constitutes new binding regulatory text.,simple,none,257,257.106(h)(11),the owner or operator,must,strong,provide,the demonstration supporting the suspension of groundwater monitoring requirements specified under § 257.105(h)(14),False,False,,add,(11) Provide the demonstration supporting the suspension of groundwater monitoring requirements specified under Sec. 257.105(h)(14).,§ 257.105(h)(14),safety_net_verified,openai,gpt-5,1551,196

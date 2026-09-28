@@ -1,0 +1,1002 @@
+candidate_idx,docket_id,rule_type,split_idx,verified,verified_reason,complexity,recital_disposition,cfr_part,cfr_section,subject,modal,modal_strength,action,object,passive_voice,is_conditional,condition_text,amendatory_action,obligation_text,cross_reference,found_via,llm_provider,llm_model,in_tokens,out_tokens
+5,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within regulatory text of a subpart being added/revised (amendatory context), making it binding; it prescribes terminology to be used in this subpart.",simple,definition_embedded,60,60.5700,"An affected steam generating unit, IGCC, or stationary combustion turbine",shall,strong,be referred to,an affected EGU for the purposes of this subpart,True,False,,revise,"An affected steam generating unit, IGCC, or stationary 
+combustion turbine shall, for the purposes of this subpart, be referred 
+to as an affected EGU.",,primary,openai,gpt-5,1780,205
+6,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within regulatory text of a CFR amendatory block (subpart section text being added/revised), creating new binding requirements.",simple,none,60,60.5710,"Administrator of an air quality program in a state with one or more affected EGUs that commenced construction on or before January 8, 2014",must,strong,submit,a state plan that implements the emission guidelines contained in this subpart to the U.S. Environmental Protection Agency (EPA),False,True,"If you are the Administrator of an air quality program in a state with one or more affected EGUs that commenced construction on or before January 8, 2014",revise,"If you are the Administrator of an air quality program in a state 
+with one or more affected EGUs that commenced construction on or before 
+January 8, 2014, you must submit a state plan to the U.S. Environmental 
+Protection Agency (EPA) that implements the emission guidelines 
+contained in this subpart.",,primary,openai,gpt-5,1880,253
+7,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within regulatory text of a CFR section being revised and prescribes a clear duty for state administrators, making it binding amendatory text.",simple,none,60,60.5710,Administrator of an air quality program in a state,must,strong,submit,a negative declaration letter in place of the state plan,False,True,"if there are no affected EGUs for which construction commenced on or before January 8, 2014 in the state",revise,"You must submit a negative declaration 
+letter in place of the state plan if there are no affected EGUs for 
+which construction commenced on or before January 8, 2014 in your 
+state.",,primary,openai,gpt-5,1819,213
+8,EPA-HQ-OAR-2013-0602,proposed,0,True,"The obligation appears within amendatory regulatory text revising Part 60 (amendatory block detected), making it binding.",simple,none,60,60.5720,Owners and operators of affected entities not covered by an approved state plan,must,strong,comply,a Federal plan implemented by the EPA for the state,False,False,,revise,"Owners and operators of 
+affected entities not covered by an approved state plan must comply 
+with a Federal plan implemented by the EPA for the state.",§ 60.27,primary,openai,gpt-5,1766,194
+9,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within an amendatory CFR regulatory section presenting binding implementation text, making it new binding text.",simple,none,60,60.5725,A state,may,permissive,meet,its CAA section 111(d) obligations only by submitting a complete state plan or a negative declaration letter (if applicable),False,False,,revise,"A state may meet its CAA section 111(d) obligations only by 
+submitting a complete state plan or a negative declaration letter (if 
+applicable).",,primary,openai,gpt-5,1764,190
+10,EPA-HQ-OAR-2013-0602,proposed,0,True,The text appears within an amendatory regulatory section (§ 60.5740) that is being revised and contains mandatory plan content requirements.,simple,none,60,60.5740(a),You,must,strong,include,the elements described in paragraphs (a)(1) through (11) of this section in your state plan,False,False,,revise,What must I include in my state plan?,,primary,openai,gpt-5,1715,191
+11,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears in an amendatory regulatory section with a detected amendatory action (revise), making it binding text.",simple,none,60,60.5740(a),You,must,strong,include,the elements described in paragraphs (a)(1) through (11) of this section in your state plan,False,False,,revise,"(a) You must include the elements described in paragraphs (a)(1) 
+through (11) of this section in your state plan.",,primary,openai,gpt-5,1753,188
+12,EPA-HQ-OAR-2013-0602,proposed,0,True,The text appears within an amendatory block revising CFR part 60.27 and contains mandatory plan requirements using 'must'.,compound,none,60,60.27(a)(3)(i),The plan,must,strong,specify,the average emissions performance that the plan will achieve for the 10-year interim plan performance period of 2020 through 2029 and the single projection year of 2030,False,False,,revise,"The plan must specify the average emissions performance that 
+the plan will achieve for the following periods:
+    (A) The 10 year interim plan performance period of 2020 through 
+2029.
+    (B) The single projection year of 2030.
+    (ii) The identified emission performance level for each plan 
+performance period in paragraph (a)(3)(i) of this section must be 
+equivalent to or better than the levels of the rate-based 
+CO<INF>2</INF> emission performance goals in Table 1 of this Subpart 
+for affected entities in your state.",,primary,openai,gpt-5,1948,356
+12,EPA-HQ-OAR-2013-0602,proposed,1,True,The text appears within an amendatory block revising CFR part 60.27 and contains mandatory plan requirements using 'must'.,compound,none,60,60.27(a)(3)(ii),The identified emission performance level for each plan performance period in paragraph (a)(3)(i) of this section,must,strong,be equivalent to or better than,the levels of the rate-based CO2 emission performance goals in Table 1 of this subpart for affected entities in your state,True,False,,revise,"The plan must specify the average emissions performance that 
+the plan will achieve for the following periods:
+    (A) The 10 year interim plan performance period of 2020 through 
+2029.
+    (B) The single projection year of 2030.
+    (ii) The identified emission performance level for each plan 
+performance period in paragraph (a)(3)(i) of this section must be 
+equivalent to or better than the levels of the rate-based 
+CO<INF>2</INF> emission performance goals in Table 1 of this Subpart 
+for affected entities in your state.",,primary,openai,gpt-5,0,0
+13,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within amendatory text being revised, making it binding regulatory text under the amendatory block rule.",simple,none,60,60.27,The emission performance levels,may,permissive,be in either a rate-based form or a mass-based form,as calculated according to § 60.5770,False,False,,revise,"The emission performance levels 
+may be in either a rate-based form or a mass based form which is 
+calculated according to Sec.  60.5770.",§ 60.5770,primary,openai,gpt-5,1784,195
+14,EPA-HQ-OAR-2013-0602,proposed,0,True,The language appears within an amendatory block revising 40 CFR part 60.27 and sets new binding requirements.,compound,none,60,60.27,The CO2 emission performance level specified,must,strong,include,"either a rate-based or a mass-based representation, as applicable",False,False,,revise,"The CO<INF>2</INF> emission 
+performance level specified must include either of the following as 
+applicable:
+    (A) For a rate-based CO<INF>2</INF> emission performance level, the 
+identified level must represent the CO<INF>2</INF> emissions rate, in 
+pounds of CO<INF>2</INF> per MWh of net energy output that will be 
+achieved by affected entities.
+    (B) For a mass-based CO<INF>2</INF> emission performance level, the 
+identified level of performance must represent the total tons of 
+CO<INF>2</INF> that will be emitted by affected entities during each 
+plan performance period.",,primary,openai,gpt-5,2003,431
+14,EPA-HQ-OAR-2013-0602,proposed,1,True,The language appears within an amendatory block revising 40 CFR part 60.27 and sets new binding requirements.,compound,none,60,60.27,The identified level,must,strong,represent,the CO2 emissions rate in pounds of CO2 per MWh of net energy output that will be achieved by affected entities,False,True,For a rate-based CO2 emission performance level,revise,"The CO<INF>2</INF> emission 
+performance level specified must include either of the following as 
+applicable:
+    (A) For a rate-based CO<INF>2</INF> emission performance level, the 
+identified level must represent the CO<INF>2</INF> emissions rate, in 
+pounds of CO<INF>2</INF> per MWh of net energy output that will be 
+achieved by affected entities.
+    (B) For a mass-based CO<INF>2</INF> emission performance level, the 
+identified level of performance must represent the total tons of 
+CO<INF>2</INF> that will be emitted by affected entities during each 
+plan performance period.",,primary,openai,gpt-5,0,0
+14,EPA-HQ-OAR-2013-0602,proposed,2,True,The language appears within an amendatory block revising 40 CFR part 60.27 and sets new binding requirements.,compound,none,60,60.27,The identified level of performance,must,strong,represent,the total tons of CO2 that will be emitted by affected entities during each plan performance period,False,True,For a mass-based CO2 emission performance level,revise,"The CO<INF>2</INF> emission 
+performance level specified must include either of the following as 
+applicable:
+    (A) For a rate-based CO<INF>2</INF> emission performance level, the 
+identified level must represent the CO<INF>2</INF> emissions rate, in 
+pounds of CO<INF>2</INF> per MWh of net energy output that will be 
+achieved by affected entities.
+    (B) For a mass-based CO<INF>2</INF> emission performance level, the 
+identified level of performance must represent the total tons of 
+CO<INF>2</INF> that will be emitted by affected entities during each 
+plan performance period.",,primary,openai,gpt-5,0,0
+15,EPA-HQ-OAR-2013-0602,proposed,0,True,The sentence appears within amendatory regulatory text being revised and contains a clear duty using must.,simple,none,60,60.27,you,must,strong,identify,the emission performance levels anticipated under the plan during each year 2020 through 2029 for the interim plan performance period,False,False,,revise,"[[Page 34952]]
+
+    (iii) For the interim plan performance period you must identify the 
+emission performance levels anticipated under the plan during each year 
+2020 through 2029.",,primary,openai,gpt-5,1781,183
+16,EPA-HQ-OAR-2013-0602,proposed,0,True,"The text is within an amendatory block revising § 60.27 and prescribes binding requirements for state plans, including a conditional must requirement.",compound,none,60,60.27,the state plan,no_modal_implicit,strong,include,a demonstration that the plan is projected to achieve each of the state's emission performance levels for affected entities according to paragraph (a)(3) of this section,False,False,,revise,"(4) A demonstration that the plan is projected to achieve each of 
+the state's emission performance levels for affected entities according 
+to paragraph (a)(3) of this section.
+    (5) Identification of emission standards for each affected entity, 
+compliance periods for each emission standard, and demonstration that 
+the emission standards are, when taken together, sufficiently 
+protective to meet the state emissions performance level.
+    (6) A demonstration that each emission standard is quantifiable, 
+non-duplicative, permanent, verifiable, and enforceable with respect to 
+an affected entity.
+    (7) If your state plan does not require achievement of the full 
+level of required emission performance, and the identified interim 
+increments of performance in paragraph (a)(3)(iii) of this section, 
+through emission limits on EGUs, the plan must specify the following:
+    (i) Program implementation milestones (e.g., start of an end-use 
+energy efficiency program, retirement of an affected EGU, or increase 
+in portfolio requirements under a renewable portfolio standard) and 
+milestone dates that are appropriate to the requirements, programs, and 
+measures included in the plan.",paragraph (a)(3) of this section,primary,openai,gpt-5,2172,643
+16,EPA-HQ-OAR-2013-0602,proposed,1,True,"The text is within an amendatory block revising § 60.27 and prescribes binding requirements for state plans, including a conditional must requirement.",compound,none,60,60.27,the state plan,no_modal_implicit,strong,identify,"emission standards for each affected entity and compliance periods for each emission standard, and include a demonstration that the emission standards are, when taken together, sufficiently protective to meet the state emissions performance level",False,False,,revise,"(4) A demonstration that the plan is projected to achieve each of 
+the state's emission performance levels for affected entities according 
+to paragraph (a)(3) of this section.
+    (5) Identification of emission standards for each affected entity, 
+compliance periods for each emission standard, and demonstration that 
+the emission standards are, when taken together, sufficiently 
+protective to meet the state emissions performance level.
+    (6) A demonstration that each emission standard is quantifiable, 
+non-duplicative, permanent, verifiable, and enforceable with respect to 
+an affected entity.
+    (7) If your state plan does not require achievement of the full 
+level of required emission performance, and the identified interim 
+increments of performance in paragraph (a)(3)(iii) of this section, 
+through emission limits on EGUs, the plan must specify the following:
+    (i) Program implementation milestones (e.g., start of an end-use 
+energy efficiency program, retirement of an affected EGU, or increase 
+in portfolio requirements under a renewable portfolio standard) and 
+milestone dates that are appropriate to the requirements, programs, and 
+measures included in the plan.",,primary,openai,gpt-5,0,0
+16,EPA-HQ-OAR-2013-0602,proposed,2,True,"The text is within an amendatory block revising § 60.27 and prescribes binding requirements for state plans, including a conditional must requirement.",compound,none,60,60.27,the state plan,no_modal_implicit,strong,include,"a demonstration that each emission standard is quantifiable, non-duplicative, permanent, verifiable, and enforceable with respect to an affected entity",False,False,,revise,"(4) A demonstration that the plan is projected to achieve each of 
+the state's emission performance levels for affected entities according 
+to paragraph (a)(3) of this section.
+    (5) Identification of emission standards for each affected entity, 
+compliance periods for each emission standard, and demonstration that 
+the emission standards are, when taken together, sufficiently 
+protective to meet the state emissions performance level.
+    (6) A demonstration that each emission standard is quantifiable, 
+non-duplicative, permanent, verifiable, and enforceable with respect to 
+an affected entity.
+    (7) If your state plan does not require achievement of the full 
+level of required emission performance, and the identified interim 
+increments of performance in paragraph (a)(3)(iii) of this section, 
+through emission limits on EGUs, the plan must specify the following:
+    (i) Program implementation milestones (e.g., start of an end-use 
+energy efficiency program, retirement of an affected EGU, or increase 
+in portfolio requirements under a renewable portfolio standard) and 
+milestone dates that are appropriate to the requirements, programs, and 
+measures included in the plan.",,primary,openai,gpt-5,0,0
+16,EPA-HQ-OAR-2013-0602,proposed,3,True,"The text is within an amendatory block revising § 60.27 and prescribes binding requirements for state plans, including a conditional must requirement.",compound,none,60,60.27,your state plan,must,strong,specify,"program implementation milestones and milestone dates that are appropriate to the requirements, programs, and measures included in the plan",False,True,"If the state plan does not require achievement of the full level of required emission performance, and the identified interim increments of performance in paragraph (a)(3)(iii) of this section, through emission limits on EGUs",revise,"(4) A demonstration that the plan is projected to achieve each of 
+the state's emission performance levels for affected entities according 
+to paragraph (a)(3) of this section.
+    (5) Identification of emission standards for each affected entity, 
+compliance periods for each emission standard, and demonstration that 
+the emission standards are, when taken together, sufficiently 
+protective to meet the state emissions performance level.
+    (6) A demonstration that each emission standard is quantifiable, 
+non-duplicative, permanent, verifiable, and enforceable with respect to 
+an affected entity.
+    (7) If your state plan does not require achievement of the full 
+level of required emission performance, and the identified interim 
+increments of performance in paragraph (a)(3)(iii) of this section, 
+through emission limits on EGUs, the plan must specify the following:
+    (i) Program implementation milestones (e.g., start of an end-use 
+energy efficiency program, retirement of an affected EGU, or increase 
+in portfolio requirements under a renewable portfolio standard) and 
+milestone dates that are appropriate to the requirements, programs, and 
+measures included in the plan.",paragraph (a)(3)(iii) of this section,primary,openai,gpt-5,0,0
+17,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within amendatory text revising § 60.27, so it is new binding regulatory text.",simple,none,60,60.27,these requirements,must,strong,be consistent,the requirements specified in § 60.5810,False,True,If applicable,revise,"If applicable, 
+these requirements must be consistent with the requirements specified 
+in Sec.  60.5810.
+    (9) Description of the process, contents, and schedule for annual 
+state reporting to the EPA about plan implementation and progress 
+including information required under Sec.  60.5815.",§ 60.5810,primary,openai,gpt-5,1796,184
+18,EPA-HQ-OAR-2013-0602,proposed,0,True,"The obligation appears within amendatory regulatory text being revised, making it new binding text.",compound,none,60,60.27,You,must,strong,follow,the requirements of subpart B of this part (Adoption and Submittal of State Plans for Designated Facilities),False,False,,revise,"(11) Supporting material including:
+    (i) Materials demonstrating the state's legal authority to carry 
+out each component of its plan, including emissions standards;
+    (ii) Materials supporting the projected emissions performance level 
+that will be achieved by affected entities under the plan, according to 
+paragraph (a)(4) of this section;
+    (iii) Materials supporting the projected mass-based emission 
+performance goal, calculated pursuant to Sec.  60.5770, if applicable; 
+and
+    (iv) Materials necessary to support evaluation of the plan by the 
+EPA.
+    (b) You must follow the requirements of subpart B of this part 
+(Adoption and Submittal of state plans for Designated Facilities) and 
+demonstrate that they were met in your state plan.",subpart B of this part,primary,openai,gpt-5,2108,299
+18,EPA-HQ-OAR-2013-0602,proposed,1,True,"The obligation appears within amendatory regulatory text being revised, making it new binding text.",compound,none,60,60.27,You,must,strong,demonstrate,that the requirements of subpart B were met in your state plan,False,False,,revise,"(11) Supporting material including:
+    (i) Materials demonstrating the state's legal authority to carry 
+out each component of its plan, including emissions standards;
+    (ii) Materials supporting the projected emissions performance level 
+that will be achieved by affected entities under the plan, according to 
+paragraph (a)(4) of this section;
+    (iii) Materials supporting the projected mass-based emission 
+performance goal, calculated pursuant to Sec.  60.5770, if applicable; 
+and
+    (iv) Materials necessary to support evaluation of the plan by the 
+EPA.
+    (b) You must follow the requirements of subpart B of this part 
+(Adoption and Submittal of state plans for Designated Facilities) and 
+demonstrate that they were met in your state plan.",subpart B of this part,primary,openai,gpt-5,0,0
+19,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within an amendatory regulatory section being revised, making it binding text.",compound,none,60,60.5745,A multi-state plan,may,permissive,be submitted,None,True,True,provided it is signed by authorized officials for each of the states participating in the multi-state plan,revise,"A multi-state plan may be submitted, provided it is signed by 
+authorized officials for each of the states participating in the multi-
+state plan.",,primary,openai,gpt-5,1766,299
+19,EPA-HQ-OAR-2013-0602,proposed,1,True,"The sentence appears within an amendatory regulatory section being revised, making it binding text.",compound,none,60,60.5745,authorized officials for each of the states participating in the multi-state plan,must,strong,sign,the multi-state plan,False,True,for a multi-state plan to be submitted,revise,"A multi-state plan may be submitted, provided it is signed by 
+authorized officials for each of the states participating in the multi-
+state plan.",,primary,openai,gpt-5,0,0
+20,EPA-HQ-OAR-2013-0602,proposed,0,True,Text appears within an amendatory regulatory section being revised and contains a mandatory requirement using must.,compound,none,60,60.5745,A state submitting a multi-state plan,must,strong,demonstrate CO2 emission performance jointly for all affected entities in all participating states,joint CO2 emission performance for all affected entities in the multi-state plan,False,True,if a multi-state plan is submitted by a state,revise,"A multi-state plan, if 
+submitted by a state, must:
+    (a) Demonstrate CO<INF>2</INF> emission performance jointly for all 
+affected entities in all states participating in the multi-state plan, 
+as follows:
+    (1) For states demonstrating performance based on the 
+CO<INF>2</INF> emission rate, the level of performance identified in 
+the multi-state plan pursuant to Sec.  60.5740(a)(3) will be a weighted 
+(by net energy output) average lb CO<INF>2</INF>/MWh emission rate to 
+be achieved by all affected EGUs in the multi-state area during the 
+plan performance period; or
+    (2) For states demonstrating performance based on mass 
+CO<INF>2</INF> emissions, the level of performance identified in the 
+multi-state plan pursuant to 60.5740(a)(3) will be total CO<INF>2</INF> 
+emissions by all affected EGUs in the multi-state area during the plan 
+performance period.",§ 60.5740(a)(3),primary,openai,gpt-5,2146,552
+20,EPA-HQ-OAR-2013-0602,proposed,1,True,Text appears within an amendatory regulatory section being revised and contains a mandatory requirement using must.,compound,none,60,60.5745,A state demonstrating performance based on the CO2 emission rate in a multi-state plan,must,strong,ensure the level of performance is a weighted average lb CO2/MWh emission rate to be achieved by all affected EGUs in the multi-state area during the plan performance period,weighted (by net energy output) average lb CO2/MWh emission rate for all affected EGUs,False,True,for states demonstrating performance based on the CO2 emission rate,revise,"A multi-state plan, if 
+submitted by a state, must:
+    (a) Demonstrate CO<INF>2</INF> emission performance jointly for all 
+affected entities in all states participating in the multi-state plan, 
+as follows:
+    (1) For states demonstrating performance based on the 
+CO<INF>2</INF> emission rate, the level of performance identified in 
+the multi-state plan pursuant to Sec.  60.5740(a)(3) will be a weighted 
+(by net energy output) average lb CO<INF>2</INF>/MWh emission rate to 
+be achieved by all affected EGUs in the multi-state area during the 
+plan performance period; or
+    (2) For states demonstrating performance based on mass 
+CO<INF>2</INF> emissions, the level of performance identified in the 
+multi-state plan pursuant to 60.5740(a)(3) will be total CO<INF>2</INF> 
+emissions by all affected EGUs in the multi-state area during the plan 
+performance period.",§ 60.5740(a)(3),primary,openai,gpt-5,0,0
+20,EPA-HQ-OAR-2013-0602,proposed,2,True,Text appears within an amendatory regulatory section being revised and contains a mandatory requirement using must.,compound,none,60,60.5745,A state demonstrating performance based on mass CO2 emissions in a multi-state plan,must,strong,ensure the level of performance is total CO2 emissions by all affected EGUs in the multi-state area during the plan performance period,total CO2 emissions by all affected EGUs,False,True,for states demonstrating performance based on mass CO2 emissions,revise,"A multi-state plan, if 
+submitted by a state, must:
+    (a) Demonstrate CO<INF>2</INF> emission performance jointly for all 
+affected entities in all states participating in the multi-state plan, 
+as follows:
+    (1) For states demonstrating performance based on the 
+CO<INF>2</INF> emission rate, the level of performance identified in 
+the multi-state plan pursuant to Sec.  60.5740(a)(3) will be a weighted 
+(by net energy output) average lb CO<INF>2</INF>/MWh emission rate to 
+be achieved by all affected EGUs in the multi-state area during the 
+plan performance period; or
+    (2) For states demonstrating performance based on mass 
+CO<INF>2</INF> emissions, the level of performance identified in the 
+multi-state plan pursuant to 60.5740(a)(3) will be total CO<INF>2</INF> 
+emissions by all affected EGUs in the multi-state area during the plan 
+performance period.",§ 60.5740(a)(3),primary,openai,gpt-5,0,0
+21,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within an amendatory block revising CFR text, making it binding regulatory language even though it is permissive.",simple,none,60,60.5750,you,may,permissive,include,"existing requirements, programs, and measures in your plan",False,True,according to paragraphs (b) through (d) of this section,revise,"Yes, you may include existing requirements, programs and 
+measures in your plan according to paragraphs (b) through (d) of this 
+section.",,primary,openai,gpt-5,1784,192
+22,EPA-HQ-OAR-2013-0602,proposed,0,True,The sentence appears within an amendatory regulatory section that is being revised and sets permissive regulatory text for plan content.,simple,none,60,60.5750(b),"Existing state programs, requirements, and measures",may,permissive,qualify for use in demonstrating that a state plan achieves the required level of emission performance specified in a plan,None,False,False,,revise,"(b) Existing state programs, requirements, and measures, may 
+qualify for use in demonstrating that a state plan achieves the 
+required level of emission performance specified in a plan, according 
+to Sec.  60.5740(a)(3).",§ 60.5740(a)(3),primary,openai,gpt-5,1818,204
+23,EPA-HQ-OAR-2013-0602,proposed,0,True,The sentence appears within an amendatory regulatory section being revised and thus constitutes new binding text.,simple,none,60,60.5750(c),"Existing state programs, requirements, and measures",may,permissive,qualify for use in projecting that a state plan will achieve the required level of emission performance,None,False,False,,revise,"(c) Existing state programs, requirements, and measures, may 
+qualify for use in projecting that a state plan will achieve the 
+required level of emission performance specified in a plan, according 
+to Sec.  60.5740(a)(4).",§ 60.5740(a)(4),primary,openai,gpt-5,1816,196
+24,EPA-HQ-OAR-2013-0602,proposed,0,True,The text appears within an amendatory regulatory section being revised and contains mandatory language establishing a temporal eligibility criterion.,simple,none,60,60.27,"Actions taken pursuant to an existing state program, requirement, or measure",must,strong,occur,None,False,True,for emission impacts to be recognized in meeting or projecting CO2 emission performance by affected EGUs according to § 60.5740(a)(3) and (4),revise,"(d) Emission impacts of existing programs, requirements, and 
+measures that occur during a plan performance period may be recognized 
+in meeting or projecting CO<INF>2</INF> emission performance by 
+affected EGUs according to Sec.  60.5740(a)(3) and (4), as long as they 
+meet the following requirements:
+    (1) Actions taken pursuant to an existing state program, 
+requirement, or measure, such as compliance with a regulatory 
+obligation or initiation of an action related to a program or measure, 
+must occur after June 18, 2014; and
+    (2)",§ 60.5740(a)(3) and (4),primary,openai,gpt-5,1981,220
+25,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within an amendatory regulatory text block revising § 60.5755, making it new binding text.",simple,none,60,60.5755(a),You,must,strong,submit,your state plan with the information in § 60.5740,False,True,"by June 30, 2016 unless you are submitting a request for extension according to paragraphs (b) or (c) of this section",revise,"What are the timing requirements for submitting my state 
+plan?
+
+    (a) You must submit your state plan with the information in Sec.  
+60.5740 by June 30, 2016 unless you are submitting a request for 
+extension according to paragraphs (b) or (c) of this section.",§ 60.5740,primary,openai,gpt-5,1877,216
+26,EPA-HQ-OAR-2013-0602,proposed,0,True,The sentence appears within an amendatory regulatory text block revising CFR provisions and states a binding requirement for states seeking an extension.,simple,none,60,60.5755(b),a state seeking a one year extension for a complete plan submittal,must,strong,include,"the information in § 60.5760(a) in a submittal by June 30, 2016 to receive an extension to submit the complete state plan by June 30, 2017",False,True,For a state seeking a one year extension for a complete plan submittal,revise,"(b) For a state seeking a one year extension for a complete plan 
+submittal you must include the information in Sec.  60.5760(a) in a 
+submittal by June 30, 2016 to receive an extension to submit your 
+complete state plan by June 30, 2017.",§ 60.5760(a),primary,openai,gpt-5,1884,245
+27,EPA-HQ-OAR-2013-0602,proposed,0,True,The sentence appears within regulatory text of a section being revised/amended and sets a mandatory requirement with a deadline for obtaining an extension.,compound,none,60,60.5755(c),states in a multi-state plan seeking a two-year extension for a complete plan submittal,must,strong,include,the information in § 60.5760(a) in a submittal,False,True,"to receive an extension to submit a complete multi-state plan by June 30, 2018",revise,"(c) For states in a multi-state plan seeking a two year extension 
+for a complete plan submittal you must include the information in Sec.  
+60.5760(a) in a submittal by June 30, 2016 to receive an extension to 
+submit your complete multi-state plan by June 30, 2018.",§ 60.5760(a),primary,openai,gpt-5,1887,389
+27,EPA-HQ-OAR-2013-0602,proposed,1,True,The sentence appears within regulatory text of a section being revised/amended and sets a mandatory requirement with a deadline for obtaining an extension.,compound,none,60,60.5755(c),states in a multi-state plan seeking a two-year extension for a complete plan submittal,must,strong,submit,"the initial submittal including the information in § 60.5760(a) by June 30, 2016",False,True,"to receive an extension to submit a complete multi-state plan by June 30, 2018",revise,"(c) For states in a multi-state plan seeking a two year extension 
+for a complete plan submittal you must include the information in Sec.  
+60.5760(a) in a submittal by June 30, 2016 to receive an extension to 
+submit your complete multi-state plan by June 30, 2018.",§ 60.5760(a),primary,openai,gpt-5,0,0
+28,EPA-HQ-OAR-2013-0602,proposed,0,True,The text appears within an amendatory block revising CFR text and prescribes required elements; thus it is new binding regulatory language.,compound,none,60,60.5760,You,must,strong,include,the following required elements in an initial submittal in lieu of a complete state plan,False,False,,revise,"Sec.  60.5760  What must I include in an initial submittal in lieu of a 
+complete state plan?
+
+    (a) You must include the following required elements in an initial 
+submittal in lieu of a complete state plan:
+    (1) A description of the plan approach and progress made to date in 
+developing each of the plan elements in Sec.  60.5740;
+    (2) An initial projection of the level of emission performance that 
+will be achieved under the complete plan;
+    (3) A commitment by the state to maintain existing state programs 
+and",,primary,openai,gpt-5,1968,573
+28,EPA-HQ-OAR-2013-0602,proposed,1,True,The text appears within an amendatory block revising CFR text and prescribes required elements; thus it is new binding regulatory language.,compound,none,60,60.5760,You,must,strong,include,a description of the plan approach and progress made to date in developing each of the plan elements in § 60.5740,False,False,,revise,"Sec.  60.5760  What must I include in an initial submittal in lieu of a 
+complete state plan?
+
+    (a) You must include the following required elements in an initial 
+submittal in lieu of a complete state plan:
+    (1) A description of the plan approach and progress made to date in 
+developing each of the plan elements in Sec.  60.5740;
+    (2) An initial projection of the level of emission performance that 
+will be achieved under the complete plan;
+    (3) A commitment by the state to maintain existing state programs 
+and",§ 60.5740,primary,openai,gpt-5,0,0
+28,EPA-HQ-OAR-2013-0602,proposed,2,True,The text appears within an amendatory block revising CFR text and prescribes required elements; thus it is new binding regulatory language.,compound,none,60,60.5760,You,must,strong,include,an initial projection of the level of emission performance that will be achieved under the complete plan,False,False,,revise,"Sec.  60.5760  What must I include in an initial submittal in lieu of a 
+complete state plan?
+
+    (a) You must include the following required elements in an initial 
+submittal in lieu of a complete state plan:
+    (1) A description of the plan approach and progress made to date in 
+developing each of the plan elements in Sec.  60.5740;
+    (2) An initial projection of the level of emission performance that 
+will be achieved under the complete plan;
+    (3) A commitment by the state to maintain existing state programs 
+and",,primary,openai,gpt-5,0,0
+28,EPA-HQ-OAR-2013-0602,proposed,3,True,The text appears within an amendatory block revising CFR text and prescribes required elements; thus it is new binding regulatory language.,compound,none,60,60.5760,You,must,strong,include,"a commitment by the state to maintain existing state programs and measures that limit or avoid CO2 emissions from affected entities, which must at a minimum apply during the interim period prior to state submission and EPA approval of a complete plan, and must continue to apply in lieu of a complete plan if one is ultimately not submitted and approved",False,False,,revise,"Sec.  60.5760  What must I include in an initial submittal in lieu of a 
+complete state plan?
+
+    (a) You must include the following required elements in an initial 
+submittal in lieu of a complete state plan:
+    (1) A description of the plan approach and progress made to date in 
+developing each of the plan elements in Sec.  60.5740;
+    (2) An initial projection of the level of emission performance that 
+will be achieved under the complete plan;
+    (3) A commitment by the state to maintain existing state programs 
+and",,primary,openai,gpt-5,0,0
+29,EPA-HQ-OAR-2013-0602,proposed,0,True,"The text appears within a CFR regulatory section (§ 60.5760) presented as binding rule text in an amendatory revision block, containing mandatory “must” requirements for state plan initial submittals.",compound,none,60,60.5760,You,must,strong,include,measures that limit or avoid CO2 emissions from affected entities in the initial submittal,False,False,,revise,"[[Page 34953]]
+
+measures that limit or avoid CO<INF>2</INF> emissions from affected 
+entities (e.g., renewable energy standards, unit-specific limits on 
+operation or fuel utilization), which must at a minimum apply during 
+the interim period prior to state submission and EPA approval of a 
+complete plan, and must continue to apply in lieu of a complete plan if 
+one is ultimately not submitted and approved;
+    (4) Justification of why additional time is needed to submit a 
+complete plan;
+    (5) A comprehensive roadmap for completing the plan, including 
+process, analytical methods and schedule (including milestones) 
+specifying when all necessary plan components will be complete (e.g., 
+projection of emission performance; implementing legislation, 
+regulations and agreements; necessary approvals);
+    (6) Identification of existing and future programs, requirements, 
+and measures the state intends to include in the plan;
+    (7) If a multi-state plan is being developed, an executed 
+agreement(s) with other states (e.g., MOU) participating in the 
+development of the multistate plan; and
+    (8) A commitment to submit a complete plan by June 30, 2017, for a 
+single-state plan, or June 30, 2018, for a multi-state plan, and 
+actions the state will take to show progress in addressing incomplete 
+plan components prior to submittal of the complete plan.",,primary,openai,gpt-5,2316,1051
+29,EPA-HQ-OAR-2013-0602,proposed,1,True,"The text appears within a CFR regulatory section (§ 60.5760) presented as binding rule text in an amendatory revision block, containing mandatory “must” requirements for state plan initial submittals.",compound,none,60,60.5760,measures that limit or avoid CO2 emissions from affected entities,must,strong,apply,during the interim period prior to state submission and EPA approval of a complete plan,False,False,,revise,"[[Page 34953]]
+
+measures that limit or avoid CO<INF>2</INF> emissions from affected 
+entities (e.g., renewable energy standards, unit-specific limits on 
+operation or fuel utilization), which must at a minimum apply during 
+the interim period prior to state submission and EPA approval of a 
+complete plan, and must continue to apply in lieu of a complete plan if 
+one is ultimately not submitted and approved;
+    (4) Justification of why additional time is needed to submit a 
+complete plan;
+    (5) A comprehensive roadmap for completing the plan, including 
+process, analytical methods and schedule (including milestones) 
+specifying when all necessary plan components will be complete (e.g., 
+projection of emission performance; implementing legislation, 
+regulations and agreements; necessary approvals);
+    (6) Identification of existing and future programs, requirements, 
+and measures the state intends to include in the plan;
+    (7) If a multi-state plan is being developed, an executed 
+agreement(s) with other states (e.g., MOU) participating in the 
+development of the multistate plan; and
+    (8) A commitment to submit a complete plan by June 30, 2017, for a 
+single-state plan, or June 30, 2018, for a multi-state plan, and 
+actions the state will take to show progress in addressing incomplete 
+plan components prior to submittal of the complete plan.",,primary,openai,gpt-5,0,0
+29,EPA-HQ-OAR-2013-0602,proposed,2,True,"The text appears within a CFR regulatory section (§ 60.5760) presented as binding rule text in an amendatory revision block, containing mandatory “must” requirements for state plan initial submittals.",compound,none,60,60.5760,measures that limit or avoid CO2 emissions from affected entities,must,strong,continue to apply,in lieu of a complete plan if one is ultimately not submitted and approved,False,True,if a complete plan is ultimately not submitted and approved,revise,"[[Page 34953]]
+
+measures that limit or avoid CO<INF>2</INF> emissions from affected 
+entities (e.g., renewable energy standards, unit-specific limits on 
+operation or fuel utilization), which must at a minimum apply during 
+the interim period prior to state submission and EPA approval of a 
+complete plan, and must continue to apply in lieu of a complete plan if 
+one is ultimately not submitted and approved;
+    (4) Justification of why additional time is needed to submit a 
+complete plan;
+    (5) A comprehensive roadmap for completing the plan, including 
+process, analytical methods and schedule (including milestones) 
+specifying when all necessary plan components will be complete (e.g., 
+projection of emission performance; implementing legislation, 
+regulations and agreements; necessary approvals);
+    (6) Identification of existing and future programs, requirements, 
+and measures the state intends to include in the plan;
+    (7) If a multi-state plan is being developed, an executed 
+agreement(s) with other states (e.g., MOU) participating in the 
+development of the multistate plan; and
+    (8) A commitment to submit a complete plan by June 30, 2017, for a 
+single-state plan, or June 30, 2018, for a multi-state plan, and 
+actions the state will take to show progress in addressing incomplete 
+plan components prior to submittal of the complete plan.",,primary,openai,gpt-5,0,0
+29,EPA-HQ-OAR-2013-0602,proposed,3,True,"The text appears within a CFR regulatory section (§ 60.5760) presented as binding rule text in an amendatory revision block, containing mandatory “must” requirements for state plan initial submittals.",compound,none,60,60.5760,You,must,strong,include,justification of why additional time is needed to submit a complete plan,False,False,,revise,"[[Page 34953]]
+
+measures that limit or avoid CO<INF>2</INF> emissions from affected 
+entities (e.g., renewable energy standards, unit-specific limits on 
+operation or fuel utilization), which must at a minimum apply during 
+the interim period prior to state submission and EPA approval of a 
+complete plan, and must continue to apply in lieu of a complete plan if 
+one is ultimately not submitted and approved;
+    (4) Justification of why additional time is needed to submit a 
+complete plan;
+    (5) A comprehensive roadmap for completing the plan, including 
+process, analytical methods and schedule (including milestones) 
+specifying when all necessary plan components will be complete (e.g., 
+projection of emission performance; implementing legislation, 
+regulations and agreements; necessary approvals);
+    (6) Identification of existing and future programs, requirements, 
+and measures the state intends to include in the plan;
+    (7) If a multi-state plan is being developed, an executed 
+agreement(s) with other states (e.g., MOU) participating in the 
+development of the multistate plan; and
+    (8) A commitment to submit a complete plan by June 30, 2017, for a 
+single-state plan, or June 30, 2018, for a multi-state plan, and 
+actions the state will take to show progress in addressing incomplete 
+plan components prior to submittal of the complete plan.",,primary,openai,gpt-5,0,0
+29,EPA-HQ-OAR-2013-0602,proposed,4,True,"The text appears within a CFR regulatory section (§ 60.5760) presented as binding rule text in an amendatory revision block, containing mandatory “must” requirements for state plan initial submittals.",compound,none,60,60.5760,You,must,strong,include,"a comprehensive roadmap for completing the plan, including process, analytical methods, and schedule with milestones specifying when all necessary plan components will be complete",False,False,,revise,"[[Page 34953]]
+
+measures that limit or avoid CO<INF>2</INF> emissions from affected 
+entities (e.g., renewable energy standards, unit-specific limits on 
+operation or fuel utilization), which must at a minimum apply during 
+the interim period prior to state submission and EPA approval of a 
+complete plan, and must continue to apply in lieu of a complete plan if 
+one is ultimately not submitted and approved;
+    (4) Justification of why additional time is needed to submit a 
+complete plan;
+    (5) A comprehensive roadmap for completing the plan, including 
+process, analytical methods and schedule (including milestones) 
+specifying when all necessary plan components will be complete (e.g., 
+projection of emission performance; implementing legislation, 
+regulations and agreements; necessary approvals);
+    (6) Identification of existing and future programs, requirements, 
+and measures the state intends to include in the plan;
+    (7) If a multi-state plan is being developed, an executed 
+agreement(s) with other states (e.g., MOU) participating in the 
+development of the multistate plan; and
+    (8) A commitment to submit a complete plan by June 30, 2017, for a 
+single-state plan, or June 30, 2018, for a multi-state plan, and 
+actions the state will take to show progress in addressing incomplete 
+plan components prior to submittal of the complete plan.",,primary,openai,gpt-5,0,0
+29,EPA-HQ-OAR-2013-0602,proposed,5,True,"The text appears within a CFR regulatory section (§ 60.5760) presented as binding rule text in an amendatory revision block, containing mandatory “must” requirements for state plan initial submittals.",compound,none,60,60.5760,You,must,strong,include,"identification of existing and future programs, requirements, and measures the state intends to include in the plan",False,False,,revise,"[[Page 34953]]
+
+measures that limit or avoid CO<INF>2</INF> emissions from affected 
+entities (e.g., renewable energy standards, unit-specific limits on 
+operation or fuel utilization), which must at a minimum apply during 
+the interim period prior to state submission and EPA approval of a 
+complete plan, and must continue to apply in lieu of a complete plan if 
+one is ultimately not submitted and approved;
+    (4) Justification of why additional time is needed to submit a 
+complete plan;
+    (5) A comprehensive roadmap for completing the plan, including 
+process, analytical methods and schedule (including milestones) 
+specifying when all necessary plan components will be complete (e.g., 
+projection of emission performance; implementing legislation, 
+regulations and agreements; necessary approvals);
+    (6) Identification of existing and future programs, requirements, 
+and measures the state intends to include in the plan;
+    (7) If a multi-state plan is being developed, an executed 
+agreement(s) with other states (e.g., MOU) participating in the 
+development of the multistate plan; and
+    (8) A commitment to submit a complete plan by June 30, 2017, for a 
+single-state plan, or June 30, 2018, for a multi-state plan, and 
+actions the state will take to show progress in addressing incomplete 
+plan components prior to submittal of the complete plan.",,primary,openai,gpt-5,0,0
+29,EPA-HQ-OAR-2013-0602,proposed,6,True,"The text appears within a CFR regulatory section (§ 60.5760) presented as binding rule text in an amendatory revision block, containing mandatory “must” requirements for state plan initial submittals.",compound,none,60,60.5760,You,must,strong,include,"an executed agreement(s) with other states participating in development of a multistate plan, if a multi-state plan is being developed",False,True,if a multi-state plan is being developed,revise,"[[Page 34953]]
+
+measures that limit or avoid CO<INF>2</INF> emissions from affected 
+entities (e.g., renewable energy standards, unit-specific limits on 
+operation or fuel utilization), which must at a minimum apply during 
+the interim period prior to state submission and EPA approval of a 
+complete plan, and must continue to apply in lieu of a complete plan if 
+one is ultimately not submitted and approved;
+    (4) Justification of why additional time is needed to submit a 
+complete plan;
+    (5) A comprehensive roadmap for completing the plan, including 
+process, analytical methods and schedule (including milestones) 
+specifying when all necessary plan components will be complete (e.g., 
+projection of emission performance; implementing legislation, 
+regulations and agreements; necessary approvals);
+    (6) Identification of existing and future programs, requirements, 
+and measures the state intends to include in the plan;
+    (7) If a multi-state plan is being developed, an executed 
+agreement(s) with other states (e.g., MOU) participating in the 
+development of the multistate plan; and
+    (8) A commitment to submit a complete plan by June 30, 2017, for a 
+single-state plan, or June 30, 2018, for a multi-state plan, and 
+actions the state will take to show progress in addressing incomplete 
+plan components prior to submittal of the complete plan.",,primary,openai,gpt-5,0,0
+29,EPA-HQ-OAR-2013-0602,proposed,7,True,"The text appears within a CFR regulatory section (§ 60.5760) presented as binding rule text in an amendatory revision block, containing mandatory “must” requirements for state plan initial submittals.",compound,none,60,60.5760,You,must,strong,include,"a commitment to submit a complete plan by June 30, 2017 (single-state) or June 30, 2018 (multi-state), and actions the state will take to show progress in addressing incomplete components prior to submittal",False,False,,revise,"[[Page 34953]]
+
+measures that limit or avoid CO<INF>2</INF> emissions from affected 
+entities (e.g., renewable energy standards, unit-specific limits on 
+operation or fuel utilization), which must at a minimum apply during 
+the interim period prior to state submission and EPA approval of a 
+complete plan, and must continue to apply in lieu of a complete plan if 
+one is ultimately not submitted and approved;
+    (4) Justification of why additional time is needed to submit a 
+complete plan;
+    (5) A comprehensive roadmap for completing the plan, including 
+process, analytical methods and schedule (including milestones) 
+specifying when all necessary plan components will be complete (e.g., 
+projection of emission performance; implementing legislation, 
+regulations and agreements; necessary approvals);
+    (6) Identification of existing and future programs, requirements, 
+and measures the state intends to include in the plan;
+    (7) If a multi-state plan is being developed, an executed 
+agreement(s) with other states (e.g., MOU) participating in the 
+development of the multistate plan; and
+    (8) A commitment to submit a complete plan by June 30, 2017, for a 
+single-state plan, or June 30, 2018, for a multi-state plan, and 
+actions the state will take to show progress in addressing incomplete 
+plan components prior to submittal of the complete plan.",,primary,openai,gpt-5,0,0
+30,EPA-HQ-OAR-2013-0602,proposed,0,True,"The obligation appears within amendatory regulatory text being revised, making it new binding text.",compound,none,60,60.27,You,must,strong,submit,either a complete state plan or an initial submittal,False,False,,revise,"(9) A description of all steps the state has already taken in 
+furtherance of actions needed to finalize a complete plan.
+    (10) Evidence of an opportunity for public comment and a response 
+to any significant comments received on issues relating to the 
+approvability of the initial plan.
+    (b) You must submit either a complete state plan or an initial 
+submittal by June 30, 2016.",,primary,openai,gpt-5,1925,268
+30,EPA-HQ-OAR-2013-0602,proposed,1,True,"The obligation appears within amendatory regulatory text being revised, making it new binding text.",compound,none,60,60.27,You,must,strong,submit by,"June 30, 2016",False,False,,revise,"(9) A description of all steps the state has already taken in 
+furtherance of actions needed to finalize a complete plan.
+    (10) Evidence of an opportunity for public comment and a response 
+to any significant comments received on issues relating to the 
+approvability of the initial plan.
+    (b) You must submit either a complete state plan or an initial 
+submittal by June 30, 2016.",,primary,openai,gpt-5,0,0
+31,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within CFR regulatory text in an amendatory context revising/adding subpart provisions, making it binding; it prescribes a permitted action tied to § 60.5770.",simple,none,60,60.5765,The state rate-based CO2 emission performance goal,may,permissive,be converted,a mass-based emission performance goal,True,False,,revise,"The state rate-based CO<INF>2</INF> 
+emission performance goal may be converted to a mass-based emission 
+performance goal according to Sec.  60.5770.",§ 60.5770,primary,openai,gpt-5,1817,204
+32,EPA-HQ-OAR-2013-0602,proposed,0,True,The sentence appears within an amendatory block revising regulatory text and uses mandatory language specifying plan requirements.,compound,none,60,60.5770(a),the plan,must,strong,identify,"the mass-based CO2 emissions performance goal, in tons of CO2 emitted by affected EGUs over the plan performance period",False,True,If the plan adopts a mass-based goal according to § 60.5740(a)(3),revise,"What is the procedure for converting my state rate-based 
+CO<INF>2</INF> emission performance goal to a mass-based CO<INF>2</INF> 
+emissions performance goal?
+
+    (a) If the plan adopts a mass-based goal according to Sec.  
+60.5740(a)(3), the plan must identify the mass-based goal, in tons of 
+CO<INF>2</INF> emitted by affected EGUs over the plan performance 
+period, and include a description of the analytic process, tools, 
+methods, and assumptions used to convert from the rate-based goal for 
+the state identified in Table 1 of this Subpart to an equivalent mass-
+based goal.",§ 60.5740(a)(3),primary,openai,gpt-5,2013,375
+32,EPA-HQ-OAR-2013-0602,proposed,1,True,The sentence appears within an amendatory block revising regulatory text and uses mandatory language specifying plan requirements.,compound,none,60,60.5770(a),the plan,must,strong,include,"a description of the analytic process, tools, methods, and assumptions used to convert from the rate-based goal for the state identified in Table 1 of this subpart to an equivalent mass-based goal",False,True,If the plan adopts a mass-based goal according to § 60.5740(a)(3),revise,"What is the procedure for converting my state rate-based 
+CO<INF>2</INF> emission performance goal to a mass-based CO<INF>2</INF> 
+emissions performance goal?
+
+    (a) If the plan adopts a mass-based goal according to Sec.  
+60.5740(a)(3), the plan must identify the mass-based goal, in tons of 
+CO<INF>2</INF> emitted by affected EGUs over the plan performance 
+period, and include a description of the analytic process, tools, 
+methods, and assumptions used to convert from the rate-based goal for 
+the state identified in Table 1 of this Subpart to an equivalent mass-
+based goal.",Table 1 of this subpart,primary,openai,gpt-5,0,0
+33,EPA-HQ-OAR-2013-0602,proposed,0,True,Text appears within an amendatory block revising regulatory text and uses mandatory modal language.,simple,none,60,60.5770,The conversion process,must,strong,include,the following requirements,False,False,,revise,"The conversion process must include following requirements:
+    (1) The process, tools, methods, and assumptions used in the 
+conversion of the rate-based goal must be included in your state plan 
+according to Sec.  60.5740(a)(11).",,primary,openai,gpt-5,1838,164
+34,EPA-HQ-OAR-2013-0602,proposed,0,True,The sentence appears within amendatory regulatory text revising CFR content and uses mandatory language prescribing plan contents.,simple,none,60,60.27,the state plan,must,strong,include,"the material supporting the conversion of the rate-based goal, including results, data, and descriptions, according to § 60.5740(a)(11)",False,False,,revise,"(2) The material supporting the conversion of the rate-based goal, 
+including results, data, and descriptions, must be include in a state 
+plan according to Sec.  60.5740(a)(11).",§ 60.5740(a)(11),primary,openai,gpt-5,1807,202
+35,EPA-HQ-OAR-2013-0602,proposed,0,True,The sentence appears within amendatory regulatory text for 40 CFR part 60 that is being revised and uses mandatory modal language.,simple,none,60,60.27,The conversion,must,strong,represent,"the tons of CO2 emissions projected to be emitted by affected EGUs in the absence of emission standards contained in the plan, assuming the affected EGUs perform at an average lb CO2/MWh rate equal to the state rate-based goal identified in Table 1 of this subpart",False,False,,revise,"(3) The conversion must represent the tons of CO<INF>2</INF> 
+emissions that are projected to be emitted by affected EGUs, in the 
+absence of emission standards contained in the plan, if the affected 
+EGUs were to perform at an average lb CO<INF>2</INF>/MWh rate equal to 
+the rate-based goal for the state identified in Table 1 of this 
+Subpart.",,primary,openai,gpt-5,1909,223
+36,EPA-HQ-OAR-2013-0602,proposed,0,True,The text appears within an amendatory regulatory section being revised and contains mandatory requirements for state plans.,compound,none,60,60.5775,state plan,must,strong,include,a schedule of compliance for each affected entity regulated under the plan,False,False,,revise,"60.5775  What schedules, performance periods, and compliance 
+periods must I include in my state plan?",,primary,openai,gpt-5,1779,293
+36,EPA-HQ-OAR-2013-0602,proposed,1,True,The text appears within an amendatory regulatory section being revised and contains mandatory requirements for state plans.,compound,none,60,60.5775,state plan,must,strong,include,compliance periods for each affected entity regulated under the plan,False,False,as defined in § 60.5820,revise,"60.5775  What schedules, performance periods, and compliance 
+periods must I include in my state plan?",§ 60.5820,primary,openai,gpt-5,0,0
+37,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within an amendatory regulatory section added/revised to read as follows, making it new binding text.",simple,none,60,60.5775(a),Your state plan,must,strong,include,a schedule of compliance for each affected entity regulated under the plan,False,False,,revise,"(a) Your state plan must include a schedule of compliance for each 
+affected entity regulated under the plan.",,primary,openai,gpt-5,1788,180
+38,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within amendatory regulatory text specifying § 60.5775 requirements, which is binding under the amendatory block.",simple,none,60,60.5775,Your state plan,must,strong,include,"compliance periods, as defined in § 60.5820, for each affected entity regulated under the plan",False,False,,revise,"Your state plan must include compliance periods, as defined in 
+section Sec.  60.5820, for each affected entity regulated under the 
+plan.",§ 60.5820,primary,openai,gpt-5,1793,198
+39,EPA-HQ-OAR-2013-0602,proposed,0,True,The sentence appears within an amendatory block revising CFR text and imposes a binding requirement on states.,simple,none,60,60.5775,your state,must,strong,meet,the requirements in paragraphs (c)(1) and (2) of this section,False,True,For the interim performance period of 2020-2029,revise,"(c) For the interim performance period of 2020-2029 your state must 
+meet the requirements in paragraphs (c)(1) and (2) of this section.",,primary,openai,gpt-5,1811,192
+40,EPA-HQ-OAR-2013-0602,proposed,0,True,"The obligation appears within amendatory regulatory text revising § 60.5775, so it is new binding text.",simple,none,60,60.5775,Your state plan,must,strong,include,"increments of emissions performance within the interim performance period for every 2-rolling calendar years starting January 1, 2020 and ending in 2028, either rate-based or mass-based with respect to the interim level of performance set in the state plan",False,True,unless other periods that ensure regular progress in the interim period are approved by the Administrator,revise,"(1) Your state plan must include increments of emissions 
+performance (either rate based or mass based with respect to the 
+interim level of performance set in the state plan) within the interim 
+performance period for every 2-rolling calendar years starting January 
+1, 2020 and ending in 2028 (i.e. 2020-2021, 2021-2022, 2022-2023, 
+etc.), unless other periods that ensure regular progress in the interim 
+period are approved by the Administrator.
+    (2)",§ 60.5740(a)(3),primary,openai,gpt-5,1993,244
+41,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentences appear within amendatory regulatory text being revised, creating new binding requirements.",compound,none,60,60.27,your state,must,strong,meet,the interim emissions performance level specified in § 60.5740(a)(3) as averaged over the plan performance period 2020–2029,False,True,At the end of 2029,revise,"At the end of 2029 your state must meet the interim emissions 
+performance level specified in Sec.  60.5740(a)(3) as averaged over the 
+plan performance period 2020-2029.
+    (d) During the final performance period, 2030 and thereafter, your 
+state must meet the final emission performance level specified in Sec.  
+60.5740(a)(3) on a 3-calendar year rolling average starting January 1, 
+2030 (i.e., 2030-2032, 2031-2033, 2032-2034, etc.).",§ 60.5740(a)(3),primary,openai,gpt-5,1977,349
+41,EPA-HQ-OAR-2013-0602,proposed,1,True,"The sentences appear within amendatory regulatory text being revised, creating new binding requirements.",compound,none,60,60.27,your state,must,strong,meet,"the final emission performance level specified in § 60.5740(a)(3) on a 3-calendar year rolling average starting January 1, 2030",False,True,"During the final performance period, 2030 and thereafter",revise,"At the end of 2029 your state must meet the interim emissions 
+performance level specified in Sec.  60.5740(a)(3) as averaged over the 
+plan performance period 2020-2029.
+    (d) During the final performance period, 2030 and thereafter, your 
+state must meet the final emission performance level specified in Sec.  
+60.5740(a)(3) on a 3-calendar year rolling average starting January 1, 
+2030 (i.e., 2030-2032, 2031-2033, 2032-2034, etc.).",§ 60.5740(a)(3),primary,openai,gpt-5,0,0
+42,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within amendatory regulatory text revising CFR provisions, making it binding.",compound,none,60,60.27,You,must,strong,include,the provisions of your state plan which demonstrate progress and compliance with the requirements in § 60.5775,False,False,,revise,"(e) You must include the provisions of your state plan which 
+demonstrate progress and compliance with the requirements in this Sec.  
+60.5775 and Sec.",§ 60.5775,primary,openai,gpt-5,1810,316
+42,EPA-HQ-OAR-2013-0602,proposed,1,True,"The sentence appears within amendatory regulatory text revising CFR provisions, making it binding.",compound,none,60,60.27,You,must,strong,include,the provisions of your state plan which demonstrate progress and compliance with the requirements in § 60.5740 in your state's annual report required in § 60.5815,False,False,,revise,"(e) You must include the provisions of your state plan which 
+demonstrate progress and compliance with the requirements in this Sec.  
+60.5775 and Sec.",§ 60.5740,primary,openai,gpt-5,0,0
+43,EPA-HQ-OAR-2013-0602,proposed,0,True,The text appears within an amendatory block that revises regulatory text and introduces § 60.5780; headings within such added/revised sections are part of binding regulatory text.,simple,none,60,60.5780,state,must,strong,include,emission standards and enforcing measures in the state plan,False,False,,revise,"What emission standards and enforcing measures must I 
+include in my plan?",,primary,openai,gpt-5,1761,188
+44,EPA-HQ-OAR-2013-0602,proposed,0,True,The sentence appears within an amendatory regulatory text block adding/revising § 60.5780 and imposes a binding requirement on state plans.,simple,none,60,60.5780(a),Your state plan,shall,strong,include,"emission standard(s) that are quantifiable, verifiable, non-duplicative, permanent, and enforceable with respect to each affected entity",False,False,,revise,"(a) Your state plan shall include emission standard(s) that are 
+quantifiable, verifiable, non-duplicative, permanent, and enforceable 
+with respect to each affected entity.",,primary,openai,gpt-5,1794,204
+45,EPA-HQ-OAR-2013-0602,proposed,0,True,The sentence appears within an amendatory block revising regulatory text and prescribes plan content using mandatory modal language.,simple,none,60,60.5780,The plan,shall,strong,include,the methods by which each emission standard meets the requirements in paragraphs (b) through (f) of this section,False,False,,revise,"The plan shall include the 
+methods by which each emission standard meets each of the following 
+requirements in paragraphs (b) through (f) of this section.",§ 60.5780(b)-(f),primary,openai,gpt-5,1771,196
+46,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within amendatory text revising § 60.27, so it constitutes new binding regulatory text.",simple,definition_embedded,60,60.27,the emission standard,must,strong,be met,for each compliance period,True,True,for an emission standard to be considered permanent with respect to an affected entity,revise,"(e) An emission standard is permanent with respect to an affected 
+entity if the emission standard must be met for each compliance period, 
+or unless it",,primary,openai,gpt-5,1719,187
+47,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within regulatory text of a CFR section being amended (amendatory action detected: replace), so it constitutes new binding text even though it uses permissive language.",simple,none,60,60.5785,a request,may,permissive,be submitted,to the Administrator indicating the proposed corrections to the state plan to ensure the emission performance goal is met,True,True,If one (or more) of the elements of the state plan set in § 60.5740 require revision with respect to reaching the emission performance goal set in § 60.5765,replace,"If one (or more) of the elements of the state plan set in Sec.  60.5740 
+require revision with respect to reaching the emission performance goal 
+set in Sec.  60.5765 a request may be submitted to the Administrator 
+indicating the proposed corrections to the state plan to ensure the 
+emission performance goal is met.",§ 60.5740,primary,openai,gpt-5,1841,244
+48,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within regulatory text of a CFR section presented as amendatory replacement text, making it binding.",simple,none,60,60.5790,EGU owners and operators,must,strong,comply,the state plan that a state develops to implement the emission guidelines contained in this subpart,False,False,,replace,"However, EGU owners and operators must comply with the 
+state plan that a state develops to implement the emission guidelines 
+contained in this subpart.",,primary,openai,gpt-5,1776,184
+49,EPA-HQ-OAR-2013-0602,proposed,0,True,The sentence appears within regulatory text of a CFR amendatory block establishing new binding requirements for state plans.,simple,none,60,60.5795(a),your state plan,must,strong,address,"any affected steam generating unit, IGCC, or stationary combustion turbine that commences construction on or before January 8, 2014",False,False,,replace,"Sec.  60.5795  What affected EGUs must I address in my state plan?
+
+    (a) The EGUs that must be addressed by your state plan are any 
+affected steam generating unit, IGCC, or stationary combustion turbine 
+that commences construction on or before January 8, 2014.
+    (b) An affected EGU is a steam generating unit, integrated 
+gasification combined cycle (IGCC), or stationary combustion turbine 
+that meets the relevant applicability conditions specified in paragraph 
+(b)(1) or (2) of this section.",,primary,openai,gpt-5,1943,191
+50,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within regulatory text of a new/revised section introduced in an amendatory block, making it binding.",simple,none,60,60.5805(a),A state plan,must,strong,include,monitoring that is no less stringent than what is described in paragraphs (a)(1) through (6) of this section,False,False,,replace,"What applicable monitoring, recordkeeping, and reporting 
+requirements do I need to include in my state plan for affected EGUs?
+
+    (a) A state plan must include monitoring that is no less stringent 
+that what is described in (a)(1) through (6) of this section.",,primary,openai,gpt-5,1839,192
+51,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within regulatory text of a state plan requirements section that is being amended, making it new binding text.",simple,none,60,60.5805(a)(1),an affected EGU,must,strong,prepare a monitoring plan,in accordance with the applicable provisions in § 75.53(g) and (h) of this chapter,False,True,If an affected EGU is required to meet a rate-based emission standard,replace,"(1) If an affected EGU is required to meet a rate based emission 
+standard they must prepare a monitoring plan in accordance with the 
+applicable provisions in Sec.  75.53(g) and (h) of this chapter.",§ 75.53(g) and (h),primary,openai,gpt-5,1815,218
+52,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within regulatory text of a CFR section being amended/replaced, making it new binding text.",simple,none,60,60.5805,An affected EGU,must,strong,measure,the hourly CO2 mass emissions from each affected unit using the procedures in paragraphs (a)(2)(i) through (v) of this section,False,True,except as provided in paragraph (a)(3) of this section,replace,"(2) An affected EGU must measure the hourly CO<INF>2</INF> mass 
+emissions from each affected unit using the procedures in paragraphs 
+(a)(2)(i) through (v) of this section, except as provided in paragraph 
+(a)(3) of this section.",,primary,openai,gpt-5,1865,207
+53,EPA-HQ-OAR-2013-0602,proposed,0,True,"Text appears within an amendatory regulatory section prescribing monitoring requirements, making it new binding text.",compound,none,60,60.27,An affected EGU,must,strong,"install, certify, operate, maintain, and calibrate",a CO2 continuous emissions monitoring system (CEMS) to directly measure and record CO2 concentrations in the affected EGU exhaust gases emitted to the atmosphere,False,False,,replace,"(i) An affected EGU must install, certify, operate, maintain, and 
+calibrate a CO<INF>2</INF> continuous emissions monitoring system 
+(CEMS) to directly measure and record CO<INF>2</INF> concentrations in 
+the affected EGU exhaust gases emitted to the atmosphere and an exhaust 
+gas flow rate monitoring system according to Sec.  75.10(a)(3)(i) of 
+this chapter.",§ 75.10(a)(3)(i),primary,openai,gpt-5,1904,331
+53,EPA-HQ-OAR-2013-0602,proposed,1,True,"Text appears within an amendatory regulatory section prescribing monitoring requirements, making it new binding text.",compound,none,60,60.27,An affected EGU,must,strong,"install, certify, operate, maintain, and calibrate",an exhaust gas flow rate monitoring system,False,False,,replace,"(i) An affected EGU must install, certify, operate, maintain, and 
+calibrate a CO<INF>2</INF> continuous emissions monitoring system 
+(CEMS) to directly measure and record CO<INF>2</INF> concentrations in 
+the affected EGU exhaust gases emitted to the atmosphere and an exhaust 
+gas flow rate monitoring system according to Sec.  75.10(a)(3)(i) of 
+this chapter.",§ 75.10(a)(3)(i),primary,openai,gpt-5,0,0
+54,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within an amendatory block revising regulatory text, so it is new binding text.",compound,none,60,60.27,an affected EGU,must,strong,install,a continuous moisture monitoring system,False,True,If an affected EGU measures CO2 concentration on a dry basis,replace,"If an affected EGU measures CO<INF>2</INF> concentration 
+on a dry basis, they must also install, certify, operate, maintain, and 
+calibrate a continuous moisture monitoring system, according to Sec.  
+75.11(b) of this chapter.",§ 75.11(b),primary,openai,gpt-5,1842,658
+54,EPA-HQ-OAR-2013-0602,proposed,1,True,"The sentence appears within an amendatory block revising regulatory text, so it is new binding text.",compound,none,60,60.27,an affected EGU,must,strong,certify,a continuous moisture monitoring system,False,True,If an affected EGU measures CO2 concentration on a dry basis,replace,"If an affected EGU measures CO<INF>2</INF> concentration 
+on a dry basis, they must also install, certify, operate, maintain, and 
+calibrate a continuous moisture monitoring system, according to Sec.  
+75.11(b) of this chapter.",§ 75.11(b),primary,openai,gpt-5,0,0
+54,EPA-HQ-OAR-2013-0602,proposed,2,True,"The sentence appears within an amendatory block revising regulatory text, so it is new binding text.",compound,none,60,60.27,an affected EGU,must,strong,operate,a continuous moisture monitoring system,False,True,If an affected EGU measures CO2 concentration on a dry basis,replace,"If an affected EGU measures CO<INF>2</INF> concentration 
+on a dry basis, they must also install, certify, operate, maintain, and 
+calibrate a continuous moisture monitoring system, according to Sec.  
+75.11(b) of this chapter.",§ 75.11(b),primary,openai,gpt-5,0,0
+54,EPA-HQ-OAR-2013-0602,proposed,3,True,"The sentence appears within an amendatory block revising regulatory text, so it is new binding text.",compound,none,60,60.27,an affected EGU,must,strong,maintain,a continuous moisture monitoring system,False,True,If an affected EGU measures CO2 concentration on a dry basis,replace,"If an affected EGU measures CO<INF>2</INF> concentration 
+on a dry basis, they must also install, certify, operate, maintain, and 
+calibrate a continuous moisture monitoring system, according to Sec.  
+75.11(b) of this chapter.",§ 75.11(b),primary,openai,gpt-5,0,0
+54,EPA-HQ-OAR-2013-0602,proposed,4,True,"The sentence appears within an amendatory block revising regulatory text, so it is new binding text.",compound,none,60,60.27,an affected EGU,must,strong,calibrate,a continuous moisture monitoring system,False,True,If an affected EGU measures CO2 concentration on a dry basis,replace,"If an affected EGU measures CO<INF>2</INF> concentration 
+on a dry basis, they must also install, certify, operate, maintain, and 
+calibrate a continuous moisture monitoring system, according to Sec.  
+75.11(b) of this chapter.",§ 75.11(b),primary,openai,gpt-5,0,0
+55,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence is part of amendatory regulatory text (within a numbered paragraph of § 60.27 being amended/replaced), creating new binding requirements.",simple,none,60,60.27,an affected EGU,must,strong,meet,the applicable certification and quality assurance procedures in § 75.20 of this chapter and Appendices B and D to part 75 of this chapter,False,False,,replace,"For each monitoring system an affected EGU uses to determine 
+the CO<INF>2</INF> mass emissions, they must meet the applicable 
+certification and quality assurance procedures in Sec.  75.20 of this 
+chapter and Appendices B and D to part 75 of this chapter.",§ 75.20,primary,openai,gpt-5,1829,207
+56,EPA-HQ-OAR-2013-0602,proposed,0,True,The sentence appears within amendatory regulatory text revising § 60.27 and imposes a new requirement using “must.”,simple,none,60,60.27,An affected EGU,must,strong,use,a laser device to measure the dimensions of each exhaust gas stack or duct at the flow monitor and the reference method sampling locations prior to the initial setup (characterization) of the flow monitor,False,False,,replace,"(iii) An affected EGU must use a laser device to measure the 
+dimensions of each exhaust gas stack or duct at the flow monitor and 
+the reference method sampling locations prior to the initial setup 
+(characterization) of the flow monitor.",,primary,openai,gpt-5,1806,206
+57,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within amendatory regulatory text replacing § 60.27 and prescribes a mandatory action using “must,” making it binding.",simple,none,60,60.27,an affected EGU,must,strong,measure and average,the diameter of a circular stack at three or more distinct locations and average the results,False,True,For circular stacks,replace,"For circular stacks, an 
+affected EGU must measure the diameter at three or more distinct 
+locations and average the results.",,primary,openai,gpt-5,1751,192
+58,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within amendatory regulatory text specifying procedures for affected EGUs, making it new binding text.",simple,none,60,60.27,an affected EGU,must,strong,measure,each dimension (depth and width) of a rectangular stack or duct at three or more distinct locations and average the results,False,False,,replace,"For rectangular stacks or ducts, an 
+affected EGU must measure each dimension (i.e., depth and width) at 
+three or more distinct locations and average the results.",,primary,openai,gpt-5,1771,187
+59,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within amendatory regulatory text revising § 60.27, so it is new binding text.",simple,none,60,60.27,an affected EGU,must,strong,repeat,the stack or duct dimension measurements,False,True,If the flow rate monitor or reference method sampling site is relocated,replace,"If the flow 
+rate monitor or reference method sampling site is relocated, an 
+affected EGU must repeat these measurements at the new location.",,primary,openai,gpt-5,1773,184
+60,EPA-HQ-OAR-2013-0602,proposed,0,True,"The text appears within an amendatory block revising regulatory text, making it new binding language.",compound,none,60,60.27,an affected EGU,must,strong,use only,unadjusted exhaust gas volumetric flow rates to determine the hourly CO2 mass emissions from the affected facility,False,False,,replace,"(iv) An affected EGU must use only unadjusted exhaust gas 
+volumetric flow rates to determine the hourly CO<INF>2</INF> mass 
+emissions from the affected facility; an affected EGU must not apply 
+the bias adjustment factors described in section 7.6.5 of Appendix A to 
+part 75 of this chapter to the exhaust gas flow rate data.",,primary,openai,gpt-5,1865,315
+60,EPA-HQ-OAR-2013-0602,proposed,1,True,"The text appears within an amendatory block revising regulatory text, making it new binding language.",compound,none,60,60.27,an affected EGU,must not,strong,apply,the bias adjustment factors described in section 7.6.5 of Appendix A to part 75 of this chapter to the exhaust gas flow rate data,False,False,,replace,"(iv) An affected EGU must use only unadjusted exhaust gas 
+volumetric flow rates to determine the hourly CO<INF>2</INF> mass 
+emissions from the affected facility; an affected EGU must not apply 
+the bias adjustment factors described in section 7.6.5 of Appendix A to 
+part 75 of this chapter to the exhaust gas flow rate data.",Appendix A to part 75,primary,openai,gpt-5,0,0
+61,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within amendatory regulatory text prescribing technical requirements for affected EGUs, making it new binding text.",simple,none,60,60.27,an affected EGU,must,strong,use,a calibrated Type-S pitot tube or pitot tube assembly,False,True,If an affected EGU chooses to use Method 2 in Appendix A-1 to this part to perform the required relative accuracy test audits (RATAs) of the part 75 flow rate monitoring system,replace,"(v) If an affected EGU chooses to use Method 2 in Appendix A-1 to 
+this part to perform the required relative accuracy test audits (RATAs) 
+of the part 75 flow rate monitoring system, they must use a calibrated 
+Type-S pitot tube or pitot tube assembly.",Appendix A-1 to this part,primary,openai,gpt-5,1844,226
+62,EPA-HQ-OAR-2013-0602,proposed,0,True,The sentence appears within amendatory regulatory text that revises/adds binding requirements.,simple,none,60,60.27,An affected EGU,must not,strong,use,the default Type-S pitot tube coefficient,False,False,,replace,"An affected EGU must not use 
+the default Type-S pitot tube coefficient.",,primary,openai,gpt-5,1761,168
+63,EPA-HQ-OAR-2013-0602,proposed,0,True,"Text appears within an amendatory block revising CFR regulatory text, making the permissive condition binding as new regulatory language.",simple,none,60,60.27,an affected EGU,may,permissive,determine,the hourly CO2 mass emissions by using Equation G-4 in Appendix G to part 75 of this chapter according to the requirements in paragraphs (a)(3)(i) and (ii) of this section,False,True,If the affected EGU exclusively combusts liquid fuel and/or gaseous fuel as an alternative to complying with paragraph (b) of this section,replace,"(3) If an affected EGU exclusively combusts liquid fuel and/or 
+gaseous fuel as an alternative to complying with paragraph (b) of this 
+section, they may determine the hourly CO<INF>2</INF> mass emissions by 
+using Equation G-4 in Appendix G to part 75 of this chapter according 
+to the requirements in paragraphs (a)(3)(i) and (ii) of this section.",Appendix G to part 75,primary,openai,gpt-5,1922,247
+64,EPA-HQ-OAR-2013-0602,proposed,0,True,Text appears within an amendatory block revising CFR language and imposes a clear requirement on affected EGUs.,simple,none,60,60.27,An affected EGU,must,strong,implement the applicable procedures,appendix D to part 75 of this chapter to determine hourly unit heat input rates based on hourly measurements of fuel flow rate and periodic determinations of the gross calorific value of each fuel combusted,False,True,If an affected EGU exclusively combusts liquid fuel and/or gaseous fuel as an alternative to complying with paragraph (b) of this section and determines hourly CO2 mass emissions using Equation G-4 in Appendix G according to paragraphs (a)(3)(i) and (ii),replace,"(i) An affected EGU must implement the applicable procedures in 
+appendix D to part 75 of this chapter to determine hourly unit heat 
+input rates (MMBtu/h), based on hourly measurements of fuel flow rate 
+and periodic determinations of the gross calorific value (GCV) of each 
+fuel combusted.",appendix D to part 75,primary,openai,gpt-5,1870,271
+65,EPA-HQ-OAR-2013-0602,proposed,0,True,"The text appears within an amendatory regulatory section replacing/adding operative requirements, making the permissive provision binding regulatory text.",compound,none,60,60.27,An affected EGU,may,permissive,determine,site-specific carbon-based F-factors (Fc) using Equation F-7b in section 3.3.6 of appendix F to part 75 of this chapter,False,False,,replace,"(ii) An affected EGU may determine site-specific carbon-based F-
+factors (F<INF>c</INF>) using Equation F-7b in section 3.3.6 of 
+appendix F to part 75 of this chapter, and may use these F<INF>c</INF> 
+values in the
+
+[[Page 34955]]
+
+emissions calculations instead of using the default F<INF>c</INF> 
+values in the Equation G-4 nomenclature.",appendix F to part 75,primary,openai,gpt-5,1904,336
+65,EPA-HQ-OAR-2013-0602,proposed,1,True,"The text appears within an amendatory regulatory section replacing/adding operative requirements, making the permissive provision binding regulatory text.",compound,none,60,60.27,An affected EGU,may,permissive,use,these site-specific Fc values in the emissions calculations instead of the default Fc values in the Equation G-4 nomenclature,False,False,,replace,"(ii) An affected EGU may determine site-specific carbon-based F-
+factors (F<INF>c</INF>) using Equation F-7b in section 3.3.6 of 
+appendix F to part 75 of this chapter, and may use these F<INF>c</INF> 
+values in the
+
+[[Page 34955]]
+
+emissions calculations instead of using the default F<INF>c</INF> 
+values in the Equation G-4 nomenclature.",Appendix G to part 75,primary,openai,gpt-5,0,0
+66,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within amendatory regulatory text for 40 CFR part 60 and uses binding modal language ('must'), making it new binding text.",compound,none,60,60.27,An affected EGU,must,strong,install,a sufficient number of watt meters to continuously measure and record on an hourly basis net electric output,False,False,,replace,"(4) An affected EGU must install, calibrate, maintain, and operate 
+a sufficient number of watt meters to continuously measure and record 
+on an hourly basis net electric output.",,primary,openai,gpt-5,1788,525
+66,EPA-HQ-OAR-2013-0602,proposed,1,True,"The sentence appears within amendatory regulatory text for 40 CFR part 60 and uses binding modal language ('must'), making it new binding text.",compound,none,60,60.27,An affected EGU,must,strong,calibrate,a sufficient number of watt meters to continuously measure and record on an hourly basis net electric output,False,False,,replace,"(4) An affected EGU must install, calibrate, maintain, and operate 
+a sufficient number of watt meters to continuously measure and record 
+on an hourly basis net electric output.",,primary,openai,gpt-5,0,0
+66,EPA-HQ-OAR-2013-0602,proposed,2,True,"The sentence appears within amendatory regulatory text for 40 CFR part 60 and uses binding modal language ('must'), making it new binding text.",compound,none,60,60.27,An affected EGU,must,strong,maintain,a sufficient number of watt meters to continuously measure and record on an hourly basis net electric output,False,False,,replace,"(4) An affected EGU must install, calibrate, maintain, and operate 
+a sufficient number of watt meters to continuously measure and record 
+on an hourly basis net electric output.",,primary,openai,gpt-5,0,0
+66,EPA-HQ-OAR-2013-0602,proposed,3,True,"The sentence appears within amendatory regulatory text for 40 CFR part 60 and uses binding modal language ('must'), making it new binding text.",compound,none,60,60.27,An affected EGU,must,strong,operate,a sufficient number of watt meters to continuously measure and record on an hourly basis net electric output,False,False,,replace,"(4) An affected EGU must install, calibrate, maintain, and operate 
+a sufficient number of watt meters to continuously measure and record 
+on an hourly basis net electric output.",,primary,openai,gpt-5,0,0
+67,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within amendatory regulatory text revising § 60.27, making it new binding text.",simple,none,60,60.27,Measurements,must,strong,be performed using,0.2 accuracy class electricity metering instrumentation and calibration procedures as specified under ANSI Standards No. C12.20,True,False,,replace,"Measurements must be performed 
+using 0.2 accuracy class electricity metering instrumentation and 
+calibration procedures as specified under ANSI Standards No. C12.20.",,primary,openai,gpt-5,1776,187
+68,EPA-HQ-OAR-2013-0602,proposed,0,True,"The text appears within an amendatory block revising CFR regulatory requirements, so the obligations are new binding text.",compound,none,60,60.27,an affected EGU that is a combined heat and power facility,must,strong,"install, calibrate, maintain, and operate equipment to continuously measure and record on an hourly basis","useful thermal output and, if applicable, mechanical output",False,False,,replace,"Further, an affected EGU that is a combined heat and power facility 
+must install, calibrate, maintain and operate equipment to continuously 
+measure and record on an hourly basis useful thermal output and, if 
+applicable, mechanical output, which are used with net electric output 
+to determine net energy output.
+    (5) In accordance with Sec.  60.13(g), if two or more affected EGUs 
+that implement the continuous emissions monitoring provisions in 
+paragraph (a)(2) of this section share a common exhaust gas stack and 
+are subject to the same emissions standard, they may monitor the hourly 
+CO<INF>2</INF> mass emissions at the common stack in lieu of monitoring 
+each EGU separately.",,primary,openai,gpt-5,2119,364
+68,EPA-HQ-OAR-2013-0602,proposed,1,True,"The text appears within an amendatory block revising CFR regulatory requirements, so the obligations are new binding text.",compound,none,60,60.27,two or more affected EGUs that share a common exhaust gas stack and are subject to the same emissions standard and implement the continuous emissions monitoring provisions in paragraph (a)(2) of this section,may,permissive,monitor the hourly CO2 mass emissions at the common stack,in lieu of monitoring each EGU separately,False,True,In accordance with § 60.13(g),replace,"Further, an affected EGU that is a combined heat and power facility 
+must install, calibrate, maintain and operate equipment to continuously 
+measure and record on an hourly basis useful thermal output and, if 
+applicable, mechanical output, which are used with net electric output 
+to determine net energy output.
+    (5) In accordance with Sec.  60.13(g), if two or more affected EGUs 
+that implement the continuous emissions monitoring provisions in 
+paragraph (a)(2) of this section share a common exhaust gas stack and 
+are subject to the same emissions standard, they may monitor the hourly 
+CO<INF>2</INF> mass emissions at the common stack in lieu of monitoring 
+each EGU separately.",§ 60.13(g),primary,openai,gpt-5,0,0
+69,EPA-HQ-OAR-2013-0602,proposed,0,True,The text is within amendatory regulatory text for 40 CFR part 60 and contains mandatory requirements using must/shall language.,compound,none,60,60.27,the affected EGU,must,strong,calculate,the hourly net electric output for the common stack as the sum of the hourly net electric outputs of the individual affected facility,False,True,If an affected EGU chooses this option (monitoring at the common stack in lieu of each EGU separately),replace,"If an affected EGU chooses this option, the hourly 
+net electric output for the common stack must be the sum of the hourly 
+net electric output of the individual affected facility and you must 
+express the operating time as ``stack operating hours'' (as defined in 
+Sec.  72.2 of this chapter).
+    (6) In accordance with Sec.  60.13(g), if the exhaust gases from an 
+affected EGU that implements the continuous emissions monitoring 
+provisions in paragraph (a)(2) of this section are emitted to the 
+atmosphere through multiple stacks (or if the exhaust gases are routed 
+to a common stack through multiple ducts and you elect to monitor in 
+the ducts), they must monitor the hourly CO<INF>2</INF> mass emissions 
+and the ``stack operating time'' (as defined in Sec.  72.2 of this 
+chapter) at each stack or duct separately.",§ 72.2,primary,openai,gpt-5,2085,488
+69,EPA-HQ-OAR-2013-0602,proposed,1,True,The text is within amendatory regulatory text for 40 CFR part 60 and contains mandatory requirements using must/shall language.,compound,none,60,60.27,you,must,strong,express,the operating time as stack operating hours,False,True,If an affected EGU chooses this option (monitoring at the common stack in lieu of each EGU separately),replace,"If an affected EGU chooses this option, the hourly 
+net electric output for the common stack must be the sum of the hourly 
+net electric output of the individual affected facility and you must 
+express the operating time as ``stack operating hours'' (as defined in 
+Sec.  72.2 of this chapter).
+    (6) In accordance with Sec.  60.13(g), if the exhaust gases from an 
+affected EGU that implements the continuous emissions monitoring 
+provisions in paragraph (a)(2) of this section are emitted to the 
+atmosphere through multiple stacks (or if the exhaust gases are routed 
+to a common stack through multiple ducts and you elect to monitor in 
+the ducts), they must monitor the hourly CO<INF>2</INF> mass emissions 
+and the ``stack operating time'' (as defined in Sec.  72.2 of this 
+chapter) at each stack or duct separately.",§ 72.2,primary,openai,gpt-5,0,0
+69,EPA-HQ-OAR-2013-0602,proposed,2,True,The text is within amendatory regulatory text for 40 CFR part 60 and contains mandatory requirements using must/shall language.,compound,none,60,60.27,the affected EGU,must,strong,monitor,the hourly CO2 mass emissions and the stack operating time at each stack or duct separately,False,True,If the exhaust gases are emitted to the atmosphere through multiple stacks or are routed to a common stack through multiple ducts and you elect to monitor in the ducts,replace,"If an affected EGU chooses this option, the hourly 
+net electric output for the common stack must be the sum of the hourly 
+net electric output of the individual affected facility and you must 
+express the operating time as ``stack operating hours'' (as defined in 
+Sec.  72.2 of this chapter).
+    (6) In accordance with Sec.  60.13(g), if the exhaust gases from an 
+affected EGU that implements the continuous emissions monitoring 
+provisions in paragraph (a)(2) of this section are emitted to the 
+atmosphere through multiple stacks (or if the exhaust gases are routed 
+to a common stack through multiple ducts and you elect to monitor in 
+the ducts), they must monitor the hourly CO<INF>2</INF> mass emissions 
+and the ``stack operating time'' (as defined in Sec.  72.2 of this 
+chapter) at each stack or duct separately.",§ 60.13(g),primary,openai,gpt-5,0,0
+70,EPA-HQ-OAR-2013-0602,proposed,0,True,"The text appears within amendatory regulatory text (Part 60, § 60.27 with detected replace action) and uses mandatory language specifying compliance and recordkeeping duties.",compound,none,60,60.27,an affected EGU,must,strong,determine compliance with an applicable emissions standard,by summing the CO2 mass emissions measured at the individual stacks or ducts and dividing by the net energy output for the affected EGU,False,True,if exhaust gases are emitted through multiple stacks or routed to a common stack through multiple ducts with monitoring in the ducts,replace,"In this case, an affected 
+EGU must determine compliance with an applicable emissions standard by 
+summing the CO<INF>2</INF> mass emissions measured at the individual 
+stacks or ducts and dividing by the net energy output for the affected 
+EGU.
+    (b) An affected EGU must maintain records for at least 10 years 
+following the date of each occurrence, measurement, maintenance, 
+corrective action, report, or record.",§ 60.13(g),primary,openai,gpt-5,1894,358
+70,EPA-HQ-OAR-2013-0602,proposed,1,True,"The text appears within amendatory regulatory text (Part 60, § 60.27 with detected replace action) and uses mandatory language specifying compliance and recordkeeping duties.",compound,none,60,60.27,an affected EGU,must,strong,maintain records,"for at least 10 years following the date of each occurrence, measurement, maintenance, corrective action, report, or record",False,False,,replace,"In this case, an affected 
+EGU must determine compliance with an applicable emissions standard by 
+summing the CO<INF>2</INF> mass emissions measured at the individual 
+stacks or ducts and dividing by the net energy output for the affected 
+EGU.
+    (b) An affected EGU must maintain records for at least 10 years 
+following the date of each occurrence, measurement, maintenance, 
+corrective action, report, or record.",,primary,openai,gpt-5,0,0
+71,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within amendatory regulatory text adding/revising Part 60 requirements, so it is new binding text.",simple,none,60,60.27,An affected EGU,must,strong,maintain,"each record on site for at least 2 years after the date of each occurrence, measurement, maintenance, corrective action, report, or record, according to § 60.7",False,False,,replace,"(1) An affected EGU must maintain each record on site for at least 
+2 years after the date of each occurrence, measurement, maintenance, 
+corrective action, report, or record, according to Sec.  60.7.",§ 60.7,primary,openai,gpt-5,1797,209
+72,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within amendatory regulatory text setting recordkeeping requirements, making it binding; it prescribes a permissive option for affected EGUs.",simple,none,60,60.27,An affected EGU,may,permissive,maintain,the records off site and electronically for the remaining year(s),False,False,,replace,"An 
+affected EGU may maintain the records off site and electronically for 
+the remaining year(s).",§ 60.7,primary,openai,gpt-5,1734,191
+73,EPA-HQ-OAR-2013-0602,proposed,0,True,The sentence appears within amendatory regulatory text adding/revising CFR requirements and imposes a clear duty on affected EGUs.,simple,none,60,60.27,An affected EGU,must,strong,include in a report required by the state plan covering each compliance period,all hourly CO2 emissions and all hourly net electric output and all hourly net energy output measurements for a CHP facility calculated from data monitored according to paragraph (a) of this section,False,False,,replace,"(c) An affected EGU must include in a report required by the state 
+plan covering each compliance period all hourly CO<INF>2</INF> 
+emissions and all hourly net electric output and all hourly net energy 
+output measurements for a CHP facility calculated from data monitored 
+according to paragraph (a) of this section.",paragraph (a) of this section,primary,openai,gpt-5,1820,222
+74,EPA-HQ-OAR-2013-0602,proposed,0,True,"The text appears within amendatory regulatory text adding/revising Part 60 requirements; it contains mandatory language directed at states, making it binding.",simple,none,60,60.5810(a),States,must,strong,keep,"records of all plan components, plan requirements, supporting documentation, and the status of meeting the plan requirements defined in the state plan on an annual basis during the interim plan performance period from 2020–2029",False,False,,replace,"Recordkeeping and Reporting Requirements
+
+
+Sec.  60.5810  What are my state recordkeeping requirements?
+
+    (a) States must keep records of all plan components, plan 
+requirements, supporting documentation, and the status of meeting the 
+plan requirements defined in the state plan on an annual basis during 
+the interim plan performance period from 2020-2029.",,primary,openai,gpt-5,1834,213
+75,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within amendatory regulatory text setting out recordkeeping requirements and uses binding modal language ('must'), making it new binding text.",simple,none,60,60.5810,states,must,strong,keep,records of all information that is used to support any continued effort to meet the final emissions performance goal,False,True,After 2029,replace,"After 2029 states 
+must keep records of all information that is used to support any 
+continued effort to meet the final emissions performance goal.",,primary,openai,gpt-5,1747,191
+76,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within regulatory text of a CFR section under an amendatory block (replace), creating binding requirements.",simple,none,60,60.5810(b),States,must,strong,keep,records of all data submitted by each affected entity that is used to determine compliance with each affected entity's emissions standard,False,False,,replace,"(b) States must keep records of all data submitted by each affected 
+entity that is used to determine compliance with each affected entity's 
+emissions standard.",,primary,openai,gpt-5,1770,186
+77,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within CFR amendatory/regulatory text specifying state recordkeeping requirements, making it binding.",simple,none,60,60.27,A state,must,strong,keep,records for at least 20 years,False,False,,replace,(d) A state must keep records at minimum for 20 years.,,primary,openai,gpt-5,1699,168
+78,EPA-HQ-OAR-2013-0602,proposed,0,True,The sentence appears within an amendatory regulatory text block adding/revising § 60.5815 and uses mandatory language setting a reporting requirement.,simple,none,60,60.5815,You,must,strong,submit,an annual report covering each calendar year,False,False,,replace,"What are my state reporting requirements?
+
+    (a) You must submit an annual report covering each calendar year no 
+later than July 1 of the following year, starting July 1 2021.",,primary,openai,gpt-5,1762,177
+79,EPA-HQ-OAR-2013-0602,proposed,0,True,The sentence appears within regulatory text of § 60.5815 in an amendatory block and uses mandatory language establishing new binding reporting content.,simple,none,60,60.5815,You,must,strong,include,the specified information in the annual report,False,False,,replace,"The 
+annual report must include the following:
+    (1) The level of emissions performance achieved by all affected 
+entities and identification of whether affected entities are on 
+schedule to meet the applicable level of emissions performance for 
+affected entities during the plan performance period and compliance 
+periods, as specified in the plan.",,primary,openai,gpt-5,1816,176
+80,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears in amendatory regulatory text within a CFR section being replaced/amended, creating new binding requirements.",simple,none,60,60.27,you,must,strong,compare,the average CO2 emission performance achieved by affected entities in the state to the CO2 emission performance projected in the state plan,False,False,,replace,"For each two-year period in Sec.  60.5775(c)(1), you must 
+compare the average CO<INF>2</INF> emission performance achieved by 
+affected entities in the state versus the CO<INF>2</INF> emission 
+performance projected in the state plan.",§ 60.5775(c)(1),primary,openai,gpt-5,1820,195
+81,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within amendatory regulatory text for 40 CFR 60.27 being replaced, making it binding.",compound,none,60,60.27,you,must,strong,explain,the reasons for the deviation,False,True,If actual emission performance is greater than 10 percent in excess of projected plan performance for a two-year comparison period,replace,"If actual emission performance 
+is greater than 10 percent in excess to projected plan performance for 
+a two-year comparison period, you must explain the reasons for the 
+deviation and specify the corrective actions that will be taken to 
+ensure that the required interim and final levels of emission 
+performance in the plan will be met.",,primary,openai,gpt-5,1868,329
+81,EPA-HQ-OAR-2013-0602,proposed,1,True,"The sentence appears within amendatory regulatory text for 40 CFR 60.27 being replaced, making it binding.",compound,none,60,60.27,you,must,strong,specify,the corrective actions that will be taken to ensure that the required interim and final levels of emission performance in the plan will be met,False,True,If actual emission performance is greater than 10 percent in excess of projected plan performance for a two-year comparison period,replace,"If actual emission performance 
+is greater than 10 percent in excess to projected plan performance for 
+a two-year comparison period, you must explain the reasons for the 
+deviation and specify the corrective actions that will be taken to 
+ensure that the required interim and final levels of emission 
+performance in the plan will be met.",,primary,openai,gpt-5,0,0
+82,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within amendatory regulatory text revising § 60.27, making it binding.",simple,none,60,60.27,you,must,strong,include,the information required in this paragraph in the annual report required by paragraph (a) of this section,False,False,,replace,"The information required in this 
+paragraph must be included in the annual report required by paragraph 
+(a) of this section.",§ 60.27(a),primary,openai,gpt-5,1744,185
+83,EPA-HQ-OAR-2013-0602,proposed,0,True,The sentence is within CFR regulatory text in an amendatory block (surrounding provisions impose reporting requirements) and states a mandatory reporting duty using must.,simple,none,60,60.27,You,must,strong,include,the calculation of average emissions over the 2020–2029 interim performance period used to determine compliance with your interim emission performance level in your 2029 annual report,False,False,,replace,"(c) You must include in your 2029 annual report (which is 
+subsequently due by July 1, 2030) the calculation of average emissions 
+over the 2020-2029 interim performance period used to determine 
+compliance with your interim emission performance level.",,primary,openai,gpt-5,1816,203
+84,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within amendatory regulatory text prescribing reporting and calculation requirements, making it new binding text.",simple,none,60,60.27,You,must,strong,ensure,the calculated value is in units consistent with your interim emission performance level,False,False,,replace,"The calculated 
+value must be in units consistent with your interim emission 
+performance level.",,primary,openai,gpt-5,1727,173
+85,EPA-HQ-OAR-2013-0602,proposed,0,True,The sentence appears within amendatory regulatory text revising CFR requirements and prescribes a reporting duty.,simple,none,60,60.27,You,must,strong,include,"in each report, starting with the 2032 annual report (which is subsequently due by July 1, 2033), a 3-calendar year rolling average used to determine compliance with the final emission performance level",False,False,,replace,"(d) You must include in each report, starting with the 2032 annual 
+report (which is subsequently due by July 1, 2033), a 3-calendar year 
+rolling average used to determine compliance with the final emission 
+performance level.",,primary,openai,gpt-5,1790,202
+86,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within amendatory regulatory text specifying reporting requirements, making it new binding text.",simple,none,60,60.27,The calculated value,must,strong,be in units consistent with,your final emission performance level,False,False,,replace,"The calculated value must be in units consistent 
+with your final emission performance level.",,primary,openai,gpt-5,1731,169
+88,EPA-HQ-OAR-2013-0602,proposed,0,True,The text appears within amendatory regulatory text for § 60.27 and contains deontic requirements embedded in a definition (affected entities must demonstrate compliance; plan durations shall not exceed specified limits).,compound,definition_embedded,60,60.27,each affected entity,must,strong,demonstrate compliance,an applicable emissions standard during the compliance period set forth by a state in its state plan,False,True,during the compliance period set forth by a state in its state plan,replace,"Compliance period means the period of time, set forth by a state in 
+its state plan, during which each affected entity must demonstrate 
+compliance with an applicable emissions standard, and shall be no 
+greater than a three year period for a mass-based plan, and shall be no 
+greater than a one year period for a rate-based plan.",,primary,openai,gpt-5,1793,423
+88,EPA-HQ-OAR-2013-0602,proposed,1,True,The text appears within amendatory regulatory text for § 60.27 and contains deontic requirements embedded in a definition (affected entities must demonstrate compliance; plan durations shall not exceed specified limits).,compound,definition_embedded,60,60.27,a mass-based plan's compliance period,shall,strong,be no greater than,a three-year period,True,False,,replace,"Compliance period means the period of time, set forth by a state in 
+its state plan, during which each affected entity must demonstrate 
+compliance with an applicable emissions standard, and shall be no 
+greater than a three year period for a mass-based plan, and shall be no 
+greater than a one year period for a rate-based plan.",,primary,openai,gpt-5,0,0
+88,EPA-HQ-OAR-2013-0602,proposed,2,True,The text appears within amendatory regulatory text for § 60.27 and contains deontic requirements embedded in a definition (affected entities must demonstrate compliance; plan durations shall not exceed specified limits).,compound,definition_embedded,60,60.27,a rate-based plan's compliance period,shall,strong,be no greater than,a one-year period,True,False,,replace,"Compliance period means the period of time, set forth by a state in 
+its state plan, during which each affected entity must demonstrate 
+compliance with an applicable emissions standard, and shall be no 
+greater than a three year period for a mass-based plan, and shall be no 
+greater than a one year period for a rate-based plan.",,primary,openai,gpt-5,0,0
+91,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears inside amendatory regulatory text revising definitions in Part 60, making it new binding text.",simple,none,60,60.27,The Administrator,may,permissive,waive,the 50 percent solid-derived fuel requirement,False,True,"during periods of the gasification system construction, startup and commissioning, shutdown, or repair",replace,"The Administrator may waive 
+the 50 percent solid-derived fuel requirement during periods of the 
+gasification system construction, startup and commissioning, shutdown, 
+or repair.",,primary,openai,gpt-5,1736,191
+93,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within amendatory regulatory text for 40 CFR part 60 being replaced/amended, making it new binding text.",compound,none,60,60.27,Affected facilities with meaningful energy in the condensate return (or other thermal energy input to the affected facility),must,strong,measure,the energy in the condensate,False,False,,replace,"Affected 
+facilities with meaningful energy in the condensate return (or other 
+thermal energy input to the affected facility) must measure the energy 
+in the condensate and subtract that energy relative to SATP conditions 
+from the measured thermal output.",,primary,openai,gpt-5,1737,312
+93,EPA-HQ-OAR-2013-0602,proposed,1,True,"The sentence appears within amendatory regulatory text for 40 CFR part 60 being replaced/amended, making it new binding text.",compound,none,60,60.27,Affected facilities with meaningful energy in the condensate return (or other thermal energy input to the affected facility),must,strong,subtract,that energy relative to SATP conditions from the measured thermal output,False,False,,replace,"Affected 
+facilities with meaningful energy in the condensate return (or other 
+thermal energy input to the affected facility) must measure the energy 
+in the condensate and subtract that energy relative to SATP conditions 
+from the measured thermal output.",,primary,openai,gpt-5,0,0
+100100,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within an amendatory block revising § 60.27(b), so it is new binding regulatory text.",simple,none,60,60.27(b),the Administrator,no_modal_implicit,strong,propose,the plan or plan revision for approval or disapproval,False,True,After receipt of a plan or plan revision,revise,"After receipt of a plan or plan revision, the Administrator will propose the plan or revision for approval or disapproval.",,safety_net_verified,openai,gpt-5,1635,190
+100101,EPA-HQ-OAR-2013-0602,proposed,0,True,"Text appears within an amendatory block revising § 60.27(b), making it new binding regulatory text.",simple,none,60,60.27(b),the Administrator,shall,strong,approve or disapprove,"the submitted plan or plan revision, or each portion thereof",False,True,"within four months after the date required for submission of a plan or plan revision, except as provided in § 60.5715",revise,"The Administrator will, within four months after the date required for submission of a plan or plan revision, approve or disapprove such plan or revision or each portion thereof, except as provided in Sec. 60.5715.",§ 60.5715,safety_net_verified,openai,gpt-5,1704,212
+100200,EPA-HQ-OAR-2013-0602,proposed,0,True,"The text appears within amendatory regulatory text (part 60 revision context with replace action), making it new binding text that sets enforceability criteria.",compound,none,60,60.27(f),an emission standard,no_modal_implicit,strong,is enforceable against an affected entity only if a technically accurate limitation or requirement and the time period for the limitation or requirement is specified,None,False,True,a technically accurate limitation or requirement and the time period for the limitation or requirement is specified,replace,"An emission standard is enforceable against an affected entity if:
+    (1) A technically accurate limitation or requirement and the time 
+period for the limitation or requirement is specified;
+    (2) Compliance requirements are clearly defined;
+    (3) The affected entities responsible for compliance and liable for 
+violations can be identified;
+    (4) Each compliance activity or measure is enforceable as a 
+practical matter; and
+    (5) The Administrator and the state maintain the ability to enforce 
+violations and secure appropriate corrective actions pursuant to 
+sections 113(a) through (h) of the Act.",,safety_net_verified,openai,gpt-5,1835,752
+100200,EPA-HQ-OAR-2013-0602,proposed,1,True,"The text appears within amendatory regulatory text (part 60 revision context with replace action), making it new binding text that sets enforceability criteria.",compound,none,60,60.27(f),an emission standard,no_modal_implicit,strong,is enforceable against an affected entity only if compliance requirements are clearly defined,None,False,True,compliance requirements are clearly defined,replace,"An emission standard is enforceable against an affected entity if:
+    (1) A technically accurate limitation or requirement and the time 
+period for the limitation or requirement is specified;
+    (2) Compliance requirements are clearly defined;
+    (3) The affected entities responsible for compliance and liable for 
+violations can be identified;
+    (4) Each compliance activity or measure is enforceable as a 
+practical matter; and
+    (5) The Administrator and the state maintain the ability to enforce 
+violations and secure appropriate corrective actions pursuant to 
+sections 113(a) through (h) of the Act.",,safety_net_verified,openai,gpt-5,0,0
+100200,EPA-HQ-OAR-2013-0602,proposed,2,True,"The text appears within amendatory regulatory text (part 60 revision context with replace action), making it new binding text that sets enforceability criteria.",compound,none,60,60.27(f),an emission standard,no_modal_implicit,strong,is enforceable against an affected entity only if the affected entities responsible for compliance and liable for violations can be identified,None,False,True,the affected entities responsible for compliance and liable for violations can be identified,replace,"An emission standard is enforceable against an affected entity if:
+    (1) A technically accurate limitation or requirement and the time 
+period for the limitation or requirement is specified;
+    (2) Compliance requirements are clearly defined;
+    (3) The affected entities responsible for compliance and liable for 
+violations can be identified;
+    (4) Each compliance activity or measure is enforceable as a 
+practical matter; and
+    (5) The Administrator and the state maintain the ability to enforce 
+violations and secure appropriate corrective actions pursuant to 
+sections 113(a) through (h) of the Act.",,safety_net_verified,openai,gpt-5,0,0
+100200,EPA-HQ-OAR-2013-0602,proposed,3,True,"The text appears within amendatory regulatory text (part 60 revision context with replace action), making it new binding text that sets enforceability criteria.",compound,none,60,60.27(f),an emission standard,no_modal_implicit,strong,is enforceable against an affected entity only if each compliance activity or measure is enforceable as a practical matter,None,False,True,each compliance activity or measure is enforceable as a practical matter,replace,"An emission standard is enforceable against an affected entity if:
+    (1) A technically accurate limitation or requirement and the time 
+period for the limitation or requirement is specified;
+    (2) Compliance requirements are clearly defined;
+    (3) The affected entities responsible for compliance and liable for 
+violations can be identified;
+    (4) Each compliance activity or measure is enforceable as a 
+practical matter; and
+    (5) The Administrator and the state maintain the ability to enforce 
+violations and secure appropriate corrective actions pursuant to 
+sections 113(a) through (h) of the Act.",,safety_net_verified,openai,gpt-5,0,0
+100200,EPA-HQ-OAR-2013-0602,proposed,4,True,"The text appears within amendatory regulatory text (part 60 revision context with replace action), making it new binding text that sets enforceability criteria.",compound,none,60,60.27(f),an emission standard,no_modal_implicit,strong,is enforceable against an affected entity only if the Administrator and the state maintain the ability to enforce violations and secure appropriate corrective actions,None,False,True,the Administrator and the state maintain the ability to enforce violations and secure appropriate corrective actions pursuant to sections 113(a) through (h) of the Act,replace,"An emission standard is enforceable against an affected entity if:
+    (1) A technically accurate limitation or requirement and the time 
+period for the limitation or requirement is specified;
+    (2) Compliance requirements are clearly defined;
+    (3) The affected entities responsible for compliance and liable for 
+violations can be identified;
+    (4) Each compliance activity or measure is enforceable as a 
+practical matter; and
+    (5) The Administrator and the state maintain the ability to enforce 
+violations and secure appropriate corrective actions pursuant to 
+sections 113(a) through (h) of the Act.",sections 113(a) through (h) of the Act,safety_net_verified,openai,gpt-5,0,0
+100202,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within amendatory CFR text (section is being replaced), so it constitutes new binding regulatory text.",simple,none,60,60.27,a state,must,strong,submit an approvable plan or initial submittal to implement and enforce the emission guidelines contained in this subpart,None,False,True,"by June 30, 2016, or the EPA will implement and enforce a Federal plan to ensure that each affected EGU within the state that commenced construction on or before January 8, 2014 reaches compliance with all the provisions of this subpart, as provided in § 60.5740",replace,"If a state does not submit an approvable plan or initial 
+submittal to implement and enforce the emission guidelines contained in 
+this subpart by June 30, 2016, the EPA will implement and enforce a 
+Federal plan, as provided in Sec.  60.5740, to ensure that each 
+affected EGU within the state that commenced construction on or before 
+January 8, 2014 reaches compliance with all the provisions of this 
+subpart.",§ 60.5740,safety_net_verified,openai,gpt-5,1766,253
+100203,EPA-HQ-OAR-2013-0602,proposed,0,True,"The sentence appears within amendatory text for 40 CFR 60.27 indicated by a replace action, making it new binding regulatory text.",simple,none,60,60.27,State plans,may not,strong,be revised,without approval by the Administrator,True,False,,replace,State plans can only be revised with approval by the Administrator.,,safety_net_verified,openai,gpt-5,1572,176

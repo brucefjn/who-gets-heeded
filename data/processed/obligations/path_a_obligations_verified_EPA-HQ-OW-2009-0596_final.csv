@@ -1,0 +1,256 @@
+candidate_idx,docket_id,rule_type,split_idx,verified,verified_reason,complexity,recital_disposition,cfr_part,cfr_section,subject,modal,modal_strength,action,object,passive_voice,is_conditional,condition_text,amendatory_action,obligation_text,cross_reference,found_via,llm_provider,llm_model,in_tokens,out_tokens
+20,EPA-HQ-OW-2009-0596,final,0,True,"The sentence appears within binding regulatory text describing procedural duties and uses the mandatory modal 'must', indicating a new or operative requirement.",compound,none,,,the entity,must,strong,provide notice,of the proposed SSAC to the State,False,True,if the entity is not the State,none,"Second, if the entity is not the State, the 
+entity must provide notice of the proposed SSAC to the State, including 
+all supporting documentation so that the State may provide comments on 
+the proposal to EPA.",,primary,openai,gpt-5,1754,291
+20,EPA-HQ-OW-2009-0596,final,1,True,"The sentence appears within binding regulatory text describing procedural duties and uses the mandatory modal 'must', indicating a new or operative requirement.",compound,none,,,the entity,must,strong,include supporting documentation,with the notice so that the State may provide comments on the proposal to EPA,False,True,if the entity is not the State,none,"Second, if the entity is not the State, the 
+entity must provide notice of the proposed SSAC to the State, including 
+all supporting documentation so that the State may provide comments on 
+the proposal to EPA.",,primary,openai,gpt-5,0,0
+91,EPA-HQ-OW-2009-0596,final,0,True,"The text appears within an amendatory block adding § 131.43 to 40 CFR part 131, making it new binding regulatory text.",simple,none,131,131.43(e)(1),The Regional Administrator,may,permissive,determine,that site-specific alternative criteria apply to specific surface waters in lieu of the criteria established for Florida waters in this section,False,False,,add,"(1) The Regional 
+Administrator may determine that site-specific alternative criteria 
+shall apply to specific surface waters in lieu of the criteria 
+established for Florida waters in this section, including criteria for 
+lakes, criteria for streams, and criteria for springs.",,primary,openai,gpt-5,1825,199
+92,EPA-HQ-OW-2009-0596,final,0,True,The text is within an amendatory block adding § 131.43 and contains mandatory language prescribing actions.,compound,none,131,131.43(e)(1),The Regional Administrator,shall,strong,make any determination of site-specific alternative criteria consistent with,§ 131.11,False,False,,add,"Any such 
+determination shall be made consistent with Sec.  131.11.
+    (2) To receive consideration from the Regional Administrator for a 
+determination of site-specific alternative criteria, an entity shall 
+submit a request that includes proposed alternative numeric criteria 
+and supporting rationale suitable to meet the needs for a technical 
+support document pursuant to paragraph (e)(3) of this section.",§ 131.11,primary,openai,gpt-5,1859,327
+92,EPA-HQ-OW-2009-0596,final,1,True,The text is within an amendatory block adding § 131.43 and contains mandatory language prescribing actions.,compound,none,131,131.43(e)(2),an entity,shall,strong,submit a request that includes,proposed alternative numeric criteria and supporting rationale suitable to meet the needs for a technical support document pursuant to paragraph (e)(3) of this section,False,True,To receive consideration from the Regional Administrator for a determination of site-specific alternative criteria,add,"Any such 
+determination shall be made consistent with Sec.  131.11.
+    (2) To receive consideration from the Regional Administrator for a 
+determination of site-specific alternative criteria, an entity shall 
+submit a request that includes proposed alternative numeric criteria 
+and supporting rationale suitable to meet the needs for a technical 
+support document pursuant to paragraph (e)(3) of this section.",,primary,openai,gpt-5,0,0
+93,EPA-HQ-OW-2009-0596,final,0,True,"The sentence is binding regulatory text within a CFR section prescribing actions for an entity in the process described, not preamble or mere definition.",simple,none,131,131.43,The entity,shall,strong,provide,"the State a copy of all materials submitted to EPA, at the time of submittal to EPA, to facilitate the State providing comments to EPA",False,False,,none,"The 
+entity shall provide the State a copy of all materials submitted to 
+EPA, at the time of submittal to EPA, to facilitate the State providing 
+comments to EPA.",,primary,openai,gpt-5,1747,197
+94,EPA-HQ-OW-2009-0596,final,0,True,The sentence appears within regulatory text that sets procedures and criteria and functions as binding permissive rule language within the CFR section.,simple,none,131,131.43,Site-specific alternative criteria,may,permissive,be based,one or more specified approaches,True,False,,none,"Site-specific alternative criteria may be based on one 
+or more of the following approaches.",,primary,openai,gpt-5,1705,175
+95,EPA-HQ-OW-2009-0596,final,0,True,"The sentence is binding regulatory text within a CFR section, not preamble or definition, and imposes a duty on the Regional Administrator.",compound,none,131,131.43,the Regional Administrator,shall,strong,provide,public notice and opportunity for comment on a proposed determination,False,True,"For any determination made under paragraph (e)(1) of this section, and prior to making such a determination",none,"(3) For any determination made under paragraph (e)(1) of this 
+section, the Regional Administrator shall, prior to making such a 
+determination, provide for public notice and comment on a proposed 
+determination.",paragraph (e)(1),primary,openai,gpt-5,1750,206
+96,EPA-HQ-OW-2009-0596,final,0,True,"The sentence appears within amendatory regulatory text for § 131.43, containing mandatory language directed at the Regional Administrator.",compound,none,131,131.43,the Regional Administrator,shall,strong,prepare,a technical support document addressing the specific surface waters affected and the justification for each proposed determination,False,True,For any such proposed determination,none,"For any such proposed determination, the Regional 
+Administrator shall prepare and make available to the public a 
+technical support document addressing the specific surface waters 
+affected and the justification for each proposed determination.",,primary,openai,gpt-5,1748,306
+96,EPA-HQ-OW-2009-0596,final,1,True,"The sentence appears within amendatory regulatory text for § 131.43, containing mandatory language directed at the Regional Administrator.",compound,none,131,131.43,the Regional Administrator,shall,strong,make available to the public,a technical support document addressing the specific surface waters affected and the justification for each proposed determination,False,True,For any such proposed determination,none,"For any such proposed determination, the Regional 
+Administrator shall prepare and make available to the public a 
+technical support document addressing the specific surface waters 
+affected and the justification for each proposed determination.",,primary,openai,gpt-5,0,0
+97,EPA-HQ-OW-2009-0596,final,0,True,The sentence appears within an amendatory block revising § 131.43 and thus constitutes new binding regulatory text.,simple,none,131,131.43,the Regional Administrator,shall,strong,make available to the public,the technical support document,True,False,,revise,"This 
+document shall be made available to the public no later than the date 
+of public notice issuance.
+    (4)",,primary,openai,gpt-5,1716,174
+98,EPA-HQ-OW-2009-0596,final,0,True,"The sentence appears within an amendatory block revising § 131.43 to read as follows, making it new binding regulatory text.",compound,none,131,131.43,The Regional Administrator,shall,strong,maintain,an updated list of determinations made pursuant to paragraph (e)(1) of this section,False,False,,revise,"The Regional Administrator shall maintain and make available to 
+the public an updated list of determinations made pursuant to paragraph 
+(e)(1) of this section as well as the technical support documents for 
+each determination.
+    (5) Nothing in this paragraph (e) shall limit the Administrator's 
+authority to modify the criteria established for Florida waters in this 
+section, including criteria for lakes, criteria for streams, and 
+criteria for springs.",paragraph (e)(1) of this section,primary,openai,gpt-5,1862,318
+98,EPA-HQ-OW-2009-0596,final,1,True,"The sentence appears within an amendatory block revising § 131.43 to read as follows, making it new binding regulatory text.",compound,none,131,131.43,The Regional Administrator,shall,strong,make available to the public,an updated list of determinations and the technical support documents for each determination,False,False,,revise,"The Regional Administrator shall maintain and make available to 
+the public an updated list of determinations made pursuant to paragraph 
+(e)(1) of this section as well as the technical support documents for 
+each determination.
+    (5) Nothing in this paragraph (e) shall limit the Administrator's 
+authority to modify the criteria established for Florida waters in this 
+section, including criteria for lakes, criteria for streams, and 
+criteria for springs.",paragraph (e)(1) of this section,primary,openai,gpt-5,0,0
+99,EPA-HQ-OW-2009-0596,final,0,True,The sentence appears within regulatory text of § 131.43 and functions as a definition-embedded obligation by prescribing a classification criterion (when spring water exits to the surface it shall be classified as surface water).,simple,definition_embedded,131,131.43,Water from natural springs,shall,strong,be classified,as surface water,True,True,when it exits from the spring onto the Earth's surface,none,"Water from natural springs shall be classified as surface 
+water when it exits from the spring onto the Earth's surface.",,primary,openai,gpt-5,1666,201
+100,EPA-HQ-OW-2009-0596,final,0,True,"The sentence appears in regulatory text within a CFR section prescribing criteria, functioning as binding performance criteria in an operative provision.",simple,none,131,131.43,"the annual geometric mean of chlorophyll a, TN, or TP concentrations for a given waterbody",must not,strong,exceed,the applicable criterion concentration more than once in a three-year period,False,False,,none,"For a given waterbody, the annual geometric mean of chlorophyll a, TN or TP concentrations shall not exceed
+  the applicable criterion concentration more than once in a three-year period.",,primary,openai,gpt-5,1762,195
+101,EPA-HQ-OW-2009-0596,final,0,True,"The sentence appears within regulatory text of § 131.43 that sets out operative criteria and procedures, functioning as binding text in context.",simple,none,131,131.43,The State,may,permissive,use,this procedure one time for a specific lake in lieu of the site-specific alternative criteria procedure,False,False,,none,"The State may use this procedure one 
+time for a specific lake in lieu of the site-specific alternative 
+criteria procedure described in paragraph (e) of this section.",paragraph (e) of this section,primary,openai,gpt-5,1754,194
+102,EPA-HQ-OW-2009-0596,final,0,True,"The text appears within regulatory binding text of § 131.43 setting procedures and criteria, functioning as new/operative regulatory language even without an explicit amendatory header.",simple,none,131,131.43,The State,may,permissive,calculate,modified criteria for TN and/or TP,False,True,where the chlorophyll a criterion-magnitude as an annual geometric mean has not been exceeded and sufficient ambient monitoring data exist for chlorophyll a and TN and/or TP for at least the three immediately preceding years,none,"(A) The State may calculate modified criteria for TN and/or TP 
+where the chlorophyll a criterion-magnitude as an annual geometric mean 
+has not been exceeded and sufficient ambient monitoring data exist for 
+chlorophyll a and TN and/or TP for at least the three immediately 
+preceding years.",,primary,openai,gpt-5,1784,223
+103,EPA-HQ-OW-2009-0596,final,0,True,"The sentences appear within binding regulatory text setting conditions for calculating modified criteria and include embedded quantitative/temporal requirements, making them binding within the section.",compound,definition_embedded,131,131.43,ambient monitoring data,must,strong,include,at least four measurements per year,False,True,For data to be considered sufficient,none,"Sufficient data include at least four measurements per 
+year, with at least one measurement between May and September and one 
+measurement between October and April each year.
+    (B) Modified criteria are calculated using data from years in which 
+sufficient data are available to reflect maintenance of ambient 
+conditions.",,primary,openai,gpt-5,1800,509
+103,EPA-HQ-OW-2009-0596,final,1,True,"The sentences appear within binding regulatory text setting conditions for calculating modified criteria and include embedded quantitative/temporal requirements, making them binding within the section.",compound,definition_embedded,131,131.43,ambient monitoring data,must,strong,include at least one measurement,between May and September each year,False,True,For data to be considered sufficient,none,"Sufficient data include at least four measurements per 
+year, with at least one measurement between May and September and one 
+measurement between October and April each year.
+    (B) Modified criteria are calculated using data from years in which 
+sufficient data are available to reflect maintenance of ambient 
+conditions.",,primary,openai,gpt-5,0,0
+103,EPA-HQ-OW-2009-0596,final,2,True,"The sentences appear within binding regulatory text setting conditions for calculating modified criteria and include embedded quantitative/temporal requirements, making them binding within the section.",compound,definition_embedded,131,131.43,ambient monitoring data,must,strong,include at least one measurement,between October and April each year,False,True,For data to be considered sufficient,none,"Sufficient data include at least four measurements per 
+year, with at least one measurement between May and September and one 
+measurement between October and April each year.
+    (B) Modified criteria are calculated using data from years in which 
+sufficient data are available to reflect maintenance of ambient 
+conditions.",,primary,openai,gpt-5,0,0
+103,EPA-HQ-OW-2009-0596,final,3,True,"The sentences appear within binding regulatory text setting conditions for calculating modified criteria and include embedded quantitative/temporal requirements, making them binding within the section.",compound,definition_embedded,131,131.43,modified criteria,must,strong,be calculated using data from years in which sufficient data are available,to reflect maintenance of ambient conditions,True,False,,none,"Sufficient data include at least four measurements per 
+year, with at least one measurement between May and September and one 
+measurement between October and April each year.
+    (B) Modified criteria are calculated using data from years in which 
+sufficient data are available to reflect maintenance of ambient 
+conditions.",,primary,openai,gpt-5,0,0
+104,EPA-HQ-OW-2009-0596,final,0,True,"The sentence appears within binding regulatory text of § 131.43 setting criteria and uses a prohibitory modal (“may not”), making it a binding obligation.",simple,none,131,131.43,Modified TN and/or TP criteria,may not,strong,exceed,the higher value specified in the range of values in column C of Table 1 in paragraph (c)(1)(i) of this section,False,False,,none,"Modified TN and/or TP criteria may not be greater than the 
+higher value specified in the range of values in column C of Table 1 in 
+paragraph (c)(1)(i) of this section.",§ 131.43(c)(1)(i),primary,openai,gpt-5,1747,216
+105,EPA-HQ-OW-2009-0596,final,0,True,The sentence appears within binding regulatory text of § 131.43 setting criteria and functions as a prohibitive requirement within that amendatory context.,simple,none,131,131.43,Modified TP and TN criteria,may not,strong,exceed,criteria applicable to streams to which a lake discharges,False,False,,none,"Modified TP and TN criteria may 
+not exceed criteria applicable to streams to which a lake discharges.
+    (C)",,primary,openai,gpt-5,1713,184
+106,EPA-HQ-OW-2009-0596,final,0,True,"The sentence appears in regulatory text within 40 CFR 131.43 prescribing actions for states and is part of binding CFR content, not preamble or pure definition.",compound,none,131,131.43,The State,shall,strong,notify,the public of the modified lake criteria,False,False,,none,"The State shall notify the public and maintain a record of 
+these modified lake criteria, as well as a record supporting their 
+derivation.",,primary,openai,gpt-5,1696,286
+106,EPA-HQ-OW-2009-0596,final,1,True,"The sentence appears in regulatory text within 40 CFR 131.43 prescribing actions for states and is part of binding CFR content, not preamble or pure definition.",compound,none,131,131.43,The State,shall,strong,maintain a record,the modified lake criteria and the record supporting their derivation,False,False,,none,"The State shall notify the public and maintain a record of 
+these modified lake criteria, as well as a record supporting their 
+derivation.",,primary,openai,gpt-5,0,0
+107,EPA-HQ-OW-2009-0596,final,0,True,The sentence appears within regulatory text of § 131.43 prescribing procedures; it is not preamble or a mere definition and thus constitutes binding operative text.,compound,none,131,131.43,The State,shall,strong,notify,EPA Region 4,False,False,,none,"The State shall notify EPA Region 4 and provide the 
+supporting record within 30 days of determination of modified lake 
+criteria.",,primary,openai,gpt-5,1682,280
+107,EPA-HQ-OW-2009-0596,final,1,True,The sentence appears within regulatory text of § 131.43 prescribing procedures; it is not preamble or a mere definition and thus constitutes binding operative text.,compound,none,131,131.43,The State,shall,strong,provide,the supporting record within 30 days of determination of modified lake criteria,False,False,,none,"The State shall notify EPA Region 4 and provide the 
+supporting record within 30 days of determination of modified lake 
+criteria.",,primary,openai,gpt-5,0,0
+108,EPA-HQ-OW-2009-0596,final,0,True,The sentence appears within CFR regulatory text prescribing criteria (non-amendatory binding-text section) and sets a normative limit using shall not.,simple,none,131,131.43,the annual geometric mean of TN or TP concentrations for a given waterbody,may not,strong,exceed,the applicable criterion concentration more than once in a three-year period,False,False,,none,"For a given waterbody, the annual geometric mean of TN or TP
+  concentrations shall not exceed the applicable criterion concentration
+  more than once in a three-year period.",,primary,openai,gpt-5,1797,194
+109,EPA-HQ-OW-2009-0596,final,0,True,It appears within regulatory text of § 131.43 that functions as binding requirements (non-preamble) even without an explicit amendatory wrapper.,simple,none,131,131.43,the applicable DPV for any stream,shall,strong,be determined,"pursuant to paragraphs (c)(2)(ii)(B), (C), or (D) of this section",True,False,,none,"The applicable DPV for any stream shall be determined 
+pursuant to paragraphs (c)(2)(ii)(B), (C), or (D) of this section.",§ 131.43(c)(2)(ii)(B)–(D),primary,openai,gpt-5,1759,216
+110,EPA-HQ-OW-2009-0596,final,0,True,"The sentence appears in regulatory text of § 131.43 setting criteria and contains mandatory language (“must”) that prescribes a requirement, making it binding.",simple,none,131,131.43,Contributions from stream tributaries upstream of the point of entry location,must,strong,result in attainment,the downstream protection value (DPV) at the point of entry into the lake,False,False,,none,"Contributions from stream tributaries upstream of the point of entry 
+location must result in attainment of the DPV at the point of entry 
+into the lake.",,primary,openai,gpt-5,1760,201
+111,EPA-HQ-OW-2009-0596,final,0,True,It appears within CFR regulatory text specifying authorities and criteria (non-preamble) and prescribes permissible action by the State or EPA.,simple,none,131,131.43,The State or EPA,may,permissive,establish,additional DPVs at upstream tributary locations that are consistent with attaining the DPV at the point of entry into the lake,False,False,,none,"The State or EPA may 
+establish additional DPVs at upstream tributary locations that are 
+consistent with attaining the DPV at the point of entry into the lake.",,primary,openai,gpt-5,1764,196
+112,EPA-HQ-OW-2009-0596,final,0,True,"The text appears within regulatory codified language of § 131.43 setting procedures and authorities; even though permissive, it is binding regulatory text, not preamble or mere definition.",compound,none,131,131.43,The State or EPA,may,permissive,establish,DPVs to account for a larger watershed area,False,False,,none,"The State or EPA also have discretion to establish DPVs to account for 
+a larger watershed area (i.e., include waters beyond the point of 
+reaching water bodies that are not streams as defined by this rule).
+    (B) In instances where available data and/or resources provide for 
+use of a scientifically defensible and protective lake-specific 
+application of the
+
+[[Page 75807]]
+
+BATHTUB model, the State or EPA may derive the DPV for TN and/or TP 
+from use of a lake-specific application of BATHTUB.",,primary,openai,gpt-5,1912,340
+112,EPA-HQ-OW-2009-0596,final,1,True,"The text appears within regulatory codified language of § 131.43 setting procedures and authorities; even though permissive, it is binding regulatory text, not preamble or mere definition.",compound,none,131,131.43,The State or EPA,may,permissive,derive,the DPV for TN and/or TP from use of a scientifically defensible and protective lake-specific application of the BATHTUB model,False,True,In instances where available data and/or resources provide for use of a scientifically defensible and protective lake-specific application of the BATHTUB model,none,"The State or EPA also have discretion to establish DPVs to account for 
+a larger watershed area (i.e., include waters beyond the point of 
+reaching water bodies that are not streams as defined by this rule).
+    (B) In instances where available data and/or resources provide for 
+use of a scientifically defensible and protective lake-specific 
+application of the
+
+[[Page 75807]]
+
+BATHTUB model, the State or EPA may derive the DPV for TN and/or TP 
+from use of a lake-specific application of BATHTUB.",,primary,openai,gpt-5,0,0
+113,EPA-HQ-OW-2009-0596,final,0,True,"The sentence appears within CFR regulatory text establishing procedures and uses binding modal language (“are authorized to”) in a substantive provision, making it new binding text.",simple,none,131,131.43,The State and EPA,are authorized to,permissive,use,a scientifically defensible technical model other than BATHTUB,False,True,upon demonstration that use of another scientifically defensible technical model would protect the lake's designated uses and meet all applicable criteria for the lake,none,"The State and EPA 
+are authorized to use a scientifically defensible technical model other 
+than BATHTUB upon demonstration that use of another scientifically 
+defensible technical model would protect the lake's designated uses and 
+meet all applicable criteria for the lake.",,primary,openai,gpt-5,1807,214
+114,EPA-HQ-OW-2009-0596,final,0,True,The text is regulatory operative language within a CFR section (non-preamble) and prescribes permissions/conditions; it functions as binding text even without an explicit amendatory header.,compound,none,131,131.43,The State or EPA,may,permissive,designate,the wasteload and/or load allocations from a TMDL established or approved by EPA as DPV(s),False,True,if the allocations from the TMDL will protect the lake's designated uses and meet all applicable criteria for the lake,none,"The State or EPA may 
+designate the wasteload and/or load allocations from a TMDL established 
+or approved by EPA as DPV(s) if the allocations from the TMDL will 
+protect the lake's designated uses and meet all applicable criteria for 
+the lake.
+    (C) When the State or EPA has not derived a DPV for a stream 
+pursuant to paragraph (c)(2)(ii)(B) of this section, and where the 
+downstream lake attains the applicable chlorophyll a criterion and the 
+applicable TP and/or TN criteria, then the DPV for TN and/or TP is the 
+associated ambient instream levels of TN and/or TP at the point of 
+entry to the lake.",,primary,openai,gpt-5,2001,407
+114,EPA-HQ-OW-2009-0596,final,1,True,The text is regulatory operative language within a CFR section (non-preamble) and prescribes permissions/conditions; it functions as binding text even without an explicit amendatory header.,compound,none,131,131.43,The DPV for TN and/or TP,no_modal_implicit,strong,is,the associated ambient instream levels of TN and/or TP at the point of entry to the lake,False,True,"when the State or EPA has not derived a DPV for a stream pursuant to paragraph (c)(2)(ii)(B) of this section, and where the downstream lake attains the applicable chlorophyll a criterion and the applicable TP and/or TN criteria",none,"The State or EPA may 
+designate the wasteload and/or load allocations from a TMDL established 
+or approved by EPA as DPV(s) if the allocations from the TMDL will 
+protect the lake's designated uses and meet all applicable criteria for 
+the lake.
+    (C) When the State or EPA has not derived a DPV for a stream 
+pursuant to paragraph (c)(2)(ii)(B) of this section, and where the 
+downstream lake attains the applicable chlorophyll a criterion and the 
+applicable TP and/or TN criteria, then the DPV for TN and/or TP is the 
+associated ambient instream levels of TN and/or TP at the point of 
+entry to the lake.",§ 131.43(c)(2)(ii)(B),primary,openai,gpt-5,0,0
+115,EPA-HQ-OW-2009-0596,final,0,True,The sentence appears within CFR regulatory text prescribing duties (not preamble) and contains mandatory 'shall' requirements in § 131.43.,compound,none,131,131.43,The State and EPA,shall,strong,maintain,"a record of DPVs they derive based on the methods described in paragraphs (c)(2)(ii)(B) and (C) of this section, as well as a record supporting their derivation",False,False,,none,"(E) The State and EPA shall maintain a record of DPVs they derive 
+based on the methods described in paragraphs (c)(2)(ii)(B) and (C) of 
+this section, as well as a record supporting their derivation, and make 
+such records available to the public.",§ 131.43(c)(2)(ii)(B)-(C),primary,openai,gpt-5,1845,325
+115,EPA-HQ-OW-2009-0596,final,1,True,The sentence appears within CFR regulatory text prescribing duties (not preamble) and contains mandatory 'shall' requirements in § 131.43.,compound,none,131,131.43,The State and EPA,shall,strong,make,such records available to the public,False,False,,none,"(E) The State and EPA shall maintain a record of DPVs they derive 
+based on the methods described in paragraphs (c)(2)(ii)(B) and (C) of 
+this section, as well as a record supporting their derivation, and make 
+such records available to the public.",,primary,openai,gpt-5,0,0
+116,EPA-HQ-OW-2009-0596,final,0,True,"The sentence appears within binding regulatory text of § 131.43 and uses mandatory modal 'shall', making it a new/operative obligation.",compound,none,131,131.43,The State and EPA,shall,strong,notify,one another,False,False,,none,"The State and EPA shall notify 
+one another and provide a supporting record within 30 days of 
+derivation of DPVs pursuant to paragraphs (c)(2)(ii)(B) or (C) of this 
+section.",§ 131.43(c)(2)(ii)(B) or (C),primary,openai,gpt-5,1794,311
+116,EPA-HQ-OW-2009-0596,final,1,True,"The sentence appears within binding regulatory text of § 131.43 and uses mandatory modal 'shall', making it a new/operative obligation.",compound,none,131,131.43,The State and EPA,shall,strong,provide,a supporting record within 30 days of derivation of DPVs,False,False,,none,"The State and EPA shall notify 
+one another and provide a supporting record within 30 days of 
+derivation of DPVs pursuant to paragraphs (c)(2)(ii)(B) or (C) of this 
+section.",§ 131.43(c)(2)(ii)(B) or (C),primary,openai,gpt-5,0,0
+117,EPA-HQ-OW-2009-0596,final,0,True,The text appears within regulatory section text (not preamble) establishing procedures in § 131.43(e) and functions as binding permissive authority and application condition in a non-amendatory binding-text section.,compound,none,131,131.43(e)(1),The Regional Administrator,may,permissive,determine,that site-specific alternative criteria apply to specific surface waters in lieu of paragraph (c) criteria,False,False,,none,"(1) The Regional 
+Administrator may determine that site-specific alternative criteria 
+shall apply to specific surface waters in lieu of the criteria 
+established in paragraph (c) of this section.",§ 131.43(c),primary,openai,gpt-5,1753,348
+117,EPA-HQ-OW-2009-0596,final,1,True,The text appears within regulatory section text (not preamble) establishing procedures in § 131.43(e) and functions as binding permissive authority and application condition in a non-amendatory binding-text section.,compound,none,131,131.43(e)(1),site-specific alternative criteria,shall,strong,apply,to specific surface waters in lieu of the criteria established in paragraph (c) of this section when determined by the Regional Administrator,False,True,if the Regional Administrator makes such a determination,none,"(1) The Regional 
+Administrator may determine that site-specific alternative criteria 
+shall apply to specific surface waters in lieu of the criteria 
+established in paragraph (c) of this section.",§ 131.43(c),primary,openai,gpt-5,0,0
+118,EPA-HQ-OW-2009-0596,final,0,True,"The text appears within regulatory section text prescribing procedures and includes mandatory ""shall"" directives, indicating new or operative binding requirements.",compound,none,131,131.43(e),the Regional Administrator,shall,strong,make any determination of site-specific alternative criteria,consistent with § 131.11,False,False,,none,"Any such determination 
+shall be made consistent with Sec.  131.11.
+    (2) To receive consideration from the Regional Administrator for a 
+determination of site-specific alternative criteria, an entity shall 
+submit a request that includes proposed alternative numeric criteria 
+and supporting rationale suitable to meet the needs for a technical 
+support document pursuant to paragraph (e)(3) of this section.",§ 131.11,primary,openai,gpt-5,1838,325
+118,EPA-HQ-OW-2009-0596,final,1,True,"The text appears within regulatory section text prescribing procedures and includes mandatory ""shall"" directives, indicating new or operative binding requirements.",compound,none,131,131.43(e),an entity,shall,strong,submit a request,that includes proposed alternative numeric criteria and supporting rationale suitable to meet the needs for a technical support document pursuant to paragraph (e)(3) of this section,False,True,To receive consideration from the Regional Administrator for a determination of site-specific alternative criteria,none,"Any such determination 
+shall be made consistent with Sec.  131.11.
+    (2) To receive consideration from the Regional Administrator for a 
+determination of site-specific alternative criteria, an entity shall 
+submit a request that includes proposed alternative numeric criteria 
+and supporting rationale suitable to meet the needs for a technical 
+support document pursuant to paragraph (e)(3) of this section.",,primary,openai,gpt-5,0,0
+119,EPA-HQ-OW-2009-0596,final,0,True,"The sentence appears within binding regulatory text of § 131.43 setting procedures and uses strong modal 'shall', indicating a new or revised requirement within an amendatory context.",simple,none,131,131.43,the entity,shall,strong,provide,the State a copy of all materials submitted to EPA,False,True,at the time of submittal to EPA,none,"The 
+entity shall provide the State a copy of all materials submitted to 
+EPA, at the time of submittal to EPA, to facilitate the State providing 
+comments to EPA.",,primary,openai,gpt-5,1750,194
+120,EPA-HQ-OW-2009-0596,final,0,True,"The sentence appears within operative regulatory text of § 131.43 setting procedures for site-specific alternative criteria, functioning as binding permissive regulatory language even without an explicit amendatory wrapper.",simple,none,131,131.43,Site-specific alternative criteria,may,permissive,be based,one or more of specified approaches,True,False,,none,"Site-specific alternative criteria may be based on one 
+or more of the following approaches.",,primary,openai,gpt-5,1716,188
+121,EPA-HQ-OW-2009-0596,final,0,True,This is operative regulatory text within a CFR section imposing a procedural duty on the Regional Administrator.,simple,none,131,131.43,the Regional Administrator,shall,strong,provide,public notice and comment on a proposed determination,False,True,"For any determination made under paragraph (e)(1) of this section, prior to making such a determination",none,"(3) For any determination made under paragraph (e)(1) of this 
+section, the Regional Administrator shall, prior to making such a 
+determination, provide for public notice and comment on a proposed 
+determination.",§ 131.43(e)(1),primary,openai,gpt-5,1758,197
+122,EPA-HQ-OW-2009-0596,final,0,True,"The sentence appears in CFR regulatory text prescribing actions by the Regional Administrator and is part of binding regulatory requirements, not preamble or mere definitions.",compound,none,131,131.43(e)(3),the Regional Administrator,shall,strong,prepare,a technical support document addressing the specific surface waters affected and the justification for each proposed determination,False,True,For any such proposed determination,none,"For any such proposed determination, the Regional 
+Administrator shall prepare and make available to the public a 
+technical support document addressing the specific surface waters 
+affected and the justification for each proposed determination.",,primary,openai,gpt-5,1764,316
+122,EPA-HQ-OW-2009-0596,final,1,True,"The sentence appears in CFR regulatory text prescribing actions by the Regional Administrator and is part of binding regulatory requirements, not preamble or mere definitions.",compound,none,131,131.43(e)(3),the Regional Administrator,shall,strong,make available to the public,a technical support document addressing the specific surface waters affected and the justification for each proposed determination,False,True,For any such proposed determination,none,"For any such proposed determination, the Regional 
+Administrator shall prepare and make available to the public a 
+technical support document addressing the specific surface waters 
+affected and the justification for each proposed determination.",,primary,openai,gpt-5,0,0
+123,EPA-HQ-OW-2009-0596,final,0,True,"The sentence appears within binding regulatory text of § 131.43, not preamble, and prescribes a deadline for public availability, making it a binding obligation.",simple,none,131,131.43(e)(3),The Regional Administrator,shall,strong,make available to the public,the technical support document,False,False,,none,"This 
+document shall be made available to the public no later than the date 
+of public notice issuance.
+    (4)",,primary,openai,gpt-5,1742,186
+124,EPA-HQ-OW-2009-0596,final,0,True,"The sentence appears in binding CFR regulatory text within § 131.43, not preamble, and uses mandatory modal “shall,” making it a new or operative requirement.",compound,none,131,131.43,The Regional Administrator,shall,strong,maintain,an updated list of determinations made pursuant to paragraph (e)(1) of this section,False,False,,none,"The Regional Administrator shall maintain and make available to 
+the public an updated list of determinations made pursuant to paragraph 
+(e)(1) of this section as well as the technical support documents for 
+each determination.
+    (5) Nothing in this paragraph (e) shall limit the Administrator's 
+authority to modify the criteria in paragraph (c) of this section 
+through rulemaking.
+    (f) Effective date.",§ 131.43(e)(1),primary,openai,gpt-5,1815,321
+124,EPA-HQ-OW-2009-0596,final,1,True,"The sentence appears in binding CFR regulatory text within § 131.43, not preamble, and uses mandatory modal “shall,” making it a new or operative requirement.",compound,none,131,131.43,The Regional Administrator,shall,strong,make available to the public,an updated list of determinations and the technical support documents for each determination,False,False,,none,"The Regional Administrator shall maintain and make available to 
+the public an updated list of determinations made pursuant to paragraph 
+(e)(1) of this section as well as the technical support documents for 
+each determination.
+    (5) Nothing in this paragraph (e) shall limit the Administrator's 
+authority to modify the criteria in paragraph (c) of this section 
+through rulemaking.
+    (f) Effective date.",§ 131.43(e)(1),primary,openai,gpt-5,0,0

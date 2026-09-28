@@ -1,0 +1,92 @@
+candidate_idx,docket_id,rule_type,split_idx,verified,verified_reason,complexity,recital_disposition,cfr_part,cfr_section,subject,modal,modal_strength,action,object,passive_voice,is_conditional,condition_text,amendatory_action,obligation_text,cross_reference,found_via,llm_provider,llm_model,in_tokens,out_tokens
+81,EPA-HQ-OW-2011-0880,proposed,0,True,The text is within an amendatory block revising § 328.3 and sets binding regulatory definitions with embedded criteria.,simple,definition_embedded,328,328.3(a)(1),waters of the United States,no_modal_implicit,strong,includes,"all waters which are currently used, were used in the past, or are susceptible to use in interstate or foreign commerce, including all waters subject to the ebb and flow of the tide",False,True,"For purposes of all sections of the Clean Water Act and its implementing regulations, and subject to the exclusions in paragraph (b) of this section",revise,"and its implementing regulations, subject to the 
+exclusions in paragraph (b) of this section, the term ``waters of the 
+United States'' means:
+    (1) All waters which are currently used, were used in the past, or 
+may be susceptible to use in interstate or foreign commerce, including 
+all waters which are subject to the ebb and flow of the tide;",paragraph (b) of this section,primary,openai,gpt-5,1969,248
+82,EPA-HQ-OW-2011-0880,proposed,0,True,The sentence appears within an amendatory block revising § 328.3 and embeds a definitional criterion that functions as a binding requirement.,simple,definition_embedded,328,328.3,an effect,must,strong,be,more than speculative or insubstantial for it to be considered significant,False,False,,revise,"For an effect to be significant, it must be more 
+than speculative or insubstantial.",,primary,openai,gpt-5,1719,185
+85,EPA-HQ-OW-2011-0880,proposed,0,True,"The text appears within an amendatory block revising § 112.2 to read as follows, making the definition’s embedded criteria binding.",simple,definition_embedded,112,112.2,waters of the United States,no_modal_implicit,strong,must be classified as including the listed categories,"(i) waters used, previously used, or susceptible to use in interstate or foreign commerce, including tidal waters; (ii) interstate waters, including interstate wetlands; (iii) the territorial seas; (iv) all impoundments of waters identified in (1)(i)–(iii) and (v)",False,True,"For purposes of all sections of the Clean Water Act and its implementing regulations, subject to the exclusions in paragraph (b) of this section",revise,"and its implementing regulations, subject to the 
+exclusions in paragraph (b) of this section, the term ``waters of the 
+United States'' means:
+    (i) All waters which are currently used, were used in the past, or 
+may be susceptible to use in interstate or foreign commerce, including 
+all waters which are subject to the ebb and flow of the tide;
+    (ii) All interstate waters, including interstate wetlands;
+    (iii) The territorial seas;
+    (iv) All impoundments of waters identified in paragraphs (1)(i) 
+through (iii) and (v) of this definition;",,primary,openai,gpt-5,2118,274
+86,EPA-HQ-OW-2011-0880,proposed,0,True,"The sentence appears within an amendatory definitions block being revised, making it new binding text, and it prescribes a criterion (more than speculative or insubstantial).",simple,definition_embedded,112,112.2,an effect,must,strong,meet the significance criterion,be more than speculative or insubstantial,False,False,,revise,"For an effect to be 
+significant, it must be more than speculative or insubstantial.",,primary,openai,gpt-5,1730,189
+88,EPA-HQ-OW-2011-0880,proposed,0,True,"The sentence appears within an amendatory definitions block being revised, which makes it new binding text, and it sets a quantitative/threshold criterion within a definition.",simple,definition_embedded,116,116.3,an effect,must,strong,be,more than speculative or insubstantial,False,False,,revise,"For an effect to be 
+significant, it must be more than speculative or insubstantial.",,primary,openai,gpt-5,1727,182
+90,EPA-HQ-OW-2011-0880,proposed,0,True,"The sentence appears within an amendatory block revising regulatory text, making it new binding text.",simple,definition_embedded,117,117.1,an effect,must,strong,be,more than speculative or insubstantial,False,True,For an effect to be significant,revise,"For an effect to be significant, it must 
+be more than speculative or insubstantial.",,primary,openai,gpt-5,1727,176
+91,EPA-HQ-OW-2011-0880,proposed,0,True,"The text is within an amendatory block revising § 122.2 to read as follows, making the definition-binding text newly operative.",simple,definition_embedded,122,122.2,waters of the United States,no_modal_implicit,strong,includes,"all waters which are currently used, were used in the past, or may be susceptible to use in interstate or foreign commerce, including all waters which are subject to the ebb and flow of the tide",False,True,"For purposes of all sections of the Clean Water Act and its implementing regulations, and subject to the exclusions in paragraph (b) of this definition",revise,"and its implementing regulations, subject to the 
+exclusions in paragraph (b) of this definition, the term ``waters of 
+the United States'' means:
+    (1) All waters which are currently used, were used in the past, or 
+may be susceptible to use in interstate or foreign commerce, including 
+all waters which are subject to the ebb and flow of the tide;",,primary,openai,gpt-5,1969,245
+92,EPA-HQ-OW-2011-0880,proposed,0,True,"The sentence appears inside amendatory regulatory text revising § 122.2 and prescribes a quantitative/eligibility criterion within a definition, which is binding.",simple,definition_embedded,122,122.2,an effect,must,strong,be,more than speculative or insubstantial,False,True,for an effect to be considered significant under the definition of significant nexus,revise,"For an effect to be significant, it must be 
+more than speculative or insubstantial.",,primary,openai,gpt-5,1723,196
+94,EPA-HQ-OW-2011-0880,proposed,0,True,"The sentence appears within an amendatory block revising regulatory text and embeds a quantitative/eligibility criterion within a definition, making it binding.",simple,definition_embedded,230,230.3,an effect,must,strong,be,more than speculative or insubstantial,False,True,For an effect to be significant,revise,"For an effect to be significant, it must be more 
+than speculative or insubstantial.",§ 230.3(s)(1) through (3),primary,openai,gpt-5,1724,197
+95,EPA-HQ-OW-2011-0880,proposed,0,True,"Text is within an amendatory block revising § 232.2 and thus constitutes new binding regulatory text, though it is definitional scope rather than a prescriptive duty.",simple,definition_embedded,232,232.2,waters,no_modal_implicit,strong,qualify as waters of the United States,"if they meet any of the listed categories, including case-specific waters with a significant nexus",False,True,"On a case-specific basis, other waters, including wetlands, qualify when those waters alone, or in combination with other similarly situated waters located in the same region, have a significant nexus to a water identified in paragraphs (1)(i) through (iii) of this definition.",revise,"[[Page 22270]]
+
+    (i) All waters which are currently used, were used in the past, or 
+may be susceptible to use in interstate or foreign commerce, including 
+all waters which are subject to the ebb and flow of the tide;
+    (ii) All interstate waters, including interstate wetlands;
+    (iii) The territorial seas;
+    (iv) All impoundments of waters identified in paragraphs (1)(i) 
+through (iii) and (v) of this definition;
+    (v) All tributaries of waters identified in paragraphs (1)(i) 
+through (iv) of this section;
+    (vi) All waters, including wetlands, adjacent to a water identified 
+in paragraphs (1)(i) through (v) of this definition; and
+    (vii) On a case-specific basis, other waters, including wetlands, 
+provided that those waters alone, or in combination with other 
+similarly situated waters, including wetlands, located in the same 
+region, have a significant nexus to a water identified in paragraphs 
+(1)(i) through (iii) of this definition.",,primary,openai,gpt-5,2232,259
+96,EPA-HQ-OW-2011-0880,proposed,0,True,"The sentence appears within an amendatory definitions section being revised and contains a mandatory criterion embedded in a definition, which constitutes binding text.",simple,definition_embedded,232,232.2,an effect,must,strong,be,more than speculative or insubstantial,False,True,For an effect to be considered significant within the definition of significant nexus,revise,"For an effect to be 
+significant, it must be more than speculative or insubstantial.",,primary,openai,gpt-5,1725,190
+98,EPA-HQ-OW-2011-0880,proposed,0,True,"The sentence appears within an amendatory block revising a definition, which makes the language new binding text; it also embeds a definitional criterion.",simple,definition_embedded,300,300.5,an effect,must,strong,be more than speculative or insubstantial,None,False,True,For an effect to be significant,revise,"For an effect to be 
+significant, it must be more than speculative or insubstantial.",,primary,openai,gpt-5,1728,186
+99,EPA-HQ-OW-2011-0880,proposed,0,True,"The text appears within an amendatory block revising a definition to read as follows, which makes the embedded definitional criteria binding.",simple,definition_embedded,300,300.5,waters of the United States,no_modal_implicit,strong,consist of,"all waters currently used, formerly used, or susceptible to use in interstate or foreign commerce, including all waters subject to the ebb and flow of the tide; all interstate waters, including interstate wetlands; and the territorial seas",False,True,"For purposes of all sections of the Clean Water Act and its implementing regulations, and subject to the exclusions in paragraph (2) of this definition",revise,"and its implementing regulations, subject to the 
+exclusions in paragraph (2) of this definition, the term ``waters of 
+the United States'' means:
+    (i) All waters which are currently used, were used in the past, 
+or may be susceptible to use in interstate or foreign commerce, 
+including all waters which are subject to the ebb and flow of the 
+tide;
+    (ii) All interstate waters, including interstate wetlands;
+    (iii) The territorial seas;",40 CFR 110.1,primary,openai,gpt-5,2026,255
+100,EPA-HQ-OW-2011-0880,proposed,0,True,"The sentence appears within an amendatory block revising § 300.5 and, although inside a definition, it embeds a quantitative/eligibility criterion, creating a binding requirement.",simple,definition_embedded,300,300.5,an effect,must,strong,be more than,speculative or insubstantial,False,True,For an effect to be significant,revise,"For an effect to 
+be significant, it must be more than speculative or insubstantial.",,primary,openai,gpt-5,1725,194
+101,EPA-HQ-OW-2011-0880,proposed,0,True,"The text is within an amendatory block revising § 302.3 and creates binding regulatory text, though it is a definition without an explicit actor obligation.",simple,definition_embedded,302,302.3,waters of the United States,no_modal_implicit,strong,are defined as,"the categories listed in paragraphs (1)(i) through (vii), subject to the exclusions in paragraph (2)",False,True,"For purposes of all sections of the Clean Water Act and its implementing regulations, subject to the exclusions in paragraph (2) of this definition",revise,"and its implementing regulations, subject to the 
+exclusions in paragraph (2) of this definition, the term ``waters of 
+the United States'' means:
+    (i) All waters which are currently used, were used in the past, or 
+may be susceptible to use in interstate or foreign commerce, including 
+all waters which are subject to the ebb and flow of the tide;
+    (ii) All interstate waters, including interstate wetlands;
+    (iii) The territorial seas;
+    (iv) All impoundments of waters identified in paragraphs (1)(i) 
+through (iii) and (v) of this definition;
+    (v) All tributaries of waters identified in paragraphs (1)(i)",,primary,openai,gpt-5,2162,234
+103,EPA-HQ-OW-2011-0880,proposed,0,True,"The text is within an amendatory block revising § 401.11(l) and thus constitutes new binding regulatory text, even though it is a definition.",simple,definition_embedded,401,401.11(l)(1),waters of the United States,no_modal_implicit,strong,are defined as,"all waters currently or formerly used, or susceptible to use, in interstate or foreign commerce (including tidal waters); all interstate waters (including interstate wetlands); the territorial seas; all impoundments of waters identified in paragraphs (l)(1)(i) through (iii) and (v); and all tributaries of waters identified in paragraphs (l)(1)(i) through (iv)",False,True,"For purposes of all sections of the Clean Water Act and its implementing regulations, and subject to the exclusions in paragraph (l)(2) of this section",revise,"and its implementing regulations, subject to the 
+exclusions in paragraph (l)(2) of this section, the term ``waters of 
+the United States'' means:
+    (i) All waters which are currently used, were used in the past, or 
+may be susceptible to use in interstate or foreign commerce, including 
+all waters which are subject to the ebb and flow of the tide;
+    (ii) All interstate waters, including interstate wetlands;
+    (iii) The territorial seas;
+    (iv) All impoundments of waters identified in paragraphs (l)(1)(i) 
+through (iii) and (v) of this section;
+    (v) All tributaries of waters identified in paragraphs (l)(1)(i)",§ 401.11(l)(2),primary,openai,gpt-5,2185,302
+104,EPA-HQ-OW-2011-0880,proposed,0,True,The sentence appears within an amendatory block revising regulatory text and sets a binding criterion within a definition (definition-embedded obligation).,simple,definition_embedded,401,401.11,an effect,must,strong,exceed,a speculative or insubstantial level,False,False,,revise,"For an effect to be significant, it must 
+be more than speculative or insubstantial.",,primary,openai,gpt-5,1748,179

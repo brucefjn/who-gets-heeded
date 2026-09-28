@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite the paper."
+title: "Who Gets Heeded? Replication materials"
+type: software
+authors:
+  - family-names: Fan
+    given-names: Jianing
+    affiliation: Columbia University
+    email: jf3774@columbia.edu
+  - family-names: Yao
+    given-names: Yue
+    affiliation: Columbia University
+    email: yy3462@columbia.edu
+repository-code: "https://github.com/brucefjn/who-gets-heeded"
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "Who Gets Heeded? An Obligation-Level Audit of Responsiveness in EPA Rulemaking"
+  authors:
+    - family-names: Fan
+      given-names: Jianing
+      affiliation: Columbia University
+    - family-names: Yao
+      given-names: Yue
+      affiliation: Columbia University
+  collection-title: "Equity and Access in Algorithms, Mechanisms, and Optimization (EAAMO '26)"
+  publisher:
+    name: "Association for Computing Machinery"
+    city: "New York"
+    country: US
+  conference:
+    name: "EAAMO '26"
+    city: Munich
+    country: DE
+    date-start: "2026-11-05"
+    date-end: "2026-11-07"
+  year: 2026
+  doi: "10.1145/3846167.3848608"

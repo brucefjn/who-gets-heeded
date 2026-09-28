@@ -1,0 +1,416 @@
+candidate_idx,docket_id,rule_type,split_idx,verified,verified_reason,complexity,recital_disposition,cfr_part,cfr_section,subject,modal,modal_strength,action,object,passive_voice,is_conditional,condition_text,amendatory_action,obligation_text,cross_reference,found_via,llm_provider,llm_model,in_tokens,out_tokens
+139,EPA-HQ-OAR-2009-0517,final,0,True,The sentence appears within binding regulatory text of § 51.166(b)(48) and functions as an operative exception using mandatory modal language.,simple,definition_embedded,51,51.166(b)(48),Greenhouse gases (GHGs),must not,strong,be subject to regulation,None,True,True,except as provided in paragraphs (b)(48)(iv) through (v) of this section,none,"Except that:
+    (i) Greenhouse gases (GHGs), the air pollutant defined in Sec.  
+86.1818-12(a) of this chapter as the aggregate group of six greenhouse 
+gases: Carbon dioxide, nitrous oxide, methane, hydrofluorocarbons, 
+perfluorocarbons, and sulfur hexafluoride, shall not be subject to 
+regulation except as provided in paragraphs (b)(48)(iv) through (v) of 
+this section.",§ 86.1818-12(a),primary,openai,gpt-5,1938,210
+140,EPA-HQ-OAR-2009-0517,final,0,True,"The sentence appears within binding CFR regulatory text (not preamble) and prescribes how CO2e shall be computed, which functions as a binding methodological requirement.",compound,definition_embedded,51,51.166(b)(48)(ii),CO2e (tpy) computation,shall,strong,represent,an amount of greenhouse gases emitted,False,True,For purposes of paragraphs (b)(48)(iii) through (v) of this section,none,"For purposes of paragraphs (b)(48)(iii) through (v) of this 
+section, the term tpy CO<INF>2</INF> equivalent emissions 
+(CO<INF>2</INF>e) shall represent an amount of GHGs emitted, and shall 
+be computed as follows:
+    (a) Multiplying the mass amount of emissions (tpy), for each of the 
+six greenhouse gases in the pollutant GHGs, by the gas's associated 
+global warming potential published at Table A-1 to subpart A of part 98 
+of this chapter--Global Warming Potentials.",,primary,openai,gpt-5,2016,385
+140,EPA-HQ-OAR-2009-0517,final,1,True,"The sentence appears within binding CFR regulatory text (not preamble) and prescribes how CO2e shall be computed, which functions as a binding methodological requirement.",compound,definition_embedded,51,51.166(b)(48)(ii)(a),the calculation of CO2e,shall,strong,be computed by multiplying the mass amount of emissions for each of the six greenhouse gases by the gas's associated global warming potential,global warming potentials published at Table A-1 to subpart A of part 98 of this chapter,True,True,For purposes of paragraphs (b)(48)(iii) through (v) of this section,none,"For purposes of paragraphs (b)(48)(iii) through (v) of this 
+section, the term tpy CO<INF>2</INF> equivalent emissions 
+(CO<INF>2</INF>e) shall represent an amount of GHGs emitted, and shall 
+be computed as follows:
+    (a) Multiplying the mass amount of emissions (tpy), for each of the 
+six greenhouse gases in the pollutant GHGs, by the gas's associated 
+global warming potential published at Table A-1 to subpart A of part 98 
+of this chapter--Global Warming Potentials.",Table A-1 to subpart A of part 98,primary,openai,gpt-5,0,0
+142,EPA-HQ-OAR-2009-0517,final,0,True,"The sentence appears in regulatory text of § 51.166 setting operative criteria and uses mandatory modal 'shall', making it binding regulatory text.",compound,none,51,51.166(b)(48)(iii),emissions increase for the pollutant GHGs,shall,strong,be based on,tpy CO2e,True,False,,none,"For the pollutant 
+GHGs, an emissions increase shall be based on tpy CO<INF>2</INF>e, and 
+shall be calculated assuming the pollutant GHGs is a regulated NSR 
+pollutant, and ``significant'' is defined as 75,000 tpy CO<INF>2</INF>",,primary,openai,gpt-5,1891,432
+142,EPA-HQ-OAR-2009-0517,final,1,True,"The sentence appears in regulatory text of § 51.166 setting operative criteria and uses mandatory modal 'shall', making it binding regulatory text.",compound,none,51,51.166(b)(48)(iii),emissions increase for the pollutant GHGs,shall,strong,be calculated assuming,the pollutant GHGs is a regulated NSR pollutant,True,False,,none,"For the pollutant 
+GHGs, an emissions increase shall be based on tpy CO<INF>2</INF>e, and 
+shall be calculated assuming the pollutant GHGs is a regulated NSR 
+pollutant, and ``significant'' is defined as 75,000 tpy CO<INF>2</INF>",,primary,openai,gpt-5,0,0
+142,EPA-HQ-OAR-2009-0517,final,2,True,"The sentence appears in regulatory text of § 51.166 setting operative criteria and uses mandatory modal 'shall', making it binding regulatory text.",compound,none,51,51.166(b)(48)(iii),the term “significant” for GHGs,shall,strong,be defined as,"75,000 tpy CO2e",True,False,,none,"For the pollutant 
+GHGs, an emissions increase shall be based on tpy CO<INF>2</INF>e, and 
+shall be calculated assuming the pollutant GHGs is a regulated NSR 
+pollutant, and ``significant'' is defined as 75,000 tpy CO<INF>2</INF>",§ 51.166(b)(23)(ii),primary,openai,gpt-5,0,0
+143,EPA-HQ-OAR-2009-0517,final,0,True,"The text is within regulatory section § 51.166 operative provisions stating when GHGs are subject to regulation, which functions as binding amendatory/regulatory text rather than preamble or mere definition scope-clarification.",compound,definition_embedded,51,51.166(b)(48)(v)(a),the pollutant GHGs,shall,strong,be subject to regulation,None,True,True,"Beginning July 1, 2011, in addition to paragraph (b)(48)(iv), at a new stationary source that will emit or have the potential to emit 100,000 tpy CO2e",none,"The stationary source is an existing major stationary source 
+for a regulated NSR pollutant that is not GHGs, and also will have an 
+emissions increase of a regulated NSR pollutant, and an emissions 
+increase of 75,000 tpy CO<INF>2</INF>e or more; and,
+    (v) Beginning July 1, 2011, in addition to the provisions in 
+paragraph (b)(48)(iv) of this section, the pollutant GHGs shall also be 
+subject to regulation:
+    (a) At a new stationary source that will emit or have the potential 
+to emit 100,000 tpy CO<INF>2</INF>e; or
+    (b) At an existing stationary source that emits or has the 
+potential to emit 100,000 tpy CO<INF>2</INF>e, when such stationary 
+source undertakes a physical change or change in the method of 
+operation that will result in an emissions increase of 75,000 tpy 
+CO<INF>2</INF>e or more.
+    (49) *",§ 51.166(b)(48)(iv),primary,openai,gpt-5,2222,446
+143,EPA-HQ-OAR-2009-0517,final,1,True,"The text is within regulatory section § 51.166 operative provisions stating when GHGs are subject to regulation, which functions as binding amendatory/regulatory text rather than preamble or mere definition scope-clarification.",compound,definition_embedded,51,51.166(b)(48)(v)(b),the pollutant GHGs,shall,strong,be subject to regulation,None,True,True,"Beginning July 1, 2011, in addition to paragraph (b)(48)(iv), at an existing stationary source that emits or has the potential to emit 100,000 tpy CO2e, when the source undertakes a physical change or change in the method of operation that will result in an emissions increase of 75,000 tpy CO2e or more",none,"The stationary source is an existing major stationary source 
+for a regulated NSR pollutant that is not GHGs, and also will have an 
+emissions increase of a regulated NSR pollutant, and an emissions 
+increase of 75,000 tpy CO<INF>2</INF>e or more; and,
+    (v) Beginning July 1, 2011, in addition to the provisions in 
+paragraph (b)(48)(iv) of this section, the pollutant GHGs shall also be 
+subject to regulation:
+    (a) At a new stationary source that will emit or have the potential 
+to emit 100,000 tpy CO<INF>2</INF>e; or
+    (b) At an existing stationary source that emits or has the 
+potential to emit 100,000 tpy CO<INF>2</INF>e, when such stationary 
+source undertakes a physical change or change in the method of 
+operation that will result in an emissions increase of 75,000 tpy 
+CO<INF>2</INF>e or more.
+    (49) *",§ 51.166(b)(48)(iv),primary,openai,gpt-5,0,0
+144,EPA-HQ-OAR-2009-0517,final,0,True,"The text appears within an explicit amendatory block adding/revising § 52.21 paragraphs with “The revisions and additions read as follows,” making it new binding regulatory text.",simple,none,51,52.21(b)(49)(v),the term regulated NSR pollutant,may not,strong,include,any or all hazardous air pollutants listed under section 112 of the Act or added under section 112(b)(2) and not delisted under section 112(b)(3),False,True,unless the listed hazardous air pollutant is also regulated as a constituent or precursor of a general pollutant listed under section 108 of the Act,add,"Any pollutant that otherwise is subject to regulation under 
+the Act as defined in paragraph (b)(48) of this section.
+    (v) Notwithstanding paragraphs (b)(49)(i) through (iv) of this 
+section, the term regulated NSR pollutant shall not include any or all 
+hazardous air pollutants either listed in section 112 of the Act, or 
+added to the list pursuant to section 112(b)(2) of the Act, and which 
+have not been delisted pursuant to section 112(b)(3) of the Act, unless 
+the listed hazardous air pollutant is also regulated as a constituent 
+or precursor of a general pollutant listed under section 108 of the 
+Act.",§ 51.166(b)(49),primary,openai,gpt-5,2116,259
+145,EPA-HQ-OAR-2009-0517,final,0,True,"The sentence appears within codified regulatory text of § 52.21(b)(49) establishing definitions and exceptions as binding CFR language, indicating an amendatory context.",simple,definition_embedded,52,52.21(b)(49)(i),Greenhouse gases (GHGs),may not,strong,be subject to regulation,None,True,True,except as provided in paragraphs (b)(49)(iv) through (v) of this section,none,"Except that:
+    (i) Greenhouse gases (GHGs), the air pollutant defined in Sec.  
+86.1818-12(a) of this chapter as the aggregate group of six greenhouse 
+gases: Carbon dioxide, nitrous oxide, methane, hydrofluorocarbons, 
+perfluorocarbons, and sulfur hexafluoride, shall not be subject to 
+regulation except as provided in paragraphs (b)(49)(iv) through (v) of 
+this section.",§ 86.1818-12(a),primary,openai,gpt-5,1940,217
+146,EPA-HQ-OAR-2009-0517,final,0,True,"It is operative regulatory text within § 52.21 defining a computation method with mandatory modals (shall), not preamble or mere scope clarification.",compound,definition_embedded,52,52.21,tpy CO2 equivalent emissions (CO2e),shall,strong,represent,an amount of greenhouse gases (GHGs) emitted,False,True,For purposes of paragraphs (b)(49)(iii) through (v) of this section,none,"For purposes of paragraphs (b)(49)(iii) through (v) of this 
+section, the term tpy CO<INF>2</INF> equivalent emissions 
+(CO<INF>2</INF>e) shall represent an amount of GHGs emitted, and shall 
+be computed as follows:
+    (a) Multiplying the mass amount of emissions (tpy), for each of the 
+six greenhouse gases in the pollutant GHGs, by the gas's associated 
+global warming potential published at Table A-1 to subpart A of part 98 
+of this chapter--Global Warming Potentials.",Table A-1 to subpart A of part 98,primary,openai,gpt-5,2010,398
+146,EPA-HQ-OAR-2009-0517,final,1,True,"It is operative regulatory text within § 52.21 defining a computation method with mandatory modals (shall), not preamble or mere scope clarification.",compound,definition_embedded,52,52.21,the calculation of tpy CO2e,shall,strong,be computed,by multiplying the mass amount of emissions (tpy) for each of the six greenhouse gases by the gas’s associated global warming potential published at Table A-1 to subpart A of part 98 and summing the resultant values for each gas,True,True,For purposes of paragraphs (b)(49)(iii) through (v) of this section,none,"For purposes of paragraphs (b)(49)(iii) through (v) of this 
+section, the term tpy CO<INF>2</INF> equivalent emissions 
+(CO<INF>2</INF>e) shall represent an amount of GHGs emitted, and shall 
+be computed as follows:
+    (a) Multiplying the mass amount of emissions (tpy), for each of the 
+six greenhouse gases in the pollutant GHGs, by the gas's associated 
+global warming potential published at Table A-1 to subpart A of part 98 
+of this chapter--Global Warming Potentials.",Table A-1 to subpart A of part 98,primary,openai,gpt-5,0,0
+148,EPA-HQ-OAR-2009-0517,final,0,True,"The sentence is within binding regulatory text of § 52.21 defining calculation procedures and uses the mandatory modal “shall,” indicating new or controlling requirements in the CFR section text.",compound,none,52,52.21(b)(49)(iii),an emissions increase for the pollutant GHGs,shall,strong,be based,tpy CO2e,True,False,,none,"For the pollutant GHGs, an emissions increase shall be based on tpy 
+CO<INF>2</INF>e, and shall be calculated assuming the pollutant GHGs is 
+a regulated NSR pollutant, and ``significant'' is defined as 75,000 tpy 
+CO<INF>2</INF>e instead of applying the value in paragraph (b)(23)(ii) 
+of this section.",,primary,openai,gpt-5,1939,458
+148,EPA-HQ-OAR-2009-0517,final,1,True,"The sentence is within binding regulatory text of § 52.21 defining calculation procedures and uses the mandatory modal “shall,” indicating new or controlling requirements in the CFR section text.",compound,none,52,52.21(b)(49)(iii),an emissions increase for the pollutant GHGs,shall,strong,be calculated,assuming the pollutant GHGs is a regulated NSR pollutant,True,False,,none,"For the pollutant GHGs, an emissions increase shall be based on tpy 
+CO<INF>2</INF>e, and shall be calculated assuming the pollutant GHGs is 
+a regulated NSR pollutant, and ``significant'' is defined as 75,000 tpy 
+CO<INF>2</INF>e instead of applying the value in paragraph (b)(23)(ii) 
+of this section.",,primary,openai,gpt-5,0,0
+148,EPA-HQ-OAR-2009-0517,final,2,True,"The sentence is within binding regulatory text of § 52.21 defining calculation procedures and uses the mandatory modal “shall,” indicating new or controlling requirements in the CFR section text.",compound,none,52,52.21(b)(49)(iii),the term “significant” for the pollutant GHGs,shall,strong,be defined,"as 75,000 tpy CO2e instead of the value in paragraph (b)(23)(ii) of this section",True,False,,none,"For the pollutant GHGs, an emissions increase shall be based on tpy 
+CO<INF>2</INF>e, and shall be calculated assuming the pollutant GHGs is 
+a regulated NSR pollutant, and ``significant'' is defined as 75,000 tpy 
+CO<INF>2</INF>e instead of applying the value in paragraph (b)(23)(ii) 
+of this section.",§ 52.21(b)(23)(ii),primary,openai,gpt-5,0,0
+149,EPA-HQ-OAR-2009-0517,final,0,True,"The text appears within CFR regulatory text setting thresholds and states that GHGs shall be subject to regulation beginning specified dates, which is binding amendatory/regulatory language.",compound,definition_embedded,52,52.21(b)(49)(iv)(b),the pollutant GHGs,shall,strong,be subject to regulation,"beginning January 2, 2011, if the stationary source is an existing major stationary source for a regulated NSR pollutant that is not GHGs and will have an emissions increase of a regulated NSR pollutant and an emissions increase of 75,000 tpy CO2e or more",True,True,"Beginning January 2, 2011, if the stationary source is an existing major stationary source for a regulated NSR pollutant that is not GHGs and will have an emissions increase of a regulated NSR pollutant and an emissions increase of 75,000 tpy CO2e or more",none,"The stationary source is an existing major stationary source 
+for a regulated NSR pollutant that is not GHGs, and also will have an 
+emissions increase of a regulated NSR pollutant, and an emissions 
+increase of 75,000 tpy CO<INF>2</INF>e or more; and,
+    (v) Beginning July 1, 2011, in addition to the provisions in 
+paragraph (b)(49)(iv) of this section, the pollutant GHGs shall also be 
+subject to regulation
+    (a) At a new stationary source that will emit or have the potential 
+to emit 100,000 tpy CO<INF>2</INF>e; or
+    (b) At an existing stationary source that emits or has the 
+potential to emit 100,000 tpy CO<INF>2</INF>e, when such stationary 
+source undertakes a physical change or change in the method of 
+operation that will result in an emissions increase of 75,000 tpy 
+CO<INF>2</INF>e or more.
+    (50) *",,primary,openai,gpt-5,2223,722
+149,EPA-HQ-OAR-2009-0517,final,1,True,"The text appears within CFR regulatory text setting thresholds and states that GHGs shall be subject to regulation beginning specified dates, which is binding amendatory/regulatory language.",compound,definition_embedded,52,52.21(b)(49)(v)(a),the pollutant GHGs,shall,strong,also be subject to regulation,"beginning July 1, 2011, at a new stationary source that will emit or have the potential to emit 100,000 tpy CO2e",True,True,"Beginning July 1, 2011, at a new stationary source that will emit or have the potential to emit 100,000 tpy CO2e",none,"The stationary source is an existing major stationary source 
+for a regulated NSR pollutant that is not GHGs, and also will have an 
+emissions increase of a regulated NSR pollutant, and an emissions 
+increase of 75,000 tpy CO<INF>2</INF>e or more; and,
+    (v) Beginning July 1, 2011, in addition to the provisions in 
+paragraph (b)(49)(iv) of this section, the pollutant GHGs shall also be 
+subject to regulation
+    (a) At a new stationary source that will emit or have the potential 
+to emit 100,000 tpy CO<INF>2</INF>e; or
+    (b) At an existing stationary source that emits or has the 
+potential to emit 100,000 tpy CO<INF>2</INF>e, when such stationary 
+source undertakes a physical change or change in the method of 
+operation that will result in an emissions increase of 75,000 tpy 
+CO<INF>2</INF>e or more.
+    (50) *",,primary,openai,gpt-5,0,0
+149,EPA-HQ-OAR-2009-0517,final,2,True,"The text appears within CFR regulatory text setting thresholds and states that GHGs shall be subject to regulation beginning specified dates, which is binding amendatory/regulatory language.",compound,definition_embedded,52,52.21(b)(49)(v)(b),the pollutant GHGs,shall,strong,also be subject to regulation,"beginning July 1, 2011, at an existing stationary source that emits or has the potential to emit 100,000 tpy CO2e when the source undertakes a physical change or change in the method of operation that will result in an emissions increase of 75,000 tpy CO2e or more",True,True,"Beginning July 1, 2011, at an existing stationary source that emits or has the potential to emit 100,000 tpy CO2e, when the source undertakes a physical change or change in the method of operation that will result in an emissions increase of 75,000 tpy CO2e or more",none,"The stationary source is an existing major stationary source 
+for a regulated NSR pollutant that is not GHGs, and also will have an 
+emissions increase of a regulated NSR pollutant, and an emissions 
+increase of 75,000 tpy CO<INF>2</INF>e or more; and,
+    (v) Beginning July 1, 2011, in addition to the provisions in 
+paragraph (b)(49)(iv) of this section, the pollutant GHGs shall also be 
+subject to regulation
+    (a) At a new stationary source that will emit or have the potential 
+to emit 100,000 tpy CO<INF>2</INF>e; or
+    (b) At an existing stationary source that emits or has the 
+potential to emit 100,000 tpy CO<INF>2</INF>e, when such stationary 
+source undertakes a physical change or change in the method of 
+operation that will result in an emissions increase of 75,000 tpy 
+CO<INF>2</INF>e or more.
+    (50) *",,primary,openai,gpt-5,0,0
+150,EPA-HQ-OAR-2009-0517,final,0,True,"The text appears within an amendatory block adding and revising regulatory text (e.g., “A new § 52.22 is added to read as follows” and changes within § 52.21), so the language is new binding text.",simple,none,52,52.21(b)(50)(v),the term regulated NSR pollutant,may not,strong,include,any hazardous air pollutants listed in section 112 of the Act or added under section 112(b)(2) and not delisted under section 112(b)(3),False,True,unless the listed hazardous air pollutant is also regulated as a constituent or precursor of a general pollutant listed under section 108 of the Act,revise,"Any pollutant that otherwise is subject to regulation under 
+the Act as defined in paragraph (b)(49) of this section.
+    (v) Notwithstanding paragraphs (b)(50)(i) through (iv) of this 
+section, the term regulated NSR pollutant shall not include any or all 
+hazardous air pollutants either listed in section 112 of the Act, or 
+added to the list pursuant to section 112(b)(2) of the Act, and which 
+have not been delisted pursuant to section 112(b)(3) of the Act, unless 
+the listed hazardous air pollutant is also regulated as a constituent 
+or precursor of a general pollutant listed under section 108 of the 
+Act.",,primary,openai,gpt-5,2110,264
+151,EPA-HQ-OAR-2009-0517,final,0,True,"The text appears inside an amendatory block adding § 52.22 to read as follows, making the included language binding regulatory text.",simple,definition_embedded,52,52.22,All other terms used in this section,shall,strong,have the meaning given,in § 52.21,False,False,,add,"(1) Greenhouse Gases (GHGs) means the air pollutant as defined in 
+Sec.  86.1818-12(a) of this chapter as the aggregate group of six 
+greenhouse gases: Carbon dioxide, nitrous oxide, methane, 
+hydrofluorocarbons, perfluorocarbons, and sulfur hexafluoride.
+    (2) All other terms used in this section shall have the meaning 
+given in Sec.  52.21.
+    (b) Further action to regulate GHGs under the PSD program.",§ 52.21,primary,openai,gpt-5,1967,189
+152,EPA-HQ-OAR-2009-0517,final,0,True,"The sentence appears within an amendatory block introduced by “to read as follows,” making it new binding regulatory text.",simple,none,52,52.22(b)(1),The Administrator,shall,strong,solicit,comment on promulgating lower GHGs thresholds for PSD applicability,False,False,,add,"The Administrator shall solicit 
+comment, under section 307(b) of the Act, on promulgating lower GHGs 
+thresholds for PSD applicability.",section 307(b) of the Act,primary,openai,gpt-5,1794,188
+153,EPA-HQ-OAR-2009-0517,final,0,True,The sentence appears within an amendatory block adding regulatory text and prescribes binding deadlines for agency action.,compound,none,52,52.21,the Administrator,shall,strong,finalize,the action to promulgate lower GHG thresholds for PSD applicability,False,False,,add,"Such action shall be finalized by 
+July 1, 2012 and become effective July 1, 2013.
+    (2) Further study and action on GHGs.",,primary,openai,gpt-5,1786,285
+153,EPA-HQ-OAR-2009-0517,final,1,True,The sentence appears within an amendatory block adding regulatory text and prescribes binding deadlines for agency action.,compound,none,52,52.21,the action to promulgate lower GHG thresholds for PSD applicability,shall,strong,become effective,"on July 1, 2013",False,False,,add,"Such action shall be finalized by 
+July 1, 2012 and become effective July 1, 2013.
+    (2) Further study and action on GHGs.",,primary,openai,gpt-5,0,0
+154,EPA-HQ-OAR-2009-0517,final,0,True,The sentence appears within an amendatory block adding regulatory text and uses binding modal language directed at the Administrator.,simple,none,52,52.21,the Administrator,shall,strong,complete,a study projecting the administrative burdens that remain with respect to stationary sources for which GHGs do not constitute a regulated NSR pollutant,False,False,,add,"(i) No later than April 30, 2015 the Administrator shall complete a 
+study projecting the administrative burdens that remain with respect to 
+stationary sources for which GHGs do not constitute a regulated NSR 
+pollutant.",§ 52.21,primary,openai,gpt-5,1812,194
+155,EPA-HQ-OAR-2009-0517,final,0,True,"The sentence appears within an amendatory block adding text to § 52.21 and prescribes what the Administrator’s study must include, making it binding.",compound,none,52,52.21(b)(2)(i),the study,shall,strong,account for,permitting authorities' ability to secure resources,False,False,,add,"Such study shall account, among other things, for permitting 
+authorities ability to secure resources, hire and train staff; 
+experiences associated with GHG permitting for new types of sources and 
+technologies; and, the success of streamlining measures developed by 
+EPA (and adopted by the states) for reducing the permitting burden 
+associated with such stationary sources.",,primary,openai,gpt-5,1871,527
+155,EPA-HQ-OAR-2009-0517,final,1,True,"The sentence appears within an amendatory block adding text to § 52.21 and prescribes what the Administrator’s study must include, making it binding.",compound,none,52,52.21(b)(2)(i),the study,shall,strong,account for,permitting authorities' ability to hire and train staff,False,False,,add,"Such study shall account, among other things, for permitting 
+authorities ability to secure resources, hire and train staff; 
+experiences associated with GHG permitting for new types of sources and 
+technologies; and, the success of streamlining measures developed by 
+EPA (and adopted by the states) for reducing the permitting burden 
+associated with such stationary sources.",,primary,openai,gpt-5,0,0
+155,EPA-HQ-OAR-2009-0517,final,2,True,"The sentence appears within an amendatory block adding text to § 52.21 and prescribes what the Administrator’s study must include, making it binding.",compound,none,52,52.21(b)(2)(i),the study,shall,strong,account for,experiences associated with GHG permitting for new types of sources and technologies,False,False,,add,"Such study shall account, among other things, for permitting 
+authorities ability to secure resources, hire and train staff; 
+experiences associated with GHG permitting for new types of sources and 
+technologies; and, the success of streamlining measures developed by 
+EPA (and adopted by the states) for reducing the permitting burden 
+associated with such stationary sources.",,primary,openai,gpt-5,0,0
+155,EPA-HQ-OAR-2009-0517,final,3,True,"The sentence appears within an amendatory block adding text to § 52.21 and prescribes what the Administrator’s study must include, making it binding.",compound,none,52,52.21(b)(2)(i),the study,shall,strong,account for,the success of streamlining measures developed by EPA (and adopted by the states) for reducing the permitting burden associated with such stationary sources,False,False,,add,"Such study shall account, among other things, for permitting 
+authorities ability to secure resources, hire and train staff; 
+experiences associated with GHG permitting for new types of sources and 
+technologies; and, the success of streamlining measures developed by 
+EPA (and adopted by the states) for reducing the permitting burden 
+associated with such stationary sources.",,primary,openai,gpt-5,0,0
+156,EPA-HQ-OAR-2009-0517,final,0,True,"The sentence appears within amendatory text being added/revised to CFR Part 52, making it new binding regulatory text.",simple,none,52,52.21,the Administrator,shall,strong,propose,a rule addressing the permitting obligations of such stationary sources under § 52.21 and § 51.166 of this chapter,False,True,Based on the results of the study described in paragraph (b)(2)(i) of this section,add,"Based on the results of the study described in paragraph 
+(b)(2)(i) of this section, the Administrator shall propose a rule 
+addressing the permitting obligations of such stationary sources under 
+Sec.  52.21 and Sec.  51.166 of this chapter.",§ 51.166,primary,openai,gpt-5,1814,216
+157,EPA-HQ-OAR-2009-0517,final,0,True,"The text appears within an amendatory block that revises/adds regulatory text, making the obligations binding.",compound,none,52,52.21,The Administrator,shall,strong,take final action,on the proposed rule addressing the permitting obligations of such stationary sources,False,False,,add,"The Administrator shall 
+take final action on such a rule no later than April 30, 2016.
+    (iii) Before completing the rule described in paragraph (b)(2)(ii) 
+of this section, the Administrator shall take no action to make the 
+pollutant GHGs subject to regulation at stationary sources that emit or 
+have the potential to emit less than 50,000 tpy CO<INF>2</INF>e, or for 
+physical changes or changes in the method of operations at stationary 
+sources that result in an emissions increase of less than 50,000 tpy 
+CO<INF>2</INF>",§§ 52.21 and 51.166,primary,openai,gpt-5,1989,373
+157,EPA-HQ-OAR-2009-0517,final,1,True,"The text appears within an amendatory block that revises/adds regulatory text, making the obligations binding.",compound,none,52,52.21,The Administrator,shall,strong,take no action to make the pollutant GHGs subject to regulation,"at stationary sources that emit or have the potential to emit less than 50,000 tpy CO2e, or for physical changes or changes in the method of operations at stationary sources that result in an emissions increase of less than 50,000 tpy CO2e",False,True,Before completing the rule described in paragraph (b)(2)(ii) of this section,add,"The Administrator shall 
+take final action on such a rule no later than April 30, 2016.
+    (iii) Before completing the rule described in paragraph (b)(2)(ii) 
+of this section, the Administrator shall take no action to make the 
+pollutant GHGs subject to regulation at stationary sources that emit or 
+have the potential to emit less than 50,000 tpy CO<INF>2</INF>e, or for 
+physical changes or changes in the method of operations at stationary 
+sources that result in an emissions increase of less than 50,000 tpy 
+CO<INF>2</INF>",§ 52.21(b)(49)(ii),primary,openai,gpt-5,0,0
+158,EPA-HQ-OAR-2009-0517,final,0,True,"The sentence appears within an amendatory block revising and adding definitions in § 70.2, making the language new binding text.",simple,definition_embedded,70,70.2,the permitting authority,must not,strong,consider,the fugitive emissions of a stationary source in determining whether it is a major stationary source for the purposes of section 302(j) of the Act,False,True,unless the source belongs to one of the specified categories of stationary sources,add,"The fugitive 
+emissions of a stationary source shall not be considered in determining 
+whether it is a major stationary source for the purposes of section 
+302(j) of the Act, unless the source belongs to one of the following 
+categories of stationary source:",section 302(j),primary,openai,gpt-5,1833,218
+159,EPA-HQ-OAR-2009-0517,final,0,True,The sentence appears within amendatory regulatory text being added/revised and prescribes a binding threshold condition for when GHGs are subject to regulation.,simple,definition_embedded,70,70.2,Greenhouse gases (GHGs),may not,strong,be subject to regulation,None,True,True,"unless, as of July 1, 2011, the GHG emissions are at a stationary source emitting or having the potential to emit 100,000 tpy CO2 equivalent emissions",add,"Except that:
+    (1) Greenhouse gases (GHGs), the air pollutant defined in Sec.  
+86.1818-12(a) of this chapter as the aggregate group of six greenhouse 
+gases: carbon dioxide, nitrous oxide, methane, hydrofluorocarbons, 
+perfluorocarbons, and sulfur hexafluoride, shall not be subject to 
+regulation unless, as of July 1, 2011, the GHG emissions are at a 
+stationary source emitting or having the potential to emit 100,000 tpy 
+CO<INF>2</INF> equivalent emissions.",§ 86.1818-12(a),primary,openai,gpt-5,1985,227
+160,EPA-HQ-OAR-2009-0517,final,0,True,"The sentence appears within CFR amendatory text being added/revised (amendatory block adding § 70.12 and revising related provisions), so it is new binding text.",compound,definition_embedded,70,70.2,tpy CO2 equivalent emissions (CO2e),shall,strong,represent,an amount of GHGs emitted,False,False,,add,"(2) The term tpy CO<INF>2</INF> equivalent emissions 
+(CO<INF>2</INF>e) shall represent an amount of GHGs emitted, and shall 
+be computed by multiplying the mass amount of emissions (tpy), for each 
+of the six greenhouse gases in the pollutant GHGs, by the gas's 
+associated global warming potential published at Table A-1 to subpart A 
+of part 98 of this chapter--Global Warming Potentials, and summing the 
+resultant value for each to compute a tpy CO<INF>2</INF>e.
+*",Table A-1 to subpart A of part 98,primary,openai,gpt-5,2023,356
+160,EPA-HQ-OAR-2009-0517,final,1,True,"The sentence appears within CFR amendatory text being added/revised (amendatory block adding § 70.12 and revising related provisions), so it is new binding text.",compound,definition_embedded,70,70.2,tpy CO2 equivalent emissions (CO2e),shall,strong,be computed by multiplying the mass amount of emissions (tpy) for each of the six greenhouse gases by the gas's associated global warming potential and summing the results,a tpy CO2e value,True,False,,add,"(2) The term tpy CO<INF>2</INF> equivalent emissions 
+(CO<INF>2</INF>e) shall represent an amount of GHGs emitted, and shall 
+be computed by multiplying the mass amount of emissions (tpy), for each 
+of the six greenhouse gases in the pollutant GHGs, by the gas's 
+associated global warming potential published at Table A-1 to subpart A 
+of part 98 of this chapter--Global Warming Potentials, and summing the 
+resultant value for each to compute a tpy CO<INF>2</INF>e.
+*",Table A-1 to subpart A of part 98,primary,openai,gpt-5,0,0
+161,EPA-HQ-OAR-2009-0517,final,0,True,"The sentence appears within an amendatory block adding § 70.12 to read as follows, making it new binding text.",simple,none,70,70.12(a)(2),All other terms used in this section,shall,strong,have,the meaning given in § 70.2,False,False,,add,"Sec.  70.12  Enforceable commitments for further actions addressing 
+greenhouse gases (GHGs).
+
+    (a) Definitions.
+    (1) Greenhouse Gases (GHGs) means the air pollutant as defined in 
+Sec.  86.1818-12(a) of this chapter as the aggregate group of six 
+greenhouse gases: carbon dioxide, nitrous oxide, methane, 
+hydrofluorocarbons, perfluorocarbons, and sulfur hexafluoride.
+    (2) All other terms used in this section shall have the meaning 
+given in Sec.  70.2.
+    (b) Further action to regulate GHGs under the title V program.",§ 70.2,primary,openai,gpt-5,2057,188
+162,EPA-HQ-OAR-2009-0517,final,0,True,"The sentence appears within an amendatory block ('is added to read as follows'), making it new binding regulatory text.",simple,none,70,70.12(b)(1),The Administrator,shall,strong,solicit,comment,False,False,,add,"The Administrator shall solicit 
+comment,",section 307(b) of the Act,primary,openai,gpt-5,1756,177
+163,EPA-HQ-OAR-2009-0517,final,0,True,"The sentence appears within an amendatory block adding regulatory text and prescribes deadlines for agency action, making it binding.",compound,none,70,70.2,the action to promulgate lower GHG thresholds,shall,strong,be finalized,"by July 1, 2012",True,False,,add,"Such action shall be finalized by 
+July 1, 2012 and become effective July 1, 2013.
+    (2) Further study and action on GHGs.",§ 70.2,primary,openai,gpt-5,1789,298
+163,EPA-HQ-OAR-2009-0517,final,1,True,"The sentence appears within an amendatory block adding regulatory text and prescribes deadlines for agency action, making it binding.",compound,none,70,70.2,the action to promulgate lower GHG thresholds,shall,strong,become effective,"on July 1, 2013",True,False,,add,"Such action shall be finalized by 
+July 1, 2012 and become effective July 1, 2013.
+    (2) Further study and action on GHGs.",§ 70.2,primary,openai,gpt-5,0,0
+164,EPA-HQ-OAR-2009-0517,final,0,True,The sentence appears within an amendatory block adding regulatory text and contains a clear duty with 'shall'.,simple,none,70,70.2(b)(2)(i),the Administrator,shall,strong,complete,a study projecting the administrative burdens that remain with respect to stationary sources for which GHGs do not constitute a pollutant subject to regulation,False,False,,add,"(i) No later than April 30, 2015 the Administrator shall complete a 
+study projecting the administrative burdens that remain with respect to 
+stationary sources for which GHGs do not constitute a pollutant subject 
+to regulation.",,primary,openai,gpt-5,1818,194
+165,EPA-HQ-OAR-2009-0517,final,0,True,The sentence appears within an amendatory block adding regulatory text and uses binding modal language.,simple,none,70,70.2,the study,shall,strong,account,permitting authorities’ ability to secure resources and to hire and train staff,False,False,,add,"Such study shall account, among other things, for 
+permitting authorities ability to secure resources, hire and train 
+staff;",,primary,openai,gpt-5,1756,172
+166,EPA-HQ-OAR-2009-0517,final,0,True,Text appears within an amendatory block adding regulatory text and uses mandatory modal language imposing an action on the Administrator.,simple,none,70,70.2,the Administrator,shall,strong,propose,a rule addressing the permitting obligations of such stationary sources under § 70.2,False,True,Based on the results of the study described in paragraph (b)(2)(i) of this section,add,"experiences associated with GHG permitting for new types of 
+sources and technologies; and, the success of streamlining measures 
+developed by EPA (and adopted by the states) for reducing the 
+permitting burden associated with such stationary sources.
+    (ii) Based on the results of the study described in paragraph 
+(b)(2)(i) of this section, the Administrator shall propose a rule 
+addressing the permitting obligations of such stationary sources under 
+Sec.  70.2.",§ 70.2,primary,openai,gpt-5,1933,205
+167,EPA-HQ-OAR-2009-0517,final,0,True,"The sentences appear within amendatory text for Part 70/§ 70.2 with explicit amendatory actions, so they are new binding text.",compound,none,70,70.2,The Administrator,shall,strong,take final action on the proposed rule,the rule addressing the permitting obligations of such stationary sources under § 70.2,False,False,,add,"The Administrator shall take final action on such a rule no 
+later than April 30, 2016.
+    (iii) Before completing the rule described in paragraph (b)(2)(ii) 
+of this section, the Administrator shall take no action to make the 
+pollutant GHGs subject to regulation at stationary sources that emit or 
+have the potential to emit less than 50,000 tpy CO<INF>2</INF>",§ 70.2,primary,openai,gpt-5,1905,347
+167,EPA-HQ-OAR-2009-0517,final,1,True,"The sentences appear within amendatory text for Part 70/§ 70.2 with explicit amendatory actions, so they are new binding text.",compound,none,70,70.2,The Administrator,shall,strong,take no action to make GHGs subject to regulation at certain stationary sources,"stationary sources that emit or have the potential to emit less than 50,000 tpy CO2e",False,True,Before completing the rule described in paragraph (b)(2)(ii) of this section,add,"The Administrator shall take final action on such a rule no 
+later than April 30, 2016.
+    (iii) Before completing the rule described in paragraph (b)(2)(ii) 
+of this section, the Administrator shall take no action to make the 
+pollutant GHGs subject to regulation at stationary sources that emit or 
+have the potential to emit less than 50,000 tpy CO<INF>2</INF>",§ 70.2,primary,openai,gpt-5,0,0
+168,EPA-HQ-OAR-2009-0517,final,0,True,The sentence appears within an amendatory block revising/adding definitions in § 71.2 and thus constitutes new binding regulatory text.,simple,definition_embedded,71,71.2,fugitive emissions of a stationary source,must not,strong,be considered,in determining whether it is a major stationary source for the purposes of section 302(j) of the Act,True,True,unless the source belongs to one of the specified categories of stationary sources,add,"The fugitive 
+emissions of a stationary source shall not be considered in determining 
+whether it is a major stationary source for the purposes of section 
+302(j) of the Act, unless the source belongs to one of the following 
+categories of stationary source:",section 302(j),primary,openai,gpt-5,1832,216
+169,EPA-HQ-OAR-2009-0517,final,0,True,"The sentence appears within amendatory text being added to the CFR, making it new binding regulatory text.",simple,definition_embedded,71,71.2,Greenhouse gases (GHGs),may not,strong,be subject to regulation,None,True,True,"unless, as of July 1, 2011, the GHG emissions are at a stationary source emitting or having the potential to emit 100,000 tpy CO2 equivalent emissions",add,"Except that:
+    (1) Greenhouse gases (GHGs), the air pollutant defined in Sec.  
+86.1818-12(a) of this chapter as the aggregate group of six greenhouse 
+gases: carbon dioxide, nitrous oxide, methane, hydrofluorocarbons, 
+perfluorocarbons, and sulfur hexafluoride, shall not be subject to 
+regulation unless, as of July 1, 2011, the GHG emissions are at a 
+stationary source emitting or having the potential to emit 100,000 tpy 
+CO<INF>2</INF> equivalent emissions.",§ 86.1818-12(a),primary,openai,gpt-5,1985,218
+170,EPA-HQ-OAR-2009-0517,final,0,True,The sentence appears within an amendatory block adding new regulatory text and sets a definition-embedded computational requirement.,compound,definition_embedded,71,71.2,tpy CO2 equivalent emissions (CO2e),shall,strong,represent,the amount of greenhouse gases emitted,False,False,,add,"(2) The term tpy CO<INF>2</INF> equivalent emissions 
+(CO<INF>2</INF>e) shall represent an amount of GHGs emitted, and shall 
+be computed by multiplying the mass amount of emissions (tpy), for each 
+of the six greenhouse gases in the pollutant GHGs, by the gas's 
+associated global warming potential published at Table A-1 to subpart A 
+of part 98 of this chapter--Global Warming Potentials, and summing the 
+resultant value for each to compute a tpy CO<INF>2</INF>e.
+
+
+0
+11.",,primary,openai,gpt-5,2028,331
+170,EPA-HQ-OAR-2009-0517,final,1,True,The sentence appears within an amendatory block adding new regulatory text and sets a definition-embedded computational requirement.,compound,definition_embedded,71,71.2,tpy CO2 equivalent emissions (CO2e),shall,strong,be computed,by multiplying the mass amount of emissions (tpy) for each of the six greenhouse gases by its global warming potential in Table A-1 to subpart A of part 98 and summing the results,True,False,,add,"(2) The term tpy CO<INF>2</INF> equivalent emissions 
+(CO<INF>2</INF>e) shall represent an amount of GHGs emitted, and shall 
+be computed by multiplying the mass amount of emissions (tpy), for each 
+of the six greenhouse gases in the pollutant GHGs, by the gas's 
+associated global warming potential published at Table A-1 to subpart A 
+of part 98 of this chapter--Global Warming Potentials, and summing the 
+resultant value for each to compute a tpy CO<INF>2</INF>e.
+
+
+0
+11.",Table A-1 to subpart A of part 98,primary,openai,gpt-5,0,0
+171,EPA-HQ-OAR-2009-0517,final,0,True,"The sentence appears within a new section added by an amendatory instruction ('A new § 71.13 is added ... to read as follows'), making it binding regulatory text.",simple,none,71,71.13(a)(2),All other terms used in this section,shall,strong,have the meaning given,in § 71.2,False,False,,add,"Sec.  71.13  Enforceable commitments for further actions addressing 
+Greenhouse Gases (GHGs)
+
+    (a) Definitions.
+    (1) Greenhouse Gases (GHGs) means the air pollutant as defined in 
+Sec.  86.1818-12(a) of this chapter as the aggregate group of six 
+greenhouse gases: carbon dioxide, nitrous oxide, methane, 
+hydrofluorocarbons, perfluorocarbons, and sulfur hexafluoride.
+    (2) All other terms used in this section shall have the meaning 
+given in Sec.  71.2.
+    (b) Further action to regulate GHGs under the title V program.",§ 71.2,primary,openai,gpt-5,2058,198
+172,EPA-HQ-OAR-2009-0517,final,0,True,The sentence appears within an amendatory block adding new regulatory text to subpart A and thus constitutes new binding text.,simple,none,71,71.13,The Administrator,shall,strong,solicit comment,on promulgating lower GHG thresholds for applicability under § 71.2,False,False,,add,"The Administrator shall solicit 
+comment, under section 307(b) of the Act, on promulgating lower GHGs 
+thresholds for applicability under Sec.  71.2.",§ 71.2,primary,openai,gpt-5,1806,186
+173,EPA-HQ-OAR-2009-0517,final,0,True,The sentence appears within an amendatory block adding regulatory text and uses binding modal language setting effective dates for agency action.,compound,none,71,71.2,the action to promulgate lower GHG thresholds,shall,strong,be finalized,"by July 1, 2012",True,False,,add,"Such action shall be 
+finalized by July 1, 2012 and become effective July 1, 2013.
+    (2) Further study and action on GHGs.",§ 71.2,primary,openai,gpt-5,1789,297
+173,EPA-HQ-OAR-2009-0517,final,1,True,The sentence appears within an amendatory block adding regulatory text and uses binding modal language setting effective dates for agency action.,compound,none,71,71.2,the action to promulgate lower GHG thresholds,shall,strong,become effective,"July 1, 2013",False,False,,add,"Such action shall be 
+finalized by July 1, 2012 and become effective July 1, 2013.
+    (2) Further study and action on GHGs.",§ 71.2,primary,openai,gpt-5,0,0
+174,EPA-HQ-OAR-2009-0517,final,0,True,The sentence appears within an amendatory block adding regulatory text and contains a clear mandatory duty for the Administrator.,simple,none,71,71.2(b)(2)(i),the Administrator,shall,strong,complete,a study projecting the administrative burdens that remain with respect to stationary sources for which GHGs do not constitute a pollutant subject to regulation,False,False,,add,"(i) No later than April 30, 2015, the Administrator shall complete 
+a study projecting the administrative burdens that remain with respect 
+to stationary sources for which GHGs do not constitute a pollutant 
+subject to regulation.",,primary,openai,gpt-5,1817,194
+175,EPA-HQ-OAR-2009-0517,final,0,True,"The sentence appears within an amendatory block adding regulatory text and uses mandatory modal language, making it binding.",compound,none,71,71.2,the study,shall,strong,account,permitting authorities' ability to secure resources,False,False,,add,"Such study shall account, among other things, 
+for permitting authorities ability to secure resources, hire and train 
+staff;",,primary,openai,gpt-5,1752,271
+175,EPA-HQ-OAR-2009-0517,final,1,True,"The sentence appears within an amendatory block adding regulatory text and uses mandatory modal language, making it binding.",compound,none,71,71.2,the study,shall,strong,account,permitting authorities' ability to hire and train staff,False,False,,add,"Such study shall account, among other things, 
+for permitting authorities ability to secure resources, hire and train 
+staff;",,primary,openai,gpt-5,0,0
+176,EPA-HQ-OAR-2009-0517,final,0,True,"The obligation appears within an amendatory block adding text to § 71.2, making it new binding regulatory text.",simple,none,71,71.2,the Administrator,shall,strong,propose,a rule addressing the permitting obligations of such stationary sources under § 71.2,False,True,Based on the results of the study described in paragraph (b)(2)(i) of this section,add,"experiences associated with GHG permitting for new types of 
+sources and technologies; and, the success of streamlining measures 
+developed by EPA (and adopted by the states) for reducing the 
+permitting burden associated with such stationary sources.
+    (ii) Based on the results of the study described in paragraph 
+(b)(2)(i) of this section, the Administrator shall propose a rule 
+addressing the permitting obligations of such stationary sources under 
+Sec.  71.2.",§ 71.2,primary,openai,gpt-5,1945,207
+177,EPA-HQ-OAR-2009-0517,final,0,True,"The sentences appear within amendatory text adding/revising CFR regulatory language, making them new binding requirements.",compound,none,71,71.2,The Administrator,shall,strong,take final action on the proposed rule,"no later than April 30, 2016",False,False,,add,"The Administrator shall take final action on such a rule no 
+later than April 30, 2016.
+    (iii) Before completing the rule described in paragraph (b)(2)(ii) 
+of this section, the Administrator shall take no action to make the 
+pollutant GHGs subject to regulation at stationary sources that emit or 
+have the potential to emit less than 50,000 tpy CO<INF>2</INF>e, (as 
+determined using the methodology described in Sec.  71.2.)",§ 71.2,primary,openai,gpt-5,1847,332
+177,EPA-HQ-OAR-2009-0517,final,1,True,"The sentences appear within amendatory text adding/revising CFR regulatory language, making them new binding requirements.",compound,none,71,71.2,The Administrator,shall,strong,take no action to make GHGs subject to regulation at certain stationary sources,"stationary sources that emit or have the potential to emit less than 50,000 tpy CO2e",False,True,Before completing the rule described in paragraph (b)(2)(ii) of this section,add,"The Administrator shall take final action on such a rule no 
+later than April 30, 2016.
+    (iii) Before completing the rule described in paragraph (b)(2)(ii) 
+of this section, the Administrator shall take no action to make the 
+pollutant GHGs subject to regulation at stationary sources that emit or 
+have the potential to emit less than 50,000 tpy CO<INF>2</INF>e, (as 
+determined using the methodology described in Sec.  71.2.)",§ 71.2,primary,openai,gpt-5,0,0
+100100,EPA-HQ-OAR-2009-0517,final,0,True,"The sentence appears within an amendatory block that adds new regulatory text, making it binding.",simple,none,52,52.22,The Administrator,shall,strong,solicit comment,promulgating lower GHGs thresholds for PSD applicability under section 307(b) of the Act,False,False,,add,"The Administrator shall solicit comment, under section 307(b) of the Act, on promulgating lower GHGs thresholds for PSD applicability.",section 307(b) of the Act,safety_net_verified,openai,gpt-5,1681,189
+100101,EPA-HQ-OAR-2009-0517,final,0,True,"The sentence appears within an amendatory block (“is added to read as follows”), making it new binding regulatory text.",simple,none,52,52.22,The Administrator,shall,strong,complete,a study projecting the administrative burdens that remain with respect to stationary sources for which GHGs do not constitute a regulated NSR pollutant,False,False,,add,"No later than April 30, 2015 the Administrator shall complete a study projecting the administrative burdens that remain with respect to stationary sources for which GHGs do not constitute a regulated NSR pollutant.",,safety_net_verified,openai,gpt-5,1717,191
+100102,EPA-HQ-OAR-2009-0517,final,0,True,"The sentence appears within an amendatory block that is added to read as follows, making it new binding regulatory text.",simple,none,52,52.22,The Administrator,shall,strong,propose a rule,addressing the permitting obligations of such stationary sources under § 52.21 and § 51.166 of this chapter,False,True,Based on the results of the study described in paragraph (b)(2)(i) of this section,add,"Based on the results of the study described in paragraph (b)(2)(i) of this section, the Administrator shall propose a rule addressing the permitting obligations of such stationary sources under Sec. 52.21 and Sec. 51.166 of this chapter.",§ 52.21,safety_net_verified,openai,gpt-5,1740,216
+100103,EPA-HQ-OAR-2009-0517,final,0,True,"The sentence appears within an amendatory block added to the CFR (“is added to read as follows”), making it new binding regulatory text.",simple,none,52,52.22(b)(1),The Administrator,shall,strong,take final action,such a rule,False,False,,add,"The Administrator shall take final action on such a rule no later than April 30, 2016.",,safety_net_verified,openai,gpt-5,1658,176
+100104,EPA-HQ-OAR-2009-0517,final,0,True,The sentence is within an amendatory block adding § 52.22; therefore it constitutes new binding regulatory text.,compound,none,52,52.22(b)(2),the Administrator,must not,strong,take any action to make greenhouse gases (GHGs) subject to regulation at stationary sources,"stationary sources that emit or have the potential to emit less than 50,000 tpy CO2e",False,True,Before completing the rule described in paragraph (b)(2)(ii) of this section,add,"Before completing the rule described in paragraph (b)(2)(ii) of this section, the Administrator shall take no action to make the pollutant GHGs subject to regulation at stationary sources that emit or have the potential to emit less than 50,000 tpy CO2e, or for physical changes or changes in the method of operations at stationary sources that result in an emissions increase of less than 50,000 tpy CO2e (as determined using the methodology described in Sec. 52.21(b)(49)(ii).)",§ 52.21(b)(49)(ii),safety_net_verified,openai,gpt-5,1901,406
+100104,EPA-HQ-OAR-2009-0517,final,1,True,The sentence is within an amendatory block adding § 52.22; therefore it constitutes new binding regulatory text.,compound,none,52,52.22(b)(2),the Administrator,must not,strong,take any action to make greenhouse gases (GHGs) subject to regulation for physical or operational changes at stationary sources,"physical changes or changes in the method of operations at stationary sources that result in an emissions increase of less than 50,000 tpy CO2e",False,True,Before completing the rule described in paragraph (b)(2)(ii) of this section,add,"Before completing the rule described in paragraph (b)(2)(ii) of this section, the Administrator shall take no action to make the pollutant GHGs subject to regulation at stationary sources that emit or have the potential to emit less than 50,000 tpy CO2e, or for physical changes or changes in the method of operations at stationary sources that result in an emissions increase of less than 50,000 tpy CO2e (as determined using the methodology described in Sec. 52.21(b)(49)(ii).)",§ 52.21(b)(49)(ii),safety_net_verified,openai,gpt-5,0,0
+100105,EPA-HQ-OAR-2009-0517,final,0,True,"The sentence appears within an amendatory block ('is added to read as follows'), making it new binding regulatory text.",compound,none,52,52.21,Determinations of whether a stationary source is a major stationary source,must not,strong,consider,the fugitive emissions of the stationary source,False,True,unless the source belongs to one of the listed categories of stationary sources,add,"The fugitive emissions of a stationary source shall not be considered in determining whether it is a major stationary source for the purposes of section 302(j) of the Act, unless the source belongs to one of the following categories of stationary source:",section 302(j) of the Act,safety_net_verified,openai,gpt-5,1766,336
+100105,EPA-HQ-OAR-2009-0517,final,1,True,"The sentence appears within an amendatory block ('is added to read as follows'), making it new binding regulatory text.",compound,none,52,52.21,Determinations of whether a stationary source is a major stationary source,may,permissive,consider,the fugitive emissions of the stationary source,False,True,if the source belongs to one of the listed categories of stationary sources,add,"The fugitive emissions of a stationary source shall not be considered in determining whether it is a major stationary source for the purposes of section 302(j) of the Act, unless the source belongs to one of the following categories of stationary source:",section 302(j) of the Act,safety_net_verified,openai,gpt-5,0,0
+100106,EPA-HQ-OAR-2009-0517,final,0,True,"The sentence appears within an amendatory block that is added to read as follows, making it binding regulatory text.",simple,none,52,52.22,Greenhouse gases (GHGs),may not,strong,be subject to regulation,under this section,True,True,"unless, as of July 1, 2011, the GHG emissions are at a stationary source emitting or having the potential to emit 100,000 tpy CO2 equivalent emissions",add,"Greenhouse gases (GHGs), the air pollutant defined in Sec. 86.1818-12(a) of this chapter as the aggregate group of six greenhouse gases: carbon dioxide, nitrous oxide, methane, hydrofluorocarbons, perfluorocarbons, and sulfur hexafluoride, shall not be subject to regulation unless, as of July 1, 2011, the GHG emissions are at a stationary source emitting or having the potential to emit 100,000 tpy CO2 equivalent emissions.",§ 86.1818-12(a),safety_net_verified,openai,gpt-5,1864,221
+100107,EPA-HQ-OAR-2009-0517,final,0,True,"The sentence appears within an amendatory block that is added to read as follows, making it new binding regulatory text; it prescribes how CO2e shall be computed.",compound,definition_embedded,52,52.22(a),tpy CO2e,shall,strong,represent,an amount of GHGs emitted,False,False,,add,"The term tpy CO2 equivalent emissions (CO2e) shall represent an amount of GHGs emitted, and shall be computed by multiplying the mass amount of emissions (tpy), for each of the six greenhouse gases in the pollutant GHGs, by the gas's associated global warming potential published at Table A-1 to subpart A of part 98 of this chapter--Global Warming Potentials, and summing the resultant value for each to compute a tpy CO2e.",,safety_net_verified,openai,gpt-5,1827,346
+100107,EPA-HQ-OAR-2009-0517,final,1,True,"The sentence appears within an amendatory block that is added to read as follows, making it new binding regulatory text; it prescribes how CO2e shall be computed.",compound,definition_embedded,52,52.22(a),tpy CO2e,shall,strong,be computed by multiplying the mass amount of emissions (tpy) for each of the six greenhouse gases by the gas's associated global warming potential in Table A-1 to subpart A of part 98 and summing the resultant values,tpy CO2e,True,False,,add,"The term tpy CO2 equivalent emissions (CO2e) shall represent an amount of GHGs emitted, and shall be computed by multiplying the mass amount of emissions (tpy), for each of the six greenhouse gases in the pollutant GHGs, by the gas's associated global warming potential published at Table A-1 to subpart A of part 98 of this chapter--Global Warming Potentials, and summing the resultant value for each to compute a tpy CO2e.",Table A-1 to subpart A of part 98,safety_net_verified,openai,gpt-5,0,0
+100200,EPA-HQ-OAR-2009-0517,final,0,True,"The sentence appears within an amendatory block adding new regulatory text, making it binding.",simple,none,70,70.12,The Administrator,shall,strong,solicit comment,on promulgating lower GHGs thresholds for applicability,False,False,,add,"The Administrator shall solicit comment, under section 307(b) of the Act, on promulgating lower GHGs thresholds for applicability under Sec.  70.2.",section 307(b) of the Act,safety_net_verified,openai,gpt-5,1688,178
+100201,EPA-HQ-OAR-2009-0517,final,0,True,"The sentence appears within an amendatory block introduced by 'is added to read as follows', making it new binding regulatory text.",simple,none,70,70.12,The Administrator,shall,strong,complete a study projecting the administrative burdens that remain,"with respect to stationary sources for which GHGs do not constitute a pollutant subject to regulation, no later than April 30, 2015",False,False,,add,"No later than April 30, 2015 the Administrator shall complete a study projecting the administrative burdens that remain with respect to stationary sources for which GHGs do not constitute a pollutant subject to regulation.",§ 70.2,safety_net_verified,openai,gpt-5,1731,209
+100202,EPA-HQ-OAR-2009-0517,final,0,True,"The sentence appears within an amendatory block (“is added to read as follows”) adding § 70.12, so the language is new binding text.",simple,none,70,70.12,The Administrator,shall,strong,propose a rule addressing the permitting obligations,such stationary sources under § 70.2,False,True,Based on the results of the study described in paragraph (b)(2)(i) of this section,add,"Based on the results of the study described in paragraph (b)(2)(i) of this section, the Administrator shall propose a rule addressing the permitting obligations of such stationary sources under Sec.  70.2.",§ 70.2,safety_net_verified,openai,gpt-5,1704,213
+100203,EPA-HQ-OAR-2009-0517,final,0,True,"The sentence appears within an amendatory block (“is added to read as follows”) adding new regulatory text, so it is binding.",simple,none,70,70.12,The Administrator,shall,strong,take no action to make GHGs subject to regulation,"at stationary sources that emit or have the potential to emit less than 50,000 tpy CO2e (as determined using the methodology described in § 70.2)",False,True,Before completing the rule described in paragraph (b)(2)(ii) of this section,add,"Before completing the rule described in paragraph (b)(2)(ii) of this section, the Administrator shall take no action to make the pollutant GHGs subject to regulation at stationary sources that emit or have the potential to emit less than 50,000 tpy CO<INF>2</INF>e (as determined using the methodology described in Sec.  70.2.)",§ 70.2,safety_net_verified,openai,gpt-5,1809,234
+100204,EPA-HQ-OAR-2009-0517,final,0,True,"The sentence appears within an amendatory block (“is added to read as follows”), making it new binding regulatory text.",simple,none,70,70.12(b)(1),The Administrator,shall,strong,solicit comment,on promulgating lower GHGs thresholds for applicability,False,False,,add,"The Administrator shall solicit comment, under section 307(b) of the Act, on promulgating lower GHGs thresholds for applicability under Sec.  71.2.",section 307(b) of the Act,safety_net_verified,openai,gpt-5,1679,187
+100205,EPA-HQ-OAR-2009-0517,final,0,True,"The sentence appears within an amendatory block ('is added to read as follows') introducing new CFR text, so it is binding.",simple,none,70,70.12,The Administrator,shall,strong,complete a study projecting the administrative burdens that remain,with respect to stationary sources for which GHGs do not constitute a pollutant subject to regulation,False,False,,add,"No later than April 30, 2015, the Administrator shall complete a study projecting the administrative burdens that remain with respect to stationary sources for which GHGs do not constitute a pollutant subject to regulation.",§ 86.1818-12(a),safety_net_verified,openai,gpt-5,1731,203
+100206,EPA-HQ-OAR-2009-0517,final,0,True,"The sentence appears within an amendatory block ('is added to read as follows'), making it new binding regulatory text.",simple,none,70,70.12(b),The Administrator,shall,strong,propose a rule addressing the permitting obligations,such stationary sources under § 71.2,False,True,Based on the results of the study described in paragraph (b)(2)(i) of this section,add,"Based on the results of the study described in paragraph (b)(2)(i) of this section, the Administrator shall propose a rule addressing the permitting obligations of such stationary sources under Sec.  71.2.",§ 71.2,safety_net_verified,openai,gpt-5,1704,206
+100207,EPA-HQ-OAR-2009-0517,final,0,True,"The sentence appears within an amendatory block adding new regulatory text, making it binding.",simple,none,70,70.12,the Administrator,shall,strong,take no action to make the pollutant GHGs subject to regulation,"at stationary sources that emit or have the potential to emit less than 50,000 tpy CO2e",False,True,Before completing the rule described in paragraph (b)(2)(ii) of this section,add,"Before completing the rule described in paragraph (b)(2)(ii) of this section, the Administrator shall take no action to make the pollutant GHGs subject to regulation at stationary sources that emit or have the potential to emit less than 50,000 tpy CO<INF>2</INF>e, (as determined using the methodology described in Sec.  71.2.)",§ 71.2,safety_net_verified,openai,gpt-5,1811,215

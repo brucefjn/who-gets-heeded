@@ -1,0 +1,535 @@
+candidate_idx,docket_id,rule_type,split_idx,verified,verified_reason,complexity,recital_disposition,cfr_part,cfr_section,subject,modal,modal_strength,action,object,passive_voice,is_conditional,condition_text,amendatory_action,obligation_text,cross_reference,found_via,llm_provider,llm_model,in_tokens,out_tokens
+23,EPA-HQ-OW-2011-0880,final,0,True,Text appears within an explicit amendatory block revising § 328.3; definition embeds binding regulatory scope.,simple,definition_embedded,328,328.3(a),waters of the United States,no_modal_implicit,strong,are defined to include,"all waters currently used, formerly used, or susceptible to use in interstate or foreign commerce (including tidal waters); all interstate waters (including interstate wetlands); the territorial seas; all impoundments of otherwise covered waters; all tributaries (as defined in paragraph (c)(3)) of waters in (a)(1)–(3); and all waters adjacent to waters in (a)(1)–(5), including wetlands, ponds, lakes, oxbows, impoundments, and similar waters, subject to the exclusions in paragraph (b)",False,True,"For purposes of the Clean Water Act and its implementing regulations, and subject to the exclusions in paragraph (b) of this section",revise,"and 
+its implementing regulations, subject to the exclusions in paragraph 
+(b) of this section, the term ``waters of the United States'' means:
+    (1) All waters which are currently used, were used in the past, or 
+may be susceptible to use in interstate or foreign commerce, including 
+all waters which are subject to the ebb and flow of the tide;
+    (2) All interstate waters, including interstate wetlands;
+    (3) The territorial seas;
+    (4) All impoundments of waters otherwise identified as waters of 
+the United States under this section;
+    (5) All tributaries, as defined in paragraph (c)(3) of this 
+section, of waters identified in paragraphs (a)(1) through (3) of this 
+section;
+    (6) All waters adjacent to a water identified in paragraphs (a)(1)",§ 328.3(c)(3),primary,openai,gpt-5,2271,319
+24,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within amendatory text revising § 328.3 and uses binding modal language, making it new binding regulatory text.",simple,none,328,328.3(a)(7),The waters identified in each of paragraphs (a)(7)(i) through (v) of this section,shall,strong,be combined,for purposes of a significant nexus analysis in the watershed that drains to the nearest water identified in paragraphs (a)(1) through (3) of this section,True,False,,revise,"The waters identified in each of paragraphs 
+(a)(7)(i) through (v) of this section are similarly situated and shall 
+be combined, for purposes of a significant nexus analysis, in the 
+watershed that drains to the nearest water identified in paragraphs 
+(a)(1)",§ 328.3(a)(1) through (3),primary,openai,gpt-5,1821,235
+25,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within an amendatory block revising § 328.3, so it is new binding regulatory text.",simple,none,328,328.3,Waters identified in this paragraph,may not,strong,be combined,waters identified in paragraph (a)(6) of this section when performing a significant nexus analysis,True,False,,revise,"Waters identified in this paragraph shall 
+not be combined with waters identified in paragraph (a)(6) of this 
+section when performing a significant nexus analysis.",§ 328.3(a)(6),primary,openai,gpt-5,1770,198
+26,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within amendatory text revising § 328.3, so it is new binding regulatory text.",simple,none,328,328.3,Waters identified in this paragraph,may not,strong,be combined,with waters identified in paragraph (a)(6) of this section when performing a significant nexus analysis,True,False,,revise,"Waters identified in 
+this paragraph shall not be combined with waters identified in 
+paragraph (a)(6) of this section when performing a significant nexus 
+analysis.",§ 328.3(a)(6),primary,openai,gpt-5,1758,198
+27,EPA-HQ-OW-2011-0880,final,0,True,The sentence appears within an amendatory block revising § 328.3 and sets a definitional criterion that embeds a binding requirement.,simple,definition_embedded,328,328.3,an effect,must,strong,exceed,a speculative or insubstantial level to be considered significant,False,False,,revise,"For an 
+effect to be significant, it must be more than speculative or 
+insubstantial.",,primary,openai,gpt-5,1713,183
+28,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within amendatory text revising § 328.3, so it constitutes new binding regulatory language.",simple,none,328,328.3,the water's effect on downstream paragraph (a)(1) through (3) waters,shall,strong,be assessed by evaluating,the aquatic functions identified in paragraphs (c)(5)(i) through (ix) of this section,True,True,For purposes of determining whether or not a water has a significant nexus,revise,"For purposes of determining whether or not a water has a 
+significant nexus, the water's effect on downstream paragraph (a)(1) 
+through (3) waters shall be assessed by evaluating the aquatic 
+functions identified in paragraphs (c)(5)(i) through (ix) of this 
+section.",paragraphs (c)(5)(i) through (ix),primary,openai,gpt-5,1798,228
+30,EPA-HQ-OW-2011-0880,final,0,True,"The text is within an amendatory block revising § 110.1 to read as follows, making the defined criteria binding regulatory text.",simple,definition_embedded,110,110.1,waters of the United States,no_modal_implicit,strong,consist of the categories listed,"(i) through (vii) water categories, subject to exclusions in paragraph (2)",False,True,For purposes of the Clean Water Act and its implementing regulations and subject to the exclusions in paragraph (2) of § 110.1,revise,"and 
+its implementing regulations, subject to the exclusions in paragraph 
+(2) of this section, the term ``waters of the United States'' means:
+    (i) All waters which are currently used, were used in the past, or 
+may be susceptible to use in interstate or foreign commerce, including 
+all waters which are subject to the ebb and flow of the tide;
+    (ii) All interstate waters, including interstate wetlands;
+    (iii) The territorial seas;
+    (iv) All impoundments of waters otherwise identified as waters of 
+the United States under this section;
+    (v) All tributaries, as defined in paragraph (3)(iii) of this 
+definition, of waters identified in paragraphs (1)(i) through (iii) of 
+this definition;
+    (vi) All waters adjacent to a water identified in paragraphs (1)(i) 
+through (v) of this definition, including wetlands, ponds, lakes, 
+oxbows, impoundments, and similar waters;
+    (vii) All waters in paragraphs (1)(vii)(A) through (E) of this 
+definition where they are determined, on a case-specific basis, to have 
+a significant nexus to a water identified in paragraphs (1)(i) through 
+(iii) of this definition.",,primary,openai,gpt-5,2548,227
+31,EPA-HQ-OW-2011-0880,final,0,True,The sentence appears within amendatory text revising § 110.1 and thus constitutes new binding regulatory text.,simple,definition_embedded,110,110.1,waters identified in each of paragraphs (1)(vii)(A) through (E) of this definition,shall,strong,be combined,for purposes of a significant nexus analysis in the watershed that drains to the nearest water identified in paragraphs (1)(i) through (iii) of this definition,True,False,,revise,"The waters identified in each of paragraphs 
+(1)(vii)(A) through (E) of this definition are similarly situated and 
+shall be combined, for purposes of a significant nexus analysis, in the 
+watershed that drains to the nearest water identified in paragraphs 
+(1)(i) through (iii) of this definition.",§ 110.1(1)(i)–(iii),primary,openai,gpt-5,1833,230
+32,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within amendatory text revising § 110.1, so it is new binding regulatory language.",simple,none,110,110.1,Waters identified in this paragraph,may not,strong,be combined,with waters identified in paragraph (1)(vi) of this definition when performing a significant nexus analysis,True,False,,revise,"Waters identified in this 
+paragraph shall not be combined with waters identified in paragraph 
+(1)(vi) of this definition when performing a significant nexus 
+analysis.",§ 110.1(1)(vi),primary,openai,gpt-5,1767,199
+33,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within amendatory regulatory text being revised, making it binding.",simple,none,110,110.1,Waters identified in this paragraph,may not,strong,be combined,with waters identified in paragraph (1)(vi) of this definition when performing a significant nexus analysis,True,False,,revise,"Waters identified in this paragraph shall not be combined with waters 
+identified in paragraph (1)(vi) of this definition when performing a 
+significant nexus analysis.",paragraph (1)(vi),primary,openai,gpt-5,1754,187
+34,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within amendatory regulatory text revising § 110.1 and sets a quantitative/threshold criterion embedded in a definition, which functions as a binding requirement.",simple,definition_embedded,110,110.1,an effect,must,strong,exceed a minimal threshold,be more than speculative or insubstantial to be considered significant,False,True,for an effect to be considered significant,revise,"For 
+an effect to be significant, it must be more than speculative or 
+insubstantial.",,primary,openai,gpt-5,1710,201
+35,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within amendatory text revising § 110.1 and prescribes how a determination must be assessed, making it new binding text.",simple,definition_embedded,110,110.1,the water's effect on downstream waters,shall,strong,be assessed by evaluating,the aquatic functions identified in paragraphs (3)(v)(A) through (I) of this definition,True,False,,revise,"For purposes of determining whether or not a water has a 
+significant nexus, the water's effect on downstream (1)(i) through 
+(iii) waters shall be assessed by evaluating the aquatic functions 
+identified in paragraphs (3)(v)(A) through (I) of this definition.",paragraphs (1)(i) through (iii),primary,openai,gpt-5,1792,212
+36,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within an amendatory block revising definitions, so the language is new binding text even though it is definitional and uses permissive modal.",compound,definition_embedded,110,110.1,the high tide line,may,permissive,be determined,by a line of oil or scum along shore objects,True,True,in the absence of actual data,revise,"The high tide line may be determined, in the 
+absence of actual data, by a line of oil or scum along shore objects, a 
+more or less continuous deposit of fine shell or debris on the 
+foreshore or berm, other physical markings or characteristics, 
+vegetation lines, tidal gages, or other suitable means that delineate 
+the general height reached by a rising tide.",,primary,openai,gpt-5,1857,759
+36,EPA-HQ-OW-2011-0880,final,1,True,"The sentence appears within an amendatory block revising definitions, so the language is new binding text even though it is definitional and uses permissive modal.",compound,definition_embedded,110,110.1,the high tide line,may,permissive,be determined,by a more or less continuous deposit of fine shell or debris on the foreshore or berm,True,True,in the absence of actual data,revise,"The high tide line may be determined, in the 
+absence of actual data, by a line of oil or scum along shore objects, a 
+more or less continuous deposit of fine shell or debris on the 
+foreshore or berm, other physical markings or characteristics, 
+vegetation lines, tidal gages, or other suitable means that delineate 
+the general height reached by a rising tide.",,primary,openai,gpt-5,0,0
+36,EPA-HQ-OW-2011-0880,final,2,True,"The sentence appears within an amendatory block revising definitions, so the language is new binding text even though it is definitional and uses permissive modal.",compound,definition_embedded,110,110.1,the high tide line,may,permissive,be determined,by other physical markings or characteristics,True,True,in the absence of actual data,revise,"The high tide line may be determined, in the 
+absence of actual data, by a line of oil or scum along shore objects, a 
+more or less continuous deposit of fine shell or debris on the 
+foreshore or berm, other physical markings or characteristics, 
+vegetation lines, tidal gages, or other suitable means that delineate 
+the general height reached by a rising tide.",,primary,openai,gpt-5,0,0
+36,EPA-HQ-OW-2011-0880,final,3,True,"The sentence appears within an amendatory block revising definitions, so the language is new binding text even though it is definitional and uses permissive modal.",compound,definition_embedded,110,110.1,the high tide line,may,permissive,be determined,by vegetation lines,True,True,in the absence of actual data,revise,"The high tide line may be determined, in the 
+absence of actual data, by a line of oil or scum along shore objects, a 
+more or less continuous deposit of fine shell or debris on the 
+foreshore or berm, other physical markings or characteristics, 
+vegetation lines, tidal gages, or other suitable means that delineate 
+the general height reached by a rising tide.",,primary,openai,gpt-5,0,0
+36,EPA-HQ-OW-2011-0880,final,4,True,"The sentence appears within an amendatory block revising definitions, so the language is new binding text even though it is definitional and uses permissive modal.",compound,definition_embedded,110,110.1,the high tide line,may,permissive,be determined,by tidal gages,True,True,in the absence of actual data,revise,"The high tide line may be determined, in the 
+absence of actual data, by a line of oil or scum along shore objects, a 
+more or less continuous deposit of fine shell or debris on the 
+foreshore or berm, other physical markings or characteristics, 
+vegetation lines, tidal gages, or other suitable means that delineate 
+the general height reached by a rising tide.",,primary,openai,gpt-5,0,0
+36,EPA-HQ-OW-2011-0880,final,5,True,"The sentence appears within an amendatory block revising definitions, so the language is new binding text even though it is definitional and uses permissive modal.",compound,definition_embedded,110,110.1,the high tide line,may,permissive,be determined,by other suitable means that delineate the general height reached by a rising tide,True,True,in the absence of actual data,revise,"The high tide line may be determined, in the 
+absence of actual data, by a line of oil or scum along shore objects, a 
+more or less continuous deposit of fine shell or debris on the 
+foreshore or berm, other physical markings or characteristics, 
+vegetation lines, tidal gages, or other suitable means that delineate 
+the general height reached by a rising tide.",,primary,openai,gpt-5,0,0
+37,EPA-HQ-OW-2011-0880,final,0,True,"The text appears within an amendatory block revising § 112.2 to read as follows, so the definition-embedded criteria are new binding text.",simple,definition_embedded,112,112.2,waters of the United States (for purposes of the Clean Water Act and its implementing regulations),no_modal_implicit,strong,are defined to include specified categories,"(i) waters used or susceptible to use in interstate/foreign commerce including tidal waters; (ii) interstate waters including interstate wetlands; (iii) the territorial seas; (iv) impoundments of waters otherwise identified as waters of the United States; (v) tributaries (as defined in paragraph (3)(iii)) of waters in paragraphs (1)(i)–(iii); (vi) waters adjacent to waters in paragraphs (1)(i)–(v), including wetlands, ponds, lakes, oxbows, impoundments, and similar waters; (vii) waters in paragr",False,True,Subject to the exclusions in paragraph (2) of this definition,revise,"and 
+its implementing regulations, subject to the exclusions in paragraph 
+(2) of this definition, the term ``waters of the United States'' means:
+    (i) All waters which are currently used, were used in the past, or 
+may be susceptible to use in interstate or foreign commerce, including 
+all waters which are subject to the ebb and flow of the tide;
+    (ii) All interstate waters, including interstate wetlands;
+    (iii) The territorial seas;
+    (iv) All impoundments of waters otherwise identified as waters of 
+the United States under this section;
+    (v) All tributaries, as defined in paragraph (3)(iii) of this 
+definition, of waters identified in paragraphs (1)(i) through (iii) of 
+this definition;
+    (vi) All waters adjacent to a water identified in paragraphs (1)(i) 
+through (v) of this definition, including wetlands, ponds, lakes, 
+oxbows, impoundments, and similar waters;
+    (vii) All waters in paragraphs (1)(vii)(A) through (E) of this 
+definition where they are determined, on a case-specific basis, to have 
+a significant nexus to a water identified in paragraphs (1)(i) through 
+(iii) of this definition.",,primary,openai,gpt-5,2516,367
+38,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within amendatory text revising § 112.2 and contains mandatory language (“shall”), making it new binding regulatory text.",simple,definition_embedded,112,112.2,the waters identified in each of paragraphs (1)(vii)(A) through (E) of this definition,shall,strong,be combined,for purposes of a significant nexus analysis in the watershed that drains to the nearest water identified in paragraphs (1)(i) through (iii) of this definition,True,False,,revise,"The waters identified in each of paragraphs 
+(1)(vii)(A) through (E) of this definition are similarly situated and 
+shall be combined, for purposes of a significant nexus analysis, in the 
+watershed that drains to the nearest water identified in paragraphs 
+(1)(i) through (iii) of this definition.",§ 112.2(1)(i)–(iii),primary,openai,gpt-5,1835,237
+39,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within an amendatory block revising § 112.2, making it new binding regulatory text.",simple,none,112,112.2,Waters identified in this paragraph,may not,strong,be combined,with waters identified in paragraph (1)(vi) of this section when performing a significant nexus analysis,True,False,,revise,"Waters identified in this 
+paragraph shall not be combined with waters identified in paragraph 
+(1)(vi) of this section when performing a significant nexus analysis.",§ 112.2(1)(vi),primary,openai,gpt-5,1767,199
+40,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within CFR amendatory text being revised and imposes a prohibition using mandatory language (“shall not”), making it binding.",simple,definition_embedded,112,112.2,Waters identified in this paragraph,may not,strong,be combined,with waters identified in paragraph (1)(vi) of this definition when performing a significant nexus analysis,True,False,,revise,"Waters identified in this paragraph shall not 
+be combined with waters identified in paragraph (1)(vi) of this 
+definition when performing a significant nexus analysis.",,primary,openai,gpt-5,1763,195
+41,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within an amendatory block revising § 112.2 and sets a quantitative/threshold criterion within a definition, which functions as binding regulatory text.",simple,definition_embedded,112,112.2,an effect,must,strong,exceed,a speculative or insubstantial level,False,True,for the effect to be considered significant,revise,"For 
+an effect to be significant, it must be more than speculative or 
+insubstantial.",,primary,openai,gpt-5,1710,192
+42,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within amendatory regulatory text revising § 112.2 and uses mandatory language prescribing how a significant nexus determination shall be conducted, making it binding.",simple,definition_embedded,112,112.2,the water's effect on downstream waters,shall,strong,be assessed by evaluating,the aquatic functions identified in paragraphs (3)(v)(A) through (I) of this definition,True,False,,revise,"For purposes of determining whether or not a water has a 
+significant nexus, the water's effect on downstream (1)(i) through 
+(iii) waters shall be assessed by evaluating the aquatic functions 
+identified in paragraphs (3)(v)(A) through (I) of this definition.",paragraphs (3)(v)(A) through (I) of this definition,primary,openai,gpt-5,1794,221
+44,EPA-HQ-OW-2011-0880,final,0,True,"Text appears within an amendatory block revising § 116.3 definitions, making the language new binding regulatory text.",simple,definition_embedded,116,116.3,waters identified in paragraphs (1)(vii)(A) through (E),no_modal_implicit,strong,be combined for a significant nexus analysis,in the watershed that drains to the nearest water identified in paragraphs (1)(i) through (iii),True,True,for purposes of a significant nexus analysis,revise,"and 
+its implementing regulations, subject to the exclusions in paragraph 
+(2) of this definition, the term ``waters of the United States'' means:
+    (i) All waters which are currently used, were used in the past, or 
+may be susceptible to use in interstate or foreign commerce, including 
+all waters which are subject to the ebb and flow of the tide;
+    (ii) All interstate waters, including interstate wetlands;
+    (iii) The territorial seas;
+    (iv) All impoundments of waters otherwise identified as waters of 
+the United States under this section;
+    (v) All tributaries, as defined in paragraph (3)(iii) of this 
+definition, of waters identified in paragraphs (1)(i) through (iii) of 
+this definition;
+    (vi) All waters adjacent to a water identified in paragraphs (1)(i) 
+through (v) of this definition, including wetlands, ponds, lakes, 
+oxbows, impoundments, and similar waters;
+    (vii) All waters in paragraphs (1)(vii)(A) through (E) of this 
+definition where they are determined, on a case-specific basis, to have 
+a significant nexus to a water identified in paragraphs (1)(i) through 
+(iii) of this definition.",,primary,openai,gpt-5,2521,340
+44,EPA-HQ-OW-2011-0880,final,1,True,"Text appears within an amendatory block revising § 116.3 definitions, making the language new binding regulatory text.",simple,definition_embedded,116,116.3,waters identified in paragraph (1)(vii),must not,strong,be combined with waters identified in paragraph (1)(vi) when performing a significant nexus analysis,None,True,True,when performing a significant nexus analysis,revise,"and 
+its implementing regulations, subject to the exclusions in paragraph 
+(2) of this definition, the term ``waters of the United States'' means:
+    (i) All waters which are currently used, were used in the past, or 
+may be susceptible to use in interstate or foreign commerce, including 
+all waters which are subject to the ebb and flow of the tide;
+    (ii) All interstate waters, including interstate wetlands;
+    (iii) The territorial seas;
+    (iv) All impoundments of waters otherwise identified as waters of 
+the United States under this section;
+    (v) All tributaries, as defined in paragraph (3)(iii) of this 
+definition, of waters identified in paragraphs (1)(i) through (iii) of 
+this definition;
+    (vi) All waters adjacent to a water identified in paragraphs (1)(i) 
+through (v) of this definition, including wetlands, ponds, lakes, 
+oxbows, impoundments, and similar waters;
+    (vii) All waters in paragraphs (1)(vii)(A) through (E) of this 
+definition where they are determined, on a case-specific basis, to have 
+a significant nexus to a water identified in paragraphs (1)(i) through 
+(iii) of this definition.",,primary,openai,gpt-5,0,0
+45,EPA-HQ-OW-2011-0880,final,0,True,The sentence appears within amendatory regulatory text revising § 116.3 and contains binding prescriptive language (“shall be combined”).,simple,definition_embedded,116,116.3,The waters identified in each of paragraphs (1)(vii)(A) through (E) of this definition,shall,strong,be combined,for purposes of a significant nexus analysis in the watershed that drains to the nearest water identified in paragraphs (1)(i) through (iii) of this definition,True,False,,revise,"The waters identified in each of paragraphs 
+(1)(vii)(A) through (E) of this definition are similarly situated and 
+shall be combined, for purposes of a significant nexus analysis, in the 
+watershed that drains to the nearest water identified in paragraphs 
+(1)(i) through (iii) of this definition.",,primary,openai,gpt-5,1833,223
+46,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within amendatory regulatory text revising § 116.3 and prescribes a prohibition, making it binding.",simple,definition_embedded,116,116.3,Waters identified in this paragraph,may not,strong,be combined,with waters identified in paragraph (1)(vi) of this definition when performing a significant nexus analysis,True,False,,revise,"Waters identified in this 
+paragraph shall not be combined with waters identified in paragraph 
+(1)(vi) of this definition when performing a significant nexus 
+analysis.",paragraph (1)(vi),primary,openai,gpt-5,1767,199
+47,EPA-HQ-OW-2011-0880,final,0,True,The sentence appears within amendatory regulatory text revising § 116.3 and imposes a prohibition using mandatory modal language.,simple,definition_embedded,116,116.3,Waters identified in this paragraph,may not,strong,be combined,with waters identified in paragraph (1)(vi) of this definition when performing a significant nexus analysis,True,False,,revise,"Waters identified in this paragraph shall not be combined with waters 
+identified in paragraph (1)(vi) of this definition when performing a 
+significant nexus analysis.",,primary,openai,gpt-5,1751,194
+48,EPA-HQ-OW-2011-0880,final,0,True,The sentence appears within amendatory text revising § 116.3 and embeds a binding criterion within a definition (definition-embedded obligation).,simple,definition_embedded,116,116.3,an effect,must,strong,be,more than speculative or insubstantial to be considered significant,False,False,,revise,"For 
+an effect to be significant, it must be more than speculative or 
+insubstantial.",,primary,openai,gpt-5,1710,184
+49,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within amendatory regulatory text revising § 116.3 and prescribes a mandatory assessment method using “shall,” making it binding.",simple,definition_embedded,116,116.3,the water's effect on downstream waters,shall,strong,be assessed by evaluating,the aquatic functions identified in paragraphs (3)(v)(A) through (I) of this definition,True,False,,revise,"For purposes of determining whether or not a water has a 
+significant nexus, the water's effect on downstream (1)(i) through 
+(iii) waters shall be assessed by evaluating the aquatic functions 
+identified in paragraphs (3)(v)(A) through (I) of this definition.",paragraphs (1)(i) through (iii),primary,openai,gpt-5,1792,212
+50,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within an amendatory block revising regulatory text, making it binding despite being within a definition.",simple,definition_embedded,116,116.3,the high tide line,may,permissive,be determined using indicators,"a line of oil or scum along shore objects; a more or less continuous deposit of fine shell or debris on the foreshore or berm; other physical markings or characteristics; vegetation lines; tidal gages; or other suitable means that delineate the general height reached by a rising tide, in the absence of actual data",True,True,in the absence of actual data,revise,"The high tide line may be determined, in the 
+absence of actual data, by a line of oil or scum along shore objects, a 
+more or less continuous deposit of fine shell or debris on the 
+foreshore or berm, other physical markings or characteristics, 
+vegetation lines, tidal gages, or other suitable means that delineate 
+the general height reached by a rising tide.",,primary,openai,gpt-5,1863,244
+51,EPA-HQ-OW-2011-0880,final,0,True,The text is within an amendatory block revising § 117.1(i); amendatory language makes the definition binding regulatory text.,simple,definition_embedded,117,117.1(i),Waters of the United States (for purposes of the Clean Water Act and its implementing regulations),no_modal_implicit,strong,are defined to include specified categories,"(i) waters used or susceptible to use in interstate or foreign commerce (including tidal waters); (ii) interstate waters (including interstate wetlands); (iii) the territorial seas; (iv) impoundments of waters otherwise identified as waters of the United States; (v) tributaries of waters in paragraphs (i)(1)(i)–(iii) as defined in paragraph (i)(3)(iii); (vi) waters adjacent to waters in paragraphs (i)(1)(i)–(v) (including wetlands, ponds, lakes, oxbows, impoundments, and similar waters); and (vi",True,True,Subject to the exclusions in paragraph (i)(2) of this section,revise,"and 
+its implementing regulations, subject to the exclusions in paragraph 
+(i)(2) of this section, the term ``waters of the United States'' means:
+    (i) All waters which are currently used, were used in the past, or 
+may be susceptible to use in interstate or foreign commerce, including 
+all waters which are subject to the ebb and flow of the tide;
+    (ii) All interstate waters, including interstate wetlands;
+    (iii) The territorial seas;
+    (iv) All impoundments of waters otherwise identified as waters of 
+the United States under this section;
+    (v) All tributaries, as defined in paragraph (i)(3)(iii) of this 
+section, of waters identified in paragraphs (i)(1)(i) through (iii) of 
+this section;
+    (vi) All waters adjacent to a water identified in paragraphs 
+(i)(1)(i) through (v) of this section, including wetlands, ponds, 
+lakes, oxbows, impoundments, and similar waters;
+    (vii) All waters in paragraphs (i)(1)(vii)(A) through (E) of this 
+section where they are determined, on a case-specific basis, to have a 
+significant nexus to a water identified in paragraphs (i)(1)(i) through 
+(iii) of this section.",§ 117.1(i)(3)(iii),primary,openai,gpt-5,2575,379
+52,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within amendatory regulatory text being revised and uses mandatory modal 'shall', making it new binding text.",simple,none,117,117.1,The waters identified in each of paragraphs (i)(1)(vii)(A) through (E) of this section,shall,strong,be combined,for purposes of a significant nexus analysis in the watershed that drains to the nearest water identified in paragraphs (i)(1)(i) through (iii) of this section,True,False,,revise,"The waters identified in each of paragraphs 
+(i)(1)(vii)(A) through (E) of this section are similarly situated and 
+shall be combined, for purposes of a significant nexus analysis, in the 
+watershed that drains to the nearest water identified in paragraphs 
+(i)(1)(i) through (iii) of this section.",§ 117.1(i)(1)(i)–(iii),primary,openai,gpt-5,1851,235
+53,EPA-HQ-OW-2011-0880,final,0,True,The sentence appears within an amendatory block revising regulatory text and imposes a prohibition using shall not.,simple,none,117,117.1(i)(1)(vii),Waters identified in this paragraph,may not,strong,be combined,waters identified in paragraph (i)(1)(vi) of this section when performing a significant nexus analysis,True,False,,revise,"Waters identified in this 
+paragraph shall not be combined with waters identified in paragraph 
+(i)(1)(vi) of this section when performing a significant nexus 
+analysis.",§ 117.1(i)(1)(vi),primary,openai,gpt-5,1779,205
+54,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within amendatory text being revised and prescribes a prohibition, making it new binding regulatory text.",simple,none,117,117.1,Waters identified in this paragraph,may not,strong,be combined,with waters identified in paragraph (i)(1)(vi) of this section when performing a significant nexus analysis,True,False,,revise,"Waters identified in 
+this paragraph shall not be combined with waters identified in 
+paragraph (i)(1)(vi) of this section when performing a significant 
+nexus analysis.",§ (i)(1)(vi),primary,openai,gpt-5,1770,198
+55,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within amendatory regulatory text revising § 117.1 and sets a quantitative/eligibility criterion within a definition, which functions as a binding standard.",simple,definition_embedded,117,117.1,an effect,must,strong,meet the significance threshold by exceeding a de minimis level,be more than speculative or insubstantial,False,False,,revise,"For 
+an effect to be significant, it must be more than speculative or 
+insubstantial.",,primary,openai,gpt-5,1719,196
+56,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within an amendatory block revising CFR text and prescribes how significant nexus must be assessed, making it new binding regulatory text.",compound,none,117,117.1,the assessing authority,shall,strong,assess,a water's effect on downstream waters identified in paragraphs (i)(1)(i) through (iii),False,True,For purposes of determining whether or not a water has a significant nexus,revise,"For purposes of determining whether or not a water has a 
+significant nexus, the water's effect on downstream (i)(1)(i) through 
+(iii) waters shall be assessed by evaluating the aquatic functions 
+identified in paragraphs (i)(3)(v)(A) through (I) of this section.",paragraphs (i)(1)(i) through (iii),primary,openai,gpt-5,1806,360
+56,EPA-HQ-OW-2011-0880,final,1,True,"The sentence appears within an amendatory block revising CFR text and prescribes how significant nexus must be assessed, making it new binding regulatory text.",compound,none,117,117.1,the assessing authority,shall,strong,evaluate,the aquatic functions identified in paragraphs (i)(3)(v)(A) through (I) of this section,False,True,For purposes of determining whether or not a water has a significant nexus,revise,"For purposes of determining whether or not a water has a 
+significant nexus, the water's effect on downstream (i)(1)(i) through 
+(iii) waters shall be assessed by evaluating the aquatic functions 
+identified in paragraphs (i)(3)(v)(A) through (I) of this section.",paragraphs (i)(3)(v)(A) through (I),primary,openai,gpt-5,0,0
+58,EPA-HQ-OW-2011-0880,final,0,True,Text appears within an explicit amendatory revision block adding binding regulatory text.,simple,definition_embedded,122,122.2,Waters identified in paragraphs (1)(vii)(A) through (E) of this definition,must,strong,be combined for purposes of a significant nexus analysis,in the watershed that drains to the nearest water identified in paragraphs (1)(i) through (iii) of this definition,True,True,for a significant nexus analysis under paragraph (1)(vii),revise,"and 
+its implementing regulations, subject to the exclusions in paragraph 
+(2) of this definition, the term ``waters of the United States'' means:
+    (i) All waters which are currently used, were used in the past, or 
+may be susceptible to use in interstate or foreign commerce, including 
+all waters which are subject to the ebb and flow of the tide;
+    (ii) All interstate waters, including interstate wetlands;
+    (iii) The territorial seas;
+    (iv) All impoundments of waters otherwise identified as waters of 
+the United States under this section;
+    (v) All tributaries, as defined in paragraph (3)(iii) of this 
+section, of waters identified in paragraphs (1)(i) through (iii) of 
+this section;
+    (vi) All waters adjacent to a water identified in paragraphs (1)(i) 
+through (v) of this definition, including wetlands, ponds, lakes, 
+oxbows, impoundments, and similar waters;
+    (vii) All waters in paragraphs (1)(vii)(A) through (E) of this 
+definition where they are determined, on a case-specific basis, to have 
+a significant nexus to a water identified in paragraphs (1)(i) through 
+(iii) of this definition.",,primary,openai,gpt-5,2520,351
+58,EPA-HQ-OW-2011-0880,final,1,True,Text appears within an explicit amendatory revision block adding binding regulatory text.,simple,definition_embedded,122,122.2,Waters identified in paragraph (1)(vii) of this definition,may not,strong,be combined with waters identified in paragraph (1)(vi) of this definition when performing a significant nexus analysis,None,True,True,when performing a significant nexus analysis,revise,"and 
+its implementing regulations, subject to the exclusions in paragraph 
+(2) of this definition, the term ``waters of the United States'' means:
+    (i) All waters which are currently used, were used in the past, or 
+may be susceptible to use in interstate or foreign commerce, including 
+all waters which are subject to the ebb and flow of the tide;
+    (ii) All interstate waters, including interstate wetlands;
+    (iii) The territorial seas;
+    (iv) All impoundments of waters otherwise identified as waters of 
+the United States under this section;
+    (v) All tributaries, as defined in paragraph (3)(iii) of this 
+section, of waters identified in paragraphs (1)(i) through (iii) of 
+this section;
+    (vi) All waters adjacent to a water identified in paragraphs (1)(i) 
+through (v) of this definition, including wetlands, ponds, lakes, 
+oxbows, impoundments, and similar waters;
+    (vii) All waters in paragraphs (1)(vii)(A) through (E) of this 
+definition where they are determined, on a case-specific basis, to have 
+a significant nexus to a water identified in paragraphs (1)(i) through 
+(iii) of this definition.",,primary,openai,gpt-5,0,0
+59,EPA-HQ-OW-2011-0880,final,0,True,The sentence appears within amendatory text revising § 122.2 and contains binding modal language (shall) inside the amended regulatory definition.,simple,definition_embedded,122,122.2,the waters identified in each of paragraphs (1)(vii)(A) through (E) of this definition,shall,strong,be combined,for purposes of a significant nexus analysis in the watershed that drains to the nearest water identified in paragraphs (1)(i) through (iii) of this definition,True,False,,revise,"The waters identified in each of paragraphs 
+(1)(vii)(A) through (E) of this definition are similarly situated and 
+shall be combined, for purposes of a significant nexus analysis, in the 
+watershed that drains to the nearest water identified in paragraphs 
+(1)(i) through (iii) of this definition.",§ 122.2(1)(i)–(iii),primary,openai,gpt-5,1834,237
+60,EPA-HQ-OW-2011-0880,final,0,True,The sentence appears within amendatory regulatory text revising § 122.2 and prescribes a prohibition using mandatory modal language.,simple,definition_embedded,122,122.2,Waters identified in this paragraph,may not,strong,be combined,with waters identified in paragraph (1)(vi) of this definition when performing a significant nexus analysis,True,False,,revise,"Waters identified in this 
+paragraph shall not be combined with waters identified in paragraph 
+(1)(vi) of this definition when performing a significant nexus 
+analysis.",§ 122.2(1)(vi),primary,openai,gpt-5,1767,203
+61,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within amendatory regulatory text revising § 122.2 and imposes a prohibition relevant to conducting a significant nexus analysis, making it binding under the amendatory block rule.",simple,definition_embedded,122,122.2,Waters identified in this paragraph,may not,strong,be combined,with waters identified in paragraph (1)(vi) of this definition when performing a significant nexus analysis,True,False,,revise,"Waters 
+identified in this paragraph shall not be combined with waters 
+identified in paragraph (1)(vi) of this definition when performing a 
+significant nexus analysis.",paragraph (1)(vi) of this definition,primary,openai,gpt-5,1758,216
+62,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within an amendatory block revising § 122.2 and sets a quantitative/threshold criterion embedded in a definition, which is binding.",simple,definition_embedded,122,122.2,an effect,must,strong,exceed a minimal threshold,being more than speculative or insubstantial to qualify as significant,False,False,,revise,"For 
+an effect to be significant, it must be more than speculative or 
+insubstantial.",,primary,openai,gpt-5,1710,191
+63,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears in amendatory text revising § 122.2 and prescribes a required method for assessment, making it binding.",simple,definition_embedded,122,122.2,the water's effect on downstream waters,shall,strong,be assessed by evaluating the aquatic functions identified,the aquatic functions in paragraphs (3)(v)(A) through (I) of this definition,True,False,,revise,"For purposes of determining whether or not a water has a 
+significant nexus, the water's effect on downstream (1)(i) through 
+(iii) waters shall be assessed by evaluating the aquatic functions 
+identified in paragraphs (3)(v)(A) through (I) of this definition.",,primary,openai,gpt-5,1792,202
+64,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within an amendatory block revising regulatory text, making it binding regulatory language.",simple,definition_embedded,122,122.2,the high tide line,may,permissive,be determined,"by observable indicators such as a line of oil or scum along shore objects, a continuous deposit of fine shell or debris on the foreshore or berm, other physical markings or characteristics, vegetation lines, tidal gages, or other suitable means that delineate the general height reached by a rising tide",True,True,in the absence of actual data,revise,"The high tide line may be determined, in the 
+absence of actual data, by a line of oil or scum along shore objects, a 
+more or less continuous deposit of fine shell or debris on the 
+foreshore or berm, other physical markings or characteristics, 
+vegetation lines, tidal gages, or other suitable means that delineate 
+the general height reached by a rising tide.",,primary,openai,gpt-5,1862,234
+65,EPA-HQ-OW-2011-0880,final,0,True,"The text appears within an amendatory block revising § 230.3(o), making it new binding regulatory text.",simple,definition_embedded,230,230.3(o),waters identified in paragraphs (o)(1)(vii)(A) through (E) of this section,shall,strong,be combined for purposes of a significant nexus analysis in the watershed that drains to the nearest water identified in paragraphs (o)(1)(i) through (iii) of this section,significant nexus analysis grouping,True,True,for purposes of a significant nexus analysis,revise,"and 
+its implementing regulations, subject to the exclusions in paragraph 
+(o)(2) of this section, the term ``waters of the United States'' means:
+    (i) All waters which are currently used, were used in the past, or 
+may be susceptible to use in interstate or foreign commerce, including 
+all waters which are subject to the ebb and flow of the tide;
+    (ii) All interstate waters, including interstate wetlands;
+    (iii) The territorial seas;
+    (iv) All impoundments of waters otherwise identified as waters of 
+the United States under this section;
+    (v) All tributaries, as defined in paragraph (o)(3)(iii) of this 
+section, of waters identified in paragraphs (o)(1)(i) through (iii) of 
+this section;
+    (vi) All waters adjacent to a water identified in paragraphs 
+(o)(1)(i) through (v) of this section, including wetlands, ponds, 
+lakes, oxbows, impoundments, and similar waters;
+    (vii) All waters in paragraphs (o)(1)(vii)(A) through (E) of this 
+section where they are determined, on a case-specific basis, to have a 
+significant nexus to a water identified in paragraphs (o)(1)(i) through 
+(iii) of this section.",§ 230.3(o)(1)(i)–(iii),primary,openai,gpt-5,2578,248
+66,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within amendatory text revising § 230.3, so it constitutes new binding regulatory text.",simple,none,230,230.3(o)(1)(vii),the waters identified in each of paragraphs (o)(1)(vii)(A) through (E) of this section,shall,strong,be combined,for purposes of a significant nexus analysis in the watershed that drains to the nearest water identified in paragraphs (o)(1)(i) through (iii) of this section,True,False,,revise,"The waters identified in each of paragraphs 
+(o)(1)(vii)(A) through (E) of this section are similarly situated and 
+shall be combined, for purposes of a significant nexus analysis, in the 
+watershed that drains to the nearest water identified in paragraphs 
+(o)(1)(i) through (iii) of this section.",§ 230.3(o)(1)(i)–(iii),primary,openai,gpt-5,1851,241
+67,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within amendatory text revising § 230.3, so it constitutes new binding regulatory language.",simple,none,230,230.3(o)(1)(vii),Waters identified in this paragraph,may not,strong,be combined,with waters identified in paragraph (o)(1)(vi) of this section when performing a significant nexus analysis,True,False,,revise,"Waters identified in this 
+paragraph shall not be combined with waters identified in paragraph 
+(o)(1)(vi) of this section when performing a significant nexus 
+analysis.",§ 230.3(o)(1)(vi),primary,openai,gpt-5,1779,208
+68,EPA-HQ-OW-2011-0880,final,0,True,The sentence appears within amendatory text revising § 230.3; therefore it is new binding regulatory text.,simple,none,230,230.3(o),Waters identified in this paragraph,may not,strong,be combined,with waters identified in paragraph (o)(1)(vi) of this section when performing a significant nexus analysis,True,False,,revise,"Waters identified in this paragraph shall not be combined with waters 
+identified in paragraph (o)(1)(vi) of this section when performing a 
+significant nexus analysis.",§ 230.3(o)(1)(vi),primary,openai,gpt-5,1765,203
+69,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within an amendatory block revising § 230.3 and sets a quantitative/eligibility criterion within a definition, making it binding.",simple,definition_embedded,230,230.3,an effect,must,strong,be more than,speculative or insubstantial,False,True,For an effect to be significant,revise,"For 
+an effect to be significant, it must be more than speculative or 
+insubstantial.",,primary,openai,gpt-5,1719,189
+70,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within amendatory text revising § 230.3, so it is new binding regulatory text.",simple,none,230,230.3(o),the water's effect on downstream waters,shall,strong,be assessed,by evaluating the aquatic functions identified in paragraphs (o)(3)(v)(A) through (I) of this section,True,False,,revise,"For purposes of determining whether or not a water has a 
+significant nexus, the water's effect on downstream (o)(1)(i) through 
+(iii) waters shall be assessed by evaluating the aquatic functions 
+identified in paragraphs (o)(3)(v)(A) through (I) of this section.",§ 230.3(o)(1)(i)–(iii),primary,openai,gpt-5,1806,210
+73,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within amendatory text revising § 232.2 and uses mandatory language, making it new binding regulatory text.",simple,definition_embedded,232,232.2,the waters identified in each of paragraphs (1)(vii)(A) through (E) of this definition,shall,strong,be combined,for purposes of a significant nexus analysis in the watershed that drains to the nearest water identified in paragraphs (1)(i) through (iii) of this definition,True,False,,revise,"The waters identified in each of paragraphs 
+(1)(vii)(A) through (E) of this definition are similarly situated and 
+shall be combined, for purposes of a significant nexus analysis, in the 
+watershed that drains to the nearest water identified in paragraphs 
+(1)(i) through (iii) of this definition.",§ 232.2(1)(i)–(iii),primary,openai,gpt-5,1833,235
+74,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within amendatory text revising § 232.2, so it constitutes new binding regulatory text.",simple,none,232,232.2,Waters identified in this paragraph,may not,strong,be combined,with waters identified in paragraph (1)(vi) of this definition when performing a significant nexus analysis,True,False,,revise,"Waters identified in this 
+paragraph shall not be combined with waters identified in paragraph 
+(1)(vi) of this definition when performing a significant nexus 
+analysis.",§ 232.2(1)(vi),primary,openai,gpt-5,1767,199
+75,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within amendatory text revising § 232.2 and imposes a prohibition, making it binding.",simple,none,232,232.2,Waters identified in this paragraph,may not,strong,be combined,with waters identified in paragraph (1)(vi) of this definition when performing a significant nexus analysis,True,False,,revise,"Waters identified in this paragraph shall not be combined with waters 
+identified in paragraph (1)(vi) of this definition when performing a 
+significant nexus analysis.",paragraph (1)(vi) of this definition,primary,openai,gpt-5,1755,200
+76,EPA-HQ-OW-2011-0880,final,0,True,The sentence appears within an amendatory block revising § 232.2 and sets a binding criterion within the definition (definition-embedded obligation).,simple,definition_embedded,232,232.2,an effect,must,strong,be,more than speculative or insubstantial to be considered significant,False,False,,revise,"For 
+an effect to be significant, it must be more than speculative or 
+insubstantial.",,primary,openai,gpt-5,1710,185
+77,EPA-HQ-OW-2011-0880,final,0,True,The sentence appears within amendatory text revising § 232.2 and prescribes how the assessment must be conducted.,simple,definition_embedded,232,232.2,the water's effect on downstream waters,shall,strong,be assessed by evaluating the aquatic functions identified,the aquatic functions in paragraphs (3)(v)(A) through (I) of this definition,True,False,,revise,"For purposes of determining whether or not a water has a 
+significant nexus, the water's effect on downstream (1)(i) through 
+(iii) waters shall be assessed by evaluating the aquatic functions 
+identified in paragraphs (3)(v)(A) through (I) of this definition.",paragraphs (3)(v)(A) through (I),primary,openai,gpt-5,1792,211
+79,EPA-HQ-OW-2011-0880,final,0,True,The text is within an amendatory block revising § 300.5 to read as follows; definition-embedded criteria constitute binding regulatory text.,simple,definition_embedded,300,300.5,waters of the United States (for purposes of the Clean Water Act and its implementing regulations),no_modal_implicit,strong,"consist of the listed categories, subject to stated exclusions","(i)–(vii) categories including waters used or susceptible to interstate/foreign commerce, interstate waters and wetlands, territorial seas, impoundments, specified tributaries, adjacent waters, and case-specific significant nexus waters",False,True,Subject to the exclusions in paragraph (2) of this definition,revise,"and 
+its implementing regulations, subject to the exclusions in paragraph 
+(2) of this definition, the term ``waters of the United States'' means:
+    (i) All waters which are currently used, were used in the past, or 
+may be susceptible to use in interstate or foreign commerce, including 
+all waters which are subject to the ebb and flow of the tide;
+    (ii) All interstate waters, including interstate wetlands;
+    (iii) The territorial seas;
+    (iv) All impoundments of waters otherwise identified as waters of 
+the United States under this section;
+    (v) All tributaries, as defined in paragraph (3)(iii) of this 
+definition, of waters identified in paragraphs (1)(i) through (iii) of 
+this definition;
+    (vi) All waters adjacent to a water identified in paragraphs (1)(i) 
+through (v) of this definition, including wetlands, ponds, lakes, 
+oxbows, impoundments, and similar waters;
+    (vii) All waters in paragraphs (1)(vii)(A) through (E) of this 
+definition",,primary,openai,gpt-5,2422,257
+80,EPA-HQ-OW-2011-0880,final,0,True,The sentence appears within amendatory regulatory text revising § 300.5 and contains mandatory language ('shall') creating binding operative instructions within the definition.,simple,definition_embedded,300,300.5,The waters identified in each of paragraphs (1)(vii)(A) through (E) of this definition,shall,strong,be combined,for purposes of a significant nexus analysis in the watershed that drains to the nearest water identified in paragraphs (1)(i) through (iii) of this definition,True,False,,revise,"The waters identified in each of paragraphs 
+(1)(vii)(A) through (E) of this definition are similarly situated and 
+shall be combined, for purposes of a significant nexus analysis, in the 
+watershed that drains to the nearest water identified in paragraphs 
+(1)(i) through (iii) of this definition.",§ 300.5(1)(i)–(iii),primary,openai,gpt-5,1838,239
+81,EPA-HQ-OW-2011-0880,final,0,True,The sentence appears within an amendatory block revising regulatory text and prescribes a prohibition relevant to performing a significant nexus analysis.,simple,none,300,300.5,Waters identified in this paragraph,may not,strong,be combined,waters identified in paragraph (1)(vi) of this definition when performing a significant nexus analysis,True,False,,revise,"Waters identified in this 
+paragraph shall not be combined with waters identified in paragraph 
+(1)(vi) of this definition when performing a significant nexus 
+analysis.",paragraph (1)(vi),primary,openai,gpt-5,1770,196
+82,EPA-HQ-OW-2011-0880,final,0,True,The sentence appears within amendatory regulatory text revising § 300.5 and prescribes a prohibition using mandatory modal language.,simple,definition_embedded,300,300.5,Waters identified in this paragraph,may not,strong,be combined,with waters identified in paragraph (1)(vi) of this definition when performing a significant nexus analysis,True,False,,revise,"Waters identified in this paragraph shall not be combined with waters 
+identified in paragraph (1)(vi) of this definition when performing a 
+significant nexus analysis.",paragraph (1)(vi),primary,openai,gpt-5,1753,199
+83,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within amendatory text revising § 300.5 and embeds a quantitative/eligibility criterion inside a definition, which constitutes a binding requirement.",simple,definition_embedded,300,300.5,an effect,must,strong,exceed,a speculative or insubstantial level,False,True,for an effect to be significant,revise,"For 
+an effect to be significant, it must be more than speculative or 
+insubstantial.",,primary,openai,gpt-5,1710,190
+84,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within amendatory text revising § 300.5 and sets prescriptive evaluation criteria, making it new binding regulatory text.",simple,definition_embedded,300,300.5,the water's effect on downstream waters identified in paragraphs (1)(i) through (iii) of this definition,shall,strong,be assessed by evaluating the aquatic functions identified in paragraphs (3)(v)(A) through (I) of this definition,None,True,True,For purposes of determining whether or not a water has a significant nexus,revise,"For purposes of determining whether or not a water has a 
+significant nexus, the water's effect on downstream (1)(i) through 
+(iii) waters shall be assessed by evaluating the aquatic functions 
+identified in paragraphs (3)(v)(A) through (I) of this definition.",,primary,openai,gpt-5,1792,228
+85,EPA-HQ-OW-2011-0880,final,0,True,The sentence appears within an amendatory block revising a definition in appendix E to part 300; text in the amended definition constitutes new binding regulatory text.,simple,definition_embedded,300,300.5,the high tide line,may,permissive,be determined,"by observable indicators such as a line of oil or scum along shore objects, a continuous deposit of fine shell or debris on the foreshore or berm, other physical markings or characteristics, vegetation lines, tidal gages, or other suitable means that delineate the general height reached by a rising tide, when actual data are absent",True,True,in the absence of actual data,revise,"The high tide line may be determined, in the 
+absence of actual data, by a line of oil or scum along shore objects, a 
+more or less continuous deposit of fine shell or debris on the 
+foreshore or berm, other physical markings or characteristics, 
+vegetation lines, tidal gages, or other suitable means that delineate 
+the general height reached by a rising tide.",,primary,openai,gpt-5,1855,252
+87,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within amendatory text revising § 300.5 and contains mandatory language, making it new binding regulatory text.",simple,definition_embedded,300,300.5,The waters identified in each of paragraphs (1)(vii)(A) through (E) of this definition,shall,strong,be combined,for purposes of a significant nexus analysis in the watershed that drains to the nearest water identified in paragraphs (1)(i) through (iii) of this definition,True,False,,revise,"The waters identified in each of paragraphs 
+(1)(vii)(A) through (E) of this definition are similarly situated and 
+shall be combined, for purposes of a significant nexus analysis, in the 
+watershed that drains to the nearest water identified in paragraphs 
+(1)(i) through (iii) of this definition.",,primary,openai,gpt-5,1833,222
+88,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within an amendatory block revising § 300.5, so the text is new binding regulatory language.",simple,none,300,300.5,Waters identified in this paragraph,may not,strong,be combined,with waters identified in paragraph (1)(vi) of this definition when performing a significant nexus analysis,True,False,,revise,"Waters identified in this 
+paragraph shall not be combined with waters identified in paragraph 
+(1)(vi) of this definition when performing a significant nexus 
+analysis.",§ 300.5(1)(vi),primary,openai,gpt-5,1767,201
+89,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within amendatory text revising § 300.5 and imposes a prohibition, making it new binding regulatory text.",simple,definition_embedded,300,300.5,Waters identified in this paragraph,may not,strong,be combined,with waters identified in paragraph (1)(vi) of this definition when performing a significant nexus analysis,True,False,,revise,"Waters identified in this paragraph shall not be combined with waters 
+identified in paragraph (1)(vi) of this definition when performing a 
+significant nexus analysis.",,primary,openai,gpt-5,1753,196
+90,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within amendatory regulatory text revising § 300.5 and embeds a quantitative/eligibility criterion within a definition, which constitutes a binding requirement under the definition-embedded obligations rule.",simple,definition_embedded,300,300.5,an effect,must,strong,be more than speculative or insubstantial,,False,False,,revise,"For 
+an effect to be significant, it must be more than speculative or 
+insubstantial.",,primary,openai,gpt-5,1710,190
+91,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within amendatory text revising § 300.5 and prescribes how a determination shall be conducted, making it new binding regulatory text.",simple,definition_embedded,300,300.5,the water's effect on downstream waters,shall,strong,be assessed by evaluating,the aquatic functions identified in paragraphs (3)(v)(A) through (I) of this definition,True,True,For purposes of determining whether or not a water has a significant nexus,revise,"For purposes of determining whether or not a water has a 
+significant nexus, the water's effect on downstream (1)(i) through 
+(iii) waters shall be assessed by evaluating the aquatic functions 
+identified in paragraphs (3)(v)(A) through (I) of this definition.",,primary,openai,gpt-5,1792,216
+93,EPA-HQ-OW-2011-0880,final,0,True,"Text is within an amendatory block revising § 302.3 definitions, so the language is new binding regulatory text even though it is definitional.",simple,definition_embedded,302,302.3,waters identified in paragraphs (1)(vii)(A) through (E) of this definition,may,permissive,be determined on a case-specific basis to have a significant nexus,to a water identified in paragraphs (1)(i) through (iii) of this definition,True,True,"For purposes of the Clean Water Act and its implementing regulations, subject to the exclusions in paragraph (2) of this definition",revise,"and 
+its implementing regulations, subject to the exclusions in paragraph 
+(2) of this definition, the term ``waters of the United States'' means:
+    (i) All waters which are currently used, were used in the past, or 
+may be susceptible to use in interstate or foreign commerce, including 
+all waters which are subject to the ebb and flow of the tide;
+    (ii) All interstate waters, including interstate wetlands;
+    (iii) The territorial seas;
+    (iv) All impoundments of waters otherwise identified as waters of 
+the United States under this section;
+    (v) All tributaries, as defined in paragraph (3)(iii) of this 
+definition, of waters identified in paragraphs (1)(i) through (iii) of 
+this definition;
+    (vi) All waters adjacent to a water identified in paragraphs (1)(i) 
+through (v) of this definition, including wetlands, ponds, lakes, 
+oxbows, impoundments, and similar waters;
+    (vii) All waters in paragraphs (1)(vii)(A) through (E) of this 
+definition where they are determined, on a case-specific basis, to have 
+a significant nexus to a water identified in paragraphs (1)(i) through 
+(iii) of this definition.",,primary,openai,gpt-5,2513,247
+94,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within amendatory regulatory text revising § 302.3 and prescribes how specified waters shall be treated in a significant nexus analysis, making it new binding text.",simple,definition_embedded,302,302.3,The waters identified in each of paragraphs (1)(vii)(A) through (E) of this definition,shall,strong,be combined,for purposes of a significant nexus analysis in the watershed that drains to the nearest water identified in paragraphs (1)(i) through (iii) of this definition,True,False,,revise,"The waters identified in each of paragraphs 
+(1)(vii)(A) through (E) of this definition are similarly situated and 
+shall be combined, for purposes of a significant nexus analysis, in the 
+watershed that drains to the nearest water identified in paragraphs 
+(1)(i) through (iii) of this definition.",§ 302.3(1)(i)–(iii),primary,openai,gpt-5,1833,245
+95,EPA-HQ-OW-2011-0880,final,0,True,The sentence appears within amendatory text revising § 302.3 and prescribes a prohibitory rule; amendatory context makes it binding.,simple,definition_embedded,302,302.3,Waters identified in this paragraph,may not,strong,be combined,with waters identified in paragraph (1)(vi) of this definition when performing a significant nexus analysis,True,False,,revise,"Waters identified in this 
+paragraph shall not be combined with waters identified in paragraph 
+(1)(vi) of this definition when performing a significant nexus 
+analysis.",§ 302.3(1)(vi),primary,openai,gpt-5,1767,207
+96,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within amendatory regulatory text revising § 302.3 and imposes a clear prohibition, making it binding under the amendatory block rule.",simple,definition_embedded,302,302.3,Waters identified in this paragraph,may not,strong,be combined,with waters identified in paragraph (1)(vi) of this definition when performing a significant nexus analysis,True,False,,revise,"Waters identified in 
+this paragraph shall not be combined with waters identified in 
+paragraph (1)(vi) of this definition when performing a significant 
+nexus analysis.",,primary,openai,gpt-5,1767,201
+97,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within an amendatory block revising CFR text, making it new binding regulatory language.",simple,definition_embedded,302,302.3,an effect,must,strong,be,more than speculative or insubstantial,False,True,For an effect to be significant,revise,"For 
+an effect to be significant, it must be more than speculative or 
+insubstantial.",,primary,openai,gpt-5,1715,177
+98,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within amendatory text revising § 302.3 and prescribes an assessment method using binding modal “shall,” making it new binding regulatory text.",simple,definition_embedded,302,302.3,the water's effect on downstream waters,shall,strong,be assessed by evaluating the aquatic functions identified,the aquatic functions identified in paragraphs (3)(v)(A) through (I) of this definition,True,False,,revise,"For purposes of determining whether or not a water has a 
+significant nexus, the water's effect on downstream (1)(i) through 
+(iii) waters shall be assessed by evaluating the aquatic functions 
+identified in paragraphs (3)(v)(A) through (I) of this definition.",,primary,openai,gpt-5,1794,209
+99,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within an amendatory block revising regulatory text (paragraph revised to read as follows), making it binding regulatory text.",simple,definition_embedded,302,302.3,The high tide line,may,permissive,be determined,"by observable indicators such as a line of oil or scum along shore objects, deposits of fine shell or debris on the foreshore or berm, other physical markings or characteristics, vegetation lines, tidal gages, or other suitable means that delineate the general height reached by a rising tide",True,True,in the absence of actual data,revise,"The high tide line may be determined, in the 
+absence of actual data, by a line of oil or scum along shore objects, a 
+more or less continuous deposit of fine shell or debris on the 
+foreshore or berm, other physical markings or characteristics, 
+vegetation lines, tidal gages, or other suitable means that delineate 
+the general height reached by a rising tide.",,primary,openai,gpt-5,1861,239
+100,EPA-HQ-OW-2011-0880,final,0,True,"The text appears within an amendatory block revising § 401.11(l), so it is new binding regulatory text even though it is a definition.",simple,definition_embedded,401,401.11(l)(1),waters of the United States,no_modal_implicit,strong,are defined to include specified categories,"(i) currently or formerly used, or susceptible to use, in interstate or foreign commerce, including tidal waters; (ii) all interstate waters including interstate wetlands; (iii) the territorial seas; (iv) all impoundments of otherwise identified waters; (v) all tributaries of waters in (l)(1)(i)–(iii) as defined in (l)(3)(iii); (vi) all waters adjacent to waters in (l)(1)(i)–(v), including wetlands, ponds, lakes, oxbows, impoundments, and similar waters; (vii) waters in (l)(1)(vii)(A)–(E) with a",False,True,"For purposes of the Clean Water Act and its implementing regulations, subject to the exclusions in paragraph (l)(2) of this section",revise,"and 
+its implementing regulations, subject to the exclusions in paragraph 
+(l)(2) of this section, the term ``waters of the United States'' means:
+    (i) All waters which are currently used, were used in the past, or 
+may be susceptible to use in interstate or foreign commerce, including 
+all waters which are subject to the ebb and flow of the tide;
+    (ii) All interstate waters, including interstate wetlands;
+    (iii) The territorial seas;
+    (iv) All impoundments of waters otherwise identified as waters of 
+the United States under this section;
+    (v) All tributaries, as defined in paragraph (l)(3)(iii) of this 
+section, of waters identified in paragraphs (l)(1)(i) through (iii) of 
+this section;
+    (vi) All waters adjacent to a water identified in paragraphs 
+(l)(1)(i) through (v) of this section, including wetlands, ponds, 
+lakes, oxbows, impoundments, and similar waters;
+    (vii) All waters in paragraphs (l)(1)(vii)(A) through (E) of this 
+section where they are determined, on a case-specific basis, to have a 
+significant nexus to a water identified in paragraphs (1)(i) through 
+(iii) of this section.",§ 401.11(l)(3)(iii),primary,openai,gpt-5,2551,383
+101,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within amendatory text revising § 401.11, so it constitutes new binding regulatory language.",simple,none,401,401.11(l)(1)(vii),The waters identified in each of paragraphs (l)(1)(vii)(A) through (E) of this section,shall,strong,be combined,for purposes of a significant nexus analysis in the watershed that drains to the nearest water identified in paragraphs (l)(1)(i) through (iii) of this section,True,False,,revise,"The waters identified in each of paragraphs 
+(l)(1)(vii)(A) through (E) of this section are similarly situated and 
+shall be combined, for purposes of a significant nexus analysis, in the 
+watershed that drains to the nearest water identified in paragraphs 
+(l)(1)(i) through (iii) of this section.",§ 401.11(l)(1)(i)–(iii),primary,openai,gpt-5,1850,241
+102,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within amendatory text being revised to read as follows, making it binding regulatory text.",simple,none,401,401.11,Waters identified in this paragraph,may not,strong,be combined,with waters identified in paragraph (l)(1)(vi) of this section when performing a significant nexus analysis,True,False,,revise,"Waters identified in this 
+paragraph shall not be combined with waters identified in paragraph 
+(l)(1)(vi) of this section when performing a significant nexus 
+analysis.",§ (l)(1)(vi),primary,openai,gpt-5,1778,196
+103,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within an amendatory block revising § 401.11, so the text is new binding regulatory language.",simple,none,401,401.11,Waters identified in this paragraph,may not,strong,be combined,with waters identified in paragraph (l)(1)(vi) of this section when performing a significant nexus analysis,True,False,,revise,"Waters identified in 
+this paragraph shall not be combined with waters identified in 
+paragraph (l)(1)(vi) of this section when performing a significant 
+nexus analysis.",§ (l)(1)(vi),primary,openai,gpt-5,1769,201
+104,EPA-HQ-OW-2011-0880,final,0,True,The sentence appears within an amendatory block revising § 401.11 and sets a definitional criterion embedding a binding requirement (threshold for when an effect is significant).,simple,definition_embedded,401,401.11,an effect,must,strong,exceed,a speculative or insubstantial level,False,False,,revise,"For 
+an effect to be significant, it must be more than speculative or 
+insubstantial.",,primary,openai,gpt-5,1716,187
+105,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within an amendatory block revising § 401.11 and imposes a prescriptive assessment method, making it new binding text.",simple,none,401,401.11,the water's effect on downstream waters,shall,strong,be assessed by evaluating,the aquatic functions identified in paragraphs (l)(3)(v)(A) through (I) of this section,True,False,,revise,"For purposes of determining whether or not a water has a 
+significant nexus, the water's effect on downstream (1)(i) through 
+(iii) waters shall be assessed by evaluating the aquatic functions 
+identified in paragraphs (l)(3)(v)(A) through (I) of this section.",paragraphs (l)(3)(v)(A) through (I) of this section,primary,openai,gpt-5,1802,220
+100600,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within an amendatory block revising § 122.2 definitions, so the language is new binding text.",simple,definition_embedded,122,122.2,The waters identified in paragraphs (1)(vii)(A) through (E) of this definition,shall,strong,be combined,for purposes of a significant nexus analysis in the watershed that drains to the nearest water identified in paragraphs (1)(i) through (iii) of this definition,True,False,,revise,"The waters identified in each of paragraphs (1)(vii)(A) through (E) of this definition are similarly situated and shall be combined, for purposes of a significant nexus analysis, in the watershed that drains to the nearest water identified in paragraphs (1)(i) through (iii) of this definition.",§ 122.2(1)(i)–(iii),safety_net_verified,openai,gpt-5,1754,232
+100601,EPA-HQ-OW-2011-0880,final,0,True,The sentence appears within an amendatory block revising § 122.2 and thus constitutes new binding regulatory text.,simple,definition_embedded,122,122.2,Waters identified in this paragraph,shall,strong,not be combined,with waters identified in paragraph (1)(vi) of this definition when performing a significant nexus analysis,True,False,,revise,Waters identified in this paragraph shall not be combined with waters identified in paragraph (1)(vi) of this definition when performing a significant nexus analysis.,,safety_net_verified,openai,gpt-5,1683,192
+100602,EPA-HQ-OW-2011-0880,final,0,True,The sentence appears within a CFR amendatory block revising § 122.2 Definitions; thus it is new binding text.,simple,none,122,122.2,Waters identified in this paragraph,may not,strong,be combined,with waters identified in paragraph (1)(vi) of this definition when performing a significant nexus analysis,True,False,,revise,Waters identified in this paragraph shall not be combined with waters identified in paragraph (1)(vi) of this definition when performing a significant nexus analysis.,,safety_net_verified,openai,gpt-5,1683,192
+101100,EPA-HQ-OW-2011-0880,final,0,True,The sentence appears within an amendatory block revising a CFR definition and imposes a binding instruction on how specified waters shall be combined for analysis.,simple,definition_embedded,302,302.3,The waters identified in each of paragraphs (1)(vii)(A) through (E) of this definition,shall,strong,be combined,"for purposes of a significant nexus analysis, in the watershed that drains to the nearest water identified in paragraphs (1)(i) through (iii) of this definition",True,False,,revise,"The waters identified in each of paragraphs (1)(vii)(A) through (E) of this definition are similarly situated and shall be combined, for purposes of a significant nexus analysis, in the watershed that drains to the nearest water identified in paragraphs (1)(i) through (iii) of this definition.",,safety_net_verified,openai,gpt-5,1742,226
+101101,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within an amendatory block revising a CFR definition, making it binding new text.",simple,definition_embedded,302,302.3,Waters identified in this paragraph,may not,strong,be combined,waters identified in paragraph (1)(vi) of this definition when performing a significant nexus analysis,True,False,,revise,Waters identified in this paragraph shall not be combined with waters identified in paragraph (1)(vi) of this definition when performing a significant nexus analysis.,,safety_net_verified,openai,gpt-5,1680,188
+101102,EPA-HQ-OW-2011-0880,final,0,True,"The sentence appears within an amendatory block revising a CFR definition to read as follows, making it binding regulatory text.",simple,definition_embedded,302,302.3,Waters identified in this paragraph,may not,strong,be combined,waters identified in paragraph (1)(vi) of this definition when performing a significant nexus analysis,True,False,,revise,Waters identified in this paragraph shall not be combined with waters identified in paragraph (1)(vi) of this definition when performing a significant nexus analysis.,,safety_net_verified,openai,gpt-5,1680,192

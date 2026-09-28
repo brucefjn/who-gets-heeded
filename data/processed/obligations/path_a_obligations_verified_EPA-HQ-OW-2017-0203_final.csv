@@ -1,0 +1,50 @@
+candidate_idx,docket_id,rule_type,split_idx,verified,verified_reason,complexity,recital_disposition,cfr_part,cfr_section,subject,modal,modal_strength,action,object,passive_voice,is_conditional,condition_text,amendatory_action,obligation_text,cross_reference,found_via,llm_provider,llm_model,in_tokens,out_tokens
+48,EPA-HQ-OW-2017-0203,final,0,True,"The text appears within an explicit amendatory block revising § 116.3 to read as follows, so the language is new binding regulatory text.",simple,definition_embedded,116,116.3,the term wetlands as used in this regulation,shall,strong,include,"those areas that are inundated or saturated by surface or ground water at a frequency and duration sufficient to support, and that under normal circumstances do support, a prevalence of vegetation typically adapted for life in saturated soil conditions",False,False,,revise,"* * * *
+    Navigable waters is defined in section 502(7) of the Act to mean 
+``waters of the United States, including the territorial seas,'' and 
+includes, but is not limited to:
+    (1) All waters which are presently used, or were used in the past, 
+or may be susceptible to use as a means to transport interstate or 
+foreign commerce, including all waters which are subject to the ebb and 
+flow of the tide, and including adjacent wetlands; the term wetlands as 
+used in this regulation shall include those areas that are inundated or 
+saturated by surface or ground water at a frequency and duration 
+sufficient to support, and that under normal circumstances do support, 
+a prevelance of vegetation typically adapted for life in saturated soil 
+conditions.",,primary,openai,gpt-5,2066,222
+53,EPA-HQ-OW-2017-0203,final,0,True,"The text is within an amendatory block revising § 300.5 and thus constitutes new binding regulatory text, even though it is a definition.",simple,definition_embedded,300,300.5,navigable waters (as defined term),no_modal_implicit,strong,include the enumerated categories,"all waters currently used, previously used, or susceptible to use in interstate or foreign commerce; interstate waters including interstate wetlands; other waters whose use, degradation, or destruction would or could affect interstate or foreign commerce, including waters used or usable by interstate or foreign travelers, sources of fish or shellfish sold in interstate or foreign commerce, and waters used or usable for industrial purposes by industries in interstate commerce; all impoundments of",False,False,,revise,"The term includes:
+    (1) All waters that are currently used, were used in the past, or 
+may be susceptible to use in interstate or foreign commerce, including 
+all waters that are subject to the ebb and flow of the tide;
+    (2) Interstate waters, including interstate wetlands;
+    (3) All other waters such as intrastate lakes, rivers, streams 
+(including intermittent streams), mudflats, sandflats, and wetlands, 
+the use, degradation, or destruction of which would affect or could 
+affect interstate or foreign commerce including any such waters;
+    (i) That are or could be used by interstate or foreign travelers 
+for recreational or other purposes;
+    (ii) From which fish or shellfish are or could be taken and sold in 
+interstate or foreign commerce;
+    (iii) That are used or could be used for industrial purposes by 
+industries in interstate commerce;
+    (4) All impoundments of waters otherwise defined as navigable 
+waters under this section;
+    (5) Tributaries of waters identified in paragraphs (a) through (d) 
+of this definition, including adjacent wetlands; and
+    (6) Wetlands adjacent to waters identified in paragraphs (a) 
+through (e) of this definition:",§ 110.1,primary,openai,gpt-5,2301,300
+54,EPA-HQ-OW-2017-0203,final,0,True,"Text appears within an amendatory block revising a definition and thus constitutes new binding regulatory text, though it is definitional scope rather than a prescriptive duty.",simple,definition_embedded,300,300.1.5,"the term ""Navigable waters""",no_modal_implicit,strong,includes,"specified categories of waters, including waters used or susceptible to use in interstate or foreign commerce; interstate waters and wetlands; and other waters the use, degradation, or destruction of which would affect or could affect interstate or foreign commerce, with subcategories (1)–(3)",False,False,,revise,"The term includes:
+    (a) All waters that are currently used, were used in the past, or 
+may be susceptible to use in interstate or foreign commerce, including 
+all waters that are subject to the ebb and flow of the tide;
+    (b) Interstate waters, including interstate wetlands;
+    (c) All other waters such as intrastate lakes, rivers, streams 
+(including intermittent streams), mudflats, sandflats, and wetlands, 
+the use, degradation, or destruction of which would affect or could 
+affect interstate or foreign commerce including any such waters:
+    (1) That are or could be used by interstate or foreign travelers 
+for recreational or other purposes;
+    (2) From which fish or shellfish are or could be taken and sold in 
+interstate or foreign commerce; and
+    (3) That are used or could be used for industrial purposes by 
+industries in interstate commerce.",40 CFR 110.1,primary,openai,gpt-5,2086,246

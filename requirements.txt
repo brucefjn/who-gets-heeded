@@ -1,0 +1,51 @@
+# regulatory-comments-project — Python dependencies (loose constraints).
+#
+# Tested with Python 3.13 on macOS 14/15, May 2026.
+# For EXACT-VERSION replication, also use `requirements-lock.txt` (output of
+# `pip freeze` from the active environment that produced the published results).
+#
+# System dependencies (install separately via Homebrew on macOS):
+#   brew install tesseract        # required by pytesseract for OCR Stage 1
+#   brew install gh               # GitHub CLI (collaboration only, not pipeline)
+
+# ----- Core data handling -----
+pandas>=2.0
+numpy>=1.24
+
+# ----- Plotting (lobbying-by-agency time series in scripts/build_lobbying_aggregate.py) -----
+matplotlib>=3.7
+
+# ----- Parquet I/O -----
+pyarrow>=12.0
+
+# ----- Stage 2 attachment retrieval — native (non-OCR) extraction -----
+pdfplumber>=0.11        # PDF text extraction (06_download_extract_attachments.py)
+python-docx>=1.0        # DOCX text extraction (06, recovery script)
+beautifulsoup4>=4.12    # HTML fallback (06)
+
+# ----- OCR Stage 1: pytesseract recovery (08_ocr_pytesseract.py) -----
+pytesseract>=0.3.10     # Python wrapper for the tesseract OCR binary
+pypdfium2>=4.0          # PDF page → PIL.Image rendering (no poppler dep)
+pillow>=10.0            # PIL image handling (transitive dep of pdfplumber/pypdfium2)
+
+# ----- OCR Stage 2: Claude vision-LLM fallback (09_ocr_vision_llm.py) -----
+anthropic>=0.35         # Anthropic Python SDK for Messages API w/ vision
+
+# ----- OCR cross-validation + WS3 entity matching -----
+rapidfuzz>=3.0          # Fast Levenshtein-based similarity (10_ocr_cross_validation.py, 13_match_commenters_to_opensecrets.py)
+
+# ----- Stage 1 LLM-as-judge (planned 2026-05-08; OpenAI primary + Anthropic cross-validation) -----
+openai>=1.50            # OpenAI Python SDK for GPT-5 primary feature extraction
+# anthropic also used here — already listed above for OCR Stage 2
+
+# ----- Path A Stage 1 obligation extraction (heuristic + spaCy dep-parse) -----
+spacy>=3.7              # spaCy NLP — used by code/lib/path_a_obligation_heuristic.py
+                        # Model: en_core_web_lg (preferred for legal text accuracy);
+                        # fallback en_core_web_sm with stderr warning.
+                        # Install model after `pip install spacy`:
+                        #   python -m spacy download en_core_web_lg     # ~750MB, recommended
+                        #   python -m spacy download en_core_web_sm     # ~12MB, fallback only
+
+# ----- Standard library used (no install needed) -----
+# hashlib, json, re, pathlib, datetime, collections, argparse, urllib,
+# csv, time, os, sys, random, base64, io, typing

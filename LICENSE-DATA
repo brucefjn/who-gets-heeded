@@ -1,0 +1,16 @@
+Data and documentation license
+
+Copyright (c) 2026 The authors of "Who Gets Heeded?" (see CITATION.cff)
+
+The files in data/ and docs/ are licensed under the Creative Commons
+Attribution 4.0 International License (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+
+This license covers our derived tables, annotations, and documentation.
+The underlying public comments (regulations.gov) and rule text (Federal
+Register) are public records of the U.S. government.
+
+Please cite: Jianing Fan and Yue Yao. 2026. Who Gets Heeded? An
+Obligation-Level Audit of Responsiveness in EPA Rulemaking. In Equity and
+Access in Algorithms, Mechanisms, and Optimization (EAAMO '26).
+https://doi.org/10.1145/3846167.3848608

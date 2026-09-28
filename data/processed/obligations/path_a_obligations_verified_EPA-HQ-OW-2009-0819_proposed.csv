@@ -1,0 +1,1403 @@
+candidate_idx,docket_id,rule_type,split_idx,verified,verified_reason,complexity,recital_disposition,cfr_part,cfr_section,subject,modal,modal_strength,action,object,passive_voice,is_conditional,condition_text,amendatory_action,obligation_text,cross_reference,found_via,llm_provider,llm_model,in_tokens,out_tokens
+78,EPA-HQ-OW-2009-0819,proposed,0,True,The sentence appears within an amendatory block revising § 423.12(b); amended text is binding.,simple,amendatory_quote,423,423.12(b)(11),"Dischargers of FGD wastewater, flue gas mercury control wastewater, combustion residual leachate, or gasification wastewater",must not,strong,discharge pollutants in quantities exceeding the applicable calculated limit,the quantity determined by multiplying the flow of the applicable wastewater by the concentration listed in the referenced table,False,False,,revise,"The quantity of pollutants discharged in FGD wastewater, flue 
+gas mercury control wastewater, combustion residual leachate, or 
+gasification wastewater shall not exceed the quantity determined by 
+multiplying the flow of the applicable wastewater times the 
+concentration listed in the following table:
+
+------------------------------------------------------------------------
+                                          BPT effluent limitations
+                                   -------------------------------------
+                                                        Average of daily
+  Pollutant or pollutant property                        values for 30
+                                    Maximum for any 1   consecutive days
+                                        day (mg/l)      shall not exceed
+                                                             (mg/l)
+------------------------------------------------------------------------
+TSS...............................              100.0               30.0
+Oil and grease....................",,primary,openai,gpt-5,1971,222
+79,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within amendatory text revising § 423.12/§ 423.13, so it constitutes new binding regulatory text.",simple,none,423,423.12(b)(12),the permitting authority,may,permissive,express,the quantity of pollutant allowed to be discharged as a concentration limitation instead of mass-based limitations,False,True,At the permitting authority's discretion,revise,"At the permitting authority's discretion, the quantity of 
+pollutant allowed to be discharged may be expressed as a concentration 
+limitation instead of the any mass based limitations specified in 
+paragraphs (b)(3) through (b)(11) of this section.",paragraphs (b)(3) through (b)(11) of this section,primary,openai,gpt-5,1759,217
+80,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block that revises § 423.13, making the language new binding text.",simple,none,423,423.12,Concentration limitations,shall,strong,be,those concentrations specified in this section,False,False,,revise,"Concentration 
+limitations shall be those concentrations specified in this section.",§ 423.12,primary,openai,gpt-5,1693,178
+81,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block revising § 423.12, so the language constitutes new binding regulatory text.",simple,none,423,423.12,each controlled waste source,must not,strong,exceed,the specified limitations for that waste source,False,True,"In the event that wastestreams from various sources are combined for treatment or discharge, for each pollutant or pollutant property controlled in paragraphs (b)(1) through (b)(12) of this section attributable to that source",revise,"In the event that wastestreams from various sources are 
+combined for treatment or discharge, the quantity of each pollutant or 
+pollutant property controlled in paragraphs (b)(1) through (b)(12) of 
+this section attributable to each controlled waste source shall not 
+exceed the specified limitations for that waste source.",§ 423.12(b)(1)–(12),primary,openai,gpt-5,1814,236
+82,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block adding/revising § 423.13 paragraphs, making it new binding regulatory text.",simple,none,423,423.13(f)(1),dischargers of nonchemical metal cleaning wastes,may not,strong,discharge pollutants in quantities exceeding the specified limit,quantity determined by multiplying the flow of nonchemical metal cleaning wastes times the concentration listed in the BAT table,False,True,Except for those discharges to which paragraph (f)(2) of this section applies,revise,"Except for those discharges to which paragraph (f)(2) of 
+this section applies, the quantity of pollutants discharged in 
+nonchemical metal cleaning wastes shall not exceed the quantity 
+determined by multiplying the flow of nonchemical metal cleaning wastes 
+times the concentration listed in the following table:
+
+------------------------------------------------------------------------
+                                          BAT effluent limitations
+                                   -------------------------------------
+                                                        Average of daily
+  Pollutant or pollutant property                        values for 30
+                                    Maximum for any 1   consecutive days
+                                        day (mg/l)      shall not exceed
+                                                             (mg/l)
+------------------------------------------------------------------------
+Copper, total.....................",§ 423.13(f)(2),primary,openai,gpt-5,1945,232
+83,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within amendatory regulatory text being revised for § 423.13, making it binding.",simple,none,423,423.13,dischargers of nonchemical metal cleaning waste authorized under § 423.12(b)(3) for low-volume waste,may not,strong,exceed,the quantity determined by multiplying the flow of nonchemical metal cleaning wastes by the concentration listed in § 423.12(b)(3),False,True,For discharges of nonchemical metal cleaning waste currently authorized pursuant to limitations based on requirements in § 423.12(b)(3) for low-volume waste,revise,"1.0                1.0
+------------------------------------------------------------------------
+
+    (2) For those discharges of nonchemical metal cleaning waste that 
+are currently authorized pursuant to limitations based on requirements 
+in Sec.  423.12(b)(3) for low-volume waste, the quantity of pollutants 
+discharged in nonchemical metal cleaning wastes shall not exceed the 
+quantity determined by multiplying the flow of nonchemical metal 
+cleaning wastes times the concentration listed in Sec.  423.12(b)(3).
+    (g)(1)",§ 423.12(b)(3),primary,openai,gpt-5,1847,252
+84,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block revising § 423.13, making it new binding regulatory text.",simple,none,423,423.13(g)(1),dischargers,must,strong,meet,"the effluent limitations in this paragraph by a date determined by the permitting authority that is as soon as possible within the next permit cycle beginning July 1, 2017",False,True,Except for those discharges to which paragraph (g)(2) of this section applies,revise,"Except for those discharges to which paragraph (g)(2) of 
+this section applies, dischargers must meet the effluent limitations in 
+this paragraph by a date determined by the permitting authority that is 
+as soon as possible within the next permit cycle beginning July 1, 
+2017.",§ 423.13(g)(2),primary,openai,gpt-5,1753,228
+85,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory revise block setting new effluent limitations, making it binding regulatory text.",simple,none,423,423.13(g)(1),effluent limitations,may not,strong,allow,the quantity of pollutants in FGD wastewater to exceed the quantity determined by multiplying the flow of FGD wastewater by the listed concentration values,False,False,,revise,"Such effluent limitations shall not allow the 
+quantity of pollutants in FGD wastewater to exceed the quantity 
+determined by multiplying the flow of FGD wastewater times the 
+concentration listed in the following table:
+
+------------------------------------------------------------------------
+                                         BAT effluent limitations
+                                 ---------------------------------------
+                                                       Average of daily
+ Pollutant or pollutant property   Maximum for any 1     values for 30
+                                          day          consecutive days
+                                                       shall not exceed
+------------------------------------------------------------------------
+Arsenic, total (ug/L)...........                8                   6
+Mercury, total (ng/L)...........              242                 119
+Selenium, total (ug/L)..........               16                  10
+Nitrate/nitrate as N (mg/L).....                0.17                0.13
+------------------------------------------------------------------------",,primary,openai,gpt-5,2030,194
+86,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block revising § 423.13(g), making it new binding regulatory text.",simple,none,423,423.13(g),any electric generating unit with a total nameplate capacity of less than or equal to 50 megawatts or an oil-fired unit,may not,strong,discharge pollutants in FGD wastewater in quantities that exceed the calculated limit,the quantity determined by multiplying the flow of FGD wastewater by the concentration listed in § 423.12(b)(11),False,False,,revise,"[[Page 34535]]
+
+    (2) For any electric generating unit with a total nameplate 
+capacity of less than or equal to 50 megawatts or that is an oil-fired 
+unit, the quantity of pollutants discharged in FGD wastewater shall not 
+exceed the quantity determined by multiplying the flow of FGD 
+wastewater times the concentration listed in Sec.  423.12(b)(11).",§ 423.12(b)(11),primary,openai,gpt-5,1842,237
+87,EPA-HQ-OW-2009-0819,proposed,0,True,"The obligation appears within amendatory regulatory text revising § 423.13(g), making it binding.",compound,none,423,423.13(g),A discharger,must,strong,demonstrate compliance,the effluent limitations in paragraph (g)(1) of this section,False,False,,revise,"(3) A discharger must demonstrate compliance with the effluent 
+limitations in paragraph (g)(1) of this section, as applicable, by 
+monitoring for all pollutants (except pH) at a point prior to use of 
+the FGD wastewater in any other plant process or commingling of the FGD 
+wastewater with any water or other process wastewater, except for any 
+combustion residual leachate or any other FGD wastewater.",paragraph (g)(1) of this section,primary,openai,gpt-5,1916,370
+87,EPA-HQ-OW-2009-0819,proposed,1,True,"The obligation appears within amendatory regulatory text revising § 423.13(g), making it binding.",compound,none,423,423.13(g),A discharger,must,strong,monitor,"for all pollutants (except pH) at a point prior to use of the FGD wastewater in any other plant process or commingling of the FGD wastewater with any water or other process wastewater, except for any combustion residual leachate or any other FGD wastewater",False,True,"to demonstrate compliance with the effluent limitations in paragraph (g)(1) of this section, as applicable",revise,"(3) A discharger must demonstrate compliance with the effluent 
+limitations in paragraph (g)(1) of this section, as applicable, by 
+monitoring for all pollutants (except pH) at a point prior to use of 
+the FGD wastewater in any other plant process or commingling of the FGD 
+wastewater with any water or other process wastewater, except for any 
+combustion residual leachate or any other FGD wastewater.",paragraph (g)(1) of this section,primary,openai,gpt-5,0,0
+88,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block revising § 423.13, making it new binding text.",simple,none,423,423.13(g),Compliance with the effluent limitations,must,strong,reflect,results obtained from sufficiently sensitive analytical methods,False,False,,revise,"Compliance 
+with the effluent limitations must reflect results obtained from 
+sufficiently sensitive analytical methods.",,primary,openai,gpt-5,1763,176
+89,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within amendatory text revising § 423.13(h), making it new binding regulatory text.",simple,none,423,423.13(h)(1),dischargers,must,strong,meet,"the discharge prohibition in this paragraph by a date determined by the permitting authority that is as soon as possible within the next permit cycle beginning July 1, 2017",False,True,Except for those discharges to which paragraph (h)(2) of this section applies,revise,"Except for those discharges to which paragraph (h)(2) of 
+this section applies, dischargers must meet the discharge prohibition 
+in this paragraph by a date determined by the permitting authority that 
+is as soon as possible within the next permit cycle beginning July 1, 
+2017.",paragraph (h)(2),primary,openai,gpt-5,1823,224
+90,EPA-HQ-OW-2009-0819,proposed,0,True,The sentence appears within an amendatory block revising § 423.13(h) and sets new binding discharge requirements.,simple,none,423,423.13(h)(1),dischargers,shall,strong,have,no discharge of wastewater pollutants from fly ash transport water generated on or after the date the permitting authority determines is as soon as possible,False,False,,revise,"There shall be no discharge of wastewater pollutants from fly ash 
+transport water generated on or after the date the permitting authority 
+determines is as soon as possible.",,primary,openai,gpt-5,1762,195
+91,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block revising § 423.13, making it new binding regulatory text.",simple,none,423,423.13(h)(1),the resulting effluent,must,strong,comply,the discharge prohibition in this paragraph,False,True,Whenever fly ash transport water is used in any other plant process or is sent to a treatment system at the plant,revise,"Whenever fly ash transport water is 
+used in any other plant process or is sent to a treatment system at the 
+plant, the resulting effluent must comply with the discharge 
+prohibition in this paragraph.",,primary,openai,gpt-5,1791,199
+92,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block revising § 423.13, making it new binding regulatory text.",simple,none,423,423.13,any electric generating unit with a total nameplate generating capacity of less than or equal to 50 megawatts or that is an oil-fired unit,must not,strong,discharge pollutants in fly ash transport water in a quantity that exceeds,the quantity determined by multiplying the flow of fly ash transport water by the concentration listed in § 423.12(b)(4),False,False,,revise,"(2) For any electric generating unit with a total nameplate 
+generating capacity of less than or equal to 50 megawatts or that is an 
+oil-fired unit, the quantity of pollutants discharged in fly ash 
+transport water shall not exceed the quantity determined by multiplying 
+the flow of fly ash transport water times the concentration listed in 
+Sec.  423.12(b)(4).
+    (i)(1)",§ 423.12(b)(4),primary,openai,gpt-5,1849,238
+93,EPA-HQ-OW-2009-0819,proposed,0,True,The sentence appears within an amendatory block revising § 423.13 and prescribes a binding compliance deadline.,simple,none,423,423.13(i)(1),dischargers,must,strong,meet,the discharge prohibition in this paragraph,False,True,Except for those discharges to which paragraph (i)(2) of this section applies,revise,"Except for those discharges to which paragraph (i)(2) of 
+this section applies, dischargers must meet the discharge prohibition 
+in this paragraph by a date determined by the permitting authority that 
+is as soon as possible within the next permit cycle beginning July 1, 
+2017.",paragraph (i)(2),primary,openai,gpt-5,1800,197
+94,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block revising § 423.13, making it new binding regulatory text.",simple,none,423,423.13(i)(1),Dischargers,shall,strong,discharge,wastewater pollutants from flue gas mercury control wastewater generated on or after the date the permitting authority determines is as soon as possible,False,False,,revise,"There shall be no discharge of wastewater pollutants from flue 
+gas mercury control wastewater generated on or after the date the 
+permitting authority determines is as soon as possible.",,primary,openai,gpt-5,1753,196
+95,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block revising § 423.13, so it is new binding regulatory text.",simple,none,423,423.13,the resulting effluent,must,strong,comply,the discharge prohibition in this paragraph,False,True,Whenever flue gas mercury control wastewater is used in any other plant process or is sent to a treatment system at the plant,revise,"Whenever flue 
+gas mercury control wastewater is used in any other plant process or is 
+sent to a treatment system at the plant, the resulting effluent must 
+comply with the discharge prohibition in this paragraph.",,primary,openai,gpt-5,1802,199
+96,EPA-HQ-OW-2009-0819,proposed,0,True,"The text appears within an amendatory block revising § 423.13, so the language is new binding regulatory text.",simple,none,423,423.13,any electric generating unit with a total nameplate generating capacity of ≤ 50 megawatts or that is an oil-fired unit,must not,strong,discharge pollutants in flue gas mercury control wastewater in a quantity that exceeds the allowable amount,a quantity greater than the product of the flow of flue gas mercury control wastewater and the concentration listed in § 423.12(b)(11),False,False,,revise,"(2) For any electric generating unit with a total nameplate 
+generating capacity of less than or equal to 50 megawatts or that is an 
+oil-fired unit, the quantity of pollutants discharged in flue gas 
+mercury control wastewater shall not exceed the quantity determined by 
+multiplying the flow of flue gas mercury control wastewater times the 
+concentration listed in Sec.  423.12(b)(11).
+    (j)(1)",§ 423.12(b)(11),primary,openai,gpt-5,1851,245
+97,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within amendatory text revising § 423.13, so it constitutes new binding regulatory language.",simple,none,423,423.13(j)(1),dischargers,must,strong,meet,"the effluent limitations in this paragraph by a date determined by the permitting authority that is as soon as possible within the next permit cycle beginning July 1, 2017",False,True,Except for those discharges to which paragraph (j)(2) of this section applies,revise,"Except for those discharges to which paragraph (j)(2) of 
+this section applies, dischargers must meet the effluent limitations in 
+this paragraph by a date determined by the permitting authority that is 
+as soon as possible within the next permit cycle beginning July 1, 
+2017.",paragraph (j)(2),primary,openai,gpt-5,1761,225
+98,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block revising § 423.13, making it binding regulatory text.",simple,none,423,423.13(j)(1),effluent limitations,may not,strong,allow the quantity of pollutants in gasification wastewater to exceed the quantity determined by multiplying the wastewater flow by the listed concentration,quantity of pollutants in gasification wastewater,False,False,,revise,"Such effluent limitations shall not allow the quantity of 
+pollutants in gasification wastewater to exceed the quantity determined 
+by multiplying the flow of gasification wastewater times the 
+concentration listed in the following table:
+
+------------------------------------------------------------------------
+                                         BAT effluent limitations
+                                 ---------------------------------------
+                                                       Average of daily
+ Pollutant or pollutant property   Maximum for any 1     values for 30
+                                          day          consecutive days
+                                                       shall not exceed
+------------------------------------------------------------------------
+Arsenic, total (ug/L)...........",,primary,openai,gpt-5,1896,198
+100,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block revising § 423.13, making it new binding regulatory text.",simple,none,423,423.13,any electric generating unit with a total nameplate generating capacity of less than or equal to 50 megawatts or that is an oil-fired unit,must not,strong,discharge pollutants in gasification wastewater in a quantity that exceeds the allowable quantity,the quantity determined by multiplying the flow of gasification wastewater by the concentration listed in § 423.12(b)(11),False,False,,revise,"(2) For any electric generating unit with a total nameplate 
+generating capacity of less than or equal to 50 megawatts or that is an 
+oil-fired unit, the quantity of pollutants discharged in gasification 
+wastewater shall not exceed the quantity determined by multiplying the 
+flow of gasification wastewater times the concentration listed in Sec.  
+423.12(b)(11).",§ 423.12(b)(11),primary,openai,gpt-5,1832,239
+101,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within amendatory regulatory text revising § 423.13, making it new binding text.",simple,none,423,423.13,A discharger,must,strong,demonstrate compliance,the effluent limitations in paragraph (j)(1) of this section by monitoring for all pollutants (except pH) at a point prior to use or commingling of the gasification wastewater,False,False,,revise,"(3) A discharger must demonstrate compliance with the effluent 
+limitations in paragraph (j)(1) of this section, as applicable, by 
+monitoring for all pollutants (except pH) at a point prior to use of 
+the gasification wastewater in any other plant process or commingling 
+of the gasification wastewater with water or any other process 
+wastewater.",paragraph (j)(1) of this section,primary,openai,gpt-5,1832,216
+102,EPA-HQ-OW-2009-0819,proposed,0,True,The sentence appears within amendatory text revising § 423.13; therefore it is new binding regulatory text.,simple,none,423,423.13,Compliance with the effluent limitations,must,strong,reflect,results obtained from sufficiently sensitive analytical methods,False,False,,revise,"Compliance with the effluent limitations must reflect 
+results obtained from sufficiently sensitive analytical methods.
+
+    (k)(1)",,primary,openai,gpt-5,1726,176
+103,EPA-HQ-OW-2009-0819,proposed,0,True,The sentence appears within an amendatory block revising § 423.13 and imposes a new binding requirement.,simple,none,423,423.13(k)(1),dischargers,must,strong,meet,the discharge prohibition in this paragraph,False,True,Except for those discharges to which paragraph (k)(2) of this section applies,revise,"Except for those discharges to which paragraph (k)(2) of 
+this section applies, dischargers must meet the discharge 
+prohibition in this paragraph by a date determined by the permitting 
+authority that is as soon as possible within the next permit cycle 
+beginning July 1, 2017.",paragraph (k)(2) of this section,primary,openai,gpt-5,1808,201
+104,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block revising § 423.13, making it new binding regulatory text.",simple,none,423,423.13(k)(1),dischargers,shall,strong,ensure there is no discharge,wastewater pollutants from bottom ash transport water generated on or after the date the permitting authority determines is as soon as possible,False,True,for bottom ash transport water generated on or after the date the permitting authority determines is as soon as possible,revise,"There shall be no discharge of wastewater 
+pollutants from bottom ash transport water generated on or after the 
+date the permitting authority determines is as soon as possible.",,primary,openai,gpt-5,1745,217
+105,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block revising § 423.13(k), so it is new binding regulatory text.",simple,none,423,423.13(k),the resulting effluent,must,strong,comply,the discharge prohibition in this paragraph,False,True,Whenever bottom ash transport water is used in any other plant process or is sent to a treatment system at the plant,revise,"Whenever bottom ash transport water is used in any other plant 
+process or is sent to a treatment system at the plant, the resulting 
+effluent must comply with the discharge prohibition in this 
+paragraph.",,primary,openai,gpt-5,1800,199
+106,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block revising § 423.13, so it constitutes new binding regulatory text.",simple,none,423,423.13(k)(2),any electric generating unit with a total nameplate generating capacity of less than or equal to 400 megawatts or that is an oil-fired unit,must not,strong,discharge pollutants in bottom ash transport water in quantities that exceed,the quantity determined by multiplying the flow of the applicable wastewater by the concentration in § 423.12(b)(4),False,False,,revise,"(2) For any electric generating unit with a total nameplate 
+generating capacity of less than or equal to 400 megawatts or that is 
+an oil-fired unit, the quantity of pollutants discharged in bottom ash 
+transport water shall not exceed the quantity determined by multiplying 
+the flow of the applicable wastewater times the concentration in Sec.  
+423.12(b)(4).",§ 423.12(b)(4),primary,openai,gpt-5,1856,239
+108,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within amendatory regulatory text revising § 423.13, making it new binding text.",simple,none,423,423.13(l),The quantity of pollutants discharged in combustion residual leachate,may not,strong,exceed,the quantity determined by multiplying the flow of leachate times the concentration listed in § 423.12(b)(11),False,False,,revise,"[[Page 34536]]
+
+
+    (l) The quantity of pollutants discharged in combustion residual 
+leachate shall not exceed the quantity determined by multiplying the 
+flow of leachate times the concentration listed in Sec.  423.12(b)(11).",§ 423.12(b)(11),primary,openai,gpt-5,1801,208
+109,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within CFR regulatory text being amended (surrounded by amendatory revisions for § 423.13 and § 423.15), making it new binding text.",simple,none,423,423.13(m),the permitting authority,may,permissive,express,the quantity of pollutant allowed to be discharged as a concentration limitation instead of any mass-based limitations specified in paragraphs (b) through (l) of this section,False,False,,revise,"At the permitting authority's discretion, the quantity of 
+pollutant allowed to be discharged may be expressed as a concentration 
+limitation instead of any mass based limitations specified in 
+paragraphs (b) through (l) of this section.",§ 423.13(b)–(l),primary,openai,gpt-5,1802,223
+110,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block revising § 423.13, making it new binding regulatory text.",simple,none,423,423.13,Concentration limitations,shall,strong,be,those concentrations specified in this section,False,False,,revise,"Concentration limitations 
+shall be those concentrations specified in this section.",,primary,openai,gpt-5,1726,172
+111,EPA-HQ-OW-2009-0819,proposed,0,True,The sentence appears within amendatory regulatory text revising § 423.13; therefore it is new binding text.,simple,none,423,423.13,each controlled waste source,must not,strong,exceed,the specified limitation for that waste source for the quantity of each pollutant or pollutant property controlled in paragraphs (a) through (m) of this section,False,True,In the event that wastestreams from various sources are combined for treatment or discharge,revise,"(n) In the event that wastestreams from various sources are 
+combined for treatment or discharge, the quantity of each pollutant or 
+pollutant property controlled in paragraphs (a) through (m) of this 
+section attributable to each controlled waste source shall not exceed 
+the specified limitation for that waste source.",§ 423.13(a)–(m),primary,openai,gpt-5,1848,226
+112,EPA-HQ-OW-2009-0819,proposed,0,True,Text is within an amendatory block revising § 423.15 and sets binding NSPS requirements.,compound,none,423,423.15(a),"Any new source as of November 19, 1982, subject to this subpart",must,strong,achieve,the new source performance standards and the revised requirements of § 423.13 of this part,False,False,,revise,"Any new source as of 
+November 19, 1982, subject to this subpart, must achieve the following 
+new source performance standards and the revised requirements of Sec.  
+423.13 of this part, published on [insert date of publication of final 
+rule]:
+    (1) The pH of all discharges, except once through cooling water, 
+shall be within the range of 6.0-9.0.
+    (2) There shall be no discharge of polychlorinated biphenyl 
+compounds such as those commonly used for transformer fluid.",§ 423.13,primary,openai,gpt-5,1974,487
+112,EPA-HQ-OW-2009-0819,proposed,1,True,Text is within an amendatory block revising § 423.15 and sets binding NSPS requirements.,compound,none,423,423.15(a)(1),"Any new source as of November 19, 1982, subject to this subpart",shall,strong,"ensure the pH of all discharges, except once-through cooling water, is within the specified range",pH range of 6.0 to 9.0,False,False,,revise,"Any new source as of 
+November 19, 1982, subject to this subpart, must achieve the following 
+new source performance standards and the revised requirements of Sec.  
+423.13 of this part, published on [insert date of publication of final 
+rule]:
+    (1) The pH of all discharges, except once through cooling water, 
+shall be within the range of 6.0-9.0.
+    (2) There shall be no discharge of polychlorinated biphenyl 
+compounds such as those commonly used for transformer fluid.",,primary,openai,gpt-5,0,0
+112,EPA-HQ-OW-2009-0819,proposed,2,True,Text is within an amendatory block revising § 423.15 and sets binding NSPS requirements.,compound,none,423,423.15(a)(2),"Any new source as of November 19, 1982, subject to this subpart",shall,strong,have no discharge of polychlorinated biphenyl compounds such as those commonly used for transformer fluid,polychlorinated biphenyl compound discharges,False,False,,revise,"Any new source as of 
+November 19, 1982, subject to this subpart, must achieve the following 
+new source performance standards and the revised requirements of Sec.  
+423.13 of this part, published on [insert date of publication of final 
+rule]:
+    (1) The pH of all discharges, except once through cooling water, 
+shall be within the range of 6.0-9.0.
+    (2) There shall be no discharge of polychlorinated biphenyl 
+compounds such as those commonly used for transformer fluid.",,primary,openai,gpt-5,0,0
+113,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block revising § 423.15, making it new binding regulatory text.",simple,none,423,423.15,The quantity of pollutants discharged from low volume waste sources,may not,strong,exceed,the quantity determined by multiplying the flow of low volume waste sources by the concentration listed in the following table,False,False,,revise,"(3) The quantity of pollutants discharged from low volume waste 
+sources shall not exceed the quantity determined by multiplying the 
+flow of low volume waste sources times the concentration listed in the 
+following table:",,primary,openai,gpt-5,1716,195
+114,EPA-HQ-OW-2009-0819,proposed,0,True,The text is within an amendatory block revising § 423.15 and contains binding effluent limits using shall not exceed.,compound,none,423,423.15,dischargers of pollutants in low volume waste sources,may not,strong,exceed,the quantity determined by multiplying the flow of low volume waste sources by the applicable concentration limits in the table (TSS 100.0 mg/L daily maximum and 30.0 mg/L 30-day average; Oil and grease 20.0 mg/L daily maximum and 15.0 mg/L 30-day average),False,False,,revise,"------------------------------------------------------------------------
+                                       Pollutant or pollutant property
+                                   -------------------------------------
+                                                        Average of daily
+               NSPS                                      values for 30
+                                     Maximum for  any   consecutive days
+                                       1 day (mg/l)     shall not exceed
+                                                             (mg/l)
+------------------------------------------------------------------------
+TSS...............................              100.0               30.0
+Oil and grease....................               20.0               15.0
+------------------------------------------------------------------------
+
+    (4) The quantity of pollutants discharged in chemical metal 
+cleaning wastes shall not exceed the quantity determined by multiplying 
+the flow of chemical metal cleaning wastes times the concentration 
+listed in the following table:
+
+------------------------------------------------------------------------
+                                                    NSPS
+                                   -------------------------------------
+                                                        Average of daily
+  Pollutant or pollutant property                        values for 30
+                                    Maximum for",,primary,openai,gpt-5,2055,456
+114,EPA-HQ-OW-2009-0819,proposed,1,True,The text is within an amendatory block revising § 423.15 and contains binding effluent limits using shall not exceed.,compound,none,423,423.15,dischargers of pollutants in chemical metal cleaning wastes,may not,strong,exceed,"the quantity determined by multiplying the flow of chemical metal cleaning wastes by the applicable concentration limits in the table (TSS 100.0 mg/L daily maximum and 30.0 mg/L 30-day average; Oil and grease 20.0 mg/L daily maximum and 15.0 mg/L 30-day average; Copper, total 1.0 mg/L daily maximum and 1.0 mg/L 30-day average; Iron, total 1.0 mg/L daily maximum and 1.0 mg/L 30-day average)",False,False,,revise,"------------------------------------------------------------------------
+                                       Pollutant or pollutant property
+                                   -------------------------------------
+                                                        Average of daily
+               NSPS                                      values for 30
+                                     Maximum for  any   consecutive days
+                                       1 day (mg/l)     shall not exceed
+                                                             (mg/l)
+------------------------------------------------------------------------
+TSS...............................              100.0               30.0
+Oil and grease....................               20.0               15.0
+------------------------------------------------------------------------
+
+    (4) The quantity of pollutants discharged in chemical metal 
+cleaning wastes shall not exceed the quantity determined by multiplying 
+the flow of chemical metal cleaning wastes times the concentration 
+listed in the following table:
+
+------------------------------------------------------------------------
+                                                    NSPS
+                                   -------------------------------------
+                                                        Average of daily
+  Pollutant or pollutant property                        values for 30
+                                    Maximum for",,primary,openai,gpt-5,0,0
+115,EPA-HQ-OW-2009-0819,proposed,0,True,The sentence appears within an amendatory block (revise) and states a binding limit using shall not.,simple,none,423,423.15,The quantity of pollutants discharged in bottom ash transport water,may not,strong,exceed,the quantity determined by multiplying the flow of the bottom ash transport water times the concentration listed in the following table,False,False,,revise,"[Reserved].
+    (6) The quantity of pollutants discharged in bottom ash transport 
+water shall not exceed the quantity determined by multiplying the flow 
+of the bottom ash transport water times the concentration listed in the 
+following table:",,primary,openai,gpt-5,1666,194
+116,EPA-HQ-OW-2009-0819,proposed,0,True,"Text appears within an amendatory block revising § 423.15 and prescribes discharge limits/prohibition, making it new binding text.",compound,none,423,423.15,the quantity of pollutants discharged in bottom ash transport water,may not,strong,exceed,the quantity determined by multiplying the flow of the bottom ash transport water by the listed concentration limits,False,False,,revise,"------------------------------------------------------------------------
+                                                    NSPS
+                                   -------------------------------------
+                                                        Average of daily
+  Pollutant or pollutant property                        values for 30
+                                    Maximum for  any1   consecutive days
+                                       day  (mg/l)      shall not exceed
+                                                             (mg/l)
+------------------------------------------------------------------------
+TSS...............................              100.0               30.0
+Oil and grease....................               20.0               15.0
+------------------------------------------------------------------------
+
+    (7) There shall be no discharge of wastewater pollutants from fly 
+ash transport water.",,primary,openai,gpt-5,1875,574
+116,EPA-HQ-OW-2009-0819,proposed,1,True,"Text appears within an amendatory block revising § 423.15 and prescribes discharge limits/prohibition, making it new binding text.",compound,none,423,423.15,dischargers,may not,strong,discharge wastewater pollutants,from fly ash transport water,False,False,,revise,"------------------------------------------------------------------------
+                                                    NSPS
+                                   -------------------------------------
+                                                        Average of daily
+  Pollutant or pollutant property                        values for 30
+                                    Maximum for  any1   consecutive days
+                                       day  (mg/l)      shall not exceed
+                                                             (mg/l)
+------------------------------------------------------------------------
+TSS...............................              100.0               30.0
+Oil and grease....................               20.0               15.0
+------------------------------------------------------------------------
+
+    (7) There shall be no discharge of wastewater pollutants from fly 
+ash transport water.",,primary,openai,gpt-5,0,0
+116,EPA-HQ-OW-2009-0819,proposed,2,True,"Text appears within an amendatory block revising § 423.15 and prescribes discharge limits/prohibition, making it new binding text.",compound,none,423,423.15,the resulting effluent,must,strong,comply,with the discharge prohibition in paragraph (7) of this section,False,True,Whenever fly ash transport water is used in any other plant process or is sent to a treatment system at the plant,revise,"------------------------------------------------------------------------
+                                                    NSPS
+                                   -------------------------------------
+                                                        Average of daily
+  Pollutant or pollutant property                        values for 30
+                                    Maximum for  any1   consecutive days
+                                       day  (mg/l)      shall not exceed
+                                                             (mg/l)
+------------------------------------------------------------------------
+TSS...............................              100.0               30.0
+Oil and grease....................               20.0               15.0
+------------------------------------------------------------------------
+
+    (7) There shall be no discharge of wastewater pollutants from fly 
+ash transport water.",,primary,openai,gpt-5,0,0
+116,EPA-HQ-OW-2009-0819,proposed,3,True,"Text appears within an amendatory block revising § 423.15 and prescribes discharge limits/prohibition, making it new binding text.",compound,none,423,423.15,the quantity of pollutants discharged in once-through cooling water from each discharge point,may not,strong,exceed,the quantity determined by multiplying the flow of once-through cooling water from each discharge point by the listed concentration limits,False,True,For any plant with a total rated electric generating capacity of 25 or more megawatts,revise,"------------------------------------------------------------------------
+                                                    NSPS
+                                   -------------------------------------
+                                                        Average of daily
+  Pollutant or pollutant property                        values for 30
+                                    Maximum for  any1   consecutive days
+                                       day  (mg/l)      shall not exceed
+                                                             (mg/l)
+------------------------------------------------------------------------
+TSS...............................              100.0               30.0
+Oil and grease....................               20.0               15.0
+------------------------------------------------------------------------
+
+    (7) There shall be no discharge of wastewater pollutants from fly 
+ash transport water.",,primary,openai,gpt-5,0,0
+117,EPA-HQ-OW-2009-0819,proposed,0,True,The sentence appears within amendatory regulatory text revising § 423.15 and sets a mandatory compliance requirement.,simple,none,423,423.15,the resulting effluent,must,strong,comply,the discharge prohibition in this paragraph,False,True,Whenever fly ash transport water is used in any other plant process or is sent to a treatment system at the plant,revise,"Whenever fly ash transport water is used in any 
+other plant process or is sent to a treatment system at the plant, the 
+resulting effluent must comply with the discharge prohibition in this 
+paragraph.",,primary,openai,gpt-5,1700,195
+118,EPA-HQ-OW-2009-0819,proposed,0,True,"The text appears within an amendatory block revising § 423.15, making the requirements binding.",compound,none,423,423.15,any plant with a total rated electric generating capacity of 25 or more megawatts,may not,strong,exceed,the quantity determined by multiplying the flow of once-through cooling water from each discharge point by the listed concentration,False,False,,revise,"For any plant with a total rated electric generating 
+capacity of 25 or more megawatts, the quantity of pollutants discharged 
+in once through cooling water from each discharge point shall not 
+exceed the quantity determined by multiplying the flow of once through 
+cooling water from each discharge point times the concentration listed 
+in the following table:
+
+[[Page 34537]]
+
+
+
+------------------------------------------------------------------------
+                                                               NSPS
+                                                        ----------------
+            Pollutant or pollutant property                  Maximum
+                                                          concentrations
+                                                              (mg/l)
+------------------------------------------------------------------------
+Total residual chlorine................................             0.20
+------------------------------------------------------------------------
+
+    (ii) Total residual chlorine may not be discharged from any single 
+generating unit for more than two hours per day unless the discharger 
+demonstrates to the permitting authority that discharge for more than 
+two hours is required for macroinvertebrate control.",,primary,openai,gpt-5,1962,337
+118,EPA-HQ-OW-2009-0819,proposed,1,True,"The text appears within an amendatory block revising § 423.15, making the requirements binding.",compound,none,423,423.15,operators of any single generating unit,may not,strong,discharge total residual chlorine for more than two hours per day,total residual chlorine discharge duration,False,True,unless the discharger demonstrates to the permitting authority that discharge for more than two hours is required for macroinvertebrate control,revise,"For any plant with a total rated electric generating 
+capacity of 25 or more megawatts, the quantity of pollutants discharged 
+in once through cooling water from each discharge point shall not 
+exceed the quantity determined by multiplying the flow of once through 
+cooling water from each discharge point times the concentration listed 
+in the following table:
+
+[[Page 34537]]
+
+
+
+------------------------------------------------------------------------
+                                                               NSPS
+                                                        ----------------
+            Pollutant or pollutant property                  Maximum
+                                                          concentrations
+                                                              (mg/l)
+------------------------------------------------------------------------
+Total residual chlorine................................             0.20
+------------------------------------------------------------------------
+
+    (ii) Total residual chlorine may not be discharged from any single 
+generating unit for more than two hours per day unless the discharger 
+demonstrates to the permitting authority that discharge for more than 
+two hours is required for macroinvertebrate control.",,primary,openai,gpt-5,0,0
+119,EPA-HQ-OW-2009-0819,proposed,0,True,"The language appears within an amendatory block revising § 423.15, so it constitutes new binding regulatory text.",compound,none,423,423.15,any plant with a total rated generating capacity of less than 25 megawatts,may not,strong,exceed,the quantity determined by multiplying the flow of once through cooling water sources by the listed concentration,False,False,,revise,"For any plant with a total rated generating capacity of less 
+than 25 megawatts, the quantity of pollutants discharged in once 
+through cooling water shall not exceed the quantity determined by 
+multiplying the flow of once through cooling water sources times the 
+concentration listed in the following table:
+
+------------------------------------------------------------------------
+                                         Maximum            Average
+  Pollutant or pollutant property     concentration      concentration
+                                          (mg/l)             (mg/l)
+------------------------------------------------------------------------
+Free available chlorine...........                0.5                0.2
+------------------------------------------------------------------------
+
+    (ii) Neither free available chlorine nor total residual chlorine 
+may be discharged from any unit for more than two hours in any one day 
+and not more than one unit in any plant may discharge free available or 
+total residual chlorine at any one time unless the utility can 
+demonstrate to the Regional Administrator or State, if the State has 
+NPDES permit issuing authority, that the units in a particular location 
+cannot operate at or below this level of chlorination.",,primary,openai,gpt-5,2002,496
+119,EPA-HQ-OW-2009-0819,proposed,1,True,"The language appears within an amendatory block revising § 423.15, so it constitutes new binding regulatory text.",compound,none,423,423.15,any unit,may not,strong,discharge,free available chlorine or total residual chlorine for more than two hours in any one day,False,True,unless the utility demonstrates to the Regional Administrator or State (if the State has NPDES permit issuing authority) that the units in a particular location cannot operate at or below this level of chlorination,revise,"For any plant with a total rated generating capacity of less 
+than 25 megawatts, the quantity of pollutants discharged in once 
+through cooling water shall not exceed the quantity determined by 
+multiplying the flow of once through cooling water sources times the 
+concentration listed in the following table:
+
+------------------------------------------------------------------------
+                                         Maximum            Average
+  Pollutant or pollutant property     concentration      concentration
+                                          (mg/l)             (mg/l)
+------------------------------------------------------------------------
+Free available chlorine...........                0.5                0.2
+------------------------------------------------------------------------
+
+    (ii) Neither free available chlorine nor total residual chlorine 
+may be discharged from any unit for more than two hours in any one day 
+and not more than one unit in any plant may discharge free available or 
+total residual chlorine at any one time unless the utility can 
+demonstrate to the Regional Administrator or State, if the State has 
+NPDES permit issuing authority, that the units in a particular location 
+cannot operate at or below this level of chlorination.",,primary,openai,gpt-5,0,0
+119,EPA-HQ-OW-2009-0819,proposed,2,True,"The language appears within an amendatory block revising § 423.15, so it constitutes new binding regulatory text.",compound,none,423,423.15,any plant,may not,strong,discharge,free available or total residual chlorine from more than one unit at any one time,False,True,unless the utility demonstrates to the Regional Administrator or State (if the State has NPDES permit issuing authority) that the units in a particular location cannot operate at or below this level of chlorination,revise,"For any plant with a total rated generating capacity of less 
+than 25 megawatts, the quantity of pollutants discharged in once 
+through cooling water shall not exceed the quantity determined by 
+multiplying the flow of once through cooling water sources times the 
+concentration listed in the following table:
+
+------------------------------------------------------------------------
+                                         Maximum            Average
+  Pollutant or pollutant property     concentration      concentration
+                                          (mg/l)             (mg/l)
+------------------------------------------------------------------------
+Free available chlorine...........                0.5                0.2
+------------------------------------------------------------------------
+
+    (ii) Neither free available chlorine nor total residual chlorine 
+may be discharged from any unit for more than two hours in any one day 
+and not more than one unit in any plant may discharge free available or 
+total residual chlorine at any one time unless the utility can 
+demonstrate to the Regional Administrator or State, if the State has 
+NPDES permit issuing authority, that the units in a particular location 
+cannot operate at or below this level of chlorination.",,primary,openai,gpt-5,0,0
+120,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block revising § 423.15, so it is new binding regulatory text.",simple,none,423,423.15,Dischargers of cooling tower blowdown,may not,strong,discharge pollutants in quantities exceeding the allowed level,a quantity determined by multiplying the flow of cooling tower blowdown by the listed concentration limits,False,False,,revise,"The quantity of pollutants discharged in cooling tower 
+blowdown shall not exceed the quantity determined by multiplying the 
+flow of cooling tower blowdown times the concentration listed below:
+
+------------------------------------------------------------------------
+                                         Maximum            Average
+  Pollutant or pollutant property     concentration      concentration
+                                          (mg/l)             (mg/l)
+------------------------------------------------------------------------
+Free available chlorine...........                0.5                0.2
+------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------
+                                                    NSPS
+                                   -------------------------------------
+                                                        Average of daily
+  Pollutant or pollutant property    Maximum for  any    values for 30
+                                          1 day         consecutive days
+                                      concentration     shall not exceed
+                                          (mg/l)             (mg/l)
+------------------------------------------------------------------------",,primary,openai,gpt-5,1945,198
+121,EPA-HQ-OW-2009-0819,proposed,0,True,The text appears within an amendatory block revising § 423.15 and contains binding limitations using shall/may not language.,compound,none,423,423.15(a)(10)(ii),any unit,may not,strong,discharge,free available chlorine or total residual chlorine for more than two hours in any one day,False,True,unless the utility demonstrates to the Regional Administrator or State (if the State has NPDES permit issuing authority) that the units in a particular location cannot operate at or below this level of chlorination,revise,"(ii) Neither free available chlorine nor total residual chlorine 
+may be discharged from any unit for more than two hours in any one day 
+and not more than one unit in any plant may discharge free available or 
+total residual chlorine at any one time unless the utility can 
+demonstrate to the Regional Administrator or State, if the State has 
+NPDES permit issuing authority, that the units in a particular location 
+cannot operate at or below this level of chlorination.
+    (iii) At the permitting authority's discretion, instead of the 
+monitoring in 40 CFR 122.11(b), compliance with the limitations for the 
+126 priority pollutants in paragraph (a)(10)(i) of this section may be 
+determined by engineering calculations which demonstrate that the 
+regulated pollutants are not detectable in the final discharge by the 
+analytical methods in 40 CFR part 136.
+    (11) Subject to the provisions of Sec.  423.15(a)(12), the quantity 
+or quality of pollutants or pollutant parameters discharged in coal 
+pile runoff shall not exceed the limitations specified below:
+
+ 
+------------------------------------------------------------------------
+                                                    NSPS
+  Pollutant or pollutant property  -------------------------------------",,primary,openai,gpt-5,2129,700
+121,EPA-HQ-OW-2009-0819,proposed,1,True,The text appears within an amendatory block revising § 423.15 and contains binding limitations using shall/may not language.,compound,none,423,423.15(a)(10)(ii),any plant (not more than one unit),may not,strong,discharge,free available chlorine or total residual chlorine at any one time from more than one unit,False,True,unless the utility demonstrates to the Regional Administrator or State (if the State has NPDES permit issuing authority) that the units in a particular location cannot operate at or below this level of chlorination,revise,"(ii) Neither free available chlorine nor total residual chlorine 
+may be discharged from any unit for more than two hours in any one day 
+and not more than one unit in any plant may discharge free available or 
+total residual chlorine at any one time unless the utility can 
+demonstrate to the Regional Administrator or State, if the State has 
+NPDES permit issuing authority, that the units in a particular location 
+cannot operate at or below this level of chlorination.
+    (iii) At the permitting authority's discretion, instead of the 
+monitoring in 40 CFR 122.11(b), compliance with the limitations for the 
+126 priority pollutants in paragraph (a)(10)(i) of this section may be 
+determined by engineering calculations which demonstrate that the 
+regulated pollutants are not detectable in the final discharge by the 
+analytical methods in 40 CFR part 136.
+    (11) Subject to the provisions of Sec.  423.15(a)(12), the quantity 
+or quality of pollutants or pollutant parameters discharged in coal 
+pile runoff shall not exceed the limitations specified below:
+
+ 
+------------------------------------------------------------------------
+                                                    NSPS
+  Pollutant or pollutant property  -------------------------------------",,primary,openai,gpt-5,0,0
+121,EPA-HQ-OW-2009-0819,proposed,2,True,The text appears within an amendatory block revising § 423.15 and contains binding limitations using shall/may not language.,compound,none,423,423.15(a)(10)(iii),permitting authority,may,permissive,determine compliance by engineering calculations instead of specified monitoring,compliance with the limitations for the 126 priority pollutants in paragraph (a)(10)(i) using calculations showing the pollutants are not detectable by 40 CFR part 136 methods,False,False,at the permitting authority's discretion; in lieu of monitoring in 40 CFR 122.11(b),revise,"(ii) Neither free available chlorine nor total residual chlorine 
+may be discharged from any unit for more than two hours in any one day 
+and not more than one unit in any plant may discharge free available or 
+total residual chlorine at any one time unless the utility can 
+demonstrate to the Regional Administrator or State, if the State has 
+NPDES permit issuing authority, that the units in a particular location 
+cannot operate at or below this level of chlorination.
+    (iii) At the permitting authority's discretion, instead of the 
+monitoring in 40 CFR 122.11(b), compliance with the limitations for the 
+126 priority pollutants in paragraph (a)(10)(i) of this section may be 
+determined by engineering calculations which demonstrate that the 
+regulated pollutants are not detectable in the final discharge by the 
+analytical methods in 40 CFR part 136.
+    (11) Subject to the provisions of Sec.  423.15(a)(12), the quantity 
+or quality of pollutants or pollutant parameters discharged in coal 
+pile runoff shall not exceed the limitations specified below:
+
+ 
+------------------------------------------------------------------------
+                                                    NSPS
+  Pollutant or pollutant property  -------------------------------------",40 CFR 122.11(b),primary,openai,gpt-5,0,0
+121,EPA-HQ-OW-2009-0819,proposed,3,True,The text appears within an amendatory block revising § 423.15 and contains binding limitations using shall/may not language.,compound,none,423,423.15(a)(11),dischargers of coal pile runoff,may not,strong,exceed,the specified limitations for the quantity or quality of pollutants or pollutant parameters in coal pile runoff,False,True,subject to § 423.15(a)(12),revise,"(ii) Neither free available chlorine nor total residual chlorine 
+may be discharged from any unit for more than two hours in any one day 
+and not more than one unit in any plant may discharge free available or 
+total residual chlorine at any one time unless the utility can 
+demonstrate to the Regional Administrator or State, if the State has 
+NPDES permit issuing authority, that the units in a particular location 
+cannot operate at or below this level of chlorination.
+    (iii) At the permitting authority's discretion, instead of the 
+monitoring in 40 CFR 122.11(b), compliance with the limitations for the 
+126 priority pollutants in paragraph (a)(10)(i) of this section may be 
+determined by engineering calculations which demonstrate that the 
+regulated pollutants are not detectable in the final discharge by the 
+analytical methods in 40 CFR part 136.
+    (11) Subject to the provisions of Sec.  423.15(a)(12), the quantity 
+or quality of pollutants or pollutant parameters discharged in coal 
+pile runoff shall not exceed the limitations specified below:
+
+ 
+------------------------------------------------------------------------
+                                                    NSPS
+  Pollutant or pollutant property  -------------------------------------",§ 423.15(a)(12),primary,openai,gpt-5,0,0
+122,EPA-HQ-OW-2009-0819,proposed,0,True,The sentence appears within amendatory regulatory text revising § 423.15 and prescribes a binding exception using shall not.,simple,none,423,423.15(a)(12),"Any untreated overflow from facilities designed, constructed, and operated to treat the coal pile runoff which results from a 10 year, 24 hour rainfall event",may not,strong,be subject,the limitations in § 423.15(a)(11),True,False,,revise,"Any untreated overflow from facilities designed, constructed, 
+and operated to treat the coal pile runoff which results from a 10 
+year, 24 hour rainfall event shall not be subject to the limitations in 
+Sec.  423.15(a)(11).",§ 423.15(a)(11),primary,openai,gpt-5,1723,219
+123,EPA-HQ-OW-2009-0819,proposed,0,True,The sentence appears within an amendatory block revising § 423.15; thus it constitutes new binding regulatory text.,simple,none,423,423.15(a)(13),the permitting authority,may,permissive,express,the quantity of pollutant allowed to be discharged as a concentration limitation instead of mass-based limitations specified in paragraphs (a)(3) through (a)(10) of this section,False,True,At the permitting authority's discretion,revise,"At the permitting authority's discretion, the quantity of 
+pollutant allowed to be discharged may be expressed as a concentration 
+limitation instead of any mass based limitations specified in 
+paragraphs (a)(3) through (a)(10) of this section.",paragraphs (a)(3) through (a)(10) of this section,primary,openai,gpt-5,1754,229
+124,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within amendatory regulatory text for § 423.15 that is being revised, making it binding.",simple,none,423,423.15,Concentration limits,shall,strong,be based,the concentrations specified in this section,True,False,,revise,"Concentration limits 
+shall be based on the concentrations specified in this section.
+    (14)",,primary,openai,gpt-5,1718,173
+125,EPA-HQ-OW-2009-0819,proposed,0,True,The sentence appears within an amendatory block revising § 423.15; therefore it is new binding regulatory text.,simple,none,423,423.15(a)(14),each controlled waste source,must not,strong,exceed,the specified limitation for that waste source,False,True,"In the event that wastestreams from various sources are combined for treatment or discharge, the quantity of each pollutant or pollutant property controlled in paragraphs (a)(1) through (a)(13) of this section attributable to each controlled waste source",revise,"In the event that wastestreams from various sources are 
+combined for treatment or discharge, the quantity of each pollutant or 
+pollutant property controlled in paragraphs (a)(1) through (a)(13) of 
+this section attributable to each controlled waste source shall not 
+exceed the specified limitation for that waste source.",§ 423.15(a)(1)–(a)(13),primary,openai,gpt-5,1839,244
+126,EPA-HQ-OW-2009-0819,proposed,0,True,The text appears within an amendatory block revising § 423.15 and sets new binding standards.,compound,none,423,423.15(b),Any new source subject to this subpart as of the date of publication of the final rule,must,strong,achieve,the following new source performance standards,False,False,,revise,"Any new source as of 
+[insert date of publication of final rule], subject
+
+[[Page 34538]]
+
+to this subpart, must achieve the following new source performance 
+standards:
+    (1) The pH of all discharges, except once through cooling water, 
+shall be within the range of 6.0-9.0.
+    (2) There shall be no discharge of polychlorinated biphenyl 
+compounds such as those commonly used for transformer fluid.",,primary,openai,gpt-5,1866,453
+126,EPA-HQ-OW-2009-0819,proposed,1,True,The text appears within an amendatory block revising § 423.15 and sets new binding standards.,compound,none,423,423.15(b)(1),Any new source subject to this subpart as of the date of publication of the final rule,shall,strong,"ensure pH of all discharges, except once-through cooling water, is within the range 6.0 to 9.0",None,False,False,,revise,"Any new source as of 
+[insert date of publication of final rule], subject
+
+[[Page 34538]]
+
+to this subpart, must achieve the following new source performance 
+standards:
+    (1) The pH of all discharges, except once through cooling water, 
+shall be within the range of 6.0-9.0.
+    (2) There shall be no discharge of polychlorinated biphenyl 
+compounds such as those commonly used for transformer fluid.",,primary,openai,gpt-5,0,0
+126,EPA-HQ-OW-2009-0819,proposed,2,True,The text appears within an amendatory block revising § 423.15 and sets new binding standards.,compound,none,423,423.15(b)(2),Any new source subject to this subpart as of the date of publication of the final rule,may not,strong,discharge,polychlorinated biphenyl compounds such as those commonly used for transformer fluid,False,False,,revise,"Any new source as of 
+[insert date of publication of final rule], subject
+
+[[Page 34538]]
+
+to this subpart, must achieve the following new source performance 
+standards:
+    (1) The pH of all discharges, except once through cooling water, 
+shall be within the range of 6.0-9.0.
+    (2) There shall be no discharge of polychlorinated biphenyl 
+compounds such as those commonly used for transformer fluid.",,primary,openai,gpt-5,0,0
+127,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block establishing new source performance standards, making it binding regulatory text.",simple,none,423,423.15(b)(3),discharges from low volume waste sources,may not,strong,exceed,the quantity determined by multiplying the flow of low volume waste sources by the concentration listed in the following table,False,False,,revise,"(3) The quantity of pollutants discharged from low volume waste 
+sources shall not exceed the quantity determined by multiplying the 
+flow of low volume waste sources times the concentration listed in the 
+following table:",,primary,openai,gpt-5,1716,192
+128,EPA-HQ-OW-2009-0819,proposed,0,True,The text is within an amendatory block revising § 423.15 and prescribes numeric NSPS limits using binding modals (shall not exceed).,compound,none,423,423.15,sources subject to this subpart,may not,strong,discharge pollutants in excess of the 1-day maximum concentration,TSS: 100.0 mg/L; Oil and grease: 20.0 mg/L,False,True,"for low volume waste sources, calculated as flow times the listed concentration",revise,"------------------------------------------------------------------------
+                                                    NSPS
+                                   -------------------------------------
+                                                        Average of daily
+  Pollutant or pollutant property                        values for 30
+                                     Maximum for  any   consecutive days
+                                       1 day (mg/l)     shall not exceed
+                                                             (mg/l)
+------------------------------------------------------------------------
+TSS...............................              100.0               30.0
+Oil and grease....................               20.0               15.0
+------------------------------------------------------------------------
+
+    (4) The quantity of pollutants discharged in chemical metal 
+cleaning wastes shall not exceed the quantity determined by multiplying 
+the flow of chemical metal cleaning wastes times the concentration 
+listed in the following table:
+
+ 
+------------------------------------------------------------------------
+                                                    NSPS
+                                   -------------------------------------
+                                                        Average of daily
+  Pollutant or pollutant property                        values for 30
+                                     Maximum for  any   con",,primary,openai,gpt-5,2062,694
+128,EPA-HQ-OW-2009-0819,proposed,1,True,The text is within an amendatory block revising § 423.15 and prescribes numeric NSPS limits using binding modals (shall not exceed).,compound,none,423,423.15,sources subject to this subpart,may not,strong,discharge pollutants such that the 30-day average concentration exceeds the limit,TSS: 30.0 mg/L; Oil and grease: 15.0 mg/L,False,True,"for low volume waste sources, calculated as flow times the listed concentration",revise,"------------------------------------------------------------------------
+                                                    NSPS
+                                   -------------------------------------
+                                                        Average of daily
+  Pollutant or pollutant property                        values for 30
+                                     Maximum for  any   consecutive days
+                                       1 day (mg/l)     shall not exceed
+                                                             (mg/l)
+------------------------------------------------------------------------
+TSS...............................              100.0               30.0
+Oil and grease....................               20.0               15.0
+------------------------------------------------------------------------
+
+    (4) The quantity of pollutants discharged in chemical metal 
+cleaning wastes shall not exceed the quantity determined by multiplying 
+the flow of chemical metal cleaning wastes times the concentration 
+listed in the following table:
+
+ 
+------------------------------------------------------------------------
+                                                    NSPS
+                                   -------------------------------------
+                                                        Average of daily
+  Pollutant or pollutant property                        values for 30
+                                     Maximum for  any   con",,primary,openai,gpt-5,0,0
+128,EPA-HQ-OW-2009-0819,proposed,2,True,The text is within an amendatory block revising § 423.15 and prescribes numeric NSPS limits using binding modals (shall not exceed).,compound,none,423,423.15,sources subject to this subpart,may not,strong,discharge pollutants in excess of the 1-day maximum concentration,"TSS: 100.0 mg/L; Oil and grease: 20.0 mg/L; Copper, total: 1.0 mg/L; Iron, total: 1.0 mg/L",False,True,"for chemical metal cleaning wastes, calculated as flow times the listed concentration",revise,"------------------------------------------------------------------------
+                                                    NSPS
+                                   -------------------------------------
+                                                        Average of daily
+  Pollutant or pollutant property                        values for 30
+                                     Maximum for  any   consecutive days
+                                       1 day (mg/l)     shall not exceed
+                                                             (mg/l)
+------------------------------------------------------------------------
+TSS...............................              100.0               30.0
+Oil and grease....................               20.0               15.0
+------------------------------------------------------------------------
+
+    (4) The quantity of pollutants discharged in chemical metal 
+cleaning wastes shall not exceed the quantity determined by multiplying 
+the flow of chemical metal cleaning wastes times the concentration 
+listed in the following table:
+
+ 
+------------------------------------------------------------------------
+                                                    NSPS
+                                   -------------------------------------
+                                                        Average of daily
+  Pollutant or pollutant property                        values for 30
+                                     Maximum for  any   con",,primary,openai,gpt-5,0,0
+128,EPA-HQ-OW-2009-0819,proposed,3,True,The text is within an amendatory block revising § 423.15 and prescribes numeric NSPS limits using binding modals (shall not exceed).,compound,none,423,423.15,sources subject to this subpart,may not,strong,discharge pollutants such that the 30-day average concentration exceeds the limit,"TSS: 30.0 mg/L; Oil and grease: 15.0 mg/L; Copper, total: 1.0 mg/L; Iron, total: 1.0 mg/L",False,True,"for chemical metal cleaning wastes, calculated as flow times the listed concentration",revise,"------------------------------------------------------------------------
+                                                    NSPS
+                                   -------------------------------------
+                                                        Average of daily
+  Pollutant or pollutant property                        values for 30
+                                     Maximum for  any   consecutive days
+                                       1 day (mg/l)     shall not exceed
+                                                             (mg/l)
+------------------------------------------------------------------------
+TSS...............................              100.0               30.0
+Oil and grease....................               20.0               15.0
+------------------------------------------------------------------------
+
+    (4) The quantity of pollutants discharged in chemical metal 
+cleaning wastes shall not exceed the quantity determined by multiplying 
+the flow of chemical metal cleaning wastes times the concentration 
+listed in the following table:
+
+ 
+------------------------------------------------------------------------
+                                                    NSPS
+                                   -------------------------------------
+                                                        Average of daily
+  Pollutant or pollutant property                        values for 30
+                                     Maximum for  any   con",,primary,openai,gpt-5,0,0
+129,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block revising § 423.15, making it new binding text.",simple,none,423,423.15,The quantity of pollutants discharged in nonchemical metal cleaning wastes,may not,strong,exceed,the quantity determined by multiplying the flow of nonchemical metal cleaning wastes by the concentration listed in the following table,False,False,,revise,"1.0                1.0
+------------------------------------------------------------------------
+
+    (5) The quantity of pollutants discharged in nonchemical metal 
+cleaning wastes shall not exceed the quantity determined by multiplying 
+the flow of nonchemical metal cleaning wastes times the concentration 
+listed in the following table:
+
+ 
+------------------------------------------------------------------------
+                                                    NSPS
+                                   -------------------------------------
+                                                        Average of daily
+  Pollutant or pollutant property                        values for 30
+                                     Maximum for  any   consecutive days
+                                       1 day (mg/l)     shall not exceed
+                                                             (mg/l)
+------------------------------------------------------------------------
+TSS...............................              100.0               30.0
+Oil and grease....................               20.0               15.0
+Copper, total.....................",,primary,openai,gpt-5,1931,196
+130,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block revising § 423.15, making it binding regulatory text.",simple,none,423,423.15,dischargers at the plant,shall,strong,discharge,wastewater pollutants from bottom ash transport water,False,False,,revise,"1.0                1.0
+------------------------------------------------------------------------
+
+    (6) There shall be no discharge of wastewater pollutants from 
+bottom ash transport water.",,primary,openai,gpt-5,1700,178
+131,EPA-HQ-OW-2009-0819,proposed,0,True,"The obligation appears within an amendatory block revising § 423.15, making it binding regulatory text.",simple,none,423,423.15,the resulting effluent,must,strong,comply,the discharge prohibition in this paragraph,False,True,Whenever bottom ash transport water is used in any other plant process or is sent to a treatment system at the plant,revise,"Whenever bottom ash transport water is used 
+in any other plant process or is sent to a treatment system at the 
+plant, the resulting effluent must comply with the discharge 
+prohibition in this paragraph.",,primary,openai,gpt-5,1743,195
+132,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block revising § 423.15, making it new binding text.",simple,none,423,423.15,Dischargers at facilities subject to § 423.15,shall,strong,not discharge,wastewater pollutants from fly ash transport water,False,False,,revise,"(7) There shall be no discharge of wastewater pollutants from fly 
+ash transport water.",,primary,openai,gpt-5,1687,184
+133,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block revising § 423.15, making it new binding text.",simple,none,423,423.15,the resulting effluent,must,strong,comply,the discharge prohibition in this paragraph,False,True,Whenever fly ash transport water is used in any other plant process or is sent to a treatment system at the plant,revise,"Whenever fly ash transport water is used in any 
+other plant process or is sent to a treatment system at the plant, the 
+resulting effluent must comply with the discharge prohibition in this 
+paragraph.",,primary,openai,gpt-5,1725,195
+134,EPA-HQ-OW-2009-0819,proposed,0,True,The sentence appears within an amendatory block (section revised) and states a binding limit using shall not.,simple,none,423,423.15,plants with a total rated electric generating capacity of 25 or more megawatts,may not,strong,exceed,the quantity determined by multiplying the flow of once-through cooling water from each discharge point by the concentration listed in the table,False,False,,revise,"For any plant with a total rated electric generating 
+capacity of 25 or more megawatts, the quantity of pollutants discharged 
+in once through cooling water from each discharge point shall not 
+exceed the quantity determined by multiplying the flow of once through 
+cooling water from each discharge point times the concentration listed 
+in the following table:
+
+------------------------------------------------------------------------",,primary,openai,gpt-5,1748,202
+135,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within amendatory regulatory text being revised, making it new binding text.",simple,none,423,423.15,Total residual chlorine,may not,strong,be discharged,from any single generating unit for more than two hours per day,True,True,unless the discharger demonstrates to the permitting authority that discharge for more than two hours is required for macroinvertebrate control,revise,"NSPS
+                                                        ----------------
+            Pollutant or pollutant property                  Maximum
+                                                          concentration
+                                                              (mg/l)
+------------------------------------------------------------------------
+Total residual chlorine................................             0.20
+------------------------------------------------------------------------
+
+    (ii) Total residual chlorine may not be discharged from any single 
+generating
+
+[[Page 34539]]
+
+unit for more than two hours per day unless the discharger demonstrates 
+to the permitting authority that discharge for more than two hours is 
+required for macroinvertebrate control.",,primary,openai,gpt-5,1810,198
+136,EPA-HQ-OW-2009-0819,proposed,0,True,"Text appears within an amendatory revision to § 423.15 and prescribes emission limits and discharge constraints, making it binding.",compound,none,423,423.15,any plant with a total rated generating capacity of less than 25 megawatts,may not,strong,exceed,the quantity determined by multiplying the flow of once-through cooling water sources by the concentration listed in the table,False,False,,revise,"For any plant with a total rated generating capacity of less 
+than 25 megawatts, the quantity of pollutants discharged in once 
+through cooling water shall not exceed the quantity determined by 
+multiplying the flow of once through cooling water sources times the 
+concentration listed in the following table:
+
+------------------------------------------------------------------------
+                                                    NSPS
+                                   -------------------------------------
+  Pollutant or pollutant property        Maximum            Average
+                                      concentration      concentration
+                                          (mg/l)             (mg/l)
+------------------------------------------------------------------------
+Free available chlorine...........                0.5                0.2
+------------------------------------------------------------------------
+
+    (ii) Neither free available chlorine nor total residual chlorine 
+may be discharged from any unit for more than two hours in any one day 
+and not more than one unit in any plant may discharge free available or 
+total residual chlorine at any one time unless the utility can 
+demonstrate to the Regional Administrator or State, if the State has 
+NPDES permit issuing authority, that the units in a particular location 
+cannot operate at or below this level of chlorination.",,primary,openai,gpt-5,2016,501
+136,EPA-HQ-OW-2009-0819,proposed,1,True,"Text appears within an amendatory revision to § 423.15 and prescribes emission limits and discharge constraints, making it binding.",compound,none,423,423.15,any unit,may not,strong,discharge,free available chlorine or total residual chlorine for more than two hours in any one day,False,True,unless the utility demonstrates to the Regional Administrator or State (if the State has NPDES permit issuing authority) that the units in a particular location cannot operate at or below this level of chlorination,revise,"For any plant with a total rated generating capacity of less 
+than 25 megawatts, the quantity of pollutants discharged in once 
+through cooling water shall not exceed the quantity determined by 
+multiplying the flow of once through cooling water sources times the 
+concentration listed in the following table:
+
+------------------------------------------------------------------------
+                                                    NSPS
+                                   -------------------------------------
+  Pollutant or pollutant property        Maximum            Average
+                                      concentration      concentration
+                                          (mg/l)             (mg/l)
+------------------------------------------------------------------------
+Free available chlorine...........                0.5                0.2
+------------------------------------------------------------------------
+
+    (ii) Neither free available chlorine nor total residual chlorine 
+may be discharged from any unit for more than two hours in any one day 
+and not more than one unit in any plant may discharge free available or 
+total residual chlorine at any one time unless the utility can 
+demonstrate to the Regional Administrator or State, if the State has 
+NPDES permit issuing authority, that the units in a particular location 
+cannot operate at or below this level of chlorination.",,primary,openai,gpt-5,0,0
+136,EPA-HQ-OW-2009-0819,proposed,2,True,"Text appears within an amendatory revision to § 423.15 and prescribes emission limits and discharge constraints, making it binding.",compound,none,423,423.15,any plant,may not,strong,discharge,free available or total residual chlorine from more than one unit at any one time,False,True,unless the utility demonstrates to the Regional Administrator or State (if the State has NPDES permit issuing authority) that the units in a particular location cannot operate at or below this level of chlorination,revise,"For any plant with a total rated generating capacity of less 
+than 25 megawatts, the quantity of pollutants discharged in once 
+through cooling water shall not exceed the quantity determined by 
+multiplying the flow of once through cooling water sources times the 
+concentration listed in the following table:
+
+------------------------------------------------------------------------
+                                                    NSPS
+                                   -------------------------------------
+  Pollutant or pollutant property        Maximum            Average
+                                      concentration      concentration
+                                          (mg/l)             (mg/l)
+------------------------------------------------------------------------
+Free available chlorine...........                0.5                0.2
+------------------------------------------------------------------------
+
+    (ii) Neither free available chlorine nor total residual chlorine 
+may be discharged from any unit for more than two hours in any one day 
+and not more than one unit in any plant may discharge free available or 
+total residual chlorine at any one time unless the utility can 
+demonstrate to the Regional Administrator or State, if the State has 
+NPDES permit issuing authority, that the units in a particular location 
+cannot operate at or below this level of chlorination.",,primary,openai,gpt-5,0,0
+137,EPA-HQ-OW-2009-0819,proposed,0,True,"The text appears within an amendatory block revising § 423.15, making it new binding regulatory text.",simple,none,423,423.15,The quantity of pollutants discharged in cooling tower blowdown,may not,strong,exceed,the quantity determined by multiplying the flow of cooling tower blowdown by the listed concentration limits,False,False,,revise,"The quantity of pollutants discharged in cooling tower 
+blowdown shall not exceed the quantity determined by multiplying the 
+flow of cooling tower blowdown times the concentration listed below:
+
+------------------------------------------------------------------------
+                                                    NSPS
+                                   -------------------------------------
+  Pollutant or pollutant property        Maximum            Average
+                                      concentration      concentration
+                                          (mg/l)             (mg/l)
+------------------------------------------------------------------------
+Free available chlorine...........                0.5                0.2
+------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------
+                                                        Average of daily
+                                                         values for 30
+  Pollutant or pollutant property    Maximum for  any   consecutive days
+                                       1 day (mg/l)     shall not exceed
+                                                             (mg/l)
+------------------------------------------------------------------------",,primary,openai,gpt-5,1939,192
+138,EPA-HQ-OW-2009-0819,proposed,0,True,"The text appears within an amendatory block revising § 423.15, so the prohibitions and conditions are new binding regulatory text.",compound,none,423,423.15(b)(10)(ii),any unit in a plant,may not,strong,discharge,free available chlorine or total residual chlorine for more than two hours in any one day,False,True,unless the utility demonstrates to the Regional Administrator or State (if the State has NPDES permit issuing authority) that the units in a particular location cannot operate at or below this level of chlorination,revise,"(ii) Neither free available chlorine nor total residual chlorine 
+may be discharged from any unit for more than two hours in any one day 
+and not more than one unit in any plant may discharge free available or 
+total residual chlorine at any one time unless the utility can 
+demonstrate to the Regional Administrator or State, if the State has 
+NPDES permit issuing authority, that the units in a particular location 
+cannot operate at or below this level of chlorination.
+    (iii) At the permitting authority's discretion, instead of the 
+monitoring in 40 CFR 122.11(b), compliance with the limitations for the 
+126 priority pollutants in paragraph (b)(10)(i) of this section may be 
+determined by engineering calculations which demonstrate that the 
+regulated pollutants are not detectable in the final discharge by the 
+analytical methods in 40 CFR part 136.
+    (11) Subject to the provisions of Sec.  423.15(b)(12), the quantity 
+or quality of pollutants or pollutant parameters discharged in coal 
+pile runoff shall not exceed the limitations specified below:
+
+------------------------------------------------------------------------
+                                                    NSPS
+  Pollutant or pollutant property  -------------------------------------",,primary,openai,gpt-5,2127,693
+138,EPA-HQ-OW-2009-0819,proposed,1,True,"The text appears within an amendatory block revising § 423.15, so the prohibitions and conditions are new binding regulatory text.",compound,none,423,423.15(b)(10)(ii),any plant,may not,strong,discharge,free available chlorine or total residual chlorine from more than one unit at any one time,False,True,unless the utility demonstrates to the Regional Administrator or State (if the State has NPDES permit issuing authority) that the units in a particular location cannot operate at or below this level of chlorination,revise,"(ii) Neither free available chlorine nor total residual chlorine 
+may be discharged from any unit for more than two hours in any one day 
+and not more than one unit in any plant may discharge free available or 
+total residual chlorine at any one time unless the utility can 
+demonstrate to the Regional Administrator or State, if the State has 
+NPDES permit issuing authority, that the units in a particular location 
+cannot operate at or below this level of chlorination.
+    (iii) At the permitting authority's discretion, instead of the 
+monitoring in 40 CFR 122.11(b), compliance with the limitations for the 
+126 priority pollutants in paragraph (b)(10)(i) of this section may be 
+determined by engineering calculations which demonstrate that the 
+regulated pollutants are not detectable in the final discharge by the 
+analytical methods in 40 CFR part 136.
+    (11) Subject to the provisions of Sec.  423.15(b)(12), the quantity 
+or quality of pollutants or pollutant parameters discharged in coal 
+pile runoff shall not exceed the limitations specified below:
+
+------------------------------------------------------------------------
+                                                    NSPS
+  Pollutant or pollutant property  -------------------------------------",,primary,openai,gpt-5,0,0
+138,EPA-HQ-OW-2009-0819,proposed,2,True,"The text appears within an amendatory block revising § 423.15, so the prohibitions and conditions are new binding regulatory text.",compound,none,423,423.15(b)(10)(iii),the permitting authority,may,permissive,determine compliance with the limitations for the 126 priority pollutants in paragraph (b)(10)(i) of this section by engineering calculations instead of the monitoring in 40 CFR 122.11(b),that the regulated pollutants are not detectable in the final discharge by the analytical methods in 40 CFR part 136,False,False,,revise,"(ii) Neither free available chlorine nor total residual chlorine 
+may be discharged from any unit for more than two hours in any one day 
+and not more than one unit in any plant may discharge free available or 
+total residual chlorine at any one time unless the utility can 
+demonstrate to the Regional Administrator or State, if the State has 
+NPDES permit issuing authority, that the units in a particular location 
+cannot operate at or below this level of chlorination.
+    (iii) At the permitting authority's discretion, instead of the 
+monitoring in 40 CFR 122.11(b), compliance with the limitations for the 
+126 priority pollutants in paragraph (b)(10)(i) of this section may be 
+determined by engineering calculations which demonstrate that the 
+regulated pollutants are not detectable in the final discharge by the 
+analytical methods in 40 CFR part 136.
+    (11) Subject to the provisions of Sec.  423.15(b)(12), the quantity 
+or quality of pollutants or pollutant parameters discharged in coal 
+pile runoff shall not exceed the limitations specified below:
+
+------------------------------------------------------------------------
+                                                    NSPS
+  Pollutant or pollutant property  -------------------------------------",40 CFR 122.11(b),primary,openai,gpt-5,0,0
+138,EPA-HQ-OW-2009-0819,proposed,3,True,"The text appears within an amendatory block revising § 423.15, so the prohibitions and conditions are new binding regulatory text.",compound,none,423,423.15(b)(11),dischargers of coal pile runoff,may not,strong,discharge pollutants or pollutant parameters,in quantities or qualities exceeding the specified limitations,False,True,subject to the provisions of § 423.15(b)(12),revise,"(ii) Neither free available chlorine nor total residual chlorine 
+may be discharged from any unit for more than two hours in any one day 
+and not more than one unit in any plant may discharge free available or 
+total residual chlorine at any one time unless the utility can 
+demonstrate to the Regional Administrator or State, if the State has 
+NPDES permit issuing authority, that the units in a particular location 
+cannot operate at or below this level of chlorination.
+    (iii) At the permitting authority's discretion, instead of the 
+monitoring in 40 CFR 122.11(b), compliance with the limitations for the 
+126 priority pollutants in paragraph (b)(10)(i) of this section may be 
+determined by engineering calculations which demonstrate that the 
+regulated pollutants are not detectable in the final discharge by the 
+analytical methods in 40 CFR part 136.
+    (11) Subject to the provisions of Sec.  423.15(b)(12), the quantity 
+or quality of pollutants or pollutant parameters discharged in coal 
+pile runoff shall not exceed the limitations specified below:
+
+------------------------------------------------------------------------
+                                                    NSPS
+  Pollutant or pollutant property  -------------------------------------",§ 423.15(b)(12),primary,openai,gpt-5,0,0
+139,EPA-HQ-OW-2009-0819,proposed,0,True,The sentence appears within an amendatory block revising § 423.15 and sets a binding limitation exception using mandatory modal language.,simple,none,423,423.15,"Any untreated overflow from facilities designed, constructed, and operated to treat the coal pile runoff which results from a 10 year, 24 hour rainfall event",must not,strong,be subject to,the limitations in § 423.15(b)(11),True,False,,revise,"Any untreated overflow from facilities designed, constructed, 
+and operated to treat the coal pile runoff which results from a 10 
+year, 24 hour rainfall event shall not be subject to the limitations in 
+Sec.  423.15(b)(11).",§ 423.15(b)(11),primary,openai,gpt-5,1671,218
+140,EPA-HQ-OW-2009-0819,proposed,0,True,The sentence appears within an amendatory block revising § 423.15 and sets a new binding limit.,simple,none,423,423.15,The quantity of pollutants discharged in FGD wastewater,may not,strong,exceed,the quantity determined by multiplying the flow of FGD wastewater by the concentration listed in the following table,False,False,,revise,"The quantity of pollutants discharged in FGD wastewater 
+shall not exceed the quantity determined by multiplying the flow of FGD 
+wastewater times the concentration listed in the following table:
+
+------------------------------------------------------------------------
+                                                   NSPS",,primary,openai,gpt-5,1703,192
+141,EPA-HQ-OW-2009-0819,proposed,0,True,"The obligation appears within an amendatory block revising § 423.15 and prescribes numeric discharge limits in a regulatory table, making it binding.",simple,none,423,423.15(b)(13)(i),The quantity of pollutants discharged in FGD wastewater,may not,strong,exceed,"the quantity determined by multiplying the flow of FGD wastewater by the concentration limits in the NSPS table (e.g., for arsenic, total: maximum for any day 8 µg/L; average of daily values for 30 consecutive days 6 µg/L)",False,False,,revise,"---------------------------------------
+                                                       Average of daily
+ Pollutant or pollutant property   Maximum for any1      values for 30
+                                      day (mg/l)       consecutive days
+                                                       shall not exceed
+------------------------------------------------------------------------
+Arsenic, total (ug/L)...........",,primary,openai,gpt-5,1790,240
+142,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block revising § 423.15, making it new binding regulatory text.",simple,none,423,423.15(b)(13)(ii),A discharger,must,strong,demonstrate compliance,"the standards in paragraph (b)(13)(i) of this section by monitoring for all pollutants (except pH) at a point prior to use or commingling of the FGD wastewater, except for any combustion residual leachate or any other FGD wastewater",False,False,,revise,"0.17                0.13
+------------------------------------------------------------------------
+
+    (ii) A discharger must demonstrate compliance with the standards in 
+paragraph (b)(13)(i) of this section, as applicable, by monitoring for 
+all pollutants (except pH) at a point prior to use of the FGD 
+wastewater in any other plant process or commingling of the FGD 
+wastewater with any water or other process wastewater, except for any 
+combustion residual leachate or any other FGD wastewater.",§ 423.15(b)(13)(i),primary,openai,gpt-5,1871,238
+143,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block revising § 423.15, making it new binding regulatory text.",simple,none,423,423.15(b)(13)(ii),Compliance with the standards,must,strong,reflect,results obtained from sufficiently sensitive analytical methods,False,False,,revise,"Compliance 
+with the standards must reflect results obtained from sufficiently 
+sensitive analytical methods.",,primary,openai,gpt-5,1700,179
+144,EPA-HQ-OW-2009-0819,proposed,0,True,The sentence appears within an amendatory block revising § 423.15; amendatory text is binding.,simple,none,423,423.15(b)(14),dischargers,shall,strong,discharge,wastewater pollutants from flue gas mercury control wastewater,False,False,,revise,"There shall be no discharge of wastewater pollutants from flue 
+gas mercury control wastewater.",,primary,openai,gpt-5,1673,180
+145,EPA-HQ-OW-2009-0819,proposed,0,True,The sentence appears within an amendatory block revising § 423.15 and states a mandatory compliance requirement.,simple,none,423,423.15,the resulting effluent,must,strong,comply,the discharge prohibition in this paragraph,False,True,Whenever flue gas mercury control wastewater is used in any other plant process or is sent to a treatment system at the plant,revise,"Whenever flue gas mercury control 
+wastewater is used in any other plant process or is sent to a treatment 
+system at the plant, the resulting effluent must comply with the 
+discharge prohibition in this paragraph.",,primary,openai,gpt-5,1747,197
+146,EPA-HQ-OW-2009-0819,proposed,0,True,"Text appears within an amendatory block revising § 423.15, so it is new binding regulatory text.",simple,none,423,423.15,Dischargers of gasification wastewater,may not,strong,discharge pollutants in quantities exceeding the allowable amount,the quantity determined by multiplying the flow of gasification wastewater by the concentration listed in the referenced table,False,False,,revise,"(15)(i) The quantity of pollutants discharged in gasification 
+wastewater shall not exceed the quantity determined by multiplying the 
+flow of gasification wastewater times the concentration listed in the 
+following table:
+
+------------------------------------------------------------------------
+                                                   NSPS",,primary,openai,gpt-5,1738,198
+147,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears in an amendatory block revising § 423.15 with binding effluent limitations, making it new binding text.",simple,none,423,423.15(b)(15)(i),Average of daily values for 30 consecutive days,may not,strong,exceed,"the applicable concentration limit for pollutants in the table (e.g., arsenic, mercury, selenium, total dissolved solids) when determining effluent limitations for gasification wastewater",False,False,,revise,"---------------------------------------
+                                                       Average ff daily
+ Pollutant or pollutant property   Maximum for any 1     values for 30
+                                          day          consecutive days
+                                                       shall not exceed
+------------------------------------------------------------------------
+Arsenic, total (ug/L)...........",,primary,openai,gpt-5,1761,216
+148,EPA-HQ-OW-2009-0819,proposed,0,True,The sentence appears within amendatory text being revised and contains a clear must requirement for a regulated actor.,simple,none,423,423.15,A discharger,must,strong,demonstrate compliance,the standards in paragraph (b)(15)(i) of this section by monitoring for all pollutants (except pH) prior to use or commingling of the gasification wastewater,False,True,"as applicable, and prior to use of the gasification wastewater in any other plant process or commingling of the gasification wastewater with any water or other process wastewater",revise,"38                  22
+------------------------------------------------------------------------
+\1\ This regulation does not specify this type of limitation for this
+  pollutant; however, permitting authorities may do so as appropriate.
+
+    (ii) A discharger must demonstrate compliance with the standards in 
+paragraph (b)(15)(i) of this section, as applicable, by monitoring for 
+all pollutants (except pH) prior to use of the gasification wastewater 
+in any other plant process or commingling of the gasification 
+wastewater with any water or other process wastewater.",paragraph (b)(15)(i) of this section,primary,openai,gpt-5,1820,246
+149,EPA-HQ-OW-2009-0819,proposed,0,True,The sentence appears within an amendatory block revising § 423.15 and thus constitutes new binding regulatory text.,simple,none,423,423.15,Compliance with the standards,must,strong,reflect,results obtained from sufficiently sensitive analytical methods,False,False,,revise,"Compliance with 
+the standards must reflect results obtained from sufficiently sensitive 
+analytical methods.",,primary,openai,gpt-5,1654,174
+150,EPA-HQ-OW-2009-0819,proposed,0,True,Text is within an amendatory block revising § 423.15 and states a numeric effluent limitation; thus it is binding.,simple,none,423,423.15,dischargers,must not,strong,discharge pollutants in combustion residual leachate in quantities that exceed,the quantity determined by multiplying the flow of combustion residual leachate by the applicable concentration in the table,False,False,,revise,"(16)(i) The quantity of pollutants discharged in combustion 
+residual leachate shall not exceed the quantity determined by 
+multiplying the flow of combustion residual leachate times the 
+concentration listed in the following table:",,primary,openai,gpt-5,1703,203
+151,EPA-HQ-OW-2009-0819,proposed,0,True,"The candidate appears within an amendatory block revising § 423.15 and constitutes binding effluent limits expressed in a table, which are new regulatory text.",compound,none,423,423.15(b)(16)(i),discharger,may not,strong,exceed,"maximum concentration for arsenic, total",False,False,,revise,"------------------------------------------------------------------------
+                                                    NSPS
+                                   -------------------------------------
+                                                        Average of daily
+  Pollutant or pollutant property   Maximum for any 1    values for 30
+                                           day          consecutive days
+                                                        shall not exceed
+------------------------------------------------------------------------
+Arsenic, total (ug/L).............",,primary,openai,gpt-5,1815,302
+151,EPA-HQ-OW-2009-0819,proposed,1,True,"The candidate appears within an amendatory block revising § 423.15 and constitutes binding effluent limits expressed in a table, which are new regulatory text.",compound,none,423,423.15(b)(16)(i),discharger,may not,strong,exceed,"average of daily values for 30 consecutive days concentration for arsenic, total",False,False,,revise,"------------------------------------------------------------------------
+                                                    NSPS
+                                   -------------------------------------
+                                                        Average of daily
+  Pollutant or pollutant property   Maximum for any 1    values for 30
+                                           day          consecutive days
+                                                        shall not exceed
+------------------------------------------------------------------------
+Arsenic, total (ug/L).............",,primary,openai,gpt-5,0,0
+152,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block revising § 423.15, so it is new binding regulatory text.",simple,none,423,423.15(b)(16)(ii),A discharger,must,strong,demonstrate compliance by monitoring,"all pollutants (except pH) at a point prior to use or commingling of combustion residual leachate, as applicable to the standards in paragraph (b)(16)(i) of this section",False,False,,revise,"242                119
+------------------------------------------------------------------------
+
+    (ii) A discharger must demonstrate compliance with the standards in 
+paragraph (b)(16)(i) of this section, as applicable, by monitoring for 
+all pollutants (except pH) at a point prior to use of the combustion 
+residual leachate in any other plant process or commingling of the 
+combustion residual leachate with any water or other process 
+wastewater, except for any FGD wastewater or any other combustion 
+residual leachate.",§ 423.15(b)(16)(i),primary,openai,gpt-5,1836,228
+153,EPA-HQ-OW-2009-0819,proposed,0,True,The sentence appears within amendatory text revising § 423.15; therefore it is new binding regulatory text.,simple,none,423,423.15,Compliance with the effluent limitations,must,strong,reflect,results obtained from sufficiently sensitive analytical methods,False,False,,revise,"Compliance with the effluent limitations must 
+reflect results obtained from sufficiently sensitive analytical 
+methods.",,primary,openai,gpt-5,1714,176
+154,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block that adds/revises regulatory text, making it binding.",simple,none,423,423.15(b)(17),the permitting authority,may,permissive,express,the quantity of pollutant allowed to be discharged as a concentration limitation instead of any mass-based limitations specified,False,False,,revise,"(17) At the permitting authority's discretion, the quantity of 
+pollutant allowed to be discharged may be expressed as a concentration 
+limitation instead of any mass based limitations specified in 
+paragraphs (b)(3) through (b)(16) of this section.",paragraphs (b)(3) through (b)(16) of this section,primary,openai,gpt-5,1797,204
+155,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block adding/revising regulatory text, making it binding.",simple,none,423,423.15,Concentration limits,shall,strong,be based on,the concentrations specified in this section,True,False,,revise,"Concentration limits 
+shall be based on the concentrations specified in this section.",,primary,openai,gpt-5,1725,170
+156,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block adding/revising regulatory text, making it new binding text.",compound,none,423,423.15(b),the quantity of each pollutant or pollutant property attributable to each controlled waste source,must not,strong,exceed,the specified limitation for that waste source,False,True,In the event that wastestreams from various sources are combined for treatment or discharge,revise,"In the event that wastestreams from various sources are 
+combined for treatment or discharge, the quantity of each pollutant or 
+pollutant property controlled in paragraphs (b)(1) through (b)(16) of 
+this section attributable to each controlled waste source shall not 
+exceed the specified limitation for that waste source.",paragraphs (b)(1) through (b)(16) of this section,primary,openai,gpt-5,1797,219
+157,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block adding paragraph (c) to § 423.16, making it new binding text.",simple,none,423,423.16(c),the pollutants discharged in nonchemical metal cleaning wastes,must not,strong,exceed,the concentration listed in the following table,False,True,Except for those discharges of nonchemical metal cleaning waste that are currently authorized without meeting standards for copper,add,"Except for those discharges of nonchemical metal cleaning waste 
+that are currently authorized without meeting standards for copper, the 
+pollutants discharged in nonchemical metal cleaning wastes shall not 
+exceed",,primary,openai,gpt-5,1698,204
+158,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block adding text to § 423.16, making it new binding regulatory text.",simple,none,423,423.16(e)(1),dischargers,must,strong,meet,the standards in this paragraph,False,True,For any electric generating unit with a total nameplate generating capacity of more than 50 megawatts and that is not an oil-fired unit,add,"For any electric generating unit with a total nameplate 
+generating capacity of more than 50 megawatts and that is not an oil-
+fired unit, dischargers must meet the standards in this paragraph by a 
+date determined by the control authority that is as soon as possible 
+beginning July 1, 2017.",,primary,openai,gpt-5,1709,202
+159,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block adding binding standards to § 423.16(e), making it new binding regulatory text.",simple,none,423,423.16(e)(1),effluent limitations,may not,strong,allow,the quantity of pollutants in FGD wastewater to exceed the quantity determined by multiplying the flow of FGD wastewater by the listed concentration values,False,False,,add,"Such 
+effluent limitations shall not allow the quantity of pollutants in FGD 
+wastewater to exceed the quantity determined by multiplying the flow of 
+FGD wastewater times the concentration listed in the following table:
+
+------------------------------------------------------------------------
+                                                   PSES
+                                 ---------------------------------------
+                                                       Average of daily
+ Pollutant or pollutant property   Maximum for any 1     values for 30
+                                          day          consecutive days
+                                                       shall not exceed
+------------------------------------------------------------------------
+Arsenic, total (ug/L)...........",,primary,openai,gpt-5,1891,198
+160,EPA-HQ-OW-2009-0819,proposed,0,True,"The obligation appears within amendatory regulatory text adding/revising § 423.16(e), making it binding.",simple,none,423,423.16(e),A discharger,must,strong,demonstrate compliance,"the standards in paragraph (e)(1) of this section by monitoring for all pollutants (except pH) at a point prior to use or commingling of the FGD wastewater, except for any combustion residual leachate or FGD wastewater",False,True,as applicable,add,"0.17                0.13
+------------------------------------------------------------------------
+
+    (2) A discharger must demonstrate compliance with the standards in 
+paragraph (e)(1) of this section, as applicable, by monitoring for all 
+pollutants (except pH) at a point prior to use of the FGD wastewater in 
+any other plant process or commingling of the FGD wastewater with any 
+water or other process wastewater, except for any combustion residual 
+leachate or FGD wastewater.",§ 423.16(e)(1),primary,openai,gpt-5,1878,229
+161,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block adding/revising § 423.16(e), making it new binding regulatory text.",simple,none,423,423.16(e),Compliance with the effluent limitations,must,strong,reflect,results obtained from sufficiently sensitive analytical methods,False,False,,add,"Compliance with the effluent limitations 
+must reflect results obtained from sufficiently sensitive analytical 
+methods.",,primary,openai,gpt-5,1750,179
+162,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block adding regulatory text to § 423.16(f), making it binding.",simple,none,423,423.16(f),any electric generating unit with a total nameplate generating capacity of more than 50 megawatts that is not an oil-fired unit,must not,strong,discharge,"wastewater pollutants from fly ash transport water generated on or after a date determined by the control authority that is as soon as possible beginning July 1, 2017",False,False,,add,"For any electric generating unit with a total nameplate 
+generating capacity of more than 50 megawatts and that is not an oil-
+fired unit, there shall be no discharge of wastewater pollutants from 
+fly ash transport water generated on or after a date determined by the 
+control authority that is as soon as possible beginning July 1, 2017.",,primary,openai,gpt-5,1859,225
+163,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within amendatory regulatory text adding § 423.16(f), so it constitutes new binding text.",simple,none,423,423.16(f),the resulting effluent,must,strong,comply,the discharge prohibition in this paragraph,False,True,Whenever fly ash transport water is used in any other plant process or is sent to a treatment system at the plant,add,"Whenever fly ash transport water is used in any other plant process or 
+is sent to a treatment system at the plant, the resulting effluent must 
+comply with the discharge prohibition in this paragraph.",,primary,openai,gpt-5,1795,196
+164,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within amendatory regulatory text for § 423.16 with an add/revise context, making it new binding text.",simple,none,423,423.16(g),any electric generating unit with a total nameplate generating capacity of more than 400 megawatts that is not an oil-fired unit,shall,strong,have no discharge,wastewater pollutants from bottom ash transport water,False,True,"for wastewater generated on or after a date determined by the control authority that is as soon as possible beginning July 1, 2017",add,"(g) For any electric generating unit with a total nameplate 
+generating capacity of more than 400 megawatts and that is not an oil-
+fired unit, there shall be no discharge of wastewater pollutants from 
+bottom ash transport water generated on or after a date determined by 
+the control authority that is as soon as possible beginning July 1, 
+2017.",,primary,openai,gpt-5,1855,231
+165,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within amendatory regulatory text for § 423.16 with an add/revise block, making it new binding text.",simple,none,423,423.16(g),the resulting effluent,must,strong,comply,the discharge prohibition in this paragraph,False,True,Whenever bottom ash transport water is used in any other plant process or is sent to a treatment system at the plant,add,"Whenever bottom ash transport water is used in any other plant 
+process or is sent to a treatment system at the plant, the resulting 
+effluent must comply with the discharge prohibition in this paragraph.",,primary,openai,gpt-5,1806,200
+166,EPA-HQ-OW-2009-0819,proposed,0,True,The sentence appears within an amendatory block adding/revising § 423.16; therefore it constitutes new binding regulatory text.,simple,none,423,423.16(h),Any electric generating unit with a total nameplate generating capacity of more than 50 megawatts that is not an oil-fired unit,must not,strong,discharge,"wastewater pollutants from flue gas mercury control wastewater generated on or after a date determined by the control authority that is as soon as possible beginning July 1, 2017",False,False,,add,"For any electric generating unit with a total nameplate 
+generating capacity of more than 50 megawatts and that is not an oil-
+fired unit, there shall be no discharge of wastewater pollutants from 
+flue gas mercury control wastewater generated on or after a date 
+determined by the control authority that is as soon as possible 
+beginning July 1, 2017.",,primary,openai,gpt-5,1849,230
+167,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within amendatory regulatory text adding/revising § 423.16, so it constitutes new binding text.",simple,none,423,423.16(h),the resulting effluent,must,strong,comply,the discharge prohibition in this paragraph,False,True,Whenever flue gas mercury control wastewater is used in any other plant process or is sent to a treatment system at the plant,add,"Whenever flue gas mercury control wastewater is 
+used in any other plant process or is sent to a treatment system at the 
+plant, the resulting effluent must comply with the discharge 
+prohibition in this paragraph.
+    (i)(1)",,primary,openai,gpt-5,1823,200
+168,EPA-HQ-OW-2009-0819,proposed,0,True,The sentence is within an amendatory block adding regulatory text to § 423.16 and states a mandatory requirement with 'must'.,simple,none,423,423.16(i)(1),dischargers,must,strong,meet,the standards in this paragraph,False,True,For any electric generating unit with a total nameplate generating capacity of more than 50 megawatts and that is not an oil-fired unit,add,"For any electric generating unit with a total nameplate 
+generating capacity of more than 50 megawatts and that is not an oil-
+fired unit, dischargers must meet the standards in this paragraph by a 
+date determined by the control authority that is as soon as possible 
+beginning July 1, 2017.",,primary,openai,gpt-5,1785,205
+169,EPA-HQ-OW-2009-0819,proposed,0,True,The sentence appears within an amendatory block adding binding text with compliance dates and limits.,simple,none,423,423.16(i)(1),effluent limitations,may not,strong,allow the quantity of pollutants in gasification wastewater to exceed the quantity determined by multiplying the flow by the listed concentration,quantity of pollutants in gasification wastewater,False,True,"For any electric generating unit with a total nameplate generating capacity of more than 50 megawatts and that is not an oil-fired unit; applicable to pollutants in gasification wastewater generated on or after a date determined by the control authority as soon as possible beginning July 1, 2017",add,"Such effluent limitations shall not allow the quantity of pollutants in 
+gasification wastewater to exceed the quantity determined by 
+multiplying the flow of gasification wastewater times the concentration 
+listed in the following table:
+
+------------------------------------------------------------------------
+                                                   PSES
+                                 ---------------------------------------
+                                                       Average of daily
+ Pollutant or pollutant property   Maximum for any 1     values for 30
+                                          day          consecutive days
+                                                       shall not exceed
+------------------------------------------------------------------------
+Arsenic, total (ug/L)...........",,primary,openai,gpt-5,1886,250
+170,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block adding/revising regulatory text, so it constitutes new binding text even though it is permissive.",simple,none,423,423.16,permitting authorities,may,permissive,establish this type of limitation for this pollutant,this type of limitation for this pollutant,False,True,as appropriate,add,"38                  22
+------------------------------------------------------------------------
+\1\ This regulation does not specify this type of limitation for this
+  pollutant; however, permitting authorities may do so as appropriate.",,primary,openai,gpt-5,1739,191
+171,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within amendatory regulatory text for Part 423 being revised/added, making it binding.",simple,none,423,423.16(i)(2),A discharger,must,strong,demonstrate compliance,the standards in paragraph (i)(1) of this section,False,True,by monitoring for all pollutants (except pH) at a point prior to use of the gasification wastewater in any other plant process or commingling of the gasification wastewater with any water or other process wastewater,add,"[[Page 34542]]
+
+    (2) A discharger must demonstrate compliance with the standards in 
+paragraph (i)(1) of this section, as applicable, by monitoring for all 
+pollutants (except pH) at a point prior to use of the gasification 
+wastewater in any other plant process or commingling of the 
+gasification wastewater with any water or other process wastewater.",,primary,openai,gpt-5,1848,223
+172,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block revising § 423.17/§ 423.16 text, so it is new binding regulatory text.",simple,none,423,423.16,Compliance with the standards,must,strong,reflect,results obtained from sufficiently sensitive analytical methods,False,False,,add,"Compliance with the standards must reflect results obtained from 
+sufficiently sensitive analytical methods.",,primary,openai,gpt-5,1737,181
+173,EPA-HQ-OW-2009-0819,proposed,0,True,Text is within an amendatory block revising § 423.17 and contains mandatory requirements.,compound,none,423,423.17(a),"any new source as of November 19, 1982, subject to this subpart, which introduces pollutants into a publicly owned treatment works",must,strong,comply,40 CFR part 403,False,True,Except as provided in 40 CFR 403.7,revise,"Except as provided 
+in 40 CFR 403.7, any new source as of November 19, 1982, subject to 
+this subpart, which introduces pollutants into a publicly owned 
+treatment works must comply with 40 CFR part 403 and the following 
+pretreatment standards for new sources (PSNS), and the revised 
+requirements of Sec.  423.16 of this part, published on [insert date of 
+publication of final rule]:
+    (1) There shall be no discharge of polychlorinated biphenyl 
+compounds such as those used for transformer fluid.",40 CFR part 403,primary,openai,gpt-5,1976,673
+173,EPA-HQ-OW-2009-0819,proposed,1,True,Text is within an amendatory block revising § 423.17 and contains mandatory requirements.,compound,none,423,423.17(a),"any new source as of November 19, 1982, subject to this subpart, which introduces pollutants into a publicly owned treatment works",must,strong,comply,"the pretreatment standards for new sources (PSNS) in § 423.17, including no discharge of polychlorinated biphenyl compounds",False,True,Except as provided in 40 CFR 403.7,revise,"Except as provided 
+in 40 CFR 403.7, any new source as of November 19, 1982, subject to 
+this subpart, which introduces pollutants into a publicly owned 
+treatment works must comply with 40 CFR part 403 and the following 
+pretreatment standards for new sources (PSNS), and the revised 
+requirements of Sec.  423.16 of this part, published on [insert date of 
+publication of final rule]:
+    (1) There shall be no discharge of polychlorinated biphenyl 
+compounds such as those used for transformer fluid.",§ 423.17,primary,openai,gpt-5,0,0
+173,EPA-HQ-OW-2009-0819,proposed,2,True,Text is within an amendatory block revising § 423.17 and contains mandatory requirements.,compound,none,423,423.17(a),"any new source as of November 19, 1982, subject to this subpart, which introduces pollutants into a publicly owned treatment works",must,strong,comply,the revised requirements of § 423.16 of this part,False,True,Except as provided in 40 CFR 403.7,revise,"Except as provided 
+in 40 CFR 403.7, any new source as of November 19, 1982, subject to 
+this subpart, which introduces pollutants into a publicly owned 
+treatment works must comply with 40 CFR part 403 and the following 
+pretreatment standards for new sources (PSNS), and the revised 
+requirements of Sec.  423.16 of this part, published on [insert date of 
+publication of final rule]:
+    (1) There shall be no discharge of polychlorinated biphenyl 
+compounds such as those used for transformer fluid.",§ 423.16,primary,openai,gpt-5,0,0
+173,EPA-HQ-OW-2009-0819,proposed,3,True,Text is within an amendatory block revising § 423.17 and contains mandatory requirements.,compound,none,423,423.17(a)(1),"any new source as of November 19, 1982, subject to this subpart, which introduces pollutants into a publicly owned treatment works",must not,strong,discharge,polychlorinated biphenyl compounds such as those used for transformer fluid,False,True,Except as provided in 40 CFR 403.7,revise,"Except as provided 
+in 40 CFR 403.7, any new source as of November 19, 1982, subject to 
+this subpart, which introduces pollutants into a publicly owned 
+treatment works must comply with 40 CFR part 403 and the following 
+pretreatment standards for new sources (PSNS), and the revised 
+requirements of Sec.  423.16 of this part, published on [insert date of 
+publication of final rule]:
+    (1) There shall be no discharge of polychlorinated biphenyl 
+compounds such as those used for transformer fluid.",,primary,openai,gpt-5,0,0
+174,EPA-HQ-OW-2009-0819,proposed,0,True,"The text appears within an amendatory block revising § 423.17, making it new binding regulatory text.",simple,none,423,423.17,The pollutants discharged in chemical metal cleaning wastes,may not,strong,exceed,the concentration listed in the following table,False,False,,revise,"(2) The pollutants discharged in chemical metal cleaning wastes 
+shall not exceed the concentration listed in the following table:
+
+------------------------------------------------------------------------",40 CFR part 403,primary,openai,gpt-5,1696,185
+175,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block (section is being revised), so it constitutes new binding regulatory text.",simple,none,423,423.17,The pollutants discharged in cooling tower blowdown,shall,strong,not exceed,the concentration listed in the following table,False,False,,revise,"The pollutants discharged in cooling tower blowdown shall 
+not exceed the concentration listed in the following table:
+
+------------------------------------------------------------------------",,primary,openai,gpt-5,1604,178
+176,EPA-HQ-OW-2009-0819,proposed,0,True,Text appears within an amendatory block revising § 423.17 and contains binding requirements.,compound,none,423,423.17,permitting authority,may,permissive,determine compliance by using engineering calculations,"compliance with limitations for the 126 priority pollutants demonstrating that regulated pollutants are not detectable in the final discharge by analytical methods in 40 CFR part 136, instead of the monitoring in 40 CFR 122.11(b)",False,True,at the permitting authority's discretion,revise,"At the permitting authority's discretion, instead of the 
+monitoring in 40 CFR 122.11(b), compliance with the limitations for the 
+126 priority pollutants in paragraph (a)(4)(i) of this section may be 
+determined by engineering calculations which demonstrate that the 
+regulated pollutants are not detectable in the final discharge by the 
+analytical methods in 40 CFR part 136.
+    (5) There shall be no discharge of wastewater pollutants from fly 
+ash transport water.",40 CFR 122.11(b),primary,openai,gpt-5,1840,331
+176,EPA-HQ-OW-2009-0819,proposed,1,True,Text appears within an amendatory block revising § 423.17 and contains binding requirements.,compound,none,423,423.17,dischargers,shall,strong,not discharge,wastewater pollutants from fly ash transport water,False,False,,revise,"At the permitting authority's discretion, instead of the 
+monitoring in 40 CFR 122.11(b), compliance with the limitations for the 
+126 priority pollutants in paragraph (a)(4)(i) of this section may be 
+determined by engineering calculations which demonstrate that the 
+regulated pollutants are not detectable in the final discharge by the 
+analytical methods in 40 CFR part 136.
+    (5) There shall be no discharge of wastewater pollutants from fly 
+ash transport water.",,primary,openai,gpt-5,0,0
+177,EPA-HQ-OW-2009-0819,proposed,0,True,Text appears within an amendatory block revising § 423.17 and contains mandatory compliance language.,simple,none,423,423.17(a)(5),the resulting effluent,must,strong,comply,the discharge prohibition in this paragraph,False,True,Whenever fly ash transport water is used in any other plant process or is sent to a treatment system at the plant,revise,"Whenever fly ash transport water is used in any 
+other plant process or is sent to a treatment system at the plant, the 
+resulting effluent must comply with the discharge prohibition in this 
+paragraph.",,primary,openai,gpt-5,1784,196
+178,EPA-HQ-OW-2009-0819,proposed,0,True,Text appears within an amendatory revision block and prescribes binding requirements.,compound,none,423,423.17(b),any new source subject to this subpart that introduces pollutants into a publicly owned treatment works,must,strong,comply,40 CFR part 403 and the pretreatment standards for new sources (PSNS) in this section,False,True,Except as provided in 40 CFR 403.7,revise,"Except as provided 
+in 40 CFR 403.7, any new source as of [insert date of publication of 
+final rule], subject to this subpart, which introduces pollutants into 
+a publicly owned treatment works must comply with 40 CFR part 403 and 
+the following pretreatment standards for new sources (PSNS):
+    (1) There shall be no discharge of polychlorinated biphenyl 
+compounds such as those used for transformer fluid.",40 CFR part 403,primary,openai,gpt-5,1870,362
+178,EPA-HQ-OW-2009-0819,proposed,1,True,Text appears within an amendatory revision block and prescribes binding requirements.,compound,none,423,423.17(b)(1),any new source subject to this subpart that introduces pollutants into a publicly owned treatment works,must not,strong,discharge,polychlorinated biphenyl compounds such as those used for transformer fluid,False,True,Except as provided in 40 CFR 403.7; applies as a PSNS under this section,revise,"Except as provided 
+in 40 CFR 403.7, any new source as of [insert date of publication of 
+final rule], subject to this subpart, which introduces pollutants into 
+a publicly owned treatment works must comply with 40 CFR part 403 and 
+the following pretreatment standards for new sources (PSNS):
+    (1) There shall be no discharge of polychlorinated biphenyl 
+compounds such as those used for transformer fluid.",40 CFR 403.7,primary,openai,gpt-5,0,0
+179,EPA-HQ-OW-2009-0819,proposed,0,True,The sentence appears within an amendatory block revising § 423.17 and sets a deontic limit using shall not.,simple,none,423,423.17,The pollutants discharged in chemical metal cleaning wastes,may not,strong,exceed,the concentration listed in the following table,False,False,,revise,"(2) The pollutants discharged in chemical metal cleaning wastes 
+shall not exceed the concentration listed in the following table:
+
+------------------------------------------------------------------------",,primary,openai,gpt-5,1681,183
+180,EPA-HQ-OW-2009-0819,proposed,0,True,The sentence appears within amendatory regulatory text revising § 423.17 and states a performance standard; under the amendatory block rule it is binding.,simple,none,423,423.17,pollutants discharged in nonchemical metal cleaning wastes,may not,strong,exceed,the concentration listed in the following table,False,False,,revise,"The pollutants discharged in nonchemical metal cleaning wastes 
+shall not exceed the concentration listed in the following table:
+
+------------------------------------------------------------------------
+                                                               PSNS
+                                                        ----------------
+            Pollutant or pollutant property               Maximum for 1
+                                                           day  (mg/l)
+------------------------------------------------------------------------
+Copper, total..........................................              1.0
+------------------------------------------------------------------------
+
+    (4)(i)",,primary,openai,gpt-5,1683,190
+181,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block (section revised) and states a clear prohibition using shall not, creating new binding text.",simple,none,423,423.17,the pollutants discharged in cooling tower blowdown,shall,strong,exceed,the concentration listed in the following table,False,False,,revise,"The pollutants discharged in cooling tower blowdown shall 
+not exceed the concentration listed in the following table:
+
+------------------------------------------------------------------------",,primary,openai,gpt-5,1603,182
+182,EPA-HQ-OW-2009-0819,proposed,0,True,"Text appears within an amendatory block revising § 423.17, making the obligations binding.",compound,none,423,423.17(b)(4)(ii),Permitting authority,may,permissive,determine compliance by using engineering calculations,the limitations for the 126 priority pollutants in paragraph (b)(4)(i) of this section,False,True,"At the permitting authority's discretion, instead of the monitoring in 40 CFR 122.11(b), and where calculations demonstrate that regulated pollutants are not detectable in the final discharge by analytical methods in 40 CFR part 136",revise,"At the permitting authority's discretion, instead of the 
+monitoring in 40 CFR 122.11(b), compliance with the limitations for the 
+126 priority pollutants in paragraph (b)(4)(i) of this section may be 
+determined by engineering calculations which demonstrate that the 
+regulated pollutants are not detectable in the final discharge by the 
+analytical methods in 40 CFR part 136.
+    (5) There shall be no discharge of wastewater pollutants from fly 
+ash transport water.",40 CFR 122.11(b),primary,openai,gpt-5,1788,481
+182,EPA-HQ-OW-2009-0819,proposed,1,True,"Text appears within an amendatory block revising § 423.17, making the obligations binding.",compound,none,423,423.17(b)(5),Dischargers,shall,strong,discharge,no wastewater pollutants from fly ash transport water,False,False,,revise,"At the permitting authority's discretion, instead of the 
+monitoring in 40 CFR 122.11(b), compliance with the limitations for the 
+126 priority pollutants in paragraph (b)(4)(i) of this section may be 
+determined by engineering calculations which demonstrate that the 
+regulated pollutants are not detectable in the final discharge by the 
+analytical methods in 40 CFR part 136.
+    (5) There shall be no discharge of wastewater pollutants from fly 
+ash transport water.",,primary,openai,gpt-5,0,0
+182,EPA-HQ-OW-2009-0819,proposed,2,True,"Text appears within an amendatory block revising § 423.17, making the obligations binding.",compound,none,423,423.17(b)(5),Dischargers,must,strong,comply,the discharge prohibition in paragraph (b)(5),False,True,Whenever fly ash transport water is used in any other plant process or is sent to a treatment system at the plant,revise,"At the permitting authority's discretion, instead of the 
+monitoring in 40 CFR 122.11(b), compliance with the limitations for the 
+126 priority pollutants in paragraph (b)(4)(i) of this section may be 
+determined by engineering calculations which demonstrate that the 
+regulated pollutants are not detectable in the final discharge by the 
+analytical methods in 40 CFR part 136.
+    (5) There shall be no discharge of wastewater pollutants from fly 
+ash transport water.",,primary,openai,gpt-5,0,0
+183,EPA-HQ-OW-2009-0819,proposed,0,True,The sentence appears within amendatory regulatory text revising § 423.17 and imposes a clear compliance requirement.,simple,none,423,423.17,the resulting effluent,must,strong,comply,the discharge prohibition in this paragraph,False,True,Whenever fly ash transport water is used in any other plant process or is sent to a treatment system at the plant,revise,"Whenever fly ash transport water is used in any 
+other plant process or is sent to a treatment system at the plant, the 
+resulting effluent must comply with the discharge prohibition in this 
+paragraph.",,primary,openai,gpt-5,1703,196
+184,EPA-HQ-OW-2009-0819,proposed,0,True,Text appears within an amendatory block revising § 423.17 and states a deontic limit using shall not.,simple,none,423,423.17(b)(6)(i),Dischargers of FGD wastewater,may not,strong,discharge pollutants in quantities exceeding,the product of FGD wastewater flow and the concentration limits listed in the table,False,False,,revise,"The quantity of pollutants discharged in FGD wastewater 
+shall not exceed the quantity determined by multiplying the flow of FGD 
+wastewater times the concentration listed in the following table:
+
+----------------------------------------------------------------------------------------------------------------
+                                                                                                 PSNS
+                                                                                  ---------------------------------
+                                                                                                        Average
+                                                                                                          daily
+                                                                  Pollutant or                          values for
+                                                               pollutant property  Maximum for  any 1       30
+                                                                                           day         consecutive
+                                                                                                       days  shall
+                                                                                                        not exceed
+----------------------------------------------------------------------------------------------------- -------------
+Arsenic, total (ug/L)........................................",,primary,openai,gpt-5,1884,198
+185,EPA-HQ-OW-2009-0819,proposed,0,True,"Text appears within an amendatory block revising § 423.17, so it is new binding regulatory text.",simple,none,423,423.17,A discharger,must,strong,demonstrate compliance,the standards in paragraph (b)(6)(i) of this section,False,False,,revise,"[[Page 34543]]
+
+    (ii) A discharger must demonstrate compliance with the standards in 
+paragraph (b)(6)(i) of this section, as applicable, by monitoring for 
+all pollutants (except pH) at a point prior to use of the FGD 
+wastewater in any other plant process or commingling of the FGD 
+wastewater with any water or other process wastewater, except for any 
+combustion residual leachate or any other FGD wastewater.",paragraph (b)(6)(i) of this section,primary,openai,gpt-5,1829,194
+186,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block revising § 423.17 and prescribes compliance criteria, making it binding.",simple,none,423,423.17,Compliance with the standards,must,strong,reflect results obtained from,sufficiently sensitive analytical methods,False,False,,revise,"Compliance 
+with the standards must reflect results obtained from sufficiently 
+sensitive analytical methods.",,primary,openai,gpt-5,1697,178
+187,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block revising § 423.17 and states a prohibition, making it binding regulatory text.",simple,none,423,423.17,dischargers,must not,strong,discharge,wastewater pollutants from flue gas mercury control wastewater,False,False,,revise,"(7) There shall be no discharge of wastewater pollutants from flue 
+gas mercury control wastewater.",,primary,openai,gpt-5,1710,182
+188,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block revising § 423.17 and states a compliance requirement using “must,” making it new binding text.",simple,none,423,423.17,the resulting effluent,must,strong,comply,the discharge prohibition in this paragraph,False,True,Whenever flue gas mercury control wastewater is used in any other plant process or is sent to a treatment system at the plant,revise,"Whenever flue gas mercury control 
+wastewater is used in any other plant process or is sent to a treatment 
+system at the plant, the resulting effluent must comply with the 
+discharge prohibition in this paragraph.",,primary,openai,gpt-5,1776,205
+189,EPA-HQ-OW-2009-0819,proposed,0,True,The sentence appears within an amendatory block revising § 423.17 and states a prohibition using mandatory language.,simple,none,423,423.17,dischargers,may not,strong,discharge,wastewater pollutants from bottom ash transport water,False,False,,revise,"(8) There shall be no discharge of wastewater pollutants from 
+bottom ash transport water.",,primary,openai,gpt-5,1666,177
+190,EPA-HQ-OW-2009-0819,proposed,0,True,The sentence appears within amendatory regulatory text revising § 423.17 and imposes a clear requirement using “must.”,simple,none,423,423.17,the resulting effluent,must,strong,comply,the discharge prohibition in this paragraph,False,True,Whenever bottom ash transport water is used in any other plant process or is sent to a treatment system at the plant,revise,"Whenever bottom ash transport water is used 
+in any other plant process or is sent to a treatment system at the 
+plant, the resulting effluent must comply with the discharge 
+prohibition in this paragraph.",,primary,openai,gpt-5,1704,199
+191,EPA-HQ-OW-2009-0819,proposed,0,True,Appears within amendatory regulatory text for § 423.17 with prescriptive limits; thus binding under the amendatory-block rule.,simple,none,423,423.17,dischargers of gasification wastewater,may not,strong,discharge pollutants in quantities exceeding the calculated limit,a quantity determined by multiplying the flow of gasification wastewater by the concentration values in the table,False,False,,revise,"(9)(i) The quantity of pollutants discharged in gasification 
+wastewater shall not exceed the quantity determined by multiplying the 
+flow of gasification wastewater times the concentration listed in the 
+following table:
+
+----------------------------------------------------------------------------------------------------------------
+                                                                                                 PSNS
+                                                                                  ---------------------------------
+                                                                                                        Average
+                                                                                                          daily
+                                                                  Pollutant or                          values for
+                                                               pollutant property  Maximum for  any 1       30
+                                                                                           day         consecutive
+                                                                                                       days  shall
+                                                                                                        not exceed
+----------------------------------------------------------------------------------------------------- -------------
+Arsenic, total (ug/L)..............",,primary,openai,gpt-5,1881,201
+192,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears in amendatory text revising § 423.17, so it is new binding regulatory language.",compound,none,423,423.17(b)(9)(ii),A discharger,must,strong,demonstrate compliance with the standards,"the standards in paragraph (b)(9)(i) of this section, as applicable",False,False,,revise,"38                  22
+----------------------------------------------------------------------------------------------------------------
+\1\ This regulation does not specify this type of limitation for this pollutant; however, permitting authorities
+  may do so as appropriate.
+
+    (ii) A discharger must demonstrate compliance with the standards in 
+paragraph (b)(9)(i) of this section, as applicable, by monitoring for 
+all pollutants (except pH) at a point prior to use of the gasification 
+wastewater in any other plant process or commingling of the 
+gasification wastewater with any water or other process wastewater.",§ 423.17(b)(9)(i),primary,openai,gpt-5,1797,372
+192,EPA-HQ-OW-2009-0819,proposed,1,True,"The sentence appears in amendatory text revising § 423.17, so it is new binding regulatory language.",compound,none,423,423.17(b)(9)(ii),A discharger,must,strong,monitor,all pollutants (except pH) at a point prior to use of the gasification wastewater in any other plant process or commingling of the gasification wastewater with any water or other process wastewater,False,True,"to demonstrate compliance with the standards in paragraph (b)(9)(i) of this section, as applicable",revise,"38                  22
+----------------------------------------------------------------------------------------------------------------
+\1\ This regulation does not specify this type of limitation for this pollutant; however, permitting authorities
+  may do so as appropriate.
+
+    (ii) A discharger must demonstrate compliance with the standards in 
+paragraph (b)(9)(i) of this section, as applicable, by monitoring for 
+all pollutants (except pH) at a point prior to use of the gasification 
+wastewater in any other plant process or commingling of the 
+gasification wastewater with any water or other process wastewater.",§ 423.17(b)(9)(i),primary,openai,gpt-5,0,0
+193,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block revising § 423.17(b), making it new binding text.",simple,none,423,423.17(b),compliance with the standards,must,strong,reflect results obtained from,sufficiently sensitive analytical methods,False,False,,revise,"Compliance with the standards must reflect results obtained from 
+sufficiently sensitive analytical methods.",,primary,openai,gpt-5,1623,178
+194,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block revising § 423.17 and prescribes a numeric discharge limit, making it binding.",simple,none,423,423.17(b)(10)(i),A discharger,may not,strong,discharge pollutants in combustion residual leachate in quantities exceeding the allowable amount,the quantity determined by multiplying the flow of combustion residual leachate by the concentration listed in the table,False,False,,revise,"The quantity of pollutants discharged in combustion 
+residual leachate shall not exceed the quantity determined by 
+multiplying the flow of combustion residual leachate times the 
+concentration listed in the following table:
+
+----------------------------------------------------------------------------------------------------------------
+                                                                                                 PSNS
+                                                                                   --------------------------------
+                                                                                                        Average
+                                                                    Pollutant or                          daily
+                                                                     pollutant                          values for
+                                                                      property       Maximum for  any       30
+                                                                                          1 day        consecutive
+                                                                                                       days  shall
+                                                                                                        not exceed
+----------------------------------------------------------------------------------------------------- -------------
+Arsenic, total (ug/L)...........",,primary,openai,gpt-5,1902,210
+195,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within amendatory regulatory text being revised, creating binding requirements.",simple,none,423,423.17,A discharger,must,strong,demonstrate compliance,the standards in paragraph (b)(10)(i) of this section,False,False,,revise,"242                119
+----------------------------------------------------------------------------------------------------------------
+
+    (ii) A discharger must demonstrate compliance with the standards in 
+paragraph (b)(10)(i) of this section, as applicable, by monitoring for 
+all pollutants (except pH) at a point prior to use of the combustion 
+residual leachate in any other plant process or commingling of the 
+combustion residual leachate with any water or other process 
+wastewater, except for any FGD wastewater or any other combustion 
+residual leachate.",paragraph (b)(10)(i) of this section,primary,openai,gpt-5,1791,186
+196,EPA-HQ-OW-2009-0819,proposed,0,True,The sentence appears within an amendatory block revising § 423.17; therefore it is new binding regulatory text.,simple,none,423,423.17,Compliance with the effluent limitations,must,strong,reflect,results obtained from sufficiently sensitive analytical methods,False,False,,revise,"Compliance with the effluent limitations must 
+reflect results obtained from sufficiently sensitive analytical 
+methods.",,primary,openai,gpt-5,1649,177
+100606,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block adding regulatory text to § 423.16, making it new binding text.",simple,none,423,423.16,the resulting effluent,must,strong,comply,the discharge prohibition in this paragraph,False,True,Whenever fly ash transport water is used in any other plant process or is sent to a treatment system at the plant,add,"Whenever fly ash transport water is used in any other plant process or is sent to a treatment system at the plant, the resulting effluent must comply with the discharge prohibition in this paragraph.",,safety_net_verified,openai,gpt-5,1614,196
+100608,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block that adds paragraphs to § 423.16, making it new binding regulatory text.",simple,none,423,423.16,resulting effluent,must,strong,comply,the discharge prohibition in this paragraph,False,True,Whenever bottom ash transport water is used in any other plant process or is sent to a treatment system at the plant,add,"Whenever bottom ash transport water is used in any other plant process or is sent to a treatment system at the plant, the resulting effluent must comply with the discharge prohibition in this paragraph.",,safety_net_verified,openai,gpt-5,1613,197
+100610,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block adding text to § 423.16, so it is new binding regulatory text.",simple,none,423,423.16(c),the resulting effluent,must,strong,comply,the discharge prohibition in this paragraph,False,True,Whenever flue gas mercury control wastewater is used in any other plant process or is sent to a treatment system at the plant,add,"Whenever flue gas mercury control wastewater is used in any other plant process or is sent to a treatment system at the plant, the resulting effluent must comply with the discharge prohibition in this paragraph.",,safety_net_verified,openai,gpt-5,1619,200
+100704,EPA-HQ-OW-2009-0819,proposed,0,True,The sentence appears within an amendatory block revising § 423.17; therefore it constitutes new binding regulatory text.,simple,none,423,423.17,sources subject to this subpart,must not,strong,discharge,wastewater pollutants from fly ash transport water,False,False,,revise,There shall be no discharge of wastewater pollutants from fly ash transport water.,,safety_net_verified,openai,gpt-5,1633,181
+100705,EPA-HQ-OW-2009-0819,proposed,0,True,"The sentence appears within an amendatory block revising § 423.17(a)–(b), making it new binding text.",simple,none,423,423.17(a),any new source subject to this subpart that introduces pollutants into a publicly owned treatment works,must not,strong,discharge,wastewater pollutants from fly ash transport water,False,True,Except as provided in 40 CFR 403.7,revise,There shall be no discharge of wastewater pollutants from fly ash transport water.,40 CFR 403.7,safety_net_verified,openai,gpt-5,1634,213

@@ -1,0 +1,666 @@
+candidate_idx,docket_id,rule_type,split_idx,verified,verified_reason,complexity,recital_disposition,cfr_part,cfr_section,subject,modal,modal_strength,action,object,passive_voice,is_conditional,condition_text,amendatory_action,obligation_text,cross_reference,found_via,llm_provider,llm_model,in_tokens,out_tokens
+1,EPA-HQ-OAR-2009-0926,proposed,0,True,The text appears within an amendatory block revising § 98.2(a) and thus constitutes new binding regulatory text.,compound,none,98,98.2(a),"owners and operators of any facility located in the United States or under or attached to the Outer Continental Shelf that meets paragraph (a)(1), (a)(2), or (a)(3) of this section",must,strong,"comply with the GHG reporting requirements and related monitoring, recordkeeping, and reporting requirements of this part","GHG reporting requirements and related monitoring, recordkeeping, and reporting requirements of part 98",False,True,"if the facility meets the requirements of paragraph (a)(1), (a)(2), or (a)(3) of this section",revise,"is amended by revising paragraph (a) introductory 
+text to read as follows:
+
+
+Sec.  98.2  Who must report?
+
+    (a) The GHG reporting requirements and related monitoring, 
+recordkeeping, and reporting requirements of this part apply to the 
+owners and operators of any facility that is located in the United 
+States or under or attached to the Outer Continental Shelf (as defined 
+in 43 U.S.C. 1331) and that meets the requirements of either paragraph 
+(a)(1), (a)(2), or (a)(3) of this section; and any supplier that meets 
+the requirements of paragraph (a)(4) of this section:",§ 98.2(a)(1)-(3),primary,openai,gpt-5,2005,449
+1,EPA-HQ-OAR-2009-0926,proposed,1,True,The text appears within an amendatory block revising § 98.2(a) and thus constitutes new binding regulatory text.,compound,none,98,98.2(a),any supplier that meets paragraph (a)(4) of this section,must,strong,"comply with the GHG reporting requirements and related monitoring, recordkeeping, and reporting requirements of this part","GHG reporting requirements and related monitoring, recordkeeping, and reporting requirements of part 98",False,True,if the supplier meets the requirements of paragraph (a)(4) of this section,revise,"is amended by revising paragraph (a) introductory 
+text to read as follows:
+
+
+Sec.  98.2  Who must report?
+
+    (a) The GHG reporting requirements and related monitoring, 
+recordkeeping, and reporting requirements of this part apply to the 
+owners and operators of any facility that is located in the United 
+States or under or attached to the Outer Continental Shelf (as defined 
+in 43 U.S.C. 1331) and that meets the requirements of either paragraph 
+(a)(1), (a)(2), or (a)(3) of this section; and any supplier that meets 
+the requirements of paragraph (a)(4) of this section:",§ 98.2(a)(4),primary,openai,gpt-5,0,0
+2,EPA-HQ-OAR-2009-0926,proposed,0,True,"The text appears within an amendatory block adding subpart RR to part 98, making the listed section headings binding regulatory text.",simple,none,98,98.447,Records,must,strong,be retained,None,True,False,,add,"Records that must be retained.
+98.448 Geologic Sequestration Monitoring, Reporting, and 
+Verification (MRV) Plan.
+98.449 Definitions.",,primary,openai,gpt-5,1815,167
+3,EPA-HQ-OAR-2009-0926,proposed,0,True,The sentence appears within an amendatory block revising regulatory text and contains a mandatory requirement.,simple,none,98,98.441(a),You,must,strong,report,under this subpart,False,True,if your facility is an injection facility that injects CO2 into the subsurface and the facility meets requirements of either § 98.2(a)(1) or (a)(2),revise,"(a) You must report under this subpart if your facility is an 
+injection facility that injects CO<INF>2</INF> into the subsurface and 
+the facility meets requirements of either Sec.  98.2(a)(1) or (a)(2).",§ 98.2(a)(1) or (a)(2),primary,openai,gpt-5,1863,215
+4,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within amendatory regulatory text for § 98.441 and imposes a continuing compliance duty, thus it is new binding text.",compound,none,98,98.441,the owner or operator,must,strong,continue to comply,"all requirements of this subpart, including the requirement to submit annual GHG reports",False,True,Once a facility is subject to the requirements of this subpart; even if the facility does not meet the applicability requirements in paragraph (a) of § 98.2(a) in a future year; unless paragraphs (b)(1) or (b)(2) of this section apply,revise,"Once a facility is subject to the requirements of this subpart, the 
+owner or operator must continue for each year thereafter to comply with 
+all requirements of this subpart, including the requirement to submit 
+annual GHG reports, even if the facility does not meet the 
+applicability requirements in paragraph (a) of Sec.  98.2(a) of this 
+part in a future year, unless paragraphs (b)(1) or (b)(2) of this 
+section apply.",§ 98.2(a),primary,openai,gpt-5,1957,255
+5,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within amendatory regulatory text revising § 98.7, so the language is new binding text even though it uses a permissive modal.",compound,none,98,98.7,a facility conducting geologic sequestration subject to the requirements of this subpart,may,permissive,discontinue complying,§ 98.442(a) and § 98.442(b),False,True,"If the injection well or wells constituting the facility are plugged in compliance with the facility's Underground Injection Control permit requirements (or relevant permit requirements, if any, for a facility not under the jurisdiction of the Safe Drinking Water Act)",revise,"(1) If the injection well or wells constituting the facility are 
+plugged in compliance with the facility's Underground Injection Control 
+permit requirements (or relevant permit requirements, if any, in the 
+case of a facility that is not under the jurisdiction
+
+[[Page 18601]]
+
+of the Safe Drinking Water Act), a facility conducting geologic 
+sequestration subject to the requirements of this subpart may 
+discontinue complying with Sec.  98.442(a) and Sec.  98.442(b) and all 
+other facilities subject to the requirements of this subpart may 
+discontinue complying with this subpart.",§ 98.442,primary,openai,gpt-5,1965,408
+5,EPA-HQ-OAR-2009-0926,proposed,1,True,"The sentence appears within amendatory regulatory text revising § 98.7, so the language is new binding text even though it uses a permissive modal.",compound,none,98,98.7,all other facilities subject to the requirements of this subpart,may,permissive,discontinue complying,this subpart,False,True,"If the injection well or wells constituting the facility are plugged in compliance with the facility's Underground Injection Control permit requirements (or relevant permit requirements, if any, for a facility not under the jurisdiction of the Safe Drinking Water Act)",revise,"(1) If the injection well or wells constituting the facility are 
+plugged in compliance with the facility's Underground Injection Control 
+permit requirements (or relevant permit requirements, if any, in the 
+case of a facility that is not under the jurisdiction
+
+[[Page 18601]]
+
+of the Safe Drinking Water Act), a facility conducting geologic 
+sequestration subject to the requirements of this subpart may 
+discontinue complying with Sec.  98.442(a) and Sec.  98.442(b) and all 
+other facilities subject to the requirements of this subpart may 
+discontinue complying with this subpart.",,primary,openai,gpt-5,0,0
+6,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within an amendatory block revising CFR text, making it new binding regulatory language.",compound,none,98,98.7,The owner or operator of the facility,must,strong,notify,EPA that the injection well or wells constituting the facility have been plugged in compliance with applicable Underground Injection Control or relevant permit requirements,False,False,,revise,"The owner or operator of the 
+facility must notify EPA that the injection well or wells constituting 
+the facility have been plugged in compliance with the facility's 
+Underground Injection Control permit requirements (or relevant permit 
+requirements, if any, in the case of a facility that is not under the 
+jurisdiction of the Safe Drinking Water Act), and such notification 
+must be certified as accurate by the owner or operator of the facility.",,primary,openai,gpt-5,1857,295
+6,EPA-HQ-OAR-2009-0926,proposed,1,True,"The sentence appears within an amendatory block revising CFR text, making it new binding regulatory language.",compound,none,98,98.7,The owner or operator of the facility,must,strong,certify,that the notification is accurate,False,False,,revise,"The owner or operator of the 
+facility must notify EPA that the injection well or wells constituting 
+the facility have been plugged in compliance with the facility's 
+Underground Injection Control permit requirements (or relevant permit 
+requirements, if any, in the case of a facility that is not under the 
+jurisdiction of the Safe Drinking Water Act), and such notification 
+must be certified as accurate by the owner or operator of the facility.",,primary,openai,gpt-5,0,0
+7,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within amendatory regulatory text revising § 98.7, so it is new binding text.",simple,none,98,98.7,The owner or operator,must,strong,resume,reporting,False,True,for any future calendar year during which any activities that are source categories of this subpart resume operation,revise,"The owner or operator must resume reporting for any future calendar 
+year during which any activities that are source categories of this 
+subpart resume operation.",,primary,openai,gpt-5,1735,188
+8,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within an amendatory block revising CFR text, making it binding.",simple,none,98,98.7,a facility conducting geologic sequestration,may,permissive,discontinue complying,with the remainder of this subpart,False,True,"If the CO2 plume and pressure front have stabilized and the GS facility has been closed in compliance with the facility's Underground Injection Control permit requirements (or relevant permit requirements, if any, in the case of a facility that is not under the jurisdiction of the Safe Drinking Water Act)",revise,"(2) If the CO<INF>2</INF> plume and pressure front have stabilized 
+and the GS facility has been closed in compliance with the facility's 
+Underground Injection Control permit requirements (or relevant permit 
+requirements, if any, in the case of a facility that is not under the 
+jurisdiction of the Safe Drinking Water Act), a facility conducting 
+geologic sequestration may discontinue complying with the remainder of 
+this subpart.",,primary,openai,gpt-5,1838,230
+9,EPA-HQ-OAR-2009-0926,proposed,0,True,The obligation appears within amendatory regulatory text revising CFR provisions and states mandatory actions using must.,compound,none,98,98.7,The owner or operator of the facility,must,strong,notify,EPA that the CO2 plume and pressure front have stabilized and the GS facility has been closed in compliance with applicable Underground Injection Control or other relevant permit requirements,False,True,If the CO2 plume and pressure front have stabilized and the GS facility has been closed in compliance with applicable permit requirements,revise,"The owner or operator of the facility must notify EPA 
+that the CO<INF>2</INF> plume and pressure front have stabilized and 
+the GS facility has been closed in compliance with the facility's 
+Underground Injection Control permit requirements (or relevant permit 
+requirements, if any, in the case of a facility that is not under the 
+jurisdiction of the Safe Drinking Water Act), and such notification 
+must be certified as accurate by the owner or operator of the facility.",,primary,openai,gpt-5,1911,344
+9,EPA-HQ-OAR-2009-0926,proposed,1,True,The obligation appears within amendatory regulatory text revising CFR provisions and states mandatory actions using must.,compound,none,98,98.7,The owner or operator of the facility,must,strong,certify,the notification as accurate,False,True,If the CO2 plume and pressure front have stabilized and the GS facility has been closed in compliance with applicable permit requirements,revise,"The owner or operator of the facility must notify EPA 
+that the CO<INF>2</INF> plume and pressure front have stabilized and 
+the GS facility has been closed in compliance with the facility's 
+Underground Injection Control permit requirements (or relevant permit 
+requirements, if any, in the case of a facility that is not under the 
+jurisdiction of the Safe Drinking Water Act), and such notification 
+must be certified as accurate by the owner or operator of the facility.",,primary,openai,gpt-5,0,0
+10,EPA-HQ-OAR-2009-0926,proposed,0,True,The sentence appears within amendatory text being revised and sets a new binding requirement.,simple,none,98,98.7,The owner or operator,must,strong,resume reporting,for any future calendar year,False,True,during any future calendar year in which any activities that are source categories of this subpart resume operation,revise,"The owner or operator must resume reporting for any future calendar 
+year during which any activities that are source categories of this 
+subpart resume operation.",,primary,openai,gpt-5,1787,185
+11,EPA-HQ-OAR-2009-0926,proposed,0,True,The text appears within amendatory regulatory text for a CFR section (Sec. 98.442 GHGs to report) and states mandatory reporting requirements.,compound,none,98,98.442,You,must,strong,report,mass of CO2 received onsite,False,False,,revise,"You must report:
+    (a) Mass of CO<INF>2</INF> received onsite.
+    (b) Mass of CO<INF>2</INF> injected into the subsurface.",,primary,openai,gpt-5,1805,278
+11,EPA-HQ-OAR-2009-0926,proposed,1,True,The text appears within amendatory regulatory text for a CFR section (Sec. 98.442 GHGs to report) and states mandatory reporting requirements.,compound,none,98,98.442,You,must,strong,report,mass of CO2 injected into the subsurface,False,False,,revise,"You must report:
+    (a) Mass of CO<INF>2</INF> received onsite.
+    (b) Mass of CO<INF>2</INF> injected into the subsurface.",,primary,openai,gpt-5,0,0
+12,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within amendatory regulatory text for § 98.443 with a strong modal ('must'), making it new binding text.",compound,none,98,98.443(a),A facility,must,strong,calculate,the annual mass of CO2 transferred to the facility from offsite sources,False,False,,revise,"(a) A facility must calculate and report the annual mass of 
+CO<INF>2</INF> transferred to the facility from offsite sources using 
+the procedures in paragraphs (a)(1), (a)(2), and (a)(3) of this 
+section.",,primary,openai,gpt-5,1883,417
+12,EPA-HQ-OAR-2009-0926,proposed,1,True,"The sentence appears within amendatory regulatory text for § 98.443 with a strong modal ('must'), making it new binding text.",compound,none,98,98.443(a),A facility,must,strong,report,the annual mass of CO2 transferred to the facility from offsite sources,False,False,,revise,"(a) A facility must calculate and report the annual mass of 
+CO<INF>2</INF> transferred to the facility from offsite sources using 
+the procedures in paragraphs (a)(1), (a)(2), and (a)(3) of this 
+section.",,primary,openai,gpt-5,0,0
+12,EPA-HQ-OAR-2009-0926,proposed,2,True,"The sentence appears within amendatory regulatory text for § 98.443 with a strong modal ('must'), making it new binding text.",compound,none,98,98.443(a),A facility,must,strong,use,"the procedures in paragraphs (a)(1), (a)(2), and (a)(3) of this section",False,False,,revise,"(a) A facility must calculate and report the annual mass of 
+CO<INF>2</INF> transferred to the facility from offsite sources using 
+the procedures in paragraphs (a)(1), (a)(2), and (a)(3) of this 
+section.",§ 98.443(a)(1)-(3),primary,openai,gpt-5,0,0
+13,EPA-HQ-OAR-2009-0926,proposed,0,True,The sentence appears within amendatory regulatory text specifying procedures under § 98.443 and uses mandatory language.,simple,none,98,98.443(a)(1),you,must,strong,calculate,"the total annual mass of CO2 in a CO2 stream transferred onsite from offsite sources in metric tons by multiplying the mass flow by the CO2 concentration in the flow, according to Equation RR-1 of this section",False,True,For each transfer point for which flow is measured using a mass flow meter,revise,"(1) For each transfer point for which flow is measured using a mass 
+flow meter, you must calculate the total annual mass of CO<INF>2</INF> 
+in a CO<INF>2</INF> stream transferred onsite from offsite sources in 
+metric tons by multiplying the mass flow by the CO<INF>2</INF> 
+concentration in the flow, according to Equation RR-1 of this section.",§ 98.444,primary,openai,gpt-5,1955,228
+14,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within amendatory regulatory text revising CFR provisions, so it constitutes new binding text.",simple,none,98,98.7,you,must,strong,collect,the required mass flow and concentration data,False,False,,revise,You must collect these data quarterly.,§ 98.444,primary,openai,gpt-5,1768,173
+15,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within an amendatory block revising CFR text, making it binding.",simple,none,98,98.7,Mass flow and concentration data measurements,must,strong,be made,in accordance with § 98.444,True,False,,revise,"Mass flow and concentration data 
+measurements must be made in accordance with Sec.  98.444.",§ 98.444,primary,openai,gpt-5,1795,177
+16,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within amendatory regulatory text being revised to read as follows, making it new binding text.",simple,none,98,98.7,you,must,strong,calculate,"the total annual mass of CO2 in a CO2 stream transferred onsite from offsite sources in metric tons by multiplying the volumetric flow at standard conditions by the CO2 concentration in the flow and the density of CO2 at standard conditions, according to Equation RR-2 of this section",False,True,For each transfer point for which flow is measured using a volumetric flow meter,revise,"(2) For each transfer point for which flow is measured using a 
+volumetric flow meter, you must calculate the total annual mass of 
+CO<INF>2</INF> in a CO<INF>2</INF> stream transferred onsite from 
+offsite sources in metric tons by multiplying the volumetric flow at 
+standard conditions by the CO<INF>2</INF> concentration in the flow and 
+the density of CO<INF>2</INF> at standard conditions, according to 
+Equation RR-2 of this section.",§ 98.444,primary,openai,gpt-5,1988,239
+17,EPA-HQ-OAR-2009-0926,proposed,0,True,The sentence appears within amendatory regulatory text (a revise action) and imposes a clear requirement.,simple,none,98,98.7,You,must,strong,collect,"the required volumetric flow, CO2 concentration, and density data",False,False,,revise,You must collect these data quarterly.,§ 98.444,primary,openai,gpt-5,1768,179
+18,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within amendatory text being revised and prescribes a requirement, making it new binding regulatory text.",simple,none,98,98.7,Volumetric flow and concentration data measurements,must,strong,be made,in accordance with § 98.444,True,False,,revise,"Volumetric flow and concentration data measurements must be made in 
+accordance with Sec.  98.444.",§ 98.444,primary,openai,gpt-5,1805,184
+19,EPA-HQ-OAR-2009-0926,proposed,0,True,The sentence appears within amendatory regulatory text (revision) and contains a clear mandatory requirement.,simple,none,98,98.7,you,must,strong,sum,the mass of all CO2 transferred onsite from offsite sources through all facility transfer points,False,False,,revise,"(3) To aggregate transfer data at the facility level, you must sum 
+the mass of all CO<INF>2</INF> transferred onsite from offsite sources 
+through all facility transfer points in accordance with the procedure 
+specified in Equation RR-3 of this section.",Equation RR-3,primary,openai,gpt-5,1887,180
+20,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within amendatory regulatory text being revised, creating new binding requirements.",simple,none,98,98.7(b),A facility,must,strong,report,the mass of CO2 injected in accordance with the procedures specified in paragraphs (b)(1) through (b)(3) of this section,False,False,,revise,"(b) A facility must report annually the mass of CO<INF>2</INF> 
+injected in accordance with the procedures specified in paragraphs 
+(b)(1) through (b)(3) of this section.",paragraphs (b)(1) through (b)(3) of this section,primary,openai,gpt-5,1853,203
+21,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within amendatory regulatory text that specifies reporting and calculation procedures, making it binding.",simple,none,98,98.7(b)(1),you,must,strong,calculate,the total annual mass of CO2 in the injected CO2 stream in metric tons by multiplying the mass flow by the CO2 concentration according to Equation RR-4 of this section,False,True,For each point at which the flow of an injected CO2 stream is measured using a mass flow meter,revise,"(1) For each point at which the flow of an injected CO<INF>2</INF> 
+stream is measured using a mass flow meter, you must calculate annually 
+the total mass of CO<INF>2</INF> in the CO<INF>2</INF> stream injected 
+in metric
+
+[[Page 18602]]
+
+tons by multiplying the mass flow by the CO<INF>2</INF> concentration 
+in the flow, according to Equation RR-4 of this section.",§ 98.444,primary,openai,gpt-5,1977,223
+22,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within amendatory regulatory text revising § 98.7, so it constitutes new binding text.",simple,none,98,98.7,you,must,strong,collect,these data,False,False,,revise,"You must 
+collect these data quarterly.",,primary,openai,gpt-5,1782,166
+23,EPA-HQ-OAR-2009-0926,proposed,0,True,The sentence appears within an amendatory block revising CFR text and states a prescriptive requirement.,simple,none,98,98.7,Mass flow and concentration data measurements,must,strong,be made,in accordance with § 98.444,True,False,,revise,"Mass flow and concentration data 
+measurements must be made in accordance with Sec.  98.444.",§ 98.444,primary,openai,gpt-5,1817,179
+24,EPA-HQ-OAR-2009-0926,proposed,0,True,The obligation appears within amendatory regulatory text being revised and uses mandatory language prescribing a calculation method.,simple,none,98,98.7,you,must,strong,calculate annually,"the total mass of CO2 in the injected CO2 stream in metric tons by multiplying the volumetric flow at standard conditions by the CO2 concentration in the flow and the density of CO2 at standard conditions, according to Equation RR-5 of this section",False,True,For each point at which the flow of an injected CO2 stream is measured using a volumetric flow meter,revise,"u = flow meter.
+
+    (2) For each point at which the flow of an injected CO<INF>2</INF> 
+stream is measured using a volumetric flow meter, you must calculate 
+annually the total mass of CO<INF>2</INF> in the CO<INF>2</INF> stream 
+injected in metric tons by multiplying the volumetric flow at standard 
+conditions by the CO<INF>2</INF> concentration in the flow and the 
+density of CO<INF>2</INF> at standard conditions, according to Equation 
+RR-5 of this section.",§ 98.444,primary,openai,gpt-5,2036,238
+25,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within amendatory text being revised and uses mandatory language, making it new binding regulatory text.",simple,none,98,98.7,You,must,strong,collect,"the volumetric flow, concentration, and density data",False,False,,revise,You must collect these data quarterly.,§ 98.444,primary,openai,gpt-5,1783,177
+26,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within amendatory text being revised, making it new binding regulatory language.",simple,none,98,98.7,Volumetric flow and concentration data measurements,must,strong,be made,in accordance with § 98.444,True,False,,revise,"Volumetric 
+flow and concentration data measurements must be made in accordance 
+with Sec.  98.444.",§ 98.444,primary,openai,gpt-5,1820,179
+27,EPA-HQ-OAR-2009-0926,proposed,0,True,The sentence appears within amendatory regulatory text (revise action) and contains a clear duty using “must.”,simple,none,98,98.7,you,must,strong,sum,the mass of all CO2 injected through all injection wells at the facility in accordance with the procedure specified in Equation RR-6 of this section,False,False,,revise,"u = flow meter.
+
+    (3) To aggregate injection data at the facility level, you must sum 
+the mass of all CO<INF>2</INF> injected through all injection wells at 
+the facility in accordance with the procedure specified in Equation RR-
+6 of this section.",Equation RR-6 of this section,primary,openai,gpt-5,1916,199
+28,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within amendatory regulatory text being revised, making it new binding text.",compound,none,98,98.7,All GS facilities,must,strong,report,the mass of CO2 emitted as fugitive or vented emissions from surface equipment,False,True,if this information is not required to be reported under subpart W of this part,revise,"(c) All GS facilities must also report the mass of CO<INF>2</INF> 
+emitted as fugitive or vented emissions from surface equipment (if this 
+information is not required to be reported under subpart W of this 
+part), the mass of CO<INF>2</INF> produced (if applicable), the mass of 
+CO<INF>2</INF> emitted from subsurface leakage, and the mass of 
+CO<INF>2</INF> geologically sequestered in accordance with the 
+procedures as specified in paragraphs (c)(1) through (c)(4) of this 
+section.",subpart W of this part,primary,openai,gpt-5,2014,527
+28,EPA-HQ-OAR-2009-0926,proposed,1,True,"The sentence appears within amendatory regulatory text being revised, making it new binding text.",compound,none,98,98.7,All GS facilities,must,strong,report,the mass of CO2 produced,False,True,if applicable,revise,"(c) All GS facilities must also report the mass of CO<INF>2</INF> 
+emitted as fugitive or vented emissions from surface equipment (if this 
+information is not required to be reported under subpart W of this 
+part), the mass of CO<INF>2</INF> produced (if applicable), the mass of 
+CO<INF>2</INF> emitted from subsurface leakage, and the mass of 
+CO<INF>2</INF> geologically sequestered in accordance with the 
+procedures as specified in paragraphs (c)(1) through (c)(4) of this 
+section.",,primary,openai,gpt-5,0,0
+28,EPA-HQ-OAR-2009-0926,proposed,2,True,"The sentence appears within amendatory regulatory text being revised, making it new binding text.",compound,none,98,98.7,All GS facilities,must,strong,report,the mass of CO2 emitted from subsurface leakage,False,False,,revise,"(c) All GS facilities must also report the mass of CO<INF>2</INF> 
+emitted as fugitive or vented emissions from surface equipment (if this 
+information is not required to be reported under subpart W of this 
+part), the mass of CO<INF>2</INF> produced (if applicable), the mass of 
+CO<INF>2</INF> emitted from subsurface leakage, and the mass of 
+CO<INF>2</INF> geologically sequestered in accordance with the 
+procedures as specified in paragraphs (c)(1) through (c)(4) of this 
+section.",,primary,openai,gpt-5,0,0
+28,EPA-HQ-OAR-2009-0926,proposed,3,True,"The sentence appears within amendatory regulatory text being revised, making it new binding text.",compound,none,98,98.7,All GS facilities,must,strong,report,the mass of CO2 geologically sequestered in accordance with the procedures specified in paragraphs (c)(1) through (c)(4) of this section,False,False,,revise,"(c) All GS facilities must also report the mass of CO<INF>2</INF> 
+emitted as fugitive or vented emissions from surface equipment (if this 
+information is not required to be reported under subpart W of this 
+part), the mass of CO<INF>2</INF> produced (if applicable), the mass of 
+CO<INF>2</INF> emitted from subsurface leakage, and the mass of 
+CO<INF>2</INF> geologically sequestered in accordance with the 
+procedures as specified in paragraphs (c)(1) through (c)(4) of this 
+section.",,primary,openai,gpt-5,0,0
+29,EPA-HQ-OAR-2009-0926,proposed,0,True,The sentence appears within amendatory regulatory text being revised and contains a clear duty using must.,simple,none,98,98.7(c)(1),you,must,strong,report,CO2 emitted as fugitive or vented emissions from surface equipment at your facility,False,True,If you do not report these emissions under subpart W of this part for the reporting year,revise,"(1) If you do not report CO<INF>2</INF> emitted as fugitive or 
+vented emissions from surface equipment at your facility in the 
+reporting year under subpart W of this part, you must report them under 
+subpart RR of this part in accordance with the procedures specified in 
+subpart W of this part for each type of surface equipment.",subpart W,primary,openai,gpt-5,1885,199
+30,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within amendatory text being revised and prescribes a required calculation procedure, making it new binding regulatory text.",simple,none,98,98.7(c)(2),You,must,strong,calculate,the annual mass of CO2 produced from oil or gas production wells at the facility for each separator that sends a stream of gas into a recycle or end use system in accordance with paragraphs (c)(2)(i) through (c)(2)(iii),False,True,if applicable,revise,"(2) You must calculate the annual mass of CO<INF>2</INF> produced 
+from oil or gas production wells (if applicable) at the facility for 
+each separator that sends a stream of gas into a recycle or end use 
+system in accordance with the procedures specified in paragraphs 
+(c)(2)(i) through (c)(2)(iii) of this section.",,primary,openai,gpt-5,1893,220
+31,EPA-HQ-OAR-2009-0926,proposed,0,True,The sentence appears within amendatory regulatory text specifying procedures (paragraph (c)(2)(i)) and contains a clear duty with “you must.”,simple,none,98,98.7(c)(2)(i),you,must,strong,calculate annually,"the total mass of CO2 produced from an oil or gas stream in metric tons by multiplying the mass flow by the CO2 concentration in the flow, according to Equation RR-7 of this section",False,True,For each gas-liquid separator for which flow is measured using a mass flow meter,revise,"For each gas-liquid separator for which flow is measured using 
+a mass flow meter, you must calculate annually the total mass of 
+CO<INF>2</INF> produced from an oil or gas stream in metric tons by 
+multiplying the mass flow by the CO<INF>2</INF> concentration in the 
+flow, according to Equation RR-7 of this section.",§ 98.444,primary,openai,gpt-5,1903,236
+32,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within an amendatory block revising regulatory text, making it new binding text.",simple,none,98,98.7,You,must,strong,collect,these data,False,False,,revise,"You must collect 
+these data quarterly.",,primary,openai,gpt-5,1758,162
+33,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within amendatory regulatory text being revised, making it binding.",simple,none,98,98.7,Mass flow and concentration data measurements,must,strong,be made,in accordance with § 98.444,True,False,,revise,"Mass flow and concentration data measurements 
+must be made in accordance with Sec.  98.444.",§ 98.444,primary,openai,gpt-5,1784,175
+34,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within amendatory text being revised to read as follows, creating new binding regulatory requirements.",simple,none,98,98.7,you,must,strong,calculate,"the total annual mass of CO2 produced from an oil or gas stream in metric tons by multiplying the volumetric flow at standard conditions by the CO2 concentration in the flow and the density of CO2 at standard conditions, according to Equation RR-8 of this section",False,True,For each gas-liquid separator for which flow is measured using a volumetric flow meter,revise,"w = separator.
+
+    (ii) For each gas-liquid separator for which flow is measured using 
+a volumetric flow meter, you must calculate annually the total mass of 
+CO<INF>2</INF> produced from an oil or gas stream in metric tons by 
+multiplying the volumetric flow at standard conditions by the 
+CO<INF>2</INF> concentration in the flow and the density of 
+CO<INF>2</INF> at standard conditions, according to Equation RR-8 of 
+this section.",§ 98.444,primary,openai,gpt-5,1999,235
+35,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within amendatory text revising CFR requirements, making it binding.",simple,none,98,98.7,You,must,strong,collect,these data,False,False,,revise,You must collect these data quarterly.,§ 98.444,primary,openai,gpt-5,1775,164
+36,EPA-HQ-OAR-2009-0926,proposed,0,True,The sentence appears within amendatory text revising § 98.7 and contains binding regulatory language with “must.”,simple,none,98,98.7,Volumetric flow and concentration data measurements,must,strong,be made,in accordance with § 98.444,True,False,,revise,"Volumetric flow 
+and concentration data measurements must be made in accordance with 
+Sec.  98.444.",§ 98.444,primary,openai,gpt-5,1813,186
+37,EPA-HQ-OAR-2009-0926,proposed,0,True,The obligation appears within amendatory text revising CFR requirements and contains mandatory language.,simple,none,98,98.7,you,must,strong,sum,the mass of all CO2 separated at each gas-liquid separator at the facility in accordance with the procedure specified in Equation RR-9 of this section to aggregate production data at the facility level,False,False,,revise,"w = separator.
+
+    (iii) To aggregate production data at the facility level, you must 
+sum the mass of all of the CO<INF>2</INF> separated at each gas-liquid 
+separator at the facility in accordance with the procedure specified in 
+Equation RR-9 of this section.",Equation RR-9,primary,openai,gpt-5,1921,198
+38,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within an amendatory block that revises regulatory text and contains a mandatory modal (“must”), making it binding.",simple,none,98,98.7,You,must,strong,assume,that the total CO2 measured at the separator(s) represents (100−X)% of the total CO2 produced,False,False,,revise,"You must assume that the total 
+CO<INF>2</INF> measured at the separator(s) represents (100-X)% of the 
+total CO<INF>2</INF> produced.",,primary,openai,gpt-5,1835,190
+39,EPA-HQ-OAR-2009-0926,proposed,0,True,The sentence appears within amendatory regulatory text being revised and uses mandatory language prescribing a calculation method.,simple,none,98,98.7,you,must,strong,multiply,the quarterly mass of CO2 measured at the separator(s) by (100+X)%,False,False,,revise,"In order to account for the X% of 
+CO<INF>2</INF> produced that is estimated to remain with the produced 
+oil and gas, you must multiply the quarterly mass of CO<INF>2</INF> 
+measured at the separator(s) by (100+X)%.",,primary,openai,gpt-5,1892,178
+40,EPA-HQ-OAR-2009-0926,proposed,0,True,The sentence appears within amendatory regulatory text (revise) and imposes a requirement using must.,simple,none,98,98.7,You,must,strong,estimate,the value of X using a methodology approved by EPA per your MRV plan,False,False,,revise,"The value of X must be 
+estimated using a methodology approved by EPA per your MRV plan.",,primary,openai,gpt-5,1797,176
+41,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within amendatory regulatory text being revised, making it new binding text.",simple,none,98,98.7,You,must,strong,report,the annual mass of CO2 that is emitted from each leakage pathway identified in your MRV plan,False,False,,revise,"w = separator.
+
+    (3) You must report the annual mass of CO<INF>2</INF> that is 
+emitted from each leakage pathway identified in your MRV plan.",,primary,openai,gpt-5,1856,177
+42,EPA-HQ-OAR-2009-0926,proposed,0,True,The sentence appears within amendatory regulatory text being revised and uses mandatory language prescribing a required calculation method.,simple,none,98,98.7,You,must,strong,calculate,the total annual mass of CO2 emitted from all leakage pathways at the facility in accordance with the procedure specified in Equation RR-10 of this section,False,False,,revise,"You must 
+calculate the total annual mass of CO<INF>2</INF> emitted from all 
+leakage pathways at the facility in accordance with the procedure 
+specified in Equation RR-10 of this section.",Equation RR-10 of this section,primary,openai,gpt-5,1867,197
+43,EPA-HQ-OAR-2009-0926,proposed,0,True,The text appears within an amendatory block revising regulatory text and contains a mandatory 'must' requirement.,simple,none,98,98.7,You,must,strong,report,the annual mass of CO2 that is sequestered in the subsurface geologic formation in the reporting year in accordance with the procedures specified in paragraphs (c)(4)(i) and (c)(4)(ii) of this section,False,False,,revise,"x = leakage pathway.
+
+    (4) You must report the annual mass of CO<INF>2</INF> that is 
+sequestered in the subsurface geologic formation in the reporting year 
+in accordance with the procedures specified in paragraphs (c)(4)(i) and 
+(c)(4)(ii) of this section.",paragraphs (c)(4)(i) and (c)(4)(ii) of this section,primary,openai,gpt-5,1895,230
+44,EPA-HQ-OAR-2009-0926,proposed,0,True,The sentence is in an amendatory block revising regulatory text and contains a clear must-duty.,simple,none,98,98.7(c)(4)(i),GS facilities that are conducting enhanced recovery operations and that are actively producing oil or natural gas,must,strong,calculate,the annual mass of CO2 that is sequestered in the underground subsurface formation in the reporting year in accordance with the procedure specified in Equation RR-11 of this section,False,False,,revise,"(i) GS facilities that are conducting enhanced recovery operations 
+and that are actively producing oil or natural gas must calculate the 
+annual mass of CO<INF>2</INF> that is sequestered in the underground 
+subsurface formation in the reporting year in accordance with the 
+procedure specified in Equation RR-11 of this section.",Equation RR-11 of this section,primary,openai,gpt-5,1932,223
+45,EPA-HQ-OAR-2009-0926,proposed,0,True,The sentence appears within an amendatory block revising regulatory text and contains a clear must obligation.,simple,none,98,98.7,GS facilities that are not actively producing oil or natural gas,must,strong,calculate,the annual mass of CO2 that is sequestered in the subsurface geologic formation in the reporting year in accordance with the procedures specified in Equation RR-12 of this section,False,False,,revise,"(ii) GS facilities that are not actively producing oil or natural 
+gas must calculate the annual mass of CO<INF>2</INF>",Equation RR-12 of this section,primary,openai,gpt-5,1811,213
+46,EPA-HQ-OAR-2009-0926,proposed,0,True,The sentence appears within an amendatory block revising § 98.444 and contains mandatory language creating new binding text.,simple,none,98,98.444(a),All reporters,must,strong,adhere to the requirements and procedures,in paragraph (a) in this section,False,True,if there has been no EPA direction or order specifying a preferred method of measurement,revise,"(a) All reporters must adhere to the requirements and procedures in 
+paragraph (a) in this section if there has been no EPA direction or 
+order specifying a preferred method of measurement.",,primary,openai,gpt-5,1787,196
+47,EPA-HQ-OAR-2009-0926,proposed,0,True,"The obligation appears within amendatory regulatory text for § 98.444 and uses mandatory language ('You must'), making it binding.",simple,none,98,98.444(a)(1),You,must,strong,determine,the quantity transferred by following the most appropriate of the listed procedures,False,True,if there has been no EPA direction or order specifying a preferred method of measurement,revise,"[[Page 18604]]
+
+    (1) You must determine the quantity transferred by following the 
+most appropriate of the following procedures:
+    (i) A reporter can measure quantity at the custody transfer meter 
+installed at the facility boundary prior to any subsequent processing 
+operations at the facility.
+    (ii) If you took ownership of the CO<INF>2</INF> in a commercial 
+transaction, you can use the quantity data from the sales contract if 
+it is a one-time transaction or from invoices or manifests if it is an 
+ongoing commercial transaction with discrete shipments.",,primary,openai,gpt-5,1922,198
+48,EPA-HQ-OAR-2009-0926,proposed,0,True,Text appears within an amendatory block revising CFR part 98 and contains binding modal obligations.,compound,none,98,98.7,Facilities not regulated by the Underground Injection Control program because they are outside of Safe Drinking Water Act jurisdiction,no_modal_implicit,strong,use as the point of measurement,the flow meter installed closest to the point of injection at your facility,False,True,If no such requirement exists,revise,"If no such requirement 
+exists, the point of measurement is the flow meter installed closest to 
+the point of injection at your facility.
+    (3) You must determine the quantity injected by using a flow meter 
+or meters.
+    (4) You must operate and calibrate all flow meters used to measure 
+quantities reported in Sec.  98.443 according to the following 
+procedure:
+    (i) You must use an appropriate standard method published by a 
+consensus-based standards organization if such a method exists.",,primary,openai,gpt-5,1876,543
+48,EPA-HQ-OAR-2009-0926,proposed,1,True,Text appears within an amendatory block revising CFR part 98 and contains binding modal obligations.,compound,none,98,98.7,You,must,strong,determine,the quantity injected by using a flow meter or meters,False,False,,revise,"If no such requirement 
+exists, the point of measurement is the flow meter installed closest to 
+the point of injection at your facility.
+    (3) You must determine the quantity injected by using a flow meter 
+or meters.
+    (4) You must operate and calibrate all flow meters used to measure 
+quantities reported in Sec.  98.443 according to the following 
+procedure:
+    (i) You must use an appropriate standard method published by a 
+consensus-based standards organization if such a method exists.",,primary,openai,gpt-5,0,0
+48,EPA-HQ-OAR-2009-0926,proposed,2,True,Text appears within an amendatory block revising CFR part 98 and contains binding modal obligations.,compound,none,98,98.7,You,must,strong,operate and calibrate,all flow meters used to measure quantities reported in § 98.443 according to the specified procedure,False,False,,revise,"If no such requirement 
+exists, the point of measurement is the flow meter installed closest to 
+the point of injection at your facility.
+    (3) You must determine the quantity injected by using a flow meter 
+or meters.
+    (4) You must operate and calibrate all flow meters used to measure 
+quantities reported in Sec.  98.443 according to the following 
+procedure:
+    (i) You must use an appropriate standard method published by a 
+consensus-based standards organization if such a method exists.",§ 98.443,primary,openai,gpt-5,0,0
+48,EPA-HQ-OAR-2009-0926,proposed,3,True,Text appears within an amendatory block revising CFR part 98 and contains binding modal obligations.,compound,none,98,98.7,You,must,strong,use an appropriate standard method published by a consensus-based standards organization,for operating and calibrating flow meters when such a method exists,False,True,if such a method exists,revise,"If no such requirement 
+exists, the point of measurement is the flow meter installed closest to 
+the point of injection at your facility.
+    (3) You must determine the quantity injected by using a flow meter 
+or meters.
+    (4) You must operate and calibrate all flow meters used to measure 
+quantities reported in Sec.  98.443 according to the following 
+procedure:
+    (i) You must use an appropriate standard method published by a 
+consensus-based standards organization if such a method exists.",,primary,openai,gpt-5,0,0
+49,EPA-HQ-OAR-2009-0926,proposed,0,True,The sentence appears within an amendatory block revising regulatory text and imposes a clear duty on the regulated party.,simple,none,98,98.7,you,must,strong,follow,industry standard practices,False,True,Where no appropriate standard method developed by a consensus-based standards organization exists,revise,"(ii) Where no appropriate standard method developed by a consensus-
+based standards organization exists, you must follow industry standard 
+practices.",§ 98.443,primary,openai,gpt-5,1758,185
+50,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within an amendatory block revising § 98.7, making it binding regulatory text.",simple,none,98,98.7,You,must,strong,ensure,that any flow meter calibrations performed are NIST traceable,False,False,,revise,"(iii) You must ensure that any flow meter calibrations performed 
+are NIST traceable.",,primary,openai,gpt-5,1729,175
+51,EPA-HQ-OAR-2009-0926,proposed,0,True,"The text appears within an amendatory block revising § 98.7, so the obligation is new binding regulatory text.",simple,none,98,98.7,You,must,strong,determine,the concentration of the transferred CO2 stream by following the most appropriate of the listed procedures,False,False,,revise,"(5) You must determine concentration of the transferred 
+CO<INF>2</INF> stream by following the most appropriate of the 
+following procedures:
+    (i) A reporter can sample the CO<INF>2</INF> stream at the point of 
+transfer and measure its concentration.",,primary,openai,gpt-5,1841,184
+52,EPA-HQ-OAR-2009-0926,proposed,0,True,The sentence appears within amendatory regulatory text that revises CFR provisions and contains mandatory language creating a new binding requirement.,simple,none,98,98.7,You,must,strong,determine,the CO2 concentration of the injected CO2 stream by measuring immediately downstream of the flow meter as specified in paragraph (a)(2)(i) or (a)(2)(ii) of this section,False,False,,revise,"(6) You must determine the CO<INF>2</INF> concentration of the 
+injected CO<INF>2</INF> stream by measuring immediately downstream of 
+the flow meter as specified in paragraph (a)(2)(i) or (a)(2)(ii) of 
+this section.",paragraph (a)(2)(i) or (a)(2)(ii) of this section,primary,openai,gpt-5,1876,224
+53,EPA-HQ-OAR-2009-0926,proposed,0,True,The sentence appears within an amendatory block revising regulatory text and contains a mandatory requirement.,simple,none,98,98.7,you,must,strong,use,methods that conform to applicable chemical analytical standards,False,True,If you measure the concentration of any CO2 quantity for reporting,revise,"(7) If you measure the concentration of any CO<INF>2</INF> quantity 
+for reporting, you must use methods that conform to applicable chemical 
+analytical standards.",,primary,openai,gpt-5,1810,179
+54,EPA-HQ-OAR-2009-0926,proposed,0,True,The text appears within an amendatory block revising CFR regulatory text and contains mandatory requirements using 'must'.,compound,none,98,98.7,You,must,strong,determine,the transferred CO2 concentration,False,False,,revise,"(8) You must determine the transferred CO<INF>2</INF> concentration 
+and flow quarterly.
+    (9) You must sample the injected CO<INF>2</INF> concentration and 
+calculate the flow quarterly.
+    (10) You must use the same calculation methodology throughout a 
+reporting period unless you provide a written explanation of why a 
+change in methodology was required.",,primary,openai,gpt-5,1885,577
+54,EPA-HQ-OAR-2009-0926,proposed,1,True,The text appears within an amendatory block revising CFR regulatory text and contains mandatory requirements using 'must'.,compound,none,98,98.7,You,must,strong,determine,the transferred CO2 flow,False,False,quarterly,revise,"(8) You must determine the transferred CO<INF>2</INF> concentration 
+and flow quarterly.
+    (9) You must sample the injected CO<INF>2</INF> concentration and 
+calculate the flow quarterly.
+    (10) You must use the same calculation methodology throughout a 
+reporting period unless you provide a written explanation of why a 
+change in methodology was required.",,primary,openai,gpt-5,0,0
+54,EPA-HQ-OAR-2009-0926,proposed,2,True,The text appears within an amendatory block revising CFR regulatory text and contains mandatory requirements using 'must'.,compound,none,98,98.7,You,must,strong,sample,the injected CO2 concentration,False,False,quarterly,revise,"(8) You must determine the transferred CO<INF>2</INF> concentration 
+and flow quarterly.
+    (9) You must sample the injected CO<INF>2</INF> concentration and 
+calculate the flow quarterly.
+    (10) You must use the same calculation methodology throughout a 
+reporting period unless you provide a written explanation of why a 
+change in methodology was required.",,primary,openai,gpt-5,0,0
+54,EPA-HQ-OAR-2009-0926,proposed,3,True,The text appears within an amendatory block revising CFR regulatory text and contains mandatory requirements using 'must'.,compound,none,98,98.7,You,must,strong,calculate,the injected CO2 flow,False,False,quarterly,revise,"(8) You must determine the transferred CO<INF>2</INF> concentration 
+and flow quarterly.
+    (9) You must sample the injected CO<INF>2</INF> concentration and 
+calculate the flow quarterly.
+    (10) You must use the same calculation methodology throughout a 
+reporting period unless you provide a written explanation of why a 
+change in methodology was required.",,primary,openai,gpt-5,0,0
+54,EPA-HQ-OAR-2009-0926,proposed,4,True,The text appears within an amendatory block revising CFR regulatory text and contains mandatory requirements using 'must'.,compound,none,98,98.7,You,must,strong,use the same calculation methodology throughout a reporting period,None,False,True,unless you provide a written explanation of why a change in methodology was required,revise,"(8) You must determine the transferred CO<INF>2</INF> concentration 
+and flow quarterly.
+    (9) You must sample the injected CO<INF>2</INF> concentration and 
+calculate the flow quarterly.
+    (10) You must use the same calculation methodology throughout a 
+reporting period unless you provide a written explanation of why a 
+change in methodology was required.",,primary,openai,gpt-5,0,0
+55,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within amendatory regulatory text using mandatory modal language and is part of a revised section, making it binding.",simple,none,98,98.7,you,shall,strong,convert,all measured volumes of carbon dioxide to standard industry temperature and pressure conditions for use in equations RR-2 and RR-5,False,True,If you measure the flow of the CO2 transferred or injected with a volumetric flow meter,revise,"(11) If you measure the flow of the CO<INF>2</INF> transferred or 
+injected with a volumetric flow meter, you shall convert all measured 
+volumes of carbon dioxide to the following standard industry 
+temperature and pressure conditions for use in equations RR-2 and RR-5: 
+Standard cubic meters at a temperature of 60 degrees Fahrenheit and at 
+an absolute pressure of 1 atmosphere.",,primary,openai,gpt-5,1895,207
+56,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within amendatory regulatory text being revised, so it constitutes new binding CFR language.",compound,none,98,98.7(b),GS facilities,must,strong,submit,an MRV plan,False,False,,revise,"(b) GS facilities must additionally submit an MRV plan to EPA, 
+receive approval from EPA, and adhere to the requirements and 
+procedures in paragraph (b) of this section.",,primary,openai,gpt-5,1779,380
+56,EPA-HQ-OAR-2009-0926,proposed,1,True,"The sentence appears within amendatory regulatory text being revised, so it constitutes new binding CFR language.",compound,none,98,98.7(b),GS facilities,must,strong,receive approval,from EPA for the MRV plan,False,False,,revise,"(b) GS facilities must additionally submit an MRV plan to EPA, 
+receive approval from EPA, and adhere to the requirements and 
+procedures in paragraph (b) of this section.",,primary,openai,gpt-5,0,0
+56,EPA-HQ-OAR-2009-0926,proposed,2,True,"The sentence appears within amendatory regulatory text being revised, so it constitutes new binding CFR language.",compound,none,98,98.7(b),GS facilities,must,strong,adhere to,the requirements and procedures in paragraph (b) of this section,False,False,,revise,"(b) GS facilities must additionally submit an MRV plan to EPA, 
+receive approval from EPA, and adhere to the requirements and 
+procedures in paragraph (b) of this section.",§ 98.7(b),primary,openai,gpt-5,0,0
+57,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within amendatory regulatory text being revised, making it binding under the amendatory block rule.",simple,none,98,98.7,You,must,strong,adhere,paragraphs (a)(1) through (a)(11) of this section,False,False,,revise,"(1) You must adhere to paragraphs (a)(1) through (a)(11) of this 
+section.",,primary,openai,gpt-5,1740,179
+58,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within an amendatory block revising CFR text, making it binding.",compound,none,98,98.7,You,must,strong,sample,the produced CO2 concentration,False,False,,revise,"(5) You must sample the produced CO<INF>2</INF> concentration and 
+flow quarterly.",,primary,openai,gpt-5,1767,257
+58,EPA-HQ-OAR-2009-0926,proposed,1,True,"The sentence appears within an amendatory block revising CFR text, making it binding.",compound,none,98,98.7,You,must,strong,sample,flow,False,False,quarterly,revise,"(5) You must sample the produced CO<INF>2</INF> concentration and 
+flow quarterly.",,primary,openai,gpt-5,0,0
+59,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within amendatory regulatory text revising a CFR section, making it binding.",compound,none,98,98.7,A reporter,must,strong,follow,the procedures outlined in the most recent MRV plan submitted to and approved by EPA to determine the quantity of CO2 emitted from the subsurface geologic formation,False,False,,revise,"(6) A reporter must follow the procedures outlined in the most 
+recent MRV plan submitted to and approved by EPA to determine the 
+quantity of CO<INF>2</INF> emitted from the subsurface geologic 
+formation and the percent of CO<INF>2</INF> that is estimated to remain 
+with the produced oil and natural gas.",,primary,openai,gpt-5,1881,318
+59,EPA-HQ-OAR-2009-0926,proposed,1,True,"The sentence appears within amendatory regulatory text revising a CFR section, making it binding.",compound,none,98,98.7,A reporter,must,strong,follow,the procedures outlined in the most recent MRV plan submitted to and approved by EPA to determine the percent of CO2 that is estimated to remain with the produced oil and natural gas,False,False,,revise,"(6) A reporter must follow the procedures outlined in the most 
+recent MRV plan submitted to and approved by EPA to determine the 
+quantity of CO<INF>2</INF> emitted from the subsurface geologic 
+formation and the percent of CO<INF>2</INF> that is estimated to remain 
+with the produced oil and natural gas.",,primary,openai,gpt-5,0,0
+60,EPA-HQ-OAR-2009-0926,proposed,0,True,Text appears within an amendatory block revising regulatory text and prescribes an alternative compliance option for a defined set of facilities.,simple,none,98,98.7,a facility that is subject to this rule only because of a CO2 injection well that does not meet the definition of GS facility in § 98.440(c),may,permissive,follow,the provisions of § 98.3(d)(1) through (3) for best available monitoring methods rather than the monitoring requirements of this section,False,True,For 2011,revise,"For 2011, a facility that is subject to this rule only because 
+of a CO<INF>2</INF> injection well(s) that does not meet the definition 
+of GS facility in Sec.  98.440(c) may follow the provisions of Sec.  
+98.3(d)(1) through (3) for best available monitoring methods rather 
+than follow the monitoring requirements of this section.",§ 98.3(d)(1) through (3),primary,openai,gpt-5,1894,244
+61,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within amendatory regulatory text being revised and prescribes operative meaning for cross-references, making it binding.",simple,none,98,98.7,any reference to the year 2010 in § 98.3(d)(1) through (3),shall,strong,be interpreted to mean,2011,False,True,For purposes of this subpart,revise,"For purposes 
+of this subpart, any reference to the year 2010 in Sec.  98.3(d)(1) 
+through (3) shall mean 2011.",§ 98.3(d)(1) through (3),primary,openai,gpt-5,1791,208
+62,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within amendatory regulatory text being revised, making it new binding text.",simple,none,98,98.7,All flow meters,must,strong,be operated,continuously,True,False,,revise,(d) All flow meters must be operated continuously.,,primary,openai,gpt-5,1741,163
+63,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within amendatory regulatory text with mandatory modal language, making it binding.",simple,none,98,98.7,you,shall,strong,convert,all measured volumes of carbon dioxide to standard industry temperature and pressure conditions for use in equation RR-8,False,True,If you measure the flow of the CO2 produced with a volumetric flow meter,revise,"(e) If you measure the flow of the CO<INF>2</INF> produced with a 
+volumetric flow meter, you shall convert all measured volumes of carbon 
+dioxide to the following standard industry temperature and pressure 
+conditions for use in equation RR-8:",§ 98.440(c),primary,openai,gpt-5,1838,200
+64,EPA-HQ-OAR-2009-0926,proposed,0,True,The sentence appears within an amendatory block revising CFR text and prescribes required procedures using must.,simple,none,98,98.445,facilities covered under this subpart,must,strong,follow,the most appropriate of the specified missing data procedures,False,True,Whenever the quality assurance procedures cannot be followed to measure flow and concentration and EPA has not specified a preferred procedure,revise,"Whenever the quality assurance 
+procedures for all facilities covered under this subpart cannot be 
+followed to measure flow and concentration, the most appropriate of the 
+following missing data procedures must be followed if EPA has not 
+specified a preferred procedure:
+    (1) A quarterly quantity of CO<INF>2</INF> injected that is missing 
+must be estimated using the quantity of CO<INF>2</INF> injected from 
+the nearest previous period of time at a similar injection pressure.",,primary,openai,gpt-5,1925,331
+64,EPA-HQ-OAR-2009-0926,proposed,1,True,The sentence appears within an amendatory block revising CFR text and prescribes required procedures using must.,simple,none,98,98.445,facilities covered under this subpart,must,strong,estimate,a missing quarterly quantity of CO2 injected using the quantity of CO2 injected from the nearest previous period of time at a similar injection pressure,False,True,If a quarterly quantity of CO2 injected is missing,revise,"Whenever the quality assurance 
+procedures for all facilities covered under this subpart cannot be 
+followed to measure flow and concentration, the most appropriate of the 
+following missing data procedures must be followed if EPA has not 
+specified a preferred procedure:
+    (1) A quarterly quantity of CO<INF>2</INF> injected that is missing 
+must be estimated using the quantity of CO<INF>2</INF> injected from 
+the nearest previous period of time at a similar injection pressure.",,primary,openai,gpt-5,0,0
+65,EPA-HQ-OAR-2009-0926,proposed,0,True,The sentence appears within an amendatory block revising § 98.7 and contains mandatory language prescribing a missing data procedure.,simple,none,98,98.7,the facility,must,strong,estimate,a missing quarterly quantity of new CO2 transferred onto the facility from offsite using the quantity of new CO2 flow based on supplier data or supplier-operated flow meters,False,True,whenever the quality assurance procedures cannot be followed and a quarterly quantity of new CO2 transferred onto the facility from offsite is missing,revise,"[[Page 18605]]
+
+    (2) A quarterly quantity of new CO<INF>2</INF> transferred onto the 
+facility from offsite that is missing must be estimated using the 
+quantity of new CO<INF>2</INF> flow based on supplier data or supplier-
+operated flow meters.",,primary,openai,gpt-5,1807,225
+66,EPA-HQ-OAR-2009-0926,proposed,0,True,The sentence appears within an amendatory block revising regulatory text and contains a mandatory 'must' requirement.,simple,none,98,98.7,A quarterly concentration value that is missing,must,strong,be estimated using,a concentration value from the nearest previous time period,True,False,,revise,"(3) A quarterly concentration value that is missing must be 
+estimated using a concentration value from the nearest previous time 
+period.",,primary,openai,gpt-5,1746,179
+67,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within amendatory text being revised, making it new binding regulatory language.",simple,none,98,98.7,facilities conducting GS,must,strong,follow,the most appropriate of the following missing data procedures,False,True,Whenever the quality assurance procedures for facilities conducting GS cannot be followed,revise,"Whenever the quality assurance 
+procedures for facilities conducting GS cannot be followed, the most 
+appropriate of the following missing data procedures must be followed:
+    (1)",,primary,openai,gpt-5,1780,182
+68,EPA-HQ-OAR-2009-0926,proposed,0,True,"The text appears within an amendatory block (revise) and prescribes mandatory procedures, making it new binding regulatory text.",compound,none,98,98.7,the reporter,must,strong,estimate,the annual quantity of CO2 produced from the subsurface geologic formation that is missing,False,False,,revise,"(2) The annual quantity of CO<INF>2</INF> produced from the 
+subsurface geologic formation that is missing must be estimated 
+according to the following:
+    (i) If an applicable procedure was included in the reporter's MRV 
+plan submitted to EPA, that procedure must be applied.",,primary,openai,gpt-5,1829,306
+68,EPA-HQ-OAR-2009-0926,proposed,1,True,"The text appears within an amendatory block (revise) and prescribes mandatory procedures, making it new binding regulatory text.",compound,none,98,98.7,the reporter,must,strong,apply,the applicable procedure included in the reporter's MRV plan submitted to EPA,False,True,If an applicable procedure was included in the reporter's MRV plan submitted to EPA,revise,"(2) The annual quantity of CO<INF>2</INF> produced from the 
+subsurface geologic formation that is missing must be estimated 
+according to the following:
+    (i) If an applicable procedure was included in the reporter's MRV 
+plan submitted to EPA, that procedure must be applied.",,primary,openai,gpt-5,0,0
+69,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within amendatory regulatory text (a revised section with mandatory procedures), making it new binding text.",simple,none,98,98.7,the reporter,must,strong,estimate,the annual quantity of CO2 produced by subtracting the annual quantity of CO2 transferred onsite from offsite from the annual quantity of CO2 injected,False,True,"If the procedure included in the reporter's MRV plan is not applicable, or if the reporter did not include a procedure in the MRV plan",revise,"If the procedure included in the reporter's MRV plan is not 
+applicable, or if the reporter did not include a procedure in the MRV 
+plan, the reporter must estimate annual quantity of CO<INF>2</INF> 
+produced by subtracting the annual quantity of CO<INF>2</INF> 
+transferred onsite from offsite from the annual quantity of 
+CO<INF>2</INF> injected.",,primary,openai,gpt-5,1906,222
+70,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within amendatory regulatory text being revised and states a mandatory procedure, making it new binding text.",simple,none,98,98.7,The annual quantity of CO2 emitted from the subsurface geologic formation,must,strong,be estimated,following the procedure included in the reporter's MRV plan submitted to EPA,True,False,,revise,"(3) The annual quantity of CO<INF>2</INF> emitted from the 
+subsurface geologic formation must be estimated following the procedure 
+included in the reporter's MRV plan submitted to EPA.",,primary,openai,gpt-5,1817,191
+71,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within amendatory regulatory text being revised, making it new binding text.",simple,none,98,98.7,you,must,strong,follow,all other missing data procedures as outlined in your approved MRV plan,False,False,,revise,"(4) All other missing data procedures as outlined in your approved 
+MRV plan must be followed.",,primary,openai,gpt-5,1774,171
+72,EPA-HQ-OAR-2009-0926,proposed,0,True,The text appears within an amendatory block revising regulatory text and imposes a reporting duty on GS facilities.,compound,none,98,98.7(f),GS facilities,must,strong,report,the following information,False,False,,revise,"(f) GS facilities must also report the following information:
+    (1) If you do not report under subpart W of this part, report the 
+annual fugitive and vented CO<INF>2</INF> emissions from surface 
+equipment (metric tons) located in the GS facility under this subpart.",,primary,openai,gpt-5,1875,303
+72,EPA-HQ-OAR-2009-0926,proposed,1,True,The text appears within an amendatory block revising regulatory text and imposes a reporting duty on GS facilities.,compound,none,98,98.7(f)(1),you,must,strong,report,the annual fugitive and vented CO2 emissions from surface equipment (metric tons) located in the GS facility under this subpart,False,True,If you do not report under subpart W of this part,revise,"(f) GS facilities must also report the following information:
+    (1) If you do not report under subpart W of this part, report the 
+annual fugitive and vented CO<INF>2</INF> emissions from surface 
+equipment (metric tons) located in the GS facility under this subpart.",subpart W,primary,openai,gpt-5,0,0
+73,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within amendatory regulatory text being revised and states a conditional duty using “must,” making it new binding text.",simple,none,98,98.447,you,must,strong,submit,a new MRV plan,False,True,If any MRV plan resubmission scenario was triggered in the reporting year,revise,"Whether any of the MRV plan resubmissions scenarios were 
+triggered in the reporting year such that you must submit a new MRV 
+plan in the following year.",,primary,openai,gpt-5,1794,186
+74,EPA-HQ-OAR-2009-0926,proposed,0,True,The text appears within amendatory regulatory text revising CFR provisions and contains prescriptive ‘must’ requirements for record retention.,compound,none,98,98.447,you,must,strong,retain,the records specified in paragraphs (a) through (c) of this section,False,True,as applicable,revise,Sec.  98.447  Records that must be retained.,§ 98.3(g),primary,openai,gpt-5,1728,434
+74,EPA-HQ-OAR-2009-0926,proposed,1,True,The text appears within amendatory regulatory text revising CFR provisions and contains prescriptive ‘must’ requirements for record retention.,compound,none,98,98.447(a),you,must,strong,retain,"quarterly records of injected CO2 and CO2 transferred onto the facility from offsite sources, including mass flow or volumetric flow at standard conditions and operating conditions, operating temperature and pressure, and concentration of these streams",False,False,,revise,Sec.  98.447  Records that must be retained.,,primary,openai,gpt-5,0,0
+74,EPA-HQ-OAR-2009-0926,proposed,2,True,The text appears within amendatory regulatory text revising CFR provisions and contains prescriptive ‘must’ requirements for record retention.,compound,none,98,98.447(b)(1),GS facilities,must,strong,retain,"quarterly records of produced CO2, if applicable, including mass flow",False,True,if applicable,revise,Sec.  98.447  Records that must be retained.,,primary,openai,gpt-5,0,0
+75,EPA-HQ-OAR-2009-0926,proposed,0,True,The text appears within an amendatory block revising regulatory text and contains mandatory retention requirements using must.,compound,none,98,98.447,you,must,strong,retain,the records specified in paragraphs (a) through (c) of this section,False,True,as applicable,revise,"In addition to the records required by Sec.  98.3(g), you must 
+retain the records specified in paragraphs (a) through (c) of this 
+section, as applicable.
+    (a) You must retain quarterly records of injected CO<INF>2</INF> 
+and CO<INF>2</INF> transferred onto the facility from offsite sources,",§ 98.3(g),primary,openai,gpt-5,1848,317
+75,EPA-HQ-OAR-2009-0926,proposed,1,True,The text appears within an amendatory block revising regulatory text and contains mandatory retention requirements using must.,compound,none,98,98.447(a),you,must,strong,retain,"quarterly records of injected CO2 and CO2 transferred onto the facility from offsite sources, including mass or volumetric flow at standard and operating conditions, operating temperature and pressure, and concentration of these streams",False,False,,revise,"In addition to the records required by Sec.  98.3(g), you must 
+retain the records specified in paragraphs (a) through (c) of this 
+section, as applicable.
+    (a) You must retain quarterly records of injected CO<INF>2</INF> 
+and CO<INF>2</INF> transferred onto the facility from offsite sources,",,primary,openai,gpt-5,0,0
+76,EPA-HQ-OAR-2009-0926,proposed,0,True,The sentence appears within an amendatory regulatory text block revising § 98.447 and uses binding modal language.,simple,none,98,98.447,GS facilities,must,strong,retain,"quarterly records of produced CO2, if applicable, including mass or volumetric flow at standard and operating conditions, operating temperature and pressure, and concentration of these streams",False,True,if applicable,revise,"[[Page 18606]]
+
+including mass flow or volumetric flow at standard conditions and 
+operating conditions, operating temperature and pressure, and 
+concentration of these streams.
+    (b) GS facilities must retain:
+    (1) Quarterly records of produced CO<INF>2,</INF> if applicable, 
+including mass flow or volumetric flow at standard conditions and 
+operating conditions, operating temperature and pressure, and 
+concentration of these streams.",,primary,openai,gpt-5,1963,200
+77,EPA-HQ-OAR-2009-0926,proposed,0,True,The sentence appears within amendatory regulatory text being revised and contains mandatory requirements for GS facilities.,compound,none,98,98.448(a),A GS facility as defined in § 98.440(c) of this subpart,must,strong,follow the procedures outlined in this section,"to develop a monitoring, reporting, and verification (MRV) plan",False,False,,revise,"Sec.  98.448  Geologic Sequestration Monitoring, Reporting, and 
+Verification (MRV) Plan.
+
+    (a) A GS facility as defined in Sec.  98.440(c) of this subpart 
+must follow the procedures outlined in this section to develop a 
+monitoring, reporting, and verification (MRV) plan, submit it to EPA, 
+receive approval from EPA on the plan, implement the plan, and submit 
+annual report addenda.",§ 98.440(c),primary,openai,gpt-5,1920,658
+77,EPA-HQ-OAR-2009-0926,proposed,1,True,The sentence appears within amendatory regulatory text being revised and contains mandatory requirements for GS facilities.,compound,none,98,98.448(a),A GS facility as defined in § 98.440(c) of this subpart,must,strong,submit,the MRV plan to EPA,False,False,,revise,"Sec.  98.448  Geologic Sequestration Monitoring, Reporting, and 
+Verification (MRV) Plan.
+
+    (a) A GS facility as defined in Sec.  98.440(c) of this subpart 
+must follow the procedures outlined in this section to develop a 
+monitoring, reporting, and verification (MRV) plan, submit it to EPA, 
+receive approval from EPA on the plan, implement the plan, and submit 
+annual report addenda.",,primary,openai,gpt-5,0,0
+77,EPA-HQ-OAR-2009-0926,proposed,2,True,The sentence appears within amendatory regulatory text being revised and contains mandatory requirements for GS facilities.,compound,none,98,98.448(a),A GS facility as defined in § 98.440(c) of this subpart,must,strong,receive approval,approval from EPA on the MRV plan,False,False,,revise,"Sec.  98.448  Geologic Sequestration Monitoring, Reporting, and 
+Verification (MRV) Plan.
+
+    (a) A GS facility as defined in Sec.  98.440(c) of this subpart 
+must follow the procedures outlined in this section to develop a 
+monitoring, reporting, and verification (MRV) plan, submit it to EPA, 
+receive approval from EPA on the plan, implement the plan, and submit 
+annual report addenda.",,primary,openai,gpt-5,0,0
+77,EPA-HQ-OAR-2009-0926,proposed,3,True,The sentence appears within amendatory regulatory text being revised and contains mandatory requirements for GS facilities.,compound,none,98,98.448(a),A GS facility as defined in § 98.440(c) of this subpart,must,strong,implement,the approved MRV plan,False,False,,revise,"Sec.  98.448  Geologic Sequestration Monitoring, Reporting, and 
+Verification (MRV) Plan.
+
+    (a) A GS facility as defined in Sec.  98.440(c) of this subpart 
+must follow the procedures outlined in this section to develop a 
+monitoring, reporting, and verification (MRV) plan, submit it to EPA, 
+receive approval from EPA on the plan, implement the plan, and submit 
+annual report addenda.",,primary,openai,gpt-5,0,0
+77,EPA-HQ-OAR-2009-0926,proposed,4,True,The sentence appears within amendatory regulatory text being revised and contains mandatory requirements for GS facilities.,compound,none,98,98.448(a),A GS facility as defined in § 98.440(c) of this subpart,must,strong,submit,annual report addenda,False,False,,revise,"Sec.  98.448  Geologic Sequestration Monitoring, Reporting, and 
+Verification (MRV) Plan.
+
+    (a) A GS facility as defined in Sec.  98.440(c) of this subpart 
+must follow the procedures outlined in this section to develop a 
+monitoring, reporting, and verification (MRV) plan, submit it to EPA, 
+receive approval from EPA on the plan, implement the plan, and submit 
+annual report addenda.",,primary,openai,gpt-5,0,0
+78,EPA-HQ-OAR-2009-0926,proposed,0,True,The sentence appears within an amendatory block revising regulatory text and prescribes a requirement using must.,simple,none,98,98.448(a)(1),You,must,strong,develop,an MRV plan that contains the specified components,False,False,,revise,"(1) You must develop an MRV plan that contains the following 
+components.",§ 98.440(c),primary,openai,gpt-5,1761,179
+79,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within an amendatory block revising CFR text and imposes a duty using “must,” making it binding.",simple,none,98,98.7,A GS facility that does not inject CO2 to enhance the recovery of oil or natural gas,must,strong,submit,the MRV plan on the following schedule,False,False,,revise,"(3) A GS facility that does not inject CO<INF>2</INF> to enhance 
+the recovery of oil or natural gas must submit the MRV plan on the 
+following schedule.",,primary,openai,gpt-5,1782,191
+80,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within amendatory regulatory text being revised, making it new binding CFR language.",simple,none,98,98.7,A GS facility,must,strong,submit,the MRV plan to EPA,False,True,"within six months from the time the facility's Underground Injection Control permitting authority (or relevant permitting authority for a facility not under the Safe Drinking Water Act) confirms the area of review, or by December 31 of the year that the permitting authority confirms the area of review, whichever date is later",revise,"(i) A GS facility must submit the MRV plan to EPA (A) within six 
+months from the time the facility's Underground Injection Control 
+permitting authority (or relevant permitting authority in the case of a 
+facility that is not under the jurisdiction of the Safe Drinking Water 
+Act) confirms the area of review or (B) by December 31 of the year that 
+that the Underground Injection Control permitting authority (or 
+relevant permitting authority in the case of a facility that is not 
+under the jurisdiction of the Safe Drinking Water Act) confirms the 
+area of review, whichever date is later.",,primary,openai,gpt-5,1942,225
+81,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within an amendatory block revising CFR text, making it binding regulatory language.",simple,none,98,98.7,the GS facility,must,strong,submit,the MRV plan to EPA within six months of the date of publication of this subpart,False,True,"If the facility holds an Underground Injection Control permit (or relevant permit for facilities not under the Safe Drinking Water Act) as of the date of publication of this subpart, or if the Underground Injection Control permitting authority (or relevant permitting authority) has confirmed the area of review as of that date",revise,"If the GS facility holds an Underground Injection Control 
+permit (or relevant permit in the case of a facility that is not under 
+the jurisdiction of the Safe Drinking Water Act) as of the date of 
+publication of this subpart or if the Underground Injection Control 
+permitting authority (or relevant permitting authority in the case of a 
+facility that is not under the jurisdiction of the Safe Drinking Water 
+Act) has confirmed the area of review as of the date of publication of 
+this subpart, such facility must submit the MRV plan to EPA within six 
+months of the date of publication of this subpart.",,primary,openai,gpt-5,2008,238
+82,EPA-HQ-OAR-2009-0926,proposed,0,True,Text appears within an amendatory block revising § 98.7 and contains mandatory requirements.,compound,none,98,98.7,you,must,strong,submit,the identification number associated with the Underground Injection Control Class VI permit application,False,True,If you are using an Underground Injection Control Class VI permit to demonstrate that MRV plan requirements have been satisfied and the Underground Injection Control Class VI permit has not been approved,revise,"(4) If you are using an Underground Injection Control Class VI 
+permit to demonstrate that MRV plan requirements have been satisfied 
+and the Underground Injection Control Class VI permit has not been 
+approved, you must submit the identification number associated with the 
+Underground Injection Control Class VI permit application and notify 
+EPA when the Underground Injection Control Class VI permit has been 
+approved.",,primary,openai,gpt-5,1839,342
+82,EPA-HQ-OAR-2009-0926,proposed,1,True,Text appears within an amendatory block revising § 98.7 and contains mandatory requirements.,compound,none,98,98.7,you,must,strong,notify,EPA when the Underground Injection Control Class VI permit has been approved,False,True,If you are using an Underground Injection Control Class VI permit to demonstrate that MRV plan requirements have been satisfied and the Underground Injection Control Class VI permit has not been approved,revise,"(4) If you are using an Underground Injection Control Class VI 
+permit to demonstrate that MRV plan requirements have been satisfied 
+and the Underground Injection Control Class VI permit has not been 
+approved, you must submit the identification number associated with the 
+Underground Injection Control Class VI permit application and notify 
+EPA when the Underground Injection Control Class VI permit has been 
+approved.",,primary,openai,gpt-5,0,0
+83,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within an amendatory block revising CFR text, making it new binding regulatory language.",simple,none,98,98.7,You,must,strong,implement,the EPA-approved MRV plan,False,False,,revise,"(ii) You must implement the EPA-approved MRV plan once the plan is 
+final, regardless of the point in the reporting year.",,primary,openai,gpt-5,1740,167
+84,EPA-HQ-OAR-2009-0926,proposed,0,True,The sentence appears within amendatory text revising CFR provisions and imposes a clear duty using “must.”,simple,none,98,98.7,you,must,strong,submit,an addendum that includes specified components,False,True,"If adjustments to the MRV plan are made due to new information or altered site conditions, or if a leak is detected in a calendar year",revise,"(6) If adjustments to the MRV plan are made due to new information 
+or altered site conditions or if a leak is detected in a calendar year, 
+you must submit an addendum at the same time as the next annual report 
+(March 31 of the subsequent calendar year) that includes the following 
+components.",,primary,openai,gpt-5,1817,198
+85,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within amendatory regulatory text revising § 98.7/§ 98.449, making it new binding text.",simple,none,98,98.7,The reporter,must,strong,revise and resubmit,the MRV plan to EPA by March 31 of the calendar year following specified events,False,True,"following any of the specified events (e.g., noncompliance with permit or an EPA audit determines it necessary)",revise,"The MRV plan must be revised and resubmitted to EPA by March 31 
+of the calendar year following any of the following events.",,primary,openai,gpt-5,1751,213
+86,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentences appear within amendatory regulatory text being revised/added, making them new binding text.",compound,none,98,98.449(b),A reporter,may,permissive,resubmit,an MRV plan,False,False,,revise,"(8) An MRV plan may be resubmitted in any reporting year on a 
+reporter's own volition.
+    (9) Each MRV plan and annual report addendum must be submitted 
+electronically in a format specified by the Administrator.
+    (b)",,primary,openai,gpt-5,1798,279
+86,EPA-HQ-OAR-2009-0926,proposed,1,True,"The sentences appear within amendatory regulatory text being revised/added, making them new binding text.",compound,none,98,98.449(b),Each reporter,must,strong,submit electronically in a format specified by the Administrator,each MRV plan and annual report addendum,False,False,,revise,"(8) An MRV plan may be resubmitted in any reporting year on a 
+reporter's own volition.
+    (9) Each MRV plan and annual report addendum must be submitted 
+electronically in a format specified by the Administrator.
+    (b)",,primary,openai,gpt-5,0,0
+100100,EPA-HQ-OAR-2009-0926,proposed,0,True,"Text appears within an amendatory block revising § 98.2(a) introductory text, making it binding.",compound,none,98,98.2(a),"owners and operators of any facility located in the United States or under or attached to the Outer Continental Shelf that meets paragraph (a)(1), (a)(2), or (a)(3)",must,strong,comply with,"the GHG reporting requirements and related monitoring, recordkeeping, and reporting requirements of this part",False,True,"facility meets the requirements of paragraph (a)(1), (a)(2), or (a)(3) of this section",revise,"The GHG reporting requirements and related monitoring, recordkeeping, and reporting requirements of this part apply to the owners and operators of any facility that is located in the United States or under or attached to the Outer Continental Shelf (as defined in 43 U.S.C. 1331) and that meets the requirements of either paragraph (a)(1), (a)(2), or (a)(3) of this section; and any supplier that meets the requirements of paragraph (a)(4) of this section:",,safety_net_verified,openai,gpt-5,1756,381
+100100,EPA-HQ-OAR-2009-0926,proposed,1,True,"Text appears within an amendatory block revising § 98.2(a) introductory text, making it binding.",compound,none,98,98.2(a),any supplier that meets paragraph (a)(4),must,strong,comply with,"the GHG reporting requirements and related monitoring, recordkeeping, and reporting requirements of this part",False,True,supplier meets the requirements of paragraph (a)(4) of this section,revise,"The GHG reporting requirements and related monitoring, recordkeeping, and reporting requirements of this part apply to the owners and operators of any facility that is located in the United States or under or attached to the Outer Continental Shelf (as defined in 43 U.S.C. 1331) and that meets the requirements of either paragraph (a)(1), (a)(2), or (a)(3) of this section; and any supplier that meets the requirements of paragraph (a)(4) of this section:",,safety_net_verified,openai,gpt-5,0,0
+100400,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within an amendatory block adding a new subpart to the CFR, making it new binding text.",simple,none,98,98.440,You,must,strong,report,under this subpart,False,True,if your facility is an injection facility that injects CO2 into the subsurface and the facility meets requirements of either § 98.2(a)(1) or (a)(2),add,You must report under this subpart if your facility is an injection facility that injects CO2 into the subsurface and the facility meets requirements of either Sec.  98.2(a)(1) or (a)(2).,§ 98.2,safety_net_verified,openai,gpt-5,1707,209
+100402,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within an amendatory block adding subpart RR to read as follows, making it new binding text.",compound,none,98,98.440,The owner or operator of the facility,must,strong,notify,"EPA that the injection well or wells constituting the facility have been plugged in compliance with the facility's Underground Injection Control permit requirements (or relevant permit requirements, if any, in the case of a facility that is not under the jurisdiction of the Safe Drinking Water Act)",False,False,,add,"The owner or operator of the facility must notify EPA that the injection well or wells constituting the facility have been plugged in compliance with the facility's Underground Injection Control permit requirements (or relevant permit requirements, if any, in the case of a facility that is not under the jurisdiction of the Safe Drinking Water Act), and such notification must be certified as accurate by the owner or operator of the facility.",,safety_net_verified,openai,gpt-5,1790,324
+100402,EPA-HQ-OAR-2009-0926,proposed,1,True,"The sentence appears within an amendatory block adding subpart RR to read as follows, making it new binding text.",compound,none,98,98.440,The owner or operator of the facility,must,strong,certify as accurate,the notification to EPA,False,False,,add,"The owner or operator of the facility must notify EPA that the injection well or wells constituting the facility have been plugged in compliance with the facility's Underground Injection Control permit requirements (or relevant permit requirements, if any, in the case of a facility that is not under the jurisdiction of the Safe Drinking Water Act), and such notification must be certified as accurate by the owner or operator of the facility.",,safety_net_verified,openai,gpt-5,0,0
+100404,EPA-HQ-OAR-2009-0926,proposed,0,True,"The text appears within an amendatory block adding subpart RR to read as follows, so the language constitutes new binding regulatory text.",compound,none,98,98.446,You,must,strong,report,Mass of CO2 received onsite,False,False,,add,"You must report:
+    (a) Mass of CO2 received onsite.
+    (b) Mass of CO2 injected into the subsurface.
+    (c) Facilities conducting geologic sequestration also report:
+    (1) Mass of CO2 produced, if any.
+    (2) Mass of CO2 sequestered in the subsurface geologic formation.
+    (3) Mass of CO2 emitted from subsurface leaks.
+    (4) Mass of fugitive and vented CO2 emissions from surface equipment at the facility if not reported under subpart W of this part.",,safety_net_verified,openai,gpt-5,1834,756
+100404,EPA-HQ-OAR-2009-0926,proposed,1,True,"The text appears within an amendatory block adding subpart RR to read as follows, so the language constitutes new binding regulatory text.",compound,none,98,98.446,You,must,strong,report,Mass of CO2 injected into the subsurface,False,False,,add,"You must report:
+    (a) Mass of CO2 received onsite.
+    (b) Mass of CO2 injected into the subsurface.
+    (c) Facilities conducting geologic sequestration also report:
+    (1) Mass of CO2 produced, if any.
+    (2) Mass of CO2 sequestered in the subsurface geologic formation.
+    (3) Mass of CO2 emitted from subsurface leaks.
+    (4) Mass of fugitive and vented CO2 emissions from surface equipment at the facility if not reported under subpart W of this part.",,safety_net_verified,openai,gpt-5,0,0
+100404,EPA-HQ-OAR-2009-0926,proposed,2,True,"The text appears within an amendatory block adding subpart RR to read as follows, so the language constitutes new binding regulatory text.",compound,none,98,98.446,Facilities conducting geologic sequestration,must,strong,report,"Mass of CO2 produced, if any",False,True,If the facility conducts geologic sequestration,add,"You must report:
+    (a) Mass of CO2 received onsite.
+    (b) Mass of CO2 injected into the subsurface.
+    (c) Facilities conducting geologic sequestration also report:
+    (1) Mass of CO2 produced, if any.
+    (2) Mass of CO2 sequestered in the subsurface geologic formation.
+    (3) Mass of CO2 emitted from subsurface leaks.
+    (4) Mass of fugitive and vented CO2 emissions from surface equipment at the facility if not reported under subpart W of this part.",,safety_net_verified,openai,gpt-5,0,0
+100404,EPA-HQ-OAR-2009-0926,proposed,3,True,"The text appears within an amendatory block adding subpart RR to read as follows, so the language constitutes new binding regulatory text.",compound,none,98,98.446,Facilities conducting geologic sequestration,must,strong,report,Mass of CO2 sequestered in the subsurface geologic formation,False,True,If the facility conducts geologic sequestration,add,"You must report:
+    (a) Mass of CO2 received onsite.
+    (b) Mass of CO2 injected into the subsurface.
+    (c) Facilities conducting geologic sequestration also report:
+    (1) Mass of CO2 produced, if any.
+    (2) Mass of CO2 sequestered in the subsurface geologic formation.
+    (3) Mass of CO2 emitted from subsurface leaks.
+    (4) Mass of fugitive and vented CO2 emissions from surface equipment at the facility if not reported under subpart W of this part.",,safety_net_verified,openai,gpt-5,0,0
+100404,EPA-HQ-OAR-2009-0926,proposed,4,True,"The text appears within an amendatory block adding subpart RR to read as follows, so the language constitutes new binding regulatory text.",compound,none,98,98.446,Facilities conducting geologic sequestration,must,strong,report,Mass of CO2 emitted from subsurface leaks,False,True,If the facility conducts geologic sequestration,add,"You must report:
+    (a) Mass of CO2 received onsite.
+    (b) Mass of CO2 injected into the subsurface.
+    (c) Facilities conducting geologic sequestration also report:
+    (1) Mass of CO2 produced, if any.
+    (2) Mass of CO2 sequestered in the subsurface geologic formation.
+    (3) Mass of CO2 emitted from subsurface leaks.
+    (4) Mass of fugitive and vented CO2 emissions from surface equipment at the facility if not reported under subpart W of this part.",,safety_net_verified,openai,gpt-5,0,0
+100404,EPA-HQ-OAR-2009-0926,proposed,5,True,"The text appears within an amendatory block adding subpart RR to read as follows, so the language constitutes new binding regulatory text.",compound,none,98,98.446,Facilities conducting geologic sequestration,must,strong,report,Mass of fugitive and vented CO2 emissions from surface equipment at the facility if not reported under subpart W of this part,False,True,If the facility conducts geologic sequestration and the emissions are not reported under subpart W of this part,add,"You must report:
+    (a) Mass of CO2 received onsite.
+    (b) Mass of CO2 injected into the subsurface.
+    (c) Facilities conducting geologic sequestration also report:
+    (1) Mass of CO2 produced, if any.
+    (2) Mass of CO2 sequestered in the subsurface geologic formation.
+    (3) Mass of CO2 emitted from subsurface leaks.
+    (4) Mass of fugitive and vented CO2 emissions from surface equipment at the facility if not reported under subpart W of this part.",subpart W,safety_net_verified,openai,gpt-5,0,0
+100405,EPA-HQ-OAR-2009-0926,proposed,0,True,"The sentence appears within an amendatory block adding a new subpart to the CFR, making it new binding regulatory text.",compound,none,98,98.7,A facility,must,strong,calculate,"the annual mass of CO2 transferred to the facility from offsite sources using the procedures in paragraphs (a)(1), (a)(2), and (a)(3) of this section",False,False,,add,"A facility must calculate and report the annual mass of CO2 transferred to the facility from offsite sources using the procedures in paragraphs (a)(1), (a)(2), and (a)(3) of this section.",§ 98.443(a)(1)-(3),safety_net_verified,openai,gpt-5,1696,352
+100405,EPA-HQ-OAR-2009-0926,proposed,1,True,"The sentence appears within an amendatory block adding a new subpart to the CFR, making it new binding regulatory text.",compound,none,98,98.7,A facility,must,strong,report,"the annual mass of CO2 transferred to the facility from offsite sources using the procedures in paragraphs (a)(1), (a)(2), and (a)(3) of this section",False,False,,add,"A facility must calculate and report the annual mass of CO2 transferred to the facility from offsite sources using the procedures in paragraphs (a)(1), (a)(2), and (a)(3) of this section.",§ 98.443(a)(1)-(3),safety_net_verified,openai,gpt-5,0,0

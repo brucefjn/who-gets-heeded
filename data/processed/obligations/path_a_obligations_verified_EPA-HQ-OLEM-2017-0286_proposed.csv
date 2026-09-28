@@ -1,0 +1,906 @@
+candidate_idx,docket_id,rule_type,split_idx,verified,verified_reason,complexity,recital_disposition,cfr_part,cfr_section,subject,modal,modal_strength,action,object,passive_voice,is_conditional,condition_text,amendatory_action,obligation_text,cross_reference,found_via,llm_provider,llm_model,in_tokens,out_tokens
+47,EPA-HQ-OLEM-2017-0286,proposed,0,True,The sentence appears within an amendatory block revising § 257.73; therefore it is new binding text.,compound,none,257,257.73(a)(4),The slopes and pertinent surrounding areas of the CCR unit,must,strong,"be designed, constructed, operated, and maintained",with one of the forms of slope protection specified in paragraph (a)(4)(i) of this section,True,False,,revise,"(a) * * *
+    (4) The slopes and pertinent surrounding areas of the CCR unit must 
+be designed, constructed, operated, and maintained with one of the 
+forms of slope protection specified in paragraph (a)(4)(i) of this 
+section that meets all of the performance standards of paragraph 
+(a)(4)(ii) of this section.",§ 257.73(a)(4)(i),primary,openai,gpt-5,1859,345
+47,EPA-HQ-OLEM-2017-0286,proposed,1,True,The sentence appears within an amendatory block revising § 257.73; therefore it is new binding text.,compound,none,257,257.73(a)(4),The slopes and pertinent surrounding areas of the CCR unit,must,strong,meet,all of the performance standards of paragraph (a)(4)(ii) of this section,False,False,,revise,"(a) * * *
+    (4) The slopes and pertinent surrounding areas of the CCR unit must 
+be designed, constructed, operated, and maintained with one of the 
+forms of slope protection specified in paragraph (a)(4)(i) of this 
+section that meets all of the performance standards of paragraph 
+(a)(4)(ii) of this section.",§ 257.73(a)(4)(ii),primary,openai,gpt-5,0,0
+48,EPA-HQ-OLEM-2017-0286,proposed,0,True,The sentence appears within an amendatory block revising § 257.73; therefore it is new binding regulatory text.,simple,none,257,257.73(a)(4)(i),Slope protection,must,strong,consist of,one of the following: (A) a vegetative cover consisting of grassy vegetation; (B) an engineered cover consisting of a single form or combination of forms of engineered slope protection measures; or (C) a combination of the forms of cover specified in paragraphs (a)(4)(i)(A) or (a)(4)(i)(B) of this section,False,False,,revise,"(i) Slope protection must consist of one of the following:
+    (A) A vegetative cover consisting of grassy vegetation;
+    (B) An engineered cover consisting of a single form or combination 
+of forms of engineered slope protection measures; or
+    (C) A combination of the forms of cover specified in paragraphs 
+(a)(4)(i)(A) or (a)(4)(i)(B) of this section.",§ 257.73(a)(4)(i)(A)-(B),primary,openai,gpt-5,1892,261
+49,EPA-HQ-OLEM-2017-0286,proposed,0,True,Text appears within an amendatory revision block and states mandatory performance standards.,compound,none,257,257.73(a)(4)(ii),Any form of cover for slope protection,must,strong,meet,all of the following performance standards,False,False,,revise,"(ii) Any form of cover for slope protection must meet all of the 
+following performance standards:
+    (A) The cover must be installed and maintained on the slopes and 
+pertinent surrounding areas of the CCR unit;
+    (B) The cover must provide protection against surface erosion, wave 
+action, and adverse effects of rapid drawdown;
+    (C) The cover must be maintained to allow for the observation of 
+and access to the slopes and pertinent surrounding areas during routine 
+and emergency events;
+    (D) Woody vegetation must be removed from the slopes or pertinent 
+surrounding areas.",,primary,openai,gpt-5,1966,627
+49,EPA-HQ-OLEM-2017-0286,proposed,1,True,Text appears within an amendatory revision block and states mandatory performance standards.,compound,none,257,257.73(a)(4)(ii)(A),The cover,must,strong,be installed and maintained,on the slopes and pertinent surrounding areas of the CCR unit,True,False,,revise,"(ii) Any form of cover for slope protection must meet all of the 
+following performance standards:
+    (A) The cover must be installed and maintained on the slopes and 
+pertinent surrounding areas of the CCR unit;
+    (B) The cover must provide protection against surface erosion, wave 
+action, and adverse effects of rapid drawdown;
+    (C) The cover must be maintained to allow for the observation of 
+and access to the slopes and pertinent surrounding areas during routine 
+and emergency events;
+    (D) Woody vegetation must be removed from the slopes or pertinent 
+surrounding areas.",,primary,openai,gpt-5,0,0
+49,EPA-HQ-OLEM-2017-0286,proposed,2,True,Text appears within an amendatory revision block and states mandatory performance standards.,compound,none,257,257.73(a)(4)(ii)(B),The cover,must,strong,provide protection,"against surface erosion, wave action, and adverse effects of rapid drawdown",False,False,,revise,"(ii) Any form of cover for slope protection must meet all of the 
+following performance standards:
+    (A) The cover must be installed and maintained on the slopes and 
+pertinent surrounding areas of the CCR unit;
+    (B) The cover must provide protection against surface erosion, wave 
+action, and adverse effects of rapid drawdown;
+    (C) The cover must be maintained to allow for the observation of 
+and access to the slopes and pertinent surrounding areas during routine 
+and emergency events;
+    (D) Woody vegetation must be removed from the slopes or pertinent 
+surrounding areas.",,primary,openai,gpt-5,0,0
+49,EPA-HQ-OLEM-2017-0286,proposed,3,True,Text appears within an amendatory revision block and states mandatory performance standards.,compound,none,257,257.73(a)(4)(ii)(C),The cover,must,strong,be maintained,to allow for the observation of and access to the slopes and pertinent surrounding areas during routine and emergency events,True,False,,revise,"(ii) Any form of cover for slope protection must meet all of the 
+following performance standards:
+    (A) The cover must be installed and maintained on the slopes and 
+pertinent surrounding areas of the CCR unit;
+    (B) The cover must provide protection against surface erosion, wave 
+action, and adverse effects of rapid drawdown;
+    (C) The cover must be maintained to allow for the observation of 
+and access to the slopes and pertinent surrounding areas during routine 
+and emergency events;
+    (D) Woody vegetation must be removed from the slopes or pertinent 
+surrounding areas.",,primary,openai,gpt-5,0,0
+49,EPA-HQ-OLEM-2017-0286,proposed,4,True,Text appears within an amendatory revision block and states mandatory performance standards.,compound,none,257,257.73(a)(4)(ii)(D),Woody vegetation,must,strong,be removed,from the slopes or pertinent surrounding areas,True,False,,revise,"(ii) Any form of cover for slope protection must meet all of the 
+following performance standards:
+    (A) The cover must be installed and maintained on the slopes and 
+pertinent surrounding areas of the CCR unit;
+    (B) The cover must provide protection against surface erosion, wave 
+action, and adverse effects of rapid drawdown;
+    (C) The cover must be maintained to allow for the observation of 
+and access to the slopes and pertinent surrounding areas during routine 
+and emergency events;
+    (D) Woody vegetation must be removed from the slopes or pertinent 
+surrounding areas.",,primary,openai,gpt-5,0,0
+50,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The text is within an amendatory block revising § 257.74, so the language constitutes new binding regulatory text.",compound,none,257,257.74(a)(4)(ii)(D),Any removal of woody vegetation with a diameter greater than 1/2 inch,must,strong,be directed,by a person familiar with the design and operation of the unit and considering the complexities of removing a tree or shrubbery,True,False,,revise,"Any removal of woody vegetation with a diameter 
+greater than \1/2\ inch must be directed by a person familiar with the 
+design and operation of the unit and in consideration of the 
+complexities of removal of a tree or a shrubbery, who must ensure the 
+removal does not create a risk of destabilizing the unit or otherwise 
+adversely affect the stability and safety of the CCR unit or personnel 
+undertaking the removal; and
+    (E) The vegetative height of grassy and woody vegetation must not 
+exceed 12 inches.",,primary,openai,gpt-5,1945,452
+50,EPA-HQ-OLEM-2017-0286,proposed,1,True,"The text is within an amendatory block revising § 257.74, so the language constitutes new binding regulatory text.",compound,none,257,257.74(a)(4)(ii)(D),The person directing the removal,must,strong,ensure,the removal does not create a risk of destabilizing the unit or otherwise adversely affect the stability and safety of the CCR unit or personnel undertaking the removal,False,False,,revise,"Any removal of woody vegetation with a diameter 
+greater than \1/2\ inch must be directed by a person familiar with the 
+design and operation of the unit and in consideration of the 
+complexities of removal of a tree or a shrubbery, who must ensure the 
+removal does not create a risk of destabilizing the unit or otherwise 
+adversely affect the stability and safety of the CCR unit or personnel 
+undertaking the removal; and
+    (E) The vegetative height of grassy and woody vegetation must not 
+exceed 12 inches.",,primary,openai,gpt-5,0,0
+50,EPA-HQ-OLEM-2017-0286,proposed,2,True,"The text is within an amendatory block revising § 257.74, so the language constitutes new binding regulatory text.",compound,none,257,257.74(a)(4)(ii)(E),The vegetative height of grassy and woody vegetation,must not,strong,exceed,12 inches,False,False,,revise,"Any removal of woody vegetation with a diameter 
+greater than \1/2\ inch must be directed by a person familiar with the 
+design and operation of the unit and in consideration of the 
+complexities of removal of a tree or a shrubbery, who must ensure the 
+removal does not create a risk of destabilizing the unit or otherwise 
+adversely affect the stability and safety of the CCR unit or personnel 
+undertaking the removal; and
+    (E) The vegetative height of grassy and woody vegetation must not 
+exceed 12 inches.",,primary,openai,gpt-5,0,0
+51,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence is within an amendatory block revising § 257.74(a)(4), so it is new binding regulatory text.",compound,none,257,257.74(a)(4),The slopes and pertinent surrounding areas of the CCR unit,must,strong,"be designed, constructed, operated, and maintained with one of the forms of slope protection specified",in paragraph (a)(4)(i) of this section that meets all of the performance standards of paragraph (a)(4)(ii) of this section,True,False,,revise,"(a) * * *
+    (4) The slopes and pertinent surrounding areas of the CCR unit must 
+be designed, constructed, operated, and maintained with one of the 
+forms of slope protection specified in paragraph (a)(4)(i) of this 
+section that meets all of the performance standards of paragraph 
+(a)(4)(ii) of this section.",§ 257.74(a)(4)(i)-(ii),primary,openai,gpt-5,1883,240
+52,EPA-HQ-OLEM-2017-0286,proposed,0,True,The sentence appears within an amendatory block revising § 257.74; thus it is new binding regulatory text.,simple,none,257,257.74(a)(4)(i),Slope protection,must,strong,consist,one of the following: (A) a vegetative cover consisting of grassy vegetation; (B) an engineered cover consisting of a single form or combination of engineered slope protection measures; or (C) a combination of the forms of cover specified in paragraphs (a)(4)(i)(A) or (a)(4)(i)(B) of this section,False,False,,revise,"(i) Slope protection must consist of one of the following:
+    (A) A vegetative cover consisting of grassy vegetation;
+    (B) An engineered cover consisting of a single form or combination 
+of forms of engineered slope protection measures; or
+    (C) A combination of the forms of cover specified in paragraphs 
+(a)(4)(i)(A) or (a)(4)(i)(B) of this section.",,primary,openai,gpt-5,1887,244
+53,EPA-HQ-OLEM-2017-0286,proposed,0,True,Text appears within an amendatory block revising § 257.74 and contains mandatory performance standards.,compound,none,257,257.74(a)(4)(ii),Any form of cover for slope protection,must,strong,meet,all of the following performance standards,False,False,,revise,"(ii) Any form of cover for slope protection must meet all of the 
+following performance standards:
+    (A) The cover must be installed and maintained on the slopes and 
+pertinent surrounding areas of the CCR unit;
+    (B) The cover must provide protection against surface erosion, wave 
+action, and adverse effects of rapid drawdown;
+    (C) The cover must be maintained to allow for the observation of 
+and access to the slopes and pertinent surrounding areas during routine 
+and emergency events;
+    (D) Woody vegetation must be removed from the slopes or pertinent 
+surrounding areas.",,primary,openai,gpt-5,1969,633
+53,EPA-HQ-OLEM-2017-0286,proposed,1,True,Text appears within an amendatory block revising § 257.74 and contains mandatory performance standards.,compound,none,257,257.74(a)(4)(ii)(A),The cover,must,strong,be installed and maintained,on the slopes and pertinent surrounding areas of the CCR unit,True,False,,revise,"(ii) Any form of cover for slope protection must meet all of the 
+following performance standards:
+    (A) The cover must be installed and maintained on the slopes and 
+pertinent surrounding areas of the CCR unit;
+    (B) The cover must provide protection against surface erosion, wave 
+action, and adverse effects of rapid drawdown;
+    (C) The cover must be maintained to allow for the observation of 
+and access to the slopes and pertinent surrounding areas during routine 
+and emergency events;
+    (D) Woody vegetation must be removed from the slopes or pertinent 
+surrounding areas.",,primary,openai,gpt-5,0,0
+53,EPA-HQ-OLEM-2017-0286,proposed,2,True,Text appears within an amendatory block revising § 257.74 and contains mandatory performance standards.,compound,none,257,257.74(a)(4)(ii)(B),The cover,must,strong,provide protection,"against surface erosion, wave action, and adverse effects of rapid drawdown",False,False,,revise,"(ii) Any form of cover for slope protection must meet all of the 
+following performance standards:
+    (A) The cover must be installed and maintained on the slopes and 
+pertinent surrounding areas of the CCR unit;
+    (B) The cover must provide protection against surface erosion, wave 
+action, and adverse effects of rapid drawdown;
+    (C) The cover must be maintained to allow for the observation of 
+and access to the slopes and pertinent surrounding areas during routine 
+and emergency events;
+    (D) Woody vegetation must be removed from the slopes or pertinent 
+surrounding areas.",,primary,openai,gpt-5,0,0
+53,EPA-HQ-OLEM-2017-0286,proposed,3,True,Text appears within an amendatory block revising § 257.74 and contains mandatory performance standards.,compound,none,257,257.74(a)(4)(ii)(C),The cover,must,strong,be maintained,to allow for the observation of and access to the slopes and pertinent surrounding areas during routine and emergency events,True,False,,revise,"(ii) Any form of cover for slope protection must meet all of the 
+following performance standards:
+    (A) The cover must be installed and maintained on the slopes and 
+pertinent surrounding areas of the CCR unit;
+    (B) The cover must provide protection against surface erosion, wave 
+action, and adverse effects of rapid drawdown;
+    (C) The cover must be maintained to allow for the observation of 
+and access to the slopes and pertinent surrounding areas during routine 
+and emergency events;
+    (D) Woody vegetation must be removed from the slopes or pertinent 
+surrounding areas.",,primary,openai,gpt-5,0,0
+53,EPA-HQ-OLEM-2017-0286,proposed,4,True,Text appears within an amendatory block revising § 257.74 and contains mandatory performance standards.,compound,none,257,257.74(a)(4)(ii)(D),Woody vegetation,must,strong,be removed,from the slopes or pertinent surrounding areas,True,False,,revise,"(ii) Any form of cover for slope protection must meet all of the 
+following performance standards:
+    (A) The cover must be installed and maintained on the slopes and 
+pertinent surrounding areas of the CCR unit;
+    (B) The cover must provide protection against surface erosion, wave 
+action, and adverse effects of rapid drawdown;
+    (C) The cover must be maintained to allow for the observation of 
+and access to the slopes and pertinent surrounding areas during routine 
+and emergency events;
+    (D) Woody vegetation must be removed from the slopes or pertinent 
+surrounding areas.",,primary,openai,gpt-5,0,0
+54,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The text appears within an amendatory block revising § 257.74, so the language is new binding regulatory text.",compound,none,257,257.74,removal of woody vegetation with a diameter greater than 1/2 inch,must,strong,be directed,by a person familiar with the design and operation of the unit and considering the complexities of removing a tree or shrubbery,True,False,,revise,"Any removal of woody vegetation with a diameter 
+greater than \1/2\ inch must be directed by a person familiar with the 
+design and operation of the unit and in consideration of the 
+complexities of removal of a tree or a shrubbery, who must ensure the 
+removal does not create a risk of destabilizing the unit or otherwise 
+adversely affect the stability and safety of the CCR unit or personnel 
+undertaking the removal; and
+    (E) The vegetative height of grassy and woody vegetation must not 
+exceed 12 inches.",,primary,openai,gpt-5,1952,431
+54,EPA-HQ-OLEM-2017-0286,proposed,1,True,"The text appears within an amendatory block revising § 257.74, so the language is new binding regulatory text.",compound,none,257,257.74,the person directing the removal,must,strong,ensure,the removal does not create a risk of destabilizing the unit or otherwise adversely affect the stability and safety of the CCR unit or personnel undertaking the removal,False,False,,revise,"Any removal of woody vegetation with a diameter 
+greater than \1/2\ inch must be directed by a person familiar with the 
+design and operation of the unit and in consideration of the 
+complexities of removal of a tree or a shrubbery, who must ensure the 
+removal does not create a risk of destabilizing the unit or otherwise 
+adversely affect the stability and safety of the CCR unit or personnel 
+undertaking the removal; and
+    (E) The vegetative height of grassy and woody vegetation must not 
+exceed 12 inches.",,primary,openai,gpt-5,0,0
+54,EPA-HQ-OLEM-2017-0286,proposed,2,True,"The text appears within an amendatory block revising § 257.74, so the language is new binding regulatory text.",compound,none,257,257.74,the vegetative height of grassy and woody vegetation,must not,strong,exceed,12 inches,False,False,,revise,"Any removal of woody vegetation with a diameter 
+greater than \1/2\ inch must be directed by a person familiar with the 
+design and operation of the unit and in consideration of the 
+complexities of removal of a tree or a shrubbery, who must ensure the 
+removal does not create a risk of destabilizing the unit or otherwise 
+adversely affect the stability and safety of the CCR unit or personnel 
+undertaking the removal; and
+    (E) The vegetative height of grassy and woody vegetation must not 
+exceed 12 inches.",,primary,openai,gpt-5,0,0
+55,EPA-HQ-OLEM-2017-0286,proposed,0,True,"Text appears within an amendatory block revising § 257.83(b)(5), making it new binding regulatory text.",simple,none,257,257.83(b)(5),the owner or operator,must,strong,remedy,the deficiency or release,False,True,If a deficiency or release is identified during an inspection,revise,"* * *
+    (b) * * *
+    (5) If a deficiency or release is identified during an inspection, 
+the owner or operator must remedy the deficiency or release in 
+accordance with applicable requirements in Sec.",§§ 257.96 through 257.99,primary,openai,gpt-5,1858,198
+56,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears within an amendatory block revising §257.83(b)(5) and §257.84(b)(5), making it new binding regulatory text.",simple,amendatory_quote,257,257.84(b)(5),the owner or operator,must,strong,remedy,the deficiency or release in accordance with applicable requirements,False,True,If a deficiency or release is identified during an inspection,revise,"* * *
+    (b) * * *
+    (5) If a deficiency or release is identified during an inspection, 
+the owner or operator must remedy the deficiency or release in 
+accordance with applicable requirements in Sec.",§§ 257.96 through 257.99,primary,openai,gpt-5,1864,215
+57,EPA-HQ-OLEM-2017-0286,proposed,0,True,The sentence appears within an amendatory block revising § 257.90; therefore it constitutes new binding regulatory text.,compound,none,257,257.90(d),The owner or operator of the CCR unit,must,strong,comply,"all applicable requirements in §§ 257.96, 257.97, and 257.98",False,False,,revise,"The owner or operator of the CCR unit must comply with all 
+applicable
+
+[[Page 11613]]
+
+requirements in Sec.","§§ 257.96, 257.97, 257.98",primary,openai,gpt-5,1799,325
+57,EPA-HQ-OLEM-2017-0286,proposed,1,True,The sentence appears within an amendatory block revising § 257.90; therefore it constitutes new binding regulatory text.,compound,none,257,257.90(d),The owner or operator of the CCR unit,must,strong,comply,the requirements in § 257.99,False,True,if eligible,revise,"The owner or operator of the CCR unit must comply with all 
+applicable
+
+[[Page 11613]]
+
+requirements in Sec.",§ 257.99,primary,openai,gpt-5,0,0
+58,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The text appears within an amendatory block revising § 257.90, making the obligation new binding regulatory text.",compound,none,257,257.90(d),The owner or operator of the CCR unit,must,strong,comply,"all applicable requirements in § 257.96, § 257.97, and § 257.98",False,True,except as provided in paragraph (g) of this section,revise,"Sec.  257.96, 257.97, and 257.98, or, if eligible, 
+must comply with the requirements in Sec.  257.99.",§ 257.96,primary,openai,gpt-5,1801,327
+58,EPA-HQ-OLEM-2017-0286,proposed,1,True,"The text appears within an amendatory block revising § 257.90, making the obligation new binding regulatory text.",compound,none,257,257.90(d),The owner or operator of the CCR unit,must,strong,comply,the requirements in § 257.99,False,True,if eligible,revise,"Sec.  257.96, 257.97, and 257.98, or, if eligible, 
+must comply with the requirements in Sec.  257.99.",§ 257.99,primary,openai,gpt-5,0,0
+59,EPA-HQ-OLEM-2017-0286,proposed,0,True,The sentence appears within an amendatory block revising § 257.90 and thus constitutes new binding regulatory text.,simple,none,257,257.90(g)(1),the State Director of a participating state,may,permissive,suspend,the groundwater monitoring requirements under §§ 257.90 through 257.95 for a CCR unit,False,True,"Except as provided by paragraph (g)(2) of this section, and if the owner or operator provides written documentation, certified by a qualified professional engineer and approved by the State Director, demonstrating no potential for migration of listed constituents to the uppermost aquifer during the active life and post-closure care period",revise,"Except 
+as provided by paragraph (g)(2) of this section, the State Director of 
+a participating state may suspend for up to ten years the groundwater 
+monitoring requirements under Sec.",§§ 257.90 through 257.95,primary,openai,gpt-5,1810,267
+60,EPA-HQ-OLEM-2017-0286,proposed,0,True,The text appears within an amendatory block revising CFR regulatory text and contains mandatory requirements using must.,compound,none,257,257.99(g)(1),the demonstration,must,strong,be certified,by a qualified professional engineer,True,True,If the owner or operator seeks a suspension of groundwater monitoring requirements under paragraph (g)(1),revise,"This demonstration must be certified by a qualified 
+professional engineer and approved by the State Director, and must be 
+based upon:
+    (i) Site-specific field collected measurements, sampling, and 
+analysis of physical, chemical, and biological processes affecting 
+contaminant fate and transport; and
+    (ii) Contaminant fate and transport predictions that maximize 
+contaminant migration and consider impacts on human health and the 
+environment.",§§ 257.90 through 257.95,primary,openai,gpt-5,1862,607
+60,EPA-HQ-OLEM-2017-0286,proposed,1,True,The text appears within an amendatory block revising CFR regulatory text and contains mandatory requirements using must.,compound,none,257,257.99(g)(1),the demonstration,must,strong,be approved,by the State Director,True,True,If the owner or operator seeks a suspension of groundwater monitoring requirements under paragraph (g)(1),revise,"This demonstration must be certified by a qualified 
+professional engineer and approved by the State Director, and must be 
+based upon:
+    (i) Site-specific field collected measurements, sampling, and 
+analysis of physical, chemical, and biological processes affecting 
+contaminant fate and transport; and
+    (ii) Contaminant fate and transport predictions that maximize 
+contaminant migration and consider impacts on human health and the 
+environment.",§§ 257.90 through 257.95,primary,openai,gpt-5,0,0
+60,EPA-HQ-OLEM-2017-0286,proposed,2,True,The text appears within an amendatory block revising CFR regulatory text and contains mandatory requirements using must.,compound,none,257,257.99(g)(1)(i),the demonstration,must,strong,"be based upon site-specific field collected measurements, sampling, and analysis","of physical, chemical, and biological processes affecting contaminant fate and transport",True,True,If the owner or operator seeks a suspension of groundwater monitoring requirements under paragraph (g)(1),revise,"This demonstration must be certified by a qualified 
+professional engineer and approved by the State Director, and must be 
+based upon:
+    (i) Site-specific field collected measurements, sampling, and 
+analysis of physical, chemical, and biological processes affecting 
+contaminant fate and transport; and
+    (ii) Contaminant fate and transport predictions that maximize 
+contaminant migration and consider impacts on human health and the 
+environment.",,primary,openai,gpt-5,0,0
+60,EPA-HQ-OLEM-2017-0286,proposed,3,True,The text appears within an amendatory block revising CFR regulatory text and contains mandatory requirements using must.,compound,none,257,257.99(g)(1)(ii),the demonstration,must,strong,be based upon contaminant fate and transport predictions,that maximize contaminant migration and consider impacts on human health and the environment,True,True,If the owner or operator seeks a suspension of groundwater monitoring requirements under paragraph (g)(1),revise,"This demonstration must be certified by a qualified 
+professional engineer and approved by the State Director, and must be 
+based upon:
+    (i) Site-specific field collected measurements, sampling, and 
+analysis of physical, chemical, and biological processes affecting 
+contaminant fate and transport; and
+    (ii) Contaminant fate and transport predictions that maximize 
+contaminant migration and consider impacts on human health and the 
+environment.",,primary,openai,gpt-5,0,0
+61,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears within amendatory regulatory text being revised and sets a permissive condition for extending a suspension, thus constituting binding text.",simple,none,257,257.90,The owner or operator of the CCR unit,may,permissive,secure an extension of the suspension of groundwater monitoring requirements,an additional ten years of suspension,False,True,provided the owner or operator provides written documentation that there continues to be no potential for migration of the constituents listed in appendices III and IV to this part,revise,"(2) The owner or operator of the CCR unit may secure an additional 
+ten years for the suspension of the groundwater monitoring requirements 
+provided the owner or operator provides written documentation that 
+there continues to be no potential for migration of the constituents 
+listed in appendices III and IV to this part.",,primary,openai,gpt-5,1794,222
+62,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears within amendatory text revising § 257.90, making it new binding regulatory language.",compound,none,257,257.90(g),The documentation,must,strong,be supported by,"at a minimum, the information specified in paragraphs (g)(1)(i) and (g)(1)(ii) of this section",True,False,,revise,"The documentation must be 
+supported by, at a minimum, the information specified in paragraphs 
+(g)(1)(i) and (g)(1)(ii) of this section and must be certified by a 
+qualified professional engineer and approved by the State Director.",§ 257.90(g)(1)(i) and (g)(1)(ii),primary,openai,gpt-5,1749,409
+62,EPA-HQ-OLEM-2017-0286,proposed,1,True,"The sentence appears within amendatory text revising § 257.90, making it new binding regulatory language.",compound,none,257,257.90(g),The documentation,must,strong,be certified by,a qualified professional engineer,True,False,,revise,"The documentation must be 
+supported by, at a minimum, the information specified in paragraphs 
+(g)(1)(i) and (g)(1)(ii) of this section and must be certified by a 
+qualified professional engineer and approved by the State Director.",,primary,openai,gpt-5,0,0
+62,EPA-HQ-OLEM-2017-0286,proposed,2,True,"The sentence appears within amendatory text revising § 257.90, making it new binding regulatory language.",compound,none,257,257.90(g),The documentation,must,strong,be approved by,the State Director,True,False,,revise,"The documentation must be 
+supported by, at a minimum, the information specified in paragraphs 
+(g)(1)(i) and (g)(1)(ii) of this section and must be certified by a 
+qualified professional engineer and approved by the State Director.",,primary,openai,gpt-5,0,0
+63,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears within an amendatory block revising CFR text, making it new binding regulatory language.",simple,none,257,257.90,The owner or operator,must,strong,submit,documentation of their re-demonstration for the State's review and approval of their extension,False,False,,revise,"The 
+owner or operator must submit the documentation of their re-
+demonstration for the state's review and approval of their extension 
+one year before their groundwater monitoring suspension is due to 
+expire.",,primary,openai,gpt-5,1761,181
+64,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears within an amendatory block revising § 257.95 and adding paragraph (j), so the language is new binding text.",simple,none,257,257.90,the owner or operator,must,strong,begin,groundwater monitoring according to paragraph (a) of this section within 90 days,False,True,If the existing groundwater monitoring extension expires,revise,"If the existing groundwater monitoring extension expires, the 
+owner or operator must begin groundwater monitoring according to 
+paragraph (a) of this section within 90 days.",paragraph (a) of this section,primary,openai,gpt-5,1750,203
+65,EPA-HQ-OLEM-2017-0286,proposed,0,True,The sentence appears within an amendatory block revising § 257.95; amendatory text is binding.,simple,none,257,257.95(h)(2),The owner or operator,may,permissive,obtain,additional ten-year groundwater monitoring suspensions,False,True,provided the owner or operator continues to make the written demonstration,revise,"The owner or operator may 
+obtain additional ten-year groundwater monitoring suspensions provided 
+the owner or operator continues to make the written demonstration.",§ 257.90(a),primary,openai,gpt-5,1759,196
+66,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears within an amendatory block revising and adding paragraphs, making it new binding regulatory text.",simple,none,257,257.90,owner or operator,must,strong,place,each completed demonstration in the facility's operating record,False,True,if more than one ten-year suspension period is sought,revise,"The 
+owner or operator must place each completed demonstration, if more than 
+one ten-year suspension period is sought, in the facility's operating 
+record.",,primary,openai,gpt-5,1744,183
+67,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears within an amendatory block adding paragraph (j) to § 257.95, making it new binding regulatory text.",simple,none,257,257.95(j),The State Director of a participating state,may,permissive,establish,an alternative groundwater protection standard for constituents listed in appendix IV to this part for which MCLs have not been established,False,False,,add,"* * * *
+    (j) The State Director of a participating state may establish an 
+alternative groundwater protection standard for constituents listed in 
+appendix IV to this part for which MCLs have not been established.",,primary,openai,gpt-5,1775,200
+68,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears within an amendatory block adding/revising § 257.95(j), making it new binding regulatory text.",compound,none,257,257.95(j)(1),The alternative groundwater protection standards,must,strong,be,appropriate health-based levels that are protective of potential receptors (both human and ecological),False,False,,revise,"(1) The alternative groundwater protection standards must be 
+appropriate health-based levels that are protective of potential 
+receptors (both human and ecological) and satisfy all of the following 
+criteria:
+    (i)",,primary,openai,gpt-5,1768,294
+68,EPA-HQ-OLEM-2017-0286,proposed,1,True,"The sentence appears within an amendatory block adding/revising § 257.95(j), making it new binding regulatory text.",compound,none,257,257.95(j)(1),The alternative groundwater protection standards,must,strong,satisfy,all of the following criteria,False,False,,revise,"(1) The alternative groundwater protection standards must be 
+appropriate health-based levels that are protective of potential 
+receptors (both human and ecological) and satisfy all of the following 
+criteria:
+    (i)",,primary,openai,gpt-5,0,0
+69,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The text appears within an amendatory revision block for § 257.95 and prescribes criteria that must be satisfied, making it new binding regulatory text.",compound,none,257,257.95(j)(1)(i),the alternative groundwater protection standard,must,strong,be derived in a manner consistent with EPA guidelines for assessing the health risks of environmental pollutants,including specified EPA risk assessment guidelines incorporated by reference,False,False,,revise,"The alternative groundwater protection standard is at a level 
+derived in a manner consistent with EPA guidelines for assessing the 
+health risks of environmental pollutants, including ``Supplementary 
+Guidance for Conducting Health Risk Assessment of Chemical Mixtures'', 
+``Guidelines for Developmental Toxicity Risk Assessment'', and 
+``Reference Dose, (RfD): Description and Use in Health Risk 
+Assessments'' (incorporated by reference);
+    (ii) The alternative groundwater protection standard is at a level 
+based on scientifically valid studies conducted in accordance with the 
+Toxic Substances Control Act Good Laboratory Practice Standards (40 CFR 
+part 792) or equivalent; and
+    (iii) For systemic toxicants, the level represents a concentration 
+to which the human population could be exposed to on a daily basis that 
+is likely to be without appreciable risk of deleterious effects during 
+a lifetime; this must be the level that ensures a Hazard Quotient no 
+greater than 1.",,primary,openai,gpt-5,2060,471
+69,EPA-HQ-OLEM-2017-0286,proposed,1,True,"The text appears within an amendatory revision block for § 257.95 and prescribes criteria that must be satisfied, making it new binding regulatory text.",compound,none,257,257.95(j)(1)(ii),the alternative groundwater protection standard,must,strong,be based on scientifically valid studies conducted in accordance with the Toxic Substances Control Act Good Laboratory Practice Standards or equivalent,40 CFR part 792 or equivalent,False,False,,revise,"The alternative groundwater protection standard is at a level 
+derived in a manner consistent with EPA guidelines for assessing the 
+health risks of environmental pollutants, including ``Supplementary 
+Guidance for Conducting Health Risk Assessment of Chemical Mixtures'', 
+``Guidelines for Developmental Toxicity Risk Assessment'', and 
+``Reference Dose, (RfD): Description and Use in Health Risk 
+Assessments'' (incorporated by reference);
+    (ii) The alternative groundwater protection standard is at a level 
+based on scientifically valid studies conducted in accordance with the 
+Toxic Substances Control Act Good Laboratory Practice Standards (40 CFR 
+part 792) or equivalent; and
+    (iii) For systemic toxicants, the level represents a concentration 
+to which the human population could be exposed to on a daily basis that 
+is likely to be without appreciable risk of deleterious effects during 
+a lifetime; this must be the level that ensures a Hazard Quotient no 
+greater than 1.",40 CFR part 792,primary,openai,gpt-5,0,0
+69,EPA-HQ-OLEM-2017-0286,proposed,2,True,"The text appears within an amendatory revision block for § 257.95 and prescribes criteria that must be satisfied, making it new binding regulatory text.",compound,none,257,257.95(j)(1)(iii),the level for systemic toxicants,must,strong,ensure a Hazard Quotient no greater than 1,a concentration to which the human population could be exposed daily without appreciable risk during a lifetime,False,True,For systemic toxicants,revise,"The alternative groundwater protection standard is at a level 
+derived in a manner consistent with EPA guidelines for assessing the 
+health risks of environmental pollutants, including ``Supplementary 
+Guidance for Conducting Health Risk Assessment of Chemical Mixtures'', 
+``Guidelines for Developmental Toxicity Risk Assessment'', and 
+``Reference Dose, (RfD): Description and Use in Health Risk 
+Assessments'' (incorporated by reference);
+    (ii) The alternative groundwater protection standard is at a level 
+based on scientifically valid studies conducted in accordance with the 
+Toxic Substances Control Act Good Laboratory Practice Standards (40 CFR 
+part 792) or equivalent; and
+    (iii) For systemic toxicants, the level represents a concentration 
+to which the human population could be exposed to on a daily basis that 
+is likely to be without appreciable risk of deleterious effects during 
+a lifetime; this must be the level that ensures a Hazard Quotient no 
+greater than 1.",,primary,openai,gpt-5,0,0
+70,EPA-HQ-OLEM-2017-0286,proposed,0,True,The sentence appears within an amendatory block (“Section 257.97 is amended by adding … to read as follows”) and is part of new binding regulatory text.,simple,none,257,257.95,the State Director,may,permissive,consider,multiple contaminants in the groundwater; exposure threats to sensitive environmental receptors; and other site-specific exposure or potential exposure to groundwater when establishing alternative groundwater protection standards under paragraph (j)(1) of this section,False,True,In establishing alternative groundwater protection standards under paragraph (j)(1) of this section,revise,"(2) In establishing alternative groundwater protection standards 
+under paragraph (j)(1) of this section, the State Director may consider 
+the following:
+    (i) Multiple contaminants in the groundwater;
+    (ii) Exposure threats to sensitive environmental receptors; and
+    (iii) Other site-specific exposure or potential exposure to 
+groundwater.",paragraph (j)(1) of this section,primary,openai,gpt-5,1841,242
+71,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears within amendatory text adding paragraphs to § 257.95, making it new binding regulatory language.",simple,none,257,257.95,The owner or operator of the CCR unit,must,strong,document,in the annual groundwater monitoring and corrective action report the constituent(s) and level(s) for which an alternative groundwater protection standard has been established by the State Director,False,False,,revise,"(3) The owner or operator of the CCR unit must document in the 
+annual groundwater monitoring and corrective action report required by 
+Sec.  257.90(e) or Sec.  257.100(e)(5)(ii) the constituent(s) and 
+level(s) for which an alternative groundwater protection standard has 
+been established by the State Director.
+0
+9.",§ 257.90(e),primary,openai,gpt-5,1841,208
+72,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears in an amendatory block adding paragraphs (f) and (g) to § 257.97, so it is new binding regulatory text.",simple,none,257,257.97(f),The State Director of a participating state,may,permissive,determine,that remediation of a release of a constituent listed in appendix IV to this part from a CCR unit is not necessary,False,True,if the owner or operator demonstrates to the satisfaction of the State Director that one of the listed criteria in paragraphs (f)(1) through (4) is met,add,"The State Director of a participating state may determine that 
+remediation of a release of a constituent listed in appendix IV to this 
+part from a CCR unit is not necessary if the owner or operator 
+demonstrates to the satisfaction of the State Director that:
+    (1) The groundwater is additionally contaminated by substances that 
+have originated from a source other than a CCR unit and those 
+substances are present in concentrations such that cleanup of the 
+release from the CCR unit would provide no significant reduction in 
+risk to actual or potential receptors; or
+    (2) The constituent(s) is present in groundwater that:
+    (i) Is not currently or reasonably expected to be a source of 
+drinking water; and
+    (ii) Is not hydraulically connected with waters to which the 
+constituent(s) is migrating or are likely to migrate in a 
+concentration(s) that would exceed the groundwater protection standards 
+established under Sec.  257.95(h) or (i); or
+    (3) Remediation of the release(s) is technically impracticable; or
+    (4) Remediation results in unacceptable cross-media impacts.",§ 257.95(h),primary,openai,gpt-5,2186,242
+73,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears within amendatory regulatory text for Part 257 (§ 257.97) preceding an explicit amendatory block, making it binding new CFR text.",simple,none,257,257.97(g),A determination by the Director of an approved participating state pursuant to paragraph (f) of this section,may not,strong,affect,"the requirement under § 257.90(d) and § 257.97(b) for the owner or operator to undertake source control or other measures to eliminate or minimize further releases to groundwater, prevent exposure to groundwater, or remediate groundwater to technically feasible concentrations that significantly reduce threats to human health or the environment",False,False,,add,"(g) A determination by the Director of approved participating state 
+pursuant to paragraph (f) of this section shall not affect the 
+requirement under Sec.  257.90(d) and Sec.  257.97(b) for the owner or 
+operator to undertake source control measures or other measures 
+(including closure if triggered) that may be necessary to eliminate or 
+minimize further releases to the groundwater, to prevent exposure to 
+the groundwater, or to remediate the groundwater to concentrations that 
+are technically feasible and significantly reduce threats to human 
+health or the environment.",§ 257.90(d); § 257.97(b),primary,openai,gpt-5,1968,268
+74,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears within an amendatory block revising § 257.98(c), so it is binding regulatory text.",simple,none,257,257.98(c),Remedies selected pursuant to § 257.97,shall,strong,be considered complete,when the specified conditions in § 257.98(c)(1)–(3) are met,True,True,when the owner or operator demonstrates compliance with groundwater protection standards at specified locations and other listed criteria are satisfied,revise,"* * * *
+    (c) Remedies selected pursuant to Sec.  257.97 shall be considered 
+complete when:
+
+[[Page 11614]]
+
+    (1) The owner or operator of the CCR unit demonstrates compliance 
+with the groundwater protection standards established under Sec.  
+257.95(h) has been achieved at all points within the plume of 
+contamination that lie beyond the groundwater monitoring well system 
+established under Sec.  257.91;
+    (2)",§ 257.97,primary,openai,gpt-5,1884,222
+75,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears within an amendatory block that adds/revises regulatory text, making it binding; it contains a clear obligation on the owner or operator.",simple,none,257,257.98(c)(4),owner or operator,must,strong,demonstrate,that concentrations of constituents listed in appendix IV to this part have not exceeded the groundwater protection standard(s) for an alternative length of time specified by the Director of a participating state,False,True,"if the Director of a participating state specifies an alternative length of time to that specified in paragraph (c)(2) of this section, taking into consideration factors in (i)–(iv)",revise,"(4) The Director of a participating state may specify an 
+alternative length of time to that specified in paragraph (c)(2) of 
+this section during which the owner or operator must demonstrate that 
+concentrations of constituents listed in appendix IV to this part have 
+not exceeded the groundwater protection standard(s) taking into 
+consideration:
+    (i) Extent and concentration of the release(s);
+    (ii) Behavior characteristics of the constituents in the 
+groundwater;
+    (iii) Accuracy of monitoring or modeling techniques, including any 
+seasonal, meteorological, or other environmental variabilities that may 
+affect the accuracy; and
+    (iv) Characteristics of the groundwater.",§ 257.98(c)(2),primary,openai,gpt-5,1969,259
+76,EPA-HQ-OLEM-2017-0286,proposed,0,True,The sentence appears within an amendatory block adding § 257.99 and sets a conditional requirement; therefore it is new binding regulatory text.,simple,none,257,257.99(a),the owner or operator,must,strong,comply,"all additional procedural requirements specified in §§ 257.96, 257.97, and 257.98",False,True,"If the owner or operator determines, at any time, that the release will not be completely remediated within this 180-day timeframe",add,"If the owner or operator determines, at any time, that the 
+release will not be completely remediated within this 180-day 
+timeframe, the owner or operator must comply with all additional 
+procedural requirements specified in Sec.","§§ 257.96, 257.97, and 257.98",primary,openai,gpt-5,1806,239
+77,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The obligation appears within amendatory text revising § 257.98, making it new binding regulatory language.",compound,none,257,257.98,the owner or operator,must,strong,comply with all of the following requirements,None,False,True,Upon detection of a non-groundwater release from a CCR unit,revise,"Upon detection of a non-
+groundwater release from a CCR unit, the owner or operator must comply 
+with all of the following requirements:
+    (1) Meet the requirement in Sec.  257.90(d) to ``immediately take 
+all necessary measures to control the source(s) of releases so as to 
+reduce or eliminate, to the maximum extent feasible, further releases 
+of contaminants into the environment;''
+    (2)(i) Determine the corrective measures that will meet the 
+substantive standards in Sec.",,primary,openai,gpt-5,1930,739
+77,EPA-HQ-OLEM-2017-0286,proposed,1,True,"The obligation appears within amendatory text revising § 257.98, making it new binding regulatory language.",compound,none,257,257.98,the owner or operator,must,strong,"meet the requirement to immediately take all necessary measures to control the source(s) of releases to reduce or eliminate, to the maximum extent feasible, further releases of contaminants into the environment",None,False,True,Upon detection of a non-groundwater release from a CCR unit,revise,"Upon detection of a non-
+groundwater release from a CCR unit, the owner or operator must comply 
+with all of the following requirements:
+    (1) Meet the requirement in Sec.  257.90(d) to ``immediately take 
+all necessary measures to control the source(s) of releases so as to 
+reduce or eliminate, to the maximum extent feasible, further releases 
+of contaminants into the environment;''
+    (2)(i) Determine the corrective measures that will meet the 
+substantive standards in Sec.",§ 257.90(d),primary,openai,gpt-5,0,0
+77,EPA-HQ-OLEM-2017-0286,proposed,2,True,"The obligation appears within amendatory text revising § 257.98, making it new binding regulatory language.",compound,none,257,257.98,the owner or operator,must,strong,"determine the corrective measures that will meet the substantive standards to prevent further releases, to remediate any releases, and to restore the affected area to original conditions",None,False,True,Upon detection of a non-groundwater release from a CCR unit,revise,"Upon detection of a non-
+groundwater release from a CCR unit, the owner or operator must comply 
+with all of the following requirements:
+    (1) Meet the requirement in Sec.  257.90(d) to ``immediately take 
+all necessary measures to control the source(s) of releases so as to 
+reduce or eliminate, to the maximum extent feasible, further releases 
+of contaminants into the environment;''
+    (2)(i) Determine the corrective measures that will meet the 
+substantive standards in Sec.",§ 257.96(a),primary,openai,gpt-5,0,0
+77,EPA-HQ-OLEM-2017-0286,proposed,3,True,"The obligation appears within amendatory text revising § 257.98, making it new binding regulatory language.",compound,none,257,257.98,the owner or operator,must,strong,analyze the effectiveness of potential corrective measures in meeting all of the requirements and objectives of the remedy,None,False,True,Upon detection of a non-groundwater release from a CCR unit,revise,"Upon detection of a non-
+groundwater release from a CCR unit, the owner or operator must comply 
+with all of the following requirements:
+    (1) Meet the requirement in Sec.  257.90(d) to ``immediately take 
+all necessary measures to control the source(s) of releases so as to 
+reduce or eliminate, to the maximum extent feasible, further releases 
+of contaminants into the environment;''
+    (2)(i) Determine the corrective measures that will meet the 
+substantive standards in Sec.",§ 257.96(c),primary,openai,gpt-5,0,0
+77,EPA-HQ-OLEM-2017-0286,proposed,4,True,"The obligation appears within amendatory text revising § 257.98, making it new binding regulatory language.",compound,none,257,257.98,the owner or operator,must,strong,"select the corrective action that will remedy the non-groundwater release, taking into account at a minimum the assessment results and specified factors",None,False,True,Upon detection of a non-groundwater release from a CCR unit,revise,"Upon detection of a non-
+groundwater release from a CCR unit, the owner or operator must comply 
+with all of the following requirements:
+    (1) Meet the requirement in Sec.  257.90(d) to ``immediately take 
+all necessary measures to control the source(s) of releases so as to 
+reduce or eliminate, to the maximum extent feasible, further releases 
+of contaminants into the environment;''
+    (2)(i) Determine the corrective measures that will meet the 
+substantive standards in Sec.",§ 257.97(c),primary,openai,gpt-5,0,0
+78,EPA-HQ-OLEM-2017-0286,proposed,0,True,The sentence appears within an amendatory block revising § 257.98; therefore it is new binding regulatory text.,simple,none,257,257.98,the owner or operator,must,strong,sign,all required notices and reports,True,False,,revise,"All required 
+notices and reports must be signed by the owner or operator.",,primary,openai,gpt-5,1738,173
+79,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears within an amendatory block revising § 257.98, making it new binding regulatory text.",simple,none,257,257.98,the owner or operator,must,strong,prepare,a notification of discovery of a non-groundwater release,False,True,Within 15 days of discovering a non-groundwater release,revise,"(1) Within 15 days of discovering a non-groundwater release, the 
+owner or operator must prepare a notification of discovery of a non-
+groundwater release.",§ 257.105(h)(15),primary,openai,gpt-5,1776,196
+80,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears within an amendatory block revising § 257.98, so it is new binding regulatory text.",simple,none,257,257.98,the owner or operator,must,strong,prepare,a report documenting the completion of the corrective action,False,True,Within 30 days of completion of a corrective action of a non-groundwater release,revise,"Within 30 days of completion of a corrective action of a non-
+groundwater release, the owner or operator must prepare a report 
+documenting the completion of the corrective action.",,primary,openai,gpt-5,1746,193
+81,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears within amendatory text revising § 257.98 and uses mandatory language, making it new binding regulatory text.",compound,none,257,257.98,The report,must,strong,describe,the nature and extent of the non-groundwater release,False,False,,revise,"The report must, 
+at a minimum, describe the nature and extent of the non-groundwater 
+release, the CCR unit(s) responsible for the non-groundwater release, 
+and how the remedy selected achieves the corrective action requirements 
+specified in paragraph (b) of this section.",,primary,openai,gpt-5,1810,398
+81,EPA-HQ-OLEM-2017-0286,proposed,1,True,"The sentence appears within amendatory text revising § 257.98 and uses mandatory language, making it new binding regulatory text.",compound,none,257,257.98,The report,must,strong,describe,the CCR unit(s) responsible for the non-groundwater release,False,False,,revise,"The report must, 
+at a minimum, describe the nature and extent of the non-groundwater 
+release, the CCR unit(s) responsible for the non-groundwater release, 
+and how the remedy selected achieves the corrective action requirements 
+specified in paragraph (b) of this section.",,primary,openai,gpt-5,0,0
+81,EPA-HQ-OLEM-2017-0286,proposed,2,True,"The sentence appears within amendatory text revising § 257.98 and uses mandatory language, making it new binding regulatory text.",compound,none,257,257.98,The report,must,strong,describe,how the remedy selected achieves the corrective action requirements specified in paragraph (b) of this section,False,False,,revise,"The report must, 
+at a minimum, describe the nature and extent of the non-groundwater 
+release, the CCR unit(s) responsible for the non-groundwater release, 
+and how the remedy selected achieves the corrective action requirements 
+specified in paragraph (b) of this section.",§ 257.98(b),primary,openai,gpt-5,0,0
+82,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears within amendatory text adding/revising regulatory requirements, making it binding.",compound,none,257,257.98,The notification,must,strong,include,a certification by a qualified professional engineer,False,False,,revise,"The notification must 
+include a certification by a qualified professional engineer that the 
+corrective action has been completed in accordance with the 
+requirements of paragraph (b) of this section.",,primary,openai,gpt-5,1782,288
+82,EPA-HQ-OLEM-2017-0286,proposed,1,True,"The sentence appears within amendatory text adding/revising regulatory requirements, making it binding.",compound,none,257,257.98,a qualified professional engineer,must,strong,certify,that the corrective action has been completed in accordance with the requirements of paragraph (b) of this section,False,False,,revise,"The notification must 
+include a certification by a qualified professional engineer that the 
+corrective action has been completed in accordance with the 
+requirements of paragraph (b) of this section.",§ 257.98(b),primary,openai,gpt-5,0,0
+83,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence is binding regulatory text within CFR part 257 and appears in the context of amendatory instructions adding/revising paragraphs, so it constitutes new binding requirements.",compound,none,257,257.98(d),The owner or operator of the CCR unit,must,strong,comply with,the recordkeeping requirements specified in § 257.105(h),False,False,,revise,"(d) The owner or operator of the CCR unit must comply with the 
+recordkeeping requirements specified in Sec.  257.105(h), the 
+notification requirements specified in Sec.  257.106(h), and the 
+internet requirements specified in Sec.  257.107(h).",§ 257.105(h),primary,openai,gpt-5,1827,438
+83,EPA-HQ-OLEM-2017-0286,proposed,1,True,"The sentence is binding regulatory text within CFR part 257 and appears in the context of amendatory instructions adding/revising paragraphs, so it constitutes new binding requirements.",compound,none,257,257.98(d),The owner or operator of the CCR unit,must,strong,comply with,the notification requirements specified in § 257.106(h),False,False,,revise,"(d) The owner or operator of the CCR unit must comply with the 
+recordkeeping requirements specified in Sec.  257.105(h), the 
+notification requirements specified in Sec.  257.106(h), and the 
+internet requirements specified in Sec.  257.107(h).",§ 257.106(h),primary,openai,gpt-5,0,0
+83,EPA-HQ-OLEM-2017-0286,proposed,2,True,"The sentence is binding regulatory text within CFR part 257 and appears in the context of amendatory instructions adding/revising paragraphs, so it constitutes new binding requirements.",compound,none,257,257.98(d),The owner or operator of the CCR unit,must,strong,comply with,the internet requirements specified in § 257.107(h),False,False,,revise,"(d) The owner or operator of the CCR unit must comply with the 
+recordkeeping requirements specified in Sec.  257.105(h), the 
+notification requirements specified in Sec.  257.106(h), and the 
+internet requirements specified in Sec.  257.107(h).",§ 257.107(h),primary,openai,gpt-5,0,0
+84,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The text appears within an amendatory block adding § 257.102(d)(4), so it is new binding regulatory text.",simple,none,257,257.102(d)(4)(i),CCR,may,permissive,be placed,in CCR units closing pursuant to § 257.101 only for grading and contouring in the design and construction of the final cover system,True,True,"Notwithstanding the prohibition on further placement in § 257.101, and only if either (A) the Director of a participating state determines the criteria in paragraph (d)(4)(ii) are met, or (B) a qualified professional engineer certifies the criteria in paragraph (d)(4)(ii) are met as required by paragraph (d)(4)(iii).",add,"Notwithstanding the 
+prohibition on further placement in Sec.  257.101, CCR may be placed in 
+such units but only for the purposes of grading and contouring in the 
+design and construction of the final cover system, based either on:
+    (A) A determination by the Director of a participating state that 
+the criteria in paragraph (d)(4)(ii) of this section have been met; or
+    (B)",§ 257.101,primary,openai,gpt-5,1908,282
+85,EPA-HQ-OLEM-2017-0286,proposed,0,True,The sentence appears within an amendatory block revising § 257.102(d)(4) and sets binding criteria for continued CCR placement.,simple,none,257,257.102(d)(4)(ii)(B),The owner or operator of a CCR unit,must,strong,meet,all of the following criteria when placing CCR within a CCR unit for the purposes of grading or contouring,False,True,when placing CCR within a CCR unit for the purposes of grading or contouring,revise,"The certification by a qualified professional engineer that the 
+criteria in (d)(4)(ii) of this section have been met, as required in 
+paragraph (d)(4)(iii) of this section.
+    (ii) Use of CCR in Design and Construction of Final Cover System 
+Requirements.
+    (A) The owner or operator of a CCR unit subject to Sec.  257.101 
+may continue to place CCR in the unit after initiating closure in order 
+to construct the final cover system required under paragraph (d)(3) of 
+this section but only for the following activities:
+    (1) Grading; and
+    (2) Contouring.
+    (B) The owner or operator of a CCR unit must meet all of the 
+following criteria when placing CCR within a CCR unit for the purposes 
+of grading or contouring:
+    (1)",§ 257.101,primary,openai,gpt-5,2076,223
+86,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The text is within an amendatory block revising § 257.102 and contains mandatory requirements using “must,” making it new binding regulatory text.",compound,none,257,257.102(d),The owner or operator of a CCR unit,must,strong,ensure CCR placed for construction of the final cover system has been generated at the facility and is located at the facility at the time closure was initiated,CCR used for construction of the final cover system,False,True,when placing CCR within a CCR unit for the purposes of grading or contouring after initiating closure,revise,"The CCR placed for construction of the final cover system must 
+have been generated at the facility and be located at the facility at 
+the time closure was initiated;
+    (2)(i) For incised CCR surface impoundments the CCR must be placed 
+entirely above the highest elevation of
+
+[[Page 11615]]
+
+the surrounding natural ground surface where the CCR surface 
+impoundment was constructed;
+    (ii)",§ 257.101,primary,openai,gpt-5,1890,388
+86,EPA-HQ-OLEM-2017-0286,proposed,1,True,"The text is within an amendatory block revising § 257.102 and contains mandatory requirements using “must,” making it new binding regulatory text.",compound,none,257,257.102(d),The owner or operator of an incised CCR surface impoundment,must,strong,place CCR entirely above the highest elevation of the surrounding natural ground surface where the CCR surface impoundment was constructed,CCR placement for grading or contouring,False,True,when placing CCR within a CCR unit for the purposes of grading or contouring after initiating closure,revise,"The CCR placed for construction of the final cover system must 
+have been generated at the facility and be located at the facility at 
+the time closure was initiated;
+    (2)(i) For incised CCR surface impoundments the CCR must be placed 
+entirely above the highest elevation of
+
+[[Page 11615]]
+
+the surrounding natural ground surface where the CCR surface 
+impoundment was constructed;
+    (ii)",,primary,openai,gpt-5,0,0
+87,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The text appears within an amendatory block revising § 257.102, so the obligations are new binding regulatory text.",compound,none,257,257.102,owner or operator of a CCR unit,must,strong,place,CCR entirely above the highest elevation of CCR in the unit,False,True,"For all other CCR units, following dewatering and stabilization as required by § 257.102(d)(2)",revise,"For all other CCR units, CCR must be placed entirely above the 
+highest elevation of CCR in the unit, following dewatering and 
+stabilization as required by Sec.  257.102(d)(2);
+    (3) The CCR must not be placed outside the plane extending 
+vertically from the line formed by the intersection of the crest of the 
+CCR surface impoundment and the upstream slope of the CCR surface 
+impoundment; and
+    (4) The final cover system must be constructed with either:
+    (i) A slope not steeper than 5% grade after allowance for 
+settlement; or
+    (ii) At a steeper grade, if the Director of a participating state 
+determines that the steeper slope is necessary based on conditions at 
+the site, to facilitate run-off and minimize erosion, and that side 
+slopes are evaluated for erosion potential based on a stability 
+analysis to evaluate possible erosion potential.",§ 257.102(d)(2),primary,openai,gpt-5,2084,624
+87,EPA-HQ-OLEM-2017-0286,proposed,1,True,"The text appears within an amendatory block revising § 257.102, so the obligations are new binding regulatory text.",compound,none,257,257.102,owner or operator of a CCR unit,must not,strong,place,CCR outside the plane extending vertically from the line formed by the intersection of the crest of the CCR surface impoundment and the upstream slope of the CCR surface impoundment,False,False,,revise,"For all other CCR units, CCR must be placed entirely above the 
+highest elevation of CCR in the unit, following dewatering and 
+stabilization as required by Sec.  257.102(d)(2);
+    (3) The CCR must not be placed outside the plane extending 
+vertically from the line formed by the intersection of the crest of the 
+CCR surface impoundment and the upstream slope of the CCR surface 
+impoundment; and
+    (4) The final cover system must be constructed with either:
+    (i) A slope not steeper than 5% grade after allowance for 
+settlement; or
+    (ii) At a steeper grade, if the Director of a participating state 
+determines that the steeper slope is necessary based on conditions at 
+the site, to facilitate run-off and minimize erosion, and that side 
+slopes are evaluated for erosion potential based on a stability 
+analysis to evaluate possible erosion potential.",,primary,openai,gpt-5,0,0
+87,EPA-HQ-OLEM-2017-0286,proposed,2,True,"The text appears within an amendatory block revising § 257.102, so the obligations are new binding regulatory text.",compound,none,257,257.102,owner or operator of a CCR unit,must,strong,construct the final cover system,with a slope not steeper than 5% grade after allowance for settlement,False,True,unless a steeper grade is determined necessary under paragraph (d)(4)(i)(B),revise,"For all other CCR units, CCR must be placed entirely above the 
+highest elevation of CCR in the unit, following dewatering and 
+stabilization as required by Sec.  257.102(d)(2);
+    (3) The CCR must not be placed outside the plane extending 
+vertically from the line formed by the intersection of the crest of the 
+CCR surface impoundment and the upstream slope of the CCR surface 
+impoundment; and
+    (4) The final cover system must be constructed with either:
+    (i) A slope not steeper than 5% grade after allowance for 
+settlement; or
+    (ii) At a steeper grade, if the Director of a participating state 
+determines that the steeper slope is necessary based on conditions at 
+the site, to facilitate run-off and minimize erosion, and that side 
+slopes are evaluated for erosion potential based on a stability 
+analysis to evaluate possible erosion potential.",,primary,openai,gpt-5,0,0
+87,EPA-HQ-OLEM-2017-0286,proposed,3,True,"The text appears within an amendatory block revising § 257.102, so the obligations are new binding regulatory text.",compound,none,257,257.102,Director of a participating state,may,permissive,determine,"that a steeper slope is necessary based on conditions at the site to facilitate run-off and minimize erosion, and that side slopes are evaluated for erosion potential based on a stability analysis",False,True,for construction of the final cover system at a steeper grade,revise,"For all other CCR units, CCR must be placed entirely above the 
+highest elevation of CCR in the unit, following dewatering and 
+stabilization as required by Sec.  257.102(d)(2);
+    (3) The CCR must not be placed outside the plane extending 
+vertically from the line formed by the intersection of the crest of the 
+CCR surface impoundment and the upstream slope of the CCR surface 
+impoundment; and
+    (4) The final cover system must be constructed with either:
+    (i) A slope not steeper than 5% grade after allowance for 
+settlement; or
+    (ii) At a steeper grade, if the Director of a participating state 
+determines that the steeper slope is necessary based on conditions at 
+the site, to facilitate run-off and minimize erosion, and that side 
+slopes are evaluated for erosion potential based on a stability 
+analysis to evaluate possible erosion potential.",,primary,openai,gpt-5,0,0
+88,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears within amendatory regulatory text revising § 257.102, making it new binding text.",compound,none,257,257.102,the stability analysis,must,strong,evaluate,the site geology,False,True,At a minimum,revise,"The stability 
+analysis, at a minimum, must evaluate the site geology; characterize 
+soil shear strength; construct a slope stability model; establish 
+groundwater and seepage conditions, if any; select loading conditions; 
+locate critical failure surface; and iterate until minimum factor of 
+safety is achieved.",,primary,openai,gpt-5,1857,778
+88,EPA-HQ-OLEM-2017-0286,proposed,1,True,"The sentence appears within amendatory regulatory text revising § 257.102, making it new binding text.",compound,none,257,257.102,the stability analysis,must,strong,characterize,soil shear strength,False,True,At a minimum,revise,"The stability 
+analysis, at a minimum, must evaluate the site geology; characterize 
+soil shear strength; construct a slope stability model; establish 
+groundwater and seepage conditions, if any; select loading conditions; 
+locate critical failure surface; and iterate until minimum factor of 
+safety is achieved.",,primary,openai,gpt-5,0,0
+88,EPA-HQ-OLEM-2017-0286,proposed,2,True,"The sentence appears within amendatory regulatory text revising § 257.102, making it new binding text.",compound,none,257,257.102,the stability analysis,must,strong,construct,a slope stability model,False,True,At a minimum,revise,"The stability 
+analysis, at a minimum, must evaluate the site geology; characterize 
+soil shear strength; construct a slope stability model; establish 
+groundwater and seepage conditions, if any; select loading conditions; 
+locate critical failure surface; and iterate until minimum factor of 
+safety is achieved.",,primary,openai,gpt-5,0,0
+88,EPA-HQ-OLEM-2017-0286,proposed,3,True,"The sentence appears within amendatory regulatory text revising § 257.102, making it new binding text.",compound,none,257,257.102,the stability analysis,must,strong,establish,"groundwater and seepage conditions, if any",False,True,At a minimum,revise,"The stability 
+analysis, at a minimum, must evaluate the site geology; characterize 
+soil shear strength; construct a slope stability model; establish 
+groundwater and seepage conditions, if any; select loading conditions; 
+locate critical failure surface; and iterate until minimum factor of 
+safety is achieved.",,primary,openai,gpt-5,0,0
+88,EPA-HQ-OLEM-2017-0286,proposed,4,True,"The sentence appears within amendatory regulatory text revising § 257.102, making it new binding text.",compound,none,257,257.102,the stability analysis,must,strong,select,loading conditions,False,True,At a minimum,revise,"The stability 
+analysis, at a minimum, must evaluate the site geology; characterize 
+soil shear strength; construct a slope stability model; establish 
+groundwater and seepage conditions, if any; select loading conditions; 
+locate critical failure surface; and iterate until minimum factor of 
+safety is achieved.",,primary,openai,gpt-5,0,0
+88,EPA-HQ-OLEM-2017-0286,proposed,5,True,"The sentence appears within amendatory regulatory text revising § 257.102, making it new binding text.",compound,none,257,257.102,the stability analysis,must,strong,locate,critical failure surface,False,True,At a minimum,revise,"The stability 
+analysis, at a minimum, must evaluate the site geology; characterize 
+soil shear strength; construct a slope stability model; establish 
+groundwater and seepage conditions, if any; select loading conditions; 
+locate critical failure surface; and iterate until minimum factor of 
+safety is achieved.",,primary,openai,gpt-5,0,0
+88,EPA-HQ-OLEM-2017-0286,proposed,6,True,"The sentence appears within amendatory regulatory text revising § 257.102, making it new binding text.",compound,none,257,257.102,the stability analysis,must,strong,iterate,until minimum factor of safety is achieved,False,True,At a minimum,revise,"The stability 
+analysis, at a minimum, must evaluate the site geology; characterize 
+soil shear strength; construct a slope stability model; establish 
+groundwater and seepage conditions, if any; select loading conditions; 
+locate critical failure surface; and iterate until minimum factor of 
+safety is achieved.",,primary,openai,gpt-5,0,0
+89,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence is within amendatory regulatory text revising § 257.102, making it new binding text.",simple,none,257,257.102,the owner or operator of the CCR unit,must,strong,include,in the notification required by § 257.102(h) a certification by a qualified professional that the CCR unit was closed in accordance with the requirements of paragraph (d)(4) of this section,False,True,If required by paragraph (d)(4)(i)(B) of this section,revise,"(iii) If required by paragraph (d)(4)(i)(B) of this section, the 
+owner or operator of the CCR unit must also include in the notification 
+required by Sec.  257.102(h) a certification by a qualified 
+professional that the CCR unit was closed in accordance with the 
+requirements of paragraph (d)(4) of this section.",§ 257.102(h),primary,openai,gpt-5,1877,231
+90,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears within an amendatory block revising § 257.103, so it is new binding regulatory text.",compound,none,257,257.103,"The owner or operator of a CCR landfill, CCR surface impoundment, or any lateral expansion of a CCR unit that is subject to closure pursuant to § 257.101(a), (b)(1), or (d)",may,permissive,continue to receive,CCR wastestreams in the unit,False,True,"provided the owner or operator meets the requirements of either paragraph (a), (b), (c) or (d) of this section",revise,"The owner or operator of a CCR landfill, CCR surface impoundment, 
+or any lateral expansion of a CCR unit that is subject to closure 
+pursuant to Sec.  257.101(a), (b)(1), or (d) may continue to receive 
+CCR and/or non-CCR wastestreams in the unit provided the owner or 
+operator meets the requirements of either paragraph (a), (b), (c) or 
+(d) of this section.",§ 257.101,primary,openai,gpt-5,1990,432
+90,EPA-HQ-OLEM-2017-0286,proposed,1,True,"The sentence appears within an amendatory block revising § 257.103, so it is new binding regulatory text.",compound,none,257,257.103,"The owner or operator of a CCR landfill, CCR surface impoundment, or any lateral expansion of a CCR unit that is subject to closure pursuant to § 257.101(a), (b)(1), or (d)",may,permissive,continue to receive,non-CCR wastestreams in the unit,False,True,"provided the owner or operator meets the requirements of either paragraph (a), (b), (c) or (d) of this section",revise,"The owner or operator of a CCR landfill, CCR surface impoundment, 
+or any lateral expansion of a CCR unit that is subject to closure 
+pursuant to Sec.  257.101(a), (b)(1), or (d) may continue to receive 
+CCR and/or non-CCR wastestreams in the unit provided the owner or 
+operator meets the requirements of either paragraph (a), (b), (c) or 
+(d) of this section.",§ 257.101,primary,openai,gpt-5,0,0
+91,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears within an amendatory block that reads as follows for § 257.103, making it new binding regulatory text.",simple,none,257,257.103(b)(1),the owner or operator of the CCR unit,must,strong,certify,that non-CCR wastestreams must continue to be managed in that CCR unit due to the absence of alternative capacity both on-site and off-site the facility,False,True,"for the CCR unit to continue to receive non-CCR wastestreams notwithstanding § 257.101(a), (b)(1), or (d)",revise,"Notwithstanding the provisions of Sec.  257.101(a), (b)(1), or (d), a 
+CCR unit may continue to receive non-CCR wastestreams if the owner or 
+operator of the CCR unit certifies that the wastestreams must continue 
+to be managed in that CCR unit due to the absence of alternative 
+capacity both on-site and off-site the facility.",§ 257.101,primary,openai,gpt-5,1902,244
+92,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The text appears within an amendatory block revising § 257.103, so it is new binding regulatory text.",simple,none,257,257.103,the owner or operator of the CCR unit,must,strong,document,that all required conditions in paragraph (b)(1) have been met for each non-CCR wastestream that will continue to be received by the CCR unit,False,True,To qualify under paragraph (b)(1),revise,"To 
+qualify under this paragraph (b)(1), the owner or operator of the CCR 
+unit must document that all of the following conditions have been met 
+for each non-CCR wastestream that will continue to be received by the 
+CCR unit:
+    (i) No alternative disposal capacity is available.",§ 257.101,primary,openai,gpt-5,1837,216
+93,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears within an amendatory block revising § 257.103 and prescribes a condition that owners or operators must meet, making it new binding regulatory text.",simple,none,257,257.103,the owner or operator,must,strong,make efforts to obtain additional capacity,"at the earliest date the owner or operator knew, or had reason to know, that the unit may become subject to closure",False,True,to qualify under this subsection,revise,"Qualification under this subsection 
+requires that efforts to obtain additional capacity were made at the 
+earliest date that an owner or operator knew, or had reason to know, 
+that such a unit may become subject to closure under Sec.  257.101(a), 
+(b)(1), or (d).","§ 257.101(a), (b)(1), or (d)",primary,openai,gpt-5,1800,227
+94,EPA-HQ-OLEM-2017-0286,proposed,0,True,The text is within an amendatory block revising § 257.103 and contains mandatory requirements using 'must'.,compound,none,257,257.103,the owner or operator,must,strong,arrange to use,identified alternative capacity as soon as feasible,False,True,Once alternative capacity is identified,revise,"Once alternative capacity is 
+identified, the owner or operator must arrange to use such capacity as 
+soon as feasible;
+    (iii) The owner or operator must certify that the facility 
+generating any wastestream that continues to be placed into a CCR unit 
+pursuant to this section would need to cease generating power and is 
+located in or regularly provides the majority of generated electricity 
+to, one of the following three North American Electric Reliability 
+Corporation regions and sub-regions: the Midcontinent Independent 
+System Operator, the Southeastern Electric Reliability Council-East, 
+and/or the Southeastern Electric Reliability Council-North;
+    (iv)","§ 257.101(a), (b)(1), or (d)",primary,openai,gpt-5,1924,342
+94,EPA-HQ-OLEM-2017-0286,proposed,1,True,The text is within an amendatory block revising § 257.103 and contains mandatory requirements using 'must'.,compound,none,257,257.103,the owner or operator,must,strong,certify,that the facility generating any wastestream that continues to be placed into a CCR unit pursuant to this section would need to cease generating power and is located in or regularly provides the majority of generated electricity to one of the specified NERC regions/sub-regions,False,False,,revise,"Once alternative capacity is 
+identified, the owner or operator must arrange to use such capacity as 
+soon as feasible;
+    (iii) The owner or operator must certify that the facility 
+generating any wastestream that continues to be placed into a CCR unit 
+pursuant to this section would need to cease generating power and is 
+located in or regularly provides the majority of generated electricity 
+to, one of the following three North American Electric Reliability 
+Corporation regions and sub-regions: the Midcontinent Independent 
+System Operator, the Southeastern Electric Reliability Council-East, 
+and/or the Southeastern Electric Reliability Council-North;
+    (iv)",,primary,openai,gpt-5,0,0
+95,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The language appears within an amendatory block revising § 257.103, so the obligations are new binding regulatory text.",compound,none,257,257.103,The owner or operator,must,strong,remain in compliance,"all other requirements of this subpart, including the requirement to conduct any necessary corrective action",False,False,,revise,"The owner or operator must remain in compliance with all other 
+requirements of this subpart, including the requirement to conduct any 
+necessary corrective action; and
+    (v) The owner or operator must prepare an annual progress report 
+documenting the continued lack of alternative capacity and the progress 
+towards the development of alternative capacity for the given 
+wastestream.
+    (2) Once alternative capacity is available for a given wastestream, 
+the CCR unit must cease receiving that wastestream, and in the case 
+that alternate capacity has been found for all wastestreams, the 
+facility must initiate closure of the CCR unit following the timeframes 
+in Sec.  257.102(e) and (f).",,primary,openai,gpt-5,1980,558
+95,EPA-HQ-OLEM-2017-0286,proposed,1,True,"The language appears within an amendatory block revising § 257.103, so the obligations are new binding regulatory text.",compound,none,257,257.103,The owner or operator,must,strong,prepare,an annual progress report documenting the continued lack of alternative capacity and the progress towards the development of alternative capacity for the given wastestream,False,False,,revise,"The owner or operator must remain in compliance with all other 
+requirements of this subpart, including the requirement to conduct any 
+necessary corrective action; and
+    (v) The owner or operator must prepare an annual progress report 
+documenting the continued lack of alternative capacity and the progress 
+towards the development of alternative capacity for the given 
+wastestream.
+    (2) Once alternative capacity is available for a given wastestream, 
+the CCR unit must cease receiving that wastestream, and in the case 
+that alternate capacity has been found for all wastestreams, the 
+facility must initiate closure of the CCR unit following the timeframes 
+in Sec.  257.102(e) and (f).",,primary,openai,gpt-5,0,0
+95,EPA-HQ-OLEM-2017-0286,proposed,2,True,"The language appears within an amendatory block revising § 257.103, so the obligations are new binding regulatory text.",compound,none,257,257.103,The CCR unit,must,strong,cease receiving,the wastestream for which alternative capacity is available,False,True,Once alternative capacity is available for a given wastestream,revise,"The owner or operator must remain in compliance with all other 
+requirements of this subpart, including the requirement to conduct any 
+necessary corrective action; and
+    (v) The owner or operator must prepare an annual progress report 
+documenting the continued lack of alternative capacity and the progress 
+towards the development of alternative capacity for the given 
+wastestream.
+    (2) Once alternative capacity is available for a given wastestream, 
+the CCR unit must cease receiving that wastestream, and in the case 
+that alternate capacity has been found for all wastestreams, the 
+facility must initiate closure of the CCR unit following the timeframes 
+in Sec.  257.102(e) and (f).",,primary,openai,gpt-5,0,0
+95,EPA-HQ-OLEM-2017-0286,proposed,3,True,"The language appears within an amendatory block revising § 257.103, so the obligations are new binding regulatory text.",compound,none,257,257.103,The facility,must,strong,initiate closure of the CCR unit,following the timeframes in § 257.102(e) and (f),False,True,in the case that alternative capacity has been found for all wastestreams,revise,"The owner or operator must remain in compliance with all other 
+requirements of this subpart, including the requirement to conduct any 
+necessary corrective action; and
+    (v) The owner or operator must prepare an annual progress report 
+documenting the continued lack of alternative capacity and the progress 
+towards the development of alternative capacity for the given 
+wastestream.
+    (2) Once alternative capacity is available for a given wastestream, 
+the CCR unit must cease receiving that wastestream, and in the case 
+that alternate capacity has been found for all wastestreams, the 
+facility must initiate closure of the CCR unit following the timeframes 
+in Sec.  257.102(e) and (f).",§ 257.102(e) and (f),primary,openai,gpt-5,0,0
+96,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears within an amendatory block revising § 257.103, making it new binding regulatory text.",compound,none,257,257.103,the CCR unit,must,strong,cease receiving,all wastestreams,False,True,If no alternative capacity is identified within five years after the initial certification as required under (b)(1) of this section,revise,"(3) If no alternative capacity is identified within five years 
+after the initial certification as required under (b)(1) of this 
+section, the CCR unit must cease receiving all wastestreams and close 
+in accordance with the timeframes in Sec.  257.102(e) and (f).",,primary,openai,gpt-5,1826,329
+96,EPA-HQ-OLEM-2017-0286,proposed,1,True,"The sentence appears within an amendatory block revising § 257.103, making it new binding regulatory text.",compound,none,257,257.103,the CCR unit,must,strong,close,in accordance with the timeframes,False,True,If no alternative capacity is identified within five years after the initial certification as required under (b)(1) of this section,revise,"(3) If no alternative capacity is identified within five years 
+after the initial certification as required under (b)(1) of this 
+section, the CCR unit must cease receiving all wastestreams and close 
+in accordance with the timeframes in Sec.  257.102(e) and (f).",§ 257.102(e) and (f),primary,openai,gpt-5,0,0
+97,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears within an amendatory block revising § 257.103(d), making it new binding regulatory text.",compound,none,257,257.103(d)(1),the owner or operator,must,strong,certify,that the facility will cease operation of the coal-fired boilers within the timeframes specified in paragraphs (d)(2) and (3) of this section,False,True,"for a CCR unit to continue to receive non-CCR wastestreams notwithstanding § 257.101(a), (b)(1), and (d)",revise,"Notwithstanding the provisions of Sec.  257.101(a), 
+(b)(1), and (d), a CCR unit may continue to receive non-CCR 
+wastestreams if the owner or operator certifies that the facility will 
+cease operation of the coal-fired boilers within the timeframes 
+specified in paragraphs (d)(2) and (3) of this section, but in the 
+interim period (prior to closure of the coal-fired boiler), the 
+facility must continue to use the CCR unit due to the absence of 
+alternative capacity.",§ 257.101,primary,openai,gpt-5,1935,388
+97,EPA-HQ-OLEM-2017-0286,proposed,1,True,"The sentence appears within an amendatory block revising § 257.103(d), making it new binding regulatory text.",compound,none,257,257.103(d)(1),the facility,must,strong,continue to use,the CCR unit due to the absence of alternative capacity during the interim period prior to closure of the coal-fired boiler,False,True,if the owner or operator certifies that the facility will cease operation of the coal-fired boilers within the specified timeframes and there is an interim period prior to closure,revise,"Notwithstanding the provisions of Sec.  257.101(a), 
+(b)(1), and (d), a CCR unit may continue to receive non-CCR 
+wastestreams if the owner or operator certifies that the facility will 
+cease operation of the coal-fired boilers within the timeframes 
+specified in paragraphs (d)(2) and (3) of this section, but in the 
+interim period (prior to closure of the coal-fired boiler), the 
+facility must continue to use the CCR unit due to the absence of 
+alternative capacity.",,primary,openai,gpt-5,0,0
+98,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The obligation appears within amendatory regulatory text revising § 257.103, making it binding.",simple,none,257,257.103(d)(1),the owner or operator of the CCR unit,must,strong,document,that all of the specified conditions in paragraph (d)(1)(i)–(iii) have been met for each wastestream that will continue to be received by the CCR unit,False,True,To qualify under paragraph (d)(1),revise,"To 
+qualify under this paragraph (d)(1), the owner or operator of the CCR 
+unit must document that all of the following conditions have been met 
+for each wastestream that will continue to be received by the CCR unit:
+    (i)",§ 257.101(a) or (b)(1),primary,openai,gpt-5,1783,227
+99,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The text appears within an amendatory block revising § 257.103 and contains mandatory requirements, making it binding.",compound,none,257,257.103,The owner or operator,must,strong,certify,"that the facility is located in or regularly provides the majority of generated electricity to one of the specified NERC regions and sub-regions (MISO, SERC-East, and/or SERC-North)",False,True,To qualify under paragraph (d)(1) of § 257.103 for each wastestream that will continue to be received by the CCR unit,revise,"The owner or operator must certify that the facility is 
+located in or regularly provides the majority of generated electricity 
+to one of the following three North American Electric Reliability 
+Corporation regions and sub-regions: The Midcontinent Independent 
+System Operator, the Southeastern Electric Reliability Council-East, 
+and/or the Southeastern Electric Reliability Council-North.
+    (iii) The owner or operator must remain in compliance with all 
+other requirements of this subpart, including the requirement to 
+conduct any necessary corrective action; and
+    (iv)",§ 257.101(a) or (b)(1),primary,openai,gpt-5,1905,390
+99,EPA-HQ-OLEM-2017-0286,proposed,1,True,"The text appears within an amendatory block revising § 257.103 and contains mandatory requirements, making it binding.",compound,none,257,257.103,The owner or operator,must,strong,remain in compliance,"with all other requirements of this subpart, including conducting any necessary corrective action",False,True,To qualify under paragraph (d)(1) of § 257.103 for each wastestream that will continue to be received by the CCR unit,revise,"The owner or operator must certify that the facility is 
+located in or regularly provides the majority of generated electricity 
+to one of the following three North American Electric Reliability 
+Corporation regions and sub-regions: The Midcontinent Independent 
+System Operator, the Southeastern Electric Reliability Council-East, 
+and/or the Southeastern Electric Reliability Council-North.
+    (iii) The owner or operator must remain in compliance with all 
+other requirements of this subpart, including the requirement to 
+conduct any necessary corrective action; and
+    (iv)",,primary,openai,gpt-5,0,0
+100,EPA-HQ-OLEM-2017-0286,proposed,0,True,The sentence appears within an amendatory block revising § 257.103; therefore it is new binding regulatory text.,simple,none,257,257.103,The owner or operator,must,strong,prepare,an annual progress report documenting the continued lack of alternative capacity and the progress towards the closure of the coal-fired boiler,False,False,,revise,"The owner or operator must prepare an annual progress report 
+documenting the continued lack of alternative capacity and the progress 
+towards the closure of the coal-fired boiler.",,primary,openai,gpt-5,1768,190
+101,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence is within an amendatory block revising § 257.103, making the language new binding text.",compound,none,257,257.103,the coal-fired boiler,must,strong,cease,operation,False,True,For a CCR surface impoundment that is 40 acres or smaller,revise,"(2) For a CCR surface impoundment that is 40 acres or smaller, the 
+coal-fired boiler must cease operation and the CCR surface impoundment 
+must have",,primary,openai,gpt-5,1779,306
+101,EPA-HQ-OLEM-2017-0286,proposed,1,True,"The sentence is within an amendatory block revising § 257.103, making the language new binding text.",compound,none,257,257.103,the CCR surface impoundment,must,strong,have completed closure,"closure no later than October 17, 2023",False,True,For a CCR surface impoundment that is 40 acres or smaller,revise,"(2) For a CCR surface impoundment that is 40 acres or smaller, the 
+coal-fired boiler must cease operation and the CCR surface impoundment 
+must have",,primary,openai,gpt-5,0,0
+102,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears within an amendatory block revising CFR text, making it new binding regulatory language.",compound,none,257,257.103,the coal-fired boiler,must,strong,cease,operation,False,True,For a CCR surface impoundment that is larger than 40 acres,revise,"[[Page 11616]]
+
+completed closure no later than October 17, 2023.
+    (3) For a CCR surface impoundment that is larger than 40 acres, the 
+coal-fired boiler must cease operation, and the CCR surface impoundment 
+must complete closure no later than October 17, 2028.",,primary,openai,gpt-5,1847,301
+102,EPA-HQ-OLEM-2017-0286,proposed,1,True,"The sentence appears within an amendatory block revising CFR text, making it new binding regulatory language.",compound,none,257,257.103,the CCR surface impoundment,must,strong,complete,"closure no later than October 17, 2028",False,True,For a CCR surface impoundment that is larger than 40 acres,revise,"[[Page 11616]]
+
+completed closure no later than October 17, 2023.
+    (3) For a CCR surface impoundment that is larger than 40 acres, the 
+coal-fired boiler must cease operation, and the CCR surface impoundment 
+must complete closure no later than October 17, 2028.",,primary,openai,gpt-5,0,0
+103,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears in an amendatory block revising § 257.104(c), so it is new binding regulatory text.",simple,none,257,257.104(c)(1),the owner or operator of the CCR unit,must,strong,conduct,post-closure care for 30 years,False,True,Except as provided by paragraphs (c)(2) and (3) of this section,revise,"(1) Except as provided by paragraphs 
+(c)(2) and (3) of this section, the owner or operator of the CCR unit 
+must conduct post-closure care for 30 years.",§ 257.104(c)(2)-(3),primary,openai,gpt-5,1811,211
+104,EPA-HQ-OLEM-2017-0286,proposed,0,True,"Text is within an amendatory block revising § 257.104(c), making it new binding regulatory text.",compound,none,257,257.104(c)(2),the owner or operator of the CCR unit,must,strong,continue to conduct post-closure care,None,False,True,If at the end of the post-closure care period the owner or operator of the CCR unit is operating under assessment monitoring in accordance with § 257.95,revise,"(2) If at the end of the post-closure care period the owner or 
+operator of the CCR unit is operating under assessment monitoring in 
+accordance with Sec.  257.95, the owner or operator must continue to 
+conduct post-closure care until the owner or operator returns to 
+detection monitoring in accordance with Sec.  257.95.
+    (3)(i)",§ 257.95,primary,openai,gpt-5,1874,348
+104,EPA-HQ-OLEM-2017-0286,proposed,1,True,"Text is within an amendatory block revising § 257.104(c), making it new binding regulatory text.",compound,none,257,257.104(c)(2),the owner or operator of the CCR unit,must,strong,return to detection monitoring,in accordance with § 257.95,False,True,to end the continued post-closure care required while operating under assessment monitoring,revise,"(2) If at the end of the post-closure care period the owner or 
+operator of the CCR unit is operating under assessment monitoring in 
+accordance with Sec.  257.95, the owner or operator must continue to 
+conduct post-closure care until the owner or operator returns to 
+detection monitoring in accordance with Sec.  257.95.
+    (3)(i)",§ 257.95,primary,openai,gpt-5,0,0
+105,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The text appears within an amendatory block revising § 257.104, making the obligations binding.",compound,none,257,257.104(c)(3)(i),The Director of a participating state,may,permissive,establish,an alternate post-closure period upon a determination that the alternate period is sufficient to protect human health and the environment,False,True,upon a determination that the alternate period is sufficient to protect human health and the environment,revise,"The Director of a participating state may establish an 
+alternate post-closure period upon a determination that the alternate 
+period is sufficient to protect human health and the environment.
+    (ii) To reduce the post closure care period, the Director must 
+ensure that the post-closure care period is long enough to establish 
+settlement behavior and to detect to wear-in defects in the cover 
+system.",,primary,openai,gpt-5,1888,498
+105,EPA-HQ-OLEM-2017-0286,proposed,1,True,"The text appears within an amendatory block revising § 257.104, making the obligations binding.",compound,none,257,257.104(c)(3)(ii),The Director,must,strong,ensure,that the post-closure care period is long enough to establish settlement behavior and to detect wear-in defects in the cover system when reducing the post-closure care period,False,True,To reduce the post-closure care period,revise,"The Director of a participating state may establish an 
+alternate post-closure period upon a determination that the alternate 
+period is sufficient to protect human health and the environment.
+    (ii) To reduce the post closure care period, the Director must 
+ensure that the post-closure care period is long enough to establish 
+settlement behavior and to detect to wear-in defects in the cover 
+system.",,primary,openai,gpt-5,0,0
+105,EPA-HQ-OLEM-2017-0286,proposed,2,True,"The text appears within an amendatory block revising § 257.104, making the obligations binding.",compound,none,257,257.104(c)(3)(ii),The Director,must,strong,consider,"at a minimum, the type of cover placed on the unit and the placement of the groundwater monitoring wells with respect to the waste management units and the groundwater table when reducing the post-closure care period",False,True,"At a minimum, to reduce the post-closure care period",revise,"The Director of a participating state may establish an 
+alternate post-closure period upon a determination that the alternate 
+period is sufficient to protect human health and the environment.
+    (ii) To reduce the post closure care period, the Director must 
+ensure that the post-closure care period is long enough to establish 
+settlement behavior and to detect to wear-in defects in the cover 
+system.",,primary,openai,gpt-5,0,0
+106,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears within amendatory regulatory text revising § 257.104, making it new binding text.",compound,none,257,257.104,the Director,must,strong,consider,the type of cover placed on the unit,False,True,To reduce the post-closure care period,revise,"At a minimum, the Director must consider the type of cover 
+placed on the unit (e.g., geosynthetic clay liner) and the placement of 
+the groundwater monitoring wells with respect to the waste management 
+units and the groundwater table.",,primary,openai,gpt-5,1822,298
+106,EPA-HQ-OLEM-2017-0286,proposed,1,True,"The sentence appears within amendatory regulatory text revising § 257.104, making it new binding text.",compound,none,257,257.104,the Director,must,strong,consider,the placement of the groundwater monitoring wells with respect to the waste management units and the groundwater table,False,True,To reduce the post-closure care period,revise,"At a minimum, the Director must consider the type of cover 
+placed on the unit (e.g., geosynthetic clay liner) and the placement of 
+the groundwater monitoring wells with respect to the waste management 
+units and the groundwater table.",,primary,openai,gpt-5,0,0
+100208,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The language appears within an amendatory block revising § 257.73(a)(4), making it new binding text.",simple,none,257,257.73(a)(4),slope protection,must,strong,be consistent with the requirements,paragraph (a)(4) of this section,True,False,,revise,Slope protection consistent with the requirements under paragraph (a)(4) of this section.,§ 257.73(a)(4),safety_net_verified,openai,gpt-5,1635,192
+100300,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears within an explicit amendatory block revising § 257.74(a)(4), so it is new binding regulatory text.",compound,none,257,257.74(a)(4),The owner or operator of the CCR unit,must,strong,design and construct,the slopes and pertinent surrounding areas of the CCR unit with one of the forms of slope protection specified in paragraph (a)(4)(i) of this section that meets all of the performance standards of paragraph (a)(4)(ii) of this section,False,False,,revise,"The slopes and pertinent surrounding areas of the CCR unit must be designed, constructed, operated, and maintained with one of the forms of slope protection specified in paragraph (a)(4)(i) of this section that meets all of the performance standards of paragraph (a)(4)(ii) of this section.",§ 257.74(a)(4)(i)-(ii),safety_net_verified,openai,gpt-5,1757,408
+100300,EPA-HQ-OLEM-2017-0286,proposed,1,True,"The sentence appears within an explicit amendatory block revising § 257.74(a)(4), so it is new binding regulatory text.",compound,none,257,257.74(a)(4),The owner or operator of the CCR unit,must,strong,operate and maintain,the slopes and pertinent surrounding areas of the CCR unit with one of the forms of slope protection specified in paragraph (a)(4)(i) of this section that meets all of the performance standards of paragraph (a)(4)(ii) of this section,False,False,,revise,"The slopes and pertinent surrounding areas of the CCR unit must be designed, constructed, operated, and maintained with one of the forms of slope protection specified in paragraph (a)(4)(i) of this section that meets all of the performance standards of paragraph (a)(4)(ii) of this section.",§ 257.74(a)(4)(i)-(ii),safety_net_verified,openai,gpt-5,0,0
+100301,EPA-HQ-OLEM-2017-0286,proposed,0,True,The sentence appears within an amendatory block revising § 257.74; therefore it is new binding regulatory text.,simple,none,257,257.74(a)(4)(i),slope protection,must,strong,consist,one of the specified forms in paragraph (a)(4)(i),False,False,,revise,Slope protection must consist of one of the following:,§ 257.74(a)(4)(i),safety_net_verified,openai,gpt-5,1624,196
+100302,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears within an amendatory block that revises § 257.74, making it new binding regulatory text.",simple,none,257,257.74(a)(4),Any form of cover for slope protection,must,strong,meet,all of the performance standards in paragraph (a)(4)(ii) of this section,False,False,,revise,Any form of cover for slope protection must meet all of the following performance standards:,§ 257.74(a)(4)(ii),safety_net_verified,openai,gpt-5,1646,201
+100303,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears within an amendatory block revising § 257.74(a)(4), making it new binding regulatory text.",simple,none,257,257.74(a)(4),the cover,must,strong,be installed and maintained,on the slopes and pertinent surrounding areas of the CCR unit,True,False,,revise,The cover must be installed and maintained on the slopes and pertinent surrounding areas of the CCR unit;,,safety_net_verified,openai,gpt-5,1635,185
+100304,EPA-HQ-OLEM-2017-0286,proposed,0,True,The text appears within an amendatory block revising § 257.74; therefore it is new binding regulatory text.,simple,none,257,257.74(a)(4),the cover,must,strong,provide protection,"against surface erosion, wave action, and adverse effects of rapid drawdown",False,False,,revise,"The cover must provide protection against surface erosion, wave action, and adverse effects of rapid drawdown;",,safety_net_verified,openai,gpt-5,1637,184
+100305,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears within an amendatory block revising § 257.74, making it new binding regulatory text.",compound,none,257,257.74(a)(4),the cover,must,strong,be maintained to allow for the observation of the slopes and pertinent surrounding areas,during routine and emergency events,True,False,,revise,The cover must be maintained to allow for the observation of and access to the slopes and pertinent surrounding areas during routine and emergency events;,,safety_net_verified,openai,gpt-5,1659,298
+100305,EPA-HQ-OLEM-2017-0286,proposed,1,True,"The sentence appears within an amendatory block revising § 257.74, making it new binding regulatory text.",compound,none,257,257.74(a)(4),the cover,must,strong,be maintained to allow for access to the slopes and pertinent surrounding areas,during routine and emergency events,True,False,,revise,The cover must be maintained to allow for the observation of and access to the slopes and pertinent surrounding areas during routine and emergency events;,,safety_net_verified,openai,gpt-5,0,0
+100306,EPA-HQ-OLEM-2017-0286,proposed,0,True,The sentence appears within an amendatory block that revises § 257.74; therefore it is new binding regulatory text.,simple,none,257,257.74(a)(4),Woody vegetation,must,strong,be removed,from the slopes or pertinent surrounding areas,True,False,,revise,Woody vegetation must be removed from the slopes or pertinent surrounding areas.,,safety_net_verified,openai,gpt-5,1619,179
+100307,EPA-HQ-OLEM-2017-0286,proposed,0,True,The sentence appears within an amendatory block that revises § 257.74; amended text is binding.,simple,none,257,257.74,vegetation (grassy and woody),must not,strong,exceed,12 inches in vegetative height,False,False,,revise,The vegetative height of grassy and woody vegetation must not exceed 12 inches.,,safety_net_verified,openai,gpt-5,1623,177
+100308,EPA-HQ-OLEM-2017-0286,proposed,0,True,The sentence appears within an explicit amendatory block revising § 257.74; therefore it constitutes new binding regulatory text.,simple,none,257,257.74(a)(4),slope protection,must,strong,be consistent with the requirements,paragraph (a)(4) of this section,True,False,,revise,Slope protection consistent with the requirements under paragraph (a)(4) of this section.,§ 257.74(a)(4),safety_net_verified,openai,gpt-5,1629,192
+100500,EPA-HQ-OLEM-2017-0286,proposed,0,True,"Text appears within an amendatory block revising paragraph (b)(5), making it new binding regulatory text.",simple,none,257,257.84(b)(5),the owner or operator,must,strong,remedy,the identified deficiency or release in accordance with applicable requirements in §§ 257.96 through 257.99,False,True,If a deficiency or release is identified during an inspection,revise,"If a deficiency or release is identified during an inspection, the owner or operator must remedy the deficiency or release in accordance with applicable requirements in Sec. Sec.  257.96 through 257.99.",§§ 257.96 through 257.99,safety_net_verified,openai,gpt-5,1578,212
+100600,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears within an amendatory block revising § 257.90, making it new binding regulatory text.",simple,none,257,257.90(a),"All CCR landfills, CCR surface impoundments, and lateral expansions of CCR units",no_modal_implicit,strong,are subject to,the groundwater monitoring and corrective action requirements in §§ 257.90 through 257.99,False,True,except as provided in paragraph (g) of this section,revise,"(a) All CCR landfills, CCR surface impoundments, and lateral expansions of CCR units are subject to the groundwater monitoring and corrective action requirements under Sec. Sec. 257.90 through 257.99, except as provided in paragraph (g) of this section.",§§ 257.90 through 257.99,safety_net_verified,openai,gpt-5,1749,226
+100602,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears within an amendatory block adding paragraph (g) to § 257.90, making it new binding text.",simple,none,257,257.90(g)(1),the owner or operator of the CCR unit,must,strong,provide written documentation,that there is no potential for migration of the constituents listed in appendices III and IV to this part from that CCR unit to the uppermost aquifer during the active life of the CCR unit and the post-closure care period,False,True,to obtain a suspension by the State Director of a participating state of the groundwater monitoring requirements under §§ 257.90 through 257.95 for up to ten years,add,(g)(1) ... the State Director of a participating state may suspend for up to ten years the groundwater monitoring requirements under Sec. Sec. 257.90 through 257.95 for a CCR unit if the owner or operator provides written documentation that there is no potential for migration of the constituents listed in appendices III and IV to this part from that CCR unit to the uppermost aquifer during the active life of the CCR unit and the post-closure care period.,§§ 257.90 through 257.95,safety_net_verified,openai,gpt-5,1832,267
+100901,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears within an amendatory block revising § 257.98, making the language new binding text.",simple,none,257,257.98(b),the owner or operator,must,strong,comply,all of the following requirements,False,True,Upon detection of a non-groundwater release from a CCR unit,revise,"(b) Corrective action requirements. Upon detection of a non- groundwater release from a CCR unit, the owner or operator must comply with all of the following requirements:",,safety_net_verified,openai,gpt-5,1660,186
+100902,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears within an amendatory block revising § 257.98(c), so it is new binding regulatory text.",compound,none,257,257.98(c),the owner or operator,must,strong,determine the corrective measures that will meet the substantive standards in § 257.96(a),to prevent further releases,False,False,,revise,"(2)(i) Determine the corrective measures that will meet the substantive standards in Sec. Sec.  257.96(a) to prevent further releases, to remediate any releases and to restore the affected area to original conditions;",§ 257.96(a),safety_net_verified,openai,gpt-5,1699,446
+100902,EPA-HQ-OLEM-2017-0286,proposed,1,True,"The sentence appears within an amendatory block revising § 257.98(c), so it is new binding regulatory text.",compound,none,257,257.98(c),the owner or operator,must,strong,determine the corrective measures that will meet the substantive standards in § 257.96(a),to remediate any releases,False,False,,revise,"(2)(i) Determine the corrective measures that will meet the substantive standards in Sec. Sec.  257.96(a) to prevent further releases, to remediate any releases and to restore the affected area to original conditions;",§ 257.96(a),safety_net_verified,openai,gpt-5,0,0
+100902,EPA-HQ-OLEM-2017-0286,proposed,2,True,"The sentence appears within an amendatory block revising § 257.98(c), so it is new binding regulatory text.",compound,none,257,257.98(c),the owner or operator,must,strong,determine the corrective measures that will meet the substantive standards in § 257.96(a),to restore the affected area to original conditions,False,False,,revise,"(2)(i) Determine the corrective measures that will meet the substantive standards in Sec. Sec.  257.96(a) to prevent further releases, to remediate any releases and to restore the affected area to original conditions;",§ 257.96(a),safety_net_verified,openai,gpt-5,0,0
+100903,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears within an amendatory block revising § 257.98(c), so the language is new binding text.",simple,none,257,257.98(c),the owner or operator,must,strong,analyze the effectiveness of potential corrective measures,in meeting all of the requirements and objectives of the remedy as described in § 257.96(c),False,False,,revise,(ii) Analyze the effectiveness of potential corrective measures in meeting all of the requirements and objectives of the remedy as described in Sec.  257.96(c);,§ 257.96(c),safety_net_verified,openai,gpt-5,1659,203
+100904,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears within an amendatory block revising § 257.98(c), so the language is new binding regulatory text.",simple,none,257,257.98(c)(3),the owner or operator,must,strong,select the corrective action that will remedy the non-groundwater release,"taking into account, at a minimum, the results of the assessment in paragraph (b)(2)(ii) of this section and the factors specified in § 257.97(c)",False,False,,revise,"(3) Select the corrective action that will remedy the non- groundwater release, taking into account, at a minimum, the results of the assessment in paragraph (b)(2)(ii) of this section and the factors specified in Sec.  257.97(c); and",§ 257.97(c),safety_net_verified,openai,gpt-5,1718,226
+100905,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The text appears within an amendatory block revising § 257.98(c), so it constitutes new binding regulatory text.",simple,none,257,257.98(c),the owner or operator,must,strong,remediate,"the non-groundwater release to meet the standards specified in § 257.97(b)(1), (3), (4), and (5)",False,False,,revise,"(4) Remediate the non-groundwater release to meet the standards specified in Sec.  257.97(b)(1), (3), (4), and (5).",§ 257.97,safety_net_verified,openai,gpt-5,1662,206
+100906,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears within an amendatory block revising § 257.98(c), making it new binding regulatory text.",simple,none,257,257.98(c)(5),The owner or operator,must,strong,complete the remedy,within 180 days of the date of discovery of the release,False,False,,revise,(5) Complete remedy within 180 days of the date of discovery of the release.,,safety_net_verified,openai,gpt-5,1610,185
+100908,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence is within an amendatory block revising § 257.98(c), making it new binding regulatory text.",simple,none,257,257.98(c),The owner or operator,must,strong,place,the completed analysis of the effectiveness of potential corrective measures in the facility's operating record,False,True,Within 15 days of completing the analysis as required by paragraph (b)(2)(ii) of this section,revise,"(2) Within 15 days of completing the analysis of the effectiveness of potential corrective measures as required by paragraph (b)(2)(ii) of this section, place the completed analysis in the facility's operating record.",§ 257.98(b)(2)(ii),safety_net_verified,openai,gpt-5,1683,217
+101400,EPA-HQ-OLEM-2017-0286,proposed,0,True,The sentence appears within an amendatory block adding paragraphs to § 257.106 and thus constitutes new binding regulatory text.,simple,none,257,257.106(h)(11),The owner or operator,must,strong,provide,the demonstration supporting the suspension of groundwater monitoring requirements specified under § 257.105(h)(14),False,False,,add,Provide the demonstration supporting the suspension of groundwater monitoring requirements specified under Sec. 257.105(h)(14).,§ 257.105(h)(14),safety_net_verified,openai,gpt-5,1661,197
+101401,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears within an amendatory block adding paragraphs to § 257.106, making it new binding text.",simple,none,257,257.106(h)(12),Owners and operators subject to 40 CFR 257.106(h),must,strong,provide,notification of discovery of a non-groundwater release specified under § 257.105(h)(15),False,False,,add,Provide notification of discovery of a non-groundwater release specified under Sec. 257.105(h)(15).,§ 257.105(h)(15),safety_net_verified,openai,gpt-5,1647,205
+101402,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears in an amendatory block adding paragraphs to § 257.106(h), making it binding regulatory text.",simple,none,257,257.106(h)(13),Owners and operators subject to 40 CFR 257.106(h),must,strong,provide notification,of the availability of the report documenting the completion of the corrective action specified under § 257.105(h)(16),False,False,,add,Provide notification of the availability of the report documenting the completion of the corrective action specified under Sec. 257.105(h)(16).,§ 257.105(h)(16),safety_net_verified,openai,gpt-5,1677,211
+101403,EPA-HQ-OLEM-2017-0286,proposed,0,True,"The sentence appears within an amendatory block adding paragraphs to § 257.106 and prescribes a duty, making it binding.",simple,none,257,257.106(i)(14),Owners and operators of CCR units subject to § 257.106(i),must,strong,provide,the demonstration supporting the reduced post-closure care period specified under § 257.105(i)(14),False,False,,add,Provide the demonstration supporting the reduced post-closure care period specified under Sec. 257.105(i)(14).,§ 257.105(i)(14),safety_net_verified,openai,gpt-5,1655,210

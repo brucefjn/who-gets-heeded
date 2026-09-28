@@ -1,0 +1,7 @@
+{
+  "n_audited_pairs": 150,
+  "n_in_headline": 150,
+  "n_relabeled_by_audit": 62,
+  "corrected_parquet_path": "data/processed/path_a_obligation_outcomes_audit_corrected.parquet",
+  "next_step": "python3 code/20_finding3_analysis.py --outcomes-path data/processed/path_a_obligation_outcomes_audit_corrected.parquet"
+}

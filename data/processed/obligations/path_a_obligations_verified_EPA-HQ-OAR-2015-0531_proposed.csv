@@ -1,0 +1,763 @@
+candidate_idx,docket_id,rule_type,split_idx,verified,verified_reason,complexity,recital_disposition,cfr_part,cfr_section,subject,modal,modal_strength,action,object,passive_voice,is_conditional,condition_text,amendatory_action,obligation_text,cross_reference,found_via,llm_provider,llm_model,in_tokens,out_tokens
+1,EPA-HQ-OAR-2015-0531,proposed,0,True,"Within a regulatory definitions section, the parenthetical sentence embeds a binding requirement using “must,” prescribing how a quantity is to be calculated.",simple,definition_embedded,51,51.301,the atmospheric light extinction coefficient,must,strong,be calculated from aerosol measurements and an estimate of Rayleigh scattering,None,True,True,for the purposes of calculating deciview using IMPROVE data,none,"The deciview index is calculated based on the following equation (for 
+the purposes of calculating deciview using IMPROVE data, the 
+atmospheric light extinction coefficient must be calculated from 
+aerosol measurements and an estimate of Rayleigh scattering):
+    Deciview index=10 ln (b<INF>ext</INF>/10 Mm<SUP>-1</SUP>).",,primary,openai,gpt-5,1857,197
+2,EPA-HQ-OAR-2015-0531,proposed,0,True,"The text is within an amendatory block revising § 51.302 to read as follows, making it new binding regulatory text.",compound,none,51,51.302(a),The affected Federal Land Manager,may,permissive,certify,that there exists reasonably attributable impairment of visibility in any mandatory Class I Federal area,False,False,,revise,"(a) The affected Federal Land Manager may certify, at any time, 
+that there exists reasonably attributable impairment of visibility in 
+any mandatory Class I Federal area and identify which single source or 
+small number of sources is responsible for such impairment.",,primary,openai,gpt-5,1795,302
+2,EPA-HQ-OAR-2015-0531,proposed,1,True,"The text is within an amendatory block revising § 51.302 to read as follows, making it new binding regulatory text.",compound,none,51,51.302(a),The affected Federal Land Manager,may,permissive,identify,which single source or small number of sources is responsible for such impairment,False,False,,revise,"(a) The affected Federal Land Manager may certify, at any time, 
+that there exists reasonably attributable impairment of visibility in 
+any mandatory Class I Federal area and identify which single source or 
+small number of sources is responsible for such impairment.",,primary,openai,gpt-5,0,0
+3,EPA-HQ-OAR-2015-0531,proposed,0,True,"The text appears within an amendatory block revising § 51.302 to read as follows, making it new binding regulatory text.",compound,none,51,51.302(b),The State(s) in which the source(s) is located,shall,strong,revise,its regional haze implementation plan,False,False,,revise,"(b) The State(s) in which the source(s) is located shall revise its 
+regional haze implementation plan, in accordance with the schedules set 
+forth in paragraphs (d)(1) and (2) of this section, to include for each 
+source or small number of sources that the Federal Land Manager has 
+identified in whole or in part for reasonably attributable visibility 
+impairment as part of a certification under paragraph (a) of this 
+section:
+    (1) A determination, based on the factors set forth in Sec.  
+51.308(d)(1)(i)(A), of the control measures, if any, that are necessary 
+with respect to the source or sources in order for the plan to make 
+reasonable progress toward natural visibility conditions in the 
+affected Class I Federal area;",,primary,openai,gpt-5,2020,393
+3,EPA-HQ-OAR-2015-0531,proposed,1,True,"The text appears within an amendatory block revising § 51.302 to read as follows, making it new binding regulatory text.",compound,none,51,51.302(b)(1),The State(s) in which the source(s) is located,shall,strong,include,"for each identified source, a determination of the necessary control measures based on the factors in § 51.308(d)(1)(i)(A)",False,True,"for each source or small number of sources that the Federal Land Manager has identified in whole or in part for reasonably attributable visibility impairment as part of a certification under paragraph (a) of this section, and in accordance with the schedules set forth in paragraphs (d)(1) and (2) of this section",revise,"(b) The State(s) in which the source(s) is located shall revise its 
+regional haze implementation plan, in accordance with the schedules set 
+forth in paragraphs (d)(1) and (2) of this section, to include for each 
+source or small number of sources that the Federal Land Manager has 
+identified in whole or in part for reasonably attributable visibility 
+impairment as part of a certification under paragraph (a) of this 
+section:
+    (1) A determination, based on the factors set forth in Sec.  
+51.308(d)(1)(i)(A), of the control measures, if any, that are necessary 
+with respect to the source or sources in order for the plan to make 
+reasonable progress toward natural visibility conditions in the 
+affected Class I Federal area;",§ 51.308(d)(1)(i)(A),primary,openai,gpt-5,0,0
+4,EPA-HQ-OAR-2015-0531,proposed,0,True,"The text appears within regulatory text of § 51.302 being set out as amendatory content, prescribing what State plans must include and actions States shall take, thus constituting new binding text.",compound,none,51,51.302(c),the State,shall,strong,revise,"its regional haze implementation plan to meet the requirements of § 51.308(e) with respect to that source, taking into account current conditions related to the factors listed in § 51.308(e)(1)(ii)(A)",False,True,"If a source identified by the Federal Land Manager as responsible for reasonably attributable visibility impairment is a BART-eligible source and there is not in effect, as of the date of the certification, a fully or conditionally approved implementation plan addressing the BART requirement for that source",revise,"[[Page 26970]]
+
+    (2) Emission limitations that reflect the degree of emission 
+reduction achievable by such control measures and schedules for 
+compliance as expeditiously as practicable; and
+    (3) Monitoring, recordkeeping, and reporting requirements 
+sufficient to ensure the enforceability of the emission limitations.
+    (c) If a source that the Federal Land Manager has identified as 
+responsible in whole or in part for reasonably attributable visibility 
+impairment as part of a certification under paragraph (a) of this 
+section is a BART-eligible source, and if there is not in effect as of 
+the date of the certification a fully or conditionally approved 
+implementation plan addressing the BART requirement for that source 
+(which existing plan may incorporate either source-specific emission 
+limitations reflecting the emission control performance of BART, an 
+alternative program to address the BART requirement under Sec.  
+51.308(e)(2), (3), and (4), or for sources of SO<INF>2</INF>",§ 51.308(e),primary,openai,gpt-5,2133,553
+4,EPA-HQ-OAR-2015-0531,proposed,1,True,"The text appears within regulatory text of § 51.302 being set out as amendatory content, prescribing what State plans must include and actions States shall take, thus constituting new binding text.",compound,none,51,51.302(b)(2),the State plan (for each identified source or small number of sources),must,strong,include emission limitations and schedules for compliance,emission limitations that reflect the degree of emission reduction achievable by the selected control measures and schedules for compliance as expeditiously as practicable,False,False,,revise,"[[Page 26970]]
+
+    (2) Emission limitations that reflect the degree of emission 
+reduction achievable by such control measures and schedules for 
+compliance as expeditiously as practicable; and
+    (3) Monitoring, recordkeeping, and reporting requirements 
+sufficient to ensure the enforceability of the emission limitations.
+    (c) If a source that the Federal Land Manager has identified as 
+responsible in whole or in part for reasonably attributable visibility 
+impairment as part of a certification under paragraph (a) of this 
+section is a BART-eligible source, and if there is not in effect as of 
+the date of the certification a fully or conditionally approved 
+implementation plan addressing the BART requirement for that source 
+(which existing plan may incorporate either source-specific emission 
+limitations reflecting the emission control performance of BART, an 
+alternative program to address the BART requirement under Sec.  
+51.308(e)(2), (3), and (4), or for sources of SO<INF>2</INF>",,primary,openai,gpt-5,0,0
+4,EPA-HQ-OAR-2015-0531,proposed,2,True,"The text appears within regulatory text of § 51.302 being set out as amendatory content, prescribing what State plans must include and actions States shall take, thus constituting new binding text.",compound,none,51,51.302(b)(3),the State plan (for each identified source or small number of sources),must,strong,"include monitoring, recordkeeping, and reporting requirements",requirements sufficient to ensure the enforceability of the emission limitations,False,False,,revise,"[[Page 26970]]
+
+    (2) Emission limitations that reflect the degree of emission 
+reduction achievable by such control measures and schedules for 
+compliance as expeditiously as practicable; and
+    (3) Monitoring, recordkeeping, and reporting requirements 
+sufficient to ensure the enforceability of the emission limitations.
+    (c) If a source that the Federal Land Manager has identified as 
+responsible in whole or in part for reasonably attributable visibility 
+impairment as part of a certification under paragraph (a) of this 
+section is a BART-eligible source, and if there is not in effect as of 
+the date of the certification a fully or conditionally approved 
+implementation plan addressing the BART requirement for that source 
+(which existing plan may incorporate either source-specific emission 
+limitations reflecting the emission control performance of BART, an 
+alternative program to address the BART requirement under Sec.  
+51.308(e)(2), (3), and (4), or for sources of SO<INF>2</INF>",,primary,openai,gpt-5,0,0
+5,EPA-HQ-OAR-2015-0531,proposed,0,True,The sentence imposes a binding requirement within regulatory text specifying what the State shall do; it functions as binding text even though no explicit amendatory wrapper is provided in the excerpt.,simple,none,51,51.302,the State,shall,strong,revise,"its regional haze implementation plan to meet the requirements of § 51.308(e) with respect to that source, taking into account current conditions related to the factors listed in § 51.308(e)(1)(ii)(A)",False,True,"if a source is BART-eligible and there is not in effect as of the date of the certification a fully or conditionally approved implementation plan addressing the BART requirement for that source (which existing plan may incorporate either source-specific BART emission limitations, an alternative program under § 51.308(e)(2)–(4), or for SO2 sources a program approved under § 51.309(d)(4))",none,"a program 
+approved under paragraph Sec.  51.309(d)(4)), then the State shall 
+revise its regional haze implementation plan to meet the requirements 
+of Sec.  51.308(e) with respect to that source, taking into account 
+current conditions related to the factors listed in Sec.  
+51.308(e)(1)(ii)(A).",§ 51.308(e),primary,openai,gpt-5,1838,315
+9,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence contains mandatory regulatory text using 'shall' within proposed amendatory context leading into a revision of § 51.304, making it new binding text.",compound,none,51,51.308(f),The State(s),shall,strong,submit,a revision to its regional haze implementation plan that includes the elements described in paragraph (b) and (c),False,True,"For any existing reasonably attributable visibility impairment the Federal Land Manager certifies to the State(s) under paragraph (a) of this section less than 2 years prior to the due date for a regional haze implementation plan revision required under § 51.308(f), but no more than 6 months subsequent to the submission date of that implementation plan revision or no more than 6 months subsequent to a further plan revision that changes the emission limitation for the subject source",revise,"(2) For any existing reasonably attributable visibility impairment 
+the Federal Land Manager certifies to the State(s) under paragraph (a) 
+of this section less than 2 years prior to the due date for a regional 
+haze implementation plan revision required under Sec.  51.308(f), but 
+no more than 6 months subsequent to the submission date of that 
+implementation plan revision or no more than 6 months subsequent to a 
+further plan revision that changes the emission limitation for the 
+subject source, the State(s) shall submit a revision to its regional 
+haze implementation plan that includes the elements described in 
+paragraph (b) and (c) no later than 2 years after the date of the 
+certification.",§ 51.308(f),primary,openai,gpt-5,1989,505
+9,EPA-HQ-OAR-2015-0531,proposed,1,True,"The sentence contains mandatory regulatory text using 'shall' within proposed amendatory context leading into a revision of § 51.304, making it new binding text.",compound,none,51,51.308(f),The State(s),must,strong,submit the revision no later than 2 years after the date of the certification,the regional haze implementation plan revision,False,True,"For any existing reasonably attributable visibility impairment the Federal Land Manager certifies to the State(s) under paragraph (a) of this section less than 2 years prior to the due date for a regional haze implementation plan revision required under § 51.308(f), but no more than 6 months subsequent to the submission date of that implementation plan revision or no more than 6 months subsequent to a further plan revision that changes the emission limitation for the subject source",revise,"(2) For any existing reasonably attributable visibility impairment 
+the Federal Land Manager certifies to the State(s) under paragraph (a) 
+of this section less than 2 years prior to the due date for a regional 
+haze implementation plan revision required under Sec.  51.308(f), but 
+no more than 6 months subsequent to the submission date of that 
+implementation plan revision or no more than 6 months subsequent to a 
+further plan revision that changes the emission limitation for the 
+subject source, the State(s) shall submit a revision to its regional 
+haze implementation plan that includes the elements described in 
+paragraph (b) and (c) no later than 2 years after the date of the 
+certification.",§ 51.308(f),primary,openai,gpt-5,0,0
+10,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within an amendatory block introduced by “Revise § 51.304 to read as follows,” making it new binding regulatory text.",simple,definition_embedded,51,51.304(a),the criteria developed by Federal Land Managers,must,strong,include consideration of,whether the integral vista was important to the visitor's visual experience of the mandatory Class I Federal area,False,False,,revise,"These criteria must have included, but 
+were not limited to, whether the integral vista was important to the 
+visitor's visual experience of the mandatory Class I Federal area.",,primary,openai,gpt-5,1771,201
+11,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within CFR regulatory text in a subparagraph and is followed by an explicit amendatory instruction (“Section 51.305 is revised to read as follows”), indicating it is part of amendatory binding text.",simple,none,51,51.304(c),The State,must,strong,list,any integral vista listed in paragraph (b) of this section in its implementation plan,False,False,,revise,"(c) The State must list in its implementation plan any integral 
+vista listed in paragraph (b) of this section.",§ 51.304(b),primary,openai,gpt-5,1727,208
+12,EPA-HQ-OAR-2015-0531,proposed,0,True,The sentence is within an amendatory block revising § 51.305 and imposes a must-duty on the State under a stated condition.,simple,none,51,51.305,the State,must,strong,include,in the next implementation plan revision an appropriate strategy for evaluating reasonably attributable visibility impairment in the mandatory Class I Federal area by visual observation or other appropriate monitoring techniques,False,True,"if the Administrator, Regional Administrator, or the affected Federal Land Manager has advised a State containing a mandatory Class I Federal area of a need for additional monitoring to assess reasonably attributable visibility impairment beyond monitoring conducted to meet § 51.308(d)(4)",revise,"For the purposes of addressing reasonably attributable visibility 
+impairment, if the Administrator, Regional Administrator, or the 
+affected Federal Land Manager has advised a State containing a 
+mandatory Class I Federal area of a need for monitoring to assess 
+reasonably attributable visibility impairment at a mandatory Class I 
+Federal area in addition to the monitoring currently being conducted to 
+meet the requirements of Sec.  51.308(d)(4), the State must include in 
+the next implementation plan revision to meet the requirement of Sec.  
+51.308(f) an appropriate strategy for evaluating reasonably 
+attributable visibility impairment in the mandatory Class I Federal 
+area by visual observation or other appropriate monitoring techniques.",§ 51.308(f),primary,openai,gpt-5,1985,256
+13,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence is within an amendatory block revising § 51.305, making it new binding regulatory text.",compound,none,51,51.305,the strategy,must,strong,take into account,current and anticipated visibility monitoring research,False,False,,revise,"Such strategy must take into account current and anticipated visibility 
+monitoring research, the availability of appropriate monitoring 
+techniques, and such guidance as is provided by the Agency.",,primary,openai,gpt-5,1778,375
+13,EPA-HQ-OAR-2015-0531,proposed,1,True,"The sentence is within an amendatory block revising § 51.305, making it new binding regulatory text.",compound,none,51,51.305,the strategy,must,strong,take into account,the availability of appropriate monitoring techniques,False,False,,revise,"Such strategy must take into account current and anticipated visibility 
+monitoring research, the availability of appropriate monitoring 
+techniques, and such guidance as is provided by the Agency.",,primary,openai,gpt-5,0,0
+13,EPA-HQ-OAR-2015-0531,proposed,2,True,"The sentence is within an amendatory block revising § 51.305, making it new binding regulatory text.",compound,none,51,51.305,the strategy,must,strong,take into account,such guidance as is provided by the Agency,False,False,,revise,"Such strategy must take into account current and anticipated visibility 
+monitoring research, the availability of appropriate monitoring 
+techniques, and such guidance as is provided by the Agency.",,primary,openai,gpt-5,0,0
+14,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within an explicit amendatory instruction revising § 51.307 to read as follows, so it is new binding text.",simple,none,51,51.307(a),the State plan,must,strong,provide,for visibility protection and analyses in any review under § 51.166,False,True,For purposes of new source review of any new major stationary source or major modification constructed in an area designated attainment or unclassified under section 107(d) of the CAA,revise,"(a) For purposes of new source review of any new major stationary 
+source or major modification that would be constructed in an area that 
+is designated attainment or unclassified under section 107(d) of the 
+CAA, the State plan must, in any review under Sec.  51.166 with respect 
+to visibility protection and analyses, provide for:
+*",§ 51.166,primary,openai,gpt-5,1912,225
+15,EPA-HQ-OAR-2015-0531,proposed,0,True,"The text appears within an amendatory block revising § 51.307(b)(1) and (2) to read as follows, making it new binding text.",simple,none,51,51.307(b)(1),a new major stationary source or major modification under review,may,permissive,have an impact,any integral vista of a mandatory Class I Federal area listed in § 51.304(b),False,True,in the context of State plan new source review for visibility protection and analyses under § 51.166,revise,"* * *
+    (b) * * *
+    (1) That may have an impact on any integral vista of a mandatory 
+Class I Federal area listed in Sec.  51.304(b), or
+    (2) That proposes to locate in an area classified as nonattainment 
+under section 107(d)(1) of the Clean Air Act that may have an impact on 
+visibility in any mandatory Class I Federal area.",§ 51.304(b),primary,openai,gpt-5,1970,374
+15,EPA-HQ-OAR-2015-0531,proposed,1,True,"The text appears within an amendatory block revising § 51.307(b)(1) and (2) to read as follows, making it new binding text.",simple,none,51,51.307(b)(2),a proposed new major stationary source or major modification,may,permissive,have an impact on visibility,any mandatory Class I Federal area,False,True,that proposes to locate in an area classified as nonattainment under section 107(d)(1) of the Clean Air Act,revise,"* * *
+    (b) * * *
+    (1) That may have an impact on any integral vista of a mandatory 
+Class I Federal area listed in Sec.  51.304(b), or
+    (2) That proposes to locate in an area classified as nonattainment 
+under section 107(d)(1) of the Clean Air Act that may have an impact on 
+visibility in any mandatory Class I Federal area.",,primary,openai,gpt-5,0,0
+16,EPA-HQ-OAR-2015-0531,proposed,0,True,The sentence appears within an amendatory block revising § 51.308; thus it constitutes new binding regulatory text.,simple,none,51,51.308(b),each State identified in § 51.300(b),must,strong,submit,"an implementation plan for regional haze meeting the requirements of paragraphs (d) and (e) of this section, for the entire State, no later than December 17, 2007",False,True,Except as provided in § 51.309(c),revise,"Except as provided in Sec.  51.309(c), each State 
+identified in Sec.  51.300(b) must submit, for the entire State, an 
+implementation plan for regional haze meeting the requirements of 
+paragraphs (d) and (e) of this section no later than December 17, 2007.",§ 51.300(b),primary,openai,gpt-5,1887,228
+17,EPA-HQ-OAR-2015-0531,proposed,0,True,The sentence appears within an amendatory block introducing revised/additional regulatory text and contains a clear duty for States.,simple,none,51,51.308(c),A State,must,strong,address,"any reasonably attributable visibility impairment certified by a Federal Land Manager under § 51.302(a) in its regional haze implementation plan, as required by § 51.302(b)–(d)",False,False,,revise,"A 
+State must address any reasonably attributable visibility impairment 
+certified by a Federal Land Manager under Sec.  51.302(a) in its 
+regional haze implementation plan, as required by Sec.  51.302(b)-(d).",§ 51.302,primary,openai,gpt-5,1804,209
+18,EPA-HQ-OAR-2015-0531,proposed,0,True,The sentence appears within binding regulatory text of a CFR section being amended; thus it is new binding text under an amendatory block.,simple,none,51,51.306,A State,must,strong,meet,the requirements of § 51.305,False,True,"if the Administrator, Regional Administrator, or the Federal Land Manager has advised a State under § 51.305 of a need for additional monitoring to assess reasonably attributable visibility impairment at a mandatory Class I Federal area",revise,"A State must also meet the requirements of Sec.  51.305 if the 
+Administrator, Regional Administrator, or the Federal Land Manager has 
+advised a State under Sec.  51.305 of a need for additional monitoring 
+to assess reasonably attributable visibility impairment at a mandatory 
+Class I Federal area.",§ 51.305,primary,openai,gpt-5,1828,222
+19,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence is within amendatory regulatory text specifying plan requirements, making it new binding text.",simple,none,51,51.306,Each State listed in § 51.300(b),must,strong,submit,a long-term strategy that addresses regional haze visibility impairment for each mandatory Class I Federal area within the State and for each mandatory Class I Federal area located outside the State that may be affected by emissions from the State,False,False,,revise,"Each State listed in 
+Sec.  51.300(b) must submit a long-term strategy that addresses 
+regional haze visibility impairment for each mandatory Class I Federal 
+area within the State and for each mandatory Class I Federal area 
+located outside the State that may be affected by emissions from the 
+State.",§ 51.300(b),primary,openai,gpt-5,1810,215
+20,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within regulatory text of § 51.306 that is being amended, making it new binding amendatory text.",compound,none,51,51.306,The long-term strategy,must,strong,include,enforceable emissions limitations,False,False,,remove,"The long-term strategy must include enforceable emissions 
+limitations, compliance schedules, and other measures as necessary to 
+achieve the reasonable progress goals established by States having 
+mandatory Class I Federal areas.",,primary,openai,gpt-5,1765,381
+20,EPA-HQ-OAR-2015-0531,proposed,1,True,"The sentence appears within regulatory text of § 51.306 that is being amended, making it new binding amendatory text.",compound,none,51,51.306,The long-term strategy,must,strong,include,compliance schedules,False,False,,remove,"The long-term strategy must include enforceable emissions 
+limitations, compliance schedules, and other measures as necessary to 
+achieve the reasonable progress goals established by States having 
+mandatory Class I Federal areas.",,primary,openai,gpt-5,0,0
+20,EPA-HQ-OAR-2015-0531,proposed,2,True,"The sentence appears within regulatory text of § 51.306 that is being amended, making it new binding amendatory text.",compound,none,51,51.306,The long-term strategy,must,strong,include,other measures as necessary to achieve the reasonable progress goals established by States having mandatory Class I Federal areas,False,False,,remove,"The long-term strategy must include enforceable emissions 
+limitations, compliance schedules, and other measures as necessary to 
+achieve the reasonable progress goals established by States having 
+mandatory Class I Federal areas.",,primary,openai,gpt-5,0,0
+21,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within amendatory regulatory text for § 51.306, making it binding under the amendatory block rule.",simple,none,51,51.306,the State,must,strong,meet,the following requirements when establishing its long-term strategy for regional haze,False,False,,revise,"In establishing its long-term strategy 
+for regional haze, the State must meet the following requirements:
+*",,primary,openai,gpt-5,1721,179
+22,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within an amendatory regulatory text block setting out requirements for a State’s long-term strategy, so it constitutes new binding text even though it is permissive.",simple,none,51,51.306,the emissions trading program or other alternative measure,may,permissive,include,a geographic enhancement to address the requirement in § 51.302(b) related to reasonably attributable impairment from the pollutants covered under the program or measure,False,True,At the State's option,revise,"At the State's option, a provision that the emissions trading 
+program or other alternative measure may include a geographic 
+enhancement to the program to address the requirement under Sec.  
+51.302(b) related to reasonably attributable impairment from the 
+pollutants covered under the emissions trading program or other 
+alternative measure.",§ 51.302(b),primary,openai,gpt-5,1855,224
+23,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within amendatory regulatory text revising § 51.306, so it constitutes new binding text even though it is permissive.",simple,none,51,51.306,A State,may,permissive,adopt provisions,"for a geographic enhancement to the trading program to address any requirement under § 51.302(b), consistent with the requirements applicable to a trading program established under § 52.38 or § 52.39",False,False,,revise,"A State may 
+adopt provisions, consistent with the requirements applicable to the 
+State for a trading program established in accordance with Sec.  52.38 
+or Sec.  52.39 under the Transport Rule Federal Implementation Plan or 
+established under a SIP revision that is approved as meeting the 
+requirements of Sec.  52.38 or Sec.  52.39, for a geographic 
+enhancement to the program to address any requirement under Sec.  
+51.302(b) related to reasonably attributable impairment from the 
+pollutant covered by such trading program in that State.",§ 51.302(b),primary,openai,gpt-5,1925,223
+24,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within an amendatory regulatory text block adding requirements for § 51.306(f), so it is new binding text.",simple,none,51,51.306(f),Each State identified in § 51.300(b),must,strong,revise and submit,its regional haze implementation plan revision to EPA,False,False,,add,"Each State identified in Sec.  
+51.300(b) must revise and submit its regional haze implementation plan 
+revision to EPA by July 31, 2021, July 31, 2028, and every 10 years 
+thereafter.",§ 51.300(b),primary,openai,gpt-5,1762,194
+25,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within amendatory regulatory text specifying plan revision requirements, making it binding.",simple,none,51,51.306(f),"The plan revision due on or before July 31, 2021",must,strong,include,a commitment by the State to meet the requirements of paragraph (g),False,False,,revise,"The plan revision due on or before July 31, 2021 must 
+include a commitment by the State to meet the requirements of paragraph 
+(g).",paragraph (g),primary,openai,gpt-5,1737,188
+26,EPA-HQ-OAR-2015-0531,proposed,0,True,The sentence appears within amendatory text revising § 51.306(f) and thus constitutes new binding regulatory language.,simple,none,51,51.306(f),the State,must,strong,address,regional haze in each mandatory Class I Federal area within the State and in each such area outside the State that may be affected by emissions from within the State,False,False,,revise,"In each plan revision, the State must address regional haze in 
+each mandatory Class I Federal area located within the State and in 
+each mandatory Class I Federal area located outside the State that may 
+be affected by emissions from within the State.",,primary,openai,gpt-5,1781,197
+27,EPA-HQ-OAR-2015-0531,proposed,0,True,The sentence appears within binding regulatory text of § 51.306 detailing plan submission requirements and functions as new/operative amendatory content.,simple,none,51,51.306,the State,must,strong,submit,an implementation plan containing specified plan elements and supporting documentation for all required analyses,False,True,To meet the core requirements for regional haze for these areas,revise,"To meet the core 
+requirements for regional haze for these areas, the State must submit 
+an implementation plan containing the following plan elements and 
+supporting documentation for all required analyses:
+    (1) Calculations of baseline, current, and natural visibility 
+conditions; progress to date; and the uniform rate of progress.",,primary,openai,gpt-5,1807,194
+28,EPA-HQ-OAR-2015-0531,proposed,0,True,"The language appears within amendatory regulatory text for § 51.306 specifying State plan elements and uses the binding modal “must,” making it new binding text.",simple,none,51,51.306,the State,must,strong,determine,baseline visibility conditions for the most impaired and clearest days for each mandatory Class I Federal area located within the State,False,False,,revise,"For 
+each mandatory Class I Federal area located within the State, the State 
+must determine the following:
+    (i) Baseline visibility conditions for the most impaired and 
+clearest days.",,primary,openai,gpt-5,1736,197
+29,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within binding regulatory text in § 51.306 detailing plan elements and includes mandatory language (“must”), making it a new or restated binding requirement within an amendatory context.",simple,none,51,51.306,baseline visibility conditions,must,strong,be associated,the last day of the 2000–2004 period for establishing baseline visibility conditions,True,True,For purposes of calculating and displaying the uniform rate of progress,none,"For purposes of calculating and displaying 
+the uniform rate of progress, baseline visibility conditions must be 
+associated with the last day of this period.",,primary,openai,gpt-5,1721,209
+30,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within regulatory text that sets requirements for States determining baseline visibility conditions, which is binding amendatory text.",simple,none,51,51.306,Baseline visibility conditions,must,strong,be calculated,by establishing the average deciview index for the most impaired and clearest days for each calendar year from 2000 to 2004 using available monitoring data,True,False,,none,"Baseline visibility 
+conditions must be calculated, using available monitoring data, by 
+establishing the average deciview index for the most impaired and 
+clearest days for each calendar year from 2000 to 2004.",,primary,openai,gpt-5,1758,198
+31,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within operative regulatory text of § 51.306 setting procedures and uses mandatory ""must""; it functions as binding text within an amendatory context.",compound,none,51,51.306,the State,must,strong,establish,baseline values,False,True,For mandatory Class I Federal areas without onsite monitoring data for 2000-2004,none,"For 
+mandatory Class I Federal areas without onsite monitoring data for 
+2000-2004, the State must establish baseline values using the most 
+representative available monitoring data for 2000-2004, in consultation 
+with the Administrator or his or her designee.",,primary,openai,gpt-5,1770,431
+31,EPA-HQ-OAR-2015-0531,proposed,1,True,"The sentence appears within operative regulatory text of § 51.306 setting procedures and uses mandatory ""must""; it functions as binding text within an amendatory context.",compound,none,51,51.306,the State,must,strong,use,the most representative available monitoring data for 2000-2004,False,True,For mandatory Class I Federal areas without onsite monitoring data for 2000-2004,none,"For 
+mandatory Class I Federal areas without onsite monitoring data for 
+2000-2004, the State must establish baseline values using the most 
+representative available monitoring data for 2000-2004, in consultation 
+with the Administrator or his or her designee.",,primary,openai,gpt-5,0,0
+31,EPA-HQ-OAR-2015-0531,proposed,2,True,"The sentence appears within operative regulatory text of § 51.306 setting procedures and uses mandatory ""must""; it functions as binding text within an amendatory context.",compound,none,51,51.306,the State,must,strong,consult,the Administrator or his or her designee,False,True,For mandatory Class I Federal areas without onsite monitoring data for 2000-2004,none,"For 
+mandatory Class I Federal areas without onsite monitoring data for 
+2000-2004, the State must establish baseline values using the most 
+representative available monitoring data for 2000-2004, in consultation 
+with the Administrator or his or her designee.",,primary,openai,gpt-5,0,0
+32,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within amendatory regulatory text prescribing procedures for calculating baseline visibility conditions, making it new binding text.",simple,none,51,51.306,the State,must,strong,establish,baseline values using the closest 5 complete years of monitoring data,False,True,For mandatory Class I Federal areas with incomplete data availability for 2000-2004,revise,"For mandatory Class I 
+Federal areas with incomplete data availability for 2000-2004, the 
+State must establish baseline values using the closest 5 complete years 
+of monitoring data.",,primary,openai,gpt-5,1738,194
+33,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence is regulatory requirement text within a CFR section and presented as operative rule language in an amendatory context, making it binding.",simple,none,51,51.306,Natural visibility conditions,must,strong,be calculated by estimating the deciview index existing under natural conditions for the most impaired and clearest days,the deciview index based on available monitoring information and appropriate data analysis techniques,True,False,,revise,"Natural visibility conditions must be calculated by 
+estimating the deciview index existing under natural conditions for the 
+most impaired and clearest days, based on available monitoring 
+information and appropriate data analysis techniques; and
+    (iii) Current visibility conditions for the most impaired and 
+clearest days.",,primary,openai,gpt-5,1778,204
+34,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within amendatory regulatory text detailing how to calculate current visibility conditions, making it binding.",simple,none,51,51.306,Current visibility conditions,must,strong,be calculated,based on the annual average level of visibility impairment for the most impaired and clearest days for each of the most recent 5 years with available data,True,False,,revise,"Current 
+visibility conditions must be calculated based on the annual average 
+level of visibility impairment for the most impaired and clearest days 
+for each of these 5 years.",,primary,openai,gpt-5,1718,193
+35,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within an amendatory regulatory text block detailing requirements for § 51.306, making it new binding text.",compound,none,51,51.306,"Actual progress made toward natural conditions since the baseline period, for the most impaired and clearest days",must,strong,be calculated,progress toward natural conditions since the baseline period for the most impaired and clearest days,True,False,,revise,"Actual progress made towards natural conditions since the baseline 
+period, and actual progress made during the previous implementation 
+period up to and including to the period for
+
+[[Page 26972]]
+
+calculating current visibility conditions, for the most impaired and 
+clearest days, must be calculated.",,primary,openai,gpt-5,1763,345
+35,EPA-HQ-OAR-2015-0531,proposed,1,True,"The sentence appears within an amendatory regulatory text block detailing requirements for § 51.306, making it new binding text.",compound,none,51,51.306,"Actual progress made during the previous implementation period up to and including the period for calculating current visibility conditions, for the most impaired and clearest days",must,strong,be calculated,progress during the previous implementation period up to and including the period for calculating current visibility conditions for the most impaired and clearest days,True,False,,revise,"Actual progress made towards natural conditions since the baseline 
+period, and actual progress made during the previous implementation 
+period up to and including to the period for
+
+[[Page 26972]]
+
+calculating current visibility conditions, for the most impaired and 
+clearest days, must be calculated.",,primary,openai,gpt-5,0,0
+36,EPA-HQ-OAR-2015-0531,proposed,0,True,"Text appears within an amendatory rulemaking block prescribing calculation requirements, making it new binding regulatory text.",simple,none,51,51.306,The State,must,strong,calculate,the number of deciviews by which current visibility conditions exceed natural visibility conditions for the most impaired and clearest days,True,False,,revise,"The number of deciviews by which current 
+visibility conditions exceed natural visibility conditions, for the 
+most impaired and clearest days, must be calculated.",,primary,openai,gpt-5,1739,186
+37,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within an amendatory block prescribing new CFR text, making it binding regulatory language.",simple,none,51,51.306,the State,must,strong,calculate,the uniform rate of progress for each mandatory Class I Federal area in the State,False,False,,revise,"(A) The uniform rate of progress for 
+each mandatory Class I Federal area in the State must be calculated.",,primary,openai,gpt-5,1703,176
+38,EPA-HQ-OAR-2015-0531,proposed,0,True,"The text is within an amendatory regulatory section prescribing how States calculate the uniform rate of progress, making it new binding text.",compound,none,51,51.306,the State,must,strong,compare,baseline visibility conditions to natural visibility conditions in the mandatory Class I Federal area,False,False,,revise,"To 
+calculate this uniform rate of progress, the State must compare 
+baseline visibility conditions to natural visibility conditions in the 
+mandatory Class I Federal area and determine the uniform rate of 
+visibility improvement (measured in deciviews of improvement per year) 
+that would need to be maintained during each implementation period in 
+order to attain natural visibility conditions by the end of 2064.
+    (B) The State may submit a request to the Administrator seeking an 
+adjustment to the uniform rate of progress for a mandatory Class I 
+Federal area to account for impacts from (1) anthropogenic sources 
+outside the United States and/or (2) wildland prescribed fires that 
+were conducted with the objective to establish, restore, and/or 
+maintain sustainable and resilient wildland ecosystems, to reduce the 
+risk of catastrophic wildfires, and/or to preserve endangered or 
+threatened species during which appropriate basic smoke management 
+practices were applied.",,primary,openai,gpt-5,2036,442
+38,EPA-HQ-OAR-2015-0531,proposed,1,True,"The text is within an amendatory regulatory section prescribing how States calculate the uniform rate of progress, making it new binding text.",compound,none,51,51.306,the State,must,strong,determine,the uniform rate of visibility improvement that would need to be maintained during each implementation period to attain natural visibility conditions by the end of 2064,False,False,,revise,"To 
+calculate this uniform rate of progress, the State must compare 
+baseline visibility conditions to natural visibility conditions in the 
+mandatory Class I Federal area and determine the uniform rate of 
+visibility improvement (measured in deciviews of improvement per year) 
+that would need to be maintained during each implementation period in 
+order to attain natural visibility conditions by the end of 2064.
+    (B) The State may submit a request to the Administrator seeking an 
+adjustment to the uniform rate of progress for a mandatory Class I 
+Federal area to account for impacts from (1) anthropogenic sources 
+outside the United States and/or (2) wildland prescribed fires that 
+were conducted with the objective to establish, restore, and/or 
+maintain sustainable and resilient wildland ecosystems, to reduce the 
+risk of catastrophic wildfires, and/or to preserve endangered or 
+threatened species during which appropriate basic smoke management 
+practices were applied.",,primary,openai,gpt-5,0,0
+38,EPA-HQ-OAR-2015-0531,proposed,2,True,"The text is within an amendatory regulatory section prescribing how States calculate the uniform rate of progress, making it new binding text.",compound,none,51,51.306,the State,may,permissive,submit a request to the Administrator seeking an adjustment to the uniform rate of progress for a mandatory Class I Federal area,to account for impacts from (1) anthropogenic sources outside the United States and/or (2) qualifying wildland prescribed fires,False,False,,revise,"To 
+calculate this uniform rate of progress, the State must compare 
+baseline visibility conditions to natural visibility conditions in the 
+mandatory Class I Federal area and determine the uniform rate of 
+visibility improvement (measured in deciviews of improvement per year) 
+that would need to be maintained during each implementation period in 
+order to attain natural visibility conditions by the end of 2064.
+    (B) The State may submit a request to the Administrator seeking an 
+adjustment to the uniform rate of progress for a mandatory Class I 
+Federal area to account for impacts from (1) anthropogenic sources 
+outside the United States and/or (2) wildland prescribed fires that 
+were conducted with the objective to establish, restore, and/or 
+maintain sustainable and resilient wildland ecosystems, to reduce the 
+risk of catastrophic wildfires, and/or to preserve endangered or 
+threatened species during which appropriate basic smoke management 
+practices were applied.",,primary,openai,gpt-5,0,0
+39,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within binding regulatory text that sets procedures for State requests and includes mandatory 'must' directives, indicating new or operative requirements in an amendatory context.",compound,none,51,51.306,the State,must,strong,add,the estimated impacts to natural visibility conditions,False,True,To calculate the proposed adjustment,none,"To calculate the proposed adjustment, the State 
+must add the estimated impacts to natural visibility conditions and 
+compare the resulting value to baseline visibility conditions.",,primary,openai,gpt-5,1715,288
+39,EPA-HQ-OAR-2015-0531,proposed,1,True,"The sentence appears within binding regulatory text that sets procedures for State requests and includes mandatory 'must' directives, indicating new or operative requirements in an amendatory context.",compound,none,51,51.306,the State,must,strong,compare,the resulting value to baseline visibility conditions,False,True,To calculate the proposed adjustment,none,"To calculate the proposed adjustment, the State 
+must add the estimated impacts to natural visibility conditions and 
+compare the resulting value to baseline visibility conditions.",,primary,openai,gpt-5,0,0
+40,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within amendatory regulatory text setting requirements and permissions for State plans; within this amendatory block, it establishes a permissive authority for the Administrator, which is binding text.",simple,none,51,51.306,the Administrator,may,permissive,approve,the proposed adjustment to the uniform rate of progress for use in the State's implementation plan,False,True,If the Administrator determines that the State has estimated the impacts from anthropogenic sources outside the United States or wildland prescribed fires using scientifically valid data and methods,revise,"If the 
+Administrator determines that the State has estimated the impacts from 
+anthropogenic sources outside the United States or wildland prescribed 
+fires using scientifically valid data and methods, the Administrator 
+may approve the proposed adjustment to the uniform rate of progress for 
+use in the State's implementation plan.",,primary,openai,gpt-5,1810,228
+41,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within amendatory regulatory text setting requirements for State implementation plans, making it binding.",simple,none,51,51.306,Each State,must,strong,submit,"a long-term strategy that addresses regional haze visibility impairment and, if necessary, any reasonably attributable visibility impairment certified by the Federal Land Manager under § 51.302(a), for each mandatory Class I Federal area within the State and for each mandatory Class I Federal area located outside the State that may be affected by emissions from the State",False,False,,revise,"Each State must submit a long-term 
+strategy that addresses regional haze visibility impairment, and if 
+necessary any reasonably attributable visibility impairment certified 
+by the Federal Land Manager under Sec.  51.302(a), for each mandatory 
+Class I Federal area within the State and for each mandatory Class I 
+Federal area located outside the State that may be affected by 
+emissions from the State.",§ 51.302(a),primary,openai,gpt-5,1804,232
+42,EPA-HQ-OAR-2015-0531,proposed,0,True,"The text is in a CFR regulatory requirement section with mandatory language and appears within amendatory rule text, making it new binding text.",compound,none,51,51.306,The long-term strategy,must,strong,include,enforceable emissions limitations,False,True,as determined pursuant to (f)(2)(i) through (vi),revise,"The long-term strategy must include the 
+enforceable emissions limitations, compliance schedules, and other 
+measures that are necessary to achieve reasonable progress, as 
+determined pursuant to (f)(2)(i) through (vi).",,primary,openai,gpt-5,1753,417
+42,EPA-HQ-OAR-2015-0531,proposed,1,True,"The text is in a CFR regulatory requirement section with mandatory language and appears within amendatory rule text, making it new binding text.",compound,none,51,51.306,The long-term strategy,must,strong,include,compliance schedules,False,True,as determined pursuant to (f)(2)(i) through (vi),revise,"The long-term strategy must include the 
+enforceable emissions limitations, compliance schedules, and other 
+measures that are necessary to achieve reasonable progress, as 
+determined pursuant to (f)(2)(i) through (vi).",,primary,openai,gpt-5,0,0
+42,EPA-HQ-OAR-2015-0531,proposed,2,True,"The text is in a CFR regulatory requirement section with mandatory language and appears within amendatory rule text, making it new binding text.",compound,none,51,51.306,The long-term strategy,must,strong,include,other measures that are necessary to achieve reasonable progress,False,True,as determined pursuant to (f)(2)(i) through (vi),revise,"The long-term strategy must include the 
+enforceable emissions limitations, compliance schedules, and other 
+measures that are necessary to achieve reasonable progress, as 
+determined pursuant to (f)(2)(i) through (vi).",,primary,openai,gpt-5,0,0
+43,EPA-HQ-OAR-2015-0531,proposed,0,True,The sentence is within regulatory text prescribing requirements (an amendatory rules context) and uses binding modal 'must' directed at the State.,simple,none,51,51.306,the State,must,strong,meet,the following requirements in establishing its long-term strategy for regional haze,False,False,,none,"In establishing its 
+long-term strategy for regional haze, the State must meet the following 
+requirements:
+    (i)",,primary,openai,gpt-5,1706,180
+44,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence is within an amendatory regulatory text block prescribing requirements for states’ long-term strategies, making it binding.",simple,none,51,51.306(f)(2)(i),The State,must,strong,consider and analyze,"emission reduction measures based on the costs of compliance, the time necessary for compliance, the energy and non-air quality environmental impacts of compliance, and the remaining useful life of any potentially affected major or minor stationary source or group of sources",False,False,,revise,"The State must consider and analyze emission reduction measures 
+based on the costs of compliance, the time necessary for compliance, 
+the energy and non-air quality environmental impacts of compliance, and 
+the remaining useful life of any potentially affected major or minor 
+stationary source or group of sources.",,primary,openai,gpt-5,1780,218
+45,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within binding regulatory requirements text for § 51.306 and uses the mandatory modal 'must', indicating new or operative binding text within an amendatory context.",compound,none,51,51.306,The State,must,strong,document,the criteria used to determine which sources or groups of sources were evaluated,False,False,,none,"The State must document the 
+criteria used to determine which sources or groups of sources were 
+evaluated, and how these four factors were taken into consideration in 
+selecting the measures for inclusion in its long-term strategy.",,primary,openai,gpt-5,1750,298
+45,EPA-HQ-OAR-2015-0531,proposed,1,True,"The sentence appears within binding regulatory requirements text for § 51.306 and uses the mandatory modal 'must', indicating new or operative binding text within an amendatory context.",compound,none,51,51.306,The State,must,strong,document,how the four factors were taken into consideration in selecting the measures for inclusion in its long-term strategy,False,False,,none,"The State must document the 
+criteria used to determine which sources or groups of sources were 
+evaluated, and how these four factors were taken into consideration in 
+selecting the measures for inclusion in its long-term strategy.",,primary,openai,gpt-5,0,0
+46,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within regulatory text prescribing state implementation plan requirements and uses binding modal language (“must”), indicating new or restated binding requirements within an amendatory context.",compound,none,51,51.306,The State,must,strong,consider,the uniform rate of improvement in visibility,False,False,,none,"(ii) The State must consider the uniform rate of improvement in 
+visibility, the emission reduction measures identified in (f)(2)(i), 
+and additional measures being adopted by other contributing states in 
+(f)(2)(iii) as needed to make reasonable progress towards natural 
+visibility conditions for the period covered by the implementation 
+plan.",,primary,openai,gpt-5,1789,430
+46,EPA-HQ-OAR-2015-0531,proposed,1,True,"The sentence appears within regulatory text prescribing state implementation plan requirements and uses binding modal language (“must”), indicating new or restated binding requirements within an amendatory context.",compound,none,51,51.306,The State,must,strong,consider,the emission reduction measures identified in paragraph (f)(2)(i),False,False,,none,"(ii) The State must consider the uniform rate of improvement in 
+visibility, the emission reduction measures identified in (f)(2)(i), 
+and additional measures being adopted by other contributing states in 
+(f)(2)(iii) as needed to make reasonable progress towards natural 
+visibility conditions for the period covered by the implementation 
+plan.",§ 51.306(f)(2)(i),primary,openai,gpt-5,0,0
+46,EPA-HQ-OAR-2015-0531,proposed,2,True,"The sentence appears within regulatory text prescribing state implementation plan requirements and uses binding modal language (“must”), indicating new or restated binding requirements within an amendatory context.",compound,none,51,51.306,The State,must,strong,consider,additional measures being adopted by other contributing states in paragraph (f)(2)(iii) as needed to make reasonable progress towards natural visibility conditions for the period covered by the implementation plan,False,False,,none,"(ii) The State must consider the uniform rate of improvement in 
+visibility, the emission reduction measures identified in (f)(2)(i), 
+and additional measures being adopted by other contributing states in 
+(f)(2)(iii) as needed to make reasonable progress towards natural 
+visibility conditions for the period covered by the implementation 
+plan.",§ 51.306(f)(2)(iii),primary,openai,gpt-5,0,0
+47,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within regulatory amendatory text for § 51.306 and states a clear obligation using “must,” making it binding.",simple,none,51,51.306,The State,must,strong,consult,those States that may reasonably be anticipated to cause or contribute to visibility impairment in the mandatory Class I Federal area,False,False,,remove,"(iii) The State must consult with those States which may reasonably 
+be anticipated to cause or contribute to visibility impairment in the 
+mandatory Class I Federal area.",,primary,openai,gpt-5,1712,189
+48,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence is regulatory text within a CFR section containing prescriptive requirements and appears in an amendatory context, making it binding.",simple,none,51,51.306,The State,must,strong,consult,the other State(s) in order to develop coordinated emission management strategies,False,True,Where the State has emissions that are reasonably anticipated to contribute to visibility impairment in any mandatory Class I Federal area located in another State or States,revise,"Where the State has emissions that are 
+reasonably anticipated to contribute to visibility impairment in any 
+mandatory Class I Federal area located in another State or States, the 
+State must consult with the other State(s) in order to develop 
+coordinated emission management strategies.",,primary,openai,gpt-5,1788,207
+49,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence is prescriptive regulatory text within a CFR section and appears in amendatory context, creating binding requirements.",simple,none,51,51.306,The State,must,strong,demonstrate,that it has included in its implementation plan all measures necessary to obtain its share of the emission reductions needed to provide for reasonable progress towards natural visibility conditions in the mandatory Class I Federal area located in the other State or States,False,True,Where the State has emissions that are reasonably anticipated to contribute to visibility impairment in any mandatory Class I Federal area located in another State or States,revise,"The State must demonstrate 
+that it has included in its implementation plan all measures necessary 
+to obtain its share of the emission reductions needed to provide for 
+reasonable progress towards natural visibility conditions in the 
+mandatory Class I Federal area located in the other State or States.",,primary,openai,gpt-5,1746,236
+50,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within CFR regulatory text requiring state actions and functions as binding obligation language; it is part of amendatory/regulatory text, not preamble or a mere definition.",simple,none,51,51.306,the State,must,strong,ensure,that it has included all measures needed to achieve its apportionment of emission reduction obligations agreed upon through the regional planning process,False,True,If the State has participated in a regional planning process,none,"If 
+the State has participated in a regional planning process, the State 
+must also ensure that it has included all measures needed to achieve 
+its apportionment of emission reduction obligations agreed upon through 
+that process.
+    (B) States affected by contributing States.",,primary,openai,gpt-5,1763,210
+51,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence is binding regulatory text within CFR section § 51.306 and appears in amendatory context, thus it constitutes new or operative rule language.",simple,none,51,51.306,A State with a mandatory Class I Federal area,must,strong,consult,any other State having emissions reasonably anticipated to contribute to visibility impairment in that area regarding the emission reductions needed in each State to provide for reasonable progress towards natural visibility conditions,False,False,,revise,"A State with a 
+mandatory Class I Federal area must consult with any other State having 
+emissions that are reasonably anticipated to contribute to visibility 
+impairment in that area regarding the emission reductions needed in 
+each State to provide for reasonable progress towards natural 
+visibility conditions in that area.",,primary,openai,gpt-5,1760,211
+52,EPA-HQ-OAR-2015-0531,proposed,0,True,The sentence appears within binding CFR regulatory text (amendatory context for § 51.306) and contains a clear mandatory requirement with 'must'.,simple,none,51,51.306,the State,must,strong,ensure it has included,all measures needed to achieve its apportionment of emission reduction obligations agreed upon through the regional planning process,False,True,If the State has participated in a regional planning process,revise,"If the State has participated in a 
+regional planning process, the State must ensure it has included all 
+measures needed to achieve its apportionment of emission reduction 
+obligations agreed upon through that process.",,primary,openai,gpt-5,1735,206
+53,EPA-HQ-OAR-2015-0531,proposed,0,True,The sentence is within binding regulatory text of a CFR section and functions as an operative requirement in an amendatory context.,simple,none,51,51.306,each involved State,must,strong,describe,the actions taken to resolve the disagreement in its submittal,False,True,In any situation in which a State cannot agree with another State or group of States on the emission reductions needed for reasonable progress towards natural visibility conditions in any mandatory Class I Federal area,none,"In any situation in which a State cannot agree with another 
+State or group of States on the emission reductions needed for 
+reasonable progress towards natural visibility conditions in any 
+mandatory Class I Federal area, each involved State must describe in 
+its submittal the actions taken to resolve the disagreement.",,primary,openai,gpt-5,1771,212
+54,EPA-HQ-OAR-2015-0531,proposed,0,True,The sentence appears within amendatory regulatory text setting binding procedures for SIP review; amendatory context makes it binding.,simple,none,51,51.306,the Administrator,no_modal_implicit,strong,take into account,information on interstate disagreement actions when determining whether the State's implementation plan provides for reasonable progress towards natural visibility conditions at each affected mandatory Class I Federal area,False,False,,revise,"In 
+reviewing the State's implementation plan submittal, the Administrator 
+will take this information into account in determining whether the 
+State's implementation plan provides for reasonable progress towards 
+natural visibility conditions at each mandatory Class I Federal area 
+that is located in the State or that may be affected by emissions from 
+the State.",,primary,openai,gpt-5,1782,195
+55,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within binding regulatory text of a CFR section as part of an amendatory rulemaking block, making it new binding text.",simple,none,51,51.306,All substantive interstate consultations,must,strong,be documented,None,True,False,,revise,All substantive interstate consultations must be documented.,,primary,openai,gpt-5,1664,172
+56,EPA-HQ-OAR-2015-0531,proposed,0,True,Appears within CFR regulatory text as part of an amendatory block for § 51.306 with mandatory modal language prescribing State actions.,simple,none,51,51.306,the State,must,strong,document,"the technical basis, including information on the factors listed in (f)(2)(i) and modeling, monitoring, and emissions information, on which it is relying to determine the necessary emission reductions",False,True,As part of the demonstration required by (f)(2)(i),revise,"As part of the demonstration required by (f)(2)(i), the State 
+must document the technical basis, including information on the factors 
+listed in (f)(2)(i) and modeling, monitoring, and emissions 
+information, on which the State is relying to determine the emission 
+reductions from anthropogenic sources in the State that are necessary 
+for achieving reasonable progress towards natural visibility conditions 
+in each mandatory Class I Federal area it affects.",§ 51.306(f)(2)(i),primary,openai,gpt-5,1826,230
+57,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within binding regulatory text of § 51.306 as part of an amendatory block, making it new binding text; it prescribes a permissible method for compliance.",simple,none,51,51.306,The State,may,permissive,meet the documentation requirement by relying on technical analyses developed by a regional planning process and approved by all State participants,the documentation requirement for the technical basis supporting emission reductions necessary for reasonable progress,False,False,,revise,"The State may meet 
+this requirement by relying on technical analyses developed by a 
+regional planning process and approved by all State participants.",,primary,openai,gpt-5,1707,214
+58,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within CFR regulatory text in an amendatory context and states a clear obligation using ""must.""",simple,none,51,51.306,The State,must,strong,identify,the baseline emissions inventory on which its strategies are based,False,False,,remove,"The 
+State must identify the baseline emissions inventory on which its 
+strategies are based.",,primary,openai,gpt-5,1688,173
+59,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within binding regulatory text of § 51.306 that sets a normative requirement for States and is part of amendatory/regulatory content, making it a binding obligation.",compound,none,51,51.306,The State,shall,strong,use as the baseline emissions inventory year,the most recent year for which the State has submitted emission inventory information to the Administrator in compliance with the triennial reporting requirements of subpart A of this part,False,True,unless the State adequately justifies the use of another inventory year,none,"The baseline emissions inventory year shall be 
+the most recent year for which the State has submitted emission 
+inventory information to the Administrator in compliance with the 
+triennial reporting requirements of subpart A of this part unless the 
+State adequately justifies the use of another inventory year.",subpart A of this part,primary,openai,gpt-5,1772,342
+59,EPA-HQ-OAR-2015-0531,proposed,1,True,"The sentence appears within binding regulatory text of § 51.306 that sets a normative requirement for States and is part of amendatory/regulatory content, making it a binding obligation.",compound,none,51,51.306,The State,may,permissive,use another inventory year,None,False,True,if the State adequately justifies the use of another inventory year,none,"The baseline emissions inventory year shall be 
+the most recent year for which the State has submitted emission 
+inventory information to the Administrator in compliance with the 
+triennial reporting requirements of subpart A of this part unless the 
+State adequately justifies the use of another inventory year.",,primary,openai,gpt-5,0,0
+60,EPA-HQ-OAR-2015-0531,proposed,0,True,The sentence is binding regulatory text within a CFR section’s prescriptive requirements; the surrounding context shows rule text with mandatory modals and is part of amendatory regulatory language.,compound,none,51,51.306,The State,must,strong,identify,all anthropogenic sources of visibility impairment considered by the State in developing its long-term strategy,False,False,,none,"(v) The State must identify all anthropogenic sources of visibility 
+impairment considered by the State in developing its long-term strategy 
+and the criteria used to select the sources considered.",,primary,openai,gpt-5,1740,291
+60,EPA-HQ-OAR-2015-0531,proposed,1,True,The sentence is binding regulatory text within a CFR section’s prescriptive requirements; the surrounding context shows rule text with mandatory modals and is part of amendatory regulatory language.,compound,none,51,51.306,The State,must,strong,identify,the criteria used to select the sources considered,False,False,,none,"(v) The State must identify all anthropogenic sources of visibility 
+impairment considered by the State in developing its long-term strategy 
+and the criteria used to select the sources considered.",,primary,openai,gpt-5,0,0
+61,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within regulatory text of a CFR amendatory block detailing requirements for state long-term strategies, making it new binding text.",simple,none,51,51.306(f)(2)(vi),The State,must,strong,consider,"the following factors in developing its long-term strategy, at a minimum",False,False,,revise,"(vi) The State must consider, at a minimum, the following factors 
+in developing its long-term strategy:
+    (A) Emission reductions due to ongoing air pollution control 
+programs, including measures to address
+
+[[Page 26973]]
+
+reasonably attributable visibility impairment;
+    (B) Measures to mitigate the impacts of construction activities;
+    (C) Emissions limitations and schedules for compliance to achieve 
+the reasonable progress goal;
+    (D) Source retirement and replacement schedules;
+    (E) Basic smoke management practices for prescribed fire used for 
+agricultural and wildland vegetation management purposes and smoke 
+management programs as currently exist within the State for these 
+purposes;
+    (F) Enforceability of emissions limitations and control measures; 
+and
+    (G)",,primary,openai,gpt-5,1989,186
+62,EPA-HQ-OAR-2015-0531,proposed,0,True,The text is a binding requirement within regulatory text for § 51.306 and appears in an amendatory context specifying obligations (must) for states.,simple,none,51,51.306,A State in which a mandatory Class I Federal area is located,must,strong,establish,"reasonable progress goals (expressed in deciviews) that reflect the visibility conditions projected to be achieved by the end of the applicable implementation period as a result of all enforceable emissions limitations, compliance schedules, and other measures required under paragraph (f)(2) and the implementation of other requirements of the CAA",False,False,,revise,"(i) A state in which a mandatory 
+Class I Federal area is located must establish reasonable progress 
+goals (expressed in deciviews) that reflect the visibility conditions 
+that are projected to be achieved by the end of the applicable 
+implementation period as a result of all enforceable emissions 
+limitations, compliance schedules, and other measures required under 
+paragraph (f)(2) and the implementation of other requirements of the 
+CAA.",paragraph (f)(2),primary,openai,gpt-5,1848,251
+63,EPA-HQ-OAR-2015-0531,proposed,0,True,The sentence appears within regulatory text setting requirements for state plans and uses mandatory modal language within an amendatory regulatory section.,compound,none,51,51.306,The long-term strategy and the reasonable progress goals,must,strong,provide,for an improvement in visibility for the most impaired days,False,False,,none,"The long-term strategy and the reasonable progress goals must 
+provide for an improvement in visibility for the most impaired days and 
+ensure no degradation in visibility for the clearest days since the 
+baseline period.",,primary,openai,gpt-5,1751,292
+63,EPA-HQ-OAR-2015-0531,proposed,1,True,The sentence appears within regulatory text setting requirements for state plans and uses mandatory modal language within an amendatory regulatory section.,compound,none,51,51.306,The long-term strategy and the reasonable progress goals,must,strong,ensure,no degradation in visibility for the clearest days since the baseline period,False,False,,none,"The long-term strategy and the reasonable progress goals must 
+provide for an improvement in visibility for the most impaired days and 
+ensure no degradation in visibility for the clearest days since the 
+baseline period.",,primary,openai,gpt-5,0,0
+64,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within regulatory text of § 51.306 in an amendatory block setting detailed requirements, and it contains a clear mandatory duty ('the State must demonstrate').",simple,none,51,51.306,the State,must,strong,demonstrate,that there are no additional emission reduction measures for anthropogenic sources or groups of sources in the State that may reasonably be anticipated to contribute to visibility impairment in the Class I area that would be reasonable to include in the long-term strategy,False,True,If a State in which a mandatory Class I Federal area is located establishes a reasonable progress goal for the most impaired days that provides for a slower rate of improvement in visibility than the uniform rate of progress calculated under paragraph (f)(1)(vi) of this section,revise,"(ii)(A) If a State in which a mandatory Class I Federal area is 
+located establishes a reasonable progress goal for the most impaired 
+days that provides for a slower rate of improvement in visibility than 
+the uniform rate of progress calculated under paragraph (f)(1)(vi) of 
+this section, the State must demonstrate, based on the analysis 
+required by paragraph (f)(2)(i) of this section, that there are no 
+additional emission reduction measures for anthropogenic sources or 
+groups of sources in the State that may reasonably be anticipated to 
+contribute to visibility impairment in the Class I area that would be 
+reasonable to include in the long-term strategy.",paragraph (f)(2)(i),primary,openai,gpt-5,1925,283
+65,EPA-HQ-OAR-2015-0531,proposed,0,True,The sentence is binding regulatory text within an amendatory context and imposes a clear duty on the State.,compound,none,51,51.306,The State,must,strong,provide,a robust demonstration,False,False,,revise,"The State must provide 
+a robust demonstration, including documenting the criteria used to 
+determine which sources or groups of sources were evaluated and how the 
+four factors required by paragraph (f)(2)(i) were taken into 
+consideration in selecting the measures for inclusion in its long-term 
+strategy.",§ 51.306(f)(2)(i),primary,openai,gpt-5,1782,422
+65,EPA-HQ-OAR-2015-0531,proposed,1,True,The sentence is binding regulatory text within an amendatory context and imposes a clear duty on the State.,compound,none,51,51.306,The State,must,strong,document,the criteria used to determine which sources or groups of sources were evaluated,False,False,,revise,"The State must provide 
+a robust demonstration, including documenting the criteria used to 
+determine which sources or groups of sources were evaluated and how the 
+four factors required by paragraph (f)(2)(i) were taken into 
+consideration in selecting the measures for inclusion in its long-term 
+strategy.",§ 51.306(f)(2)(i),primary,openai,gpt-5,0,0
+65,EPA-HQ-OAR-2015-0531,proposed,2,True,The sentence is binding regulatory text within an amendatory context and imposes a clear duty on the State.,compound,none,51,51.306,The State,must,strong,document,how the four factors required by paragraph (f)(2)(i) were taken into consideration in selecting the measures for inclusion in its long-term strategy,False,False,,revise,"The State must provide 
+a robust demonstration, including documenting the criteria used to 
+determine which sources or groups of sources were evaluated and how the 
+four factors required by paragraph (f)(2)(i) were taken into 
+consideration in selecting the measures for inclusion in its long-term 
+strategy.",§ 51.306(f)(2)(i),primary,openai,gpt-5,0,0
+66,EPA-HQ-OAR-2015-0531,proposed,0,True,Text is binding regulatory language within CFR section text (amendatory context) prescribing duties for States.,compound,none,51,51.306,The State,must,strong,provide,"to the public for review, as part of its implementation plan, an assessment of the number of years it would take to attain natural visibility conditions if visibility improvement were to continue at the rate of progress selected by the State for the implementation period",False,False,,none,"The State must provide to the public for review as part of 
+its implementation plan an assessment of the number of years it would 
+take to attain natural visibility conditions if visibility improvement 
+were to continue at the rate of progress selected by the State as 
+reasonable for the implementation period.
+    (B) If a State contains sources which are reasonably anticipated to 
+contribute to visibility impairment in a mandatory Class I Federal area 
+in another State for which a demonstration by the other State is 
+required under (f)(3)(ii)(A), the State must demonstrate that there are 
+no additional emission reduction measures for anthropogenic sources or 
+groups of sources in the State that may reasonably be anticipated to 
+contribute to visibility impairment in the Class I area that would be 
+reasonable to include in its own long-term strategy.",,primary,openai,gpt-5,1983,400
+66,EPA-HQ-OAR-2015-0531,proposed,1,True,Text is binding regulatory language within CFR section text (amendatory context) prescribing duties for States.,compound,none,51,51.306,The State,must,strong,demonstrate,that there are no additional emission reduction measures for anthropogenic sources or groups of sources in the State that may reasonably be anticipated to contribute to visibility impairment in the Class I area that would be reasonable to include in its own long-term strategy,False,True,If the State contains sources reasonably anticipated to contribute to visibility impairment in a mandatory Class I Federal area in another State for which a demonstration by the other State is required under (f)(3)(ii)(A),none,"The State must provide to the public for review as part of 
+its implementation plan an assessment of the number of years it would 
+take to attain natural visibility conditions if visibility improvement 
+were to continue at the rate of progress selected by the State as 
+reasonable for the implementation period.
+    (B) If a State contains sources which are reasonably anticipated to 
+contribute to visibility impairment in a mandatory Class I Federal area 
+in another State for which a demonstration by the other State is 
+required under (f)(3)(ii)(A), the State must demonstrate that there are 
+no additional emission reduction measures for anthropogenic sources or 
+groups of sources in the State that may reasonably be anticipated to 
+contribute to visibility impairment in the Class I area that would be 
+reasonable to include in its own long-term strategy.",§ 51.306(f)(3)(ii)(A),primary,openai,gpt-5,0,0
+67,EPA-HQ-OAR-2015-0531,proposed,0,True,The sentence is binding regulatory text within an amendatory block of CFR § 51.306 and imposes a duty on the State under a specified condition.,simple,none,51,51.306,the State,must,strong,include,in the plan revision an appropriate strategy for evaluating reasonably attributable visibility impairment in the mandatory Class I Federal area by visual observation or other appropriate monitoring techniques,False,True,"If the Administrator, Regional Administrator, or the affected Federal Land Manager has advised a State of a need for additional monitoring to assess reasonably attributable visibility impairment at a mandatory Class I Federal area in addition to the monitoring currently being conducted",revise,"(4) If the Administrator, Regional Administrator, or the affected 
+Federal Land Manager has advised a State of a need for additional 
+monitoring to assess reasonably attributable visibility impairment at a 
+mandatory Class I Federal area in addition to the monitoring currently 
+being conducted, the State must include in the plan revision an 
+appropriate strategy for evaluating reasonably attributable visibility 
+impairment in the mandatory Class I Federal area by visual observation 
+or other appropriate monitoring techniques.",,primary,openai,gpt-5,1853,245
+68,EPA-HQ-OAR-2015-0531,proposed,0,True,The sentence is binding operative text within a CFR section directing what the State must include in a plan revision.,simple,none,51,51.306,the State,must,strong,address,the requirements of paragraphs (g)(1) through (5) of this section in the plan revision,False,False,,none,"(5) So that the plan revision will serve also as a progress report, 
+the State must address in the plan revision the requirements of 
+paragraphs (g)(1) through (5) of this section.",§ 51.306(g)(1) through (5),primary,openai,gpt-5,1739,194
+69,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within binding regulatory text of § 51.306 detailing plan revision requirements, making it part of an amendatory/binding block.",simple,none,51,51.306(g)(5),the State,shall,strong,address,"for the elements in paragraphs (g)(1) through (5), the period since the past progress report",False,False,,none,"However, the period to 
+be addressed for these elements shall be the period since the past 
+progress report.",§ 51.306(g)(1) through (5),primary,openai,gpt-5,1682,206
+70,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within binding CFR regulatory text specifying implementation plan requirements, functioning as amendatory/binding plan content.",simple,none,51,51.306,The State,must,strong,submit,"with the implementation plan a monitoring strategy for measuring, characterizing, and reporting of regional haze visibility impairment that is representative of all mandatory Class I Federal areas within the State",False,False,,none,"The State must submit with the implementation plan a monitoring 
+strategy for measuring, characterizing, and reporting of regional haze 
+visibility impairment that is representative of all mandatory Class I 
+Federal areas within the State.",,primary,openai,gpt-5,1726,196
+71,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within binding regulatory text in § 51.306 specifying implementation plan requirements, constituting new/operative regulatory language within an amendatory block.",simple,none,51,51.306(g)(6),the State,may,permissive,satisfy the monitoring strategy requirement,by participating in the Interagency Monitoring of Protected Visual Environments (IMPROVE) network,False,False,,revise,"Compliance with this requirement may be 
+met through participation in the Interagency Monitoring of Protected 
+Visual Environments network.",,primary,openai,gpt-5,1695,202
+72,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within binding regulatory text of § 51.306 describing implementation plan requirements, constituting new or restated binding obligations.",simple,none,51,51.306,The implementation plan,must,strong,provide for,the following items specified in paragraphs (i) through (iii),False,False,,none,"The implementation plan must also provide 
+for the following:
+    (i)",,primary,openai,gpt-5,1674,182
+73,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within binding regulatory text of § 51.306 and states a mandatory requirement using “must,” making it a binding obligation.",simple,none,51,51.306,The implementation plan,must,strong,provide for the reporting,all visibility monitoring data to the Administrator at least annually for each mandatory Class I Federal area in the State,False,False,,none,"The implementation plan must provide for the reporting of all 
+visibility monitoring data to the Administrator at least annually for 
+each mandatory Class I Federal area in the State.",,primary,openai,gpt-5,1716,193
+74,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within binding regulatory text of § 51.306 specifying SIP inventory requirements; it is not preamble or pure definition, so it is new or existing binding text within the amendatory context.",compound,none,51,51.306,The inventory,must,strong,include,emissions for a baseline year,False,False,,none,"The inventory must include 
+emissions for a baseline year, emissions for the most recent year for 
+which data are available, and estimates of future projected emissions.",,primary,openai,gpt-5,1712,388
+74,EPA-HQ-OAR-2015-0531,proposed,1,True,"The sentence appears within binding regulatory text of § 51.306 specifying SIP inventory requirements; it is not preamble or pure definition, so it is new or existing binding text within the amendatory context.",compound,none,51,51.306,The inventory,must,strong,include,emissions for the most recent year for which data are available,False,False,,none,"The inventory must include 
+emissions for a baseline year, emissions for the most recent year for 
+which data are available, and estimates of future projected emissions.",,primary,openai,gpt-5,0,0
+74,EPA-HQ-OAR-2015-0531,proposed,2,True,"The sentence appears within binding regulatory text of § 51.306 specifying SIP inventory requirements; it is not preamble or pure definition, so it is new or existing binding text within the amendatory context.",compound,none,51,51.306,The inventory,must,strong,include,estimates of future projected emissions,False,False,,none,"The inventory must include 
+emissions for a baseline year, emissions for the most recent year for 
+which data are available, and estimates of future projected emissions.",,primary,openai,gpt-5,0,0
+75,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within binding regulatory text of § 51.306 and within an amendatory block, making it new binding text.",simple,none,51,51.306,The State,must,strong,include,a commitment to update the inventory periodically,False,False,,revise,"The State must also include a commitment to update the inventory 
+periodically.
+    (vi) Other elements, including reporting, recordkeeping, and other 
+measures, necessary to assess and report on visibility.",,primary,openai,gpt-5,1740,175
+76,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within regulatory text setting requirements and uses mandatory modal 'must' in an amendatory context, creating new binding text.",simple,none,51,51.306(g),Each State identified in § 51.300(b),must,strong,submit,a periodic report to the Administrator evaluating progress towards the reasonable progress goal for each relevant mandatory Class I Federal area,False,False,,revise,"Each State identified in Sec.  51.300(b) 
+must periodically submit a report to the Administrator evaluating 
+progress towards the reasonable progress goal for each mandatory Class 
+I Federal area located within the State and in each mandatory Class I 
+Federal area located outside the State that may be affected by 
+emissions from within the State.",§ 51.300(b),primary,openai,gpt-5,1817,204
+77,EPA-HQ-OAR-2015-0531,proposed,0,True,The sentence appears within amendatory regulatory text revising § 51.306 and prescribes required form and compliance criteria for first progress reports.,simple,none,51,51.306,The first progress reports,must,strong,be in the form of,implementation plan revisions that comply with the procedural requirements of § 51.102 and § 51.103,False,False,,revise,"The first progress reports must 
+be in the form of implementation
+
+[[Page 26974]]
+
+plan revisions that comply with the procedural requirements of Sec.  
+51.102 and Sec.  51.103.",§ 51.102,primary,openai,gpt-5,1758,202
+78,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within amendatory regulatory text specifying new procedural requirements, making it binding.",compound,none,51,51.306,Subsequent progress reports,must,strong,be made available for public inspection and comment,for at least 60 days prior to submission to EPA,True,False,,revise,"Subsequent 
+progress reports must be made available for public inspection and 
+comment for at least 60 days prior to submission to EPA and all 
+comments received from the public must be submitted to EPA along with 
+the subsequent progress report, along with an explanation of any 
+changes to the progress report made in response to these comments.",,primary,openai,gpt-5,1821,302
+78,EPA-HQ-OAR-2015-0531,proposed,1,True,"The sentence appears within amendatory regulatory text specifying new procedural requirements, making it binding.",compound,none,51,51.306,All comments received from the public,must,strong,be submitted to EPA along with the subsequent progress report,along with an explanation of any changes to the progress report made in response to these comments,True,False,,revise,"Subsequent 
+progress reports must be made available for public inspection and 
+comment for at least 60 days prior to submission to EPA and all 
+comments received from the public must be submitted to EPA along with 
+the subsequent progress report, along with an explanation of any 
+changes to the progress report made in response to these comments.",,primary,openai,gpt-5,0,0
+79,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within amendatory regulatory text revising § 51.306, so it constitutes new binding text.",simple,none,51,51.306,Periodic progress reports,must,strong,contain,at a minimum the specified elements,False,False,,revise,"Periodic progress reports must contain at a minimum the following 
+elements:
+*",,primary,openai,gpt-5,1719,172
+80,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within an amendatory regulatory text block setting out minimum required elements of periodic progress reports, making it new binding text.",simple,none,51,51.306,the State,must,strong,assess,"visibility conditions and changes, with values for most impaired, least impaired and/or clearest days as applicable expressed in terms of 5-year averages of annual values",False,False,,revise,"For each mandatory Class I Federal area within the State, the 
+State must assess the following visibility conditions and changes, with 
+values for most impaired, least impaired and/or clearest days as 
+applicable expressed in terms of 5-year averages of these annual 
+values.",,primary,openai,gpt-5,1806,200
+81,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within an amendatory regulatory text block prescribing requirements for state progress reports, making it new binding text.",simple,none,51,51.306,the analysis,must,strong,extend,at least through the most recent year for which the State has submitted emission inventory information to the Administrator in compliance with the triennial reporting requirements of subpart A of this part,False,False,,revise,"With 
+respect to all sources and activities, the analysis must extend at 
+least through the most recent year for which the state has submitted 
+emission inventory information to the Administrator in compliance with 
+the triennial reporting requirements of subpart A of this part.",subpart A of this part,primary,openai,gpt-5,1764,207
+82,EPA-HQ-OAR-2015-0531,proposed,0,True,The sentence appears within regulatory text that sets requirements for State analyses and functions as binding amendatory text.,simple,none,51,51.306,the analysis,must,strong,extend,through the most recent year for which the Administrator has provided a State-level summary of such reported data or an internet-based tool by which the State may obtain such a summary,False,True,With respect to sources that report directly to a centralized emissions data system operated by the Administrator,none,"With 
+respect to sources that report directly to a centralized emissions data 
+system operated by the Administrator, the analysis must extend through 
+the most recent year for which the Administrator has provided a State-
+level summary of such reported data or an internet-based tool by which 
+the State may obtain such a summary.",,primary,openai,gpt-5,1769,211
+83,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within amendatory regulatory text for 40 CFR 51.306, making it binding; it contains permissive and non-requirement statements governing State actions.",compound,none,51,51.306,The State,no_modal_implicit,permissive,backcast previously reported emissions to be consistent with more recent emissions estimation procedures,previously reported emissions,False,False,,revise,"The State is not required to 
+backcast previously reported emissions to be consistent with more 
+recent emissions estimation procedures, and may draw attention to 
+actual or possible inconsistencies created by changes in estimation 
+procedures.",,primary,openai,gpt-5,1742,305
+83,EPA-HQ-OAR-2015-0531,proposed,1,True,"The sentence appears within amendatory regulatory text for 40 CFR 51.306, making it binding; it contains permissive and non-requirement statements governing State actions.",compound,none,51,51.306,The State,may,permissive,draw attention,actual or possible inconsistencies created by changes in estimation procedures,False,False,,revise,"The State is not required to 
+backcast previously reported emissions to be consistent with more 
+recent emissions estimation procedures, and may draw attention to 
+actual or possible inconsistencies created by changes in estimation 
+procedures.",,primary,openai,gpt-5,0,0
+84,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within an amendatory regulatory text block for § 51.306(h), making it binding new/updated CFR text.",simple,none,51,51.306(h),the State,must,strong,take one of the following actions,based upon the information presented in the progress report,False,False,,revise,"At the same time the State is required to submit any progress report to 
+EPA in accordance with paragraph (g) of this section, the State must 
+also take one of the following actions based upon the information 
+presented in the progress report:
+    (1) If the State determines that the existing implementation plan 
+requires no further substantive revision at this time in order to 
+achieve established goals for visibility improvement and emissions 
+reductions, the State must provide to the Administrator a declaration 
+that revision of the existing implementation plan is not needed at this 
+time.",paragraph (g) of this section,primary,openai,gpt-5,1883,333
+84,EPA-HQ-OAR-2015-0531,proposed,1,True,"The sentence appears within an amendatory regulatory text block for § 51.306(h), making it binding new/updated CFR text.",simple,none,51,51.306(h)(1),the State,must,strong,provide,to the Administrator a declaration that revision of the existing implementation plan is not needed at this time,False,True,If the State determines that the existing implementation plan requires no further substantive revision at this time in order to achieve established goals for visibility improvement and emissions reductions,revise,"At the same time the State is required to submit any progress report to 
+EPA in accordance with paragraph (g) of this section, the State must 
+also take one of the following actions based upon the information 
+presented in the progress report:
+    (1) If the State determines that the existing implementation plan 
+requires no further substantive revision at this time in order to 
+achieve established goals for visibility improvement and emissions 
+reductions, the State must provide to the Administrator a declaration 
+that revision of the existing implementation plan is not needed at this 
+time.",,primary,openai,gpt-5,0,0
+85,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within CFR regulatory text (non-preamble) that sets requirements for State implementation plans and contains mandatory language; it is part of an amendatory rule block, making it binding.",simple,none,51,51.306,The State,must,strong,provide,the Federal Land Manager with an opportunity for consultation in person early enough in the State's technical and policy analyses of its long-term strategy emission reduction obligation and prior to development of reasonable progress goals so that FLM information and recommendations can meaningfully inform the State's development of the long-term strategy,False,False,,revise,"The State must provide the Federal Land Manager with an 
+opportunity for consultation, in person at a point early enough in the 
+State's technical and policy analyses of its long-term strategy 
+emission reduction obligation and prior to development of reasonable 
+progress goals so that information and recommendations provided by the 
+Federal Land Manager can meaningfully inform the State's development of 
+the long-term strategy.",,primary,openai,gpt-5,1822,237
+86,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within amendatory regulatory text revising § 51.306, so it constitutes new binding text.",simple,none,51,51.306,the State,must,strong,provide,the opportunity for consultation,True,False,,revise,"The opportunity for 
+consultation must be provided no less than 60 days prior to said public 
+hearing or public comment opportunity.",,primary,openai,gpt-5,1701,169
+87,EPA-HQ-OAR-2015-0531,proposed,0,True,"The text appears within an amendatory block revising CFR provisions, so the obligation is new binding regulatory text.",compound,none,51,51.306,This consultation,must,strong,include,the opportunity for the affected Federal Land Managers to discuss their concerns,False,False,,revise,"This consultation must include 
+the opportunity for the affected Federal Land Managers to discuss 
+their:
+* * * * *
+    (3) In developing any implementation plan (or plan revision) or 
+progress report, the State must include a description of how it 
+addressed any comments provided by the Federal Land Managers.",,primary,openai,gpt-5,1798,295
+87,EPA-HQ-OAR-2015-0531,proposed,1,True,"The text appears within an amendatory block revising CFR provisions, so the obligation is new binding regulatory text.",compound,none,51,51.306,the State,must,strong,include,a description of how it addressed any comments provided by the Federal Land Managers,False,True,In developing any implementation plan (or plan revision) or progress report,revise,"This consultation must include 
+the opportunity for the affected Federal Land Managers to discuss 
+their:
+* * * * *
+    (3) In developing any implementation plan (or plan revision) or 
+progress report, the State must include a description of how it 
+addressed any comments provided by the Federal Land Managers.",,primary,openai,gpt-5,0,0
+88,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within an amendatory block (“revise … to read as follows”), making it new binding regulatory text.",simple,none,51,51.306,The plan (or plan revision),must,strong,provide procedures for continuing consultation,"continuing consultation between the State and Federal Land Manager on implementation of the visibility protection program required by this subpart, including development and review of implementation plan revisions and progress reports, and on implementation of other programs having the potential to contribute to impairment of visibility in mandatory Class I Federal areas",False,False,,revise,"(4) The plan (or plan revision) must provide procedures for 
+continuing consultation between the State and Federal Land Manager on 
+the implementation of the visibility protection program required by 
+this subpart, including development and review of implementation plan 
+revisions and progress reports, and on the implementation of other 
+programs having the potential to contribute to impairment of visibility 
+in mandatory Class I Federal areas.",,primary,openai,gpt-5,1873,230
+89,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within an explicit amendatory block revising § 51.309(d)(4)(v) to read as follows, so it is new binding text.",simple,none,51,51.309(d)(4)(v),The implementation plan,must,strong,include,requirements for a market trading program to be implemented in the event that a milestone is not achieved,False,True,in the event that a milestone is not achieved,revise,"The implementation plan must include 
+requirements for a market trading program to be implemented in the 
+event that a milestone is not achieved.",,primary,openai,gpt-5,1771,209
+90,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within an amendatory block revising § 51.309(d)(4)(v), so it constitutes new binding regulatory text.",simple,none,51,51.309(d)(4)(v),The plan,shall,strong,require activation,the market trading program beginning no later than 15 months after the end of the first year in which the milestone is not achieved,False,True,in the event that a milestone is not achieved,revise,"The plan shall require that the 
+market trading program be activated beginning no later than 15 months 
+after the end of the first year in which the milestone is not achieved.",,primary,openai,gpt-5,1793,211
+91,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within an amendatory block that adds/revises regulatory text, making it new binding text.",simple,none,51,51.309(d)(4)(v),The plan,shall,strong,require,"that sources comply, as soon as practicable, with the requirement to hold allowances covering their emissions",False,False,,add,"The plan shall also require that sources comply, as soon as 
+practicable, with the requirement to hold allowances covering their 
+emissions.",§ 51.308(e)(2)(vi),primary,openai,gpt-5,1753,197
+92,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears inside binding regulatory text within an amendatory block for § 51.306(d)(4)(v), making it new binding text.",compound,none,51,51.306(d)(4)(v),Such market trading program,must,strong,be sufficient to achieve,the milestones in paragraph (d)(4)(i) of this section,False,False,,revise,"Such market trading program must be sufficient to achieve 
+the milestones in paragraph (d)(4)(i) of this section, and must be 
+consistent with the elements for such programs outlined in Sec.  
+51.308(e)(2)(vi).",§ 51.306(d)(4)(i),primary,openai,gpt-5,1777,334
+92,EPA-HQ-OAR-2015-0531,proposed,1,True,"The sentence appears inside binding regulatory text within an amendatory block for § 51.306(d)(4)(v), making it new binding text.",compound,none,51,51.306(d)(4)(v),Such market trading program,must,strong,be consistent with,the elements for such programs outlined in § 51.308(e)(2)(vi),False,False,,revise,"Such market trading program must be sufficient to achieve 
+the milestones in paragraph (d)(4)(i) of this section, and must be 
+consistent with the elements for such programs outlined in Sec.  
+51.308(e)(2)(vi).",§ 51.308(e)(2)(vi),primary,openai,gpt-5,0,0
+93,EPA-HQ-OAR-2015-0531,proposed,0,True,The sentence appears within an amendatory block of CFR regulatory text being set out as binding amended language.,simple,none,51,51.306,Such a program,may,permissive,include,a geographic enhancement to address the requirement related to reasonably attributable impairment from the pollutants covered under the program,False,False,,remove,"Such a program may include a geographic enhancement 
+to the program to address the requirement under Sec.  51.302(b) related 
+to reasonably attributable impairment from the pollutants covered under 
+the program.",§ 51.302(b),primary,openai,gpt-5,1779,189
+94,EPA-HQ-OAR-2015-0531,proposed,0,True,The sentence appears within an amendatory regulatory text block for § 51.306 and sets a new binding requirement.,simple,none,51,51.306,Each Transport Region State,must,strong,submit,periodic reports,False,False,,revise,"Each Transport Region State must submit to the Administrator periodic 
+reports in the years 2013 and as specified for subsequent progress 
+reports in Sec.  51.308(g).",§ 51.308(g),primary,openai,gpt-5,1762,176
+95,EPA-HQ-OAR-2015-0531,proposed,0,True,The sentence appears within an amendatory block revising § 51.306 and states a mandatory requirement for 2013 progress reports.,simple,none,51,51.306,The progress report due in 2013,must,strong,be in the form of an implementation plan revision that complies with the procedural requirements,the procedural requirements of §§ 51.102 and 51.103,False,False,,revise,"The progress report due in 2013 must be in 
+the form of an implementation plan revision that complies with the 
+procedural requirements of Sec.",§§ 51.102 and 51.103,primary,openai,gpt-5,1757,214
+96,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within an amendatory block specifying plan revision and reporting requirements, making it new binding regulatory text.",simple,none,51,51.306(d)(10)(i),the State,no_modal_implicit,strong,assess for reasonable progress as provided in this section,mandatory Class I Federal areas located within the State and mandatory Class I Federal areas located outside the State that may be affected by emissions from within the State,False,False,,revise,"The report due in 2013 will assess the area for reasonable 
+progress as provided in this section for mandatory Class I Federal 
+area(s) located within the State and for mandatory Class I Federal 
+area(s) located outside the State that may be affected by emissions 
+from within the State.",§ 51.308(g),primary,openai,gpt-5,1813,213
+97,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within an amendatory regulatory text block prescribing the 2013 progress report contents, making it new binding text even though it is permissive.",simple,none,51,51.306,The demonstration,may,permissive,be based on,assessments conducted by the States and/or a regional planning body,True,False,,revise,"This demonstration may be based on assessments 
+conducted by the States and/or a regional planning body.",,primary,openai,gpt-5,1734,190
+98,EPA-HQ-OAR-2015-0531,proposed,0,True,The sentence appears within CFR regulatory text specifying plan/report content and functions as binding amendatory text for § 51.306; it imposes a requirement on the 2013 progress report.,simple,none,51,51.306,The progress report due in 2013,must,strong,contain,at a minimum the following elements,False,False,,revise,"The progress 
+report due in 2013 must contain at a minimum the following elements:
+*",,primary,openai,gpt-5,1740,192
+99,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within amendatory regulatory text (within a paragraph (ii) under a section showing amendatory edits), making it new binding text.",simple,none,51,51.306,the State,must,strong,take one of the following actions,based upon the information presented in the 2013 5-year progress report,False,True,At the same time the State submits the 2013 5-year progress report to EPA in accordance with paragraph (d)(10)(i) of this section,revise,"At the same time the State is required to submit the 5-year 
+progress report due in 2013 to EPA in accordance with paragraph 
+(d)(10)(i) of this section, the State must also take one of the 
+following actions based upon the information presented in the progress 
+report:
+*",§ 51.306(d)(10)(i),primary,openai,gpt-5,1824,233
+100,EPA-HQ-OAR-2015-0531,proposed,0,True,"The sentence appears within an amendatory block revising CFR text, making it binding regulatory language even though it is permissive.",simple,none,51,51.306(g)(2)(iii),The Transport Region State,may,permissive,consider whether strategies necessary to achieve reasonable progress goals are incompatible with strategies implemented under paragraph (d),"the incompatibility determination related to costs of compliance, time for compliance, energy and non-air quality environmental impacts, or remaining useful life of existing sources",False,True,to the extent the State adequately demonstrates that the incompatibility is related to specified factors,revise,"* *
+    (2) * * *
+    (iii) The Transport Region State may consider whether any 
+strategies necessary to achieve the reasonable progress goals required 
+by paragraph (g)(2) of this section are incompatible with the 
+strategies implemented under paragraph (d) of this section to the 
+extent the State adequately demonstrates that the incompatibility is 
+related to the costs of the compliance, the time necessary for 
+compliance, the energy and non air quality environmental impacts of 
+compliance, or the remaining useful life of any existing source subject 
+to such requirements.",§ 51.306(d),primary,openai,gpt-5,1981,244

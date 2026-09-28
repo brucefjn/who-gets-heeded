@@ -1,0 +1,39 @@
+docket_id,year_cluster,proposed_year,final_year,n_comments,n_attach_only,pct_attach_only,title,selection_method
+EPA-HQ-OAR-2009-0234,2010-2012,2011,2012,16868,16043,95.10908228598532,"National Emission Standards for Hazardous Air Pollutants From Coaland Oil-Fired Electric Utility Steam Generating Units and Standards of Performance for Fossil-Fuel-Fired Electric Utility, Industrial-Commercial-Institutional, and Small Industrial-Commercial-Institutional Steam Generating Units",extreme_case
+EPA-HQ-OAR-2009-0517,2010-2012,2012,2010,13405,13372,99.7538232002984,"Prevention of Significant Deterioration and Title V Greenhouse Gas Tailoring Rule Step 3, GHG Plantwide Applicability Limitations and GHG Synthetic Minor Limitations",stratified_random
+EPA-HQ-OAR-2010-0505,2010-2012,2011,2012,11869,9911,83.5032437442076,Oil and Natural Gas Sector: New Source Performance Standards and National Emission Standards for Hazardous Air Pollutants Reviews; Proposed Rule,stratified_random+extreme_case
+EPA-HQ-RCRA-2009-0640,2010-2012,2010,2015,11493,10498,91.34255633864092,Hazardous and Solid Waste Management System: Identification and Listing of Special Wastes; Disposal of Coal Combustion Residuals from Electric Utilities,extreme_case
+EPA-HQ-OAR-2011-0044,2010-2012,2011,2012,5812,5662,97.4191328286304,"National Emission Standards for Hazardous Air Pollutants From Coal- and Oil-fired Electric Utility Steam Generating Units and Standards of Performance for Fossil-Fuel-Fired Electric Utility, Industrial-Commercial-Institutional, and Small Industrial-Commercial-Institutional Steam Generating Units; Proposed Rule",extreme_case
+EPA-HQ-OAR-2009-0491,2010-2012,2010,2011,3992,3615,90.5561122244489,Federal Implementation Plans to Reduce Interstate Transport of Fine Particulate Matter and Ozone,extreme_case
+EPA-HQ-OAR-2002-0058,2010-2012,2010,2011,2920,2556,87.53424657534246,"National Emission Standards for Hazardous Air Pollutants for Major Sources: Industrial, Commercial, and Institutional Boilers and Process Heaters",extreme_case
+EPA-HQ-OAR-2003-0119,2010-2012,2010,2011,2527,2428,96.0823110407598,Standards of Performance for New Stationary Sources and Emission Guidelines for Existing Sources: Commercial and Industrial Solid Waste Incineration Units,stratified_random+extreme_case
+EPA-HQ-OAR-2006-0790,2010-2012,2010,2011,2325,2178,93.6774193548387,"National Emission Standards for Hazardous Air Pollutants for Area Sources: Industrial, Commercial, and Institutional Boilers",extreme_case
+EPA-HQ-OW-2009-0596,2010-2012,2010,2010,1452,1209,83.26446280991735,Water Quality Standards for the State of Florida's Lakes and Flowing Waters,stratified_random
+EPA-HQ-OW-2008-0667,2010-2012,2011,2014,1409,1257,89.21220723917672,National Pollutant Discharge Elimination System- Requirements for Cooling Water Intake Structures at Existing Facilities and Phase I Facilities,stratified_random
+EPA-HQ-OAR-2009-0926,2010-2012,2010,2010,792,770,97.2222222222222,Mandatory Reporting of Greenhouse Gases: Injection and Geologic Sequestration of Carbon Dioxide,stratified_random
+EPA-HQ-OAR-2011-0817,2010-2012,2012,2013,563,440,78.15275310834814,National Emission Standards for Hazardous Air Pollutants for the Portland Cement Manufacturing Industry and Standards of Performance for Portland Cement Plants,extreme_case
+EPA-HQ-OAR-2013-0602,2013-2015,2014,2015,34479,30025,87.08199193712115,Carbon Pollution Emission Guidelines for Existing Stationary Sources: Electric Utility Generating Units,stratified_random+extreme_case
+EPA-HQ-OW-2011-0880,2013-2015,2014,2015,20594,14026,68.10721569389142,Clean Water Act; Definitions: Waters of the United States,stratified_random+extreme_case
+EPA-HQ-OAR-2013-0495,2013-2015,2014,2015,11935,9451,79.18726434855468,Standards of Performance for Greenhouse Gas Emissions from New Stationary Sources: Electric Utility Generating Units,extreme_case
+EPA-HQ-OW-2009-0819,2013-2015,2013,2015,4161,3351,80.53352559480894,Steam Electric Power Generating Point Source Category: Effluent Limitations Guidelines and Standards,extreme_case
+EPA-HQ-OPP-2011-0184,2013-2015,2013,2015,2399,239,9.96248436848687,Pesticides: Agricultural Worker Protection Standard Revisions; Submission to Agriculture Secretary,stratified_random
+EPA-HQ-OA-2014-0012,2013-2015,2014,2014,1409,474,33.64088005677785,Administrative Wage Garnishment; Proposed Rule,stratified_random
+EPA-HQ-OAR-2014-0828,2013-2015,2015,2016,806,165,20.47146401985112,Greenhouse Gas Determinations: Emissions from Aircraft Cause or Contribute to Air Pollution that May Reasonably Be Anticipated to Endanger Public Health and Welfare,stratified_random
+EPA-HQ-OPA-2006-0090,2013-2015,2015,2021,596,30,5.033557046979865,National Oil and Hazardous Substances Pollution Contingency Plan,stratified_random
+EPA-HQ-OAR-2010-0682,2013-2015,2014,2015,506,322,63.63636363636363,Petroleum Refinery Sector Risk and Technology Review and New Source Performance Standards,extreme_case
+EPA-HQ-OAR-2017-0355,2016-2018,2017,2019,26206,8056,30.741051667557045,Repeal of Carbon Pollution Emission Guidelines for Existing Stationary Sources: Electric Utility Generating Units,extreme_case
+EPA-HQ-OW-2017-0203,2016-2018,2017,2019,15618,6066,38.83980023050327,"Definition of Waters of United States - Recodification of Pre-Existing
+Rules",stratified_random+extreme_case
+EPA-HQ-OPPT-2018-0159,2016-2018,2018,2019,5894,52,0.8822531387852053,Asbestos; Significant New Use Rule,stratified_random
+EPA-HQ-OLEM-2017-0286,2016-2018,2018,2018,2371,853,35.976381273724165,Hazardous and Solid Waste Management System: Disposal of Coal Combustion Residuals from Electric Utilities; Amendments to the National Minimum Criteria (Phase One),stratified_random
+EPA-HQ-OAR-2017-0483,2016-2018,2018,2020,2148,1080,50.27932960893855,"Oil and Natural Gas Sector: Emission Standards for New, Reconstructed, and Modified Sources Reconsideration",extreme_case
+EPA-R08-OAR-2015-0463,2016-2018,2016,2016,1033,39,3.77541142303969,Air Quality State Implementation Plans; Approvals and Promulgations: Utah; Revisions to Regional Haze State Implementation Plan; Federal Implementation Plan for Regional Haze; Partial Approval and Partial Disapproval,stratified_random
+EPA-HQ-OW-2017-0644,2016-2018,2017,2018,707,234,33.097595473833096,Definition of Waters of the United States-Addition of Applicability Date to 2015 Clean Water Rule,stratified_random
+EPA-HQ-OAR-2015-0531,2016-2018,2016,2017,549,453,82.5136612021858,Protection of Visibility; Amendments to Requirements for State Plans,stratified_random
+EPA-HQ-OAR-2018-0794,2019-2022,2019,2020,5294,2864,54.09897997733283,National Emission Standards for Hazardous Air Pollutants: Coal- and Oil-Fired Electric Utility Steam Generating Units-Reconsideration of Supplemental Finding and Residual Risk and Technology Review,stratified_random+extreme_case
+EPA-HQ-OAR-2017-0757,2019-2022,2019,2020,2655,1140,42.93785310734463,"Oil and Natural Gas Sector: Emission Standards for New, Reconstructed, and Modified Sources Review; Notice of Public Hearing on October 17, 2019",stratified_random
+EPA-HQ-OAR-2015-0072,2019-2022,2020,2020,958,535,55.84551148225469,"Review of the National Ambient Air Quality Standards for Particulate
+Matter",stratified_random
+EPA-HQ-OAR-2018-0775,2019-2022,2019,2019,1042,115,11.036468330134356,Hearing: Modifications to Fuel Regulations to Provide Flexibility for E15; Modifications to RFS RIN Market Regulations,stratified_random
+EPA-HQ-OAR-2021-0668,2019-2022,2022,2022,709,166,23.413258110014105,Federal Implementation Plan Addressing Regional Ozone Transport for the 2015 Ozone National Ambient Air Quality Standard,stratified_random
+EPA-HQ-OAR-2020-0044,2019-2022,2020,2020,690,70,10.144927536231885,Increasing Consistency and Transparency in Considering Benefits and Costs in the Clean Air Act Rulemaking Process,stratified_random

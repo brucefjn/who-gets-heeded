@@ -1,0 +1,151 @@
+obligation_id,audit_tier,rater_1_label,rater_2_label,classifier_label,rater_1_notes,rater_2_notes,adjudicated_label
+EPA-HQ-OW-2009-0819__proposed__176_1,T1_F3,MODIFIED,MODIFIED,MODIFIED,,"Different wastewater stream and requirement: proposed includes fly ash transport water/monitoring, final addresses bottom ash transport water with exceptions.",MODIFIED
+EPA-R08-OAR-2015-0463__proposed__36_1,T1_F3,SURVIVED-edited,SURVIVED-edited,MODIFIED,"Final text adds the table/limit detail, but the visible operative command not to emit above the listed limitations is preserved.",Core NOx emissions limitation obligation is preserved; final text adds the table continuation.,SURVIVED-edited
+EPA-HQ-OPP-2011-0184__proposed__162_0,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-RCRA-2009-0640__proposed__101001_0,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OAR-2003-0119__proposed__204_0,T2_general,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OPP-2011-0184__proposed__138_0,T1_F3,SURVIVED-edited,MODIFIED,SURVIVED-edited,Object wording changes from pesticide safety information to application/hazard information; display-location obligation is preserved.,"Object of display changes from pesticide safety information to pesticide application/hazard information, so the required content differs.",MODIFIED
+EPA-HQ-RCRA-2009-0640__proposed__337_1,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-R08-OAR-2015-0463__proposed__37_1,T1_F3,SURVIVED-edited,SURVIVED-edited,SURVIVED-edited,Final resolves the proposed effective-date placeholder to a calendar date; visible limit and compliance obligation are otherwise preserved.,Bracketed deadline is resolved to a concrete date; visible five-year deadline structure appears preserved.,SURVIVED-edited
+EPA-HQ-OAR-2010-0505__proposed__79_0,T1_F3,SURVIVED-edited,SURVIVED-edited,SURVIVED-edited,Methane is restated as GHG based on the same natural-gas surrogate; I treated this as terminology rather than different behavior.,"Visible change reads as terminology/standard-framing update from methane to GHG, with VOC obligation preserved.",SURVIVED-edited
+EPA-HQ-OAR-2011-0044__proposed__533_0,T2_general,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OPP-2011-0184__proposed__363_4,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-OPA-2006-0090__proposed__24_0,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,Final expands/changes authorization scope by adding burning agents and NCP Product Schedule language.,MODIFIED
+EPA-HQ-OAR-2013-0495__proposed__100100_0,T1_F3,SURVIVED-edited,SURVIVED-edited,MODIFIED,CO2 limit obligation is preserved with revised terminology/cross-references to tables rather than paragraphs.,,SURVIVED-edited
+EPA-HQ-OAR-2010-0505__proposed__546_0,T2_general,MODIFIED,MODIFIED,SURVIVED-unchanged,,,MODIFIED
+EPA-HQ-OW-2009-0819__proposed__100705_0,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OLEM-2017-0286__proposed__100602_0,T1_F3,MODIFIED,MODIFIED,MODIFIED,"Final counterpart is truncated and adds EPA as permitting authority; visible conditions/deadline are not preserved, so I used MODIFIED.","Final adds EPA as permitting authority alongside participating State Director, changing the scope of who may suspend monitoring.",MODIFIED
+EPA-HQ-OPA-2006-0090__proposed__82_0,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-OPP-2011-0184__proposed__221_1,T2_general,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-RCRA-2009-0640__proposed__101000_0,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OAR-2009-0926__proposed__28_0,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OW-2009-0819__final__118_0,T2_general,NEW,NEW,NEW,,,NEW
+EPA-HQ-OAR-2017-0483__proposed__63_0,T1_F3,SURVIVED-unchanged,SURVIVED-unchanged,SURVIVED-edited,,,SURVIVED-unchanged
+EPA-HQ-RCRA-2009-0640__proposed__299_6,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OPA-2006-0090__proposed__30_0,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,Final omits the NP/NPE prohibition and narrows/rephrases the sinking-agent prohibition.,MODIFIED
+EPA-HQ-OPA-2006-0090__proposed__14_0,T1_F3,SURVIVED-edited,MODIFIED,SURVIVED-edited,Final removes contextual/heading language but preserves OSC authorization requirement for chemical/biological agents.,,SURVIVED-edited
+EPA-HQ-OPP-2011-0184__proposed__157_0,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-OAR-2017-0355__proposed__128_0,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OPP-2011-0184__proposed__162_3,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,"Trainer qualification is preserved but expanded to pesticide handlers, changing who can qualify.",MODIFIED
+EPA-HQ-OLEM-2017-0286__proposed__69_0,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OAR-2011-0044__proposed__320_0,T2_general,DROPPED,DROPPED,DROPPED,,,DROPPED
+EPA-HQ-OW-2009-0596__proposed__50_0,T2_general,DROPPED,DROPPED,DROPPED,"Final text is blank; proposed text is a binding timing requirement, so coded as plausibly dropped despite missing CFR reference.","Final text is blank; proposed text is phrased as a binding requirement, though the CFR reference is unavailable.",DROPPED
+EPA-HQ-OPA-2006-0090__proposed__27_0,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-OPP-2011-0184__proposed__100311_0,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,Final appears to expand the crop-advisor PPE substitution structure/options and covered persons.,MODIFIED
+EPA-HQ-OPP-2011-0184__proposed__168_0,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-OAR-2003-0119__proposed__295_0,T2_general,DROPPED,DROPPED,DROPPED,,,DROPPED
+EPA-HQ-OAR-2013-0602__proposed__100202_0,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-OPA-2006-0090__proposed__42_0,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OAR-2009-0491__proposed__1012_1,T2_general,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OAR-2011-0044__proposed__197_0,T2_general,SURVIVED-edited,SURVIVED-edited,SURVIVED-unchanged,Only singular/plural and table-reference surface wording changed; required test-run compliance behavior is the same.,"Read as wording cleanup from plural “times or volumes” to applicable “time or volume,” without a visible compliance change.",SURVIVED-edited
+EPA-HQ-OAR-2010-0505__proposed__49_0,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-OW-2011-0880__proposed__91_0,T1_F3,SURVIVED-edited,SURVIVED-edited,SURVIVED-edited,"Final includes adjacent definition categories, but the visible WOTUS category in the proposed text is preserved.",Core first-category definition text is preserved; final includes additional list continuation beyond the matched text.,SURVIVED-edited
+EPA-HQ-OAR-2013-0602__proposed__29_0,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-OW-2011-0880__proposed__81_0,T1_F3,SURVIVED-edited,SURVIVED-edited,SURVIVED-edited,"Final includes adjacent definition categories, but the visible WOTUS category in the proposed text is preserved.",Core first-category definition text is preserved; final includes additional list continuation beyond the matched text.,SURVIVED-edited
+EPA-HQ-OPP-2011-0184__proposed__369_0,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-OPP-2011-0184__proposed__360_0,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-OAR-2010-0505__proposed__448_1,T2_general,SURVIVED-unchanged,SURVIVED-unchanged,SURVIVED-unchanged,,,SURVIVED-unchanged
+EPA-HQ-OPP-2011-0184__proposed__361_0,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-OAR-2017-0355__proposed__81_0,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OW-2009-0819__proposed__158_0,T2_general,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-RCRA-2009-0640__proposed__299_3,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OW-2009-0819__proposed__162_0,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OLEM-2017-0286__proposed__67_0,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OW-2009-0819__proposed__130_0,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-OPP-2011-0184__proposed__368_0,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OPP-2011-0184__proposed__161_0,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-OPP-2011-0184__proposed__168_1,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-OPP-2011-0184__proposed__88_2,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OPP-2011-0184__proposed__162_2,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-OAR-2009-0926__proposed__28_2,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OPP-2011-0184__proposed__160_1,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OAR-2010-0505__proposed__477_0,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-OAR-2009-0926__proposed__77_2,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OAR-2017-0483__proposed__64_0,T2_general,SURVIVED-unchanged,SURVIVED-unchanged,SURVIVED-unchanged,,,SURVIVED-unchanged
+EPA-HQ-OAR-2013-0602__proposed__43_0,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OAR-2009-0491__proposed__444_2,T2_general,SURVIVED-edited,SURVIVED-edited,SURVIVED-unchanged,"Deadline language is refined and partially truncated, but visible dates/trigger are substantively preserved.",Read as cleanup of the deadline formula rather than a different compliance date.,SURVIVED-edited
+EPA-HQ-OPA-2006-0090__proposed__42_2,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OAR-2013-0602__proposed__41_1,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OPP-2011-0184__proposed__364_0,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-OAR-2010-0682__proposed__798_0,T2_general,SURVIVED-unchanged,SURVIVED-unchanged,SURVIVED-unchanged,,,SURVIVED-unchanged
+EPA-HQ-OAR-2010-0682__proposed__667_1,T2_general,SURVIVED-edited,SURVIVED-edited,SURVIVED-edited,“From the test runs” clarifies the readings; same 3-hour average recording requirement.,Added “from the test runs” clarifies the readings being averaged without changing the task.,SURVIVED-edited
+EPA-HQ-OAR-2013-0602__proposed__41_0,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OAR-2017-0483__proposed__165_0,T2_general,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-RCRA-2009-0640__proposed__337_3,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OAR-2009-0926__proposed__77_0,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OAR-2013-0495__proposed__101000_0,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OAR-2013-0602__proposed__20_0,T2_general,MODIFIED,SURVIVED-edited,SURVIVED-edited,,Core multi-state plan CO2 performance requirement is preserved but rewritten around listed rates/equivalent goals.,SURVIVED-edited
+EPA-HQ-OAR-2010-0505__proposed__85_0,T1_F3,SURVIVED-edited,MODIFIED,SURVIVED-edited,"Final adds date/detail and uses GHG terminology, but the same pneumatic-pump standard structure appears preserved.",,SURVIVED-edited
+EPA-R08-OAR-2015-0463__proposed__37_0,T1_F3,SURVIVED-edited,SURVIVED-edited,SURVIVED-edited,Final resolves the proposed effective-date placeholder to a calendar date; visible limit and compliance obligation are otherwise preserved.,,SURVIVED-edited
+EPA-HQ-OAR-2006-0790__proposed__45_1,T2_general,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-R08-OAR-2015-0463__proposed__40_0,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-OAR-2017-0355__proposed__126_0,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-OLEM-2017-0286__proposed__75_0,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OPP-2011-0184__proposed__162_1,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-OAR-2003-0119__proposed__242_0,T2_general,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OAR-2010-0505__proposed__138_0,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-OW-2009-0819__proposed__116_1,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OPA-2006-0090__proposed__15_0,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-OPA-2006-0090__proposed__42_3,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OPP-2011-0184__proposed__157_1,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-OAR-2010-0505__proposed__47_0,T1_F3,MODIFIED,SURVIVED-edited,MODIFIED,"Final text is truncated before the deadline; because a compliance deadline is material, I did not treat it as preserved.",Final text is truncated after the same compliance-date lead-in; no contrary substantive change is visible in the row.,MODIFIED
+EPA-HQ-OAR-2011-0817__proposed__9_1,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OAR-2013-0495__proposed__145_0,T1_F3,SURVIVED-edited,SURVIVED-edited,SURVIVED-edited,Heading changed from plural to singular only; no substantive compliance change.,Heading wording changes only from plural to singular.,SURVIVED-edited
+EPA-HQ-OPP-2011-0184__proposed__161_1,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OAR-2010-0505__proposed__371_1,T2_general,SURVIVED-unchanged,SURVIVED-unchanged,SURVIVED-unchanged,,,SURVIVED-unchanged
+EPA-HQ-OPA-2006-0090__proposed__30_1,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OPP-2011-0184__proposed__368_2,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OAR-2013-0602__final__181_2,T2_general,NEW,NEW,NEW,,,NEW
+EPA-HQ-OW-2011-0880__proposed__95_0,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,"Definition categories are visibly rewritten/expanded, including adjacent waters/significant nexus language; coded as changed scope.",,MODIFIED
+EPA-HQ-OAR-2021-0668__proposed__20_1,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OAR-2013-0495__proposed__1_0,T1_F3,SURVIVED-edited,SURVIVED-edited,MODIFIED,CO2 limit obligation is preserved with revised terminology/cross-references to tables rather than paragraphs.,,SURVIVED-edited
+EPA-HQ-OAR-2009-0491__proposed__836_1,T2_general,MODIFIED,MODIFIED,SURVIVED-unchanged,,"Reference changes from (i)-(ii) to (i)-(iii) and owner/operator wording expands, so the holding condition differs.",MODIFIED
+EPA-HQ-OAR-2011-0044__proposed__339_2,T2_general,DROPPED,DROPPED,DROPPED,,,DROPPED
+EPA-HQ-OAR-2013-0495__proposed__101001_0,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-RCRA-2009-0640__proposed__299_1,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-RCRA-2009-0640__proposed__337_2,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OLEM-2017-0286__proposed__69_1,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OPP-2011-0184__proposed__162_5,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OLEM-2017-0286__proposed__72_0,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OPP-2011-0184__proposed__158_0,T1_F3,SURVIVED-edited,SURVIVED-edited,SURVIVED-edited,The proposed pesticide-encounter training topic is preserved in final item (iv); final also includes an adjacent topic.,Same pesticide-exposure topic is preserved with minor wording/pluralization; final includes adjacent topic text.,SURVIVED-edited
+EPA-HQ-OPP-2011-0184__proposed__88_3,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OPP-2011-0184__proposed__88_0,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-RCRA-2009-0640__proposed__100700_0,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OAR-2002-0058__final__166_0,T2_general,NEW,NEW,NEW,,,NEW
+EPA-HQ-OW-2009-0819__final__173_2,T2_general,NEW,NEW,NEW,,,NEW
+EPA-HQ-OW-2009-0819__proposed__97_0,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-OAR-2010-0682__proposed__183_0,T2_general,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-OPP-2011-0184__proposed__135_0,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-OAR-2009-0491__proposed__407_0,T2_general,SURVIVED-unchanged,SURVIVED-unchanged,SURVIVED-unchanged,,,SURVIVED-unchanged
+EPA-HQ-OAR-2010-0505__proposed__117_0,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-OAR-2017-0483__proposed__100509_0,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-RCRA-2009-0640__proposed__299_2,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-OW-2009-0819__proposed__84_0,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-OLEM-2017-0286__proposed__68_0,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OPP-2011-0184__proposed__162_4,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-OPP-2011-0184__proposed__73_0,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-OPA-2006-0090__proposed__71_0,T2_general,MODIFIED,MODIFIED,SURVIVED-edited,"Final expands review request coverage to the Sorbent Product List/designee, which changes scope.",,MODIFIED
+EPA-HQ-OPP-2011-0184__proposed__368_3,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OAR-2009-0491__proposed__929_1,T2_general,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OAR-2009-0926__proposed__100404_4,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OLEM-2017-0286__proposed__71_0,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OPA-2006-0090__proposed__12_0,T1_F3,SURVIVED-edited,MODIFIED,MODIFIED,"General schedule/procedure language is reframed with statutory wording, but no different compliance behavior is visible.",General schedule language is recast from “this subpart establishes” to a statutory requirement; coded modified because the formulation and object change.,SURVIVED-edited
+EPA-HQ-RCRA-2009-0640__proposed__299_4,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OPP-2011-0184__proposed__158_1,T1_F3,SURVIVED-edited,SURVIVED-edited,SURVIVED-edited,The proposed pesticide-encounter training topic is preserved in final item (iv); final also includes an adjacent topic.,Same pesticide-exposure topic is preserved with minor wording/pluralization; final includes adjacent topic text.,SURVIVED-edited
+EPA-HQ-OAR-2010-0682__proposed__411_0,T2_general,SURVIVED-unchanged,SURVIVED-unchanged,SURVIVED-unchanged,,,SURVIVED-unchanged
+EPA-HQ-OAR-2021-0668__proposed__20_0,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OAR-2011-0044__proposed__168_1,T2_general,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-OAR-2011-0817__proposed__221_0,T2_general,SURVIVED-edited,SURVIVED-edited,SURVIVED-unchanged,Only wording/order changes for the sorbent-trap monitoring system; same monitoring option remains.,Terminology change from “sorbent trap-based integrated monitoring system” to “integrated sorbent trap monitoring system” appears non-substantive.,SURVIVED-edited
+EPA-HQ-OPP-2011-0184__proposed__363_0,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-OLEM-2017-0286__proposed__68_1,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OPP-2011-0184__proposed__146_0,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-OAR-2017-0355__proposed__112_3,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-OPP-2011-0184__proposed__135_1,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-OAR-2010-0505__proposed__671_0,T2_general,SURVIVED-unchanged,SURVIVED-unchanged,SURVIVED-unchanged,,,SURVIVED-unchanged
+EPA-HQ-OLEM-2017-0286__proposed__70_0,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OAR-2010-0505__proposed__74_0,T1_F3,SURVIVED-edited,SURVIVED-edited,SURVIVED-edited,Methane is restated as GHG in the form of methane limitation; same compressor standards and paragraph scope remain.,"GHG is expressly framed as methane, so the visible change appears terminological rather than a different pollutant obligation.",SURVIVED-edited
+EPA-HQ-OAR-2009-0926__proposed__28_3,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OAR-2011-0817__proposed__9_0,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,,,MODIFIED
+EPA-HQ-OPA-2006-0090__proposed__42_1,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED
+EPA-HQ-OLEM-2017-0286__proposed__59_0,T1_F3,MODIFIED,MODIFIED,SURVIVED-edited,"Both texts are truncated, and final adds EPA as permitting authority while omitting the visible ten-year limit; coded as substantive change.",,MODIFIED
+EPA-HQ-OAR-2013-0495__proposed__101301_0,T1_F3,MODIFIED,MODIFIED,MODIFIED,,,MODIFIED

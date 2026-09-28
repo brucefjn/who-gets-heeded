@@ -1,0 +1,25 @@
+candidate_idx,docket_id,rule_type,split_idx,verified,verified_reason,complexity,recital_disposition,cfr_part,cfr_section,subject,modal,modal_strength,action,object,passive_voice,is_conditional,condition_text,amendatory_action,obligation_text,cross_reference,found_via,llm_provider,llm_model,in_tokens,out_tokens
+25,EPA-HQ-OPPT-2018-0159,final,0,True,"The sentence is binding regulatory text within a CFR section’s specific requirements, using strong modal language (“must”) to impose a duty.",compound,none,721,721.10907(b)(2),Any person who submits a significant new use notice for the substance identified in paragraph (a)(1) of this section for the significant new use identified in paragraph (a)(2) of this section,must,strong,include with the notice adequate documentation or supporting information,"that the intended use is not subject to the prohibitions identified in 40 CFR part 763, subpart I",False,False,,none,"(2) Any person who submits a significant new use notice for the 
+substance identified in paragraph (a)(1) of this section for the 
+significant new
+
+[[Page 17360]]
+
+use identified in paragraph (a)(2) of this section must include with 
+the notice adequate documentation or supporting information in the 
+submitter's possession or control that the intended use is not subject 
+to the prohibitions identified in 40 CFR part 763, subpart I.
+
+[FR Doc. 2019-08154","40 CFR part 763, subpart I",primary,openai,gpt-5,1848,428
+25,EPA-HQ-OPPT-2018-0159,final,1,True,"The sentence is binding regulatory text within a CFR section’s specific requirements, using strong modal language (“must”) to impose a duty.",compound,none,721,721.10907(b)(2),Any person who submits a significant new use notice for the substance identified in paragraph (a)(1) of this section for the significant new use identified in paragraph (a)(2) of this section,must,strong,include with the notice adequate documentation or supporting information in the submitter's possession or control,"that the intended use is not subject to the prohibitions identified in 40 CFR part 763, subpart I",False,False,,none,"(2) Any person who submits a significant new use notice for the 
+substance identified in paragraph (a)(1) of this section for the 
+significant new
+
+[[Page 17360]]
+
+use identified in paragraph (a)(2) of this section must include with 
+the notice adequate documentation or supporting information in the 
+submitter's possession or control that the intended use is not subject 
+to the prohibitions identified in 40 CFR part 763, subpart I.
+
+[FR Doc. 2019-08154","40 CFR part 763, subpart I",primary,openai,gpt-5,0,0

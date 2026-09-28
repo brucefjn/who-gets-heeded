@@ -1,0 +1,1332 @@
+candidate_idx,docket_id,rule_type,split_idx,verified,verified_reason,complexity,recital_disposition,cfr_part,cfr_section,subject,modal,modal_strength,action,object,passive_voice,is_conditional,condition_text,amendatory_action,obligation_text,cross_reference,found_via,llm_provider,llm_model,in_tokens,out_tokens
+1,EPA-HQ-OAR-2013-0495,final,0,True,"The text is within an explicit amendatory block adding a new subpart to part 60, which makes the included headings and sections new binding regulatory text.",simple,none,60,60.17,Part 60,no_modal_implicit,strong,is amended by adding,subpart TTTT to read as follows,True,False,,add,"is amended by adding subpart TTTT to read as follows:
+Subpart TTTT--Standards of Performance for Greenhouse Gas Emissions for 
+Electric Generating Units
+
+Applicability
+
+Sec.
+60.5508 What is the purpose of this subpart?
+60.5509 Am I subject to this subpart?
+
+Emission Standards
+
+60.5515 Which pollutants are regulated by this subpart?
+60.5520 What CO<INF>2</INF> emissions standard must I meet?
+
+General Compliance Requirements
+
+60.5525 What are my general requirements for complying with this 
+subpart?",,primary,openai,gpt-5,2022,188
+5,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within regulatory text of Subpart TTTT that functions as binding CFR text (amendatory context indicated), and it prescribes a terminology usage requirement using 'shall.'",simple,none,60,60.5508,"An affected steam generating unit, IGCC, or stationary combustion turbine",shall,strong,be referred to,an affected EGU for the purposes of this subpart,True,False,,revise,"An affected steam generating unit, IGCC, or stationary 
+combustion turbine shall, for the purposes of this subpart, be referred 
+to as an affected EGU.",,primary,openai,gpt-5,1786,205
+6,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within regulatory text of § 60.5515 in an amendatory revision block, making it new binding text.",simple,none,60,60.5515,the pollutant that is subject to the standard promulgated under section 111 of the Act (for purposes of 40 CFR 51.166(b)(49)(ii) with respect to GHG emissions from affected facilities),shall,strong,be considered,"the pollutant that otherwise is subject to regulation under the Act as defined in § 51.166(b)(48) of this chapter and in any SIP approved by the EPA that is interpreted to incorporate, or specifically incorporates, § 51.166(b)(48)",True,True,"For the purposes of 40 CFR 51.166(b)(49)(ii), with respect to GHG emissions from affected facilities",revise,"(1) For the 
+purposes of 40 CFR 51.166(b)(49)(ii), with respect to GHG emissions 
+from affected facilities, the ``pollutant that is subject to the 
+standard promulgated under section 111 of the Act'' shall be considered 
+to be the pollutant that otherwise is subject to regulation under the 
+Act as defined in Sec.  51.166(b)(48) of this chapter and in any SIP 
+approved by the EPA that is interpreted to incorporate, or specifically 
+incorporates, Sec.  51.166(b)(48).",§ 51.166(b)(48),primary,openai,gpt-5,1962,299
+7,EPA-HQ-OAR-2013-0495,final,0,True,The sentence appears within amendatory text revising § 60.17 and prescribes a binding interpretive rule using shall within the amended regulatory text.,simple,definition_embedded,60,60.17,"the pollutant that is subject to the standard promulgated under section 111 of the Act (with respect to GHG emissions from affected facilities, for the purposes of 40 CFR 52.21(b)(50)(ii))",shall,strong,be considered,the pollutant that otherwise is subject to regulation under the Act as defined in § 52.21(b)(49) of this chapter,True,True,"For the purposes of 40 CFR 52.21(b)(50)(ii), with respect to GHG emissions from affected facilities",revise,"(2) For the purposes of 40 CFR 52.21(b)(50)(ii), with respect to 
+GHG emissions from affected facilities, the ``pollutant that is subject 
+to the standard promulgated under section 111 of the Act'' shall be 
+considered to be the pollutant that otherwise is subject to regulation 
+under the Act as defined in Sec.  52.21(b)(49) of this chapter.",§ 52.21(b)(49),primary,openai,gpt-5,1913,280
+8,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within an amendatory block revising § 60.17, so the language is new binding regulatory text.",simple,definition_embedded,60,60.17,"pollutant that is subject to any standard promulgated under section 111 of the Act (with respect to greenhouse gas emissions from affected facilities, for purposes of 40 CFR 70.2)",shall,strong,be considered to be,"the pollutant that otherwise is ""subject to regulation"" as defined in 40 CFR 70.2",True,True,"For the purposes of 40 CFR 70.2, with respect to greenhouse gas emissions from affected facilities",revise,"(3) For the purposes of 40 CFR 70.2, with respect to greenhouse gas 
+emissions from affected facilities, the ``pollutant that is subject to 
+any standard promulgated under section 111 of the Act'' shall be 
+considered to be the pollutant that otherwise is ``subject to 
+regulation'' as defined in 40 CFR 70.2.",40 CFR 70.2,primary,openai,gpt-5,1905,257
+9,EPA-HQ-OAR-2013-0495,final,0,True,The sentence appears within amendatory regulatory text being revised and prescribes a binding interpretive rule for purposes of 40 CFR 71.2.,simple,definition_embedded,60,60.17,the pollutant that is subject to any standard promulgated under section 111 of the Act (with respect to greenhouse gas emissions from affected facilities),shall,strong,be considered to be,"the pollutant that otherwise is ""subject to regulation"" as defined in 40 CFR 71.2",True,True,"For the purposes of 40 CFR 71.2, with respect to greenhouse gas emissions from affected facilities",revise,"(4) For the purposes of 40 CFR 71.2, with respect to greenhouse gas 
+emissions from affected facilities, the ``pollutant that is subject to 
+any standard promulgated under section 111 of the Act'' shall be 
+considered to be the pollutant that otherwise is ``subject to 
+regulation'' as defined in 40 CFR 71.2.",40 CFR 71.2,primary,openai,gpt-5,1893,250
+10,EPA-HQ-OAR-2013-0495,final,0,True,"The text is within an amendatory regulatory section containing binding requirements introduced with must/must not, making it new binding text.",compound,none,60,60.5520,you,must not,strong,discharge,any gases that contain CO2 in excess of the applicable CO2 emission standard specified in Table 1 or 2 of this subpart,False,True,for each affected EGU subject to this subpart,revise,Sec.  60.5520  What CO<INF>2</INF> emission standard must I meet?,,primary,openai,gpt-5,1785,447
+10,EPA-HQ-OAR-2013-0495,final,1,True,"The text is within an amendatory regulatory section containing binding requirements introduced with must/must not, making it new binding text.",compound,none,60,60.5520,you,must,strong,comply with,the applicable gross energy output standard,False,True,except as specified in paragraphs (c) and (d) of this section,revise,Sec.  60.5520  What CO<INF>2</INF> emission standard must I meet?,,primary,openai,gpt-5,0,0
+10,EPA-HQ-OAR-2013-0495,final,2,True,"The text is within an amendatory regulatory section containing binding requirements introduced with must/must not, making it new binding text.",compound,none,60,60.5520,your operating permit,must,strong,include,"monitoring, recordkeeping, and reporting methodologies based on the applicable gross energy output standard",False,True,except as specified in paragraphs (c) and (d) of this section,revise,Sec.  60.5520  What CO<INF>2</INF> emission standard must I meet?,,primary,openai,gpt-5,0,0
+11,EPA-HQ-OAR-2013-0495,final,0,True,The sentence is within amendatory regulatory text adding/revising § 60.5520 and states a clear prohibition using must not.,simple,none,60,60.5520,each affected EGU subject to this subpart,must not,strong,discharge,any gases that contain CO2 in excess of the applicable CO2 emission standard specified in Table 1 or 2 of this subpart,False,True,"consistent with paragraphs (b), (c), and (d) of this section, as applicable",revise,"(a) For each affected EGU subject to this subpart, you must not 
+discharge from the affected EGU any gases that contain CO<INF>2</INF> 
+in excess of the applicable CO<INF>2</INF> emission standard specified 
+in Table 1 or 2 of this subpart, consistent with paragraphs (b), (c), 
+and (d) of this section, as applicable.",,primary,openai,gpt-5,1899,225
+12,EPA-HQ-OAR-2013-0495,final,0,True,The sentence appears within amendatory regulatory text revising § 60.5520 and contains mandatory requirements under an amendatory block.,compound,none,60,60.5520,you,must,strong,comply with,the applicable gross energy output standard,False,True,Except as specified in paragraphs (c) and (d) of this section,revise,"Except as specified in paragraphs (c) and (d) of this section, 
+you must comply with the applicable gross energy output standard, and 
+your operating permit must include monitoring, recordkeeping, and 
+reporting methodologies based on the applicable gross energy output 
+standard.",,primary,openai,gpt-5,1827,317
+12,EPA-HQ-OAR-2013-0495,final,1,True,The sentence appears within amendatory regulatory text revising § 60.5520 and contains mandatory requirements under an amendatory block.,compound,none,60,60.5520,your operating permit,must,strong,include,"monitoring, recordkeeping, and reporting methodologies based on the applicable gross energy output standard",False,True,Except as specified in paragraphs (c) and (d) of this section,revise,"Except as specified in paragraphs (c) and (d) of this section, 
+you must comply with the applicable gross energy output standard, and 
+your operating permit must include monitoring, recordkeeping, and 
+reporting methodologies based on the applicable gross energy output 
+standard.",,primary,openai,gpt-5,0,0
+13,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within an amendatory block revising CFR text and prescribes a permissive procedural option, making it binding regulatory text.",simple,none,60,60.17,an owner or operator of a stationary combustion turbine,may,permissive,petition in writing,the Administrator to comply with the alternate applicable net energy output standard,False,True,As an alternate to meeting the requirements in paragraph (b) of this section,revise,"As an alternate to meeting the requirements in paragraph (b) of 
+this section, an owner or operator of a stationary combustion turbine 
+may petition the Administrator in writing to comply with the alternate 
+applicable net energy output standard.",paragraph (b) of this section,primary,openai,gpt-5,1783,214
+14,EPA-HQ-OAR-2013-0495,final,0,True,Text appears within an amendatory revision block and states a clear mandatory requirement.,simple,none,60,60.17,the affected EGU,must,strong,comply,the applicable net energy output-based standard included in this subpart,False,True,"If the Administrator grants the petition, beginning on the date the Administrator grants the petition",revise,"If the Administrator grants the 
+petition, beginning on the date the Administrator grants the petition, 
+the affected EGU must comply with the applicable net energy output-
+based standard included in this subpart.",,primary,openai,gpt-5,1760,188
+15,EPA-HQ-OAR-2013-0495,final,0,True,The sentence appears within amendatory text being revised and states a mandatory requirement using must.,compound,none,60,60.17,Your operating permit,must,strong,include,monitoring methodologies based on the applicable net energy output standard,False,False,,revise,"Your operating permit must 
+include monitoring, recordkeeping, and reporting methodologies based on 
+the applicable net energy output standard.",,primary,openai,gpt-5,1722,379
+15,EPA-HQ-OAR-2013-0495,final,1,True,The sentence appears within amendatory text being revised and states a mandatory requirement using must.,compound,none,60,60.17,Your operating permit,must,strong,include,recordkeeping methodologies based on the applicable net energy output standard,False,False,,revise,"Your operating permit must 
+include monitoring, recordkeeping, and reporting methodologies based on 
+the applicable net energy output standard.",,primary,openai,gpt-5,0,0
+15,EPA-HQ-OAR-2013-0495,final,2,True,The sentence appears within amendatory text being revised and states a mandatory requirement using must.,compound,none,60,60.17,Your operating permit,must,strong,include,reporting methodologies based on the applicable net energy output standard,False,False,,revise,"Your operating permit must 
+include monitoring, recordkeeping, and reporting methodologies based on 
+the applicable net energy output standard.",,primary,openai,gpt-5,0,0
+16,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory regulatory text being revised, making it new binding text.",simple,none,60,60.17,Owners or operators complying with the net output-based standard,must,strong,petition,the Administrator to switch back to complying with the gross energy output-based standard,False,False,,revise,"Owners or
+
+[[Page 64650]]
+
+operators complying with the net output-based standard must petition 
+the Administrator to switch back to complying with the gross energy 
+output-based standard.",,primary,openai,gpt-5,1741,181
+17,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory regulatory text (revise) and prescribes requirements using “must,” making it binding.",compound,none,60,60.17,Stationary combustion turbines permitted to burn fuels that do not have a consistent chemical composition or that do not have an emission rate of 160 lb CO2/MMBtu or less,must,strong,follow,the monitoring requirements necessary to complete the heat input-based calculations under this subpart,False,True,if the turbine is permitted to burn fuels that are non-uniform in chemical composition or have an emission rate greater than 160 lb CO2/MMBtu,revise,"(2) Stationary combustion turbines permitted to burn fuels that do 
+not have a consistent chemical composition or that do not have an 
+emission rate of 160 lb CO<INF>2</INF>/MMBtu or less (e.g., non-uniform 
+fuels such as residual oil and non-jet fuel kerosene) must follow the 
+monitoring, recordkeeping, and reporting requirements necessary to 
+complete the heat input-based calculations under this subpart.",,primary,openai,gpt-5,1912,588
+17,EPA-HQ-OAR-2013-0495,final,1,True,"The sentence appears within amendatory regulatory text (revise) and prescribes requirements using “must,” making it binding.",compound,none,60,60.17,Stationary combustion turbines permitted to burn fuels that do not have a consistent chemical composition or that do not have an emission rate of 160 lb CO2/MMBtu or less,must,strong,follow,the recordkeeping requirements necessary to complete the heat input-based calculations under this subpart,False,True,if the turbine is permitted to burn fuels that are non-uniform in chemical composition or have an emission rate greater than 160 lb CO2/MMBtu,revise,"(2) Stationary combustion turbines permitted to burn fuels that do 
+not have a consistent chemical composition or that do not have an 
+emission rate of 160 lb CO<INF>2</INF>/MMBtu or less (e.g., non-uniform 
+fuels such as residual oil and non-jet fuel kerosene) must follow the 
+monitoring, recordkeeping, and reporting requirements necessary to 
+complete the heat input-based calculations under this subpart.",,primary,openai,gpt-5,0,0
+17,EPA-HQ-OAR-2013-0495,final,2,True,"The sentence appears within amendatory regulatory text (revise) and prescribes requirements using “must,” making it binding.",compound,none,60,60.17,Stationary combustion turbines permitted to burn fuels that do not have a consistent chemical composition or that do not have an emission rate of 160 lb CO2/MMBtu or less,must,strong,follow,the reporting requirements necessary to complete the heat input-based calculations under this subpart,False,True,if the turbine is permitted to burn fuels that are non-uniform in chemical composition or have an emission rate greater than 160 lb CO2/MMBtu,revise,"(2) Stationary combustion turbines permitted to burn fuels that do 
+not have a consistent chemical composition or that do not have an 
+emission rate of 160 lb CO<INF>2</INF>/MMBtu or less (e.g., non-uniform 
+fuels such as residual oil and non-jet fuel kerosene) must follow the 
+monitoring, recordkeeping, and reporting requirements necessary to 
+complete the heat input-based calculations under this subpart.",,primary,openai,gpt-5,0,0
+18,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within an amendatory regulatory text block revising § 60.5525 and prescribes how compliance shall be determined, making it new binding text.",simple,none,60,60.5525,all other affected sources,shall,strong,determine compliance,with the applicable CO2 emission standard of this subpart on a 12-operating-month rolling average basis,False,False,,revise,"For all other 
+affected sources, compliance with the applicable CO<INF>2</INF> 
+emission standard of this subpart shall be determined on a 12-
+operating-month rolling average basis.",,primary,openai,gpt-5,1796,201
+19,EPA-HQ-OAR-2013-0495,final,0,True,"The obligation appears within an amendatory regulatory section text setting general compliance requirements, indicating binding amendatory language.",simple,none,60,60.5525,You,must,strong,be in compliance with,the emission standards in this subpart that apply to your affected EGU at all times,False,False,,revise,"See Table 1 or 2 of this subpart 
+for the applicable CO<INF>2</INF> emission standards.
+    (a) You must be in compliance with the emission standards in this 
+subpart that apply to your affected EGU at all times.",,primary,openai,gpt-5,1810,183
+20,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory text being revised, making it new binding regulatory language.",simple,none,60,60.17,you,must,strong,determine compliance with the emission standards,only at the end of the applicable operating month,False,True,as provided in paragraph (a)(1) of this section,revise,"However, you must 
+determine compliance with the emission standards only at the end of the 
+applicable operating month, as provided in paragraph (a)(1) of this 
+section.",paragraph (a)(1) of this section,primary,openai,gpt-5,1803,194
+21,EPA-HQ-OAR-2013-0495,final,0,True,Text appears within an amendatory block (revise) and prescribes a compliance-determination duty.,compound,none,60,60.17,you,must,strong,determine compliance,with the CO2 emissions standard for each affected EGU subject to a 12-operating-month rolling average,False,True,For each affected EGU subject to a CO2 emissions standard based on a 12-operating-month rolling average,revise,"(1) For each affected EGU subject to a CO<INF>2</INF> emissions 
+standard based on a 12-operating-month rolling average, you must 
+determine compliance monthly by calculating the average CO<INF>2</INF> 
+emissions rate for the affected EGU at the end of the initial and each 
+subsequent 12-operating-month period.",,primary,openai,gpt-5,1890,346
+21,EPA-HQ-OAR-2013-0495,final,1,True,Text appears within an amendatory block (revise) and prescribes a compliance-determination duty.,compound,none,60,60.17,you,must,strong,calculate the average CO2 emissions rate for the affected EGU,at the end of the initial and each subsequent 12-operating-month period,False,True,For each affected EGU subject to a CO2 emissions standard based on a 12-operating-month rolling average,revise,"(1) For each affected EGU subject to a CO<INF>2</INF> emissions 
+standard based on a 12-operating-month rolling average, you must 
+determine compliance monthly by calculating the average CO<INF>2</INF> 
+emissions rate for the affected EGU at the end of the initial and each 
+subsequent 12-operating-month period.",,primary,openai,gpt-5,0,0
+22,EPA-HQ-OAR-2013-0495,final,0,True,The sentence appears within amendatory text being revised and imposes a clear requirement on the regulated party.,simple,none,60,60.17,you,must,strong,determine,the total heat input in MMBtu from natural gas (HTIPng) and the total heat input from all other fuels combined (HTIPo) using one of the methods under § 60.5535(d)(2),False,True,if your affected stationary combustion turbine is subject to an input-based CO2 emissions standard,revise,"(2) Consistent with Sec.  60.5520(d)(2), if your affected 
+stationary combustion turbine is subject to an input-based 
+CO<INF>2</INF> emissions standard, you must determine the total heat 
+input in million Btus (MMBtu) from natural gas (HTIP<INF>ng</INF>) and 
+the total heat input from all other fuels combined (HTIP<INF>o</INF>) 
+using one of the methods under Sec.  60.5535(d)(2).",§ 60.5520(d)(2),primary,openai,gpt-5,1985,233
+23,EPA-HQ-OAR-2013-0495,final,0,True,The sentence appears within amendatory text being revised and imposes a requirement using must.,simple,none,60,60.17,you,must,strong,use,the specified equation to determine the applicable CO2 emissions standard during the compliance period,False,True,After determining total heat input from natural gas and from all other fuels under § 60.5535(d)(2),revise,"You must then use 
+the following equation to determine the applicable emissions standard 
+during the compliance period:
+[GRAPHIC]",§ 60.5535(d)(2),primary,openai,gpt-5,1807,205
+24,EPA-HQ-OAR-2013-0495,final,0,True,The sentence appears within an amendatory block revising regulatory text and states a mandatory requirement.,compound,none,60,60.17,you,must,strong,operate,"each affected EGU, including associated equipment and monitors, in a manner consistent with safety and good air pollution control practice",False,False,,revise,"At all times you must operate and maintain each affected EGU, 
+including associated equipment and monitors, in a manner consistent 
+with safety and good air pollution control practice.",,primary,openai,gpt-5,1779,297
+24,EPA-HQ-OAR-2013-0495,final,1,True,The sentence appears within an amendatory block revising regulatory text and states a mandatory requirement.,compound,none,60,60.17,you,must,strong,maintain,"each affected EGU, including associated equipment and monitors, in a manner consistent with safety and good air pollution control practice",False,False,,revise,"At all times you must operate and maintain each affected EGU, 
+including associated equipment and monitors, in a manner consistent 
+with safety and good air pollution control practice.",,primary,openai,gpt-5,0,0
+25,EPA-HQ-OAR-2013-0495,final,0,True,The text appears within an amendatory block revising CFR regulatory text and contains binding directives.,compound,none,60,60.17,you,must,strong,make,"an initial compliance determination for your affected EGU(s) with respect to the applicable emissions standard in Table 1 or 2 of this subpart, in accordance with the requirements in this subpart",False,True,"Within 30 days after the end of the initial compliance period (i.e., no more than 30 days after the first 12-operating-month compliance period)",revise,"The Administrator 
+will determine if you are using consistent operation and maintenance 
+procedures based on information available to the Administrator that may 
+include, but is not limited to, fuel use records, monitoring results, 
+review of operation and maintenance procedures and records, review of 
+reports required by this subpart, and inspection of the EGU.
+    (c) Within 30 days after the end of the initial compliance period 
+(i.e., no more than 30 days after the first 12-operating-month 
+compliance period), you must make an initial compliance determination 
+for your affected EGU(s) with respect to the applicable emissions 
+standard in Table 1 or 2 of this subpart, in accordance with the 
+requirements in this subpart.",,primary,openai,gpt-5,2047,375
+25,EPA-HQ-OAR-2013-0495,final,1,True,The text appears within an amendatory block revising CFR regulatory text and contains binding directives.,compound,none,60,60.17,The Administrator,may,permissive,determine if you are using consistent operation and maintenance procedures,"based on information available to the Administrator that may include fuel use records, monitoring results, review of operation and maintenance procedures and records, review of reports required by this subpart, and inspection of the EGU",False,False,,revise,"The Administrator 
+will determine if you are using consistent operation and maintenance 
+procedures based on information available to the Administrator that may 
+include, but is not limited to, fuel use records, monitoring results, 
+review of operation and maintenance procedures and records, review of 
+reports required by this subpart, and inspection of the EGU.
+    (c) Within 30 days after the end of the initial compliance period 
+(i.e., no more than 30 days after the first 12-operating-month 
+compliance period), you must make an initial compliance determination 
+for your affected EGU(s) with respect to the applicable emissions 
+standard in Table 1 or 2 of this subpart, in accordance with the 
+requirements in this subpart.",,primary,openai,gpt-5,0,0
+26,EPA-HQ-OAR-2013-0495,final,0,True,"The language appears within an amendatory block revising CFR text and prescribes how to determine the first operating month in the compliance period, making it binding.",compound,none,60,60.17,you,shall,strong,determine,the first operating month included in the initial 12-operating-month compliance period,False,True,"For an affected EGU that commences commercial operation on or after October 23, 2015",revise,"The first operating month included in the 
+initial 12-operating-month compliance period shall be determined as 
+follows:
+    (1) For an affected EGU that commences commercial operation (as 
+defined in Sec.  72.2 of this chapter) on or after October 23, 2015, 
+the first month of the initial compliance period shall be the first 
+operating month (as defined in Sec.  60.5580) after the calendar month 
+in which emissions reporting is required to begin under:
+    (i) Section 63.5555(c)(3)(i), for units subject to the Acid Rain 
+Program; or
+    (ii) Section 63.5555(c)(3)(ii)(A), for units that are not in the 
+Acid Rain Program.",§ 60.5580,primary,openai,gpt-5,2068,528
+26,EPA-HQ-OAR-2013-0495,final,1,True,"The language appears within an amendatory block revising CFR text and prescribes how to determine the first operating month in the compliance period, making it binding.",compound,none,60,60.17,you,shall,strong,use as the first month of the initial compliance period,the first operating month after the calendar month in which emissions reporting is required to begin,False,True,if emissions reporting is required to begin under § 63.5555(c)(3)(i) for units subject to the Acid Rain Program,revise,"The first operating month included in the 
+initial 12-operating-month compliance period shall be determined as 
+follows:
+    (1) For an affected EGU that commences commercial operation (as 
+defined in Sec.  72.2 of this chapter) on or after October 23, 2015, 
+the first month of the initial compliance period shall be the first 
+operating month (as defined in Sec.  60.5580) after the calendar month 
+in which emissions reporting is required to begin under:
+    (i) Section 63.5555(c)(3)(i), for units subject to the Acid Rain 
+Program; or
+    (ii) Section 63.5555(c)(3)(ii)(A), for units that are not in the 
+Acid Rain Program.",§ 63.5555(c)(3)(i),primary,openai,gpt-5,0,0
+26,EPA-HQ-OAR-2013-0495,final,2,True,"The language appears within an amendatory block revising CFR text and prescribes how to determine the first operating month in the compliance period, making it binding.",compound,none,60,60.17,you,shall,strong,use as the first month of the initial compliance period,the first operating month after the calendar month in which emissions reporting is required to begin,False,True,if emissions reporting is required to begin under § 63.5555(c)(3)(ii)(A) for units not in the Acid Rain Program,revise,"The first operating month included in the 
+initial 12-operating-month compliance period shall be determined as 
+follows:
+    (1) For an affected EGU that commences commercial operation (as 
+defined in Sec.  72.2 of this chapter) on or after October 23, 2015, 
+the first month of the initial compliance period shall be the first 
+operating month (as defined in Sec.  60.5580) after the calendar month 
+in which emissions reporting is required to begin under:
+    (i) Section 63.5555(c)(3)(i), for units subject to the Acid Rain 
+Program; or
+    (ii) Section 63.5555(c)(3)(ii)(A), for units that are not in the 
+Acid Rain Program.",§ 63.5555(c)(3)(ii)(A),primary,openai,gpt-5,0,0
+27,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within an amendatory revision block and prescribes when emissions reporting shall begin, making it binding regulatory text.",compound,none,60,60.17,"affected EGUs for which the date to begin reporting under § 75.64(a) had already passed before October 23, 2015",shall,strong,begin emissions reporting according to,§ 63.5555(c)(3)(i) (for Acid Rain Program units),False,True,"If the date on which emissions reporting is required to begin under § 75.64(a) of this chapter has passed prior to October 23, 2015",revise,"If the date on which emissions reporting is required to begin 
+under Sec.  75.64(a) of this chapter has passed prior to October 23, 
+2015, emissions reporting shall begin according to Sec.  
+63.5555(c)(3)(i) (for Acid Rain program units), or according to Sec.  
+63.5555(c)(3)(ii)(B) (for units that are not subject to the Acid Rain 
+Program).",§ 63.5555(c)(3)(i),primary,openai,gpt-5,1944,452
+27,EPA-HQ-OAR-2013-0495,final,1,True,"The sentence appears within an amendatory revision block and prescribes when emissions reporting shall begin, making it binding regulatory text.",compound,none,60,60.17,"affected EGUs for which the date to begin reporting under § 75.64(a) had already passed before October 23, 2015",shall,strong,begin emissions reporting according to,§ 63.5555(c)(3)(ii)(B) (for units not subject to the Acid Rain Program),False,True,"If the date on which emissions reporting is required to begin under § 75.64(a) of this chapter has passed prior to October 23, 2015",revise,"If the date on which emissions reporting is required to begin 
+under Sec.  75.64(a) of this chapter has passed prior to October 23, 
+2015, emissions reporting shall begin according to Sec.  
+63.5555(c)(3)(i) (for Acid Rain program units), or according to Sec.  
+63.5555(c)(3)(ii)(B) (for units that are not subject to the Acid Rain 
+Program).",§ 63.5555(c)(3)(ii)(B),primary,openai,gpt-5,0,0
+28,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory regulatory text being revised, making it new binding CFR language.",simple,none,60,60.17,the initial compliance period,shall,strong,begin with,the first operating month after the calendar month in which the rule becomes effective,False,False,,revise,"The first month of the initial compliance period shall be the 
+first operating month (as defined in Sec.  60.5580) after the calendar 
+month in which the rule becomes effective; or
+    (ii) If the date on which emissions reporting is required to begin 
+under Sec.  75.64(a) of this chapter occurs on or after October 23, 
+2015, then the first month of the initial compliance period shall be 
+the first operating month (as defined in Sec.  60.5580) after the 
+calendar month in which emissions reporting is required to begin under 
+Sec.  63.5555(c)(3)(ii)(A).",§ 60.5580,primary,openai,gpt-5,2043,183
+29,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory regulatory text being revised, prescribing compliance period timing; thus it is binding under the amendatory-block rule.",simple,none,60,60.17,a modified or reconstructed EGU that becomes subject to this subpart,shall,strong,establish the first month of the initial compliance period as the first operating month after the specified calendar month,the first operating month (as defined in § 60.5580) after the calendar month in which emissions reporting is required to begin under § 63.5555(c)(3)(iii),False,False,,revise,"(3) For a modified or reconstructed EGU that becomes subject to 
+this subpart, the first month of the initial compliance period shall be 
+the first operating month (as defined in Sec.  60.5580) after the 
+calendar month in which emissions reporting is required to begin under 
+Sec.  63.5555(c)(3)(iii).",§ 63.5555(c)(3)(iii),primary,openai,gpt-5,1876,249
+30,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory regulatory text for § 60.5535, indicating new binding requirements.",compound,none,60,60.5535(a),you,must,strong,monitor,heat input,False,True,If your combustion turbine uses non-uniform fuels as specified under § 60.5520(d)(2),revise,"If 
+your combustion turbine uses non-uniform fuels as specified under Sec.  
+60.5520(d)(2), you must monitor heat input in accordance with paragraph 
+(c)(1) of this section, and you must monitor CO<INF>2</INF> emissions 
+in accordance with either paragraph (b), (c)(2), or (c)(5) of this 
+section.",§ 60.5535(c)(1),primary,openai,gpt-5,1862,342
+30,EPA-HQ-OAR-2013-0495,final,1,True,"The sentence appears within amendatory regulatory text for § 60.5535, indicating new binding requirements.",compound,none,60,60.5535(a),you,must,strong,monitor,CO2 emissions,False,True,If your combustion turbine uses non-uniform fuels as specified under § 60.5520(d)(2),revise,"If 
+your combustion turbine uses non-uniform fuels as specified under Sec.  
+60.5520(d)(2), you must monitor heat input in accordance with paragraph 
+(c)(1) of this section, and you must monitor CO<INF>2</INF> emissions 
+in accordance with either paragraph (b), (c)(2), or (c)(5) of this 
+section.",§ 60.5535(b) or § 60.5535(c)(2) or § 60.5535(c)(5),primary,openai,gpt-5,0,0
+31,EPA-HQ-OAR-2013-0495,final,0,True,The sentence is within regulatory text of a CFR section presented as amendatory (revise) and imposes a clear duty using 'must'.,simple,none,60,60.5535,all other affected sources,must,strong,prepare,"a monitoring plan to quantify the hourly CO2 mass emission rate (tons/h), in accordance with the applicable provisions in § 75.53(g) and (h) of this chapter",False,True,"For all other affected sources (i.e., sources other than those specified earlier in the section)",revise,"For all other affected sources, you must prepare a monitoring 
+plan to quantify the hourly CO<INF>2</INF> mass emission rate (tons/h), 
+in accordance with the applicable provisions in Sec.  75.53(g) and (h) 
+of this chapter.",§ 75.53,primary,openai,gpt-5,1837,234
+32,EPA-HQ-OAR-2013-0495,final,0,True,The sentence appears within amendatory regulatory text revising part 60 and imposes requirements using must; thus it is new binding text.,compound,none,60,60.17,Owner/operator (for the electronic portion of the monitoring plan),must,strong,submit,the electronic portion of the monitoring plan using the ECMPS Client Tool,False,False,,revise,"The electronic portion of the monitoring plan must be 
+submitted using the ECMPS Client Tool and must be in place prior to 
+reporting emissions data and/or the results of monitoring system 
+certification tests under this subpart.",,primary,openai,gpt-5,1830,319
+32,EPA-HQ-OAR-2013-0495,final,1,True,The sentence appears within amendatory regulatory text revising part 60 and imposes requirements using must; thus it is new binding text.,compound,none,60,60.17,Owner/operator (for the electronic portion of the monitoring plan),must,strong,have in place,the electronic portion of the monitoring plan prior to reporting emissions data and/or the results of monitoring system certification tests under this subpart,False,False,,revise,"The electronic portion of the monitoring plan must be 
+submitted using the ECMPS Client Tool and must be in place prior to 
+reporting emissions data and/or the results of monitoring system 
+certification tests under this subpart.",,primary,openai,gpt-5,0,0
+33,EPA-HQ-OAR-2013-0495,final,0,True,The sentence appears within amendatory regulatory text being revised and contains mandatory language establishing a binding requirement.,simple,none,60,60.17,the monitoring plan,must,strong,be updated,as necessary,True,False,,revise,"The monitoring plan must be 
+updated as necessary.",,primary,openai,gpt-5,1754,165
+34,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory regulatory text being revised, making it binding.",simple,none,60,60.17,"the Designated Representative (DR), the Alternate DR, or a delegated agent of the DR",must,strong,make,monitoring plan submittals,False,False,,revise,"Monitoring plan submittals must be made by the 
+Designated Representative (DR), the Alternate DR, or a delegated agent 
+of the DR (see Sec.  60.5555(c)).",§ 60.5555(c),primary,openai,gpt-5,1809,186
+35,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within an amendatory block revising CFR text, making it binding regulatory language.",simple,none,60,60.17(b),You,must,strong,determine,the hourly CO2 mass emissions in kilograms (kg) from your affected EGUs,False,True,"according to paragraphs (b)(1) through (5) of this section, or, if applicable, as provided in paragraph (c) of this section",revise,"(b) You must determine the hourly CO<INF>2</INF> mass emissions in 
+kilograms (kg) from your affected EGU(s) according to paragraphs (b)(1)",,primary,openai,gpt-5,1818,209
+36,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory text revising a CFR section and prescribes required/permitted actions, so it is new binding regulatory text.",compound,none,60,60.17,you (for an affected coal-fired EGU or for an IGCC unit),must,strong,"install, certify, operate, maintain, and calibrate","a CO2 continuous emission monitoring system (CEMS) to directly measure and record hourly average CO2 concentrations in the affected EGU exhaust gases emitted to the atmosphere, and a flow monitoring system to measure hourly average stack gas flow rates, according to § 75.10(a)(3)(i) of this chapter",False,False,,revise,"through (5) of this section, or, if applicable, as provided in 
+paragraph (c) of this section.
+    (1) For an affected coal-fired EGU or for an IGCC unit you must, 
+and for all other affected EGUs you may, install, certify, operate, 
+maintain, and calibrate a CO<INF>2</INF> continuous emission monitoring 
+system (CEMS) to directly measure and record hourly average 
+CO<INF>2</INF> concentrations in the affected EGU exhaust gases emitted 
+to the atmosphere, and a flow monitoring system to measure hourly 
+average stack gas flow rates, according to Sec.  75.10(a)(3)(i) of this 
+chapter.",§ 75.10(a)(3)(i),primary,openai,gpt-5,2164,449
+36,EPA-HQ-OAR-2013-0495,final,1,True,"The sentence appears within amendatory text revising a CFR section and prescribes required/permitted actions, so it is new binding regulatory text.",compound,none,60,60.17,you (for all other affected EGUs),may,permissive,"install, certify, operate, maintain, and calibrate","a CO2 continuous emission monitoring system (CEMS) to directly measure and record hourly average CO2 concentrations in the affected EGU exhaust gases emitted to the atmosphere, and a flow monitoring system to measure hourly average stack gas flow rates, according to § 75.10(a)(3)(i) of this chapter",False,False,,revise,"through (5) of this section, or, if applicable, as provided in 
+paragraph (c) of this section.
+    (1) For an affected coal-fired EGU or for an IGCC unit you must, 
+and for all other affected EGUs you may, install, certify, operate, 
+maintain, and calibrate a CO<INF>2</INF> continuous emission monitoring 
+system (CEMS) to directly measure and record hourly average 
+CO<INF>2</INF> concentrations in the affected EGU exhaust gases emitted 
+to the atmosphere, and a flow monitoring system to measure hourly 
+average stack gas flow rates, according to Sec.  75.10(a)(3)(i) of this 
+chapter.",§ 75.10(a)(3)(i),primary,openai,gpt-5,0,0
+37,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory regulatory text being revised, making it binding; it sets a permissive alternative method with conditions.",simple,none,60,60.17,you,may,permissive,use,"data from a certified oxygen (O2) monitor to calculate hourly average CO2 concentrations, in accordance with § 75.10(a)(3)(iii) of this chapter",False,True,"As an alternative to direct measurement of CO2 concentration, provided that your EGU does not use carbon separation (e.g., carbon capture and storage)",revise,"As an alternative to direct measurement of CO<INF>2</INF> 
+concentration, provided that your EGU does not use carbon separation 
+(e.g., carbon capture and storage), you may use data from a certified 
+oxygen (O<INF>2</INF>) monitor to calculate hourly average 
+CO<INF>2</INF> concentrations, in accordance with Sec.  
+75.10(a)(3)(iii) of this chapter.",§ 75.10(a)(3)(iii),primary,openai,gpt-5,1977,242
+38,EPA-HQ-OAR-2013-0495,final,0,True,The sentence appears within amendatory text being revised and contains mandatory compliance language.,compound,none,60,60.17,you,must,strong,install,a continuous moisture monitoring system,False,True,If you measure CO2 concentration on a dry basis,revise,"If you measure CO<INF>2</INF> 
+concentration on a dry basis, you must also install, certify, operate, 
+maintain, and calibrate a continuous moisture monitoring system, 
+according to Sec.  75.11(b) of this chapter.",§ 75.11(b),primary,openai,gpt-5,1845,628
+38,EPA-HQ-OAR-2013-0495,final,1,True,The sentence appears within amendatory text being revised and contains mandatory compliance language.,compound,none,60,60.17,you,must,strong,certify,a continuous moisture monitoring system,False,True,If you measure CO2 concentration on a dry basis,revise,"If you measure CO<INF>2</INF> 
+concentration on a dry basis, you must also install, certify, operate, 
+maintain, and calibrate a continuous moisture monitoring system, 
+according to Sec.  75.11(b) of this chapter.",§ 75.11(b),primary,openai,gpt-5,0,0
+38,EPA-HQ-OAR-2013-0495,final,2,True,The sentence appears within amendatory text being revised and contains mandatory compliance language.,compound,none,60,60.17,you,must,strong,operate,a continuous moisture monitoring system,False,True,If you measure CO2 concentration on a dry basis,revise,"If you measure CO<INF>2</INF> 
+concentration on a dry basis, you must also install, certify, operate, 
+maintain, and calibrate a continuous moisture monitoring system, 
+according to Sec.  75.11(b) of this chapter.",§ 75.11(b),primary,openai,gpt-5,0,0
+38,EPA-HQ-OAR-2013-0495,final,3,True,The sentence appears within amendatory text being revised and contains mandatory compliance language.,compound,none,60,60.17,you,must,strong,maintain,a continuous moisture monitoring system,False,True,If you measure CO2 concentration on a dry basis,revise,"If you measure CO<INF>2</INF> 
+concentration on a dry basis, you must also install, certify, operate, 
+maintain, and calibrate a continuous moisture monitoring system, 
+according to Sec.  75.11(b) of this chapter.",§ 75.11(b),primary,openai,gpt-5,0,0
+38,EPA-HQ-OAR-2013-0495,final,4,True,The sentence appears within amendatory text being revised and contains mandatory compliance language.,compound,none,60,60.17,you,must,strong,calibrate,a continuous moisture monitoring system,False,True,If you measure CO2 concentration on a dry basis,revise,"If you measure CO<INF>2</INF> 
+concentration on a dry basis, you must also install, certify, operate, 
+maintain, and calibrate a continuous moisture monitoring system, 
+according to Sec.  75.11(b) of this chapter.",§ 75.11(b),primary,openai,gpt-5,0,0
+39,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory regulatory text being revised, making it binding under the amendatory block rule.",compound,none,60,60.17,you,may,permissive,use,an appropriate fuel-specific default moisture value,False,False,,revise,"Alternatively, you may 
+either use an appropriate fuel-specific default moisture value from 
+Sec.  75.11(b) or submit a petition to the Administrator under Sec.  
+75.66 of this chapter for a site-specific default moisture value.",§ 75.11(b),primary,openai,gpt-5,1842,286
+39,EPA-HQ-OAR-2013-0495,final,1,True,"The sentence appears within amendatory regulatory text being revised, making it binding under the amendatory block rule.",compound,none,60,60.17,you,may,permissive,submit a petition to the Administrator,a site-specific default moisture value,False,False,,revise,"Alternatively, you may 
+either use an appropriate fuel-specific default moisture value from 
+Sec.  75.11(b) or submit a petition to the Administrator under Sec.  
+75.66 of this chapter for a site-specific default moisture value.",§ 75.66,primary,openai,gpt-5,0,0
+40,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory text revising CFR language, making it new binding regulatory text.",simple,none,60,60.17,you,must,strong,meet,the applicable certification and quality assurance procedures in § 75.20 of this chapter and appendices A and B to part 75 of this chapter,False,False,,revise,"(2) For each continuous monitoring system that you use to determine 
+the CO<INF>2</INF> mass emissions, you must meet the applicable 
+certification and quality assurance procedures in Sec.  75.20 of this 
+chapter and appendices A and B to part 75 of this chapter.",§ 75.20,primary,openai,gpt-5,1862,194
+41,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within an amendatory block revising CFR text, making it binding regulatory language.",compound,none,60,60.17,You,must,strong,use only,unadjusted exhaust gas volumetric flow rates to determine the hourly CO2 mass emissions rate from the affected EGU,False,False,,revise,"(3) You must use only unadjusted exhaust gas volumetric flow rates 
+to determine the hourly CO<INF>2</INF> mass emissions rate from the 
+affected EGU; you must not apply the bias adjustment factors described 
+in Section 7.6.5 of appendix A to part 75 of this chapter to the 
+exhaust gas flow rate data.",,primary,openai,gpt-5,1879,313
+41,EPA-HQ-OAR-2013-0495,final,1,True,"The sentence appears within an amendatory block revising CFR text, making it binding regulatory language.",compound,none,60,60.17,You,must not,strong,apply,the bias adjustment factors described in Section 7.6.5 of appendix A to part 75 of this chapter to the exhaust gas flow rate data,False,False,,revise,"(3) You must use only unadjusted exhaust gas volumetric flow rates 
+to determine the hourly CO<INF>2</INF> mass emissions rate from the 
+affected EGU; you must not apply the bias adjustment factors described 
+in Section 7.6.5 of appendix A to part 75 of this chapter to the 
+exhaust gas flow rate data.",appendix A to part 75,primary,openai,gpt-5,0,0
+42,EPA-HQ-OAR-2013-0495,final,0,True,"The text appears within an amendatory block revising CFR text, making it new binding regulatory language.",simple,none,60,60.17,You,must,strong,select,"an appropriate reference method to set up (characterize) the flow monitor and to perform the on-going RATAs, in accordance with part 75 of this chapter",False,False,,revise,"(4) You must select an appropriate reference method to setup 
+(characterize) the flow monitor and to perform the on-going RATAs, in 
+accordance with part 75 of this chapter.",part 75,primary,openai,gpt-5,1822,196
+43,EPA-HQ-OAR-2013-0495,final,0,True,Text appears within an amendatory block revising § 60.17 and contains mandatory/prohibitory requirements.,compound,none,60,60.17,you,must,strong,calibrate,the Type-S pitot tube or pitot tube assembly,False,True,If you use a Type-S pitot tube or a pitot tube assembly for the flow RATAs,revise,"If you use a Type-S pitot tube 
+or a pitot tube assembly for the flow RATAs, you must calibrate the 
+pitot tube or pitot tube assembly; you may not use the 0.84 default 
+Type-S pitot tube coefficient specified in Method 2.
+    (5) Calculate the hourly CO<INF>2</INF> mass emissions (kg) as 
+described in paragraphs (b)(5)(i) through (iv) of this section.",,primary,openai,gpt-5,1963,447
+43,EPA-HQ-OAR-2013-0495,final,1,True,Text appears within an amendatory block revising § 60.17 and contains mandatory/prohibitory requirements.,compound,none,60,60.17,you,may not,strong,use,the 0.84 default Type-S pitot tube coefficient specified in Method 2 for the flow RATAs,False,True,If you use a Type-S pitot tube or a pitot tube assembly for the flow RATAs,revise,"If you use a Type-S pitot tube 
+or a pitot tube assembly for the flow RATAs, you must calibrate the 
+pitot tube or pitot tube assembly; you may not use the 0.84 default 
+Type-S pitot tube coefficient specified in Method 2.
+    (5) Calculate the hourly CO<INF>2</INF> mass emissions (kg) as 
+described in paragraphs (b)(5)(i) through (iv) of this section.",,primary,openai,gpt-5,0,0
+43,EPA-HQ-OAR-2013-0495,final,2,True,Text appears within an amendatory block revising § 60.17 and contains mandatory/prohibitory requirements.,compound,none,60,60.17,you,must,strong,calculate,the hourly CO2 mass emissions (kg) as described in paragraphs (b)(5)(i) through (iv) of this section,False,False,,revise,"If you use a Type-S pitot tube 
+or a pitot tube assembly for the flow RATAs, you must calibrate the 
+pitot tube or pitot tube assembly; you may not use the 0.84 default 
+Type-S pitot tube coefficient specified in Method 2.
+    (5) Calculate the hourly CO<INF>2</INF> mass emissions (kg) as 
+described in paragraphs (b)(5)(i) through (iv) of this section.",,primary,openai,gpt-5,0,0
+44,EPA-HQ-OAR-2013-0495,final,0,True,Text appears within an amendatory block revising CFR content and contains mandatory requirements.,compound,none,60,60.17,The hourly CO2 tons/h values and EGU (or stack) operating times used to calculate CO2 mass emissions,are required to,strong,be recorded,under § 75.57(e) of this chapter,True,False,,revise,"(iv) The hourly CO<INF>2</INF> tons/h values and EGU (or stack) 
+operating times used to calculate CO<INF>2</INF> mass emissions are 
+required to be recorded under Sec.  75.57(e) of this chapter and must 
+be reported electronically under Sec.  75.64(a)(6) of this chapter.",§ 75.57(e),primary,openai,gpt-5,1931,436
+44,EPA-HQ-OAR-2013-0495,final,1,True,Text appears within an amendatory block revising CFR content and contains mandatory requirements.,compound,none,60,60.17,The hourly CO2 tons/h values and EGU (or stack) operating times used to calculate CO2 mass emissions,must,strong,be reported electronically,under § 75.64(a)(6) of this chapter,True,False,,revise,"(iv) The hourly CO<INF>2</INF> tons/h values and EGU (or stack) 
+operating times used to calculate CO<INF>2</INF> mass emissions are 
+required to be recorded under Sec.  75.57(e) of this chapter and must 
+be reported electronically under Sec.  75.64(a)(6) of this chapter.",§ 75.64(a)(6),primary,openai,gpt-5,0,0
+44,EPA-HQ-OAR-2013-0495,final,2,True,Text appears within an amendatory block revising CFR content and contains mandatory requirements.,compound,none,60,60.17,You,must,strong,use,these data to calculate the hourly CO2 mass emissions,False,False,,revise,"(iv) The hourly CO<INF>2</INF> tons/h values and EGU (or stack) 
+operating times used to calculate CO<INF>2</INF> mass emissions are 
+required to be recorded under Sec.  75.57(e) of this chapter and must 
+be reported electronically under Sec.  75.64(a)(6) of this chapter.",,primary,openai,gpt-5,0,0
+45,EPA-HQ-OAR-2013-0495,final,0,True,The sentence appears within amendatory text being revised to read as binding regulatory requirements.,simple,none,60,60.17,You,must,strong,use,the hourly CO2 tons/h values and operating times recorded under § 75.57(e) and reported under § 75.64(a)(6),False,False,,revise,"You 
+must use these data to calculate the hourly CO<INF>2</INF> mass 
+emissions.",§ 75.57(e); § 75.64(a)(6),primary,openai,gpt-5,1806,202
+46,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory regulatory text being revised, making it binding; it prescribes a permissive alternative compliance method.",simple,none,60,60.17,you,may,permissive,determine,the hourly CO2 mass emissions according to paragraphs (c)(1) through (4) of this section,False,True,"If your affected EGU exclusively combusts liquid fuel and/or gaseous fuel, as an alternative to complying with paragraph (b) of this section",revise,"(c) If your affected EGU exclusively combusts liquid fuel and/or 
+gaseous fuel, as an alternative to complying with paragraph (b) of this 
+section, you may determine the hourly CO<INF>2</INF> mass emissions 
+according to paragraphs (c)(1) through (4) of this section.",paragraph (b) of this section,primary,openai,gpt-5,1900,226
+47,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within an amendatory block revising CFR text, making it binding regulatory text.",simple,none,60,60.17,you,may,permissive,determine,CO2 mass emissions during the compliance period,False,True,If you use non-uniform fuels as specified in § 60.5520(d)(2),revise,"If you use 
+non-uniform fuels as specified in Sec.  60.5520(d)(2), you may 
+determine CO<INF>2</INF> mass emissions during the compliance period 
+according to paragraph (c)(5) of this section.",§ 60.5520(d)(2),primary,openai,gpt-5,1841,199
+48,EPA-HQ-OAR-2013-0495,final,0,True,The sentence appears within an amendatory block revising CFR text and contains a mandatory requirement.,compound,none,60,60.17,you,must,strong,implement,the applicable procedures in appendix D to part 75 of this chapter,False,True,If you are subject to an output-based standard and you do not install CEMS in accordance with paragraph (b) of this section,revise,"(1) If you are subject to an output-based standard and you do not 
+install CEMS in accordance with paragraph (b) of this section, you must 
+implement the applicable procedures in appendix D to part 75 of this 
+chapter to determine hourly EGU heat input rates (MMBtu/h), based on 
+hourly measurements of fuel flow rate and periodic determinations of 
+the gross calorific value (GCV) of each fuel combusted.",appendix D to part 75,primary,openai,gpt-5,1956,366
+48,EPA-HQ-OAR-2013-0495,final,1,True,The sentence appears within an amendatory block revising CFR text and contains a mandatory requirement.,compound,none,60,60.17,you,no_modal_implicit,strong,determine,hourly EGU heat input rates (MMBtu/h) based on hourly measurements of fuel flow rate and periodic determinations of the gross calorific value (GCV) of each fuel combusted,False,True,If you are subject to an output-based standard and you do not install CEMS in accordance with paragraph (b) of this section,revise,"(1) If you are subject to an output-based standard and you do not 
+install CEMS in accordance with paragraph (b) of this section, you must 
+implement the applicable procedures in appendix D to part 75 of this 
+chapter to determine hourly EGU heat input rates (MMBtu/h), based on 
+hourly measurements of fuel flow rate and periodic determinations of 
+the gross calorific value (GCV) of each fuel combusted.",,primary,openai,gpt-5,0,0
+49,EPA-HQ-OAR-2013-0495,final,0,True,"The language appears within an amendatory block revising CFR text and thus constitutes new binding regulatory text, even though it uses permissive modals.",compound,none,60,60.17,You,may,permissive,determine,site-specific carbon-based F-factors (Fc) using Equation F-7b in section 3.3.6 of appendix F to part 75 of this chapter,False,False,,revise,"You may determine site-
+specific carbon-based F-factors (F<INF>c</INF>) using Equation F-7b in 
+section 3.3.6 of appendix F to part 75 of this chapter, and you may use 
+these F<INF>c</INF> values in the emissions calculations instead of 
+using the default F<INF>c</INF> values in the Equation G-4 
+nomenclature.
+    (3) For each ``valid operating hour'' (as defined in Sec.  
+60.5540(a)(1), multiply the hourly tons/h CO<INF>2</INF> mass emission 
+rate from paragraph (c)(2) of this section by the EGU or stack 
+operating time in hours (as defined in Sec.  72.2 of this chapter), to 
+convert it to tons of CO<INF>2</INF>.",appendix F to part 75,primary,openai,gpt-5,2114,485
+49,EPA-HQ-OAR-2013-0495,final,1,True,"The language appears within an amendatory block revising CFR text and thus constitutes new binding regulatory text, even though it uses permissive modals.",compound,none,60,60.17,You,may,permissive,use,the determined Fc values in the emissions calculations instead of the default Fc values in the Equation G-4 nomenclature,False,False,,revise,"You may determine site-
+specific carbon-based F-factors (F<INF>c</INF>) using Equation F-7b in 
+section 3.3.6 of appendix F to part 75 of this chapter, and you may use 
+these F<INF>c</INF> values in the emissions calculations instead of 
+using the default F<INF>c</INF> values in the Equation G-4 
+nomenclature.
+    (3) For each ``valid operating hour'' (as defined in Sec.  
+60.5540(a)(1), multiply the hourly tons/h CO<INF>2</INF> mass emission 
+rate from paragraph (c)(2) of this section by the EGU or stack 
+operating time in hours (as defined in Sec.  72.2 of this chapter), to 
+convert it to tons of CO<INF>2</INF>.",appendix G to part 75,primary,openai,gpt-5,0,0
+49,EPA-HQ-OAR-2013-0495,final,2,True,"The language appears within an amendatory block revising CFR text and thus constitutes new binding regulatory text, even though it uses permissive modals.",compound,none,60,60.17,You,no_modal_implicit,strong,multiply,the hourly tons/h CO2 mass emission rate by the EGU or stack operating time in hours to convert it to tons of CO2,False,True,For each valid operating hour (as defined in § 60.5540(a)(1)),revise,"You may determine site-
+specific carbon-based F-factors (F<INF>c</INF>) using Equation F-7b in 
+section 3.3.6 of appendix F to part 75 of this chapter, and you may use 
+these F<INF>c</INF> values in the emissions calculations instead of 
+using the default F<INF>c</INF> values in the Equation G-4 
+nomenclature.
+    (3) For each ``valid operating hour'' (as defined in Sec.  
+60.5540(a)(1), multiply the hourly tons/h CO<INF>2</INF> mass emission 
+rate from paragraph (c)(2) of this section by the EGU or stack 
+operating time in hours (as defined in Sec.  72.2 of this chapter), to 
+convert it to tons of CO<INF>2</INF>.",§ 60.5540(a)(1),primary,openai,gpt-5,0,0
+50,EPA-HQ-OAR-2013-0495,final,0,True,The sentence appears within amendatory text being revised and contains mandatory requirements using must/required to.,compound,none,60,60.17,The hourly CO2 tons/h values and EGU (or stack) operating times used to calculate CO2 mass emissions,are required to,strong,be recorded,under § 75.57(e) of this chapter,True,False,,revise,"(4) The hourly CO<INF>2</INF> tons/h values and EGU (or stack) 
+operating times used to calculate CO<INF>2</INF> mass emissions are 
+required to be recorded under Sec.  75.57(e) of this chapter and must 
+be reported electronically under Sec.  75.64(a)(6) of this chapter.",§ 75.57(e),primary,openai,gpt-5,1919,338
+50,EPA-HQ-OAR-2013-0495,final,1,True,The sentence appears within amendatory text being revised and contains mandatory requirements using must/required to.,compound,none,60,60.17,The hourly CO2 tons/h values and EGU (or stack) operating times used to calculate CO2 mass emissions,must,strong,be reported electronically,under § 75.64(a)(6) of this chapter,True,False,,revise,"(4) The hourly CO<INF>2</INF> tons/h values and EGU (or stack) 
+operating times used to calculate CO<INF>2</INF> mass emissions are 
+required to be recorded under Sec.  75.57(e) of this chapter and must 
+be reported electronically under Sec.  75.64(a)(6) of this chapter.",§ 75.64(a)(6),primary,openai,gpt-5,0,0
+51,EPA-HQ-OAR-2013-0495,final,0,True,The sentence appears within amendatory regulatory text being revised and imposes a clear mandatory action.,simple,none,60,60.17,You,must,strong,use,the recorded hourly CO2 tons/hour values and EGU (or stack) operating times to calculate the hourly CO2 mass emissions,False,False,,revise,"You 
+must use these data to calculate the hourly CO<INF>2</INF> mass 
+emissions.",§ 75.57(e),primary,openai,gpt-5,1796,190
+52,EPA-HQ-OAR-2013-0495,final,0,True,The text appears within an amendatory block revising CFR part 60 and prescribes compliance options; amendatory language is binding.,compound,none,60,60.17,you,may,permissive,determine,CO2 emissions during the compliance period using one of the specified methods for combustion turbines firing non-uniform fuels,False,True,"If you operate a combustion turbine firing non-uniform fuels, as an alternative to following paragraphs (c)(1) through (4) of this section",revise,"(5) If you operate a combustion turbine firing non-uniform fuels, 
+as an alternative to following paragraphs (c)(1) through (4) of this 
+section, you may determine CO<INF>2</INF> emissions during the 
+compliance period using one of the following methods:
+    (i) Units firing fuel gas may determine the heat input during the 
+compliance period following the procedure under Sec.  60.107a(d) and 
+convert this heat input to CO<INF>2</INF> emissions using Equation G-4 
+in appendix G to part 75 of this chapter.",,primary,openai,gpt-5,2016,382
+52,EPA-HQ-OAR-2013-0495,final,1,True,The text appears within an amendatory block revising CFR part 60 and prescribes compliance options; amendatory language is binding.,compound,none,60,60.17,Units firing fuel gas,may,permissive,determine and convert,heat input during the compliance period following the procedure under § 60.107a(d) and convert this heat input to CO2 emissions using Equation G-4 in appendix G to part 75 of this chapter,False,True,If using the alternative method for combustion turbines firing non-uniform fuels,revise,"(5) If you operate a combustion turbine firing non-uniform fuels, 
+as an alternative to following paragraphs (c)(1) through (4) of this 
+section, you may determine CO<INF>2</INF> emissions during the 
+compliance period using one of the following methods:
+    (i) Units firing fuel gas may determine the heat input during the 
+compliance period following the procedure under Sec.  60.107a(d) and 
+convert this heat input to CO<INF>2</INF> emissions using Equation G-4 
+in appendix G to part 75 of this chapter.",§ 60.107a(d),primary,openai,gpt-5,0,0
+53,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within an amendatory block revising regulatory text and sets a permissible method option, making it binding.",simple,none,60,60.17,You,may,permissive,use,the procedure for determining CO2 emissions during the compliance period based on the Tier 3 methodology,False,False,,revise,"(ii) You may use the procedure for determining CO<INF>2</INF> 
+emissions during the compliance period based on the use of the Tier 3 
+methodology under Sec.  98.33(a)(3) of this chapter.",§ 98.33(a)(3),primary,openai,gpt-5,1830,192
+54,EPA-HQ-OAR-2013-0495,final,0,True,Text appears within amendatory regulatory text being revised and contains mandatory requirements with 'must'.,compound,none,60,60.17,you,must,strong,determine,"the basis of the emissions standard that applies to your affected source in accordance with either paragraph (d)(1) or (2) of this section, as applicable",False,False,,revise,"(d) Consistent with Sec.  60.5520, you must determine the basis of 
+the emissions standard that applies to your
+
+[[Page 64652]]
+
+affected source in accordance with either paragraph (d)(1) or (2) of 
+this section, as applicable:
+    (1) If you operate a source subject to an emissions standard 
+established on an output basis (e.g., lb of CO<INF>2</INF> per gross or 
+net MWh of energy output), you must install, calibrate, maintain, and 
+operate a sufficient number of watt meters to continuously measure and 
+record the hourly gross electric output or net electric output, as 
+applicable, from the affected EGU(s).",§ 60.5520,primary,openai,gpt-5,2039,346
+54,EPA-HQ-OAR-2013-0495,final,1,True,Text appears within amendatory regulatory text being revised and contains mandatory requirements with 'must'.,compound,none,60,60.17,you,must,strong,"install, calibrate, maintain, and operate a sufficient number of watt meters to continuously measure and record the hourly electric output","the hourly gross electric output or net electric output, as applicable, from the affected EGU(s)",False,True,If you operate a source subject to an emissions standard established on an output basis,revise,"(d) Consistent with Sec.  60.5520, you must determine the basis of 
+the emissions standard that applies to your
+
+[[Page 64652]]
+
+affected source in accordance with either paragraph (d)(1) or (2) of 
+this section, as applicable:
+    (1) If you operate a source subject to an emissions standard 
+established on an output basis (e.g., lb of CO<INF>2</INF> per gross or 
+net MWh of energy output), you must install, calibrate, maintain, and 
+operate a sufficient number of watt meters to continuously measure and 
+record the hourly gross electric output or net electric output, as 
+applicable, from the affected EGU(s).",,primary,openai,gpt-5,0,0
+55,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory regulatory text specifying operational requirements and the block is detected as a revision, making it binding.",simple,none,60,60.17,These measurements,must,strong,be performed using,"0.2 class electricity metering instrumentation and calibration procedures as specified under ANSI Standards No. C12.20 (incorporated by reference, see § 60.17)",True,False,,revise,"These measurements must be 
+performed using 0.2 class electricity metering instrumentation and 
+calibration procedures as specified under ANSI Standards No. C12.20 
+(incorporated by reference, see Sec.  60.17).",§ 60.17,primary,openai,gpt-5,1805,208
+56,EPA-HQ-OAR-2013-0495,final,0,True,Text appears within an amendatory block revising CFR content and contains mandatory language imposing actions.,compound,none,60,60.17,you,must,strong,install,meters to continuously determine and record the total useful thermal output,False,True,"For a combined heat and power (CHP) EGU, as defined in § 60.5580",revise,"For a combined heat and 
+power (CHP) EGU, as defined in Sec.  60.5580, you must also install, 
+calibrate, maintain, and operate meters to continuously (i.e., hour-by-
+hour) determine and record the total useful thermal output.",§ 60.5580,primary,openai,gpt-5,1819,590
+56,EPA-HQ-OAR-2013-0495,final,1,True,Text appears within an amendatory block revising CFR content and contains mandatory language imposing actions.,compound,none,60,60.17,you,must,strong,calibrate,meters to continuously determine and record the total useful thermal output,False,True,"For a combined heat and power (CHP) EGU, as defined in § 60.5580",revise,"For a combined heat and 
+power (CHP) EGU, as defined in Sec.  60.5580, you must also install, 
+calibrate, maintain, and operate meters to continuously (i.e., hour-by-
+hour) determine and record the total useful thermal output.",§ 60.5580,primary,openai,gpt-5,0,0
+56,EPA-HQ-OAR-2013-0495,final,2,True,Text appears within an amendatory block revising CFR content and contains mandatory language imposing actions.,compound,none,60,60.17,you,must,strong,maintain,meters to continuously determine and record the total useful thermal output,False,True,"For a combined heat and power (CHP) EGU, as defined in § 60.5580",revise,"For a combined heat and 
+power (CHP) EGU, as defined in Sec.  60.5580, you must also install, 
+calibrate, maintain, and operate meters to continuously (i.e., hour-by-
+hour) determine and record the total useful thermal output.",§ 60.5580,primary,openai,gpt-5,0,0
+56,EPA-HQ-OAR-2013-0495,final,3,True,Text appears within an amendatory block revising CFR content and contains mandatory language imposing actions.,compound,none,60,60.17,you,must,strong,operate,meters to continuously determine and record the total useful thermal output,False,True,"For a combined heat and power (CHP) EGU, as defined in § 60.5580",revise,"For a combined heat and 
+power (CHP) EGU, as defined in Sec.  60.5580, you must also install, 
+calibrate, maintain, and operate meters to continuously (i.e., hour-by-
+hour) determine and record the total useful thermal output.",§ 60.5580,primary,openai,gpt-5,0,0
+57,EPA-HQ-OAR-2013-0495,final,0,True,Text appears within an amendatory block revising CFR text and contains mandatory modals prescribing actions.,compound,none,60,60.17,Your plan,shall,strong,"ensure that you install, calibrate, maintain, and operate meters","to record each component of the determination, hour-by-hour",False,False,,revise,"Your plan shall ensure that you 
+install, calibrate, maintain, and operate meters to record each 
+component of the determination, hour-by-hour.
+    (2) If you operate a source subject to an emissions standard 
+established on a heat-input basis (e.g., lb CO<INF>2</INF>/MMBtu) and 
+your affected source uses non-uniform heating value fuels as delineated 
+under Sec.  60.5520(d), you must determine the total heat input for 
+each fuel fired during the compliance period in accordance with one of 
+the following procedures:
+    (i) Appendix D to part 75 of this chapter;
+    (ii) The procedures for monitoring heat input under Sec.  
+60.107a(d);
+    (iii) If you monitor CO<INF>2</INF> emissions in accordance with 
+the Tier 3 methodology under Sec.  98.33(a)(3) of this chapter, you may 
+convert your CO<INF>2</INF> emissions to heat input using the 
+appropriate emission factor in Table C-1 of part 98 of this chapter.",,primary,openai,gpt-5,2185,490
+57,EPA-HQ-OAR-2013-0495,final,1,True,Text appears within an amendatory block revising CFR text and contains mandatory modals prescribing actions.,compound,none,60,60.17,you,must,strong,determine the total heat input for each fuel fired during the compliance period,in accordance with one of the specified procedures,False,True,If you operate a source subject to a heat-input-based emissions standard and your affected source uses non-uniform heating value fuels as delineated under § 60.5520(d),revise,"Your plan shall ensure that you 
+install, calibrate, maintain, and operate meters to record each 
+component of the determination, hour-by-hour.
+    (2) If you operate a source subject to an emissions standard 
+established on a heat-input basis (e.g., lb CO<INF>2</INF>/MMBtu) and 
+your affected source uses non-uniform heating value fuels as delineated 
+under Sec.  60.5520(d), you must determine the total heat input for 
+each fuel fired during the compliance period in accordance with one of 
+the following procedures:
+    (i) Appendix D to part 75 of this chapter;
+    (ii) The procedures for monitoring heat input under Sec.  
+60.107a(d);
+    (iii) If you monitor CO<INF>2</INF> emissions in accordance with 
+the Tier 3 methodology under Sec.  98.33(a)(3) of this chapter, you may 
+convert your CO<INF>2</INF> emissions to heat input using the 
+appropriate emission factor in Table C-1 of part 98 of this chapter.",§ 60.5520(d),primary,openai,gpt-5,0,0
+57,EPA-HQ-OAR-2013-0495,final,2,True,Text appears within an amendatory block revising CFR text and contains mandatory modals prescribing actions.,compound,none,60,60.17,you,may,permissive,convert your CO2 emissions to heat input,using the appropriate emission factor in Table C-1 of part 98 of this chapter,False,True,If you monitor CO2 emissions in accordance with the Tier 3 methodology under § 98.33(a)(3) of this chapter,revise,"Your plan shall ensure that you 
+install, calibrate, maintain, and operate meters to record each 
+component of the determination, hour-by-hour.
+    (2) If you operate a source subject to an emissions standard 
+established on a heat-input basis (e.g., lb CO<INF>2</INF>/MMBtu) and 
+your affected source uses non-uniform heating value fuels as delineated 
+under Sec.  60.5520(d), you must determine the total heat input for 
+each fuel fired during the compliance period in accordance with one of 
+the following procedures:
+    (i) Appendix D to part 75 of this chapter;
+    (ii) The procedures for monitoring heat input under Sec.  
+60.107a(d);
+    (iii) If you monitor CO<INF>2</INF> emissions in accordance with 
+the Tier 3 methodology under Sec.  98.33(a)(3) of this chapter, you may 
+convert your CO<INF>2</INF> emissions to heat input using the 
+appropriate emission factor in Table C-1 of part 98 of this chapter.",§ 98.33(a)(3),primary,openai,gpt-5,0,0
+58,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within an amendatory block revising CFR text, making it binding.",compound,none,60,60.17,you,must,strong,determine,a fuel-specific carbon-based F-factor (Fc) in accordance with section 12.3.2 of EPA Method 19 of appendix A-7 to this part,False,True,If your fuel is not listed in Table C-1 of part 98 of this chapter,revise,"If 
+your fuel is not listed in Table C-1, you must determine a fuel-
+specific carbon-based F-factor (F<INF>c</INF>) in accordance with 
+section 12.3.2 of EPA Method 19 of appendix A-7 to this part, and you 
+must convert your CO<INF>2</INF> emissions to heat input using Equation 
+G-4 in appendix G to part 75 of this chapter.",appendix A-7 to this part,primary,openai,gpt-5,1931,356
+58,EPA-HQ-OAR-2013-0495,final,1,True,"The sentence appears within an amendatory block revising CFR text, making it binding.",compound,none,60,60.17,you,must,strong,convert,your CO2 emissions to heat input using Equation G-4 in appendix G to part 75 of this chapter,False,True,If your fuel is not listed in Table C-1 of part 98 of this chapter,revise,"If 
+your fuel is not listed in Table C-1, you must determine a fuel-
+specific carbon-based F-factor (F<INF>c</INF>) in accordance with 
+section 12.3.2 of EPA Method 19 of appendix A-7 to this part, and you 
+must convert your CO<INF>2</INF> emissions to heat input using Equation 
+G-4 in appendix G to part 75 of this chapter.",appendix G to part 75,primary,openai,gpt-5,0,0
+59,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory regulatory text being revised, making it new binding CFR language.",simple,none,60,60.17(e),you,must,strong,apportion,the combined hourly gross or net energy output to the individual affected EGUs according to the fraction of the total steam load contributed by each EGU,False,True,"Consistent with § 60.5520, if two or more affected EGUs serve a common electric generator",revise,"(e) Consistent with Sec.  60.5520, if two or more affected EGUs 
+serve a common electric generator, you must apportion the combined 
+hourly gross or net energy output to the individual affected EGUs 
+according to the fraction of the total steam load contributed by each 
+EGU.",§ 60.5520,primary,openai,gpt-5,1877,217
+60,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory text that is being revised, making it binding regulatory text.",simple,none,60,60.17,you,may,permissive,apportion,the combined hourly gross or net electrical load to the individual EGUs according to the fraction of the total heat input contributed by each EGU,False,True,if the EGUs are identical,revise,"Alternatively, if the EGUs are identical, you may apportion the 
+combined hourly gross or net electrical load to the individual EGUs 
+according to the fraction of the total heat input contributed by each 
+EGU.
+    (f)",,primary,openai,gpt-5,1835,195
+61,EPA-HQ-OAR-2013-0495,final,0,True,The sentence appears within an amendatory block revising CFR text and sets a permissive monitoring option tied to §§ 60.13(g) and 60.5520.,simple,none,60,60.17,you,may,permissive,monitor,the hourly CO2 mass emissions at the common stack in lieu of monitoring each EGU separately,False,True,if two or more affected EGUs that implement the continuous emission monitoring provisions in paragraph (b) of this section share a common exhaust gas stack and are subject to the same emissions standard in Table 1 or 2 of this subpart,revise,"In accordance with Sec. Sec.  60.13(g) and 60.5520, if two or 
+more affected EGUs that implement the continuous emission monitoring 
+provisions in paragraph (b) of this section share a common exhaust gas 
+stack and are subject to the same emissions standard in Table 1 or 2 of 
+this subpart, you may monitor the hourly CO<INF>2</INF> mass emissions 
+at the common stack in lieu of monitoring each EGU separately.","§§ 60.13(g), 60.5520",primary,openai,gpt-5,1935,256
+62,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within an amendatory block revising CFR text, so it constitutes new binding regulatory language.",compound,none,60,60.17(f),you,must,strong,determine,the hourly gross or net energy output as the sum of the hourly loads for the individual affected EGUs,False,True,If you choose this option (monitoring at the common stack in lieu of monitoring each EGU separately),revise,"If you 
+choose this option, the hourly gross or net energy output (electric, 
+thermal, and/or mechanical, as applicable) must be the sum of the 
+hourly loads for the individual affected EGUs and you must express the 
+operating time as ``stack operating hours'' (as defined in Sec.  72.2 
+of this chapter).",,primary,openai,gpt-5,1871,342
+62,EPA-HQ-OAR-2013-0495,final,1,True,"The sentence appears within an amendatory block revising CFR text, so it constitutes new binding regulatory language.",compound,none,60,60.17(f),you,must,strong,express,"the operating time as ""stack operating hours"" (as defined in § 72.2 of this chapter)",False,True,If you choose this option (monitoring at the common stack in lieu of monitoring each EGU separately),revise,"If you 
+choose this option, the hourly gross or net energy output (electric, 
+thermal, and/or mechanical, as applicable) must be the sum of the 
+hourly loads for the individual affected EGUs and you must express the 
+operating time as ``stack operating hours'' (as defined in Sec.  72.2 
+of this chapter).",§ 72.2,primary,openai,gpt-5,0,0
+63,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory regulatory text revising Part 60 and sets a new monitoring requirement, thus it is binding.",compound,none,60,60.17,you,must,strong,monitor,the hourly CO2 mass emissions at each stack or duct separately,False,True,"if the exhaust gases from an affected EGU implementing the paragraph (b) CEMS provisions are emitted through multiple stacks, or if gases are routed to a common stack through multiple ducts and you elect to monitor in the ducts",revise,"Sec.  60.13(g) and 60.5520 if the 
+exhaust gases from an affected EGU that implements the continuous 
+emission monitoring provisions in paragraph (b) of this section are 
+emitted to the atmosphere through multiple stacks (or if the exhaust 
+gases are routed to a common stack through multiple ducts and you elect 
+to monitor in the ducts), you must monitor the hourly CO<INF>2</INF> 
+mass emissions and the ``stack operating time'' (as defined in Sec.  
+72.2 of this chapter) at each stack or duct separately.",§§ 60.13(g) and 60.5520,primary,openai,gpt-5,1980,408
+63,EPA-HQ-OAR-2013-0495,final,1,True,"The sentence appears within amendatory regulatory text revising Part 60 and sets a new monitoring requirement, thus it is binding.",compound,none,60,60.17,you,must,strong,monitor,the stack operating time (as defined in § 72.2 of this chapter) at each stack or duct separately,False,True,"if the exhaust gases from an affected EGU implementing the paragraph (b) CEMS provisions are emitted through multiple stacks, or if gases are routed to a common stack through multiple ducts and you elect to monitor in the ducts",revise,"Sec.  60.13(g) and 60.5520 if the 
+exhaust gases from an affected EGU that implements the continuous 
+emission monitoring provisions in paragraph (b) of this section are 
+emitted to the atmosphere through multiple stacks (or if the exhaust 
+gases are routed to a common stack through multiple ducts and you elect 
+to monitor in the ducts), you must monitor the hourly CO<INF>2</INF> 
+mass emissions and the ``stack operating time'' (as defined in Sec.  
+72.2 of this chapter) at each stack or duct separately.",§§ 60.13(g) and 60.5520,primary,openai,gpt-5,0,0
+64,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence is within amendatory regulatory text revising subpart requirements and uses mandatory modal language, making it binding.",simple,none,60,60.5540,you,must,strong,determine compliance,the applicable emissions standard in Table 1 or 2 of this subpart by summing the CO2 mass emissions measured at the individual stacks or ducts and dividing by the total gross or net energy output for the affected EGU,False,True,"In this case, where exhaust gases are emitted through multiple stacks or monitored in multiple ducts as described in paragraph (g)",revise,"In this case, 
+you must determine compliance with the applicable emissions standard in 
+Table 1 or 2 of this subpart by summing the CO<INF>2</INF> mass 
+emissions measured at the individual stacks or ducts and dividing by 
+the total gross or net energy output for the affected EGU.",§ 60.5520,primary,openai,gpt-5,1857,241
+65,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory regulatory text revising § 60.5540 and imposes a duty using “must,” making it new binding text.",simple,none,60,60.5540,you,must,strong,demonstrate compliance,the applicable CO2 emission standard in Table 1 or 2 of this subpart as required in this section,False,True,"In accordance with § 60.5520, if you are subject to an output-based emission standard or you burn non-uniform fuels as specified in § 60.5520(d)(2)",revise,"Sec.  60.5540  How do I demonstrate compliance with my CO<INF>2</INF> 
+emissions standard and determine excess emissions?
+
+    (a) In accordance with Sec.  60.5520, if you are subject to an 
+output-based emission standard or you burn non-uniform fuels as 
+specified in Sec.  60.5520(d)(2), you must demonstrate compliance with 
+the applicable CO<INF>2</INF> emission standard in Table 1 or 2 of this 
+subpart as required in this section.",§ 60.5520,primary,openai,gpt-5,1968,243
+66,EPA-HQ-OAR-2013-0495,final,0,True,The sentence is within amendatory regulatory text revising CFR provisions and imposes a clear duty using 'must'.,simple,none,60,60.5540,you,must,strong,follow,the procedures in paragraphs (a)(1) through (7) of this section to calculate the CO2 mass emissions rate for your affected EGU(s) in units of the applicable emissions standard,False,True,For the initial and each subsequent 12-operating-month rolling average compliance period,revise,"For the initial and each 
+subsequent 12-operating-month rolling average compliance period, you 
+must follow the procedures in paragraphs (a)(1) through (7) of this 
+section to calculate the CO<INF>2</INF> mass emissions rate for your 
+affected EGU(s) in units of the applicable emissions standard (i.e., 
+either kg/MWh or lb/MMBtu).",,primary,openai,gpt-5,1922,218
+67,EPA-HQ-OAR-2013-0495,final,0,True,The sentence appears within amendatory regulatory text specifying compliance procedures and was detected as part of a revision; it uses mandatory language establishing new binding requirements.,compound,none,60,60.17,You,must,strong,use,"the hourly CO2 mass emissions calculated under § 60.5535(b) or (c), as applicable",False,False,,revise,"You must use the hourly CO<INF>2</INF> mass 
+emissions calculated under Sec.  60.5535(b) or (c), as applicable, and 
+either the generating load data from Sec.  60.5535(d)(1) for output-
+based calculations or the heat input data from Sec.  60.5535(d)(2) for 
+heat-input-based calculations.",§ 60.5535,primary,openai,gpt-5,1909,336
+67,EPA-HQ-OAR-2013-0495,final,1,True,The sentence appears within amendatory regulatory text specifying compliance procedures and was detected as part of a revision; it uses mandatory language establishing new binding requirements.,compound,none,60,60.17,You,must,strong,use,either the generating load data from § 60.5535(d)(1) for output-based calculations or the heat input data from § 60.5535(d)(2) for heat-input-based calculations,False,False,,revise,"You must use the hourly CO<INF>2</INF> mass 
+emissions calculated under Sec.  60.5535(b) or (c), as applicable, and 
+either the generating load data from Sec.  60.5535(d)(1) for output-
+based calculations or the heat input data from Sec.  60.5535(d)(2) for 
+heat-input-based calculations.",§ 60.5535,primary,openai,gpt-5,0,0
+68,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory regulatory text revising § 60.17 and prescribes permitted compliance procedures, making it binding.",compound,none,60,60.17,Combustion turbines firing non-uniform fuels that contain CO2 prior to combustion,may,permissive,sample,the fuel stream to determine the quantity of CO2 present in the fuel prior to combustion,False,False,,revise,"Combustion turbines firing non-uniform 
+fuels that contain CO<INF>2</INF> prior to combustion (e.g., blast 
+furnace gas or landfill gas) may sample the fuel stream to determine 
+the quantity of CO<INF>2</INF> present in the fuel prior to combustion 
+and exclude this portion of the CO<INF>2</INF> mass emissions from 
+compliance determinations.",,primary,openai,gpt-5,1917,327
+68,EPA-HQ-OAR-2013-0495,final,1,True,"The sentence appears within amendatory regulatory text revising § 60.17 and prescribes permitted compliance procedures, making it binding.",compound,none,60,60.17,Combustion turbines firing non-uniform fuels that contain CO2 prior to combustion,may,permissive,exclude,the portion of CO2 mass emissions present in the fuel prior to combustion from compliance determinations,False,False,,revise,"Combustion turbines firing non-uniform 
+fuels that contain CO<INF>2</INF> prior to combustion (e.g., blast 
+furnace gas or landfill gas) may sample the fuel stream to determine 
+the quantity of CO<INF>2</INF> present in the fuel prior to combustion 
+and exclude this portion of the CO<INF>2</INF> mass emissions from 
+compliance determinations.",,primary,openai,gpt-5,0,0
+69,EPA-HQ-OAR-2013-0495,final,0,True,The sentence appears within amendatory regulatory text (revise) and states a binding requirement for how compliance periods must be composed.,simple,none,60,60.17,Each compliance period,shall,strong,include,only valid operating hours in the compliance period,False,True,"valid operating hours are those for which valid data are obtained for all parameters used to determine hourly CO2 mass emissions and, if a heat input-based standard applies, all parameters used to determine total heat input; and the corresponding hourly gross or net energy output value is valid data",revise,"(1) Each compliance period shall include only ``valid operating 
+hours'' in the compliance period, i.e., operating hours for which:
+    (i) ``Valid data'' (as defined in Sec.  60.5580) are obtained for 
+all of the parameters used to determine the hourly CO<INF>2</INF> mass 
+emissions (kg) and, if a heat input-based standard applies, all the 
+parameters used to determine total heat input for the hour are also 
+obtained; and
+    (ii) The corresponding hourly gross or net energy output value is 
+also valid data (Note: For hours with no useful output, zero is 
+considered to be a valid value).",§ 60.5580,primary,openai,gpt-5,2030,236
+70,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within an amendatory block being revised to read as follows, making it new binding text.",simple,none,60,60.17,You,must,strong,exclude,operating hours in which [specified conditions apply],False,True,the listed conditions in paragraphs (i)–(iii) are present,revise,"(2) You must exclude operating hours in which:
+    (i)",part 75,primary,openai,gpt-5,1750,188
+71,EPA-HQ-OAR-2013-0495,final,0,True,The text is within an amendatory block revising CFR regulatory text and contains prescriptive requirements using must.,compound,none,60,60.17,You,must,strong,exclude,"operating hours in which the substitute data provisions of part 75 of this chapter are applied for any parameters used to determine hourly CO2 mass emissions or, if a heat input-based standard applies, for any parameters used to determine hourly heat input",False,False,,revise,"The substitute data provisions of part 75 of this chapter are 
+applied for any of the parameters used to determine the hourly 
+CO<INF>2</INF> mass emissions or, if a heat input-based standard 
+applies, for any parameters used to determine the hourly heat input; or
+    (ii) An exceedance of the full-scale range of a continuous emission 
+monitoring system occurs for any of the parameters used to determine 
+the hourly CO<INF>2</INF> mass emissions or, if applicable, to 
+determine the hourly heat input; or
+    (iii) The total gross or net energy output (P<INF>gross/net</INF>) 
+or, if applicable, the total heat input is unavailable.
+    (3) For each compliance period, at least 95 percent of the 
+operating hours in the compliance period must be valid operating hours, 
+as defined in paragraph (a)(1) of this section.",part 75,primary,openai,gpt-5,2231,594
+71,EPA-HQ-OAR-2013-0495,final,1,True,The text is within an amendatory block revising CFR regulatory text and contains prescriptive requirements using must.,compound,none,60,60.17,You,must,strong,exclude,"operating hours in which an exceedance of the full-scale range of a continuous emission monitoring system occurs for any parameters used to determine hourly CO2 mass emissions or, if applicable, to determine hourly heat input",False,False,,revise,"The substitute data provisions of part 75 of this chapter are 
+applied for any of the parameters used to determine the hourly 
+CO<INF>2</INF> mass emissions or, if a heat input-based standard 
+applies, for any parameters used to determine the hourly heat input; or
+    (ii) An exceedance of the full-scale range of a continuous emission 
+monitoring system occurs for any of the parameters used to determine 
+the hourly CO<INF>2</INF> mass emissions or, if applicable, to 
+determine the hourly heat input; or
+    (iii) The total gross or net energy output (P<INF>gross/net</INF>) 
+or, if applicable, the total heat input is unavailable.
+    (3) For each compliance period, at least 95 percent of the 
+operating hours in the compliance period must be valid operating hours, 
+as defined in paragraph (a)(1) of this section.",,primary,openai,gpt-5,0,0
+71,EPA-HQ-OAR-2013-0495,final,2,True,The text is within an amendatory block revising CFR regulatory text and contains prescriptive requirements using must.,compound,none,60,60.17,You,must,strong,exclude,"operating hours in which the total gross or net energy output (Pgross/net), or if applicable the total heat input, is unavailable",False,False,,revise,"The substitute data provisions of part 75 of this chapter are 
+applied for any of the parameters used to determine the hourly 
+CO<INF>2</INF> mass emissions or, if a heat input-based standard 
+applies, for any parameters used to determine the hourly heat input; or
+    (ii) An exceedance of the full-scale range of a continuous emission 
+monitoring system occurs for any of the parameters used to determine 
+the hourly CO<INF>2</INF> mass emissions or, if applicable, to 
+determine the hourly heat input; or
+    (iii) The total gross or net energy output (P<INF>gross/net</INF>) 
+or, if applicable, the total heat input is unavailable.
+    (3) For each compliance period, at least 95 percent of the 
+operating hours in the compliance period must be valid operating hours, 
+as defined in paragraph (a)(1) of this section.",,primary,openai,gpt-5,0,0
+71,EPA-HQ-OAR-2013-0495,final,3,True,The text is within an amendatory block revising CFR regulatory text and contains prescriptive requirements using must.,compound,none,60,60.17,You,must,strong,ensure,"for each compliance period, at least 95 percent of the operating hours in the compliance period are valid operating hours as defined in paragraph (a)(1) of this section",False,False,,revise,"The substitute data provisions of part 75 of this chapter are 
+applied for any of the parameters used to determine the hourly 
+CO<INF>2</INF> mass emissions or, if a heat input-based standard 
+applies, for any parameters used to determine the hourly heat input; or
+    (ii) An exceedance of the full-scale range of a continuous emission 
+monitoring system occurs for any of the parameters used to determine 
+the hourly CO<INF>2</INF> mass emissions or, if applicable, to 
+determine the hourly heat input; or
+    (iii) The total gross or net energy output (P<INF>gross/net</INF>) 
+or, if applicable, the total heat input is unavailable.
+    (3) For each compliance period, at least 95 percent of the 
+operating hours in the compliance period must be valid operating hours, 
+as defined in paragraph (a)(1) of this section.",§ 60.5580,primary,openai,gpt-5,0,0
+72,EPA-HQ-OAR-2013-0495,final,0,True,Text appears within an amendatory block revising CFR text and contains a clear mandatory requirement.,simple,none,60,60.17,You,must,strong,calculate,the total CO2 mass emissions by summing the valid hourly CO2 mass emissions values from § 60.5535 for all valid operating hours in the compliance period,False,False,,revise,"(4) You must calculate the total CO<INF>2</INF> mass emissions by 
+summing the valid hourly CO<INF>2</INF> mass emissions values from 
+Sec.  60.5535 for all of the valid operating hours in the compliance 
+period.",§ 60.5535,primary,openai,gpt-5,1854,198
+73,EPA-HQ-OAR-2013-0495,final,0,True,The sentence appears within amendatory regulatory text being revised and contains a clear duty with “must.”,simple,none,60,60.17,sources subject to output-based standards,must,strong,determine,Pgross/net (the corresponding hourly gross or net energy output in MWh) according to the procedures in paragraphs (a)(3)(i) and (ii) of this section,False,True,For each valid operating hour of the compliance period that was used in paragraph (a)(4) of this section to calculate the total CO2 mass emissions,revise,"For each valid 
+operating hour of the compliance period that was used in paragraph 
+(a)(4) of this section to calculate the total CO<INF>2</INF> mass 
+emissions, you must determine P<INF>gross/net</INF> (the corresponding 
+hourly gross or net energy output in MWh) according to the
+
+[[Page 64653]]
+
+procedures in paragraphs (a)(3)(i) and (ii) of this section, as 
+appropriate for the type of affected EGU(s).",§ 60.5535,primary,openai,gpt-5,1943,239
+74,EPA-HQ-OAR-2013-0495,final,0,True,"It appears within amendatory regulatory text being revised, creating new binding requirements.",simple,none,60,60.17,you,must,strong,determine,the gross or net energy output for that hour,False,True,"For an operating hour in which a valid CO2 mass emissions value is determined according to paragraph (a)(1)(i) of this section, if there is no gross or net electrical output but there is mechanical or useful thermal output",revise,"For an operating hour in 
+which a valid CO<INF>2</INF> mass emissions value is determined 
+according to paragraph (a)(1)(i) of this section, if there is no gross 
+or net electrical output, but there is mechanical or useful thermal 
+output, you must still determine the gross or net energy output for 
+that hour.",paragraph (a)(1)(i) of this section,primary,openai,gpt-5,1870,223
+75,EPA-HQ-OAR-2013-0495,final,0,True,The sentence appears within an amendatory block revising CFR text and imposes a mandatory requirement.,simple,none,60,60.17,you,must,strong,use,that operating hour in the compliance determination,False,True,"for an operating hour in which a valid CO2 mass emissions value is determined according to paragraph (a)(1)(i) of this section, but there is no (i.e., zero) gross electrical, mechanical, or useful thermal output",revise,"In addition, for an operating hour in which a valid 
+CO<INF>2</INF> mass emissions value is determined according to 
+paragraph (a)(1)(i) of this section, but there is no (i.e., zero) gross 
+electrical, mechanical, or useful thermal output, you must use that 
+hour in the compliance determination.",paragraph (a)(1)(i) of this section,primary,openai,gpt-5,1876,226
+76,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory regulatory text being revised, making it new binding text.",simple,none,60,60.17,net electric output,shall,strong,be counted,as zero for this calculation,True,True,For hours or partial hours where the gross electric output is equal to or less than the auxiliary loads,revise,"For hours or partial hours where 
+the gross electric output is equal to or less than the auxiliary loads, 
+net electric output shall be counted as zero for this calculation.",§ 60.5520,primary,openai,gpt-5,1809,191
+77,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within an amendatory block revising regulatory text, making it binding.",simple,none,60,60.17,All terms in the equation,must,strong,be expressed,in units of megawatt-hours (MWh),True,False,,revise,"All terms in the equation must be expressed in 
+units of megawatt-hours (MWh).",,primary,openai,gpt-5,1776,173
+78,EPA-HQ-OAR-2013-0495,final,0,True,The sentence appears within amendatory regulatory text being revised and contains a mandatory requirement.,simple,none,60,60.17,you,must,strong,calculate,(Pt)PS using the specified equation,False,True,"If applicable to your affected EGU (for example, for combined heat and power)",revise,"If applicable to your affected EGU (for example, for combined 
+heat and power), you must calculate (Pt)<INF>PS</INF> using the 
+following equation:
+[",,primary,openai,gpt-5,1814,180
+79,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory regulatory text revising § 60.17 and prescribes compliance calculations, making it new binding text.",simple,none,60,60.17,Sources complying with energy output-based standards,must,strong,calculate,the basis (denominator) of their actual annual emission rate in accordance with paragraph (a)(6)(i) of this section,False,False,,revise,"Sources complying 
+with energy output-based standards must calculate the basis (i.e., 
+denominator) of their actual annual emission rate in accordance with 
+paragraph (a)(6)(i) of this section.",paragraph (a)(6)(i) of this section,primary,openai,gpt-5,1833,211
+80,EPA-HQ-OAR-2013-0495,final,0,True,The sentence appears within amendatory regulatory text that revises the section and uses mandatory language establishing a new calculation requirement.,simple,none,60,60.17,Sources complying with heat input-based standards,must,strong,calculate,the basis of their actual annual emission rate in accordance with paragraph (a)(6)(ii) of this section,False,False,,revise,"Sources complying with heat input 
+based standards must calculate the basis of their actual annual 
+emission rate in accordance with paragraph (a)(6)(ii) of this section.",§ 60.17(a)(6)(ii),primary,openai,gpt-5,1797,202
+81,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory regulatory text revising Part 60 and prescribes a mandatory calculation method, making it binding.",simple,none,60,60.17,you,must,strong,calculate,the total gross or net energy output for the affected EGU's compliance period by summing the hourly gross or net energy output values for the affected EGU determined under paragraph (a)(5) for all valid operating hours in the applicable compliance period,False,True,"In accordance with § 60.5520, if you are subject to an output-based standard",revise,"In accordance with Sec.  60.5520 if you are subject to an 
+output-based standard, you must calculate the total gross or net energy 
+output for the affected EGU's compliance period by summing the hourly 
+gross or net energy output values for the affected EGU that you 
+determined under paragraph (a)(5) of this section for all of the valid 
+operating hours in the applicable compliance period.",§ 60.5520,primary,openai,gpt-5,1903,240
+82,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory text revising CFR provisions and states a mandatory calculation requirement, making it binding.",simple,none,60,60.17,you,must,strong,calculate,the total heat input for each fuel fired during the compliance period,False,True,If you are subject to a heat input-based standard,revise,"(ii) If you are subject to a heat input-based standard, you must 
+calculate the total heat input for each fuel fired during the 
+compliance period.",,primary,openai,gpt-5,1764,185
+83,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory regulatory text (revision) prescribing compliance procedures, making it binding.",compound,none,60,60.17,you,must,strong,include,all valid operating hours in the calculation of total heat input for each individual fuel,False,True,If you are subject to a heat input-based standard,revise,"The calculation of total heat input for each 
+individual fuel must include all valid operating hours and must also be 
+consistent with any fuel-specific procedures specified within your 
+selected monitoring option under Sec.  60.5535(d)(2).",,primary,openai,gpt-5,1814,319
+83,EPA-HQ-OAR-2013-0495,final,1,True,"The sentence appears within amendatory regulatory text (revision) prescribing compliance procedures, making it binding.",compound,none,60,60.17,you,must,strong,ensure consistency,the calculation of total heat input for each individual fuel is consistent with any fuel-specific procedures specified within your selected monitoring option,False,True,If you are subject to a heat input-based standard,revise,"The calculation of total heat input for each 
+individual fuel must include all valid operating hours and must also be 
+consistent with any fuel-specific procedures specified within your 
+selected monitoring option under Sec.  60.5535(d)(2).",§ 60.5535(d)(2),primary,openai,gpt-5,0,0
+84,EPA-HQ-OAR-2013-0495,final,0,True,Text appears within an amendatory block revising CFR part 60 and prescribes a requirement using must.,simple,none,60,60.17,you,must,strong,calculate,the CO2 mass emissions rate for the affected EGU(s) (kg/MWh) by dividing the total CO2 mass emissions value calculated according to paragraph (a)(4) of this section by the total gross or net energy output value calculated according to paragraph (a)(6)(i) of this section,False,True,If you are subject to an output-based standard,revise,"(7) If you are subject to an output-based standard, you must 
+calculate the CO<INF>2</INF> mass emissions rate for the affected 
+EGU(s) (kg/MWh) by dividing the total CO<INF>2</INF> mass emissions 
+value calculated according to the procedures in paragraph (a)(4) of 
+this section by the total gross or net energy output value calculated 
+according to the procedures in paragraph (a)(6)(i) of this section.",paragraph (a)(4); paragraph (a)(6)(i),primary,openai,gpt-5,1912,246
+85,EPA-HQ-OAR-2013-0495,final,0,True,The sentence appears within amendatory regulatory text being revised and imposes a clear requirement using “must.”,simple,none,60,60.17,you,must,strong,calculate,the CO2 mass emissions rate for the affected EGU(s) (lb/MMBtu) by dividing the total CO2 mass emissions value calculated according to paragraph (a)(4) by the total heat input calculated according to paragraph (a)(6)(ii),False,True,If you are subject to a heat input-based standard,revise,"If you are subject to a 
+heat input-based standard, you must calculate the CO<INF>2</INF> mass 
+emissions rate for the affected EGU(s) (lb/MMBtu) by dividing the total 
+CO<INF>2</INF> mass emissions value calculated according to the 
+procedures in paragraph (a)(4) of this section by the total heat input 
+calculated according to the procedures in paragraph (a)(6)(ii) of this 
+section.",paragraph (a)(4); paragraph (a)(6)(ii),primary,openai,gpt-5,1942,237
+86,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory regulatory text being revised, creating new binding requirements.",compound,none,60,60.17,you,must,strong,determine,the CO2 mass emissions rate for your affected EGU according to the procedures specified in paragraph (a)(1) through (7) of this section,False,True,"In accordance with § 60.5520, to demonstrate compliance with the applicable CO2 emission standard, for the initial and each subsequent 12-operating-month compliance period",revise,"In accordance with Sec.  60.5520, to demonstrate compliance 
+with the applicable CO<INF>2</INF> emission standard, for the initial 
+and each subsequent 12-operating-month compliance period, the 
+CO<INF>2</INF> mass emissions rate for your affected EGU must be 
+determined according to the procedures specified in paragraph (a)(1) 
+through (7) of this section and must be less than or equal to the 
+applicable CO<INF>2</INF> emissions standard in Table 1 or 2 of this 
+part, or the emissions standard calculated in accordance with Sec.  
+60.5525(a)(2).",§ 60.5520,primary,openai,gpt-5,2030,411
+86,EPA-HQ-OAR-2013-0495,final,1,True,"The sentence appears within amendatory regulatory text being revised, creating new binding requirements.",compound,none,60,60.17,the CO2 mass emissions rate for your affected EGU,must,strong,be less than or equal to,"the applicable CO2 emissions standard in Table 1 or 2 of this part, or the emissions standard calculated in accordance with § 60.5525(a)(2)",True,True,"In accordance with § 60.5520, to demonstrate compliance with the applicable CO2 emission standard, for the initial and each subsequent 12-operating-month compliance period",revise,"In accordance with Sec.  60.5520, to demonstrate compliance 
+with the applicable CO<INF>2</INF> emission standard, for the initial 
+and each subsequent 12-operating-month compliance period, the 
+CO<INF>2</INF> mass emissions rate for your affected EGU must be 
+determined according to the procedures specified in paragraph (a)(1) 
+through (7) of this section and must be less than or equal to the 
+applicable CO<INF>2</INF> emissions standard in Table 1 or 2 of this 
+part, or the emissions standard calculated in accordance with Sec.  
+60.5525(a)(2).",§ 60.5525(a)(2),primary,openai,gpt-5,0,0
+87,EPA-HQ-OAR-2013-0495,final,0,True,The text is within an amendatory block revising subpart provisions and sets new binding requirements on regulated parties.,simple,none,60,60.5550(a),You,must,strong,prepare and submit,"the notifications specified in §§ 60.7(a)(1) and (3) and 60.19, as applicable to your affected EGU(s) (see Table 3 of this subpart)",False,False,,revise,"Notification, Reports, and Records
+
+
+Sec.  60.5550  What notifications must I submit and when?
+
+    (a) You must prepare and submit the notifications specified in 
+Sec.","§§ 60.7(a)(1), 60.7(a)(3), 60.19",primary,openai,gpt-5,1821,230
+88,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory regulatory text adding/revising § 60.5550 and uses binding language, so it is new binding text.",compound,none,60,60.5550(b),You,must,strong,prepare,notifications specified in § 75.61 of this chapter,False,True,"as applicable, to your affected EGUs",revise,"[[Page 64654]]
+
+    (b) You must prepare and submit notifications specified in Sec.  
+75.61 of this chapter, as applicable, to your affected EGUs.",§ 75.61,primary,openai,gpt-5,1807,314
+88,EPA-HQ-OAR-2013-0495,final,1,True,"The sentence appears within amendatory regulatory text adding/revising § 60.5550 and uses binding language, so it is new binding text.",compound,none,60,60.5550(b),You,must,strong,submit,notifications specified in § 75.61 of this chapter,False,True,"as applicable, to your affected EGUs",revise,"[[Page 64654]]
+
+    (b) You must prepare and submit notifications specified in Sec.  
+75.61 of this chapter, as applicable, to your affected EGUs.",§ 75.61,primary,openai,gpt-5,0,0
+89,EPA-HQ-OAR-2013-0495,final,0,True,The text is within an amendatory block revising subpart provisions and contains binding regulatory language requiring reports.,simple,none,60,60.5555(a),You,must,strong,prepare and submit reports,"according to paragraphs (a) through (d) of this section, as applicable",False,False,,revise,"Sec.  60.5555  What reports must I submit and when?
+
+    (a)",,primary,openai,gpt-5,1766,183
+90,EPA-HQ-OAR-2013-0495,final,0,True,The text is in an amendatory block revising CFR provisions and contains mandatory language prescribing reporting duties.,compound,none,60,60.5555,You,must,strong,prepare and submit reports,"according to paragraphs (a) through (d) of this section, as applicable",False,False,,revise,"You must prepare and submit reports according to paragraphs (a) 
+through (d) of this section, as applicable.
+    (1) For affected EGUs that are required by Sec.  60.5525 to conduct 
+initial and on-going compliance determinations on a 12-operating-month 
+rolling average basis, you must submit electronic quarterly reports as 
+follows.",,primary,openai,gpt-5,1884,316
+90,EPA-HQ-OAR-2013-0495,final,1,True,The text is in an amendatory block revising CFR provisions and contains mandatory language prescribing reporting duties.,compound,none,60,60.5555,you,must,strong,submit,electronic quarterly reports,False,True,For affected EGUs that are required by § 60.5525 to conduct initial and on-going compliance determinations on a 12-operating-month rolling average basis,revise,"You must prepare and submit reports according to paragraphs (a) 
+through (d) of this section, as applicable.
+    (1) For affected EGUs that are required by Sec.  60.5525 to conduct 
+initial and on-going compliance determinations on a 12-operating-month 
+rolling average basis, you must submit electronic quarterly reports as 
+follows.",§ 60.5525,primary,openai,gpt-5,0,0
+91,EPA-HQ-OAR-2013-0495,final,0,True,The sentence appears within an amendatory block adding/revising § 60.5555 and prescribes new binding reporting requirements.,simple,none,60,60.5555,you,must,strong,submit,a report for the calendar quarter that includes the twelfth operating month,False,True,After you have accumulated the first 12-operating months for the affected EGU,revise,"After you have accumulated the first 12-operating months for 
+the affected EGU, you must submit a report for the calendar quarter 
+that includes the twelfth operating month no later than 30 days after 
+the end of that quarter.",,primary,openai,gpt-5,1817,197
+92,EPA-HQ-OAR-2013-0495,final,0,True,The sentence appears within an amendatory block revising regulatory text and imposes a clear reporting duty.,simple,none,60,60.17,you,must,strong,submit,"a report for each subsequent calendar quarter, no later than 30 days after the end of the quarter",False,False,,revise,"Thereafter, you must submit a report for each 
+subsequent calendar quarter, no later than 30 days after the end of the 
+quarter.",,primary,openai,gpt-5,1765,181
+93,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory regulatory text being revised and imposes a reporting content requirement, making it new binding text.",simple,none,60,60.17,you,must,strong,include,"the following information in each quarterly report, as applicable",False,False,,revise,"(2) In each quarterly report you must include the following 
+information, as applicable:
+    (i) Each rolling average CO<INF>2</INF> mass emissions rate for 
+which the last (twelfth) operating month in a 12-operating-month 
+compliance period falls within the calendar quarter.",,primary,openai,gpt-5,1827,175
+94,EPA-HQ-OAR-2013-0495,final,0,True,The sentence appears within amendatory regulatory text being revised and imposes a clear duty using “must.”,simple,none,60,60.17,You,must,strong,calculate,each average CO2 mass emissions rate for the compliance period according to the procedures in § 60.5540,False,False,,revise,"You must calculate 
+each average CO<INF>2</INF> mass emissions rate for the compliance 
+period according to the procedures in Sec.  60.5540.",§ 60.5540,primary,openai,gpt-5,1779,190
+95,EPA-HQ-OAR-2013-0495,final,0,True,The sentence appears within an amendatory block that revises regulatory text and imposes a reporting requirement.,simple,none,60,60.17,You,must,strong,report,the dates (month and year) of the first and twelfth operating months in each compliance period for which you performed a CO2 mass emissions rate calculation,False,False,,revise,"You must report 
+the dates (month and year) of the first and twelfth operating months in 
+each compliance period for which you performed a CO<INF>2</INF> mass 
+emissions rate calculation.",§ 60.5540,primary,openai,gpt-5,1821,197
+96,EPA-HQ-OAR-2013-0495,final,0,True,"Text appears within an amendatory block revising CFR reporting requirements, making the directives binding.",compound,none,60,60.17,you,must,strong,include,a statement that no compliance periods end in the quarter,False,True,If there are no compliance periods that end in the quarter,revise,"If there are no compliance periods that end 
+in the quarter, you must include a statement to that effect;
+    (ii) If one or more compliance periods end in the quarter, you must 
+identify each operating month in the calendar quarter where your EGU 
+violated the applicable CO<INF>2</INF> emission standard;
+    (iii) If one or more compliance periods end in the quarter and 
+there are no violations for the affected EGU, you must include a 
+statement indicating this in the report;
+    (iv) The percentage of valid operating hours in each 12-operating-
+month compliance period described in paragraph (a)(1)(i) of this 
+section (i.e., the total number of valid operating hours (as defined in 
+Sec.  60.5540(a)(1))",,primary,openai,gpt-5,2070,553
+96,EPA-HQ-OAR-2013-0495,final,1,True,"Text appears within an amendatory block revising CFR reporting requirements, making the directives binding.",compound,none,60,60.17,you,must,strong,identify,each operating month in the calendar quarter where your EGU violated the applicable CO2 emission standard,False,True,If one or more compliance periods end in the quarter,revise,"If there are no compliance periods that end 
+in the quarter, you must include a statement to that effect;
+    (ii) If one or more compliance periods end in the quarter, you must 
+identify each operating month in the calendar quarter where your EGU 
+violated the applicable CO<INF>2</INF> emission standard;
+    (iii) If one or more compliance periods end in the quarter and 
+there are no violations for the affected EGU, you must include a 
+statement indicating this in the report;
+    (iv) The percentage of valid operating hours in each 12-operating-
+month compliance period described in paragraph (a)(1)(i) of this 
+section (i.e., the total number of valid operating hours (as defined in 
+Sec.  60.5540(a)(1))",,primary,openai,gpt-5,0,0
+96,EPA-HQ-OAR-2013-0495,final,2,True,"Text appears within an amendatory block revising CFR reporting requirements, making the directives binding.",compound,none,60,60.17,you,must,strong,include,a statement indicating there are no violations for the affected EGU in the report,False,True,If one or more compliance periods end in the quarter and there are no violations for the affected EGU,revise,"If there are no compliance periods that end 
+in the quarter, you must include a statement to that effect;
+    (ii) If one or more compliance periods end in the quarter, you must 
+identify each operating month in the calendar quarter where your EGU 
+violated the applicable CO<INF>2</INF> emission standard;
+    (iii) If one or more compliance periods end in the quarter and 
+there are no violations for the affected EGU, you must include a 
+statement indicating this in the report;
+    (iv) The percentage of valid operating hours in each 12-operating-
+month compliance period described in paragraph (a)(1)(i) of this 
+section (i.e., the total number of valid operating hours (as defined in 
+Sec.  60.5540(a)(1))",,primary,openai,gpt-5,0,0
+96,EPA-HQ-OAR-2013-0495,final,3,True,"Text appears within an amendatory block revising CFR reporting requirements, making the directives binding.",compound,none,60,60.17,you,must,strong,include,the percentage of valid operating hours in each 12-operating-month compliance period described in paragraph (a)(1)(i) of this section,False,False,,revise,"If there are no compliance periods that end 
+in the quarter, you must include a statement to that effect;
+    (ii) If one or more compliance periods end in the quarter, you must 
+identify each operating month in the calendar quarter where your EGU 
+violated the applicable CO<INF>2</INF> emission standard;
+    (iii) If one or more compliance periods end in the quarter and 
+there are no violations for the affected EGU, you must include a 
+statement indicating this in the report;
+    (iv) The percentage of valid operating hours in each 12-operating-
+month compliance period described in paragraph (a)(1)(i) of this 
+section (i.e., the total number of valid operating hours (as defined in 
+Sec.  60.5540(a)(1))",§ 60.5540(a)(1),primary,openai,gpt-5,0,0
+97,EPA-HQ-OAR-2013-0495,final,0,True,The candidate appears within amendatory regulatory text requiring specific report contents and uses mandatory language under a detected revise action.,compound,none,60,60.17,your affected EGU,must,strong,comply,the CO2 emissions standard identified in Table 1 or 2 of this part,False,False,,revise,"in that period divided by the total number of 
+operating hours in that period, multiplied by 100 percent);
+    (v) Consistent with Sec.  60.5520, the CO<INF>2</INF> emissions 
+standard (as identified in Table 1 or 2 of this part) with which your 
+affected EGU must comply; and
+    (vi) Consistent with Sec.  60.5520, an indication whether or not 
+the hourly gross or net energy output (P<INF>gross/net</INF>) values 
+used in the compliance determinations are based solely upon gross 
+electrical load.",§ 60.5520,primary,openai,gpt-5,1972,314
+97,EPA-HQ-OAR-2013-0495,final,1,True,The candidate appears within amendatory regulatory text requiring specific report contents and uses mandatory language under a detected revise action.,compound,none,60,60.17,you,must,strong,include in the quarterly report an indication whether the hourly gross or net energy output values used in the compliance determinations are based solely upon gross electrical load,None,False,False,,revise,"in that period divided by the total number of 
+operating hours in that period, multiplied by 100 percent);
+    (v) Consistent with Sec.  60.5520, the CO<INF>2</INF> emissions 
+standard (as identified in Table 1 or 2 of this part) with which your 
+affected EGU must comply; and
+    (vi) Consistent with Sec.  60.5520, an indication whether or not 
+the hourly gross or net energy output (P<INF>gross/net</INF>) values 
+used in the compliance determinations are based solely upon gross 
+electrical load.",§ 60.5520,primary,openai,gpt-5,0,0
+98,EPA-HQ-OAR-2013-0495,final,0,True,The text appears within an amendatory block revising CFR regulatory text and imposes reporting requirements using mandatory language.,compound,none,60,60.17,you,must,strong,include,"gross energy output or net energy output sold to an electric grid over the four quarters of the calendar year, consistent with § 60.5520 and as applicable to the units of your emission standard",False,True,In the final quarterly report of each calendar year,revise,"(3) In the final quarterly report of each calendar year, you must 
+include the following:
+    (i) Consistent with Sec.  60.5520, gross energy output or net 
+energy output sold to an electric grid, as applicable to the units of 
+your emission standard, over the four quarters of the calendar year; 
+and
+    (ii) The potential electric output of the EGU.",§ 60.5520,primary,openai,gpt-5,1891,325
+98,EPA-HQ-OAR-2013-0495,final,1,True,The text appears within an amendatory block revising CFR regulatory text and imposes reporting requirements using mandatory language.,compound,none,60,60.17,you,must,strong,include,the potential electric output of the EGU,False,True,In the final quarterly report of each calendar year,revise,"(3) In the final quarterly report of each calendar year, you must 
+include the following:
+    (i) Consistent with Sec.  60.5520, gross energy output or net 
+energy output sold to an electric grid, as applicable to the units of 
+your emission standard, over the four quarters of the calendar year; 
+and
+    (ii) The potential electric output of the EGU.",,primary,openai,gpt-5,0,0
+99,EPA-HQ-OAR-2013-0495,final,0,True,The text appears within an amendatory revision block adding binding CFR text.,compound,none,60,60.17,You,must,strong,submit,all electronic reports required under paragraph (a) of this section using the Emissions Collection and Monitoring Plan System (ECMPS) Client Tool provided by the Clean Air Markets Division in the Office of Atmospheric Programs of EPA,False,False,,revise,"(b) You must submit all electronic reports required under paragraph 
+(a) of this section using the Emissions Collection and Monitoring Plan 
+System (ECMPS) Client Tool provided by the Clean Air Markets Division 
+in the Office of Atmospheric Programs of EPA.
+    (c)(1) For affected EGUs under this subpart that are also subject 
+to the Acid Rain Program, you must meet all applicable reporting 
+requirements and submit reports as required under subpart G of part 75 
+of this chapter.",,primary,openai,gpt-5,1905,333
+99,EPA-HQ-OAR-2013-0495,final,1,True,The text appears within an amendatory revision block adding binding CFR text.,compound,none,60,60.17,you,must,strong,meet all applicable reporting requirements and submit reports,as required under subpart G of part 75 of this chapter,False,True,For affected EGUs under this subpart that are also subject to the Acid Rain Program,revise,"(b) You must submit all electronic reports required under paragraph 
+(a) of this section using the Emissions Collection and Monitoring Plan 
+System (ECMPS) Client Tool provided by the Clean Air Markets Division 
+in the Office of Atmospheric Programs of EPA.
+    (c)(1) For affected EGUs under this subpart that are also subject 
+to the Acid Rain Program, you must meet all applicable reporting 
+requirements and submit reports as required under subpart G of part 75 
+of this chapter.",subpart G of part 75,primary,openai,gpt-5,0,0
+100,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence is within amendatory regulatory text that is being revised, and it prescribes duties using must.",compound,none,60,60.17,affected EGUs under this subpart that are not in the Acid Rain Program,must,strong,meet,the reporting requirements under subpart G of part 75 of this chapter,False,True,to the extent that those requirements provide applicable data for the compliance demonstrations required under this subpart,revise,"(2) For affected EGUs under this subpart that are not in the Acid 
+Rain Program, you must also meet the reporting requirements and submit 
+reports as required under subpart G of part 75 of this chapter, to the 
+extent that those requirements and reports provide applicable data for 
+the compliance demonstrations required under this subpart.",subpart G of part 75,primary,openai,gpt-5,1851,359
+100,EPA-HQ-OAR-2013-0495,final,1,True,"The sentence is within amendatory regulatory text that is being revised, and it prescribes duties using must.",compound,none,60,60.17,affected EGUs under this subpart that are not in the Acid Rain Program,must,strong,submit,reports as required under subpart G of part 75 of this chapter,False,True,to the extent that those reports provide applicable data for the compliance demonstrations required under this subpart,revise,"(2) For affected EGUs under this subpart that are not in the Acid 
+Rain Program, you must also meet the reporting requirements and submit 
+reports as required under subpart G of part 75 of this chapter, to the 
+extent that those requirements and reports provide applicable data for 
+the compliance demonstrations required under this subpart.",subpart G of part 75,primary,openai,gpt-5,0,0
+101,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within an amendatory block revising CFR text and imposes a reporting start requirement with clear actors, action, and timing.",simple,none,60,60.17(c)(3)(i),newly-constructed affected EGUs under this subpart that are also subject to the Acid Rain Program,must,strong,begin submitting,the quarterly electronic emissions reports described in paragraph (c)(1) of this section in accordance with § 75.64(a) of this chapter,False,True,beginning with data recorded on and after the earlier of the date of provisional certification (as defined in § 75.20(a)(3) of this chapter) or 180 days after the date on which the EGU commences commercial operation (as defined in § 72.2 of this chapter),revise,"For all newly-constructed affected EGUs under this subpart 
+that are also subject to the Acid Rain Program, you must begin 
+submitting the quarterly electronic emissions reports described in 
+paragraph (c)(1) of this section in accordance with Sec.  75.64(a) of 
+this chapter, i.e., beginning with data recorded on and after the 
+earlier of:
+    (A) The date of provisional certification, as defined in Sec.  
+75.20(a)(3) of this chapter; or
+    (B) 180 days after the date on which the EGU commences commercial 
+operation (as defined in Sec.  72.2 of this chapter).",§ 75.64(a),primary,openai,gpt-5,2001,290
+102,EPA-HQ-OAR-2013-0495,final,0,True,"The candidate appears within amendatory regulatory text being revised, creating new binding requirements.",compound,none,60,60.17,newly-constructed affected EGUs under this subpart that are not subject to the Acid Rain Program,must,strong,begin submitting,the quarterly electronic reports described in paragraph (c)(2) of this section,False,True,"beginning with data recorded on and after the date on which reporting is required to begin under § 75.64(a) of this chapter, if that date occurs on or after October 23, 2015; or beginning with data recorded on and after October 23, 2015, if the date on which reporting would ordinarily be required to begin under § 75.64(a) of this chapter has passed prior to October 23, 2015",revise,"For newly-constructed affected EGUs under this subpart that 
+are not subject to the Acid Rain Program, you must begin submitting the 
+quarterly electronic reports described in paragraph (c)(2) of this 
+section, beginning with data recorded on and after:
+    (A) The date on which reporting is required to begin under Sec.  
+75.64(a) of this chapter, if that date occurs on or after October 23, 
+2015; or
+    (B) October 23, 2015, if the date on which reporting would 
+ordinarily be required to begin under Sec.  75.64(a) of this chapter 
+has passed prior to October 23, 2015.
+    (iii) For reconstructed or modified units, reporting of emissions 
+data shall begin at the date on which the EGU becomes an affected unit 
+under this subpart, provided that the ECMPS Client Tool is able to 
+receive and process net energy output data on that date.",§ 75.64(a),primary,openai,gpt-5,2130,429
+102,EPA-HQ-OAR-2013-0495,final,1,True,"The candidate appears within amendatory regulatory text being revised, creating new binding requirements.",compound,none,60,60.17,reconstructed or modified units,shall,strong,begin,reporting of emissions data,False,True,"at the date on which the EGU becomes an affected unit under this subpart, provided that the ECMPS Client Tool is able to receive and process net energy output data on that date",revise,"For newly-constructed affected EGUs under this subpart that 
+are not subject to the Acid Rain Program, you must begin submitting the 
+quarterly electronic reports described in paragraph (c)(2) of this 
+section, beginning with data recorded on and after:
+    (A) The date on which reporting is required to begin under Sec.  
+75.64(a) of this chapter, if that date occurs on or after October 23, 
+2015; or
+    (B) October 23, 2015, if the date on which reporting would 
+ordinarily be required to begin under Sec.  75.64(a) of this chapter 
+has passed prior to October 23, 2015.
+    (iii) For reconstructed or modified units, reporting of emissions 
+data shall begin at the date on which the EGU becomes an affected unit 
+under this subpart, provided that the ECMPS Client Tool is able to 
+receive and process net energy output data on that date.",,primary,openai,gpt-5,0,0
+103,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory text being revised to read as regulatory requirements, making it binding.",simple,none,60,60.17,emissions data reporting,shall,strong,be reported,on a gross energy output basis,True,True,"Otherwise (i.e., if the ECMPS Client Tool is not yet able to receive and process net energy output data on the reporting start date), until the date that the Client Tool is first able to receive and process net energy output data",revise,"Otherwise, 
+emissions data reporting shall be on a gross energy output basis until 
+the date that the Client Tool is first able to receive and process net 
+energy output data.",§ 75.64(a),primary,openai,gpt-5,1791,223
+104,EPA-HQ-OAR-2013-0495,final,0,True,The sentence appears within amendatory regulatory text being revised and contains a mandatory requirement using shall.,simple,none,60,60.17,the source (reporting entity),shall,strong,report,"the maximum (or in some cases, minimum) potential value for the parameter measured by the uncertified required monitoring system",False,True,If any required monitoring system has not been provisionally certified by the applicable date on which emissions data reporting is required to begin under paragraph (c)(3) of this section,revise,"(4) If any required monitoring system has not been provisionally 
+certified by the applicable date on which emissions data reporting is 
+required to begin under paragraph (c)(3) of this section, the maximum 
+(or in some cases, minimum) potential value for the parameter measured 
+by the monitoring system shall be reported until the required 
+certification testing is successfully completed, in accordance with 
+Sec.  75.4(j) of this chapter, Sec.  75.37(b) of this chapter, or 
+section 2.4 of appendix D to part 75 of this chapter (as applicable).","§ 75.4(j); § 75.37(b); appendix D to part 75, section 2.4",primary,openai,gpt-5,1972,247
+105,EPA-HQ-OAR-2013-0495,final,0,True,The sentence appears within amendatory regulatory text being revised and contains mandatory prohibitory language governing compliance determinations.,compound,none,60,60.17,CO2 mass emission rates calculated using maximum potential values during operating hours,no_modal_implicit,strong,are not considered,valid operating hours (as defined in § 60.5540(a)(1)),False,False,,revise,"Operating hours in which CO<INF>2</INF> mass emission rates are 
+calculated using maximum potential values are not ``valid operating 
+hours'' (as defined in Sec.  60.5540(a)(1)), and shall not be used in 
+the compliance determinations under Sec.  60.5540.",§ 60.5540(a)(1),primary,openai,gpt-5,1853,311
+105,EPA-HQ-OAR-2013-0495,final,1,True,The sentence appears within amendatory regulatory text being revised and contains mandatory prohibitory language governing compliance determinations.,compound,none,60,60.17,Operators,may not,strong,use,such operating hours in the compliance determinations,False,False,,revise,"Operating hours in which CO<INF>2</INF> mass emission rates are 
+calculated using maximum potential values are not ``valid operating 
+hours'' (as defined in Sec.  60.5540(a)(1)), and shall not be used in 
+the compliance determinations under Sec.  60.5540.",§ 60.5540,primary,openai,gpt-5,0,0
+106,EPA-HQ-OAR-2013-0495,final,0,True,Text appears within an amendatory revision block and prescribes who must submit reports and that owners/operators must appoint representatives.,compound,none,60,60.17,the person appointed as the Designated Representative (DR) under § 72.20 of this chapter,shall,strong,submit,the reports required under paragraphs (a) and (c)(1) of this section,False,True,For affected EGUs subject to the Acid Rain Program,revise,"For affected EGUs subject to the Acid Rain Program, the reports 
+required under paragraphs (a) and (c)(1) of this section shall be 
+submitted by:
+    (1) The person appointed as the Designated Representative (DR) 
+under Sec.  72.20 of this chapter; or
+    (2) The person appointed as the Alternate Designated Representative 
+(ADR) under Sec.  72.22 of this chapter; or
+    (3) A person (or persons) authorized by the DR or ADR under Sec.  
+72.26 of this chapter to make the required submissions.
+    (e) For affected EGUs that are not subject to the Acid Rain 
+Program, the owner or operator shall appoint a DR and (optionally) an 
+ADR to submit the reports required under paragraphs (a) and (c)(2) of 
+this section.",§ 72.20,primary,openai,gpt-5,2095,647
+106,EPA-HQ-OAR-2013-0495,final,1,True,Text appears within an amendatory revision block and prescribes who must submit reports and that owners/operators must appoint representatives.,compound,none,60,60.17,the person appointed as the Alternate Designated Representative (ADR) under § 72.22 of this chapter,shall,strong,submit,the reports required under paragraphs (a) and (c)(1) of this section,False,True,For affected EGUs subject to the Acid Rain Program,revise,"For affected EGUs subject to the Acid Rain Program, the reports 
+required under paragraphs (a) and (c)(1) of this section shall be 
+submitted by:
+    (1) The person appointed as the Designated Representative (DR) 
+under Sec.  72.20 of this chapter; or
+    (2) The person appointed as the Alternate Designated Representative 
+(ADR) under Sec.  72.22 of this chapter; or
+    (3) A person (or persons) authorized by the DR or ADR under Sec.  
+72.26 of this chapter to make the required submissions.
+    (e) For affected EGUs that are not subject to the Acid Rain 
+Program, the owner or operator shall appoint a DR and (optionally) an 
+ADR to submit the reports required under paragraphs (a) and (c)(2) of 
+this section.",§ 72.22,primary,openai,gpt-5,0,0
+106,EPA-HQ-OAR-2013-0495,final,2,True,Text appears within an amendatory revision block and prescribes who must submit reports and that owners/operators must appoint representatives.,compound,none,60,60.17,a person (or persons) authorized by the DR or ADR under § 72.26 of this chapter,shall,strong,submit,the reports required under paragraphs (a) and (c)(1) of this section,False,True,For affected EGUs subject to the Acid Rain Program,revise,"For affected EGUs subject to the Acid Rain Program, the reports 
+required under paragraphs (a) and (c)(1) of this section shall be 
+submitted by:
+    (1) The person appointed as the Designated Representative (DR) 
+under Sec.  72.20 of this chapter; or
+    (2) The person appointed as the Alternate Designated Representative 
+(ADR) under Sec.  72.22 of this chapter; or
+    (3) A person (or persons) authorized by the DR or ADR under Sec.  
+72.26 of this chapter to make the required submissions.
+    (e) For affected EGUs that are not subject to the Acid Rain 
+Program, the owner or operator shall appoint a DR and (optionally) an 
+ADR to submit the reports required under paragraphs (a) and (c)(2) of 
+this section.",§ 72.26,primary,openai,gpt-5,0,0
+106,EPA-HQ-OAR-2013-0495,final,3,True,Text appears within an amendatory revision block and prescribes who must submit reports and that owners/operators must appoint representatives.,compound,none,60,60.17,the owner or operator,shall,strong,appoint,a Designated Representative (DR) and (optionally) an Alternate Designated Representative (ADR) to submit the reports required under paragraphs (a) and (c)(2) of this section,False,True,For affected EGUs that are not subject to the Acid Rain Program,revise,"For affected EGUs subject to the Acid Rain Program, the reports 
+required under paragraphs (a) and (c)(1) of this section shall be 
+submitted by:
+    (1) The person appointed as the Designated Representative (DR) 
+under Sec.  72.20 of this chapter; or
+    (2) The person appointed as the Alternate Designated Representative 
+(ADR) under Sec.  72.22 of this chapter; or
+    (3) A person (or persons) authorized by the DR or ADR under Sec.  
+72.26 of this chapter to make the required submissions.
+    (e) For affected EGUs that are not subject to the Acid Rain 
+Program, the owner or operator shall appoint a DR and (optionally) an 
+ADR to submit the reports required under paragraphs (a) and (c)(2) of 
+this section.",,primary,openai,gpt-5,0,0
+107,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within an amendatory block revising regulatory text, making it new binding text.",simple,none,60,60.17,The DR and ADR,must,strong,register,with the Clean Air Markets Division (CAMD) Business System,False,False,,revise,"The DR and ADR must register with the Clean Air Markets 
+Division (CAMD) Business System.",,primary,openai,gpt-5,1774,175
+108,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within an amendatory block revising CFR text, making it binding regulatory language.",simple,none,60,60.17,The DR,may,permissive,delegate the authority to make the required submissions,one or more persons,False,False,,revise,"The DR may delegate the authority to 
+make the required submissions to one or more persons.",,primary,openai,gpt-5,1778,174
+109,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory text revising CFR part 60 (§ 60.17), so it is new binding regulatory text.",simple,none,60,60.17,you,must,strong,report,"in accordance with the requirements of 40 CFR part 98, subpart PP",False,True,If your affected EGU captures CO2 to meet the applicable emission limit,revise,"(f) If your affected EGU captures CO<INF>2</INF> to meet the 
+applicable emission limit, you must report in accordance with the 
+requirements of 40 CFR part 98, subpart PP and either:","40 CFR part 98, subpart PP",primary,openai,gpt-5,1822,207
+110,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within an amendatory block revising § 60.17, so the text constitutes new binding regulatory language.",simple,none,60,60.17(g),Any person,may,permissive,request,"the Administrator to issue a waiver of the requirement that captured CO2 from an affected EGU be transferred to a facility reporting under 40 CFR part 98, subpart RR",False,False,,revise,"(g) Any person may request the Administrator to issue a waiver of 
+the requirement that captured CO<INF>2</INF> from an affected EGU be 
+transferred to a facility reporting under 40 CFR part 98, subpart RR.","40 CFR part 98, subpart RR",primary,openai,gpt-5,1809,214
+111,EPA-HQ-OAR-2013-0495,final,0,True,The sentence appears within an amendatory block revising § 60.17 and contains mandatory language creating new binding text.,compound,none,60,60.17(g),the applicant,must,strong,demonstrate to the Administrator,that its technology will store captured CO2 as effectively as geologic sequestration,False,True,To receive a waiver,revise,"To receive a waiver, the applicant must demonstrate to the 
+Administrator that its technology will store captured CO<INF>2</INF> as 
+effectively as geologic sequestration, and that the proposed technology 
+will not cause or contribute to an unreasonable risk to public health, 
+welfare, or safety.",,primary,openai,gpt-5,1824,314
+111,EPA-HQ-OAR-2013-0495,final,1,True,The sentence appears within an amendatory block revising § 60.17 and contains mandatory language creating new binding text.,compound,none,60,60.17(g),the applicant,must,strong,demonstrate to the Administrator,"that the proposed technology will not cause or contribute to an unreasonable risk to public health, welfare, or safety",False,True,To receive a waiver,revise,"To receive a waiver, the applicant must demonstrate to the 
+Administrator that its technology will store captured CO<INF>2</INF> as 
+effectively as geologic sequestration, and that the proposed technology 
+will not cause or contribute to an unreasonable risk to public health, 
+welfare, or safety.",,primary,openai,gpt-5,0,0
+112,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within an amendatory block revising § 60.17, making it new binding regulatory text.",simple,none,60,60.17,the Administrator,shall,strong,consider,"operating history of the technology, whether the technology will increase emissions or other releases of any pollutant other than CO2, and permanence of the CO2 storage",False,True,In making this determination,revise,"In making this determination, the Administrator 
+shall consider (among other factors) operating history of the 
+technology, whether the technology will increase emissions or other 
+releases of any pollutant other than CO<INF>2</INF>, and permanence of 
+the CO<INF>2</INF> storage.","40 CFR part 98, subpart RR",primary,openai,gpt-5,1798,210
+113,EPA-HQ-OAR-2013-0495,final,0,True,"The text appears within an amendatory block revising CFR text, so the permissive authority granted to the Administrator is binding regulatory text.",compound,none,60,60.17,The Administrator,may,permissive,test,the system itself,False,False,,revise,"The Administrator may test the system 
+itself, or require the applicant to perform any tests considered by the 
+Administrator to be necessary to show the technology's effectiveness, 
+safety, and ability to store captured CO<INF>2</INF> without release.",,primary,openai,gpt-5,1786,294
+113,EPA-HQ-OAR-2013-0495,final,1,True,"The text appears within an amendatory block revising CFR text, so the permissive authority granted to the Administrator is binding regulatory text.",compound,none,60,60.17,The Administrator,may,permissive,"require the applicant to perform tests considered necessary to show the technology's effectiveness, safety, and ability to store captured CO2 without release",tests,False,False,,revise,"The Administrator may test the system 
+itself, or require the applicant to perform any tests considered by the 
+Administrator to be necessary to show the technology's effectiveness, 
+safety, and ability to store captured CO<INF>2</INF> without release.",,primary,openai,gpt-5,0,0
+114,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory regulatory text being revised, making it new binding text despite permissive modal.",simple,none,60,60.17,The Administrator,may,permissive,grant,"conditional approval of a technology, with the approval conditioned on monitoring and reporting of operations",False,False,,revise,"The Administrator may grant conditional approval of a technology, with 
+the approval conditioned on monitoring and reporting of operations.",,primary,openai,gpt-5,1744,181
+115,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory text being revised/added, making it new binding regulatory text.",simple,none,60,60.17,The Administrator,may,permissive,withdraw,approval of the waiver,False,True,on evidence of releases of CO2 or other pollutants,revise,"The 
+Administrator may also withdraw approval of the waiver on evidence of 
+releases of CO<INF>2</INF> or other pollutants.",,primary,openai,gpt-5,1744,177
+116,EPA-HQ-OAR-2013-0495,final,0,True,"The text appears within an amendatory block revising CFR text and contains prescriptive language (“You must”), making it new binding regulatory text.",simple,none,60,60.5560,You,must,strong,maintain records,the information you used to demonstrate compliance with this subpart as specified in § 60.7(b) and (f),False,False,,revise,"Sec.  60.5560  What records must I maintain?
+
+    (a) You must maintain records of the information you used to 
+demonstrate compliance with this subpart as specified in Sec.  60.7(b) 
+and (f).
+    (b)(1)","§ 60.7(b), (f)",primary,openai,gpt-5,1794,205
+117,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within regulatory text under a section with amendatory action indicated as revise, making it new binding text.",compound,none,60,60.5560(b)(1),affected EGUs subject to the Acid Rain Program,must,strong,follow,the applicable recordkeeping requirements under subpart F of part 75 of this chapter,False,False,,revise,"For affected EGUs subject to the Acid Rain Program, you must 
+follow the applicable recordkeeping requirements and maintain records 
+as required under subpart F of part 75 of this chapter.",subpart F of part 75,primary,openai,gpt-5,1769,324
+117,EPA-HQ-OAR-2013-0495,final,1,True,"The sentence appears within regulatory text under a section with amendatory action indicated as revise, making it new binding text.",compound,none,60,60.5560(b)(1),affected EGUs subject to the Acid Rain Program,must,strong,maintain,records as required under subpart F of part 75 of this chapter,False,False,,revise,"For affected EGUs subject to the Acid Rain Program, you must 
+follow the applicable recordkeeping requirements and maintain records 
+as required under subpart F of part 75 of this chapter.",subpart F of part 75,primary,openai,gpt-5,0,0
+118,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within regulatory text of § 60.5560 in an amendatory revision, making it binding new CFR text.",compound,none,60,60.5560(b)(2),affected EGUs that are not subject to the Acid Rain Program,must,strong,follow,"the recordkeeping requirements under subpart F of part 75 of this chapter, to the extent that those records provide applicable data for the compliance determinations required under this subpart",False,False,,revise,"(2) For affected EGUs that are not subject to the Acid Rain 
+Program, you must also follow the recordkeeping requirements and 
+maintain records as required under subpart F of part 75 of this 
+chapter, to the extent that those records provide applicable data for 
+the compliance determinations required under this subpart.",subpart F of part 75,primary,openai,gpt-5,1852,372
+118,EPA-HQ-OAR-2013-0495,final,1,True,"The sentence appears within regulatory text of § 60.5560 in an amendatory revision, making it binding new CFR text.",compound,none,60,60.5560(b)(2),affected EGUs that are not subject to the Acid Rain Program,must,strong,maintain,"records as required under subpart F of part 75 of this chapter, to the extent that those records provide applicable data for the compliance determinations required under this subpart",False,False,,revise,"(2) For affected EGUs that are not subject to the Acid Rain 
+Program, you must also follow the recordkeeping requirements and 
+maintain records as required under subpart F of part 75 of this 
+chapter, to the extent that those records provide applicable data for 
+the compliance determinations required under this subpart.",subpart F of part 75,primary,openai,gpt-5,0,0
+119,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within an amendatory block revising § 60.17 and prescribes recordkeeping requirements, making it binding.",simple,none,60,60.17,affected EGUs that are not subject to the Acid Rain Program,must,strong,keep,"the following records, as applicable to the types of continuous monitoring systems used to demonstrate compliance under this subpart",False,True,Regardless of the prior sentence,revise,"Regardless 
+of the prior sentence, at a minimum, the following records must be 
+kept, as applicable to the types of continuous monitoring systems used 
+to demonstrate compliance under this subpart:
+    (i)",subpart F of part 75,primary,openai,gpt-5,1828,211
+120,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory text being revised, making it new binding regulatory language.",simple,none,60,60.17,You,must,strong,keep,records of the calculations you performed to determine the hourly and total CO2 mass emissions (tons),False,False,,revise,"(c) You must keep records of the calculations you performed to 
+determine the hourly and total CO<INF>2</INF> mass emissions (tons)",,primary,openai,gpt-5,1844,176
+121,EPA-HQ-OAR-2013-0495,final,0,True,It appears within amendatory regulatory text being revised and imposes a clear duty using “must.”,simple,none,60,60.17,you,must,strong,keep records,the applicable data recorded and calculations performed that you used to determine your affected EGU's gross or net energy output for each operating month,False,True,Consistent with § 60.5520,revise,"(d) Consistent with Sec.  60.5520, you must keep records of the 
+applicable data recorded and calculations performed that you used to 
+determine your affected EGU's gross or net energy output for each 
+operating month.",§ 60.5520,primary,openai,gpt-5,1852,203
+122,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory regulatory text being revised/added, making it binding.",simple,none,60,60.17,You,must,strong,keep records,the calculations you performed to determine the percentage of valid CO2 mass emission rates in each compliance period,False,False,,revise,"(e) You must keep records of the calculations you performed to 
+determine the percentage of valid CO<INF>2</INF> mass emission rates in 
+each compliance period.",,primary,openai,gpt-5,1825,178
+123,EPA-HQ-OAR-2013-0495,final,0,True,Text appears within an amendatory block revising regulatory text and uses mandatory language establishing a recordkeeping duty.,simple,none,60,60.5565,You,must,strong,keep records,the calculations you performed to assess compliance with each applicable CO2 mass emissions standard in Table 1 or 2 of this subpart,False,False,,revise,"(f) You must keep records of the calculations you performed to 
+assess compliance with each applicable CO<INF>2</INF> mass emissions 
+standard in Table 1 or 2 of this subpart.",,primary,openai,gpt-5,1836,190
+124,EPA-HQ-OAR-2013-0495,final,0,True,The sentence is within amendatory regulatory text revising the CFR and prescribes a clear recordkeeping duty.,simple,none,60,60.5565,You,must,strong,keep,records of the calculations you performed to determine any site-specific carbon-based F-factors you used in the emissions calculations,False,True,if applicable,revise,"(g) You must keep records of the calculations you performed to 
+determine any site-specific carbon-based F-factors you used in the 
+emissions calculations (if applicable).",§ 60.5520,primary,openai,gpt-5,1810,193
+125,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within CFR amendatory text for § 60.5565 with revision context, creating new binding requirements.",simple,none,60,60.5565(a),you,must,strong,keep,your records in a form suitable and readily available for expeditious review,False,False,,revise,"In what form and how long must I keep my records?
+
+    (a) Your records must be in a form suitable and readily available 
+for expeditious review.",,primary,openai,gpt-5,1775,181
+126,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within regulatory text of a CFR section presented in an amendatory context, making it new binding text.",simple,none,60,60.5565,You,must,strong,maintain,each record for 3 years after the date of conclusion of each compliance period,False,False,,revise,"(b) You must maintain each record for 3 years after the date of 
+conclusion of each compliance period.",,primary,openai,gpt-5,1752,181
+127,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within CFR regulatory text in an amendatory context (section text with requirements), creating binding obligations.",simple,none,60,60.5565(c),You,must,strong,maintain,"each record on site for at least 2 years after the date of each occurrence, measurement, maintenance, corrective action, report, or record, according to § 60.7",False,False,,revise,"(c) You must maintain each record on site for at least 2 years 
+after the date of each occurrence, measurement, maintenance, corrective 
+action, report, or record, according to Sec.  60.7.",§ 60.7,primary,openai,gpt-5,1803,207
+128,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within an amendatory regulatory text block revising CFR provisions, making it binding new text.",simple,none,60,60.17,You,may,permissive,maintain,the records off site for the remaining year(s) as required by this subpart,False,False,,revise,"You may 
+maintain the records off site for the remaining year(s) as required by 
+this subpart.",§ 60.7,primary,openai,gpt-5,1757,186
+129,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory regulatory text revising definitions and imposes a method requirement, making it binding under the amendatory-block rule.",simple,definition_embedded,60,60.17,Design efficiency,shall,strong,be determined using one of the following methods,"ASME PTC 22, ASME PTC 46, or ISO 2314 (as incorporated by reference in § 60.17)",True,False,,revise,"Design efficiency shall be determined using one of the 
+following methods:",§ 60.17,primary,openai,gpt-5,1748,214
+130,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within an amendatory block revising § 60.17 and prescribes a permissive authority for the Administrator, making it binding under rule (a).",simple,none,60,60.17,The Administrator,may,permissive,waive,the 50 percent solid-derived fuel requirement,False,True,"during periods of the gasification system construction, startup and commissioning, shutdown, or repair",revise,"The Administrator may waive the 50 percent solid-derived 
+fuel requirement during periods of the gasification system 
+construction, startup and commissioning, shutdown, or repair.",,primary,openai,gpt-5,1744,205
+131,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within an amendatory block revising regulatory text, making it binding regulatory language.",simple,none,60,60.17,a stationary combustion turbine,may,permissive,be mounted,on a vehicle for portability,True,False,,revise,"It 
+may, however, be mounted on a vehicle for portability.",,primary,openai,gpt-5,1669,171
+132,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory text revising CFR provisions, making it binding.",compound,none,60,60.17,Affected EGU(s) with meaningful energy in the condensate return (or other thermal energy input to the affected EGU),must,strong,measure,the energy in the condensate,False,False,,revise,"Affected EGU(s) with meaningful 
+energy in the condensate return (or other thermal energy input to the 
+affected EGU) must measure the energy in the condensate and subtract 
+that energy relative to SATP conditions from the measured thermal 
+output.",,primary,openai,gpt-5,1810,312
+132,EPA-HQ-OAR-2013-0495,final,1,True,"The sentence appears within amendatory text revising CFR provisions, making it binding.",compound,none,60,60.17,Affected EGU(s) with meaningful energy in the condensate return (or other thermal energy input to the affected EGU),must,strong,subtract,that energy relative to SATP conditions from the measured thermal output,False,False,,revise,"Affected EGU(s) with meaningful 
+energy in the condensate return (or other thermal energy input to the 
+affected EGU) must measure the energy in the condensate and subtract 
+that energy relative to SATP conditions from the measured thermal 
+output.",,primary,openai,gpt-5,0,0
+133,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory regulatory text revising § 60.17 and sets prescriptive requirements, making it binding under the amendatory-block rule.",compound,none,60,60.17,Owners or operators using CEMS,must,strong,meet,the initial certification requirements in § 75.20 and appendix A to part 75 of this chapter before reporting quality-assured data under this subpart,False,False,,revise,"For CEMS, the initial 
+certification requirements in Sec.  75.20 of this chapter and appendix 
+A to part 75 of this chapter must be met before quality-assured data 
+are reported under this subpart; for on-going quality assurance, the 
+daily, quarterly, and semiannual/annual test requirements in sections 
+2.1, 2.2, and 2.3 of appendix B to part 75 of this chapter must be met 
+and the data validation criteria in sections 2.1.5, 2.2.3, and 2.3.2 of 
+appendix B to part 75 of this chapter apply.",§ 75.20,primary,openai,gpt-5,1985,488
+133,EPA-HQ-OAR-2013-0495,final,1,True,"The sentence appears within amendatory regulatory text revising § 60.17 and sets prescriptive requirements, making it binding under the amendatory-block rule.",compound,none,60,60.17,Owners or operators using CEMS,must,strong,meet,"the daily, quarterly, and semiannual/annual test requirements in sections 2.1, 2.2, and 2.3 of appendix B to part 75 for ongoing quality assurance",False,False,,revise,"For CEMS, the initial 
+certification requirements in Sec.  75.20 of this chapter and appendix 
+A to part 75 of this chapter must be met before quality-assured data 
+are reported under this subpart; for on-going quality assurance, the 
+daily, quarterly, and semiannual/annual test requirements in sections 
+2.1, 2.2, and 2.3 of appendix B to part 75 of this chapter must be met 
+and the data validation criteria in sections 2.1.5, 2.2.3, and 2.3.2 of 
+appendix B to part 75 of this chapter apply.",,primary,openai,gpt-5,0,0
+133,EPA-HQ-OAR-2013-0495,final,2,True,"The sentence appears within amendatory regulatory text revising § 60.17 and sets prescriptive requirements, making it binding under the amendatory-block rule.",compound,none,60,60.17,Owners or operators using CEMS,no_modal_implicit,permissive,comply with,"the data validation criteria in sections 2.1.5, 2.2.3, and 2.3.2 of appendix B to part 75, which apply",False,False,,revise,"For CEMS, the initial 
+certification requirements in Sec.  75.20 of this chapter and appendix 
+A to part 75 of this chapter must be met before quality-assured data 
+are reported under this subpart; for on-going quality assurance, the 
+daily, quarterly, and semiannual/annual test requirements in sections 
+2.1, 2.2, and 2.3 of appendix B to part 75 of this chapter must be met 
+and the data validation criteria in sections 2.1.5, 2.2.3, and 2.3.2 of 
+appendix B to part 75 of this chapter apply.",,primary,openai,gpt-5,0,0
+134,EPA-HQ-OAR-2013-0495,final,0,True,Text appears within a CFR amendatory revision block and prescribes must/apply requirements.,compound,none,60,60.17,Owners or operators using fuel flow meters,must,strong,meet,the initial certification requirements in section 2.1.5 of appendix D to part 75 of this chapter before reporting quality-assured data under this subpart,False,True,except for qualifying commercial billing meters under section 2.1.4.2 of appendix D to part 75,revise,"For fuel flow meters, the 
+initial certification requirements in section 2.1.5 of appendix D to 
+part 75 of this chapter must be met before quality-assured data are 
+reported under this subpart (except for qualifying commercial billing 
+meters under section 2.1.4.2 of appendix D to part 75), and for on-
+going quality assurance, the provisions in section 2.1.6 of appendix D 
+to part 75 apply (except for qualifying commercial billing meters).",appendix D to part 75,primary,openai,gpt-5,1953,361
+134,EPA-HQ-OAR-2013-0495,final,1,True,Text appears within a CFR amendatory revision block and prescribes must/apply requirements.,compound,none,60,60.17,Owners or operators using fuel flow meters,no_modal_implicit,permissive,comply with,the on-going quality assurance provisions in section 2.1.6 of appendix D to part 75,False,True,except for qualifying commercial billing meters,revise,"For fuel flow meters, the 
+initial certification requirements in section 2.1.5 of appendix D to 
+part 75 of this chapter must be met before quality-assured data are 
+reported under this subpart (except for qualifying commercial billing 
+meters under section 2.1.4.2 of appendix D to part 75), and for on-
+going quality assurance, the provisions in section 2.1.6 of appendix D 
+to part 75 apply (except for qualifying commercial billing meters).",appendix D to part 75,primary,openai,gpt-5,0,0
+135,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within an amendatory block revising § 70.9(b)(2)(v), making it new binding regulatory text.",compound,none,70,70.9(b)(2)(v),the amount calculated in paragraph (b)(2)(i) of this section,shall,strong,be increased by the GHG cost adjustment,None,True,False,,revise,"The amount calculated in paragraph 
+(b)(2)(i) of this section shall be increased by the GHG cost adjustment 
+determined as follows: For each activity identified in the following 
+table, multiply the number of activities performed by the permitting 
+authority by the burden hours per activity, and then calculate a total 
+number of burden hours for all activities.",§ 70.9(b)(2)(i),primary,openai,gpt-5,1777,326
+135,EPA-HQ-OAR-2013-0495,final,1,True,"The sentence appears within an amendatory block revising § 70.9(b)(2)(v), making it new binding regulatory text.",compound,none,70,70.9(b)(2)(v),the permitting authority,must,strong,multiply,"the number of activities performed by the burden hours per activity, and calculate a total number of burden hours for all activities",False,False,,revise,"The amount calculated in paragraph 
+(b)(2)(i) of this section shall be increased by the GHG cost adjustment 
+determined as follows: For each activity identified in the following 
+table, multiply the number of activities performed by the permitting 
+authority by the burden hours per activity, and then calculate a total 
+number of burden hours for all activities.",,primary,openai,gpt-5,0,0
+136,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within an amendatory block revising § 71.9, making it new binding regulatory text.",compound,none,71,71.9(c)(1),each part 71 source,shall,strong,pay,"an annual fee equal to $32 per ton (as adjusted under paragraph (n)(1) of this section) times the total tons of actual emissions of each regulated pollutant (for fee calculation) emitted from the source, including fugitive emissions",False,True,For part 71 programs that are administered by EPA,revise,"For part 71 programs that are administered by EPA, each part 71 
+source shall pay an annual fee which is the sum of:
+    (i) $32 per ton (as adjusted pursuant to the criteria set forth in 
+paragraph (n)(1) of this section) times the total tons of the actual 
+emissions of each regulated pollutant (for fee calculation) emitted 
+from the source, including fugitive emissions; and
+    (ii) Any GHG fee adjustment required under paragraph (c)(8) of this 
+section.",§ 71.9(n)(1),primary,openai,gpt-5,2010,374
+136,EPA-HQ-OAR-2013-0495,final,1,True,"The sentence appears within an amendatory block revising § 71.9, making it new binding regulatory text.",compound,none,71,71.9(c)(1),each part 71 source,shall,strong,include,any GHG fee adjustment required under paragraph (c)(8) of this section in the annual fee,False,True,For part 71 programs that are administered by EPA,revise,"For part 71 programs that are administered by EPA, each part 71 
+source shall pay an annual fee which is the sum of:
+    (i) $32 per ton (as adjusted pursuant to the criteria set forth in 
+paragraph (n)(1) of this section) times the total tons of the actual 
+emissions of each regulated pollutant (for fee calculation) emitted 
+from the source, including fugitive emissions; and
+    (ii) Any GHG fee adjustment required under paragraph (c)(8) of this 
+section.",§ 71.9(c)(8),primary,openai,gpt-5,0,0
+137,EPA-HQ-OAR-2013-0495,final,0,True,The text appears within an amendatory block ('The revisions and addition read as follows') and prescribes binding fee-calculation requirements.,simple,none,71,71.9(c)(2)(i),each part 71 source,shall,strong,calculate and pay an annual fee that is the sum of specified components,"$24 per ton (as adjusted under paragraph (n)(1)) times the total tons of actual emissions of each regulated pollutant (for fee calculation) emitted from the source, including fugitive emissions; and any GHG fee adjustment required under paragraph (c)(8) of this section",False,True,Where EPA has not suspended its part 71 fee collection pursuant to paragraph (c)(2)(ii) of this section,revise,"(2) * * *
+    (i) Where the EPA has not suspended its part 71 fee collection 
+pursuant to paragraph (c)(2)(ii) of this section, the annual fee for 
+each part 71 source shall be the sum of:
+    (A) $24 per ton (as adjusted pursuant to the criteria set forth in 
+paragraph (n)(1) of this section) times the total tons of the actual 
+emissions of each regulated pollutant (for fee calculation) emitted 
+from the source, including fugitive emissions; and",§ 71.9(c)(2)(ii),primary,openai,gpt-5,1960,279
+138,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory regulatory text revising § 71.9, so it constitutes new binding text.",simple,none,71,71.9,the per ton fee,shall,strong,vary,depending on the extent of contractor involvement and the cost to EPA of contractor assistance,False,False,,revise,"For part 71 programs that are administered by EPA with 
+contractor assistance, the per ton fee shall vary depending on the 
+extent of contractor involvement and the cost to EPA of contractor 
+assistance.",,primary,openai,gpt-5,1822,182
+139,EPA-HQ-OAR-2013-0495,final,0,True,The sentence appears within amendatory text revising § 71.9 and sets new operative requirements; thus it is binding under the amendatory block rule.,simple,none,71,71.9,The EPA,shall,strong,establish,"a per ton fee based on contractor costs for the specific part 71 program being administered, using the specified formula",False,False,,revise,"The EPA shall establish a per ton fee that is based on the 
+contractor costs for the specific part 71 program that is being 
+administered, using the following formula:
+
+Cost per ton = (E x 32) +",,primary,openai,gpt-5,1814,196
+140,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory text revising § 71.9 and prescribes how C must be computed, making it new binding regulatory text.",simple,none,71,71.9,C,shall,strong,be computed,"using the formula C = [B + T + N] divided by 12,300,000",True,False,,revise,"C shall be computed by using the 
+following formula:
+
+C = [ B + T + N] divided by 12,300,000
+
+    Where B represents the base cost (contractor costs), where T 
+represents travel costs, and where N represents nonpersonnel data 
+management and tracking costs.",,primary,openai,gpt-5,1838,192
+141,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory text revising § 71.9, making it new binding regulatory language.",simple,none,71,71.9,each part 71 source,shall,strong,pay,a GHG fee adjustment for each activity as required under paragraph (c)(8) of this section,False,False,,revise,"In addition, each part 71 source shall 
+pay a GHG fee adjustment for each activity as required under paragraph 
+(c)(8) of this section.",paragraph (c)(8) of this section,primary,openai,gpt-5,1790,196
+142,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within amendatory text revising § 71.9, so it is new binding regulatory text.",simple,none,71,71.9,the fee,shall,strong,be computed,using the following formula: Cost per ton = (E x 32) + (D x 24) + [(1 - E - D) x $C],True,True,For programs that are delegated in part,revise,"(4) For programs that are delegated in part, the fee shall be 
+computed using the following formula:
+
+Cost per ton = (E x 32) + (D x 24) +",,primary,openai,gpt-5,1784,206
+143,EPA-HQ-OAR-2013-0495,final,0,True,Text appears within an amendatory block revising § 71.9 and imposes prescriptive computation requirements.,compound,none,71,71.9,C,shall,strong,be computed using the formula for contractor assistance cost found,in paragraph (c)(3) of this section,True,False,,revise,"C shall be computed using the formula for contractor 
+assistance cost found in paragraph (c)(3) of this section and shall be 
+zero if contractor assistance is not utilized.",§ 71.9(c)(3),primary,openai,gpt-5,1760,288
+143,EPA-HQ-OAR-2013-0495,final,1,True,Text appears within an amendatory block revising § 71.9 and imposes prescriptive computation requirements.,compound,none,71,71.9,C,shall,strong,be,zero,True,True,if contractor assistance is not utilized,revise,"C shall be computed using the formula for contractor 
+assistance cost found in paragraph (c)(3) of this section and shall be 
+zero if contractor assistance is not utilized.",,primary,openai,gpt-5,0,0
+144,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within an amendatory block revising § 71.9, making it new binding regulatory text.",simple,none,71,71.9,each part 71 source,shall,strong,pay,a GHG fee adjustment for each activity as required under paragraph (c)(8) of this section,False,False,,revise,"In addition, each part 
+71 source shall pay a GHG fee adjustment for each activity as required 
+under paragraph (c)(8) of this section.",paragraph (c)(8) of this section,primary,openai,gpt-5,1732,197
+145,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within an amendatory block revising § 71.9(c)(8), making it new binding text.",simple,none,71,71.9(c)(8),the annual fee,shall,strong,be increased by,a GHG fee adjustment,True,True,for any source that has initiated an activity listed in the following table since the fee was last paid,revise,"The annual fee shall be increased by a GHG 
+fee adjustment for any source that has initiated an activity listed in 
+the following table since the fee was last paid.",,primary,openai,gpt-5,1713,197
+146,EPA-HQ-OAR-2013-0495,final,0,True,The sentence appears within an amendatory block revising § 71.9(c)(8) and thus constitutes new binding regulatory text.,simple,none,71,71.9(c)(8),The GHG fee adjustment,shall,strong,be equal to,the set fee provided in the table for each activity that has been initiated since the fee was last paid,False,False,,revise,"The GHG fee adjustment 
+shall be equal to the set fee provided in the table for each activity 
+that has been initiated since the fee was last paid:
+
+------------------------------------------------------------------------
+                          Activity                              Set fee
+------------------------------------------------------------------------
+GHG completeness determination (for initial permit or             $2,236
+ updated application).......................................
+GHG evaluation for a permit modification or related permit           364
+ action.....................................................
+GHG evaluation at permit renewal............................",,primary,openai,gpt-5,1899,197
+147,EPA-HQ-OAR-2013-0495,final,0,True,"The text appears in an amendatory block adding § 98.426(h) to read as follows, making it binding regulatory text.",compound,none,98,98.426(h),You,must,strong,report,the facility identification number associated with the annual GHG report for the subpart D facility,False,True,If you capture a CO2 stream from an electricity generating unit that is subject to subpart D of this part and transfer CO2 to any facilities that are subject to subpart RR of this part,add,"If you capture a CO<INF>2</INF> stream from an electricity 
+generating unit that is subject to subpart D of this part and transfer 
+CO<INF>2</INF> to any facilities that are subject to subpart RR of this 
+part, you must:
+    (1) Report the facility identification number associated with the 
+annual GHG report for the subpart D facility;
+    (2) Report each facility identification number associated with the 
+annual GHG reports for each subpart RR facility to which CO<INF>2</INF> 
+is transferred; and
+    (3) Report the annual quantity of CO<INF>2</INF> in metric tons 
+that is transferred to each subpart RR facility.",,primary,openai,gpt-5,2077,525
+147,EPA-HQ-OAR-2013-0495,final,1,True,"The text appears in an amendatory block adding § 98.426(h) to read as follows, making it binding regulatory text.",compound,none,98,98.426(h),You,must,strong,report,each facility identification number associated with the annual GHG reports for each subpart RR facility to which CO2 is transferred,False,True,If you capture a CO2 stream from an electricity generating unit that is subject to subpart D of this part and transfer CO2 to any facilities that are subject to subpart RR of this part,add,"If you capture a CO<INF>2</INF> stream from an electricity 
+generating unit that is subject to subpart D of this part and transfer 
+CO<INF>2</INF> to any facilities that are subject to subpart RR of this 
+part, you must:
+    (1) Report the facility identification number associated with the 
+annual GHG report for the subpart D facility;
+    (2) Report each facility identification number associated with the 
+annual GHG reports for each subpart RR facility to which CO<INF>2</INF> 
+is transferred; and
+    (3) Report the annual quantity of CO<INF>2</INF> in metric tons 
+that is transferred to each subpart RR facility.",,primary,openai,gpt-5,0,0
+147,EPA-HQ-OAR-2013-0495,final,2,True,"The text appears in an amendatory block adding § 98.426(h) to read as follows, making it binding regulatory text.",compound,none,98,98.426(h),You,must,strong,report,the annual quantity of CO2 in metric tons that is transferred to each subpart RR facility,False,True,If you capture a CO2 stream from an electricity generating unit that is subject to subpart D of this part and transfer CO2 to any facilities that are subject to subpart RR of this part,add,"If you capture a CO<INF>2</INF> stream from an electricity 
+generating unit that is subject to subpart D of this part and transfer 
+CO<INF>2</INF> to any facilities that are subject to subpart RR of this 
+part, you must:
+    (1) Report the facility identification number associated with the 
+annual GHG report for the subpart D facility;
+    (2) Report each facility identification number associated with the 
+annual GHG reports for each subpart RR facility to which CO<INF>2</INF> 
+is transferred; and
+    (3) Report the annual quantity of CO<INF>2</INF> in metric tons 
+that is transferred to each subpart RR facility.",,primary,openai,gpt-5,0,0
+148,EPA-HQ-OAR-2013-0495,final,0,True,"The obligation appears within an explicit amendatory block adding paragraph (d) to § 98.427, making the language new binding text.",simple,none,98,98.427(d),Facilities subject to § 98.426(h),must,strong,retain records of,CO2 in metric tons that is transferred to each subpart RR facility,False,False,,add,"is amended by adding paragraph (d) to read as 
+follows:
+
+
+Sec.  98.427  Records that must be retained.",§ 98.426(h),primary,openai,gpt-5,1747,199
+149,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears in an amendatory block that adds paragraph (d) to § 98.427, making it new binding regulatory text.",simple,none,98,98.427(d),Facilities subject to § 98.426(h),must,strong,retain,records of CO2 in metric tons that is transferred to each subpart RR facility,False,False,,add,"* * * *
+    (d) Facilities subject to Sec.  98.426(h) must retain records of 
+CO<INF>2</INF> in metric tons that is transferred to each subpart RR 
+facility.",§ 98.426(h),primary,openai,gpt-5,1747,199
+100401,EPA-HQ-OAR-2013-0495,final,0,True,"The sentence appears within an amendatory block revising § 70.9(b)(2) to read as follows, making it new binding regulatory text.",simple,none,70,70.9(b)(2)(v),permitting authority,no_modal_implicit,strong,"multiply the burden hours by the average cost of staff time, including wages, employee benefits, and overhead",the total burden hours for all activities to determine the GHG cost adjustment,False,False,,revise,"Next, multiply the burden hours by the average cost of staff time, including wages, employee benefits and overhead.",,safety_net_verified,openai,gpt-5,1658,215
+100702,EPA-HQ-OAR-2013-0495,final,0,True,The sentence appears within an amendatory block adding paragraph (h) to § 98.426 and prescribes a requirement.,simple,none,98,98.426(h)(3),you,must,strong,report,the annual quantity of CO2 in metric tons that is transferred to each subpart RR facility,False,True,If you capture a CO2 stream from an electricity generating unit that is subject to subpart D of this part and transfer CO2 to any facilities that are subject to subpart RR of this part,add,(3) Report the annual quantity of CO2 in metric tons that is transferred to each subpart RR facility.,subpart D; subpart RR,safety_net_verified,openai,gpt-5,1650,232

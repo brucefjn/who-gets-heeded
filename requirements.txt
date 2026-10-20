@@ -1,8 +1,10 @@
 # regulatory-comments-project — Python dependencies (loose constraints).
 #
 # Tested with Python 3.13 on macOS 14/15, May 2026.
-# For EXACT-VERSION replication, also use `requirements-lock.txt` (output of
-# `pip freeze` from the active environment that produced the published results).
+# These are installation requirements, not a frozen historical environment.
+# The environment lockfile used for the original analysis is not included in
+# this release. Reproduce the released-table headline statistics with pandas
+# alone, as documented in README.md.
 #
 # System dependencies (install separately via Homebrew on macOS):
 #   brew install tesseract        # required by pytesseract for OCR Stage 1
@@ -12,7 +14,16 @@
 pandas>=2.0
 numpy>=1.24
 
-# ----- Plotting (lobbying-by-agency time series in scripts/build_lobbying_aggregate.py) -----
+# ----- Statistical analysis and audit metrics (code/20 through code/32) -----
+scipy
+statsmodels>=0.14
+scikit-learn
+
+# ----- Stage 4 embedding prefilter and outcome similarity -----
+sentence-transformers
+torch
+
+# ----- Plotting (paper figures in code/28, code/30, code/35, code/36, code/38) -----
 matplotlib>=3.7
 
 # ----- Parquet I/O -----

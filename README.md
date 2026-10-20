@@ -40,7 +40,7 @@ The paper points to this repository as "the supplementary repository." Each refe
 | §6.3, outcome audit | Rubric; sampler script; coding sheets | `docs/outcome_audit_rubric.md` (and `.pdf`); `code/23_outcome_audit_sampler.py`; `data/processed/outcome_audit_bruce.csv`, `outcome_audit_yue.csv`, `outcome_audit_reconciled.csv`, `outcome_audit_classifier_labels.csv`; results from `code/24` and `code/27` in `outcome_audit_results.json` and `outcome_audit_finding3_corrected.json` |
 | App. A.1 | Prompt template and per-indicator operational definitions | `docs/rhetoric_schema_prompt.md`; `code/lib/layer_c_judge.py`; `code/16_layer_c_run_full.py` |
 | App. A.2 | Notes on the 9-comment loss; compute and cost | `docs/rhetoric_schema_run_notes.md` |
-| App. A.2 | Per-indicator distributions for all 23 indicators | `data/processed/layer_c_indicator_prevalence.csv` |
+| App. A.2 | Per-indicator distributions for all 23 indicators | Not included in this release. `code/37_export_release_data.py` exports `layer_c_indicator_prevalence.csv` when the original `data/processed/layer_c_full.csv` is available; see the release note below. |
 | App. A.2 | 20% stratified non-anchor baseline | `code/tier_a_sample.py`; `docs/baseline_sample_design.md` |
 | App. B.1 | Matcher rubric; full inter-rater statistics; disagreement list | `docs/matcher_audit_rubric.md`; `docs/matcher_audit_results.md`; `data/processed/stage4_validation_audit_bruce.csv`, `_yue.csv`, `_KEY.csv`; `code/15`, `code/18` |
 | App. B.2 | Section-gated outcome classification (sensitivity artifact) | `data/processed/obligation_outcomes_section_gated.csv`; `code/17_compute_obligation_outcomes.py` |
@@ -52,6 +52,8 @@ The paper points to this repository as "the supplementary repository." Each refe
 | Ethics statement | Audit samples, reconciliation scripts, methodology documentation | The audit files above; `code/18`, `code/24`, `code/27`; `docs/` |
 
 In the coding sheets, columns prefixed `BRUCE_` and `YUE_` (or `rater_1` and `rater_2`) hold the independent codes of Jianing (Bruce) Fan and Yue Yao.
+
+**Release note.** The paper refers readers here for all 23 rhetoric-indicator distributions, but the aggregate prevalence table is not currently included. The original comment-level Layer C output needed to regenerate it is also not part of the public release. The headline Findings 1–3 and the extraction, matcher, and outcome audits below use other released tables and do not depend on this file.
 
 ## Data and privacy
 
@@ -72,15 +74,21 @@ Main tables in `data/processed/`:
 ## Reproducing the key numbers
 
 ```bash
-pip install pandas
-python3 reproduce/reproduce_key_numbers.py
+python3 -m venv .venv
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
+python -m pip install pandas
+python reproduce/reproduce_key_numbers.py
 ```
 
 The script prints each statistic next to the value reported in the paper: Findings 1–3, the extraction precision audit, the matcher audit, and the outcome-classifier audit. It also writes `data/processed/finding1_loo_proposed_side.csv` and `docs/matcher_audit_results.md`.
 
+This route uses only the released derived tables: it does not require raw comment text, API credentials, model downloads, or paid API calls. A clean-environment check on October 19, 2026 (Python 3.13.7, pandas 3.0.6, NumPy 2.5.4) reproduced every displayed statistic to the paper's reported precision and regenerated both files without changes. This checks the released-table calculations, not a rerun of the original extraction or LLM pipeline.
+
 ## Running the full pipeline
 
 The scripts in `code/` are the ones used for the paper, numbered in the order they were run. They expect the original project layout (`data/raw/` for the regulations.gov bulk download of EPA comments, 2010–2022, and `data/processed/` for intermediate files). Install dependencies with `pip install -r requirements.txt`. The LLM stages (obligation verification, comment matching, and the rhetoric schema, all GPT-5) need `OPENAI_API_KEY`; the OCR fallback in `code/09` and `code/10` needs `ANTHROPIC_API_KEY`. Re-running the LLM stages will not reproduce the labels bit for bit, which is why the labels used in the paper are released in `data/processed/`.
+
+The public release is sufficient for the minimal reproduction above; the full pipeline additionally needs the original raw and intermediate inputs, the spaCy language model, and the Tesseract executable listed in `requirements.txt`. The requirements file contains loose installation constraints, not the original environment's exact versions; no historical `requirements-lock.txt` is included.
 
 Finding 1 is reported for the 12,243 proposed-side obligations (`code/29_f1_excluding_new.py`, which reuses the regression code in `code/22_clustered_logistic_f1_f3.py`). `code/20` and `code/22` on their own also print an earlier version that counted final-only obligations as not revised.
 

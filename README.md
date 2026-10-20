@@ -4,9 +4,17 @@ Code, documentation, and derived data for
 
 > Jianing Fan and Yue Yao. 2026. **Who Gets Heeded? An Obligation-Level Audit of Responsiveness in EPA Rulemaking.** In *Equity and Access in Algorithms, Mechanisms, and Optimization (EAAMO '26)*, November 5–7, 2026, Munich, Germany. ACM. [doi:10.1145/3846167.3848608](https://doi.org/10.1145/3846167.3848608) · Preprint: [arXiv:2608.10329](https://arxiv.org/abs/2608.10329)
 
+**Research question.** How is public engagement associated with changes between proposed and final regulations? The study combines obligation-level text analysis with blind human audits to examine both responsiveness and the reliability of AI-assisted measurement.
+
 The paper audits U.S. EPA notice-and-comment rulemaking at the level of individual regulatory obligations. It extracts obligations from the proposed and final rules of 36 EPA rulemakings, matches 70,075 public comments to the obligations they address, classifies how each obligation changed between the proposed and final rule, and tests each AI-assisted step against blind human coding.
 
 Maintained by Jianing Fan ([@brucefjn](https://github.com/brucefjn)).
+
+**Authorship and contribution.** Jianing Fan and Yue Yao are co-first authors and contributed equally. Jianing Fan designed the research question and led the research.
+
+![The paper’s obligation-level responsiveness auditing framework, showing the sample, data, measurement components, audit status, and findings.](figures/fig1_pipeline.png)
+
+*Figure 1 from the paper. The framework distinguishes components audited against blind human coding, an unaudited commenter-type proxy, and a descriptive rhetoric schema.*
 
 ## What is here
 
